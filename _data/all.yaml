@@ -7478,6 +7478,35 @@
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
   sexurl: muz
+- name: "Milo\u0161 Hitka"
+  last: Hitka
+  year: 1965
+  sex: "mu\u017E"
+  position: profesor
+  field: "mana\u017Ement"
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
+  last_update: '2024-04-11'
+  links:
+  - - academia.edu
+    - https://tuzvo.academia.edu/miloshitka
+  - - orcid
+    - https://orcid.org/0000-0002-6567-7333
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Milos-Hitka-2
+  - - web
+    - https://miloshitka.szm.com/index_e.html
+  img: Milos_Hitka.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: manazment
+  positionurl: profesor
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: Milan Hronec
   last: Hronec
   year: ''
@@ -8579,35 +8608,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
-- name: "Milo\u0161 Hitka"
-  last: Hitka
-  year: 1965
-  sex: "mu\u017E"
-  position: docent
-  field: "mana\u017Ement"
-  affiliation: "Technick\xE1 univerzita vo Zvolene"
-  city: Zvolen
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
-  last_update: '2024-04-11'
-  links:
-  - - academia.edu
-    - https://tuzvo.academia.edu/miloshitka
-  - - orcid
-    - https://orcid.org/0000-0002-6567-7333
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Milos-Hitka-2
-  - - web
-    - https://frcatel.fri.uniza.sk/hrme/ludia/hitka.html
-  img: Milos_Hitka.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: manazment
-  positionurl: docent
-  affiliationurl: Technicka_univerzita_vo_Zvolene
-  cityurl: Zvolen
-  sexurl: muz
 - name: "Vladim\xEDr Kov\xE1\u010D"
   last: Kovac
   year: 1958
