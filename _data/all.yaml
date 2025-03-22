@@ -7635,22 +7635,14 @@
   last: Hitka
   year: 1965
   sex: "mu\u017E"
-<<<<<<< HEAD
   position: profesor
-=======
-  position: docent
->>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957
   field: "mana\u017Ement"
   affiliation: "Technick\xE1 univerzita vo Zvolene"
   city: Zvolen
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
-<<<<<<< HEAD
-  last_update: '2024-04-11'
-=======
   last_update: '2025-03-21'
->>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957
   links:
   - - academia.edu
     - https://tuzvo.academia.edu/miloshitka
@@ -7659,20 +7651,12 @@
   - - ResearchGate
     - https://www.researchgate.net/profile/Milos-Hitka-2
   - - web
-<<<<<<< HEAD
     - https://miloshitka.szm.com/index_e.html
-=======
-    - https://frcatel.fri.uniza.sk/hrme/ludia/hitka.html
->>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957
   img: Milos_Hitka.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: manazment
-<<<<<<< HEAD
   positionurl: profesor
-=======
-  positionurl: docent
->>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957
   affiliationurl: Technicka_univerzita_vo_Zvolene
   cityurl: Zvolen
   sexurl: muz
@@ -8246,8 +8230,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
-<<<<<<< HEAD
-=======
 - name: "Fedor G\xF6m\xF6ry"
   last: Gomory
   year: '1952'
@@ -8659,7 +8641,6 @@
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: zena
->>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957
 - name: "Vladim\xEDr Kov\xE1\u010D"
   last: Kovac
   year: 1958
