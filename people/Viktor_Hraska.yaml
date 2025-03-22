@@ -9,7 +9,7 @@ city: Milwaukee
 country: USA
 hindex: 33
 scholar: https://scholar.google.com/citations?user=tvt1qiQAAAAJ&hl=sk
-last_update: '2024-03-21'
+last_update: '2025-03-21'
 links:
   web: https://www.mcw.edu/departments/surgery/divisions/congenital-heart-surgery/people/viktor-hraska-md-phd
   youtube: https://www.youtube.com/watch?v=WRQcRqAqQQw
@@ -17,4 +17,4 @@ links:
   web 2: https://www.nusch.sk/sk/o-nas/predstavitelia/predstavenstvo
   "\u017Eivotopis": files/cv_Viktor_Hraska.pdf
 img: Viktor_Hraska.jpg
-update_status: UPDATED
+update_status: ERROR

@@ -7,9 +7,9 @@ field: "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia"
 affiliation: KAUST
 city: Thuwal
 country: "Saudsk\xE1 Ar\xE1bia"
-hindex: 35
+hindex: 37
 scholar: https://scholar.google.com/citations?hl=en&amp;user=ELMPg_gAAAAJ
-last_update: '2024-03-31'
+last_update: '2025-03-21'
 links:
   LinkedIn: https://sa.linkedin.com/in/ivanviola
   dblp: https://dblp.org/pid/21/4861.html
@@ -17,4 +17,4 @@ links:
   web: https://cemse.kaust.edu.sa/nanovis
   "\u017Eivotopis": http://ii.uib.no/vis_old/team/viola/_pdfs/IvanViolaCV.pdf
 img: Ivan_Viola.jpg
-update_status: UPDATED
+update_status: ERROR

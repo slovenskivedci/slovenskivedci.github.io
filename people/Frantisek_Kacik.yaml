@@ -1,17 +1,17 @@
-name: "František Kačík"
-last: "Kačík"
-year: 
-sex: "muž"
-position: "profesor"
-field: "chémia dreva"
-affiliation: "Technická univerzita vo Zvolene"
-city: "Zvolen"
-country: "Slovensko"
+name: "Franti\u0161ek Ka\u010D\xEDk"
+last: "Ka\u010D\xEDk"
+year: null
+sex: "mu\u017E"
+position: profesor
+field: "ch\xE9mia dreva"
+affiliation: "Technick\xE1 univerzita vo Zvolene"
+city: Zvolen
+country: Slovensko
 hindex: 32
 scholar: https://scholar.google.com/citations?hl=en&user=Z5oQuUQAAAAJ
-last_update: '2024-04-11'
+last_update: '2025-03-21'
 links:
   LinkedIn: https://www.linkedin.com/in/frantisek-kacik-3967a136/?originalSubdomain=sk
   ResearchGate: https://www.researchgate.net/profile/Frantisek-Kacik
 img: Frantisek_Kacik.jpg
-update_status: UPDATED
+update_status: ERROR

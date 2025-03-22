@@ -9,7 +9,7 @@ city: Trnava
 country: Slovensko
 hindex: 39
 scholar: https://scholar.google.sk/citations?user=MhwlHXIAAAAJ&hl=en
-last_update: '2024-02-16'
+last_update: '2025-03-21'
 links:
   orcid: https://orcid.org/0000-0001-6766-4571
   osobnosti: https://www.osobnosti.sk/osobnost/stanislav-miertus-2026
@@ -17,4 +17,4 @@ links:
   web: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5352
   "\u017Eivotopis": https://www.icarst.org/prof-s-miertus/
 img: Stanislav_Miertus.jpg
-update_status: UPDATED
+update_status: ERROR

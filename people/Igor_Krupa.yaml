@@ -7,9 +7,9 @@ field: "materi\xE1lov\xE1 veda"
 affiliation: Qatar University
 city: Doha
 country: Katar
-hindex: 49
+hindex: 52
 scholar: https://scholar.google.com/citations?user=Pz7_cpAAAAAJ&amp;hl=en
-last_update: '2024-03-31'
+last_update: '2025-03-21'
 links:
   ResearchGate: https://www.researchgate.net/profile/Igor_Krupa2
   orcid: https://orcid.org/0000-0003-3058-8717
@@ -17,4 +17,4 @@ links:
   "\u017Eivotopis": https://cam.qu.edu.qa/static_file/qu/Faculty and Staff/images/Prof.
     Igor Krupa.pdf
 img: Igor_Krupa.jpg
-update_status: UPDATED
+update_status: ERROR

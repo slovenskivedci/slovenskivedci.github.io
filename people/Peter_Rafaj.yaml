@@ -9,7 +9,7 @@ city: Laxenburg
 country: "Rak\xFAsko"
 hindex: 33
 scholar: https://scholar.google.com/citations?hl=en&user=ooffTIwAAAAJ
-last_update: '2024-03-21'
+last_update: '2025-03-21'
 links:
   web: https://iiasa.ac.at/staff/staff.php?type=auto&visibility=visible&search=true&login=rafaj
   iiasa: https://iiasa.ac.at
@@ -19,4 +19,4 @@ links:
   publons: https://publons.com/researcher/2462168/peter-rafaj/
   "denn\xEDkN": https://e.dennikn.sk/2304346/v-pekingu-dychate-taky-znecisteny-vzduch-ako-keby-ste-vyfajcili-krabicku-denne-hovori-slovensky-vedec-ktory-publikoval-v-lancete/
 img: Peter_Rafaj.jpg
-update_status: UPDATED
+update_status: ERROR

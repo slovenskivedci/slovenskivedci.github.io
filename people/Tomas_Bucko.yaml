@@ -7,11 +7,11 @@ field: "fyzik\xE1lna ch\xE9mia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 42
+hindex: 44
 scholar: https://scholar.google.de/citations?user=wsJN2SMAAAAJ&amp;hl=en
-last_update: '2024-03-31'
+last_update: '2025-03-21'
 links:
   publons: https://publons.com/researcher/1378264/tomas-bucko/
   web: https://fns.uniba.sk/en/departments/chemistry/department-of-physical-and-theoretical-chemistry/people/central-database-of-staff/?tx_unibausers_pi1[person]=bucko19
 img: Tomas_Bucko.png
-update_status: UPDATED
+update_status: ERROR

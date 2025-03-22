@@ -9,7 +9,7 @@ city: "\u017Deneva"
 country: "\u0160vaj\u010Diarsko"
 hindex: 51
 scholar: https://scholar.google.com/citations?user=Ud3obX9UjLcC
-last_update: '2024-03-31'
+last_update: '2025-03-21'
 links:
   web: https://ep-rnd.web.cern.ch/person/peter-svihra
   LinkedIn: https://www.linkedin.com/in/peter-svihra/
@@ -19,4 +19,4 @@ links:
   twitter: https://twitter.com/svihrapeter
   orcid: https://orcid.org/0000-0002-7811-2147
 img: Peter_Svihra.jpg
-update_status: UPDATED
+update_status: ERROR

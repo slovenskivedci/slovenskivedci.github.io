@@ -9,7 +9,7 @@ city: Seattle
 country: USA
 hindex: 49
 scholar: https://scholar.google.com/citations?hl=en&amp;user=YrihYtsAAAAJ
-last_update: '2024-03-31'
+last_update: '2025-03-21'
 links:
   ACM: https://dl.acm.org/profile/81100033082
   IEEE Xplore: https://ieeexplore.ieee.org/author/37332775000
@@ -22,4 +22,4 @@ links:
   web: https://homes.cs.washington.edu/~bodik/
   "\u017Eivotopis": https://homes.cs.washington.edu/~bodik/cv.pdf
 img: Rastislav_Bodik.jpg
-update_status: UPDATED
+update_status: ERROR

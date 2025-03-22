@@ -1,15 +1,24 @@
-name: "Miloš Hitka"
-last: "Hitka"
+name: "Milo\u0161 Hitka"
+last: Hitka
 year: 1965
+<<<<<<< HEAD:people/Milos_Hitka2.yaml
 sex: "muž"
 position: "profesor"
 field: "manažment"
 affiliation: "Technická univerzita vo Zvolene"
 city: "Zvolen"
 country: "Slovensko"
+=======
+sex: "mu\u017E"
+position: docent
+field: "mana\u017Ement"
+affiliation: "Technick\xE1 univerzita vo Zvolene"
+city: Zvolen
+country: Slovensko
+>>>>>>> 6523394dcb33fdc3b4fb5546f23275c3e5b34957:people/Milos_Hitka.yaml
 hindex: 32
 scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
-last_update: '2024-04-11'
+last_update: '2025-03-21'
 links:
   web: https://miloshitka.szm.com/index_e.html
   orcid: https://orcid.org/0000-0002-6567-7333

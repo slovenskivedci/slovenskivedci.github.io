@@ -9,7 +9,7 @@ city: "Wak\u014D"
 country: Japonsko
 hindex: 32
 scholar: https://scholar.google.com/citations?user=-gLxHToAAAAJ&hl=en
-last_update: '2024-02-16'
+last_update: '2025-03-21'
 links:
   web 1: http://cems.riken.jp/en/laboratory/qstrt?lang=en
   web 2: http://www.quantum.physics.sk/people/stano/
@@ -18,4 +18,4 @@ links:
   LinkedIn: https://www.linkedin.com/in/peter-stano-b8758580/?originalSubdomain=jp
   academictree: https://academictree.org/physics/publications.php?pid=835140
 img: Peter_Stano_1000.jpg
-update_status: UPDATED
+update_status: ERROR

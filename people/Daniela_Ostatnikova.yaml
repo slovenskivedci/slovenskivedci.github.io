@@ -7,9 +7,9 @@ field: "fyziol\xF3gia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 31
+hindex: 32
 scholar: https://scholar.google.com/citations?hl=en&user=5sPkPmEAAAAJ
-last_update: '2024-02-16'
+last_update: '2025-03-21'
 links:
   web 1: https://acva.sk/tim/daniela-ostatnikova/
   web 2: https://uniba.sk/ludia/ostatnikova1/
@@ -20,4 +20,4 @@ links:
   TEDx: https://www.tedxbratislava.sk/en/video/daniela-ostatnikova-testosteron-posol-muznosti-2/
   ESET Science Award: https://www.esetscienceaward.sk/sk/finalisti/daniela-ostatnikova
 img: Daniela_Ostatnikova.jpg
-update_status: UPDATED
+update_status: ERROR
