@@ -682,43 +682,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
-- name: "Imrich Chlamt\xE1\u010D"
-  last: Chlamtac
-  year: '1949'
-  sex: "mu\u017E"
-  position: prezident
-  field: "telekomunik\xE1cie"
-  affiliation: European Alliance for Innovation
-  city: Gent
-  country: Belgium
-  hindex: 70
-  scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
-  last_update: '2025-04-01'
-  links:
-  - - ACM
-    - https://dl.acm.org/profile/81100299315
-  - - EAI
-    - https://eai.eu/#!/about/leadership/president
-  - - IEEE Xplore
-    - https://ieeexplore.ieee.org/author/37269377200
-  - - LinkedIn
-    - https://www.linkedin.com/in/imrich-chlamtac/
-  - - prabook
-    - https://prabook.com/web/imrich.chlamtac/129216
-  - - ResearchGate
-    - https://www.researchgate.net/scientific-contributions/Imrich-Chlamtac-2146492366
-  - - Semantic Scholar
-    - https://www.semanticscholar.org/author/I.-Chlamtac/1700194
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Imrich_Chlamtac
-  img: Imrich_Chlamtac.jpg
-  update_status: ERROR
-  countryurl: Belgium
-  fieldurl: telekomunikacie
-  positionurl: prezident
-  affiliationurl: European_Alliance_for_Innovation
-  cityurl: Gent
-  sexurl: muz
 - name: "Peter Richt\xE1rik"
   last: Richtarik
   year: ''
@@ -728,9 +691,9 @@
   affiliation: KAUST
   city: Thuwal
   country: "Saudsk\xE1 Ar\xE1bia"
-  hindex: 70
+  hindex: 71
   scholar: https://scholar.google.com/citations?user=pGh242UAAAAJ&amp
-  last_update: '2025-04-01'
+  last_update: '2025-04-04'
   links:
   - - dblp
     - https://dblp.org/pid/62/8001.html
@@ -767,6 +730,43 @@
   positionurl: profesor
   affiliationurl: KAUST
   cityurl: Thuwal
+  sexurl: muz
+- name: "Imrich Chlamt\xE1\u010D"
+  last: Chlamtac
+  year: '1949'
+  sex: "mu\u017E"
+  position: prezident
+  field: "telekomunik\xE1cie"
+  affiliation: European Alliance for Innovation
+  city: Gent
+  country: Belgium
+  hindex: 70
+  scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
+  last_update: '2025-04-01'
+  links:
+  - - ACM
+    - https://dl.acm.org/profile/81100299315
+  - - EAI
+    - https://eai.eu/#!/about/leadership/president
+  - - IEEE Xplore
+    - https://ieeexplore.ieee.org/author/37269377200
+  - - LinkedIn
+    - https://www.linkedin.com/in/imrich-chlamtac/
+  - - prabook
+    - https://prabook.com/web/imrich.chlamtac/129216
+  - - ResearchGate
+    - https://www.researchgate.net/scientific-contributions/Imrich-Chlamtac-2146492366
+  - - Semantic Scholar
+    - https://www.semanticscholar.org/author/I.-Chlamtac/1700194
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Imrich_Chlamtac
+  img: Imrich_Chlamtac.jpg
+  update_status: ERROR
+  countryurl: Belgium
+  fieldurl: telekomunikacie
+  positionurl: prezident
+  affiliationurl: European_Alliance_for_Innovation
+  cityurl: Gent
   sexurl: muz
 - name: "Jarom\xEDr Pastorek"
   last: Pastorek
