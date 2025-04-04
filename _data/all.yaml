@@ -8164,6 +8164,49 @@
   affiliationurl: Sigmund_Freud_University
   cityurl: Vieden
   sexurl: muz
+- name: "Tom\xE1\u0161 Vina\u0159"
+  last: Vinar
+  year: 1976
+  sex: "mu\u017E"
+  position: docent
+  field: bioinformatika
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=en&user=nBBrj5AAAAAJ
+  last_update: '2025-04-01'
+  links:
+  - - dblp
+    - https://dblp.org/pid/22/4895.html
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/finalisti/tomas-vinar
+  - - LinkedIn
+    - https://www.linkedin.com/in/tomas-vinar-3315a919/?originalSubdomain=sk
+  - - orcid
+    - https://orcid.org/0000-0003-3898-3447
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Tomas-Vinar
+  - - veda na dosah
+    - https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/bioinformatik-tomas-vinar-vreckove-sekvenatory-by-lekari-mohli-mat-uz-o-par-rokov/
+  - - "ved\xE1tor"
+    - https://dnaera.com/blog/vedatorsky-special-tomas-vinar-genetika-bioinformatika/
+  - - vocalatte
+    - http://www.vocalatte.sk
+  - - web 1
+    - http://compbio.fmph.uniba.sk/~tvinar/
+  - - web 2
+    - https://dai.fmph.uniba.sk/w/Tomas_Vinar/en
+  - - "\u017Eivotopis"
+    - https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Vinar/CV_profesijny_zivotopis_Vinar.pdf
+  img: Tomas_Vinar.jpg
+  update_status: ERROR
+  countryurl: Slovensko
+  fieldurl: bioinformatika
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Vladimir Zele\u0148\xE1k"
   last: Zelenak
   year: 1969
@@ -8824,47 +8867,4 @@
   positionurl: odborny_asistent
   affiliationurl: Cardiff_University
   cityurl: Cardiff
-  sexurl: muz
-- name: "Tom\xE1\u0161 Vina\u0159"
-  last: Vinar
-  year: 1976
-  sex: "mu\u017E"
-  position: docent
-  field: bioinformatika
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?hl=en&user=nBBrj5AAAAAJ
-  last_update: '2025-04-01'
-  links:
-  - - dblp
-    - https://dblp.org/pid/22/4895.html
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/finalisti/tomas-vinar
-  - - LinkedIn
-    - https://www.linkedin.com/in/tomas-vinar-3315a919/?originalSubdomain=sk
-  - - orcid
-    - https://orcid.org/0000-0003-3898-3447
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Tomas-Vinar
-  - - veda na dosah
-    - https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/bioinformatik-tomas-vinar-vreckove-sekvenatory-by-lekari-mohli-mat-uz-o-par-rokov/
-  - - "ved\xE1tor"
-    - https://dnaera.com/blog/vedatorsky-special-tomas-vinar-genetika-bioinformatika/
-  - - vocalatte
-    - http://www.vocalatte.sk
-  - - web 1
-    - http://compbio.fmph.uniba.sk/~tvinar/
-  - - web 2
-    - https://dai.fmph.uniba.sk/w/Tomas_Vinar/en
-  - - "\u017Eivotopis"
-    - https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Vinar/CV_profesijny_zivotopis_Vinar.pdf
-  img: Tomas_Vinar.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: bioinformatika
-  positionurl: docent
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
