@@ -8730,6 +8730,41 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: muz
+- name: Ivan Jambor
+  last: Jambor
+  year: null
+  sex: "mu\u017E"
+  position: docent
+  field: "r\xE1diol\xF3gia"
+  affiliation: University of Turku
+  city: Turku
+  country: "F\xEDnsko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=en&user=fDMcW7wAAAAJ
+  last_update: '2025-04-04'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/ivan-jambor-688414ba
+  - - orcid
+    - https://orcid.org/0000-0001-6305-3570
+  - - publons
+    - https://publons.com/author/859935/ivan-jambor
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Ivan-Jambor
+  - - twitter
+    - https://x.com/jambor_ivan
+  - - web 1
+    - https://mrc.utu.fi/team/jambor_ivan
+  - - web 2
+    - https://www.utu.fi/en/people/ivan-jambor
+  img: Ivan_Jambor.jpg
+  update_status: UPDATED
+  countryurl: Finsko
+  fieldurl: radiologia
+  positionurl: docent
+  affiliationurl: University_of_Turku
+  cityurl: Turku
+  sexurl: muz
 - name: "Vladim\xEDr Kov\xE1\u010D"
   last: Kovac
   year: 1958
