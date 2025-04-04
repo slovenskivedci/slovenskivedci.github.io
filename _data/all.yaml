@@ -6216,6 +6216,35 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
+- name: "Michal Bo\u0161e\u013Ea"
+  last: Bosela
+  year: null
+  sex: "mu\u017E"
+  position: "odborn\xFD asistent"
+  field: "lesn\xEDctvo"
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 35
+  scholar: https://scholar.google.sk/citations?user=2-SFmgwAAAAJ&hl=sk
+  last_update: '2025-04-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6706-8614
+  - - publons
+    - https://publons.com/researcher/1229697/michal-bosela/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Michal-Bosela
+  - - web
+    - https://www.tuzvo.sk/ludia-na-tuzvo/6734
+  img: Michal_Bosela.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: lesnictvo
+  positionurl: odborny_asistent
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: "Marek Chmel\xEDk"
   last: Chmelik
   year: 1980
