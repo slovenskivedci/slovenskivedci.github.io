@@ -158,9 +158,9 @@
   affiliation: University of Adelaide
   city: Adelaide
   country: "Austr\xE1lia"
-  hindex: 104
+  hindex: 105
   scholar: https://scholar.google.com/citations?user=FTejMNwAAAAJ&amp;hl=en
-  last_update: '2025-04-01'
+  last_update: '2025-04-05'
   links:
   - - Australian Academy of Science
     - https://www.science.org.au/profile/jozef-g%C3%A9cz
@@ -181,7 +181,7 @@
   - - "\u017Eivotopis"
     - https://prabook.com/web/jozef.gecz/418497
   img: Jozef_Gecz.jpg
-  update_status: ERROR
+  update_status: null
   countryurl: Australia
   fieldurl: neurogenetika
   positionurl: profesor
@@ -308,6 +308,109 @@
   affiliationurl: University_of_Bonn
   cityurl: Bonn
   sexurl: muz
+- name: "Katar\xEDna K\u0159\xED\u017Ekov\xE1 Gajdo\u0161ov\xE1"
+  last: Gajdosova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "subjadrov\xE1 fyzika"
+  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 90
+  scholar: https://scholar.google.com/citations?user=n1zAfusAAAAJ&amp;hl=en
+  last_update: '2025-04-05'
+  links:
+  - - facebook
+    - https://www.facebook.com/katarina.gajdosova.3
+  - - orcid
+    - https://orcid.org/0000-0002-5569-1254
+  - - web 1
+    - https://physics.fjfi.cvut.cz/en/cb-profile/gajdokat
+  - - web 2
+    - https://www.meltingpotforum.com/cs/archiv/recnici-2019/katarina-krizkova-gajdosova-svk-cze
+  img: Katarina_Krizkova_Gajdosova.jpg
+  update_status: null
+  countryurl: Cesko
+  fieldurl: subjadrova_fyzika
+  positionurl: vedkyna
+  affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
+  cityurl: Praha
+  sexurl: zena
+- name: Jozef Bartunek
+  last: Bartunek
+  year: 1963
+  sex: "mu\u017E"
+  position: "riadite\u013E"
+  field: "kardiol\xF3gia"
+  affiliation: Cardiovascular Research Center
+  city: Aalst
+  country: Belgicko
+  hindex: 89
+  scholar: https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ
+  last_update: '2025-04-05'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/jozef-bartunek-68696b168/?originalSubdomain=be
+  - - Research.com
+    - https://research.com/u/jozef-bartunek
+  - - ResearchGate
+    - https://www.researchgate.net/scientific-contributions/Jozef-Bartunek-38758405
+  - - web 1
+    - https://www.olvz.be/nl/onze-artsen/dr-jozef-bartunek
+  - - web 2
+    - https://www.kuleuven.be/wieiswie/en/person/00076004
+  - - "\u017Eivotopis 1"
+    - files/cv_Jozef_Bartunek.pdf
+  - - "\u017Eivotopis 2"
+    - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Bartunek/H19_MUDr._Bartunek_-_Profesijny_zivotopis.pdf
+  img: Jozef_Bartunek.jpg
+  update_status: null
+  countryurl: Belgicko
+  fieldurl: kardiologia
+  positionurl: riaditel
+  affiliationurl: Cardiovascular_Research_Center
+  cityurl: Aalst
+  sexurl: muz
+- name: "Igor Juri\u0161ica"
+  last: Jurisica
+  year: 1967
+  sex: "mu\u017E"
+  position: vedec
+  field: bioinformatika
+  affiliation: Krembil Research Institute
+  city: Toronto
+  country: Kanada
+  hindex: 89
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=Hi9ALnkAAAAJ
+  last_update: '2025-04-05'
+  links:
+  - - dblp
+    - https://dblp.org/pid/27/4777.html
+  - - openreview
+    - https://openreview.net/profile?id=~Igor_Jurisica1
+  - - orcid
+    - https://orcid.org/0000-0002-2507-946X
+  - - pubmed
+    - https://pubmed.ncbi.nlm.nih.gov/?cmd=PureSearch&term=jurisica+i%5Bau%5D
+  - - ResearchGate
+    - https://www.researchgate.net/lab/Igor-Jurisica-Lab-2
+  - - web 1
+    - https://www.cs.toronto.edu/~juris/home.html
+  - - web 2
+    - https://medbio.utoronto.ca/faculty/jurisica
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Igor_Jurisica
+  - - "\u017Eivotopis"
+    - https://www.fmb.unesp.br/Home/ensino/Pos-Graduacao/mestradoacademicoedoutorado/pgbasesgeraisdacirurgia/igor-jurisica_curriculum-vitae-july-2015-1.pdf
+  img: Igor_Jurisica.jpg
+  update_status: null
+  countryurl: Kanada
+  fieldurl: bioinformatika
+  positionurl: vedec
+  affiliationurl: Krembil_Research_Institute
+  cityurl: Toronto
+  sexurl: muz
 - name: "Mari\xE1n Bresti\u010D"
   last: Brestic
   year: 1959
@@ -332,80 +435,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_polnohospodarska_univerzita
   cityurl: Nitra
-  sexurl: muz
-- name: "Igor Juri\u0161ica"
-  last: Jurisica
-  year: 1967
-  sex: "mu\u017E"
-  position: vedec
-  field: bioinformatika
-  affiliation: Krembil Research Institute
-  city: Toronto
-  country: Kanada
-  hindex: 87
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=Hi9ALnkAAAAJ
-  last_update: '2025-04-01'
-  links:
-  - - dblp
-    - https://dblp.org/pid/27/4777.html
-  - - openreview
-    - https://openreview.net/profile?id=~Igor_Jurisica1
-  - - orcid
-    - https://orcid.org/0000-0002-2507-946X
-  - - pubmed
-    - https://pubmed.ncbi.nlm.nih.gov/?cmd=PureSearch&term=jurisica+i%5Bau%5D
-  - - ResearchGate
-    - https://www.researchgate.net/lab/Igor-Jurisica-Lab-2
-  - - web 1
-    - https://www.cs.toronto.edu/~juris/home.html
-  - - web 2
-    - https://medbio.utoronto.ca/faculty/jurisica
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Igor_Jurisica
-  - - "\u017Eivotopis"
-    - https://www.fmb.unesp.br/Home/ensino/Pos-Graduacao/mestradoacademicoedoutorado/pgbasesgeraisdacirurgia/igor-jurisica_curriculum-vitae-july-2015-1.pdf
-  img: Igor_Jurisica.jpg
-  update_status: ERROR
-  countryurl: Kanada
-  fieldurl: bioinformatika
-  positionurl: vedec
-  affiliationurl: Krembil_Research_Institute
-  cityurl: Toronto
-  sexurl: muz
-- name: Jozef Bartunek
-  last: Bartunek
-  year: 1963
-  sex: "mu\u017E"
-  position: "riadite\u013E"
-  field: "kardiol\xF3gia"
-  affiliation: Cardiovascular Research Center
-  city: Aalst
-  country: Belgicko
-  hindex: 86
-  scholar: https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ
-  last_update: '2025-04-01'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/jozef-bartunek-68696b168/?originalSubdomain=be
-  - - Research.com
-    - https://research.com/u/jozef-bartunek
-  - - ResearchGate
-    - https://www.researchgate.net/scientific-contributions/Jozef-Bartunek-38758405
-  - - web 1
-    - https://www.olvz.be/nl/onze-artsen/dr-jozef-bartunek
-  - - web 2
-    - https://www.kuleuven.be/wieiswie/en/person/00076004
-  - - "\u017Eivotopis 1"
-    - files/cv_Jozef_Bartunek.pdf
-  - - "\u017Eivotopis 2"
-    - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Bartunek/H19_MUDr._Bartunek_-_Profesijny_zivotopis.pdf
-  img: Jozef_Bartunek.jpg
-  update_status: ERROR
-  countryurl: Belgicko
-  fieldurl: kardiologia
-  positionurl: riaditel
-  affiliationurl: Cardiovascular_Research_Center
-  cityurl: Aalst
   sexurl: muz
 - name: "Ru\u017Eena Bajcsy"
   last: Bajcsy
@@ -437,35 +466,6 @@
   positionurl: profesorka
   affiliationurl: University_of_California
   cityurl: Berkeley
-  sexurl: zena
-- name: "Katar\xEDna K\u0159\xED\u017Ekov\xE1 Gajdo\u0161ov\xE1"
-  last: Gajdosova
-  year: ''
-  sex: "\u017Eena"
-  position: "vedky\u0148a"
-  field: "subjadrov\xE1 fyzika"
-  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
-  city: Praha
-  country: "\u010Cesko"
-  hindex: 78
-  scholar: https://scholar.google.com/citations?user=n1zAfusAAAAJ&amp;hl=en
-  last_update: '2025-04-01'
-  links:
-  - - facebook
-    - https://www.facebook.com/katarina.gajdosova.3
-  - - orcid
-    - https://orcid.org/0000-0002-5569-1254
-  - - web 1
-    - https://physics.fjfi.cvut.cz/en/cb-profile/gajdokat
-  - - web 2
-    - https://www.meltingpotforum.com/cs/archiv/recnici-2019/katarina-krizkova-gajdosova-svk-cze
-  img: Katarina_Krizkova_Gajdosova.jpg
-  update_status: ERROR
-  countryurl: Cesko
-  fieldurl: subjadrova_fyzika
-  positionurl: vedkyna
-  affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
-  cityurl: Praha
   sexurl: zena
 - name: "\u0160tefan Matej\u010D\xEDk"
   last: Matejcik

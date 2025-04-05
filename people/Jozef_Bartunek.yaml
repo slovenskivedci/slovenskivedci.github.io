@@ -7,9 +7,9 @@ field: "kardiol\xF3gia"
 affiliation: Cardiovascular Research Center
 city: Aalst
 country: Belgicko
-hindex: 86
+hindex: 89
 scholar: https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ
-last_update: '2025-04-01'
+last_update: '2025-04-05'
 links:
   LinkedIn: https://www.linkedin.com/in/jozef-bartunek-68696b168/?originalSubdomain=be
   ResearchGate: https://www.researchgate.net/scientific-contributions/Jozef-Bartunek-38758405
@@ -19,4 +19,4 @@ links:
   "\u017Eivotopis 1": files/cv_Jozef_Bartunek.pdf
   "\u017Eivotopis 2": https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Bartunek/H19_MUDr._Bartunek_-_Profesijny_zivotopis.pdf
 img: Jozef_Bartunek.jpg
-update_status: ERROR
+update_status:
