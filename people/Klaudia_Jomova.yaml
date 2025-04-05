@@ -1,19 +1,19 @@
-name: "Klaudia Jomová"
-last: "Jomová"
+name: "Klaudia Jomov\xE1"
+last: "Jomov\xE1"
 year: 1966
 sex: "\u017Eena"
 position: profesorka
 field: "biotechnol\xF3gia"
-affiliation: "Univerzita Konštantína Filozofa"
+affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
 city: Nitra
 country: Slovensko
 hindex: 31
 scholar: https://scholar.google.com/citations?user=wlqRYUcAAAAJ&hl=en&oi=ao
-last_update: '2025-04-05'
+last_update: '2025-04-06'
 links:
-  web: http://www.kch.fpv.ukf.sk/?q=en/content/prof-rndr-klaudia-jomová-phd
+  web: "http://www.kch.fpv.ukf.sk/?q=en/content/prof-rndr-klaudia-jomov\xE1-phd"
   ResearchGate: https://www.researchgate.net/profile/Klaudia-Jomova
   orcid: https://orcid.org/0000-0003-1836-4913
-  životopis: https://ais2.ukf.sk/repovsk/repository/default/ais/vsk/FPV/UPV/studijny_program/ucitelstvo_chemie_(v_kombinacii)_(I._st._denna_forma)_(AKCH22bu)/2022_11/VUPCHZO_prof_RNDr_Klaudia_Jomova_PhD_(SK).html
+  "\u017Eivotopis": https://ais2.ukf.sk/repovsk/repository/default/ais/vsk/FPV/UPV/studijny_program/ucitelstvo_chemie_(v_kombinacii)_(I._st._denna_forma)_(AKCH22bu)/2022_11/VUPCHZO_prof_RNDr_Klaudia_Jomova_PhD_(SK).html
 img: Klaudia_Jomova.jpg
-update_status:
+update_status: ERROR
