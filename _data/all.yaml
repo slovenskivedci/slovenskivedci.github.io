@@ -8310,6 +8310,35 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Klaudia Jomov\xE1"
+  last: Jomova
+  year: 1966
+  sex: "\u017Eena"
+  position: profesorka
+  field: "biotechnol\xF3gia"
+  affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
+  city: Nitra
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=wlqRYUcAAAAJ&hl=en&oi=ao
+  last_update: '2025-04-05'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-1836-4913
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Klaudia-Jomova
+  - - web 1
+    - "http://www.kch.fpv.ukf.sk/?q=en/content/prof-rndr-klaudia-jomov\xE1-phd"
+  - - "\u017Eivotopis"
+    - https://ais2.ukf.sk/repovsk/repository/default/ais/vsk/FPV/UPV/studijny_program/ucitelstvo_chemie_(v_kombinacii)_(I._st._denna_forma)_(AKCH22bu)/2022_11/VUPCHZO_prof_RNDr_Klaudia_Jomova_PhD_(SK).html
+  img: Klaudia_Jomova.jpg
+  update_status: null
+  countryurl: Slovensko
+  fieldurl: biotechnologia
+  positionurl: profesorka
+  affiliationurl: Univerzita_Konstantina_Filozofa
+  cityurl: Nitra
+  sexurl: zena
 - name: Miroslav Kocifaj
   last: Kocifaj
   year: 1968
