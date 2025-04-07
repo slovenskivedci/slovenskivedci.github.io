@@ -9,7 +9,7 @@ city: Toronto
 country: Kanada
 hindex: 89
 scholar: https://scholar.google.com/citations?hl=en&amp;user=Hi9ALnkAAAAJ
-last_update: '2025-04-05'
+last_update: '2025-04-06'
 links:
   ResearchGate: https://www.researchgate.net/lab/Igor-Jurisica-Lab-2
   dblp: https://dblp.org/pid/27/4777.html
@@ -21,4 +21,4 @@ links:
   "wikip\xE9dia": https://en.wikipedia.org/wiki/Igor_Jurisica
   "\u017Eivotopis": https://www.fmb.unesp.br/Home/ensino/Pos-Graduacao/mestradoacademicoedoutorado/pgbasesgeraisdacirurgia/igor-jurisica_curriculum-vitae-july-2015-1.pdf
 img: Igor_Jurisica.jpg
-update_status:
+update_status: ERROR
