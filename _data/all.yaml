@@ -284,9 +284,9 @@
   affiliation: University of Bonn
   city: Bonn
   country: Nemecko
-  hindex: 90
+  hindex: 91
   scholar: https://scholar.google.com/citations?user=KF4AYR4AAAAJ&amp;hl=en
-  last_update: '2025-04-06'
+  last_update: '2025-04-07'
   links:
   - - loop
     - https://loop.frontiersin.org/people/31110/overview
@@ -301,7 +301,7 @@
   - - web
     - http://ds9.botanik.uni-bonn.de/zellbio/AG-Baluska-Volkmann/index.php
   img: Frantisek_Baluska.jpg
-  update_status: ERROR
+  update_status: null
   countryurl: Nemecko
   fieldurl: neurobiologia_rastlin
   positionurl: profesor
@@ -436,6 +436,29 @@
   affiliationurl: Slovenska_polnohospodarska_univerzita
   cityurl: Nitra
   sexurl: muz
+- name: "\u0160tefan Matej\u010D\xEDk"
+  last: Matejcik
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "elektr\xF3nov\xE1 a plazmov\xE1 fyzika"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 79
+  scholar: https://scholar.google.sk/citations?user=Bvdw6vIAAAAJ&hl=en
+  last_update: '2025-04-07'
+  links:
+  - - web
+    - http://neon.dpp.fmph.uniba.sk/workgroup/index.php?option=com_content&view=article&id=1&Itemid=101
+  img: Stefan_Matejcik.jpg
+  update_status: null
+  countryurl: Slovensko
+  fieldurl: elektronova_a_plazmova_fyzika
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Ru\u017Eena Bajcsy"
   last: Bajcsy
   year: 1933
@@ -467,29 +490,6 @@
   affiliationurl: University_of_California
   cityurl: Berkeley
   sexurl: zena
-- name: "\u0160tefan Matej\u010D\xEDk"
-  last: Matejcik
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "elektr\xF3nov\xE1 a plazmov\xE1 fyzika"
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 78
-  scholar: https://scholar.google.sk/citations?user=Bvdw6vIAAAAJ&hl=en
-  last_update: '2025-04-06'
-  links:
-  - - web
-    - http://neon.dpp.fmph.uniba.sk/workgroup/index.php?option=com_content&view=article&id=1&Itemid=101
-  img: Stefan_Matejcik.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: elektronova_a_plazmova_fyzika
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: muz
 - name: Radko Mesiar
   last: Mesiar
   year: 1951
@@ -548,6 +548,39 @@
   affiliationurl: RWTH_Aachen
   cityurl: Aachen
   sexurl: muz
+- name: "Vladim\xEDr D\u017Eav\xEDk"
+  last: Dzavik
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "kardiol\xF3gia"
+  affiliation: University of Toronto
+  city: Toronto
+  country: Kanada
+  hindex: 76
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=psbZKP4AAAAJ
+  last_update: '2025-04-06'
+  links:
+  - - LinkedIn
+    - "https://www.linkedin.com/in/vladim%C3%ADr-d\u017Eav%C3%ADk-07a36017/?originalSubdomain=ca"
+  - - orcid
+    - https://orcid.org/0000-0002-6001-9534
+  - - PubMed
+    - https://pubmed.ncbi.nlm.nih.gov/?term=Dzavik+V[AU]&sort=date
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Vladimir-Dzavik
+  - - Scopus
+    - https://www.scopus.com/authid/detail.uri?authorId=7004450973
+  - - web
+    - https://www.uhnresearch.ca/researcher/vladimir-dzavic
+  img: Vladimir_Dzavik.jpg
+  update_status: null
+  countryurl: Kanada
+  fieldurl: kardiologia
+  positionurl: profesor
+  affiliationurl: University_of_Toronto
+  cityurl: Toronto
+  sexurl: muz
 - name: "Eleon\xF3ra Fabi\xE1nov\xE1"
   last: Fabianova
   year: 1953
@@ -574,6 +607,49 @@
   positionurl: docentka
   affiliationurl: Regionalny_urad_verejneho_zdravotnictva
   cityurl: Banska_Bystrica
+  sexurl: zena
+- name: "Silvia Pastorekov\xE1"
+  last: Pastorekova
+  year: 1961
+  sex: "\u017Eena"
+  position: profesorka
+  field: "onkol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 74
+  scholar: https://scholar.google.com/citations?hl=en&user=7AYmCSIAAAAJ
+  last_update: '2025-04-07'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/finalisti/silvia-pastorekova
+  - - learned.sk
+    - https://www.learned.sk/prof-rndr-silvia-pastorekova-drsc/
+  - - LinkedIn
+    - https://www.linkedin.com/in/silvia-pastorekova-a675553b/?originalSubdomain=sk
+  - - osobnosti
+    - https://www.osobnosti.sk/osobnost/silvia-pastorekova-1831
+  - - publons
+    - https://publons.com/researcher/1973426/silvia-pastorekova/
+  - - "Rad \u013D \u0160t\xFAra II"
+    - http://ssbmb.sk/ocenenie-prof-rndr-silvia-pastorekova-drsc/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Silvia-Pastorekova
+  - - science.sk
+    - http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2157-silvia-pastorekova
+  - - web 1
+    - http://www.biomedcentrum.sav.sk/kontakty/
+  - - web 2
+    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1886
+  - - "\u017Eivotopis"
+    - files/cv_Silvia Pastorekova_2021-12.pdf
+  img: Silvia_Pastorekova.jpg
+  update_status: null
+  countryurl: Slovensko
+  fieldurl: onkologia
+  positionurl: profesorka
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: zena
 - name: "Fedor \u0160imkovic"
   last: Simkovic
@@ -606,82 +682,6 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: "Vladim\xEDr D\u017Eav\xEDk"
-  last: Dzavik
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "kardiol\xF3gia"
-  affiliation: University of Toronto
-  city: Toronto
-  country: Kanada
-  hindex: 72
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=psbZKP4AAAAJ
-  last_update: '2025-04-06'
-  links:
-  - - LinkedIn
-    - "https://www.linkedin.com/in/vladim%C3%ADr-d\u017Eav%C3%ADk-07a36017/?originalSubdomain=ca"
-  - - orcid
-    - https://orcid.org/0000-0002-6001-9534
-  - - PubMed
-    - https://pubmed.ncbi.nlm.nih.gov/?term=Dzavik+V[AU]&sort=date
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Vladimir-Dzavik
-  - - Scopus
-    - https://www.scopus.com/authid/detail.uri?authorId=7004450973
-  - - web
-    - https://www.uhnresearch.ca/researcher/vladimir-dzavic
-  img: Vladimir_Dzavik.jpg
-  update_status: ERROR
-  countryurl: Kanada
-  fieldurl: kardiologia
-  positionurl: profesor
-  affiliationurl: University_of_Toronto
-  cityurl: Toronto
-  sexurl: muz
-- name: "Silvia Pastorekov\xE1"
-  last: Pastorekova
-  year: 1961
-  sex: "\u017Eena"
-  position: profesorka
-  field: "onkol\xF3gia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 72
-  scholar: https://scholar.google.com/citations?hl=en&user=7AYmCSIAAAAJ
-  last_update: '2025-04-06'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/finalisti/silvia-pastorekova
-  - - learned.sk
-    - https://www.learned.sk/prof-rndr-silvia-pastorekova-drsc/
-  - - LinkedIn
-    - https://www.linkedin.com/in/silvia-pastorekova-a675553b/?originalSubdomain=sk
-  - - osobnosti
-    - https://www.osobnosti.sk/osobnost/silvia-pastorekova-1831
-  - - publons
-    - https://publons.com/researcher/1973426/silvia-pastorekova/
-  - - "Rad \u013D \u0160t\xFAra II"
-    - http://ssbmb.sk/ocenenie-prof-rndr-silvia-pastorekova-drsc/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Silvia-Pastorekova
-  - - science.sk
-    - http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2157-silvia-pastorekova
-  - - web 1
-    - http://www.biomedcentrum.sav.sk/kontakty/
-  - - web 2
-    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1886
-  - - "\u017Eivotopis"
-    - files/cv_Silvia Pastorekova_2021-12.pdf
-  img: Silvia_Pastorekova.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: onkologia
-  positionurl: profesorka
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: zena
 - name: "Peter Richt\xE1rik"
   last: Richtarik
   year: ''
@@ -999,6 +999,35 @@
   affiliationurl: University_of_Oxford
   cityurl: Oxford
   sexurl: muz
+- name: "R\xF3bert Kr\xE1lovics"
+  last: Kralovics
+  year: 1970
+  sex: "mu\u017E"
+  position: vedec
+  field: "hematol\xF3gia"
+  affiliation: Medical University of Vienna
+  city: "Viede\u0148"
+  country: "Rak\xFAsko"
+  hindex: 66
+  scholar: https://scholar.google.com/citations?user=-oTaCR8AAAAJ&amp
+  last_update: '2025-04-07'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/robert-kralovics-0150ab32/
+  - - orcid
+    - https://orcid.org/0000-0002-6997-8539
+  - - web
+    - https://www.meduniwien.ac.at/hp/sfb-mpn/projects/project-02-somatic-aberration-networks-in-mpn/principal-investigator/
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Robert_Kralovics
+  img: Robert_Kralovics.jpg
+  update_status: null
+  countryurl: Rakusko
+  fieldurl: hematologia
+  positionurl: vedec
+  affiliationurl: Medical_University_of_Vienna
+  cityurl: Vieden
+  sexurl: muz
 - name: Marek Majdan
   last: Majdan
   year: ''
@@ -1025,6 +1054,41 @@
   positionurl: docent
   affiliationurl: Trnavska_univerzita
   cityurl: Trnava
+  sexurl: muz
+- name: Pavel Povinec
+  last: Povinec
+  year: 1942
+  sex: "mu\u017E"
+  position: profesor
+  field: "jadrov\xE1 fyzika"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 65
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=o8DYjGMAAAAJ
+  last_update: '2025-04-07'
+  links:
+  - - academia.edu
+    - https://comeniusuniversity.academia.edu/PavelPovinec
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/finalisti/pavel-povinec
+  - - LinkedIn
+    - https://www.linkedin.com/in/pavel-povinec-81809227/?originalSubdomain=sk
+  - - orcid
+    - https://orcid.org/0000-0003-0275-794X
+  - - prabook
+    - https://prabook.com/web/pavel_peter.povinec/184236
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Pavel_Povinec
+  - - "\u017Eivotopis"
+    - https://uniba.sk/fileadmin/ruk/ovv/2014/141112_Profesorska_prednaska_o_Fukusime-CV_Povinec.pdf
+  img: Pavel_Povinec.jpg
+  update_status: null
+  countryurl: Slovensko
+  fieldurl: jadrova_fyzika
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
   sexurl: muz
 - name: "Jozef \u0160amaj"
   last: Samaj
@@ -1089,6 +1153,45 @@
   positionurl: profesor
   affiliationurl: University_of_Missouri
   cityurl: Columbia
+  sexurl: muz
+- name: Ladislav Mucina
+  last: Mucina
+  year: 1956
+  sex: "mu\u017E"
+  position: profesor
+  field: biogeografia
+  affiliation: Murdoch University
+  city: Perth
+  country: "Austr\xE1lia"
+  hindex: 64
+  scholar: https://scholar.google.com/citations?user=BPId440AAAAJ
+  last_update: '2025-04-07'
+  links:
+  - - IAVS
+    - https://www.sci.muni.cz/botany/chytry/Laco-Mucina-Honorary-Membership.pdf
+  - - LinkedIn
+    - https://www.linkedin.com/in/ladislav-mucina-ab671092/?originalSubdomain=au
+  - - loop
+    - https://loop.frontiersin.org/people/1091669/overview
+  - - orcid
+    - https://orcid.org/0000-0003-0317-8886
+  - - prabook
+    - https://prabook.com/web/ladislav.mucina/2145663
+  - - publons
+    - https://publons.com/researcher/2752198/ladislav-mucina/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Ladislav-Mucina
+  - - web
+    - http://profiles.murdoch.edu.au/myprofile/ladislav-mucina/
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Ladislav_Mucina
+  img: Ladislav_Mucina.png
+  update_status: null
+  countryurl: Australia
+  fieldurl: biogeografia
+  positionurl: profesor
+  affiliationurl: Murdoch_University
+  cityurl: Perth
   sexurl: muz
 - name: "Eva Benkov\xE1"
   last: Benkova
@@ -1168,109 +1271,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
-  sexurl: muz
-- name: "R\xF3bert Kr\xE1lovics"
-  last: Kralovics
-  year: 1970
-  sex: "mu\u017E"
-  position: vedec
-  field: "hematol\xF3gia"
-  affiliation: Medical University of Vienna
-  city: "Viede\u0148"
-  country: "Rak\xFAsko"
-  hindex: 62
-  scholar: https://scholar.google.com/citations?user=-oTaCR8AAAAJ&amp
-  last_update: '2025-04-06'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/robert-kralovics-0150ab32/
-  - - orcid
-    - https://orcid.org/0000-0002-6997-8539
-  - - web
-    - https://www.meduniwien.ac.at/hp/sfb-mpn/projects/project-02-somatic-aberration-networks-in-mpn/principal-investigator/
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Robert_Kralovics
-  img: Robert_Kralovics.jpg
-  update_status: ERROR
-  countryurl: Rakusko
-  fieldurl: hematologia
-  positionurl: vedec
-  affiliationurl: Medical_University_of_Vienna
-  cityurl: Vieden
-  sexurl: muz
-- name: Pavel Povinec
-  last: Povinec
-  year: 1942
-  sex: "mu\u017E"
-  position: profesor
-  field: "jadrov\xE1 fyzika"
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 62
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=o8DYjGMAAAAJ
-  last_update: '2025-04-06'
-  links:
-  - - academia.edu
-    - https://comeniusuniversity.academia.edu/PavelPovinec
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/finalisti/pavel-povinec
-  - - LinkedIn
-    - https://www.linkedin.com/in/pavel-povinec-81809227/?originalSubdomain=sk
-  - - orcid
-    - https://orcid.org/0000-0003-0275-794X
-  - - prabook
-    - https://prabook.com/web/pavel_peter.povinec/184236
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Pavel_Povinec
-  - - "\u017Eivotopis"
-    - https://uniba.sk/fileadmin/ruk/ovv/2014/141112_Profesorska_prednaska_o_Fukusime-CV_Povinec.pdf
-  img: Pavel_Povinec.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: jadrova_fyzika
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: muz
-- name: Ladislav Mucina
-  last: Mucina
-  year: 1956
-  sex: "mu\u017E"
-  position: profesor
-  field: biogeografia
-  affiliation: Murdoch University
-  city: Perth
-  country: "Austr\xE1lia"
-  hindex: 61
-  scholar: https://scholar.google.com/citations?user=BPId440AAAAJ
-  last_update: '2025-04-06'
-  links:
-  - - IAVS
-    - https://www.sci.muni.cz/botany/chytry/Laco-Mucina-Honorary-Membership.pdf
-  - - LinkedIn
-    - https://www.linkedin.com/in/ladislav-mucina-ab671092/?originalSubdomain=au
-  - - loop
-    - https://loop.frontiersin.org/people/1091669/overview
-  - - orcid
-    - https://orcid.org/0000-0003-0317-8886
-  - - prabook
-    - https://prabook.com/web/ladislav.mucina/2145663
-  - - publons
-    - https://publons.com/researcher/2752198/ladislav-mucina/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Ladislav-Mucina
-  - - web
-    - http://profiles.murdoch.edu.au/myprofile/ladislav-mucina/
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Ladislav_Mucina
-  img: Ladislav_Mucina.png
-  update_status: ERROR
-  countryurl: Australia
-  fieldurl: biogeografia
-  positionurl: profesor
-  affiliationurl: Murdoch_University
-  cityurl: Perth
   sexurl: muz
 - name: Pavol Bauer
   last: Bauer
