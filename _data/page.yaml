@@ -1,7 +1,7 @@
 countries:
   "\u0160vaj\u010Diarsko": 6
   "\xCDrsko": 1
-  USA: 39
+  USA: 40
   Slovensko: 145
   "N\xF3rsko": 3
   "Ve\u013Ek\xE1 Brit\xE1nia": 8
@@ -23,7 +23,7 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 243
+man: 244
 woman: 50
 hindex:
 - 38
@@ -159,6 +159,7 @@ hindex:
 - 40
 - 39
 - 55
+- 34
 - 32
 - 51
 - 59
@@ -323,15 +324,15 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ technick\xE1 univerzita','\u010Cesk\xE1 akad\xE9mia vied','Univerzita Pavla Jozefa\
   \ \u0160af\xE1rika','Masarykova univerzita','Technick\xE1 univerzita v Ko\u0161\
   iciach','Technick\xE1 univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','Medical\
-  \ University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1rska univerzita','Univerzita\
-  \ Karlova','Univerzita Kon\u0161tant\xEDna Filozofa','Univerzita sv\xE4t\xE9ho Cyrila\
-  \ a Metoda v Trnave','Delft University of Technology','ETH Z\xFCrich','KAUST','Microsoft\
-  \ Research','New York University','North Carolina State University','Qatar University','Simon\
-  \ Fraser University','University of Adelaide','University of California','University\
-  \ of Missouri','University of Natural Resources and Life Sciences','University of\
-  \ Oxford','University of Stavanger','University of Strathclyde','University of Toronto','Uppsala\
-  \ University','\u017Dilinsk\xE1 univerzita','Aalborg Universitet','Adolphe Merkle\
-  \ Institute','Amazon','Apple','Brookhaven National Laboratory','CERN','CSIRO','Cardiff\
+  \ University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1rska univerzita','University\
+  \ of California','Univerzita Karlova','Univerzita Kon\u0161tant\xEDna Filozofa','Univerzita\
+  \ sv\xE4t\xE9ho Cyrila a Metoda v Trnave','Delft University of Technology','ETH\
+  \ Z\xFCrich','KAUST','Microsoft Research','New York University','North Carolina\
+  \ State University','Qatar University','Simon Fraser University','University of\
+  \ Adelaide','University of Missouri','University of Natural Resources and Life Sciences','University\
+  \ of Oxford','University of Stavanger','University of Strathclyde','University of\
+  \ Toronto','Uppsala University','\u017Dilinsk\xE1 univerzita','Aalborg Universitet','Adolphe\
+  \ Merkle Institute','Amazon','Apple','Brookhaven National Laboratory','CERN','CSIRO','Cardiff\
   \ University','Cardiovascular Research Center','Carleton University','Central European\
   \ University','\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze','\u010C\
   esk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe','Curtin University','DeepMind','European\
@@ -364,11 +365,11 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ university','Vienna University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1\
   ','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-51'',''51-73'',''73-94'',''94-116'',''116-138'',''138-159'',''159-181'',''181-202'',''202-224'',''224-246'',]'
-hindex_hist_count: '[226,46,14,2,0,1,0,1,1,2]'
+hindex_hist_count: '[227,46,14,2,0,1,0,1,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Nemecko','Austr\xE1\
   lia','Ve\u013Ek\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[145,39,26,13,12,10,9,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[50,48,10,7,7,6,6,5,5,4,4,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[145,40,26,13,12,10,9,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[50,48,10,7,7,6,6,5,5,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
