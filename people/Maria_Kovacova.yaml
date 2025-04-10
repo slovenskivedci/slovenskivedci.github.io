@@ -1,18 +1,18 @@
-name: "Mária Kováčová"
-last: "Kováčová"
-year: 
+name: "M\xE1ria Kov\xE1\u010Dov\xE1"
+last: "Kov\xE1\u010Dov\xE1"
+year: null
 sex: "\u017Eena"
-position: "docentka"
-field: "ekonómia"
-affiliation: "Žilinská univerzita"
-city: Žilina
+position: docentka
+field: "ekon\xF3mia"
+affiliation: "\u017Dilinsk\xE1 univerzita"
+city: "\u017Dilina"
 country: Slovensko
 hindex: 33
 scholar: https://scholar.google.com/citations?hl=en&user=T1upvloAAAAJ
-last_update: '2025-04-10'
+last_update: '2025-04-11'
 links:
   orcid: https://orcid.org/0000-0003-2081-6835
   loop: https://loop.frontiersin.org/people/916875/bio
   web: https://ke.uniza.sk/sk/component/contact/contact/23-ing-maria-kovacova-phd
 img: Maria_Kovacova.jpg
-update_status: UPDATED
+update_status: ERROR

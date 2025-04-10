@@ -1,15 +1,15 @@
-name: "Tom\xE1\u0161 Hlásny"
-last: "Hlásny"
-year: 
+name: "Tom\xE1\u0161 Hl\xE1sny"
+last: "Hl\xE1sny"
+year: null
 sex: "mu\u017E"
 position: profesor
-field: "lesníctvo"
-affiliation: "Česká zemědělská univerzita v Praze"
+field: "lesn\xEDctvo"
+affiliation: "\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze"
 city: Praha
-country: Česko
+country: "\u010Cesko"
 hindex: 34
 scholar: https://scholar.google.com/citations?user=LgkWAqQAAAAJ
-last_update: '2025-04-07'
+last_update: '2025-04-11'
 links:
   ResearchGate: https://www.researchgate.net/profile/Tomas-Hlasny
   twitter: https://x.com/thlasny?lang=en
@@ -19,4 +19,4 @@ links:
   loop: https://loop.frontiersin.org/people/633726/bio
   YouTube: https://www.youtube.com/watch?v=p6uf0nYehsw
 img: Tomas_Hlasny.jpg
-update_status:
+update_status: ERROR

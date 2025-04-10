@@ -9,7 +9,7 @@ city: Bratislava
 country: Slovensko
 hindex: 65
 scholar: https://scholar.google.com/citations?hl=en&amp;user=o8DYjGMAAAAJ
-last_update: '2025-04-07'
+last_update: '2025-04-11'
 links:
   LinkedIn: https://www.linkedin.com/in/pavel-povinec-81809227/?originalSubdomain=sk
   ResearchGate: https://www.researchgate.net/profile/Pavel_Povinec
@@ -19,4 +19,4 @@ links:
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/ovv/2014/141112_Profesorska_prednaska_o_Fukusime-CV_Povinec.pdf
   ESET Science Award: https://www.esetscienceaward.sk/sk/finalisti/pavel-povinec
 img: Pavel_Povinec.jpg
-update_status:
+update_status: ERROR
