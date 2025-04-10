@@ -7270,6 +7270,33 @@
   affiliationurl: Medical_College_of_Wisconsin
   cityurl: Milwaukee
   sexurl: muz
+- name: "M\xE1ria Kov\xE1\u010Dov\xE1"
+  last: Kovacova
+  year: null
+  sex: "\u017Eena"
+  position: docentka
+  field: "ekon\xF3mia"
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=en&user=T1upvloAAAAJ
+  last_update: '2025-04-10'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/916875/bio
+  - - orcid
+    - https://orcid.org/0000-0003-2081-6835
+  - - web
+    - https://ke.uniza.sk/sk/component/contact/contact/23-ing-maria-kovacova-phd
+  img: Maria_Kovacova.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: ekonomia
+  positionurl: docentka
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: zena
 - name: "Mari\xE1n Kraj\u010D\xED"
   last: Krajci
   year: ''
