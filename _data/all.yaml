@@ -541,7 +541,7 @@
   - - web
     - https://www.math.sk/mesiar/
   img: Radko_Mesiar.jpeg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: Slovensko
   fieldurl: aplikovana_matematika
   positionurl: profesor
@@ -1147,7 +1147,7 @@
   - - "\u017Eivotopis 2"
     - https://www.obec-beckov.sk/upload/yk0ugoq5-BN-2-2015.pdf
   img: Peter_Sutovsky.jpeg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: USA
   fieldurl: reprodukcna_biologia
   positionurl: profesor
@@ -4111,7 +4111,7 @@
   - - "\u017Eivotopis"
     - https://iea.u-cergy.fr/en/invited-researchers-cv/fellows-in-residence-2019-2020/viera-skakalova.html
   img: Viera_Skakalova.jpeg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: Rakusko
   fieldurl: nanomaterialy
   positionurl: vedkyna
@@ -7518,7 +7518,7 @@
   - - "wikip\xE9dia"
     - https://sk.wikipedia.org/wiki/Pavol_Quittner
   img: Pavol_Quittner.jpg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: Slovensko
   fieldurl: matematika
   positionurl: profesor
