@@ -9,7 +9,7 @@ city: Bratislava
 country: Slovensko
 hindex: 33
 scholar: https://scholar.google.com/citations?user=QhrxwOcAAAAJ&hl=en
-last_update: '2025-06-16'
+last_update: '2025-06-21'
 links:
   IMO: https://www.imo-official.org/participant_r.aspx?id=29
   Mathematics Genealogy: https://www.mathgenealogy.org/id.php?id=122049
@@ -19,4 +19,4 @@ links:
   web: http://www.iam.fmph.uniba.sk/institute/quittner/
   "wikip\xE9dia": https://sk.wikipedia.org/wiki/Pavol_Quittner
 img: Pavol_Quittner.jpg
-update_status: UPDATED
+update_status: ERROR
