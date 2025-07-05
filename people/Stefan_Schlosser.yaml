@@ -9,7 +9,7 @@ city: Bratislava
 country: Slovensko
 hindex: 34
 scholar: https://scholar.google.com/citations?user=J2qs3RMAAAAJ&hl=en
-last_update: '2025-07-01'
+last_update: '2025-07-06'
 links:
   LinkedIn: https://www.linkedin.com/in/stefan-schlosser-7220424a/
   ResearchGate: https://www.researchgate.net/profile/Stefan-Schlosser
@@ -18,4 +18,4 @@ links:
   web 1: http://sschi.chtf.stuba.sk/MembraneLab/Contact.htm
   web 2: http://kchbi.chtf.stuba.sk/clenovia/detail.aspx?ID=26
 img: Stefan_Schlosser.jpg
-update_status: UPDATED
+update_status: ERROR
