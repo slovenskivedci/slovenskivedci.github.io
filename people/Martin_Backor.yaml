@@ -9,7 +9,7 @@ city: "Ko\u0161ice"
 country: Slovensko
 hindex: 45
 scholar: https://scholar.google.co.uk/citations?user=yuz_CywAAAAJ&hl=en&oi=sra
-last_update: '2025-07-21'
+last_update: '2025-07-26'
 links:
   ResearchGate: https://www.researchgate.net/profile/Martin-Backor
   publons: https://publons.com/researcher/2178958/martin-backor/
@@ -17,4 +17,4 @@ links:
   web: https://www.upjs.sk/PF/zamestnanec/martin.backor/
   "\u017Eivotopis": http://kfrserver.natur.cuni.cz/studium/anatomie/soubory/CV_Backor.pdf
 img: Martin_Backor_1.jpg
-update_status: UPDATED
+update_status: ERROR
