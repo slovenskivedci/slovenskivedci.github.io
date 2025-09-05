@@ -9,7 +9,7 @@ city: Brno
 country: "\u010Cesko"
 hindex: 61
 scholar: https://scholar.google.com/citations?hl=en&user=DUYrlx0AAAAJ
-last_update: '2025-09-01'
+last_update: '2025-09-06'
 links:
   web: https://www.muni.cz/en/people/1073-ivan-rektor
   "wikip\xE9dia": https://cs.wikipedia.org/wiki/Ivan_Rektor
@@ -18,4 +18,4 @@ links:
   research.com: https://research.com/u/ivan-rektor
   ResearchGate: https://www.researchgate.net/profile/Ivan-Rektor
 img: Ivan_Rektor.jpg
-update_status: ERROR
+update_status: UPDATED
