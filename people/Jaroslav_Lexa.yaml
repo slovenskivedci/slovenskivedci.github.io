@@ -9,7 +9,7 @@ city: Bratislava
 country: Slovensko
 hindex: 32
 scholar: https://scholar.google.com/citations?user=rHgfxxwAAAAJ&hl=en
-last_update: '2025-09-06'
+last_update: '2025-09-11'
 links:
   ResearchGate: https://www.researchgate.net/profile/Jaroslav-Lexa
   science.sk: http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2086-jaroslav-lexa
@@ -17,4 +17,4 @@ links:
   web 2: http://www.geo.sav.sk/en/staff/jaroslav-lexa-en/
   "\u017Eivotopis": https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=5443&action=cv
 img: Jaroslav_Lexa.jpg
-update_status: UPDATED
+update_status: ERROR
