@@ -7,9 +7,9 @@ field: "strojov\xE9 u\u010Denie"
 affiliation: Microsoft Research
 city: New York
 country: USA
-hindex: 40
+hindex: 41
 scholar: https://scholar.google.com/citations?user=wYMTld8AAAAJ&
-last_update: '2025-09-21'
+last_update: '2025-09-26'
 links:
   IOI: https://stats.ioinformatics.org/people/1613
   LinkedIn: https://www.linkedin.com/in/mdudik/
@@ -17,4 +17,4 @@ links:
   dblp: https://dblp.org/pid/30/2146.html
   web: https://www.microsoft.com/en-us/research/people/mdudik/
 img: Miro_Dudik.jpg
-update_status: ERROR
+update_status: UPDATED
