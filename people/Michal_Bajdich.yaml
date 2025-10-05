@@ -9,7 +9,7 @@ city: Menlo Park
 country: USA
 hindex: 46
 scholar: https://scholar.google.com/citations?hl=en&user=x9sZ1Q4AAAAJ
-last_update: '2025-10-01'
+last_update: '2025-10-06'
 links:
   web 1: https://suncat.stanford.edu/people/michal-bajdich
   web 2: https://www.catalysis-hub.org
@@ -22,4 +22,4 @@ links:
   ResearchGate: https://www.researchgate.net/profile/Michal-Bajdich
   Microsoft Academic: https://academic.microsoft.com/author/2776854392/publication/search?q=Michal%20Bajdich&qe=Composite(AA.AuId%253D2776854392)&f=&orderBy=0&paperId=2984061692
 img: Michal_Bajdich.jpg
-update_status: UPDATED
+update_status: ERROR
