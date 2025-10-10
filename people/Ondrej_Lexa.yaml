@@ -9,7 +9,7 @@ city: Praha
 country: "\u010Cesko"
 hindex: 44
 scholar: https://scholar.google.com/citations?hl=en&user=lo8ugg0AAAAJ
-last_update: '2025-10-06'
+last_update: '2025-10-11'
 links:
   ResearchGate: https://www.researchgate.net/profile/Ondrej-Lexa
   facebook: https://www.facebook.com/lexa.ondrej
@@ -20,4 +20,4 @@ links:
   web: https://petrol.natur.cuni.cz/~ondro/
   "\u017Eivotopis": https://petrol.natur.cuni.cz/~ondro/research/cv
 img: Ondrej_Lexa.jpg
-update_status: ERROR
+update_status: UPDATED
