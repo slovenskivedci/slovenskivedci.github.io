@@ -9,7 +9,7 @@ city: Sydney
 country: "Austr\xE1lia"
 hindex: 53
 scholar: https://scholar.google.com/citations?hl=en&user=OMBz3bIAAAAJ
-last_update: '2025-10-16'
+last_update: '2025-10-21'
 links:
   ResearchGate: https://www.researchgate.net/scientific-contributions/Milos-Toth-10585893
   omicsonline: https://biography.omicsonline.org/australia/university-of-technology-sydney/milos-toth-974580
@@ -18,4 +18,4 @@ links:
   web 1: https://profiles.uts.edu.au/Milos.Toth
   web 2: https://tmos.org.au/team/cis/
 img: Milos_Toth.png
-update_status: UPDATED
+update_status: ERROR

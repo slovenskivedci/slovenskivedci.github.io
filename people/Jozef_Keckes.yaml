@@ -9,7 +9,7 @@ city: Leoben
 country: "Rak\xFAsko"
 hindex: 56
 scholar: https://scholar.google.com/citations?user=vPBEaHQAAAAJ&hl=en
-last_update: '2025-10-16'
+last_update: '2025-10-21'
 links:
   web: https://nmaxs.unileoben.ac.at/contact/
   oeaw: https://www.oeaw.ac.at/esi/institute/staff/jozef-keckes
@@ -18,4 +18,4 @@ links:
   orcid: https://orcid.org/0000-0003-4770-4331
   LinkedIn: https://www.linkedin.com/in/jozef-keckes-427669110/?originalSubdomain=at
 img: Jozef_Keckes.jpg
-update_status: UPDATED
+update_status: ERROR
