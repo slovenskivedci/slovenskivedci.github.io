@@ -9,7 +9,7 @@ city: Thuwal
 country: "Saudsk\xE1 Ar\xE1bia"
 hindex: 38
 scholar: https://scholar.google.com/citations?hl=en&amp;user=ELMPg_gAAAAJ
-last_update: '2025-10-26'
+last_update: '2025-10-31'
 links:
   LinkedIn: https://sa.linkedin.com/in/ivanviola
   dblp: https://dblp.org/pid/21/4861.html
@@ -17,4 +17,4 @@ links:
   web: https://cemse.kaust.edu.sa/nanovis
   "\u017Eivotopis": http://ii.uib.no/vis_old/team/viola/_pdfs/IvanViolaCV.pdf
 img: Ivan_Viola.jpg
-update_status: ERROR
+update_status: UPDATED

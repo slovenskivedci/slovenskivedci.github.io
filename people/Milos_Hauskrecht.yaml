@@ -9,7 +9,7 @@ city: Pittsburgh
 country: USA
 hindex: 40
 scholar: https://scholar.google.com/citations?user=ylK19VUAAAAJ&amp
-last_update: '2025-10-26'
+last_update: '2025-10-31'
 links:
   web: http://people.cs.pitt.edu/~milos/
   "\u017Eivotopis": http://people.cs.pitt.edu/~milos/CV.pdf
@@ -19,4 +19,4 @@ links:
   MathSciNet: https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=627504
   Mathematics Genealogy: https://www.genealogy.math.ndsu.nodak.edu/id.php?id=91349
 img: Milos_Hauskrecht.jpg
-update_status: ERROR
+update_status: UPDATED
