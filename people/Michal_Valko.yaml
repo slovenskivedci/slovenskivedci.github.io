@@ -9,7 +9,7 @@ city: "Par\xED\u017E"
 country: "Franc\xFAzsko"
 hindex: 50
 scholar: https://scholar.google.com/citations?user=jrazNCQAAAAJ&hl=en
-last_update: '2025-11-26'
+last_update: '2025-12-01'
 links:
   Envoy of the ESET Science Award: https://www.esetscienceaward.sk/en/envoys/michal-valko
   web: https://misovalko.github.io/index.html
@@ -24,4 +24,4 @@ links:
   sme.sk: https://domov.sme.sk/c/22765422/vedec-valko-umelou-inteligenciou-chcem-zachranovat-zivoty.html
   Mathematics Genealogy: https://www.genealogy.math.ndsu.nodak.edu/id.php?id=156876
 img: Michal_Valko.jpg
-update_status: UPDATED
+update_status: ERROR
