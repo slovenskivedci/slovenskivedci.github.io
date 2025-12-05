@@ -9,7 +9,7 @@ city: Oxford
 country: "Ve\u013Ek\xE1 Brit\xE1nia"
 hindex: 69
 scholar: https://scholar.google.com/citations?hl=en&user=vcIizE8AAAAJ
-last_update: '2025-12-01'
+last_update: '2025-12-06'
 links:
   ResearchGate: https://www.researchgate.net/scientific-contributions/Ervin-Fodor-39288116
   UKRI: https://gtr.ukri.org/person/2739E4AE-CD02-41E7-B50E-7B683E3D666D
@@ -22,4 +22,4 @@ links:
   web 2: https://www.path.ox.ac.uk/content/ervin-fodor
   "wikip\xE9dia": https://en.wikipedia.org/wiki/Ervin_Fodor
 img: Ervin_Fodor.jpg
-update_status: ERROR
+update_status: UPDATED

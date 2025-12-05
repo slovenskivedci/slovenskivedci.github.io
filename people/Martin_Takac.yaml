@@ -9,7 +9,7 @@ city: Abu Dhabi
 country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
 hindex: 40
 scholar: https://scholar.google.com/citations?hl=en&user=qKQD-2cAAAAJ
-last_update: '2025-12-01'
+last_update: '2025-12-06'
 links:
   dblp: https://dblp.org/pid/42/3759.html
   web 1: http://mtakac.com
@@ -26,4 +26,4 @@ links:
   SlidesLive: https://slideslive.com/s/martin-takac-23271
   loop: https://loop.frontiersin.org/people/199374/overview
 img: Martin_Takac.jpg
-update_status: ERROR
+update_status: UPDATED
