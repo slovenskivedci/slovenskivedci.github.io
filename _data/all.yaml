@@ -639,6 +639,39 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "M\xE1ria Du\u0161insk\xE1"
+  last: Dusinska
+  year: null
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "toxikol\xF3gia"
+  affiliation: Norwegian Institute for Air Research
+  city: Kjeller
+  country: "N\xF3rsko"
+  hindex: 74
+  scholar: https://scholar.google.com/citations?user=tF7f4yEAAAAJ&hl=en
+  last_update: '2025-12-06'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/110414/overview
+  - - marfan
+    - http://marfan.sk
+  - - orcid
+    - https://orcid.org/0000-0003-1358-1652
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Maria-Dusinska
+  - - web
+    - https://www.nilu.com/employee/maria-dusinska/
+  - - "\u017Eivotopis"
+    - https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/cv_sccs_dusinska_en.pdf
+  img: Maria_Dusinska.jpg
+  update_status: ERROR
+  countryurl: Norsko
+  fieldurl: toxikologia
+  positionurl: vedkyna
+  affiliationurl: Norwegian_Institute_for_Air_Research
+  cityurl: Kjeller
+  sexurl: zena
 - name: "Silvia Pastorekov\xE1"
   last: Pastorekova
   year: 1961
@@ -765,6 +798,33 @@
   positionurl: profesor
   affiliationurl: Univerzita_Karlova
   cityurl: Praha
+  sexurl: muz
+- name: Pavol Bauer
+  last: Bauer
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: elektronika
+  affiliation: Delft University of Technology
+  city: Delft
+  country: Holandsko
+  hindex: 70
+  scholar: https://scholar.google.com/citations?user=hH3CJhcAAAAJ&amp
+  last_update: '2025-12-06'
+  links:
+  - - twitter
+    - https://twitter.com/bauer_p
+  - - web
+    - https://www.tudelft.nl/staff/p.bauer/?cHash=96dc8f6d55c5ea75995f7e9d5b68a50d
+  - - "\u017Eivotopis"
+    - https://www.tudelft.nl/en/staff/p.bauer/
+  img: Pavol_Bauer.jpg
+  update_status: ERROR
+  countryurl: Holandsko
+  fieldurl: elektronika
+  positionurl: profesor
+  affiliationurl: Delft_University_of_Technology
+  cityurl: Delft
   sexurl: muz
 - name: "Imrich Chlamt\xE1\u010D"
   last: Chlamtac
@@ -1001,39 +1061,35 @@
   affiliationurl: Monash_University
   cityurl: Melbourne
   sexurl: zena
-- name: "M\xE1ria Du\u0161insk\xE1"
-  last: Dusinska
-  year: null
-  sex: "\u017Eena"
-  position: "vedky\u0148a"
-  field: "toxikol\xF3gia"
-  affiliation: Norwegian Institute for Air Research
-  city: Kjeller
-  country: "N\xF3rsko"
+- name: "R\xF3bert Kr\xE1lovics"
+  last: Kralovics
+  year: 1970
+  sex: "mu\u017E"
+  position: vedec
+  field: "hematol\xF3gia"
+  affiliation: Medical University of Vienna
+  city: "Viede\u0148"
+  country: "Rak\xFAsko"
   hindex: 67
-  scholar: https://scholar.google.com/citations?user=tF7f4yEAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=-oTaCR8AAAAJ&amp
   last_update: '2025-12-06'
   links:
-  - - loop
-    - https://loop.frontiersin.org/people/110414/overview
-  - - marfan
-    - http://marfan.sk
+  - - LinkedIn
+    - https://www.linkedin.com/in/robert-kralovics-0150ab32/
   - - orcid
-    - https://orcid.org/0000-0003-1358-1652
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Maria-Dusinska
+    - https://orcid.org/0000-0002-6997-8539
   - - web
-    - https://www.nilu.com/employee/maria-dusinska/
-  - - "\u017Eivotopis"
-    - https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/cv_sccs_dusinska_en.pdf
-  img: Maria_Dusinska.jpg
+    - https://www.meduniwien.ac.at/hp/sfb-mpn/projects/project-02-somatic-aberration-networks-in-mpn/principal-investigator/
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Robert_Kralovics
+  img: Robert_Kralovics.jpg
   update_status: ERROR
-  countryurl: Norsko
-  fieldurl: toxikologia
-  positionurl: vedkyna
-  affiliationurl: Norwegian_Institute_for_Air_Research
-  cityurl: Kjeller
-  sexurl: zena
+  countryurl: Rakusko
+  fieldurl: hematologia
+  positionurl: vedec
+  affiliationurl: Medical_University_of_Vienna
+  cityurl: Vieden
+  sexurl: muz
 - name: "Peter \u0160utovsk\xFD"
   last: Sutovsky
   year: 1967
@@ -1062,35 +1118,6 @@
   positionurl: profesor
   affiliationurl: University_of_Missouri
   cityurl: Columbia
-  sexurl: muz
-- name: "R\xF3bert Kr\xE1lovics"
-  last: Kralovics
-  year: 1970
-  sex: "mu\u017E"
-  position: vedec
-  field: "hematol\xF3gia"
-  affiliation: Medical University of Vienna
-  city: "Viede\u0148"
-  country: "Rak\xFAsko"
-  hindex: 66
-  scholar: https://scholar.google.com/citations?user=-oTaCR8AAAAJ&amp
-  last_update: '2025-12-06'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/robert-kralovics-0150ab32/
-  - - orcid
-    - https://orcid.org/0000-0002-6997-8539
-  - - web
-    - https://www.meduniwien.ac.at/hp/sfb-mpn/projects/project-02-somatic-aberration-networks-in-mpn/principal-investigator/
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Robert_Kralovics
-  img: Robert_Kralovics.jpg
-  update_status: ERROR
-  countryurl: Rakusko
-  fieldurl: hematologia
-  positionurl: vedec
-  affiliationurl: Medical_University_of_Vienna
-  cityurl: Vieden
   sexurl: muz
 - name: Marek Majdan
   last: Majdan
@@ -1370,33 +1397,6 @@
   positionurl: profesor
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
-  sexurl: muz
-- name: Pavol Bauer
-  last: Bauer
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: elektronika
-  affiliation: Delft University of Technology
-  city: Delft
-  country: Holandsko
-  hindex: 60
-  scholar: https://scholar.google.com/citations?user=hH3CJhcAAAAJ&amp
-  last_update: '2025-12-06'
-  links:
-  - - twitter
-    - https://twitter.com/bauer_p
-  - - web
-    - https://www.tudelft.nl/staff/p.bauer/?cHash=96dc8f6d55c5ea75995f7e9d5b68a50d
-  - - "\u017Eivotopis"
-    - https://www.tudelft.nl/en/staff/p.bauer/
-  img: Pavol_Bauer.jpg
-  update_status: ERROR
-  countryurl: Holandsko
-  fieldurl: elektronika
-  positionurl: profesor
-  affiliationurl: Delft_University_of_Technology
-  cityurl: Delft
   sexurl: muz
 - name: Marcel Franz
   last: Franz
