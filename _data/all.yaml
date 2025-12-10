@@ -731,6 +731,41 @@
   affiliationurl: KAUST
   cityurl: Thuwal
   sexurl: muz
+- name: "Vladim\xEDr Bencko"
+  last: Bencko
+  year: '1938'
+  sex: "mu\u017E"
+  position: profesor
+  field: "hygiena a epidemiol\xF3gia"
+  affiliation: Univerzita Karlova
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 72
+  scholar: https://scholar.google.com/citations?hl=en&user=ie2ZQ5wAAAAJ
+  last_update: '2025-12-06'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/vladimir-bencko-28333018/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=cz
+  - - prabook
+    - https://prabook.com/web/vladimir.bencko/415822
+  - - publons
+    - https://publons.com/researcher/2109167/vladimir-bencko/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Vladimir-Bencko/6
+  - - scirp
+    - https://scirp.org/journal/articles.aspx/specialissues/articles.aspx?searchcode=Vladimir+Bencko&searchfield=authors&page=1&skid=0
+  - - web
+    - https://hyg.lf1.cuni.cz/en/departments-contacts?nDepartmentID=0&sAction=detail&nContactID=87247
+  - - "wikip\xE9dia"
+    - https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Bencko
+  img: Vladimir_Bencko.jpg
+  update_status: ERROR
+  countryurl: Cesko
+  fieldurl: hygiena_a_epidemiologia
+  positionurl: profesor
+  affiliationurl: Univerzita_Karlova
+  cityurl: Praha
+  sexurl: muz
 - name: "Imrich Chlamt\xE1\u010D"
   last: Chlamtac
   year: '1949'
@@ -870,41 +905,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
-  sexurl: muz
-- name: "Vladim\xEDr Bencko"
-  last: Bencko
-  year: '1938'
-  sex: "mu\u017E"
-  position: profesor
-  field: "hygiena a epidemiol\xF3gia"
-  affiliation: Univerzita Karlova
-  city: Praha
-  country: "\u010Cesko"
-  hindex: 68
-  scholar: https://scholar.google.com/citations?hl=en&user=ie2ZQ5wAAAAJ
-  last_update: '2025-12-06'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/vladimir-bencko-28333018/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=cz
-  - - prabook
-    - https://prabook.com/web/vladimir.bencko/415822
-  - - publons
-    - https://publons.com/researcher/2109167/vladimir-bencko/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Vladimir-Bencko/6
-  - - scirp
-    - https://scirp.org/journal/articles.aspx/specialissues/articles.aspx?searchcode=Vladimir+Bencko&searchfield=authors&page=1&skid=0
-  - - web
-    - https://hyg.lf1.cuni.cz/en/departments-contacts?nDepartmentID=0&sAction=detail&nContactID=87247
-  - - "wikip\xE9dia"
-    - https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Bencko
-  img: Vladimir_Bencko.jpg
-  update_status: ERROR
-  countryurl: Cesko
-  fieldurl: hygiena_a_epidemiologia
-  positionurl: profesor
-  affiliationurl: Univerzita_Karlova
-  cityurl: Praha
   sexurl: muz
 - name: Pavel Cheben
   last: Cheben
