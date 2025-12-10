@@ -933,6 +933,41 @@
   affiliationurl: National_Research_Council
   cityurl: Ottawa
   sexurl: muz
+- name: "Jozef \u0160amaj"
+  last: Samaj
+  year: 1964
+  sex: "mu\u017E"
+  position: profesor
+  field: botanika
+  affiliation: "Univerzita Palack\xE9ho v Olomouci"
+  city: Olomouc
+  country: "\u010Cesko"
+  hindex: 68
+  scholar: https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en
+  last_update: '2025-12-06'
+  links:
+  - - learned.sk
+    - https://www.learned.sk/clenovia/riadni-clenovia/
+  - - loop
+    - https://loop.frontiersin.org/people/26551/overview
+  - - orcid
+    - https://orcid.org/0000-0003-4750-2123
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Jozef-Samaj
+  - - twitter
+    - https://twitter.com/Samaj_lab
+  - - web
+    - https://kbt.upol.cz/en/
+  - - "\u017Eivotopis"
+    - "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160amaj.pdf"
+  img: Jozef_Samaj.jpg
+  update_status: ERROR
+  countryurl: Cesko
+  fieldurl: botanika
+  positionurl: profesor
+  affiliationurl: Univerzita_Palackeho_v_Olomouci
+  cityurl: Olomouc
+  sexurl: muz
 - name: "Barbora (Voz\xE1rov\xE1) de Courten"
   last: de Courten
   year: ''
@@ -1118,41 +1153,6 @@
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
-  sexurl: muz
-- name: "Jozef \u0160amaj"
-  last: Samaj
-  year: 1964
-  sex: "mu\u017E"
-  position: profesor
-  field: botanika
-  affiliation: "Univerzita Palack\xE9ho v Olomouci"
-  city: Olomouc
-  country: "\u010Cesko"
-  hindex: 65
-  scholar: https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en
-  last_update: '2025-12-06'
-  links:
-  - - learned.sk
-    - https://www.learned.sk/clenovia/riadni-clenovia/
-  - - loop
-    - https://loop.frontiersin.org/people/26551/overview
-  - - orcid
-    - https://orcid.org/0000-0003-4750-2123
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Jozef-Samaj
-  - - twitter
-    - https://twitter.com/Samaj_lab
-  - - web
-    - https://kbt.upol.cz/en/
-  - - "\u017Eivotopis"
-    - "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160amaj.pdf"
-  img: Jozef_Samaj.jpg
-  update_status: ERROR
-  countryurl: Cesko
-  fieldurl: botanika
-  positionurl: profesor
-  affiliationurl: Univerzita_Palackeho_v_Olomouci
-  cityurl: Olomouc
   sexurl: muz
 - name: Ladislav Mucina
   last: Mucina
