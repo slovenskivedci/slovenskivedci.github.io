@@ -8203,6 +8203,38 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: zena
+- name: "Zuzana K\xFAkelov\xE1"
+  last: Kukelova
+  year: null
+  sex: "\u017Eena"
+  position: "odborn\xFD asistent"
+  field: "po\u010D\xEDta\u010Dov\xE9 videnie"
+  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=M4a3VyYAAAAJ&hl=en
+  last_update: '2025-12-15'
+  links:
+  - - dblp
+    - https://dblp.org/pid/17/4583.html
+  - - neuron
+    - https://www.nadaceneuron.cz/person/zuzana-kukelova
+  - - orcid
+    - https://orcid.org/0000-0002-1916-8829
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Zuzana-Kukelova/2
+  - - vnd
+    - https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/vitazka-cor-baayen-award-2015-zuzana-kukelova/
+  - - web
+    - https://cmp.felk.cvut.cz/~kukelova/
+  img: Zuzana_Kukelova.jpg
+  countryurl: Cesko
+  fieldurl: pocitacove_videnie
+  positionurl: odborny_asistent
+  affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
+  cityurl: Praha
+  sexurl: zena
 - name: Roman Mezencev
   last: Mezencev
   year: ''
