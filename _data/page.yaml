@@ -2,7 +2,7 @@ countries:
   "\u0160vaj\u010Diarsko": 6
   "\xCDrsko": 1
   USA: 41
-  Slovensko: 146
+  Slovensko: 147
   "N\xF3rsko": 3
   "Ve\u013Ek\xE1 Brit\xE1nia": 8
   Nemecko: 10
@@ -24,7 +24,7 @@ countries:
   "D\xE1nsko": 1
   "\u0160panielsko": 1
 man: 245
-woman: 51
+woman: 52
 hindex:
 - 38
 - 48
@@ -121,7 +121,7 @@ hindex:
 - 102
 - 35
 - 44
-- 69
+- 71
 - 34
 - 48
 - 45
@@ -247,6 +247,7 @@ hindex:
 - 49
 - 49
 - 45
+- 32
 - 46
 - 38
 - 44
@@ -367,11 +368,11 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ university','Vienna University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1\
   ','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-52'',''52-75'',''75-97'',''97-120'',''120-142'',''142-165'',''165-187'',''187-210'',''210-232'',''232-255'',]'
-hindex_hist_count: '[230,45,14,2,0,1,0,1,1,2]'
+hindex_hist_count: '[231,45,14,2,0,1,0,1,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Nemecko','Austr\xE1\
   lia','Ve\u013Ek\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[146,41,26,13,12,10,9,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[50,48,10,7,7,6,6,5,5,4,4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[147,41,26,13,12,10,9,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[51,48,10,7,7,6,6,5,5,4,4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'

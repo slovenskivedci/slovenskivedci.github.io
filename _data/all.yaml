@@ -799,6 +799,43 @@
   affiliationurl: Univerzita_Karlova
   cityurl: Praha
   sexurl: muz
+- name: "Jarom\xEDr Pastorek"
+  last: Pastorek
+  year: 1957
+  sex: "mu\u017E"
+  position: profesor
+  field: "virol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 71
+  scholar: https://scholar.google.com/citations?user=r7j9ZoYAAAAJ&hl=en&oi=sra
+  last_update: '2025-12-06'
+  links:
+  - - Microsoft Academic
+    - https://academic.microsoft.com/author/2074528035/publication?paperId=2048177691
+  - - orcid
+    - https://orcid.org/0000-0003-2163-0864
+  - - publons
+    - https://publons.com/researcher/3715799/jaromir-pastorek/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Jaromir-Pastorek
+  - - vedec roka
+    - https://sk.wikipedia.org/wiki/Vedec_roka_SR
+  - - web
+    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=10256
+  - - "wikip\xE9dia"
+    - https://sk.wikipedia.org/wiki/Jarom%C3%ADr_Pastorek
+  - - "\u017Eivotopis"
+    - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/prof.Pastorek-curriculum%20vitae.pdf
+  img: Jaromir_Pastorek.jpg
+  update_status: ERROR
+  countryurl: Slovensko
+  fieldurl: virologia
+  positionurl: profesor
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: Pavol Bauer
   last: Bauer
   year: ''
@@ -928,43 +965,6 @@
   positionurl: profesor
   affiliationurl: University_of_Oxford
   cityurl: Oxford
-  sexurl: muz
-- name: "Jarom\xEDr Pastorek"
-  last: Pastorek
-  year: 1957
-  sex: "mu\u017E"
-  position: profesor
-  field: "virol\xF3gia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 69
-  scholar: https://scholar.google.com/citations?user=r7j9ZoYAAAAJ&hl=en&oi=sra
-  last_update: '2025-12-06'
-  links:
-  - - Microsoft Academic
-    - https://academic.microsoft.com/author/2074528035/publication?paperId=2048177691
-  - - orcid
-    - https://orcid.org/0000-0003-2163-0864
-  - - publons
-    - https://publons.com/researcher/3715799/jaromir-pastorek/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Jaromir-Pastorek
-  - - vedec roka
-    - https://sk.wikipedia.org/wiki/Vedec_roka_SR
-  - - web
-    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=10256
-  - - "wikip\xE9dia"
-    - https://sk.wikipedia.org/wiki/Jarom%C3%ADr_Pastorek
-  - - "\u017Eivotopis"
-    - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/prof.Pastorek-curriculum%20vitae.pdf
-  img: Jaromir_Pastorek.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: virologia
-  positionurl: profesor
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
   sexurl: muz
 - name: Pavel Cheben
   last: Cheben
@@ -7840,6 +7840,32 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Jana Jakub\xEDkov\xE1"
+  last: Jakubikova
+  year: ''
+  sex: "\u017Eena"
+  position: docentka
+  field: "hematol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=en&user=CEh_AqsAAAAJ
+  last_update: '2025-12-15'
+  links:
+  - - web 1
+    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=3569
+  - - web 2
+    - https://www.sav.sk/?lang=sk&charset=&doc=services-news&news_no=1527
+  - - "\u017Eivotopis"
+    - https://www.nvr.sk/wcrd-2025-cv-jkana-jakubikova/
+  img: Jana_Jakubikova_2.jpg
+  countryurl: Slovensko
+  fieldurl: hematologia
+  positionurl: docentka
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Franti\u0161ek Ka\u010D\xEDk"
   last: Kacik
   year: null
