@@ -7,9 +7,9 @@ field: "geochronol\xF3gia"
 affiliation: Curtin University
 city: Perth
 country: "Austr\xE1lia"
-hindex: 38
+hindex: 44
 scholar: https://scholar.google.com.au/citations?user=bLoHCS8AAAAJ&hl=en
-last_update: '2025-12-06'
+last_update: '2025-12-13'
 links:
   web: https://staffportal.curtin.edu.au/staff/profile/view/martin-danisik-b20e9bfb/
   scopus: https://www.scopus.com/authid/detail.uri?authorId=12239479000
@@ -18,4 +18,4 @@ links:
   dennikn.sk: http://science.dennikn.sk/clanky-a-rozhovory/neziva-priroda/vesmir-a-zem/6569-slovensky-geolog-skuma-dosledky-erupcie-super-vulkanu
   sme.sk: https://tech.sme.sk/c/20489874/geolog-napiseme-do-nasa-aby-nam-zaslali-vzorky-z-meteoritov-alebo-z-mesiaca.html
 img: Martin_Danisik.jpg
-update_status: ERROR
+update_status: UPDATED

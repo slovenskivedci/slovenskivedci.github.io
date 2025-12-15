@@ -21,6 +21,7 @@ for y in glob.glob("./config/conf.yaml"):
 
 import numpy as np
 KEY = np.random.randint(5)
+
  
 payload = {'api_key': conf['apikey%d'%KEY],
   'url': 'URL'}
@@ -134,7 +135,7 @@ for kv in people: # we start updating the last updated person
 				documents = yaml.dump(dic, file) 
 		
 		
-		
+	 
 	if not CONTINUE:
 		break
  

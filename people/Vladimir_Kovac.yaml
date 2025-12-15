@@ -7,9 +7,9 @@ field: "biol\xF3gia r\xFDb"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 30
+hindex: 31
 scholar: https://scholar.google.com/citations?user=wvefIYMAAAAJ
-last_update: '2025-12-06'
+last_update: '2025-12-13'
 links:
   Research Gate: https://www.researchgate.net/profile/Vladimir-Kovac
   web: https://www.ekologiauk.sk/tim-invaznej-biologie-a-ekomorfologie-ryb/
@@ -17,4 +17,4 @@ links:
   veda na dosah: https://vedanadosah.cvtisr.sk/priroda/biologia/ekolog-snazime-sa-napravit-co-sa-v-minulosti-na-dunaji-pokazilo/
   aq-bios: https://www.aqbios.com/
 img: Vladimir_Kovac.jpg
-update_status: ERROR
+update_status: UPDATED
