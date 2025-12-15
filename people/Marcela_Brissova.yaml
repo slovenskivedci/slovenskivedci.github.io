@@ -9,7 +9,7 @@ city: Nashville
 country: USA
 hindex: 52
 scholar: https://scholar.google.com.tr/citations?user=3rQF3wIAAAAJ&hl=en
-last_update: '2025-12-13'
+last_update: '2025-12-16'
 links:
   ResearchGate: https://www.researchgate.net/profile/Marcela-Brissova
   lab: https://labnodes.vanderbilt.edu/community/profile/id/2228
@@ -18,4 +18,4 @@ links:
   web 1: https://medicine.vumc.org/person/marcela-brissova-phd
   web 2: https://labnodes.vanderbilt.edu/member/profile/id/10427
 img: Marcela_Brissova.jpg
-update_status: UPDATED
+update_status: ERROR

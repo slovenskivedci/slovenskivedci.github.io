@@ -9,7 +9,7 @@ city: Gent
 country: Belgium
 hindex: 70
 scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
-last_update: '2025-12-13'
+last_update: '2025-12-16'
 links:
   LinkedIn: https://www.linkedin.com/in/imrich-chlamtac/
   "wikip\xE9dia": https://en.wikipedia.org/wiki/Imrich_Chlamtac
@@ -20,4 +20,4 @@ links:
   prabook: https://prabook.com/web/imrich.chlamtac/129216
   Semantic Scholar: https://www.semanticscholar.org/author/I.-Chlamtac/1700194
 img: Imrich_Chlamtac.jpg
-update_status: UPDATED
+update_status: ERROR

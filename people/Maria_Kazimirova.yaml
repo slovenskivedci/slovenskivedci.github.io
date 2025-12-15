@@ -9,7 +9,7 @@ city: Bratislava
 country: Slovensko
 hindex: 36
 scholar: https://scholar.google.hu/citations?user=SZhtoTQAAAAJ
-last_update: '2025-12-13'
+last_update: '2025-12-16'
 links:
   web: https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1943
   ResearchGate: https://www.researchgate.net/profile/Maria-Kazimirova
@@ -18,4 +18,4 @@ links:
   pravda.sk: https://ahojmama.pravda.sk/clanky/rozhovor-odbornicka-na-klieste-maria-kazimiro/12973-clanok.html
   "\u017Eivotopis": https://www.sav.sk/uploads/users_cv/20160922192707_964_Kazimirova_%C5%BDivotopis_Angl.pdf
 img: Maria_Kazimirova.jpg
-update_status: UPDATED
+update_status: ERROR

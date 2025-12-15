@@ -1,17 +1,18 @@
-name: "Jana Jakubíková"
-last: "Jakubíková"
+name: "Jana Jakub\xEDkov\xE1"
+last: "Jakub\xEDkov\xE1"
 year: ''
 sex: "\u017Eena"
 position: docentka
-field: "hematológia"
-affiliation: Slovenská akadémia vied
+field: "hematol\xF3gia"
+affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
 hindex: 32
 scholar: https://scholar.google.com/citations?hl=en&user=CEh_AqsAAAAJ
-last_update: '2025-12-15'
+last_update: '2025-12-16'
 links:
   web 1: https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=3569
   web 2: https://www.sav.sk/?lang=sk&charset=&doc=services-news&news_no=1527
-  životopis: https://www.nvr.sk/wcrd-2025-cv-jkana-jakubikova/
+  "\u017Eivotopis": https://www.nvr.sk/wcrd-2025-cv-jkana-jakubikova/
 img: Jana_Jakubikova_2.jpg
+update_status: ERROR

@@ -9,7 +9,7 @@ city: "\u017Dilina"
 country: Slovensko
 hindex: 42
 scholar: https://scholar.google.com/citations?user=14jeV0EAAAAJ
-last_update: '2025-12-13'
+last_update: '2025-12-16'
 links:
   web: https://ke.uniza.sk/sk/component/contact/contact/30-doc-ing-katarina-valaskova-phd?catid=33&Itemid=210
   orcid: https://orcid.org/0000-0003-4223-7519
@@ -17,4 +17,4 @@ links:
   Semantic Scholar: https://www.semanticscholar.org/author/K.-Valaskova/15349263
   "\u017Eivotopis": https://www.unipo.sk/public/media/43544/%C5%BDivotopis%20-%20Val%C3%A1%C5%A1kov%C3%A1.pdf
 img: Katarina_Valaskova.jpg
-update_status: UPDATED
+update_status: ERROR
