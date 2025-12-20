@@ -9,7 +9,7 @@ city: "Pre\u0161ov"
 country: Slovensko
 hindex: 37
 scholar: https://scholar.google.com/citations?user=uTmDnEsAAAAJ
-last_update: '2025-12-16'
+last_update: '2025-12-21'
 links:
   AD: https://www.adscientificindex.com/scientist.php?id=1237729
   Facebook: https://www.facebook.com/marek.chmelik.96
@@ -21,4 +21,4 @@ links:
   scopus: https://www.scopus.com/authid/detail.uri?authorId=16401060100
   "\u017Eivotopis": https://hfmr.meduniwien.ac.at/fileadmin/hfmr/files/CV/CV_Chmelik_PI.pdf
 img: Marek_Chmelik.jpg
-update_status: UPDATED
+update_status: ERROR
