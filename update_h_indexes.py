@@ -20,7 +20,7 @@ for y in glob.glob("./config/conf.yaml"):
 
 
 import numpy as np
-KEY = np.random.randint(5)
+KEY = np.random.randint(8)
 
  
 payload = {'api_key': conf['apikey%d'%KEY],
