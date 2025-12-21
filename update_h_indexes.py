@@ -65,7 +65,7 @@ for kv in people: # we start updating the last updated person
 	last_update_str = dic.get("last_update")
 	if last_update_str:
 		last_update = datetime.strptime(last_update_str, '%Y-%m-%d')
-		if datetime.today() - last_update < timedelta(days=7) and dic.get("update_status") != "ERROR":
+		if datetime.today() - last_update < timedelta(days=14) and dic.get("update_status") != "ERROR":
 			continue
 
 	try:
