@@ -7,7 +7,7 @@ field: "aplikovan\xE1 fyzika"
 affiliation: "Z\xE1pado\u010Desk\xE1 univerzita v Plzni"
 city: "Plze\u0148"
 country: "\u010Cesko"
-hindex: 47
+hindex: 50
 scholar: https://scholar.google.com/citations?user=EZ8YetQAAAAJ&amp;hl=en
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   web: https://cedam.ntc.zcu.cz/cz/kontakt.html
   "\u017Eivotopis": files/cv_Jan_Minar_2022.pdf
 img: Jan_Minar.jpeg
-update_status: ERROR
+update_status: UPDATED

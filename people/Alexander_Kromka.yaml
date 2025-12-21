@@ -7,7 +7,7 @@ field: "optick\xE9 materi\xE1ly"
 affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
 city: Praha
 country: "\u010Cesko"
-hindex: 40
+hindex: 43
 scholar: https://scholar.google.com/citations?user=3S5wnV8AAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -16,4 +16,4 @@ links:
   web: https://www.fzu.cz/~kromka/
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Mego/18_doc._Mego_-_zivotopis.pdf
 img: Alexander_Kromka.jpg
-update_status: ERROR
+update_status: UPDATED

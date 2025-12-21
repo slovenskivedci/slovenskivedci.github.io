@@ -7,7 +7,7 @@ field: "r\xE1diol\xF3gia"
 affiliation: University of Turku
 city: Turku
 country: "F\xEDnsko"
-hindex: 31
+hindex: 32
 scholar: https://scholar.google.com/citations?hl=en&user=fDMcW7wAAAAJ
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   publons: https://publons.com/author/859935/ivan-jambor
   twitter: https://x.com/jambor_ivan
 img: Ivan_Jambor.jpg
-update_status: ERROR
+update_status: UPDATED

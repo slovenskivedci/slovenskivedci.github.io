@@ -7,7 +7,7 @@ field: "po\u010D\xEDta\u010Dov\xE9 videnie"
 affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
 city: Praha
 country: "\u010Cesko"
-hindex: 32
+hindex: 33
 scholar: https://scholar.google.com/citations?user=M4a3VyYAAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -18,4 +18,4 @@ links:
   dblp: https://dblp.org/pid/17/4583.html
   vnd: https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/vitazka-cor-baayen-award-2015-zuzana-kukelova/
 img: Zuzana_Kukelova.jpg
-update_status: ERROR
+update_status: UPDATED

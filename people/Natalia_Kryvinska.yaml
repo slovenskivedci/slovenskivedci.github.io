@@ -7,7 +7,7 @@ field: "mana\u017Ement"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 35
+hindex: 41
 scholar: https://scholar.google.com/citations?user=HJtnSAkAAAAJ
 last_update: '2025-12-21'
 links:
@@ -20,4 +20,4 @@ links:
   dblp: https://dblp.org/pid/79/1814.html
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/FM_UK/2015_Kryvinska/AppendixB--Kryvinska-CV-FM-2014.pdf
 img: Natalia_Kryvinska.jpg
-update_status: ERROR
+update_status: UPDATED

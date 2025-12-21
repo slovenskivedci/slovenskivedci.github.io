@@ -7,7 +7,7 @@ field: "fyzik\xE1lna ch\xE9mia"
 affiliation: "Slovensk\xE1 technick\xE1 univerzita"
 city: Bratislava
 country: Slovensko
-hindex: 47
+hindex: 51
 scholar: https://scholar.google.co.uk/citations?user=kKciUuQAAAAJ&hl=en&oi=ao
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   web 1: https://ufchchf.fchpt.stuba.sk/en/people/academics/7-vlasta-brezova
   web 2: https://www.fchpt.stuba.sk/english/institutes-and-departments/institute-of-physical-chemistry-and-chemical-physics/department-of-physical-chemistry/staff.html?page_id=3970
 img: Vlasta_Brezova_400.jpg
-update_status: ERROR
+update_status: UPDATED

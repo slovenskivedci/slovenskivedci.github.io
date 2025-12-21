@@ -7,7 +7,7 @@ field: "molekul\xE1rna biol\xF3gia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 39
+hindex: 45
 scholar: https://scholar.google.sk/citations?hl=en&amp;user=Wt7wd3QAAAAJ
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   orcid: https://orcid.org/0000-0002-7268-1584
   web: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=10368
 img: Juraj_Majtan.jpg
-update_status: ERROR
+update_status: UPDATED

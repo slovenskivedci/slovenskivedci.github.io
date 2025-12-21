@@ -7,7 +7,7 @@ field: "onkol\xF3gia a epidemiol\xF3gia"
 affiliation: Georgia Institute of Technology
 city: Atlanta
 country: USA
-hindex: 32
+hindex: 34
 scholar: https://scholar.google.com/citations?hl=en&user=dQjETlwAAAAJ
 last_update: '2025-12-21'
 links:
@@ -22,4 +22,4 @@ links:
   kniha: https://www.teraz.sk/zdravie/terminologia-verejneho-zdravotnictva/183351-clanok.html
   preklad: https://www.lidovky.cz/domov/iracan-ktery-vodil-za-nos-nekolik-tajnych-sluzeb.A090516_000085_ln_noviny_sko
 img: Roman_Mezencev.jpg
-update_status: ERROR
+update_status: UPDATED

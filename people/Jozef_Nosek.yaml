@@ -7,7 +7,7 @@ field: "bioch\xE9mia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 31
+hindex: 33
 scholar: https://scholar.google.com/citations?hl=en&user=VzDSjLcAAAAJ
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   web: http://www.biocenter.sk/jn.html
   "\u017Eivotopis": http://www.biocenter.sk/jncv.html
 img: Jozef_Nosek.jpg
-update_status: ERROR
+update_status: UPDATED

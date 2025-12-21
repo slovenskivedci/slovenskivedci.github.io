@@ -7,7 +7,7 @@ field: "biotechnol\xF3gia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 44
+hindex: 46
 scholar: https://scholar.google.sk/citations?user=SojnMuAAAAAJ&amp;hl=sk
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   web: http://www.chem.sk/people/gemeinerpeter/
   "\u017Eivotopis": https://prabook.com/web/peter.gemeiner/337833
 img: Peter_Gemeiner.png
-update_status: ERROR
+update_status: UPDATED

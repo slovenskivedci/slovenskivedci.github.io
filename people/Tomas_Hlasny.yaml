@@ -7,7 +7,7 @@ field: "lesn\xEDctvo"
 affiliation: "\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze"
 city: Praha
 country: "\u010Cesko"
-hindex: 34
+hindex: 35
 scholar: https://scholar.google.com/citations?user=LgkWAqQAAAAJ
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   loop: https://loop.frontiersin.org/people/633726/bio
   YouTube: https://www.youtube.com/watch?v=p6uf0nYehsw
 img: Tomas_Hlasny.jpg
-update_status: ERROR
+update_status: UPDATED

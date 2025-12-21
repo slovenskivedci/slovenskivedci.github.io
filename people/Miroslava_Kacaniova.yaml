@@ -7,7 +7,7 @@ field: "mikrobiol\xF3gia"
 affiliation: "Slovensk\xE1 po\u013Enohospod\xE1rska univerzita"
 city: Nitra
 country: Slovensko
-hindex: 38
+hindex: 50
 scholar: https://scholar.google.sk/citations?user=1st0ejAAAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -21,4 +21,4 @@ links:
   vnd 3: https://vedanadosah.cvtisr.sk/priroda/biologia/video-slovenski-vedci-miroslava-kacaniova-vyskum-antibiotik/
   orcid: https://orcid.org/0000-0002-4460-0222
 img: Miroslava_Kacaniova_400.png
-update_status: ERROR
+update_status: UPDATED

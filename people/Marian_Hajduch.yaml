@@ -7,7 +7,7 @@ field: "onkol\xF3gia"
 affiliation: "Univerzita Palack\xE9ho v Olomouci"
 city: Olomouc
 country: "\u010Cesko"
-hindex: 56
+hindex: 61
 scholar: https://scholar.google.com/citations?user=-jBJ1_gAAAAJ
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   web: https://www.imtm.cz/users/mari%C3%A1n-hajd%C3%BAch
   "\u017Eivotopis": https://cenamesta.cz/laureati/marian-hajduch/
 img: Marian_Hajduch.jpg
-update_status: ERROR
+update_status: UPDATED

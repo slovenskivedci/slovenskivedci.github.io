@@ -7,7 +7,7 @@ field: "geol\xF3gia"
 affiliation: University of Missouri
 city: Columbia
 country: USA
-hindex: 39
+hindex: 41
 scholar: https://scholar.google.com/citations?user=qWOmZxQAAAAJ
 last_update: '2025-12-21'
 links:
@@ -16,4 +16,4 @@ links:
   web 2: http://faculty.missouri.edu/nabelekp/Welcome.html
   "\u017Eivotopis": https://geology.missouri.edu/sites/default/files/people-files/2019-09/nabelek_cv.pdf
 img: Peter_Nabelek.jpeg
-update_status: ERROR
+update_status: UPDATED

@@ -7,7 +7,7 @@ field: "kardiol\xF3gia"
 affiliation: Medical College of Wisconsin
 city: Milwaukee
 country: USA
-hindex: 33
+hindex: 34
 scholar: https://scholar.google.com/citations?user=tvt1qiQAAAAJ&hl=sk
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   web 2: https://www.nusch.sk/sk/o-nas/predstavitelia/predstavenstvo
   "\u017Eivotopis": files/cv_Viktor_Hraska.pdf
 img: Viktor_Hraska.jpg
-update_status: ERROR
+update_status: UPDATED

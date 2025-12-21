@@ -7,7 +7,7 @@ field: "farmakol\xF3gia"
 affiliation: "Slovensk\xE1 zdravotn\xEDcka univerzita"
 city: Bratislava
 country: Slovensko
-hindex: 45
+hindex: 48
 scholar: https://scholar.google.com/citations?hl=en&amp;user=iQivvkcAAAAJ
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   ResearchGate: https://www.researchgate.net/profile/Tomas-Trnovec
   pravda.sk: https://zurnal.pravda.sk/rozhovory/clanok/536256-tomas-trnovec-slovaci-su-rekorderi-v-jedoch-v-tele/
 img: Tomas_Trnovec.jpg
-update_status: ERROR
+update_status: UPDATED

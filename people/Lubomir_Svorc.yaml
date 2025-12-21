@@ -7,7 +7,7 @@ field: "analytick\xE1 ch\xE9mia"
 affiliation: "Slovensk\xE1 technick\xE1 univerzita"
 city: Bratislava
 country: Slovensko
-hindex: 36
+hindex: 41
 scholar: https://scholar.google.com/citations?hl=en&user=AudOPSIAAAAJ
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   orcid: https://orcid.org/0000-0002-9588-8609
   web: https://is.stuba.sk/lide/clovek.pl?id=19350;lang=sk
 img: Lubomir_Svorc.jpg
-update_status: ERROR
+update_status: UPDATED

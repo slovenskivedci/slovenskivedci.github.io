@@ -7,7 +7,7 @@ field: "biotechnol\xF3gia"
 affiliation: "Slovensk\xE1 technick\xE1 univerzita"
 city: Bratislava
 country: Slovensko
-hindex: 34
+hindex: 35
 scholar: https://scholar.google.com/citations?user=UKDrvpQAAAAJ&amp
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   orcid: https://orcid.org/0000-0003-2171-8153
   prabook: https://prabook.com/web/milan.certik/335639
 img: Milan_Certik.jpg
-update_status: ERROR
+update_status: UPDATED

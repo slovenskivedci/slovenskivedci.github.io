@@ -7,7 +7,7 @@ field: "subjadrov\xE1 fyzika"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 255
+hindex: 256
 scholar: https://scholar.google.com/citations?user=2HzXQEkAAAAJ
 last_update: '2025-12-21'
 links:
@@ -20,4 +20,4 @@ links:
   web 1: http://atlas.hep.dnp.fmph.uniba.sk/~tokar/MyHomePage.html
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Tokar/01_inauguracia_zivotopis__tokar.pdf
 img: Stanislav_Tokar.jpg
-update_status: ERROR
+update_status: UPDATED

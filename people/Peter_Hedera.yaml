@@ -7,7 +7,7 @@ field: "neurol\xF3gia"
 affiliation: University of Louisville
 city: Louisville
 country: USA
-hindex: 52
+hindex: 55
 scholar: https://scholar.google.com/citations?user=QB0X-6sAAAAJ
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   loop: https://loop.frontiersin.org/people/118500/overview
   web: https://uoflphysicians.com/provider/peter-hedera/
 img: Peter_Hedera.jpg
-update_status: ERROR
+update_status: UPDATED

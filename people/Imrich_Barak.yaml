@@ -7,7 +7,7 @@ field: "molekul\xE1rna biol\xF3gia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 34
+hindex: 36
 scholar: https://scholar.google.com/citations?user=BvXxXusAAAAJ&amp;hl=sk
 last_update: '2025-12-21'
 links:
@@ -18,4 +18,4 @@ links:
   osobnosti: https://www.osobnosti.sk/osobnost/imrich-barak-537
   web: http://imb.savba.sk/~barak/
 img: Imrich_Barak.jpg
-update_status: ERROR
+update_status: UPDATED

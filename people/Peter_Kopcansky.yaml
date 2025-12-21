@@ -7,7 +7,7 @@ field: "experiment\xE1lna fyzika"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: "Ko\u0161ice"
 country: Slovensko
-hindex: 37
+hindex: 41
 scholar: https://scholar.google.com/citations?user=ZCMAk9sAAAAJ
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   web: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=4000
   "\u017Eivotopis": https://www.sav.sk/uploads/users_cv/20160108133831_137_2015_PK_Vedeckyzivotopis_ENG.pdf
 img: Peter_Kopcansky.jpeg
-update_status: ERROR
+update_status: UPDATED

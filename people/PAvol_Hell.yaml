@@ -7,7 +7,7 @@ field: "grafov\xE9 algoritmy"
 affiliation: Simon Fraser University
 city: Burnaby
 country: Kanada
-hindex: 50
+hindex: 51
 scholar: https://scholar.google.sk/citations?hl=sk&amp;user=8KDwlbEAAAAJ
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   web: https://www2.cs.sfu.ca/~pavol/
   "wikip\xE9dia": https://en.wikipedia.org/wiki/Pavol_Hell
 img: Pavol_Hell.jpg
-update_status: ERROR
+update_status: UPDATED

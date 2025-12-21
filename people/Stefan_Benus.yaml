@@ -7,7 +7,7 @@ field: "cudzie jazyky a kult\xFAra"
 affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
 city: Nitra
 country: Slovensko
-hindex: 30
+hindex: 31
 scholar: https://scholar.google.com/citations?hl=en&user=UHGYV8UAAAAJ
 last_update: '2025-12-21'
 links:
@@ -18,4 +18,4 @@ links:
   trochu_inak: https://podmaz.sk/podcast/trochu-inak-s-adelou/3374454259-stefan-benus
   pravda: https://zurnal.pravda.sk/rozhovory/clanok/646547-zdoveria-sa-ludia-viac-robotom-ako-ludom/
 img: Stefan_Benus.jpg
-update_status: ERROR
+update_status: UPDATED

@@ -7,7 +7,7 @@ field: "neurol\xF3gia"
 affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
 city: "Ko\u0161ice"
 country: Slovensko
-hindex: 37
+hindex: 38
 scholar: https://scholar.google.com/citations?user=bHMoRzIAAAAJ
 links:
   web 1: https://www.upjs.sk/LF/zamestnanec/zuzana.gdovinova/
@@ -17,4 +17,4 @@ links:
   "\u017Eivotopis": https://www.neurologiepropraxi.cz/pdfs/neu/2019/01/17.pdf
 img: Zuzana_Gdovinova.jpg
 last_update: '2025-12-21'
-update_status: ERROR
+update_status: UPDATED

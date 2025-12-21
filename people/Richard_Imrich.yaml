@@ -7,7 +7,7 @@ field: "biomedic\xEDna"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 32
+hindex: 33
 scholar: https://scholar.google.sk/citations?user=UTQ13_oAAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   LinkedIn: https://www.linkedin.com/in/richard-imrich-8347269/?originalSubdomain=sk
   Nylon Union: https://www.newmodelradio.sk/120-minut-s-hudbou-nasho-hosta-richard-imrich-nylon-union/
 img: Richard_Imrich.jpg
-update_status: ERROR
+update_status: UPDATED

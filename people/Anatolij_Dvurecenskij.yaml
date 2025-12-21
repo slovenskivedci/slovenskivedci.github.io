@@ -7,7 +7,7 @@ field: matematika
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 32
+hindex: 33
 scholar: https://scholar.google.com/citations?user=5180vHmRoYcC&hl=en
 last_update: '2025-12-21'
 links:
@@ -20,4 +20,4 @@ links:
   "\u017Eivotopis": "https://www.ku.sk/images/dokumenty/pf/dokumenty/veda_a_vyskum/projekty_a_granty/kega/1._\u017E\
     ivotopis_prof._dvure\u010Denskij14421.pdf"
 img: Anatolij_Dvurecenskij.jpeg
-update_status: ERROR
+update_status: UPDATED

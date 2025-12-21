@@ -7,7 +7,7 @@ field: "ch\xE9mia"
 affiliation: "Univerzita Palack\xE9ho v Olomouci"
 city: Olomouc
 country: "\u010Cesko"
-hindex: 37
+hindex: 40
 scholar: https://scholar.google.com/citations?user=t_V_OnwAAAAJ
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   publons: https://publons.com/researcher/1372193/radovan-herchel/
   web: https://www.prf.upol.cz/nc/afc/kontakty/vizitka/empid/22158/
 img: Radovan_Herchel.jpg
-update_status: ERROR
+update_status: UPDATED

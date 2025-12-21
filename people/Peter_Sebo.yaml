@@ -7,7 +7,7 @@ field: "mikrobiol\xF3gia"
 affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
 city: Praha
 country: "\u010Cesko"
-hindex: 51
+hindex: 55
 scholar: https://scholar.google.com/citations?user=S2rPQ8MAAAAJ&amp
 last_update: '2025-12-21'
 links:
@@ -20,4 +20,4 @@ links:
   web: https://mbucas.cz/en/research/microbiology/laboratory-of-molecular-biology-of-bacterial-pathogens/
   "\u017Eivotopis": https://independent.academia.edu/PeterSebo/CurriculumVitae
 img: Peter_Sebo.jpeg
-update_status: ERROR
+update_status: UPDATED

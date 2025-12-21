@@ -7,7 +7,7 @@ field: "behavior\xE1lna ekol\xF3gia"
 affiliation: "Univerzita Palack\xE9ho v Olomouci"
 city: Olomouc
 country: "\u010Cesko"
-hindex: 45
+hindex: 47
 scholar: https://scholar.google.com/citations?hl=en&amp;user=T0MNJGgAAAAJ
 last_update: '2025-12-21'
 links:
@@ -16,4 +16,4 @@ links:
   orcid: https://orcid.org/0000-0002-5775-6269
   web: http://www.tomasgrim.com
 img: Tomas_Grim.jpg
-update_status: ERROR
+update_status: UPDATED

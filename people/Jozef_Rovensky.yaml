@@ -7,7 +7,7 @@ field: "reumatol\xF3gia"
 affiliation: "N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4b"
 city: "Pie\u0161\u0165any"
 country: Slovensko
-hindex: 49
+hindex: 52
 scholar: https://scholar.google.com/citations?hl=en&user=fDCOJWcAAAAJ
 last_update: '2025-12-21'
 links:
@@ -18,4 +18,4 @@ links:
   vedec roka: https://vedanadosah.cvtisr.sk/wp-content/uploads/2020/09/LAUDATIO-2013-ROVENSKY.pdf
   "\u017Eivotopis": https://www.pic-piestany.sk/o-meste/vyznamne-osobnosti/detaily/?tx_kioscosmotron_pi1%5Bdetail%5D=r101
 img: Jozef_Rovensky.png
-update_status: ERROR
+update_status: UPDATED

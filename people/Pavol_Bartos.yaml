@@ -7,7 +7,7 @@ field: "subjadrov\xE1 fyzika"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 228
+hindex: 229
 scholar: https://scholar.google.com/citations?hl=en&user=pCW77HEAAAAJ
 last_update: '2025-12-21'
 links:
@@ -16,4 +16,4 @@ links:
   CERN: https://cds.cern.ch/search?f=author&p=Bartos%2C%20Pavol&ln=en
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Bartos/CV.pdf
 img: Pavol_Bartos.jpg
-update_status: ERROR
+update_status: UPDATED

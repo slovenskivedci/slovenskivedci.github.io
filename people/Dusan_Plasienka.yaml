@@ -7,7 +7,7 @@ field: "geol\xF3gia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 32
+hindex: 36
 scholar: https://scholar.google.com/citations?user=JCOUk6EAAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -15,4 +15,4 @@ links:
   web: https://geopaleo.sk/plasienka-dusan/
   "\u017Eivotopis": https://geopaleo.sk/plasienka-dusan/plasienka-dusan-cv/
 img: Dusan_Plasienka.jpg
-update_status: ERROR
+update_status: UPDATED

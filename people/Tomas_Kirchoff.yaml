@@ -7,7 +7,7 @@ field: genetika rakoviny
 affiliation: New York University
 city: New York
 country: USA
-hindex: 43
+hindex: 47
 scholar: https://scholar.google.com/citations?hl=en&user=RSuayLUAAAAJ
 last_update: '2025-12-21'
 links:
@@ -19,4 +19,4 @@ links:
   web 1: https://www.kirchhofflab.org/team
   web 2: https://med.nyu.edu/faculty/tomas-kirchhoff
 img: Tomas_Kirchhoff.jpg
-update_status: ERROR
+update_status: UPDATED

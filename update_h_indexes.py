@@ -5,7 +5,7 @@ import os
 #from serpapi import GoogleSearch
 import glob
 import pickle 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 
@@ -61,6 +61,13 @@ CONTINUE = True
 
 for kv in people: # we start updating the last updated person
 	y, dic = kv
+
+	last_update_str = dic.get("last_update")
+	if last_update_str:
+		last_update = datetime.strptime(last_update_str, '%Y-%m-%d')
+		if datetime.today() - last_update < timedelta(days=7) and dic.get("update_status") != "ERROR":
+			continue
+
 	try:
 		print("\n\n processing....")
 		print("BEFORE",y, dic["hindex"])
@@ -68,14 +75,14 @@ for kv in people: # we start updating the last updated person
 		
 		
 		if "hl=en&amp;" in url:
-			print('ccccccc',url)
+			print('correcting url',url)
 			url = url.replace("hl=en&amp;","hl=en&")  
 			
 		if "&amp;hl=sk" in url:
-			print('ccccccc',url)
+			print('correcting url',url)
 			url = url.replace("&amp;hl=sk","&hl=en")  
 		if "hl=sk&amp;" in url:
-			print('ccccccc',url)
+			print('correcting url',url)
 			url = url.replace("hl=sk&amp;","hl=en&")  
 				
 		if "hl=" not in url:
@@ -118,11 +125,22 @@ for kv in people: # we start updating the last updated person
 			documents = yaml.dump(dic, file) 
 		 
 		
+
+
+
+
 	except:
 		print("erro",y)
-		if "You've hit the request limit" in resp:
+
+
+		# You have exhausted the API Credits available in this monthly cycle. You can upgrade your subscription or enable overages from your dashboard (https://dashboard.scraperapi.com/billing). For custom plan upgrades, please contact support (https://www.scraperapi.com/support/).
+		if "exhausted the API Credits" in resp:
 			CONTINUE = False
 			print("hitting limit")
+		elif "Unauthorized" in resp:
+			CONTINUE = False
+			print("unauthorized - wrong key")
+			 		
 		else:
 			
 			print(resp)
@@ -138,6 +156,8 @@ for kv in people: # we start updating the last updated person
 	 
 	if not CONTINUE:
 		break
+
+
  
 '''
 				

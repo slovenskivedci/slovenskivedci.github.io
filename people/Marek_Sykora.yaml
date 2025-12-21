@@ -7,7 +7,7 @@ field: "neurol\xF3gia"
 affiliation: Sigmund Freud University
 city: "Viede\u0148"
 country: "Rak\xFAsko"
-hindex: 35
+hindex: 36
 scholar: https://scholar.google.com/citations?user=sYVE8VIAAAAJ
 last_update: '2025-12-21'
 links:
@@ -17,4 +17,4 @@ links:
   web: https://www.sfu.ac.at/en/person/sykora-marek/
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Sykora/32_Priv_Doz_Sykora_zivotopis.pdf
 img: Marek_Sykora.jpg
-update_status: ERROR
+update_status: UPDATED

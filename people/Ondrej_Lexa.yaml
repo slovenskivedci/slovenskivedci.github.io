@@ -7,7 +7,7 @@ field: "\u0161truktur\xE1lna geol\xF3gia a tektonika"
 affiliation: Univerzita Karlova
 city: Praha
 country: "\u010Cesko"
-hindex: 44
+hindex: 45
 scholar: https://scholar.google.com/citations?hl=en&user=lo8ugg0AAAAJ
 last_update: '2025-12-21'
 links:
@@ -20,4 +20,4 @@ links:
   web: https://petrol.natur.cuni.cz/~ondro/
   "\u017Eivotopis": https://petrol.natur.cuni.cz/~ondro/research/cv
 img: Ondrej_Lexa.jpg
-update_status: ERROR
+update_status: UPDATED

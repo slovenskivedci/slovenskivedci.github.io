@@ -7,7 +7,7 @@ field: "finan\u010Dn\xFD mana\u017Ement"
 affiliation: "\u017Dilinsk\xE1 univerzita"
 city: "\u017Dilina"
 country: Slovensko
-hindex: 40
+hindex: 48
 scholar: https://scholar.google.com/citations?user=zsFNpOgAAAAJ&hl=en
 last_update: '2025-12-21'
 links:
@@ -18,4 +18,4 @@ links:
   repec: https://ideas.repec.org/e/pkl192.html
   "\u017Eivotopis": https://www.uniza.sk/document/hab_in/529885c867b31.pdf
 img: Tomas_Kliestik.jpg
-update_status: ERROR
+update_status: UPDATED
