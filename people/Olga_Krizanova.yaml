@@ -7,9 +7,9 @@ field: "lak\xE1rska ch\xE9mia a bioch\xE9mia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratslava
 country: Slovensko
-hindex: 34
+hindex: 37
 scholar: https://scholar.google.com/citations?hl=en&user=ZUBSQgEAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-26'
 links:
   web 1: https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1383
   web 2: https://cuni.cz/UK-4106.html
@@ -19,4 +19,4 @@ links:
   ResearchGate: https://www.researchgate.net/profile/Olga-Krizanova/7
   "\u017Eivotopis": https://www.learned.sk/wp-content/uploads/2019/10/CV_Krizanova.pdf
 img: Olga_Krizanova.jpg
-update_status: ERROR
+update_status: UPDATED

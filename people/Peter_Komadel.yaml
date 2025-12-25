@@ -7,9 +7,9 @@ field: "anorganick\xE1 ch\xE9mia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 49
+hindex: 50
 scholar: https://scholar.google.com/citations?user=ubIkrj4AAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-26'
 links:
   learned.sk: https://www.learned.sk/rndr-peter-komadel-drsc/
   Semantic Scholar: https://www.semanticscholar.org/author/P.-Komadel/16231373
@@ -19,4 +19,4 @@ links:
   "\u017Eivotopis 1": http://www.slovakclaygroup.sk/en/events/45-memory-of-dr-peter-komadel
   "\u017Eivotopis 2": https://www.learned.sk/smutocny-oznam-10/
 img: Peter_Komadel.jpg
-update_status: ERROR
+update_status: UPDATED

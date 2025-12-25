@@ -9,7 +9,7 @@ city: Kjeller
 country: "N\xF3rsko"
 hindex: 74
 scholar: https://scholar.google.com/citations?user=tF7f4yEAAAAJ&hl=en
-last_update: '2025-12-21'
+last_update: '2025-12-26'
 links:
   ResearchGate: https://www.researchgate.net/profile/Maria-Dusinska
   loop: https://loop.frontiersin.org/people/110414/overview
@@ -18,4 +18,4 @@ links:
   web: https://www.nilu.com/employee/maria-dusinska/
   "\u017Eivotopis": https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/cv_sccs_dusinska_en.pdf
 img: Maria_Dusinska.jpg
-update_status: ERROR
+update_status: UPDATED

@@ -7,9 +7,9 @@ field: "antibakteri\xE1lne materi\xE1ly"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 35
+hindex: 40
 scholar: https://scholar.google.sk/citations?user=4ZghBr8AAAAJ&hl=sk
-last_update: '2025-12-21'
+last_update: '2025-12-26'
 links:
   ResearchGate: https://www.researchgate.net/profile/Zdenko_Spitalsky
   orcid: http://orcid.org/0000-0003-2589-9035
@@ -21,4 +21,4 @@ links:
   Facebook: https://www.facebook.com/RadioSlovensko/photos/a.191685380912495/3633075276773471/?type=3
   academia.edu: https://sav-sk.academia.edu/ZdenkoSpitalsky
 img: Zdenko_Spitalsky.jpg
-update_status: ERROR
+update_status: UPDATED

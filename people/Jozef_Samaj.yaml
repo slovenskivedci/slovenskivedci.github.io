@@ -9,7 +9,7 @@ city: Olomouc
 country: "\u010Cesko"
 hindex: 68
 scholar: https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en
-last_update: '2025-12-21'
+last_update: '2025-12-26'
 links:
   web: https://kbt.upol.cz/en/
   "\u017Eivotopis": "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160\
@@ -20,4 +20,4 @@ links:
   learned.sk: https://www.learned.sk/clenovia/riadni-clenovia/
   orcid: https://orcid.org/0000-0003-4750-2123
 img: Jozef_Samaj.jpg
-update_status: ERROR
+update_status: UPDATED
