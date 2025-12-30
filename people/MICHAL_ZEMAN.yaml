@@ -7,12 +7,12 @@ field: "biol\xF3gia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 39
+hindex: 43
 scholar: https://scholar.google.com/citations?user=dWhSd2wAAAAJ&amp;hl=en&amp;oi=sra
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   orcid: https://orcid.org/0000-0002-2712-6805
   publons: https://publons.com/researcher/2024259/michal-zeman/
   web: https://fns.uniba.sk/kontakt/zamestnanci-prif-uk/?tx_unibausers_pi1[person]=zeman1
 img: Michal_Zeman.jpg
-update_status: ERROR
+update_status: UPDATED

@@ -7,9 +7,9 @@ field: "modifik\xE1cia polym\xE9rov"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 37
+hindex: 40
 scholar: https://scholar.google.com/citations?hl=en&user=OGYiJWwAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   LinkedIn: https://www.linkedin.com/in/ivan-chodak-62147018/?originalSubdomain=sk
   ResearchGate: https://www.researchgate.net/profile/Ivan-Chodak
@@ -19,4 +19,4 @@ links:
   publons: https://publons.com/researcher/1370931/ivan-chodak/
   web: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1629
 img: Ivan_Chodak.jpg
-update_status: ERROR
+update_status: UPDATED

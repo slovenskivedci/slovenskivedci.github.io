@@ -7,12 +7,12 @@ field: "molekul\xE1rna biofyzika"
 affiliation: Lawrence Berkeley National Laboratory
 city: Berkeley
 country: USA
-hindex: 48
+hindex: 56
 scholar: https://scholar.google.com/citations?hl=en&user=ElcuTkwAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   ResearchGate: https://www.researchgate.net/profile/Michal-Hammel
   orcid: https://orcid.org/0000-0002-5610-9289
   web: https://biosciences.lbl.gov/profiles/michal-hammel-2/
 img: Michal_Hammel.jpg
-update_status: ERROR
+update_status: UPDATED

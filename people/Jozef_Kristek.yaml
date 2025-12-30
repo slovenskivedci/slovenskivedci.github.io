@@ -7,9 +7,9 @@ field: geofyzika
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 35
+hindex: 36
 scholar: https://scholar.google.com/citations?user=CgbiV4EAAAAJ&amp;hl=en
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   web 1: http://www.nuquake.eu
   orcid: https://orcid.org/0000-0002-2332-541X
@@ -17,4 +17,4 @@ links:
   ResearchGate: https://www.researchgate.net/profile/Jozef-Kristek
   publons: https://publons.com/researcher/1444523/jozef-kristek/
 img: Jozef_Kristek.jpg
-update_status: ERROR
+update_status: UPDATED

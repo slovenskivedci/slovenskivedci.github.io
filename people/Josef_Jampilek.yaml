@@ -7,9 +7,9 @@ field: "medicin\xE1lna ch\xE9mia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 49
+hindex: 54
 scholar: https://scholar.google.sk/citations?user=co9rdhQAAAAJ&hl=en
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   ResearchGate: https://www.researchgate.net/profile/Josef-Jampilek-2
   orcid: https://orcid.org/0000-0003-2003-9052
@@ -17,4 +17,4 @@ links:
   web: https://analytika.sk/o-nas/pracovnici/josef-jampilek/
   "\u017Eivotopis": http://www.gnnconf.org/Speaker/Details?id=431
 img: Josef_Jampilek.jpg
-update_status: ERROR
+update_status: UPDATED

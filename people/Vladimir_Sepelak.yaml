@@ -7,9 +7,9 @@ field: "nanotechnol\xF3gia"
 affiliation: Karlsruhe Institute of Technology
 city: Karlsruhe
 country: Nemecko
-hindex: 46
+hindex: 48
 scholar: https://scholar.google.com/citations?user=gpGngJUAAAAJ&hl=en&oi=sra
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   Semantic Scholar: "https://www.semanticscholar.org/author/Vladimir-\u0160epel\xE1\
     k/2089505568"
@@ -18,4 +18,4 @@ links:
   web: https://www.int.kit.edu/1801_749.php
   "\u017Eivotopis": https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Vladimir-Sepelak.pdf
 img: Vladimir_Sepelak_400.png
-update_status: ERROR
+update_status: UPDATED

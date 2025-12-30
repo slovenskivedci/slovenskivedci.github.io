@@ -7,12 +7,12 @@ field: "bioch\xE9mia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 45
+hindex: 48
 scholar: https://scholar.google.com/citations?hl=en&amp;user=1bNNlZUAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   osobnosti: https://www.osobnosti.sk/osobnost/olga-pechanova-654
   web: http://cem.sav.sk/index.php/en/cem/
   "\u017Eivotopis": https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Pechanova/H13_RNDr._Pechanova_-_zivotopis.pdf
 img: Olga_Pechanova.jpg
-update_status: ERROR
+update_status: UPDATED

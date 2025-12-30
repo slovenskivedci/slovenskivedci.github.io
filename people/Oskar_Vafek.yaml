@@ -7,9 +7,9 @@ field: "fyzika tuh\xFDch l\xE1tok"
 affiliation: Florida State University
 city: Tallahassee
 country: USA
-hindex: 35
+hindex: 41
 scholar: https://scholar.google.com/citations?user=-toxVLsAAAAJ&amp;hl=en
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   LinkedIn: https://www.linkedin.com/in/oskar-vafek-14a39b8/
   orcid: https://orcid.org/0000-0001-7561-9287
@@ -17,4 +17,4 @@ links:
   web 2: https://fs.magnet.fsu.edu/~vafek/
   "\u017Eivotopis": https://fs.magnet.fsu.edu/~vafek/cv2015 Apr.pdf
 img: Oskar_Vafek.jpg
-update_status: ERROR
+update_status: UPDATED

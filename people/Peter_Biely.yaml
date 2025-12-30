@@ -7,13 +7,13 @@ field: "bioch\xE9mia"
 affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 62
+hindex: 64
 scholar: https://scholar.google.com/citations?hl=en&amp;user=NvXlxjkAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   orcid: https://orcid.org/0000-0002-9915-7707
   publons: https://publons.com/researcher/4030831/peter-biely/
   web: http://www.chem.sk/people/bielypeter/
   "\u017Eivotopis": "https://www.learned.sk/wp-content/uploads/2020/03/\u017Divotopis-Peter-Biely.pdf"
 img: Peter_Biely.jpg
-update_status: ERROR
+update_status: UPDATED

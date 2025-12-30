@@ -7,9 +7,9 @@ field: "teoretick\xE1 ch\xE9mia"
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
-hindex: 41
+hindex: 45
 scholar: https://scholar.google.com/citations?hl=en&user=lZvsE4EAAAAJ
-last_update: '2025-12-21'
+last_update: '2025-12-31'
 links:
   dblp: https://dblp.org/pid/16/796.html
   learned.sk: https://www.learned.sk/prof-rndr-jozef-noga-drsc/
@@ -21,4 +21,4 @@ links:
   web 2: https://uniba.sk/ludia/noga2
   "\u017Eivotopis": https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Noga/jozef_noga_2014.pdf
 img: Jozef_Noga.jpg
-update_status: ERROR
+update_status: UPDATED
