@@ -1130,7 +1130,7 @@
   country: "Austr\xE1lia"
   hindex: 68
   scholar: https://scholar.google.com.au/citations?hl=en&amp;user=Q_0mjq0AAAAJ
-  last_update: '2025-12-31'
+  last_update: '2026-01-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/371235/overview
@@ -1881,7 +1881,7 @@
   country: Slovensko
   hindex: 57
   scholar: https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ
-  last_update: '2025-12-26'
+  last_update: '2026-01-01'
   links:
   - - facebook
     - https://m.facebook.com/peter.kubatka
@@ -1918,7 +1918,7 @@
   country: USA
   hindex: 57
   scholar: https://scholar.google.com/citations?hl=en&amp;user=NTGtkq0AAAAJ
-  last_update: '2025-12-26'
+  last_update: '2026-01-01'
   links:
   - - orcid
     - https://orcid.org/0000-0001-5048-6422
@@ -3962,7 +3962,7 @@
   country: Slovensko
   hindex: 46
   scholar: https://scholar.google.com/citations?user=uA0tObYAAAAJ&amp;hl=en
-  last_update: '2025-12-31'
+  last_update: '2026-01-01'
   links:
   - - publons
     - https://publons.com/researcher/1220455/karol-marhold/
@@ -4420,7 +4420,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 44
   scholar: https://scholar.google.sk/citations?hl=en&amp;user=2f6Yg78AAAAJ
-  last_update: '2025-12-21'
+  last_update: '2026-01-01'
   links:
   - - orcid
     - https://orcid.org/0000-0002-3176-8069
@@ -4429,7 +4429,7 @@
   - - web 2
     - https://pureportal.strath.ac.uk/en/persons/ivan-glesk
   img: Ivan_Glesk.jpeg
-  update_status: ERROR
+  update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: elektrotechnika
   positionurl: profesor
@@ -4841,7 +4841,7 @@
   country: "Rak\xFAsko"
   hindex: 43
   scholar: https://scholar.google.com/citations?user=3PIAo10AAAAJ&amp;hl=en
-  last_update: '2025-12-26'
+  last_update: '2026-01-01'
   links:
   - - orcid
     - https://orcid.org/0000-0002-7016-8584
