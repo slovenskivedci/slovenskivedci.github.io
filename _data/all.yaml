@@ -592,7 +592,7 @@
   country: Slovensko
   hindex: 77
   scholar: https://scholar.google.co.uk/citations?user=Ey9s5FcAAAAJ&hl=en&oi=ao
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/eleonora-fabianova-09818942/?originalSubdomain=sk
@@ -601,7 +601,7 @@
   - - "\u017Eivotopis"
     - https://www.vzbb.sk/sk/historia/fabianova_eleonora_zivotopis.pdf
   img: Eleonora_Fabianova.jpg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: Slovensko
   fieldurl: verejne_zdravotnictvo
   positionurl: docentka
