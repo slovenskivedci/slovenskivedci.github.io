@@ -7839,7 +7839,7 @@
   country: USA
   hindex: 34
   scholar: https://scholar.google.com/citations?hl=en&user=dQjETlwAAAAJ
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - kniha
     - https://www.teraz.sk/zdravie/terminologia-verejneho-zdravotnictva/183351-clanok.html
@@ -7862,7 +7862,7 @@
   - - web
     - https://biosciences.gatech.edu/people/roman-mezencev
   img: Roman_Mezencev.jpg
-  update_status: UPDATED
+  update_status: ERROR
   countryurl: USA
   fieldurl: onkologia_a_epidemiologia
   positionurl: vedec

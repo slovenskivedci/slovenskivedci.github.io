@@ -9,7 +9,7 @@ city: Atlanta
 country: USA
 hindex: 34
 scholar: https://scholar.google.com/citations?hl=en&user=dQjETlwAAAAJ
-last_update: '2026-01-21'
+last_update: '2026-02-10'
 links:
   ResearchGate: https://www.researchgate.net/profile/Roman-Mezencev
   orcid: https://orcid.org/0000-0003-4361-7628
@@ -22,4 +22,4 @@ links:
   kniha: https://www.teraz.sk/zdravie/terminologia-verejneho-zdravotnictva/183351-clanok.html
   preklad: https://www.lidovky.cz/domov/iracan-ktery-vodil-za-nos-nekolik-tajnych-sluzeb.A090516_000085_ln_noviny_sko
 img: Roman_Mezencev.jpg
-update_status: UPDATED
+update_status: ERROR
