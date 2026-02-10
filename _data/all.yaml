@@ -75,7 +75,7 @@
   country: Slovensko
   hindex: 229
   scholar: https://scholar.google.com/citations?hl=en&user=pCW77HEAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - CERN
     - https://cds.cern.ch/search?f=author&p=Bartos%2C%20Pavol&ln=en
@@ -102,9 +102,9 @@
   affiliation: Technical University Dortmund
   city: Dortmund
   country: Nemecko
-  hindex: 195
+  hindex: 196
   scholar: https://scholar.google.com/citations?hl=sk&user=ySoDoW4AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - inspireHEP
     - https://inspirehep.net/authors/1346585
@@ -340,7 +340,7 @@
   country: Kanada
   hindex: 92
   scholar: https://scholar.google.com/citations?user=b-gm8tgAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - AMiner
     - https://www.aminer.org/profile/jan-veizer/53f4ca6bdabfaee57b77fdf2
@@ -495,7 +495,7 @@
   country: Slovensko
   hindex: 80
   scholar: https://scholar.google.com/citations?user=_kXpl5YAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/62/2253.html
@@ -662,7 +662,7 @@
   country: "Saudsk\xE1 Ar\xE1bia"
   hindex: 75
   scholar: https://scholar.google.com/citations?user=pGh242UAAAAJ&amp
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/62/8001.html
@@ -710,7 +710,7 @@
   city: Bratislava
   country: Slovensko
   hindex: 75
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   scholar: https://scholar.google.com/citations?user=aC__pxUAAAAJ
   links:
   - - ESET Science Award
@@ -928,7 +928,7 @@
   country: Belgium
   hindex: 70
   scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - ACM
     - https://dl.acm.org/profile/81100299315
@@ -965,7 +965,7 @@
   country: Nemecko
   hindex: 70
   scholar: https://scholar.google.de/citations?user=bNu69CcAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - web
     - http://www.physik.uni-regensburg.de/forschung/fabian/
@@ -1091,7 +1091,7 @@
   country: USA
   hindex: 68
   scholar: https://scholar.google.com/citations?user=UVGb060AAAAJ&amp
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - "na\u0161i a svetov\xED"
     - https://slovensko.rtvs.sk/relacie/nasi-a-svetovi/175882/nasi-a-svetovi-peter-sutovsky
@@ -1583,9 +1583,9 @@
   affiliation: "J\xFClich Research Centre"
   city: "J\xFClich"
   country: Nemecko
-  hindex: 61
+  hindex: 62
   scholar: https://scholar.google.com/citations?hl=en&user=qZt_50MAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - AcademiaNet
     - https://www.academia-net.org/profil/prof-dr-dr-livia-ludhova/1877446
@@ -1628,7 +1628,7 @@
   country: "\u010Cesko"
   hindex: 61
   scholar: https://scholar.google.com/citations?hl=en&user=DUYrlx0AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - brno.sk
     - https://www.brno.cz/w/prof-mudr-ivan-rektor-csc-fana-fcma
@@ -1754,7 +1754,7 @@
   country: Slovensko
   hindex: 59
   scholar: https://scholar.google.sk/citations?user=q6uGy_4AAAAJ&amp;hl=sk
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - learned.sk
     - https://www.learned.sk/prof-pavol-prokop-paeddr-drsc/
@@ -1785,7 +1785,7 @@
   country: Slovensko
   hindex: 59
   scholar: https://scholar.google.com/citations?user=EuDw2JcAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - osobnosti
     - https://www.osobnosti.sk/osobnost/jan-sladek-590
@@ -1833,7 +1833,7 @@
   country: "\u0160vaj\u010Diarsko"
   hindex: 58
   scholar: https://scholar.google.com/citations?user=HQl63YoAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/adamcik-jozef-6a65878a/?originalSubdomain=ch
@@ -1885,7 +1885,7 @@
   country: "Rak\xFAsko"
   hindex: 57
   scholar: https://scholar.google.com/citations?user=vPBEaHQAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/jozef-keckes-427669110/?originalSubdomain=at
@@ -2146,34 +2146,6 @@
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
   sexurl: muz
-- name: "Ivan Tk\xE1\u010D"
-  last: Tkac
-  year: 1954
-  sex: "mu\u017E"
-  position: "odborn\xFD asistent"
-  field: "r\xE1diol\xF3gia"
-  affiliation: University of Minnesota
-  city: Twin Cities
-  country: USA
-  hindex: 56
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=DNCCZHYAAAAJ
-  last_update: '2026-01-06'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0001-5054-0150
-  - - web
-    - https://www.cmrr.umn.edu/facultystaff/ivan/
-  - - "\u017Eivotopis"
-    - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/Veda v Centre
-      2011/Tkac- curriculum vitae 2011-02-14.pdf
-  img: Ivan_Tkac.jpeg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: radiologia
-  positionurl: odborny_asistent
-  affiliationurl: University_of_Minnesota
-  cityurl: Twin_Cities
-  sexurl: muz
 - name: "Andrea Madarasov\xE1 Geckov\xE1"
   last: Geckova
   year: 1972
@@ -2274,7 +2246,7 @@
   country: Katar
   hindex: 55
   scholar: https://scholar.google.com/citations?user=Pz7_cpAAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - orcid
     - https://orcid.org/0000-0003-3058-8717
@@ -2318,6 +2290,34 @@
   positionurl: docent
   affiliationurl: Vienna_University_of_Technology
   cityurl: Vieden
+  sexurl: muz
+- name: "Ivan Tk\xE1\u010D"
+  last: Tkac
+  year: 1954
+  sex: "mu\u017E"
+  position: "odborn\xFD asistent"
+  field: "r\xE1diol\xF3gia"
+  affiliation: University of Minnesota
+  city: Twin Cities
+  country: USA
+  hindex: 55
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=DNCCZHYAAAAJ
+  last_update: '2026-02-10'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-5054-0150
+  - - web
+    - https://www.cmrr.umn.edu/facultystaff/ivan/
+  - - "\u017Eivotopis"
+    - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/Veda v Centre
+      2011/Tkac- curriculum vitae 2011-02-14.pdf
+  img: Ivan_Tkac.jpeg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: radiologia
+  positionurl: odborny_asistent
+  affiliationurl: University_of_Minnesota
+  cityurl: Twin_Cities
   sexurl: muz
 - name: Peter Celec
   last: Celec
@@ -2516,7 +2516,7 @@
   country: "Austr\xE1lia"
   hindex: 53
   scholar: https://scholar.google.com/citations?hl=en&user=OMBz3bIAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - omicsonline
     - https://biography.omicsonline.org/australia/university-of-technology-sydney/milos-toth-974580
@@ -2578,7 +2578,7 @@
   country: USA
   hindex: 52
   scholar: https://scholar.google.com.tr/citations?user=3rQF3wIAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - lab
     - https://labnodes.vanderbilt.edu/community/profile/id/2228
@@ -2627,35 +2627,6 @@
   affiliationurl: University_of_Adelaide
   cityurl: Adelaide
   sexurl: zena
-- name: "Tom\xE1\u0161 Kalin\u010D\xEDk"
-  last: Kalincik
-  year: 1982
-  sex: "mu\u017E"
-  position: profesor
-  field: "neurol\xF3gia"
-  affiliation: The University of Melbourne
-  city: Melbourne
-  country: "Austr\xE1lia"
-  hindex: 52
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=uoit0TEAAAAJ
-  last_update: '2026-01-06'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0003-3778-1376
-  - - Scopus
-    - https://www.scopus.com/authid/detail.uri?authorId=8365701900
-  - - web 1
-    - https://core.melbourne
-  - - web 2
-    - https://findanexpert.unimelb.edu.au/profile/458758-tomas-kalincik
-  img: Tomas_Kalincik.png
-  update_status: UPDATED
-  countryurl: Australia
-  fieldurl: neurologia
-  positionurl: profesor
-  affiliationurl: The_University_of_Melbourne
-  cityurl: Melbourne
-  sexurl: muz
 - name: "Jana Ko\u0161eck\xE1"
   last: Kosecka
   year: ''
@@ -2715,6 +2686,41 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Bibiana Bielekov\xE1"
+  last: Bielekova
+  year: 1969
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "neuroimunol\xF3gia"
+  affiliation: National Institute of Allergy and Infectious Diseases
+  city: Bethesda
+  country: USA
+  hindex: 51
+  scholar: https://scholar.google.com/citations?user=vt8wV08AAAAJ&amp;hl=en&amp;oi=ao
+  last_update: '2026-02-10'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/147850/overview
+  - - orcid
+    - https://orcid.org/0000-0002-0959-9430
+  - - publons
+    - https://publons.com/researcher/2002829/bibiana-bielekova/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Bibiana_Bielekova
+  - - web
+    - https://www.niaid.nih.gov/research/bibi-bielekova-md
+  - - web 2
+    - https://irp.nih.gov/pi/bibiana-bielekova
+  - - "\u017Eivotopis"
+    - https://demystifyingmedicine.od.nih.gov/dm11/biosketch/dm0301-bielekova-bibiana.pdf
+  img: Bibiana_Bielekova.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: neuroimunologia
+  positionurl: vedkyna
+  affiliationurl: National_Institute_of_Allergy_and_Infectious_Diseases
+  cityurl: Bethesda
+  sexurl: zena
 - name: "Vlasta Brezov\xE1"
   last: Brezova
   year: 1958
@@ -2821,7 +2827,7 @@
   country: USA
   hindex: 51
   scholar: https://scholar.google.com/citations?user=D5pfAK0AAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Dusan-Hesek
@@ -2832,6 +2838,35 @@
   positionurl: profesor
   affiliationurl: University_of_Notre_Dame
   cityurl: Notre_Dame
+  sexurl: muz
+- name: "Tom\xE1\u0161 Kalin\u010D\xEDk"
+  last: Kalincik
+  year: 1982
+  sex: "mu\u017E"
+  position: profesor
+  field: "neurol\xF3gia"
+  affiliation: The University of Melbourne
+  city: Melbourne
+  country: "Austr\xE1lia"
+  hindex: 51
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=uoit0TEAAAAJ
+  last_update: '2026-02-10'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-3778-1376
+  - - Scopus
+    - https://www.scopus.com/authid/detail.uri?authorId=8365701900
+  - - web 1
+    - https://core.melbourne
+  - - web 2
+    - https://findanexpert.unimelb.edu.au/profile/458758-tomas-kalincik
+  img: Tomas_Kalincik.png
+  update_status: UPDATED
+  countryurl: Australia
+  fieldurl: neurologia
+  positionurl: profesor
+  affiliationurl: The_University_of_Melbourne
+  cityurl: Melbourne
   sexurl: muz
 - name: Boris Klempa
   last: Klempa
@@ -3023,41 +3058,6 @@
   affiliationurl: University_of_Western_Ontario
   cityurl: London
   sexurl: zena
-- name: "Bibiana Bielekov\xE1"
-  last: Bielekova
-  year: 1969
-  sex: "\u017Eena"
-  position: "vedky\u0148a"
-  field: "neuroimunol\xF3gia"
-  affiliation: National Institute of Allergy and Infectious Diseases
-  city: Bethesda
-  country: USA
-  hindex: 50
-  scholar: https://scholar.google.com/citations?user=vt8wV08AAAAJ&amp;hl=en&amp;oi=ao
-  last_update: '2026-01-06'
-  links:
-  - - loop
-    - https://loop.frontiersin.org/people/147850/overview
-  - - orcid
-    - https://orcid.org/0000-0002-0959-9430
-  - - publons
-    - https://publons.com/researcher/2002829/bibiana-bielekova/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Bibiana_Bielekova
-  - - web
-    - https://www.niaid.nih.gov/research/bibi-bielekova-md
-  - - web 2
-    - https://irp.nih.gov/pi/bibiana-bielekova
-  - - "\u017Eivotopis"
-    - https://demystifyingmedicine.od.nih.gov/dm11/biosketch/dm0301-bielekova-bibiana.pdf
-  img: Bibiana_Bielekova.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: neuroimunologia
-  positionurl: vedkyna
-  affiliationurl: National_Institute_of_Allergy_and_Infectious_Diseases
-  cityurl: Bethesda
-  sexurl: zena
 - name: Peter Komadel
   last: Komadel
   year: 1955-2021
@@ -3189,7 +3189,7 @@
   country: "Franc\xFAzsko"
   hindex: 50
   scholar: https://scholar.google.com/citations?user=jrazNCQAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/03/5455.html
@@ -3302,6 +3302,35 @@
   positionurl: profesor
   affiliationurl: Slovenska_polnohospodarska_univerzita
   cityurl: Nitra
+  sexurl: muz
+- name: "Ladislav Timu\u013E\xE1k"
+  last: Timulak
+  year: 1971
+  sex: "mu\u017E"
+  position: profesor
+  field: "psychol\xF3gia"
+  affiliation: Trinity College Dublin
+  city: Dublin
+  country: "\xCDrsko"
+  hindex: 49
+  scholar: https://scholar.google.com/citations?user=NoS4378AAAAJ&hl=en&oi=sra
+  last_update: '2026-02-10'
+  links:
+  - - group 1
+    - https://www.ementalhealthgroup.com
+  - - group 2
+    - https://emotionfocusedtherapygroup.ie
+  - - web 1
+    - https://people.tcd.ie/Profile?Username=timulakl
+  - - web 2
+    - https://www.tcd.ie/research/profiles/?profile=timulakl
+  img: Ladislav_Timulak.jpg
+  update_status: UPDATED
+  countryurl: Irsko
+  fieldurl: psychologia
+  positionurl: profesor
+  affiliationurl: Trinity_College_Dublin
+  cityurl: Dublin
   sexurl: muz
 - name: "Peter Ti\u0148o"
   last: Tino
@@ -3482,7 +3511,7 @@
   country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
   hindex: 48
   scholar: https://scholar.google.com/citations?hl=en&amp;user=uQGtqxoAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - news
     - https://www.piestanskydennik.sk/2011/01/28/slovenske-osobnosti-mediciny-vo-svete-20-storocie-3/
@@ -3532,7 +3561,7 @@
   country: USA
   hindex: 48
   scholar: https://scholar.google.com/citations?user=TIVMwT4AAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Helena_Mitasova
@@ -3605,35 +3634,6 @@
   positionurl: vedec
   affiliationurl: Karlsruhe_Institute_of_Technology
   cityurl: Karlsruhe
-  sexurl: muz
-- name: "Ladislav Timu\u013E\xE1k"
-  last: Timulak
-  year: 1971
-  sex: "mu\u017E"
-  position: profesor
-  field: "psychol\xF3gia"
-  affiliation: Trinity College Dublin
-  city: Dublin
-  country: "\xCDrsko"
-  hindex: 48
-  scholar: https://scholar.google.com/citations?user=NoS4378AAAAJ&hl=en&oi=sra
-  last_update: '2026-01-06'
-  links:
-  - - group 1
-    - https://www.ementalhealthgroup.com
-  - - group 2
-    - https://emotionfocusedtherapygroup.ie
-  - - web 1
-    - https://people.tcd.ie/Profile?Username=timulakl
-  - - web 2
-    - https://www.tcd.ie/research/profiles/?profile=timulakl
-  img: Ladislav_Timulak.jpg
-  update_status: UPDATED
-  countryurl: Irsko
-  fieldurl: psychologia
-  positionurl: profesor
-  affiliationurl: Trinity_College_Dublin
-  cityurl: Dublin
   sexurl: muz
 - name: "Tom\xE1\u0161 Trnovec"
   last: Trnovec
@@ -3795,7 +3795,7 @@
   country: Slovensko
   hindex: 46
   scholar: https://scholar.google.co.uk/citations?user=yuz_CywAAAAJ&hl=en&oi=sra
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - publons
     - https://publons.com/researcher/2178958/martin-backor/
@@ -3826,7 +3826,7 @@
   country: USA
   hindex: 46
   scholar: https://scholar.google.com/citations?hl=en&user=x9sZ1Q4AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - facebook
     - https://www.facebook.com/michal.bajdich.37
@@ -4072,7 +4072,7 @@
   country: Slovensko
   hindex: 45
   scholar: https://scholar.google.de/citations?user=wsJN2SMAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - publons
     - https://publons.com/researcher/1378264/tomas-bucko/
@@ -4263,7 +4263,7 @@
   country: "\u010Cesko"
   hindex: 45
   scholar: https://scholar.google.com/citations?hl=en&user=lo8ugg0AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - facebook
     - https://www.facebook.com/lexa.ondrej
@@ -5025,7 +5025,7 @@
   country: USA
   hindex: 42
   scholar: https://scholar.google.com/citations?user=tiDMmMYAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/kabat-juraj-1a784b5/
@@ -5178,7 +5178,7 @@
   country: USA
   hindex: 41
   scholar: https://scholar.google.com/citations?user=wYMTld8AAAAJ&
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/30/2146.html
@@ -5531,7 +5531,7 @@
   country: Slovensko
   hindex: 40
   scholar: https://scholar.google.com/citations?user=h08MR_wAAAAJ&amp;hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - web
     - http://antalic.dnp.fmph.uniba.sk/index.php
@@ -5708,6 +5708,42 @@
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
   sexurl: muz
+- name: "J\xE1n Kormanec"
+  last: Kormanec
+  year: 1959
+  sex: "mu\u017E"
+  position: vedec
+  field: "g\xE9nov\xE1 expresia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 40
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=kTzZpxgAAAAJ
+  last_update: '2026-02-10'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/jan-kormanec-73499347/?originalSubdomain=sk
+  - - sme.sk
+    - https://mykysuce.sme.sk/c/5775658/pred-vratnikom-sa-schovaval-v-mraziacom-boxe.html
+  - - teraz.sk
+    - "https://www.teraz.sk/slovensko/j-kormanecmojou-prioritou-bolo-vzdy-p/422582-clanok.html.lw\u013E\
+      \u0119#$\u0117\u0161"
+  - - web 1
+    - http://www.imb.savba.sk/index.php?lang=en&id=departments&labID=15
+  - - web 2
+    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1318
+  - - youtube
+    - https://www.youtube.com/watch?v=k-YXwl4v-r4
+  - - "\u017Eivotopis"
+    - https://www.kysuce.sk/osobnosti/osobnosti-regionu/63/jan-kormanec.html
+  img: Jan_Kormanec.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: genova_expresia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Martin Luk\xE1\u010D"
   last: Lukac
   year: ''
@@ -5835,7 +5871,7 @@
   country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
   hindex: 40
   scholar: https://scholar.google.com/citations?hl=en&user=qKQD-2cAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/42/3759.html
@@ -5939,42 +5975,6 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: "J\xE1n Kormanec"
-  last: Kormanec
-  year: 1959
-  sex: "mu\u017E"
-  position: vedec
-  field: "g\xE9nov\xE1 expresia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 39
-  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=kTzZpxgAAAAJ
-  last_update: '2026-01-06'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/jan-kormanec-73499347/?originalSubdomain=sk
-  - - sme.sk
-    - https://mykysuce.sme.sk/c/5775658/pred-vratnikom-sa-schovaval-v-mraziacom-boxe.html
-  - - teraz.sk
-    - "https://www.teraz.sk/slovensko/j-kormanecmojou-prioritou-bolo-vzdy-p/422582-clanok.html.lw\u013E\
-      \u0119#$\u0117\u0161"
-  - - web 1
-    - http://www.imb.savba.sk/index.php?lang=en&id=departments&labID=15
-  - - web 2
-    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1318
-  - - youtube
-    - https://www.youtube.com/watch?v=k-YXwl4v-r4
-  - - "\u017Eivotopis"
-    - https://www.kysuce.sk/osobnosti/osobnosti-regionu/63/jan-kormanec.html
-  img: Jan_Kormanec.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: genova_expresia
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: muz
 - name: "Branislav Kus\xFD"
   last: Kusy
   year: ''
@@ -6019,7 +6019,7 @@
   country: Slovensko
   hindex: 39
   scholar: https://scholar.google.sk/citations?user=rXl9hY0AAAAJ&amp;hl=sk&amp;oi=sra
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - loop
     - https://loop.frontiersin.org/people/362858/overview
@@ -6320,7 +6320,7 @@
   - - "\u017Eivotopis"
     - https://www.neurologiepropraxi.cz/pdfs/neu/2019/01/17.pdf
   img: Zuzana_Gdovinova.jpg
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: neurologia
@@ -6339,7 +6339,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.com/citations?user=ojrd884AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - web
     - http://kavt.fvt.tuke.sk/katedra/zamestnanci/4
@@ -6362,7 +6362,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.sk/citations?user=eBoisLQAAAAJ&amp;hl=sk&amp;oi=ao
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - web
     - https://eccr.org/dr-ludovit-paulis/
@@ -6435,7 +6435,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.sk/citations?user=ckojWlAAAAAJ&hl=en
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - orcid
     - https://orcid.org/0000-0002-2914-496X
@@ -6464,7 +6464,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.com/citations?user=7Zkz-9MAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - facebook
     - https://m.facebook.com/peter.kubatka
@@ -6581,7 +6581,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=uTmDnEsAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - AD
     - https://www.adscientificindex.com/scientist.php?id=1237729
@@ -6620,7 +6620,7 @@
   country: Nemecko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=wOi5anQAAAAJ
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - orcid
     - https://orcid.org/0000-0003-2662-1991
@@ -7123,7 +7123,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?hl=en&user=5sPkPmEAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/daniela-ostatnikova
@@ -7280,7 +7280,7 @@
   country: USA
   hindex: 35
   scholar: https://scholar.google.com/citations?user=B7vMXfEAAAAJ&hl=en&oi=ao
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/tomasdrgon/?trk=pub-pbmap
@@ -7441,7 +7441,7 @@
   country: Slovensko
   hindex: 35
   scholar: https://scholar.google.sk/citations?user=nM3oZ78AAAAJ&amp;hl=en&amp;oi=ao
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - web
     - http://www.math.sk/mikula/
@@ -7464,7 +7464,7 @@
   country: "N\xF3rsko"
   hindex: 35
   scholar: https://scholar.google.com/citations?user=57LSTCsAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - RePEc
     - https://ideas.repec.org/f/pmo1065.html
@@ -7783,7 +7783,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=GLiFrtgAAAAJ&amp;hl=sk
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - news
     - https://dennikn.sk/2718126/lubica-lacinova-velkym-problemom-na-slovensku-je-neschopnost-spolupracovat-s-niekym-s-kym-nemame-90-percentny-nazorovy-prienik/?fbclid=IwAR2wXDkyYWP1hLWdF5u87hBKjfjEpt4yxy_ykO0FzVi6oAECWez8e0Qhxtk
@@ -7971,7 +7971,7 @@
   country: "\u0160vaj\u010Diarsko"
   hindex: 34
   scholar: https://scholar.google.com/citations?&user=NDhlLv0AAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - dblp
     - https://dblp.org/pid/p/MartinPal.html
@@ -8161,7 +8161,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=en&user=34jBH9oAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/dasa-cizkova-89411678/?originalSubdomain=sk
@@ -8470,7 +8470,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.com/citations?user=rHgfxxwAAAAJ&hl=en
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Jaroslav-Lexa
@@ -8759,7 +8759,7 @@
   country: "F\xEDnsko"
   hindex: 32
   scholar: https://scholar.google.com/citations?hl=en&user=fDMcW7wAAAAJ
-  last_update: '2026-01-06'
+  last_update: '2026-02-10'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/ivan-jambor-688414ba
@@ -8883,7 +8883,7 @@
   country: "\u010Cesko"
   hindex: 32
   scholar: https://scholar.google.com/citations?hl=en&user=ZezlLfEAAAAJ
-  last_update: '2026-01-21'
+  last_update: '2026-02-10'
   links:
   - - academia.edu
     - https://independent.academia.edu/VeronikaOstatna
