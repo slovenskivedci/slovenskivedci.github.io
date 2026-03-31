@@ -251,7 +251,7 @@
   country: "\u010Cesko"
   hindex: 98
   scholar: https://scholar.google.com/citations?user=n1zAfusAAAAJ&amp;hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - facebook
     - https://www.facebook.com/katarina.gajdosova.3
@@ -412,7 +412,7 @@
   country: Belgicko
   hindex: 91
   scholar: https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/jozef-bartunek-68696b168/?originalSubdomain=be
@@ -650,7 +650,7 @@
   country: "N\xF3rsko"
   hindex: 75
   scholar: https://scholar.google.com/citations?user=tF7f4yEAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/110414/overview
@@ -802,7 +802,7 @@
   country: "\u010Cesko"
   hindex: 72
   scholar: https://scholar.google.com/citations?hl=en&user=ie2ZQ5wAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/vladimir-bencko-28333018/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=cz
@@ -837,7 +837,7 @@
   country: Kanada
   hindex: 72
   scholar: https://scholar.google.sk/citations?user=Krtl-TsAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - Envoy of the ESET Science Award
     - https://www.esetscienceaward.sk/en/envoys/pavel-cheben
@@ -1020,6 +1020,41 @@
   affiliationurl: University_of_Oxford
   cityurl: Oxford
   sexurl: muz
+- name: "Jozef \u0160amaj"
+  last: Samaj
+  year: 1964
+  sex: "mu\u017E"
+  position: profesor
+  field: botanika
+  affiliation: "Univerzita Palack\xE9ho v Olomouci"
+  city: Olomouc
+  country: "\u010Cesko"
+  hindex: 69
+  scholar: https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en
+  last_update: '2026-04-01'
+  links:
+  - - learned.sk
+    - https://www.learned.sk/clenovia/riadni-clenovia/
+  - - loop
+    - https://loop.frontiersin.org/people/26551/overview
+  - - orcid
+    - https://orcid.org/0000-0003-4750-2123
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Jozef-Samaj
+  - - twitter
+    - https://twitter.com/Samaj_lab
+  - - web
+    - https://kbt.upol.cz/en/
+  - - "\u017Eivotopis"
+    - "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160amaj.pdf"
+  img: Jozef_Samaj.jpg
+  update_status: UPDATED
+  countryurl: Cesko
+  fieldurl: botanika
+  positionurl: profesor
+  affiliationurl: Univerzita_Palackeho_v_Olomouci
+  cityurl: Olomouc
+  sexurl: muz
 - name: "Peter \u0160utovsk\xFD"
   last: Sutovsky
   year: 1967
@@ -1074,40 +1109,44 @@
   affiliationurl: IST_Austria
   cityurl: Klosterneuburg
   sexurl: zena
-- name: "Jozef \u0160amaj"
-  last: Samaj
-  year: 1964
+- name: Norbert Werner
+  last: Werner
+  year: null
   sex: "mu\u017E"
-  position: profesor
-  field: botanika
-  affiliation: "Univerzita Palack\xE9ho v Olomouci"
-  city: Olomouc
+  position: docent
+  field: "astron\xF3mia"
+  affiliation: Masarykova univerzita
+  city: Brno
   country: "\u010Cesko"
   hindex: 68
-  scholar: https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en
-  last_update: '2026-03-01'
+  scholar: https://scholar.google.com/citations?hl=en&user=D93yu9MAAAAJ
+  last_update: '2026-04-01'
   links:
-  - - learned.sk
-    - https://www.learned.sk/clenovia/riadni-clenovia/
-  - - loop
-    - https://loop.frontiersin.org/people/26551/overview
+  - - news 1
+    - https://dennikn.sk/2032127/astrofyzik-nasa-civilizacia-je-sice-specialna-ale-pochybujem-ze-je-vo-vesmire-jedina/
+  - - news 2
+    - https://dennikn.sk/463866/astrofyzik-norbert-werner-presvedceny-ze-vo-vesmire-zivot-velmi-rozsireny/
+  - - news 3
+    - https://www.idnes.cz/brno/zpravy/norbert-werner-astrofyzik-brno-vesmir-exploze-kosmicka-pavucina.A200715_559372_brno-zpravy_krut
+  - - news 4
+    - https://roznavskenoviny.sk/cestnym-obcanom-roznavy-sa-stal-astrofyzik-norbert-werner/
   - - orcid
-    - https://orcid.org/0000-0003-4750-2123
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Jozef-Samaj
-  - - twitter
-    - https://twitter.com/Samaj_lab
+    - https://orcid.org/0000-0003-0392-0120
+  - - TEDx
+    - https://www.tedxbratislava.sk/en/video/norbert-werner-tlcuce-srdcia-galaxii-beating-hearts-of-galaxies-2/
   - - web
-    - https://kbt.upol.cz/en/
+    - http://hea.physics.muni.cz/people/norbert.html
+  - - youtube
+    - https://www.youtube.com/c/UTFAMUNI
   - - "\u017Eivotopis"
-    - "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160amaj.pdf"
-  img: Jozef_Samaj.jpg
+    - https://www.upjs.sk/prirodovedecka-fakulta/absolventi/as/archiv/hostia-nw/
+  img: Norbert_Werner.jpg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: botanika
-  positionurl: profesor
-  affiliationurl: Univerzita_Palackeho_v_Olomouci
-  cityurl: Olomouc
+  fieldurl: astronomia
+  positionurl: docent
+  affiliationurl: Masarykova_univerzita
+  cityurl: Brno
   sexurl: muz
 - name: "Barbora (Voz\xE1rov\xE1) de Courten"
   last: de Courten
@@ -1170,45 +1209,6 @@
   positionurl: vedec
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
-  sexurl: muz
-- name: Norbert Werner
-  last: Werner
-  year: null
-  sex: "mu\u017E"
-  position: docent
-  field: "astron\xF3mia"
-  affiliation: Masarykova univerzita
-  city: Brno
-  country: "\u010Cesko"
-  hindex: 67
-  scholar: https://scholar.google.com/citations?hl=en&user=D93yu9MAAAAJ
-  last_update: '2026-03-01'
-  links:
-  - - news 1
-    - https://dennikn.sk/2032127/astrofyzik-nasa-civilizacia-je-sice-specialna-ale-pochybujem-ze-je-vo-vesmire-jedina/
-  - - news 2
-    - https://dennikn.sk/463866/astrofyzik-norbert-werner-presvedceny-ze-vo-vesmire-zivot-velmi-rozsireny/
-  - - news 3
-    - https://www.idnes.cz/brno/zpravy/norbert-werner-astrofyzik-brno-vesmir-exploze-kosmicka-pavucina.A200715_559372_brno-zpravy_krut
-  - - news 4
-    - https://roznavskenoviny.sk/cestnym-obcanom-roznavy-sa-stal-astrofyzik-norbert-werner/
-  - - orcid
-    - https://orcid.org/0000-0003-0392-0120
-  - - TEDx
-    - https://www.tedxbratislava.sk/en/video/norbert-werner-tlcuce-srdcia-galaxii-beating-hearts-of-galaxies-2/
-  - - web
-    - http://hea.physics.muni.cz/people/norbert.html
-  - - youtube
-    - https://www.youtube.com/c/UTFAMUNI
-  - - "\u017Eivotopis"
-    - https://www.upjs.sk/prirodovedecka-fakulta/absolventi/as/archiv/hostia-nw/
-  img: Norbert_Werner.jpg
-  update_status: UPDATED
-  countryurl: Cesko
-  fieldurl: astronomia
-  positionurl: docent
-  affiliationurl: Masarykova_univerzita
-  cityurl: Brno
   sexurl: muz
 - name: Marcel Franz
   last: Franz
@@ -1308,7 +1308,7 @@
   country: Slovensko
   hindex: 65
   scholar: https://scholar.google.com/citations?hl=en&amp;user=NvXlxjkAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0002-9915-7707
@@ -1492,7 +1492,7 @@
   country: USA
   hindex: 63
   scholar: https://scholar.google.com/citations?user=3R-9xP4AAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/maros-ferencik-2861587/
@@ -1823,7 +1823,7 @@
   country: "\u010Cesko"
   hindex: 58
   scholar: https://scholar.google.com/citations?user=o7qWfUAAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - bio
     - https://www.databazeknih.cz/zivotopis/stano-pekar-34472
@@ -2143,7 +2143,7 @@
   country: Slovensko
   hindex: 55
   scholar: https://scholar.google.com/citations?user=FP0fIkEAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/daniela-jezova
@@ -2608,7 +2608,7 @@
   country: "\u0160vaj\u010Diarsko"
   hindex: 52
   scholar: https://scholar.google.com/citations?hl=en&amp;user=XOPkMEAAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/108489/overview
@@ -3007,7 +3007,7 @@
   country: Slovensko
   hindex: 51
   scholar: https://scholar.google.com/citations?user=ubIkrj4AAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - learned.sk
     - https://www.learned.sk/rndr-peter-komadel-drsc/
@@ -3710,7 +3710,7 @@
   country: Nemecko
   hindex: 48
   scholar: https://scholar.google.com/citations?user=gpGngJUAAAAJ&hl=en&oi=sra
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/975150/overview
@@ -3760,6 +3760,31 @@
   positionurl: profesor
   affiliationurl: Simon_Fraser_University
   cityurl: Surrey
+  sexurl: muz
+- name: "Branislav Hredz\xE1k"
+  last: Hredzak
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: energetika
+  affiliation: University of New South Wales
+  city: Sydney
+  country: "Austr\xE1lia"
+  hindex: 47
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=LSvxvEIAAAAJ
+  last_update: '2026-04-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-4863-3419
+  - - web
+    - https://s324741.wixsite.com/bhredzak
+  img: Branislav_Hredzak.jpg
+  update_status: UPDATED
+  countryurl: Australia
+  fieldurl: energetika
+  positionurl: docent
+  affiliationurl: University_of_New_South_Wales
+  cityurl: Sydney
   sexurl: muz
 - name: "Tom\xE1\u0161 Kirchhoff"
   last: Kirchhoff
@@ -3912,30 +3937,28 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
-- name: "Branislav Hredz\xE1k"
-  last: Hredzak
+- name: Tibor Hianik
+  last: Hianik
   year: ''
   sex: "mu\u017E"
-  position: docent
-  field: energetika
-  affiliation: University of New South Wales
-  city: Sydney
-  country: "Austr\xE1lia"
+  position: profesor
+  field: biofyzika
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
   hindex: 46
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=LSvxvEIAAAAJ
-  last_update: '2026-03-01'
+  scholar: https://scholar.google.com/citations?user=FNfPewQAAAAJ&amp;hl=en
+  last_update: '2026-04-01'
   links:
-  - - orcid
-    - https://orcid.org/0000-0002-4863-3419
   - - web
-    - https://s324741.wixsite.com/bhredzak
-  img: Branislav_Hredzak.jpg
+    - https://uniba.sk/ludia/hianik1/
+  img: Tibor_Hianik.jpg
   update_status: UPDATED
-  countryurl: Australia
-  fieldurl: energetika
-  positionurl: docent
-  affiliationurl: University_of_New_South_Wales
-  cityurl: Sydney
+  countryurl: Slovensko
+  fieldurl: biofyzika
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
   sexurl: muz
 - name: "Nat\xE1lia Ku\u010D\xEDrkov\xE1"
   last: Kucirkova
@@ -4246,29 +4269,6 @@
   positionurl: vedec
   affiliationurl: Polytechnique_Montreal
   cityurl: Montreal
-  sexurl: muz
-- name: Tibor Hianik
-  last: Hianik
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: biofyzika
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 45
-  scholar: https://scholar.google.com/citations?user=FNfPewQAAAAJ&amp;hl=en
-  last_update: '2026-03-01'
-  links:
-  - - web
-    - https://uniba.sk/ludia/hianik1/
-  img: Tibor_Hianik.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: biofyzika
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
 - name: "\u0160tefan Jane\u010Dek"
   last: Janecek
@@ -4652,7 +4652,7 @@
   country: Slovensko
   hindex: 44
   scholar: https://scholar.google.sk/citations?user=MhwlHXIAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0001-6766-4571
@@ -4737,7 +4737,7 @@
   country: "Rak\xFAsko"
   hindex: 44
   scholar: https://scholar.google.sk/citations?user=6XPvlE8AAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0003-0822-1580
@@ -4766,7 +4766,7 @@
   country: Slovensko
   hindex: 43
   scholar: https://scholar.google.com/citations?user=HicwXWIAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/michal-feckan
@@ -5361,7 +5361,7 @@
   country: USA
   hindex: 41
   scholar: https://scholar.google.com/citations?hl=en&amp;user=WRNOtkMAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0001-5970-1483
@@ -5440,7 +5440,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 41
   scholar: https://scholar.google.com/citations?user=K0dUsrwAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Martin-Lukac-4
@@ -5690,7 +5690,7 @@
   country: Slovensko
   hindex: 40
   scholar: https://scholar.google.com/citations?hl=en&amp;user=RllC3asAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/299224/overview
@@ -5785,7 +5785,7 @@
   country: "\u0160vaj\u010Diarsko"
   hindex: 40
   scholar: https://scholar.google.com/citations?user=jJQJcNYAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - dblp
     - https://dblp.org/pid/h/JurajHromkovic.html
@@ -5916,7 +5916,7 @@
   country: Slovensko
   hindex: 40
   scholar: https://scholar.google.sk/citations?user=4ZghBr8AAAAJ&hl=sk
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - academia.edu
     - https://sav-sk.academia.edu/ZdenkoSpitalsky
@@ -6234,7 +6234,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.ro/citations?user=lakc8cQAAAAJ&hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - learned.sk
     - https://www.learned.sk/doc-ing-vladimir-farkas-drsc/
@@ -6259,6 +6259,35 @@
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Jarko Fidrmuc
+  last: Fidrmuc
+  year: 1968
+  sex: "mu\u017E"
+  position: profesor
+  field: "medzin\xE1rodn\xE1 ekon\xF3mia"
+  affiliation: Zeppelin University
+  city: Friedrichshafen
+  country: Nemecko
+  hindex: 38
+  scholar: https://scholar.google.com/citations?user=wOi5anQAAAAJ
+  last_update: '2026-04-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2662-1991
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Jarko_Fidrmuc
+  - - web
+    - https://www.zeppelin-university.com/chairs/international-economics/index.php
+  - - "\u017Eivotopis"
+    - https://henuecon.education/images/CV-Fidrmuc.pdf
+  img: Jarko_Fidrmuc.jpg
+  update_status: UPDATED
+  countryurl: Nemecko
+  fieldurl: medzinarodna_ekonomia
+  positionurl: profesor
+  affiliationurl: Zeppelin_University
+  cityurl: Friedrichshafen
   sexurl: muz
 - name: "Branislav Kus\xFD"
   last: Kusy
@@ -6406,7 +6435,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.sk/citations?user=ckojWlAAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0002-2914-496X
@@ -6480,7 +6509,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.com/citations?hl=en&amp;user=v71jEjAAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/igor-tvaroska-a9a82b11/?originalSubdomain=sk
@@ -6626,7 +6655,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=n0aQzRcAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/gabriel-fedorko-753a9033/?originalSubdomain=sk
@@ -6644,35 +6673,6 @@
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
   sexurl: muz
-- name: Jarko Fidrmuc
-  last: Fidrmuc
-  year: 1968
-  sex: "mu\u017E"
-  position: profesor
-  field: "medzin\xE1rodn\xE1 ekon\xF3mia"
-  affiliation: Zeppelin University
-  city: Friedrichshafen
-  country: Nemecko
-  hindex: 37
-  scholar: https://scholar.google.com/citations?user=wOi5anQAAAAJ
-  last_update: '2026-03-01'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0003-2662-1991
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Jarko_Fidrmuc
-  - - web
-    - https://www.zeppelin-university.com/chairs/international-economics/index.php
-  - - "\u017Eivotopis"
-    - https://henuecon.education/images/CV-Fidrmuc.pdf
-  img: Jarko_Fidrmuc.jpg
-  update_status: UPDATED
-  countryurl: Nemecko
-  fieldurl: medzinarodna_ekonomia
-  positionurl: profesor
-  affiliationurl: Zeppelin_University
-  cityurl: Friedrichshafen
-  sexurl: muz
 - name: "O\u013Ega Kri\u017Eanov\xE1"
   last: Krizanova
   year: '1960'
@@ -6684,7 +6684,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?hl=en&user=ZUBSQgEAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - learned.sk
     - https://www.learned.sk/vizitka-prof-ing-olga-krizanova-drsc/
@@ -6719,7 +6719,7 @@
   country: "\u010Cesko"
   hindex: 37
   scholar: https://scholar.google.com/citations?hl=en&user=bM-HEmgAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - loop
     - https://loop.frontiersin.org/people/233296/overview
@@ -6920,7 +6920,7 @@
   country: "\u010Cesko"
   hindex: 36
   scholar: https://scholar.google.cz/citations?hl=en&user=dX1z5OcAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - dblp
     - https://dblp.org/pid/05/7065.html
@@ -7102,7 +7102,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?hl=en&user=f8595C4AAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - publons
     - https://publons.com/researcher/2894187/vladimir-kello/
@@ -7129,7 +7129,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?user=CgbiV4EAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0002-2332-541X
@@ -7160,7 +7160,7 @@
   country: "\u0160v\xE9dsko"
   hindex: 36
   scholar: https://scholar.google.se/citations?user=v61ZVcoAAAAJ&hl=sv
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/peter-lazor-840a3967/?originalSubdomain=se
@@ -7309,7 +7309,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?user=T8D7EJ8AAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - company
     - https://solargis.com
@@ -7327,6 +7327,39 @@
   affiliationurl: Solargis
   cityurl: Bratislava
   sexurl: muz
+- name: "Vladimir Zele\u0148\xE1k"
+  last: Zelenak
+  year: 1969
+  sex: "mu\u017E"
+  position: profesor
+  field: "anorganick\xE1 ch\xE9mia"
+  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com.au/citations?user=OfwHRv8AAAAJ
+  last_update: '2026-04-01'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/en/finalists/vladimir-zelenak
+  - - "inaugur\xE1cia"
+    - https://haik.upjs.sk/data/inauguracne_konania/IKACH/122_Zelenak_PF/navrh.pdf
+  - - orcid
+    - https://orcid.org/0000-0002-6118-1269
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Vladimir-Zelenak
+  - - vedec roka
+    - https://vedanadosah.cvtisr.sk/priroda/ocenenie-vedec-roka-sr-2018-ziskal-doc-vladimir-zelenak/
+  - - web
+    - https://www.upjs.sk/en/PF/employee/vladimir.zelenak/
+  img: Vladimir_Zelenak.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: anorganicka_chemia
+  positionurl: profesor
+  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
+  cityurl: Kosice
+  sexurl: muz
 - name: "Tom\xE1\u0161 Drgo\u0148"
   last: Drgon
   year: null
@@ -7338,7 +7371,7 @@
   country: USA
   hindex: 35
   scholar: https://scholar.google.com/citations?user=B7vMXfEAAAAJ&hl=en&oi=ao
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/tomasdrgon/?trk=pub-pbmap
@@ -7365,7 +7398,7 @@
   country: "\u010Cesko"
   hindex: 35
   scholar: https://scholar.google.com/citations?user=AZDDb3gAAAAJ&amp;hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0003-4385-0841
@@ -7547,7 +7580,7 @@
   country: USA
   hindex: 35
   scholar: https://scholar.google.com/citations?user=lrz3brYAAAAJ&hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/pavel-oblozinsky-335308ba/?originalSubdomain=sk
@@ -7601,7 +7634,7 @@
   country: Japonsko
   hindex: 35
   scholar: https://scholar.google.com/citations?user=-gLxHToAAAAJ&hl=en
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - academictree
     - https://academictree.org/physics/publications.php?pid=835140
@@ -7622,39 +7655,6 @@
   positionurl: vedec
   affiliationurl: RIKEN
   cityurl: Wako
-  sexurl: muz
-- name: "Vladimir Zele\u0148\xE1k"
-  last: Zelenak
-  year: 1969
-  sex: "mu\u017E"
-  position: profesor
-  field: "anorganick\xE1 ch\xE9mia"
-  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
-  city: "Ko\u0161ice"
-  country: Slovensko
-  hindex: 35
-  scholar: https://scholar.google.com.au/citations?user=OfwHRv8AAAAJ
-  last_update: '2026-03-01'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/en/finalists/vladimir-zelenak
-  - - "inaugur\xE1cia"
-    - https://haik.upjs.sk/data/inauguracne_konania/IKACH/122_Zelenak_PF/navrh.pdf
-  - - orcid
-    - https://orcid.org/0000-0002-6118-1269
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Vladimir-Zelenak
-  - - vedec roka
-    - https://vedanadosah.cvtisr.sk/priroda/ocenenie-vedec-roka-sr-2018-ziskal-doc-vladimir-zelenak/
-  - - web
-    - https://www.upjs.sk/en/PF/employee/vladimir.zelenak/
-  img: Vladimir_Zelenak.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: anorganicka_chemia
-  positionurl: profesor
-  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
-  cityurl: Kosice
   sexurl: muz
 - name: "Martin Ba\u010Da"
   last: Baca
@@ -7731,7 +7731,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=hBjL4YYAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - web
     - https://uniba.sk/ludia/devinsky1
@@ -8314,7 +8314,7 @@
   country: "Rak\xFAsko"
   hindex: 34
   scholar: https://scholar.google.com/citations?user=pT4T7F4AAAAJ&hl=sk
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/marcel-zamocky-51260810a/
@@ -8374,7 +8374,7 @@
   country: "D\xE1nsko"
   hindex: 33
   scholar: https://scholar.google.com/citations?user=gCafUI0AAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - dblp
     - https://dblp.org/pid/d/PeterDolog.html
@@ -8687,7 +8687,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=en&user=nBBrj5AAAAAJ
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - dblp
     - https://dblp.org/pid/22/4895.html
@@ -8796,7 +8796,7 @@
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.sk/citations?user=2-SFmgwAAAAJ&hl=sk
-  last_update: '2026-03-01'
+  last_update: '2026-04-01'
   links:
   - - orcid
     - https://orcid.org/0000-0001-6706-8614
@@ -9119,7 +9119,7 @@
   country: USA
   hindex: 30
   scholar: https://scholar.google.com/citations?hl=en&user=9EFobLUAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-01'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/peter-bodik-045b90/
