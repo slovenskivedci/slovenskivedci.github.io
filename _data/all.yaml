@@ -7,9 +7,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 254
+  hindex: 256
   scholar: https://scholar.google.com/citations?user=2HzXQEkAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/stano-tokar-b0536844/?originalSubdomain=sk
@@ -44,9 +44,9 @@
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
   city: Praha
   country: "\u010Cesko"
-  hindex: 236
+  hindex: 238
   scholar: https://scholar.google.com/citations?user=jkguv3UAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://www.fzu.cz/en/people/rndr-roman-lysak-phd
@@ -160,7 +160,7 @@
   country: "Austr\xE1lia"
   hindex: 108
   scholar: https://scholar.google.com/citations?user=FTejMNwAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - Australian Academy of Science
     - https://www.science.org.au/profile/jozef-g%C3%A9cz
@@ -199,7 +199,7 @@
   country: USA
   hindex: 102
   scholar: https://scholar.google.com/citations?user=zG9xTAcAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - news
     - https://www.piestanskydennik.sk/2010/02/18/slovenske-osobnosti-mediciny-vo-svete-41-20-storocie/
@@ -340,7 +340,7 @@
   country: Kanada
   hindex: 93
   scholar: https://scholar.google.com/citations?hl=en&amp;user=Hi9ALnkAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - dblp
     - https://dblp.org/pid/27/4777.html
@@ -592,7 +592,7 @@
   country: Slovensko
   hindex: 77
   scholar: https://scholar.google.co.uk/citations?user=Ey9s5FcAAAAJ&hl=en&oi=ao
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/eleonora-fabianova-09818942/?originalSubdomain=sk
@@ -901,7 +901,7 @@
   country: Holandsko
   hindex: 70
   scholar: https://scholar.google.com/citations?user=hH3CJhcAAAAJ&amp
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - twitter
     - https://twitter.com/bauer_p
@@ -1210,29 +1210,6 @@
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
   sexurl: muz
-- name: Marcel Franz
-  last: Franz
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: fyzika
-  affiliation: University of British Columbia
-  city: "Britsk\xE1 Kolumbia"
-  country: Kanada
-  hindex: 66
-  scholar: https://scholar.google.com/citations?user=qOmkOIAAAAAJ&amp;hl=en
-  last_update: '2026-03-15'
-  links:
-  - - web
-    - https://phas.ubc.ca/~franz/
-  img: Marcel_Franz.jpg
-  update_status: UPDATED
-  countryurl: Kanada
-  fieldurl: fyzika
-  positionurl: profesor
-  affiliationurl: University_of_British_Columbia
-  cityurl: Britska_Kolumbia
-  sexurl: muz
 - name: Ladislav Mucina
   last: Mucina
   year: 1956
@@ -1242,9 +1219,9 @@
   affiliation: Murdoch University
   city: Perth
   country: "Austr\xE1lia"
-  hindex: 66
+  hindex: 67
   scholar: https://scholar.google.com/citations?user=BPId440AAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - IAVS
     - https://www.sci.muni.cz/botany/chytry/Laco-Mucina-Honorary-Membership.pdf
@@ -1272,6 +1249,29 @@
   affiliationurl: Murdoch_University
   cityurl: Perth
   sexurl: muz
+- name: Marcel Franz
+  last: Franz
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: fyzika
+  affiliation: University of British Columbia
+  city: "Britsk\xE1 Kolumbia"
+  country: Kanada
+  hindex: 66
+  scholar: https://scholar.google.com/citations?user=qOmkOIAAAAAJ&amp;hl=en
+  last_update: '2026-03-15'
+  links:
+  - - web
+    - https://phas.ubc.ca/~franz/
+  img: Marcel_Franz.jpg
+  update_status: UPDATED
+  countryurl: Kanada
+  fieldurl: fyzika
+  positionurl: profesor
+  affiliationurl: University_of_British_Columbia
+  cityurl: Britska_Kolumbia
+  sexurl: muz
 - name: Miro Zeman
   last: Zeman
   year: 1957
@@ -1283,7 +1283,7 @@
   country: Holandsko
   hindex: 66
   scholar: https://scholar.google.com/citations?hl=en&amp;user=YP4gwRsAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Miro_Zeman
@@ -1686,7 +1686,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 60
   scholar: https://scholar.google.com/citations?hl=en&amp;user=NgHGnt0AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - web
     - http://kukura.chem.ox.ac.uk/
@@ -1713,7 +1713,7 @@
   country: Slovensko
   hindex: 60
   scholar: https://scholar.google.com/citations?user=eZE5eZwAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - in memoriam
     - https://link.springer.com/article/10.1007/s10571-017-0569-y
@@ -1773,7 +1773,7 @@
   country: Slovensko
   hindex: 60
   scholar: https://scholar.google.sk/citations?user=Z8DDt0kAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - osobnosti
     - https://www.osobnosti.sk/osobnost/vladimir-sladek-591
@@ -1812,6 +1812,33 @@
   affiliationurl: Adolphe_Merkle_Institute
   cityurl: Fribourg
   sexurl: muz
+- name: Michal Hammel
+  last: Hammel
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "molekul\xE1rna biofyzika"
+  affiliation: Lawrence Berkeley National Laboratory
+  city: Berkeley
+  country: USA
+  hindex: 58
+  scholar: https://scholar.google.com/citations?hl=en&user=ElcuTkwAAAAJ
+  last_update: '2026-04-07'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5610-9289
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Michal-Hammel
+  - - web
+    - https://biosciences.lbl.gov/profiles/michal-hammel-2/
+  img: Michal_Hammel.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: molekularna_biofyzika
+  positionurl: vedec
+  affiliationurl: Lawrence_Berkeley_National_Laboratory
+  cityurl: Berkeley
+  sexurl: muz
 - name: "Stano Pek\xE1r"
   last: Pekar
   year: 1970
@@ -1848,33 +1875,6 @@
   positionurl: profesor
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
-  sexurl: muz
-- name: Michal Hammel
-  last: Hammel
-  year: ''
-  sex: "mu\u017E"
-  position: vedec
-  field: "molekul\xE1rna biofyzika"
-  affiliation: Lawrence Berkeley National Laboratory
-  city: Berkeley
-  country: USA
-  hindex: 57
-  scholar: https://scholar.google.com/citations?hl=en&user=ElcuTkwAAAAJ
-  last_update: '2026-03-07'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0002-5610-9289
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Michal-Hammel
-  - - web
-    - https://biosciences.lbl.gov/profiles/michal-hammel-2/
-  img: Michal_Hammel.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: molekularna_biofyzika
-  positionurl: vedec
-  affiliationurl: Lawrence_Berkeley_National_Laboratory
-  cityurl: Berkeley
   sexurl: muz
 - name: "Jozef Ke\u010Dk\xE9\u0161"
   last: Keckes
@@ -1920,7 +1920,7 @@
   country: USA
   hindex: 57
   scholar: https://scholar.google.com/citations?hl=en&amp;user=NTGtkq0AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0001-5048-6422
@@ -1947,7 +1947,7 @@
   country: Slovensko
   hindex: 57
   scholar: https://scholar.google.com/citations?user=fbrMtJsAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - "https://www.linkedin.com/in/marek-\u017Eiv\u010D\xE1k-358421119/?originalSubdomain=sk"
@@ -2112,7 +2112,7 @@
   country: Slovensko
   hindex: 55
   scholar: https://scholar.google.sk/citations?user=co9rdhQAAAAJ&hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0003-2003-9052
@@ -2398,7 +2398,7 @@
   country: Slovensko
   hindex: 54
   scholar: https://scholar.google.sk/citations?user=iPch8vQAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - web
     - https://www.imbm.sk/sk/members/peter-celec-sk/
@@ -2493,7 +2493,7 @@
   country: Holandsko
   hindex: 53
   scholar: https://scholar.google.com/citations?hl=en&amp;user=rX7GiUAAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/michalmokry/?originalSubdomain=nl
@@ -3098,7 +3098,7 @@
   country: "Rak\xFAsko"
   hindex: 51
   scholar: https://scholar.google.com/citations?hl=en&amp;user=OYXbmu0AAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - prabook
     - https://prabook.com/web/vladimir.mlynarik/338489
@@ -3213,7 +3213,7 @@
   country: Slovensko
   hindex: 50
   scholar: https://scholar.google.com/citations?user=zsFNpOgAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - econpapers
     - https://econpapers.repec.org/RAS/pkl192.htm
@@ -3246,7 +3246,7 @@
   country: USA
   hindex: 50
   scholar: https://scholar.google.com/citations?hl=en&amp;user=sQ6l4sMAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - KInIT
     - https://kinit.sk/meet-jana-kosecka-kinit-external-mentor/
@@ -3348,6 +3348,35 @@
   positionurl: profesor
   affiliationurl: University_of_Birmingham
   cityurl: Birmingham
+  sexurl: muz
+- name: "Tom\xE1\u0161 Grim"
+  last: Grim
+  year: 1973
+  sex: "mu\u017E"
+  position: docent
+  field: "behavior\xE1lna ekol\xF3gia"
+  affiliation: "Univerzita Palack\xE9ho v Olomouci"
+  city: Olomouc
+  country: "\u010Cesko"
+  hindex: 49
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=T0MNJGgAAAAJ
+  last_update: '2026-04-07'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/392854/bio
+  - - orcid
+    - https://orcid.org/0000-0002-5775-6269
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Tomas-Grim
+  - - web
+    - http://www.tomasgrim.com
+  img: Tomas_Grim.jpg
+  update_status: UPDATED
+  countryurl: Cesko
+  fieldurl: behavioralna_ekologia
+  positionurl: docent
+  affiliationurl: Univerzita_Palackeho_v_Olomouci
+  cityurl: Olomouc
   sexurl: muz
 - name: "O\u013Ega Pech\xE1\u0148ov\xE1"
   last: Pechanova
@@ -3540,35 +3569,6 @@
   affiliationurl: Institute_of_Tropical_Medicine_Antwerp
   cityurl: Antwerpy
   sexurl: zena
-- name: "Tom\xE1\u0161 Grim"
-  last: Grim
-  year: 1973
-  sex: "mu\u017E"
-  position: docent
-  field: "behavior\xE1lna ekol\xF3gia"
-  affiliation: "Univerzita Palack\xE9ho v Olomouci"
-  city: Olomouc
-  country: "\u010Cesko"
-  hindex: 48
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=T0MNJGgAAAAJ
-  last_update: '2026-03-11'
-  links:
-  - - loop
-    - https://loop.frontiersin.org/people/392854/bio
-  - - orcid
-    - https://orcid.org/0000-0002-5775-6269
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Tomas-Grim
-  - - web
-    - http://www.tomasgrim.com
-  img: Tomas_Grim.jpg
-  update_status: UPDATED
-  countryurl: Cesko
-  fieldurl: behavioralna_ekologia
-  positionurl: docent
-  affiliationurl: Univerzita_Palackeho_v_Olomouci
-  cityurl: Olomouc
-  sexurl: muz
 - name: "Igor Koz\xE1k"
   last: Kozak
   year: '1971'
@@ -3607,7 +3607,7 @@
   country: Slovensko
   hindex: 48
   scholar: https://scholar.google.com/citations?user=pXeemKMAAAAJ&hl=sk
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/peter-massanyi-99869523/?originalSubdomain=sk
@@ -3671,7 +3671,7 @@
   country: Slovensko
   hindex: 48
   scholar: https://scholar.google.com/citations?hl=en&user=lZvsE4EAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - dblp
     - https://dblp.org/pid/16/796.html
@@ -3937,6 +3937,37 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: Miroslav Grmela
+  last: Grmela
+  year: 1939
+  sex: "mu\u017E"
+  position: vedec
+  field: termodynamika
+  affiliation: "Polytechnique Montr\xE9al"
+  city: Montreal
+  country: Kanada
+  hindex: 46
+  scholar: https://scholar.google.com/citations?hl=en&user=zOaoU8MAAAAJ
+  last_update: '2026-04-07'
+  links:
+  - - dblp
+    - https://dblp.org/pid/130/5568.html
+  - - LinkedIn
+    - https://www.linkedin.com/in/miroslav-grmela-91ba6766/?originalSubdomain=ca
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Miroslav-Grmela
+  - - web
+    - https://www.polymtl.ca/crepec/en/membres/grmela-miroslav
+  - - youtube
+    - https://www.youtube.com/watch?v=SB3dwG3TYnE
+  img: Miroslav_Grmela.jpg
+  update_status: UPDATED
+  countryurl: Kanada
+  fieldurl: termodynamika
+  positionurl: vedec
+  affiliationurl: Polytechnique_Montreal
+  cityurl: Montreal
+  sexurl: muz
 - name: Tibor Hianik
   last: Hianik
   year: ''
@@ -4016,7 +4047,7 @@
   country: USA
   hindex: 46
   scholar: https://scholar.google.com/citations?user=CZaDvPgAAAAJ&amp;hl=en&amp;oi=ao
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - dblp
     - https://dblp.org/pid/92/5526.html
@@ -4239,37 +4270,6 @@
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: muz
-- name: Miroslav Grmela
-  last: Grmela
-  year: 1939
-  sex: "mu\u017E"
-  position: vedec
-  field: termodynamika
-  affiliation: "Polytechnique Montr\xE9al"
-  city: Montreal
-  country: Kanada
-  hindex: 45
-  scholar: https://scholar.google.com/citations?hl=en&user=zOaoU8MAAAAJ
-  last_update: '2026-03-07'
-  links:
-  - - dblp
-    - https://dblp.org/pid/130/5568.html
-  - - LinkedIn
-    - https://www.linkedin.com/in/miroslav-grmela-91ba6766/?originalSubdomain=ca
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Miroslav-Grmela
-  - - web
-    - https://www.polymtl.ca/crepec/en/membres/grmela-miroslav
-  - - youtube
-    - https://www.youtube.com/watch?v=SB3dwG3TYnE
-  img: Miroslav_Grmela.jpg
-  update_status: UPDATED
-  countryurl: Kanada
-  fieldurl: termodynamika
-  positionurl: vedec
-  affiliationurl: Polytechnique_Montreal
-  cityurl: Montreal
-  sexurl: muz
 - name: "\u0160tefan Jane\u010Dek"
   last: Janecek
   year: ''
@@ -4306,7 +4306,7 @@
   country: USA
   hindex: 45
   scholar: https://scholar.google.com/citations?hl=en&amp;user=1tCBM2kAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - web
     - http://acms.arizona.edu/FemtoTheory/MK_personal/index.html
@@ -4432,7 +4432,7 @@
   country: USA
   hindex: 45
   scholar: https://scholar.google.com/citations?user=G0MJo3UAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/John_Nabelek
@@ -4623,7 +4623,7 @@
   country: "\u010Cesko"
   hindex: 44
   scholar: https://scholar.google.com/citations?user=3S5wnV8AAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0002-3531-6748
@@ -4706,7 +4706,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 44
   scholar: https://scholar.google.com/citations?hl=en&amp;user=5akXP_8AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0002-7181-5122
@@ -4936,7 +4936,7 @@
   country: Slovensko
   hindex: 43
   scholar: https://scholar.google.com/citations?user=QQkfeNkAAAAJ&hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/igor-podlubny
@@ -4965,7 +4965,7 @@
   country: "Rak\xFAsko"
   hindex: 43
   scholar: https://scholar.google.com/citations?user=3PIAo10AAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0002-7016-8584
@@ -5058,7 +5058,7 @@
   country: Slovensko
   hindex: 43
   scholar: https://scholar.google.com/citations?user=dWhSd2wAAAAJ&amp;hl=en&amp;oi=sra
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0002-2712-6805
@@ -5166,7 +5166,7 @@
   country: USA
   hindex: 42
   scholar: https://scholar.google.com/citations?user=u4WoWNcAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0003-1990-3077
@@ -5295,7 +5295,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.com/citations?hl=en&user=OGYiJWwAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - learned.sk
     - https://www.learned.sk/prof-ing-ivan-chodak-drsc/
@@ -5415,7 +5415,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.com/citations?user=cwsmFUUAAAAJ&amp;hl=sk
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - web
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5352
@@ -5492,7 +5492,7 @@
   country: USA
   hindex: 41
   scholar: https://scholar.google.com/citations?user=qWOmZxQAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Peter_Nabelek
@@ -5521,7 +5521,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.sk/citations?user=jsJC9WgAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - web
     - https://www.imbm.sk/members/katarina-sebekova/
@@ -5626,7 +5626,7 @@
   country: USA
   hindex: 41
   scholar: https://scholar.google.com/citations?user=-toxVLsAAAAJ&amp;hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/oskar-vafek-14a39b8/
@@ -5843,6 +5843,41 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: Zdenko Machala
+  last: Machala
+  year: 1974
+  sex: "mu\u017E"
+  position: docent
+  field: "fyzika plazmy a environment\xE1lna fyzika"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 40
+  scholar: https://scholar.google.sk/citations?hl=en&user=3xq6b60AAAAJ
+  last_update: '2026-04-07'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/zdenko-machala
+  - - LinkedIn
+    - https://www.linkedin.com/in/zdenko-machala-11405110/?originalSubdomain=sk
+  - - orcid
+    - https://orcid.org/0000-0003-1424-1350
+  - - publons
+    - https://publons.com/researcher/1223900/zdenko-machala/
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Zdenko-Machala
+  - - scopus
+    - https://www.scopus.com/authid/detail.uri?authorId=22941510900
+  - - web
+    - http://enviro.fmph.uniba.sk/index.php?link=machala
+  img: Zdenko_Machala.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: fyzika_plazmy_a_environmentalna_fyzika
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: Peter Rafaj
   last: Rafaj
   year: null
@@ -6035,41 +6070,6 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: Zdenko Machala
-  last: Machala
-  year: 1974
-  sex: "mu\u017E"
-  position: docent
-  field: "fyzika plazmy a environment\xE1lna fyzika"
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 39
-  scholar: https://scholar.google.sk/citations?hl=en&user=3xq6b60AAAAJ
-  last_update: '2026-03-07'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/zdenko-machala
-  - - LinkedIn
-    - https://www.linkedin.com/in/zdenko-machala-11405110/?originalSubdomain=sk
-  - - orcid
-    - https://orcid.org/0000-0003-1424-1350
-  - - publons
-    - https://publons.com/researcher/1223900/zdenko-machala/
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Zdenko-Machala
-  - - scopus
-    - https://www.scopus.com/authid/detail.uri?authorId=22941510900
-  - - web
-    - http://enviro.fmph.uniba.sk/index.php?link=machala
-  img: Zdenko_Machala.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: fyzika_plazmy_a_environmentalna_fyzika
-  positionurl: docent
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: muz
 - name: "Katar\xEDna Miku\u0161ov\xE1"
   last: Mikusova
   year: 1965
@@ -6081,7 +6081,7 @@
   country: Slovensko
   hindex: 39
   scholar: https://scholar.google.com/citations?user=VkLUxAoAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/katarina-mikusova
@@ -6381,7 +6381,7 @@
   country: "Rak\xFAsko"
   hindex: 38
   scholar: https://scholar.google.com/citations?user=sYVE8VIAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/marek-sykora-046b475a/
@@ -6412,7 +6412,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.com/citations?user=9TGPGbYAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - "\u017Eivotopis"
     - https://fns.uniba.sk/fileadmin/prif/chem/lam/CV_for_webpage_ms1.pdf
@@ -7009,7 +7009,7 @@
   country: "\u010Cesko"
   hindex: 36
   scholar: https://scholar.google.com/citations?user=LgkWAqQAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - facebook
     - https://www.facebook.com/tomas.hlasny/
@@ -7044,7 +7044,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?hl=en&user=Z5oQuUQAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/frantisek-kacik-3967a136/?originalSubdomain=sk
@@ -7880,7 +7880,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?hl=en&user=_9liP44AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0001-8188-6947
@@ -8054,7 +8054,7 @@
   country: Nemecko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=zakQyxMAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/tibor-macko-915b1912/?originalSubdomain=de
@@ -8079,7 +8079,7 @@
   country: USA
   hindex: 34
   scholar: https://scholar.google.com/citations?hl=en&user=dQjETlwAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - kniha
     - https://www.teraz.sk/zdravie/terminologia-verejneho-zdravotnictva/183351-clanok.html
@@ -8184,7 +8184,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?hl=en&user=W8akvAsAAAAJ
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - LinkedIn
     - "https://www.linkedin.com/in/milan-polakovi\u010D-278578b2/?originalSubdomain=sk"
@@ -8763,7 +8763,7 @@
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.com/citations?hl=en&user=UHGYV8UAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0001-8266-393X
@@ -9007,7 +9007,7 @@
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.com/citations?user=i4J2z3sAAAAJ&hl=en
-  last_update: '2026-03-07'
+  last_update: '2026-04-07'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Eva-Spitalska
@@ -9146,7 +9146,7 @@
   country: Slovensko
   hindex: 30
   scholar: https://scholar.google.com/citations?hl=en&user=q9CfoU0AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-07'
   links:
   - - orcid
     - https://orcid.org/0000-0003-0004-4292
