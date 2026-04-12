@@ -129,9 +129,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 162
+  hindex: 163
   scholar: https://scholar.google.com/citations?user=4ymEP0sAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - publons
     - https://publons.com/researcher/3258206/brano-sitar/
@@ -278,9 +278,9 @@
   affiliation: University of Bonn
   city: Bonn
   country: Nemecko
-  hindex: 94
+  hindex: 95
   scholar: https://scholar.google.com/citations?user=KF4AYR4AAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - loop
     - https://loop.frontiersin.org/people/31110/overview
@@ -528,7 +528,7 @@
   country: USA
   hindex: 79
   scholar: https://scholar.google.com/citations?user=s9Ikf1EAAAAJ&amp
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - Envoy of the ESET Science Award
     - https://www.esetscienceaward.sk/en/envoys/ruzena-bajcsy
@@ -608,6 +608,33 @@
   affiliationurl: Regionalny_urad_verejneho_zdravotnictva
   cityurl: Banska_Bystrica
   sexurl: zena
+- name: Marek Majdan
+  last: Majdan
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "epidemiol\xF3gia"
+  affiliation: "Trnavsk\xE1 univerzita"
+  city: Trnava
+  country: Slovensko
+  hindex: 76
+  scholar: https://scholar.google.sk/citations?user=xwG1s8YAAAAJ
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/marek-majdan-b7a9907
+  - - orcid
+    - https://orcid.org/0000-0001-8037-742X
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Marek-Majdan-3
+  img: Marek_Majdan.jpg
+  last_update: '2026-04-13'
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: epidemiologia
+  positionurl: docent
+  affiliationurl: Trnavska_univerzita
+  cityurl: Trnava
+  sexurl: muz
 - name: "Fedor \u0160imkovic"
   last: Simkovic
   year: 1959
@@ -672,33 +699,6 @@
   affiliationurl: Norwegian_Institute_for_Air_Research
   cityurl: Kjeller
   sexurl: zena
-- name: Marek Majdan
-  last: Majdan
-  year: ''
-  sex: "mu\u017E"
-  position: docent
-  field: "epidemiol\xF3gia"
-  affiliation: "Trnavsk\xE1 univerzita"
-  city: Trnava
-  country: Slovensko
-  hindex: 75
-  scholar: https://scholar.google.sk/citations?user=xwG1s8YAAAAJ
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/marek-majdan-b7a9907
-  - - orcid
-    - https://orcid.org/0000-0001-8037-742X
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Marek-Majdan-3
-  img: Marek_Majdan.jpg
-  last_update: '2026-03-11'
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: epidemiologia
-  positionurl: docent
-  affiliationurl: Trnavska_univerzita
-  cityurl: Trnava
-  sexurl: muz
 - name: "Silvia Pastorekov\xE1"
   last: Pastorekova
   year: 1961
@@ -864,7 +864,7 @@
   country: Slovensko
   hindex: 72
   scholar: https://scholar.google.com/citations?user=r7j9ZoYAAAAJ&hl=en&oi=sra
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - Microsoft Academic
     - https://academic.microsoft.com/author/2074528035/publication?paperId=2048177691
@@ -1159,7 +1159,7 @@
   country: "Austr\xE1lia"
   hindex: 68
   scholar: https://scholar.google.com.au/citations?hl=en&amp;user=Q_0mjq0AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - loop
     - https://loop.frontiersin.org/people/371235/overview
@@ -1271,6 +1271,41 @@
   positionurl: profesor
   affiliationurl: University_of_British_Columbia
   cityurl: Britska_Kolumbia
+  sexurl: muz
+- name: "Peter \u0160vihra"
+  last: Svihra
+  year: '1993'
+  sex: "mu\u017E"
+  position: vedec
+  field: "subjadrov\xE1 fyzika"
+  affiliation: CERN
+  city: "\u017Deneva"
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 66
+  scholar: https://scholar.google.com/citations?user=Ud3obX9UjLcC
+  last_update: '2026-04-13'
+  links:
+  - - dennikn.sk
+    - https://dennikn.sk/3366861/vyskum-v-cern-e-nam-rozok-o-par-centov-nezlacni-no-z-dlhodobeho-hladiska-zlepsuje-kvalitu-zivota-hovori-experimentalny-fyzik/
+  - - Forbes
+    - https://www.forbes.sk/lists/rebricek-30pod30-rocnik-2023/veda-a-vzdelavanie/peter-svihra/
+  - - instagram
+    - https://www.instagram.com/peter.svihra/
+  - - LinkedIn
+    - https://www.linkedin.com/in/peter-svihra/
+  - - orcid
+    - https://orcid.org/0000-0002-7811-2147
+  - - twitter
+    - https://twitter.com/svihrapeter
+  - - web
+    - https://ep-rnd.web.cern.ch/person/peter-svihra
+  img: Peter_Svihra.jpg
+  update_status: UPDATED
+  countryurl: Svajciarsko
+  fieldurl: subjadrova_fyzika
+  positionurl: vedec
+  affiliationurl: CERN
+  cityurl: Zeneva
   sexurl: muz
 - name: Miro Zeman
   last: Zeman
@@ -1386,41 +1421,6 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: "Peter \u0160vihra"
-  last: Svihra
-  year: '1993'
-  sex: "mu\u017E"
-  position: vedec
-  field: "subjadrov\xE1 fyzika"
-  affiliation: CERN
-  city: "\u017Deneva"
-  country: "\u0160vaj\u010Diarsko"
-  hindex: 65
-  scholar: https://scholar.google.com/citations?user=Ud3obX9UjLcC
-  last_update: '2026-03-11'
-  links:
-  - - dennikn.sk
-    - https://dennikn.sk/3366861/vyskum-v-cern-e-nam-rozok-o-par-centov-nezlacni-no-z-dlhodobeho-hladiska-zlepsuje-kvalitu-zivota-hovori-experimentalny-fyzik/
-  - - Forbes
-    - https://www.forbes.sk/lists/rebricek-30pod30-rocnik-2023/veda-a-vzdelavanie/peter-svihra/
-  - - instagram
-    - https://www.instagram.com/peter.svihra/
-  - - LinkedIn
-    - https://www.linkedin.com/in/peter-svihra/
-  - - orcid
-    - https://orcid.org/0000-0002-7811-2147
-  - - twitter
-    - https://twitter.com/svihrapeter
-  - - web
-    - https://ep-rnd.web.cern.ch/person/peter-svihra
-  img: Peter_Svihra.jpg
-  update_status: UPDATED
-  countryurl: Svajciarsko
-  fieldurl: subjadrova_fyzika
-  positionurl: vedec
-  affiliationurl: CERN
-  cityurl: Zeneva
-  sexurl: muz
 - name: Peter Kubatka
   last: Kubatka
   year: 1973
@@ -1521,7 +1521,7 @@
   country: Slovensko
   hindex: 62
   scholar: https://scholar.google.com/citations?user=_tpva74AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/alexandra-brazinova
@@ -1550,7 +1550,7 @@
   country: "\u010Cesko"
   hindex: 62
   scholar: https://scholar.google.com/citations?user=-jBJ1_gAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - iDNES
     - https://www.idnes.cz/onadnes/zdravi/marian-hajduch.K467490
@@ -1936,6 +1936,31 @@
   affiliationurl: University_of_California
   cityurl: San_Diego
   sexurl: muz
+- name: "Lubo\u0161 Mit\xE1\u0161"
+  last: Mitas
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: fyzika
+  affiliation: North Carolina State University
+  city: Raleigh
+  country: USA
+  hindex: 57
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=iqeVgOAAAAAJ
+  last_update: '2026-04-13'
+  links:
+  - - web
+    - https://physics.sciences.ncsu.edu/people/lmitas/
+  - - "\u017Eivotopis"
+    - http://altair.physics.ncsu.edu/cv.html
+  img: Lubos_Mitas.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: fyzika
+  positionurl: profesor
+  affiliationurl: North_Carolina_State_University
+  cityurl: Raleigh
+  sexurl: muz
 - name: "Marek \u017Div\u010D\xE1k"
   last: Zivcak
   year: ''
@@ -2007,7 +2032,7 @@
   country: "Rak\xFAsko"
   hindex: 56
   scholar: https://scholar.google.com/citations?hl=en&amp;user=Ynt9VvUAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Martin_Krssak2
@@ -2020,31 +2045,6 @@
   positionurl: docent
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
-  sexurl: muz
-- name: "Lubo\u0161 Mit\xE1\u0161"
-  last: Mitas
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: fyzika
-  affiliation: North Carolina State University
-  city: Raleigh
-  country: USA
-  hindex: 56
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=iqeVgOAAAAAJ
-  last_update: '2026-03-11'
-  links:
-  - - web
-    - https://physics.sciences.ncsu.edu/people/lmitas/
-  - - "\u017Eivotopis"
-    - http://altair.physics.ncsu.edu/cv.html
-  img: Lubos_Mitas.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: fyzika
-  positionurl: profesor
-  affiliationurl: North_Carolina_State_University
-  cityurl: Raleigh
   sexurl: muz
 - name: "Ivan Tk\xE1\u010D"
   last: Tkac
@@ -2085,7 +2085,7 @@
   country: USA
   hindex: 55
   scholar: https://scholar.google.com/citations?user=QB0X-6sAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - loop
     - https://loop.frontiersin.org/people/118500/overview
@@ -2891,7 +2891,7 @@
   country: Slovensko
   hindex: 51
   scholar: https://scholar.google.com/citations?user=FMHHfNAAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/en/finalists/jan-dusza
@@ -2924,7 +2924,7 @@
   country: Kanada
   hindex: 51
   scholar: https://scholar.google.sk/citations?hl=sk&amp;user=8KDwlbEAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - Mathematics Genealogy
     - https://www.mathgenealogy.org/id.php?id=17952
@@ -3174,7 +3174,7 @@
   country: Slovensko
   hindex: 50
   scholar: https://scholar.google.sk/citations?user=1st0ejAAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/miroslava-kacaniova-681bb6b3/?originalSubdomain=sk
@@ -3349,6 +3349,31 @@
   affiliationurl: University_of_Birmingham
   cityurl: Birmingham
   sexurl: muz
+- name: "Du\u0161an Uhr\xEDn"
+  last: Uhrin
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "nukle\xE1rna magnetick\xE1 rezonancia"
+  affiliation: University of Edinburgh
+  city: Edinburg
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  hindex: 50
+  scholar: https://scholar.google.com/citations?user=BSx7_CEAAAAJ&amp;hl=en
+  last_update: '2026-04-13'
+  links:
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Dusan-Uhrin
+  - - web
+    - https://uhringroup.wixsite.com/nmrgroup
+  img: Dusan_Uhrin.jpg
+  update_status: UPDATED
+  countryurl: Velka_Britania
+  fieldurl: nuklearna_magneticka_rezonancia
+  positionurl: profesor
+  affiliationurl: University_of_Edinburgh
+  cityurl: Edinburg
+  sexurl: muz
 - name: "Tom\xE1\u0161 Grim"
   last: Grim
   year: 1973
@@ -3460,31 +3485,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_zdravotnicka_univerzita
   cityurl: Bratislava
-  sexurl: muz
-- name: "Du\u0161an Uhr\xEDn"
-  last: Uhrin
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "nukle\xE1rna magnetick\xE1 rezonancia"
-  affiliation: University of Edinburgh
-  city: Edinburg
-  country: "Ve\u013Ek\xE1 Brit\xE1nia"
-  hindex: 49
-  scholar: https://scholar.google.com/citations?user=BSx7_CEAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
-  links:
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Dusan-Uhrin
-  - - web
-    - https://uhringroup.wixsite.com/nmrgroup
-  img: Dusan_Uhrin.jpg
-  update_status: UPDATED
-  countryurl: Velka_Britania
-  fieldurl: nuklearna_magneticka_rezonancia
-  positionurl: profesor
-  affiliationurl: University_of_Edinburgh
-  cityurl: Edinburg
   sexurl: muz
 - name: "Mari\xE1n Valko"
   last: Valko
@@ -3648,7 +3648,7 @@
   country: Slovensko
   hindex: 48
   scholar: https://scholar.google.com/citations?user=NvHY0EcAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Mego/18_doc._Mego_-_zivotopis.pdf
@@ -4002,7 +4002,7 @@
   country: "N\xF3rsko"
   hindex: 46
   scholar: https://scholar.google.com/citations?user=wOkUZGAAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - blog
     - https://www.nataliakucirkova.com
@@ -4072,7 +4072,7 @@
   country: Slovensko
   hindex: 46
   scholar: https://scholar.google.sk/citations?hl=en&amp;user=Wt7wd3QAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - orcid
     - https://orcid.org/0000-0002-7268-1584
@@ -4099,7 +4099,7 @@
   country: Slovensko
   hindex: 46
   scholar: https://scholar.google.com/citations?user=uA0tObYAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - publons
     - https://publons.com/researcher/1220455/karol-marhold/
@@ -4994,7 +4994,7 @@
   country: "Rak\xFAsko"
   hindex: 43
   scholar: https://scholar.google.co.uk/citations?user=tFQBoAcAAAAJ&hl=en&oi=ao
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/pavol-szomolanyi-7a829514a/?originalSubdomain=sk
@@ -5388,7 +5388,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.com/citations?user=ZCMAk9sAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Peter_Kopcansky
@@ -5546,7 +5546,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.com/citations?hl=en&user=AudOPSIAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - orcid
     - https://orcid.org/0000-0002-9588-8609
@@ -5754,7 +5754,7 @@
   country: "\u010Cesko"
   hindex: 40
   scholar: https://scholar.google.com/citations?user=t_V_OnwAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - loop
     - https://loop.frontiersin.org/people/61544/overview
@@ -6356,7 +6356,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.com/citations?user=AULzHfIAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - web
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=9228
@@ -6750,7 +6750,7 @@
   country: USA
   hindex: 37
   scholar: https://scholar.google.com/citations?hl=en&amp;user=Ttsxv0IAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - NBS
     - https://www.nbs.sk/en/about-the-bank/bank-board-of-the-nbs/the-bank-board-member-lubos-pastor
@@ -6802,7 +6802,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=JCOUk6EAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Dusan_Plasienka
@@ -6829,7 +6829,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=_fONjMIAAAAJ&amp;hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Tanya_Ravingerova
@@ -6854,7 +6854,7 @@
   country: USA
   hindex: 37
   scholar: https://scholar.google.com/citations?user=Ghikz7sAAAAJ&oi=ao
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - lab
     - https://www.researchgate.net/lab/Ivan-Simko-Lab
@@ -6949,7 +6949,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?user=UKDrvpQAAAAJ&amp
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/milan-certik-65a0834b/?originalSubdomain=sk
@@ -7069,7 +7069,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.hu/citations?user=SZhtoTQAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/maria-kazimirova-92b97a23/?originalSubdomain=sk
@@ -7191,7 +7191,7 @@
   country: Slovensko
   hindex: 36
   scholar: https://scholar.google.com/citations?user=FNaaPIwAAAAJ&amp
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - learned.sk
     - https://www.learned.sk/prof-ing-roman-martonak-drsc/
@@ -7387,6 +7387,43 @@
   affiliationurl: US_Food_and_Drug_Administration
   cityurl: Bethesda
   sexurl: muz
+- name: "Fedor G\xF6m\xF6ry"
+  last: Gomory
+  year: '1952'
+  sex: "mu\u017E"
+  position: docent
+  field: "supravodi\u010De"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 35
+  scholar: https://scholar.google.com/citations?hl=en&user=9aaym_UAAAAJ
+  last_update: '2026-04-13'
+  links:
+  - - IEEE Xplore
+    - https://ieeexplore.ieee.org/author/37313579800
+  - - learned.sk
+    - https://www.learned.sk/vizitka-doc-ing-fedor-gomory-drsc/
+  - - orcid
+    - https://orcid.org/0000-0002-2278-5123
+  - - prabook
+    - https://prabook.com/web/fedor.gomory/337837
+  - - science.sk
+    - http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/1957-fedor-gomory
+  - - TEDx
+    - https://www.tedxbratislava.sk/en/video/fedor-gomory-unintended-research-of-the-magnetic-invisibility-cloak/
+  - - vedec roka
+    - https://vedanadosah.cvtisr.sk/technika/elektrotechnika/vedec-roka-2014-doc-ing-fedor-gomory-drsc/
+  - - web
+    - http://www.elu.sav.sk/pracovnici/zakladne-info/?user_no=87&publication_author_id=0000025
+  img: Fedor_Gomory.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: supravodice
+  positionurl: docent
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: Juraj Harmatha
   last: Harmatha
   year: ''
@@ -7483,7 +7520,7 @@
   country: "Rak\xFAsko"
   hindex: 35
   scholar: https://scholar.google.com/citations?user=2lo3e7sAAAAJ&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - Academia Europaea
     - https://www.ae-info.org/ae/Member/Kahanec_Martin
@@ -7756,7 +7793,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.sk/citations?user=GweRIrQAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - dblp
     - https://dblp.org/pid/85/3264.html
@@ -7776,43 +7813,6 @@
   fieldurl: matematika
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: muz
-- name: "Fedor G\xF6m\xF6ry"
-  last: Gomory
-  year: '1952'
-  sex: "mu\u017E"
-  position: docent
-  field: "supravodi\u010De"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 34
-  scholar: https://scholar.google.com/citations?hl=en&user=9aaym_UAAAAJ
-  last_update: '2026-03-11'
-  links:
-  - - IEEE Xplore
-    - https://ieeexplore.ieee.org/author/37313579800
-  - - learned.sk
-    - https://www.learned.sk/vizitka-doc-ing-fedor-gomory-drsc/
-  - - orcid
-    - https://orcid.org/0000-0002-2278-5123
-  - - prabook
-    - https://prabook.com/web/fedor.gomory/337837
-  - - science.sk
-    - http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/1957-fedor-gomory
-  - - TEDx
-    - https://www.tedxbratislava.sk/en/video/fedor-gomory-unintended-research-of-the-magnetic-invisibility-cloak/
-  - - vedec roka
-    - https://vedanadosah.cvtisr.sk/technika/elektrotechnika/vedec-roka-2014-doc-ing-fedor-gomory-drsc/
-  - - web
-    - http://www.elu.sav.sk/pracovnici/zakladne-info/?user_no=87&publication_author_id=0000025
-  img: Fedor_Gomory.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: supravodice
-  positionurl: docent
-  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
 - name: Miroslav Grajcar
@@ -7851,7 +7851,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.sk/citations?user=XDh-250AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/miroslav-kocifaj-5665042b/?originalSubdomain=sk
@@ -8405,7 +8405,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.com/citations?user=5180vHmRoYcC&hl=en
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - dblp
     - https://dblp.org/pid/15/2733.html
@@ -8459,6 +8459,37 @@
   affiliationurl: Technicka_univerzita_vo_Zvolene
   cityurl: Zvolen
   sexurl: muz
+- name: Richard Imrich
+  last: Imrich
+  year: 1974
+  sex: "mu\u017E"
+  position: docent
+  field: "biomedic\xEDna"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.sk/citations?user=UTQ13_oAAAAJ&hl=en
+  last_update: '2026-04-13'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/richard-imrich-8347269/?originalSubdomain=sk
+  - - Nylon Union
+    - https://www.newmodelradio.sk/120-minut-s-hudbou-nasho-hosta-richard-imrich-nylon-union/
+  - - orcid
+    - https://orcid.org/0000-0002-1747-7150
+  - - web
+    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=6429
+  - - "\u017Eivotopis"
+    - https://www.sav.sk/uploads/users_cv/20210319102833_120_RichardImrichCV03-2021.docx
+  img: Richard_Imrich.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: biomedicina
+  positionurl: docent
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Ctirad Klim\u010D\xEDk"
   last: Klimcik
   year: 1961
@@ -8470,7 +8501,7 @@
   country: "Franc\xFAzsko"
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=sk&user=gKofB3UAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Ctirad-Klimcik
@@ -8845,37 +8876,6 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
-- name: Richard Imrich
-  last: Imrich
-  year: 1974
-  sex: "mu\u017E"
-  position: docent
-  field: "biomedic\xEDna"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 32
-  scholar: https://scholar.google.sk/citations?user=UTQ13_oAAAAJ&hl=en
-  last_update: '2026-03-11'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/richard-imrich-8347269/?originalSubdomain=sk
-  - - Nylon Union
-    - https://www.newmodelradio.sk/120-minut-s-hudbou-nasho-hosta-richard-imrich-nylon-union/
-  - - orcid
-    - https://orcid.org/0000-0002-1747-7150
-  - - web
-    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=6429
-  - - "\u017Eivotopis"
-    - https://www.sav.sk/uploads/users_cv/20210319102833_120_RichardImrichCV03-2021.docx
-  img: Richard_Imrich.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: biomedicina
-  positionurl: docent
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: muz
 - name: "Jana Jakub\xEDkov\xE1"
   last: Jakubikova
   year: ''
@@ -8949,7 +8949,7 @@
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.com/citations?user=wvefIYMAAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - aq-bios
     - https://www.aqbios.com/
@@ -9063,7 +9063,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 31
   scholar: https://scholar.google.com/citations?hl=en&user=hOuiMR8AAAAJ
-  last_update: '2026-03-11'
+  last_update: '2026-04-13'
   links:
   - - news
     - https://www.dailymail.co.uk/news/article-4584480/Scientist-killed-lethal-dose-chemicals.html

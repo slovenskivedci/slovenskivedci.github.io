@@ -155,15 +155,15 @@ hindex:
 - 58
 - 36
 - 33
-- 49
+- 50
 - 36
 - 46
 - 98
-- 162
+- 163
 - 40
 - 36
 - 32
-- 56
+- 57
 - 34
 - 37
 - 37
@@ -175,7 +175,7 @@ hindex:
 - 31
 - 79
 - 48
-- 65
+- 66
 - 50
 - 56
 - 36
@@ -187,14 +187,14 @@ hindex:
 - 33
 - 35
 - 51
-- 34
+- 35
 - 72
 - 41
 - 34
 - 34
 - 46
 - 36
-- 75
+- 76
 - 30
 - 68
 - 37
@@ -203,14 +203,14 @@ hindex:
 - 46
 - 41
 - 37
-- 32
+- 33
 - 62
 - 38
 - 62
 - 51
 - 37
 - 52
-- 94
+- 95
 - 72
 - 34
 - 30
@@ -371,7 +371,7 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ university','Vienna University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1\
   ','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-52'',''52-75'',''75-97'',''97-120'',''120-143'',''143-165'',''165-188'',''188-210'',''210-233'',''233-256'',]'
-hindex_hist_count: '[217,62,12,4,0,1,1,0,1,2]'
+hindex_hist_count: '[217,61,13,4,0,1,1,0,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Nemecko','Austr\xE1\
   lia','Ve\u013Ek\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
