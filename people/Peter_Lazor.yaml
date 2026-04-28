@@ -9,7 +9,7 @@ city: Uppsala
 country: "\u0160v\xE9dsko"
 hindex: 36
 scholar: https://scholar.google.se/citations?user=v61ZVcoAAAAJ&hl=sv
-last_update: '2026-04-01'
+last_update: '2026-04-29'
 links:
   LinkedIn: https://www.linkedin.com/in/peter-lazor-840a3967/?originalSubdomain=se
   orcid: https://orcid.org/0000-0001-9992-8009
@@ -17,4 +17,4 @@ links:
   web 2: https://www.geo.uu.se/research/min-pet-tek-en/about-us/
   "wikip\xE9dia": https://species.wikimedia.org/wiki/Peter_Lazor
 img: Peter_Lazor.png
-update_status: UPDATED
+update_status: ERROR
