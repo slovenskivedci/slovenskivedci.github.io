@@ -280,7 +280,7 @@
   country: Nemecko
   hindex: 95
   scholar: https://scholar.google.com/citations?user=KF4AYR4AAAAJ&amp;hl=en
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - loop
     - https://loop.frontiersin.org/people/31110/overview
@@ -436,6 +436,31 @@
   affiliationurl: Cardiovascular_Research_Center
   cityurl: Aalst
   sexurl: muz
+- name: Peter Boor
+  last: Boor
+  year: 1979
+  sex: "mu\u017E"
+  position: docent
+  field: "patol\xF3gia"
+  affiliation: RWTH Aachen
+  city: Aachen
+  country: Nemecko
+  hindex: 86
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=5d0eNiEAAAAJ
+  last_update: '2026-05-09'
+  links:
+  - - web
+    - https://www.ukaachen.de/kliniken-institute/institut-fuer-pathologie/forschung/labooratory-of-nephropathology/
+  - - "\u017Eivotopis"
+    - http://www.imbm.sk/wp-content/uploads/2018/01/cv-english-pb.pdf
+  img: Peter_Boor.jpeg
+  update_status: UPDATED
+  countryurl: Nemecko
+  fieldurl: patologia
+  positionurl: docent
+  affiliationurl: RWTH_Aachen
+  cityurl: Aachen
+  sexurl: muz
 - name: "\u0160tefan Matej\u010D\xEDk"
   last: Matejcik
   year: ''
@@ -458,31 +483,6 @@
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
-  sexurl: muz
-- name: Peter Boor
-  last: Boor
-  year: 1979
-  sex: "mu\u017E"
-  position: docent
-  field: "patol\xF3gia"
-  affiliation: RWTH Aachen
-  city: Aachen
-  country: Nemecko
-  hindex: 85
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=5d0eNiEAAAAJ
-  last_update: '2026-04-17'
-  links:
-  - - web
-    - https://www.ukaachen.de/kliniken-institute/institut-fuer-pathologie/forschung/labooratory-of-nephropathology/
-  - - "\u017Eivotopis"
-    - http://www.imbm.sk/wp-content/uploads/2018/01/cv-english-pb.pdf
-  img: Peter_Boor.jpeg
-  update_status: UPDATED
-  countryurl: Nemecko
-  fieldurl: patologia
-  positionurl: docent
-  affiliationurl: RWTH_Aachen
-  cityurl: Aachen
   sexurl: muz
 - name: Radko Mesiar
   last: Mesiar
@@ -864,7 +864,7 @@
   country: Slovensko
   hindex: 72
   scholar: https://scholar.google.com/citations?user=r7j9ZoYAAAAJ&hl=en&oi=sra
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - Microsoft Academic
     - https://academic.microsoft.com/author/2074528035/publication?paperId=2048177691
@@ -990,7 +990,7 @@
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
   hindex: 70
   scholar: https://scholar.google.com/citations?hl=en&user=vcIizE8AAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - acmedsci
     - https://acmedsci.ac.uk/fellows/fellows-directory/ordinary-fellows/fellow/Professor-Ervin-Fodor-0017930
@@ -1031,7 +1031,7 @@
   country: "Rak\xFAsko"
   hindex: 69
   scholar: https://scholar.google.com/citations?hl=en&amp;user=3knjVQkAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - https://ist.ac.at/en/research/benkova-group/#career
@@ -1407,7 +1407,7 @@
   country: Slovensko
   hindex: 65
   scholar: https://scholar.google.com/citations?user=m2hSZWQAAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - http://www.quantum.physics.sk/rcqi/index.php?x=home_for&for=buzek
@@ -1469,7 +1469,7 @@
   country: Slovensko
   hindex: 63
   scholar: https://scholar.google.com/citations?hl=en&amp;user=m-twF5IAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - http://davinci.fmph.uniba.sk/~cerny1/
@@ -1564,7 +1564,7 @@
   country: Slovensko
   hindex: 62
   scholar: https://scholar.google.com/citations?user=_tpva74AAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/alexandra-brazinova
@@ -1593,7 +1593,7 @@
   country: "\u010Cesko"
   hindex: 62
   scholar: https://scholar.google.com/citations?user=-jBJ1_gAAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - iDNES
     - https://www.idnes.cz/onadnes/zdravi/marian-hajduch.K467490
@@ -2423,7 +2423,7 @@
   country: Slovensko
   hindex: 54
   scholar: https://scholar.google.sk/citations?hl=sk&amp;user=VbZM3zYAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/andrea-madarasova-geckova
@@ -2479,7 +2479,7 @@
   country: Slovensko
   hindex: 53
   scholar: https://scholar.google.sk/citations?user=I5zYMOsAAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/roman-boca
@@ -2955,7 +2955,7 @@
   country: Kanada
   hindex: 51
   scholar: https://scholar.google.sk/citations?hl=sk&amp;user=8KDwlbEAAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - Mathematics Genealogy
     - https://www.mathgenealogy.org/id.php?id=17952
@@ -3157,6 +3157,33 @@
   affiliationurl: Zapadoceska_univerzita_v_Plzni
   cityurl: Plzen
   sexurl: muz
+- name: "Peter Ti\u0148o"
+  last: Tino
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "komplexn\xE9 a adapt\xEDvne syst\xE9my"
+  affiliation: University of Birmingham
+  city: Birmingham
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  hindex: 51
+  scholar: https://scholar.google.sk/citations?user=jntY1osAAAAJ&hl=en
+  last_update: '2026-05-09'
+  links:
+  - - KInIT
+    - https://kinit.sk/meet-peter-tino-kinit-external-mentor/
+  - - web
+    - https://www.cs.bham.ac.uk/~pxt/
+  - - "\u017Eivotopis"
+    - https://www.cs.bham.ac.uk/~pxt/cv_pt.pdf
+  img: Peter_Tino.jpg
+  update_status: UPDATED
+  countryurl: Velka_Britania
+  fieldurl: komplexne_a_adaptivne_systemy
+  positionurl: profesor
+  affiliationurl: University_of_Birmingham
+  cityurl: Birmingham
+  sexurl: muz
 - name: Michal Valko
   last: Valko
   year: ''
@@ -3277,7 +3304,7 @@
   country: Slovensko
   hindex: 50
   scholar: https://scholar.google.com/citations?user=SB6Z-ScAAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/igor-lacik
@@ -3322,33 +3349,6 @@
   affiliationurl: North_Carolina_State_University
   cityurl: Raleigh
   sexurl: zena
-- name: "Peter Ti\u0148o"
-  last: Tino
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "komplexn\xE9 a adapt\xEDvne syst\xE9my"
-  affiliation: University of Birmingham
-  city: Birmingham
-  country: "Ve\u013Ek\xE1 Brit\xE1nia"
-  hindex: 50
-  scholar: https://scholar.google.sk/citations?user=jntY1osAAAAJ&hl=en
-  last_update: '2026-04-17'
-  links:
-  - - KInIT
-    - https://kinit.sk/meet-peter-tino-kinit-external-mentor/
-  - - web
-    - https://www.cs.bham.ac.uk/~pxt/
-  - - "\u017Eivotopis"
-    - https://www.cs.bham.ac.uk/~pxt/cv_pt.pdf
-  img: Peter_Tino.jpg
-  update_status: UPDATED
-  countryurl: Velka_Britania
-  fieldurl: komplexne_a_adaptivne_systemy
-  positionurl: profesor
-  affiliationurl: University_of_Birmingham
-  cityurl: Birmingham
-  sexurl: muz
 - name: "Du\u0161an Uhr\xEDn"
   last: Uhrin
   year: ''
@@ -4136,7 +4136,7 @@
   country: Slovensko
   hindex: 46
   scholar: https://scholar.google.com/citations?user=uA0tObYAAAAJ&amp;hl=en
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - publons
     - https://publons.com/researcher/1220455/karol-marhold/
@@ -4316,7 +4316,7 @@
   country: Slovensko
   hindex: 45
   scholar: https://scholar.google.com/citations?user=HJtnSAkAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - loop
     - https://loop.frontiersin.org/people/1042453/network
@@ -4484,7 +4484,7 @@
   country: Slovensko
   hindex: 45
   scholar: https://scholar.google.com/citations?user=A2l-bV8AAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - https://mc3.sk/autor/iveta-nagyova/
@@ -4554,6 +4554,37 @@
   affiliationurl: University_of_Natural_Resources_and_Life_Sciences
   cityurl: Vieden
   sexurl: muz
+- name: "Katar\xEDna Val\xE1\u0161kov\xE1"
+  last: Valaskova
+  year: '1985'
+  sex: "\u017Eena"
+  position: docentka
+  field: "mana\u017Ement"
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 45
+  scholar: https://scholar.google.com/citations?user=14jeV0EAAAAJ
+  last_update: '2026-05-09'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-4223-7519
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Katarina-Valaskova
+  - - Semantic Scholar
+    - https://www.semanticscholar.org/author/K.-Valaskova/15349263
+  - - web
+    - https://ke.uniza.sk/sk/component/contact/contact/30-doc-ing-katarina-valaskova-phd?catid=33&Itemid=210
+  - - "\u017Eivotopis"
+    - https://www.unipo.sk/public/media/43544/%C5%BDivotopis%20-%20Val%C3%A1%C5%A1kov%C3%A1.pdf
+  img: Katarina_Valaskova.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: manazment
+  positionurl: docentka
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: zena
 - name: Pavel Ciaian
   last: Ciaian
   year: ''
@@ -4751,6 +4782,33 @@
   affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
   cityurl: Trnava
   sexurl: muz
+- name: "J\xE1n Moj\u017Ei\u0161"
+  last: Mojzis
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "farmakol\xF3gia"
+  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 44
+  scholar: https://scholar.google.sk/citations?user=TjtaxQ8AAAAJ
+  last_update: '2026-05-09'
+  links:
+  - - news 1
+    - https://www.cas.sk/fotogaleria/322223/slovensky-profesor-pracuje-na-prestiznom-svetovom-vyskume-neuverite-cim-poraza-rakovinu/2/
+  - - news 2
+    - https://www.kosickespravy.eu/unikatny-vyskum
+  - - web
+    - https://www.upjs.sk/LF/zamestnanec/jan.mojzis/
+  img: Jan_Mojzis.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: farmakologia
+  positionurl: profesor
+  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
+  cityurl: Kosice
+  sexurl: muz
 - name: "J\xE1n \u0160ef\u010D\xEDk"
   last: Sefcik
   year: ''
@@ -4782,37 +4840,6 @@
   affiliationurl: University_of_Strathclyde
   cityurl: Glasgow
   sexurl: muz
-- name: "Katar\xEDna Val\xE1\u0161kov\xE1"
-  last: Valaskova
-  year: '1985'
-  sex: "\u017Eena"
-  position: docentka
-  field: "mana\u017Ement"
-  affiliation: "\u017Dilinsk\xE1 univerzita"
-  city: "\u017Dilina"
-  country: Slovensko
-  hindex: 44
-  scholar: https://scholar.google.com/citations?user=14jeV0EAAAAJ
-  last_update: '2026-04-17'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0003-4223-7519
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Katarina-Valaskova
-  - - Semantic Scholar
-    - https://www.semanticscholar.org/author/K.-Valaskova/15349263
-  - - web
-    - https://ke.uniza.sk/sk/component/contact/contact/30-doc-ing-katarina-valaskova-phd?catid=33&Itemid=210
-  - - "\u017Eivotopis"
-    - https://www.unipo.sk/public/media/43544/%C5%BDivotopis%20-%20Val%C3%A1%C5%A1kov%C3%A1.pdf
-  img: Katarina_Valaskova.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: manazment
-  positionurl: docentka
-  affiliationurl: Zilinska_univerzita
-  cityurl: Zilina
-  sexurl: zena
 - name: "Michal Fe\u010Dkan"
   last: Feckan
   year: 1960
@@ -4884,7 +4911,7 @@
   country: Katar
   hindex: 43
   scholar: https://scholar.google.sk/citations?user=9uNi5IMAAAAJ&amp
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - http://www.qu.edu.qa/research/CAM/about-us/staff
@@ -4928,33 +4955,6 @@
   positionurl: vedec
   affiliationurl: Joint_Institute_for_Nuclear_Research
   cityurl: Dubna
-  sexurl: muz
-- name: "J\xE1n Moj\u017Ei\u0161"
-  last: Mojzis
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "farmakol\xF3gia"
-  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
-  city: "Ko\u0161ice"
-  country: Slovensko
-  hindex: 43
-  scholar: https://scholar.google.sk/citations?user=TjtaxQ8AAAAJ
-  last_update: '2026-04-17'
-  links:
-  - - news 1
-    - https://www.cas.sk/fotogaleria/322223/slovensky-profesor-pracuje-na-prestiznom-svetovom-vyskume-neuverite-cim-poraza-rakovinu/2/
-  - - news 2
-    - https://www.kosickespravy.eu/unikatny-vyskum
-  - - web
-    - https://www.upjs.sk/LF/zamestnanec/jan.mojzis/
-  img: Jan_Mojzis.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: farmakologia
-  positionurl: profesor
-  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
-  cityurl: Kosice
   sexurl: muz
 - name: "Igor Podlubn\xFD"
   last: Podlubny
@@ -5193,7 +5193,7 @@
   country: Slovensko
   hindex: 42
   scholar: https://scholar.google.com/citations?user=geK1ms0AAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ESET Science Award
     - https://www.esetscienceaward.sk/sk/finalisti/jozef-ukropec
@@ -5419,7 +5419,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.com/citations?user=ZCMAk9sAAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Peter_Kopcansky
@@ -5496,7 +5496,7 @@
   country: Slovensko
   hindex: 41
   scholar: https://scholar.google.sk/citations?user=OF5iXJQAAAAJ&amp;hl=sk
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - http://www.nuquake.eu
@@ -5552,7 +5552,7 @@
   country: "\u0160v\xE9dsko"
   hindex: 41
   scholar: https://scholar.google.com/citations?user=g-oaxV0AAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - orcid
     - https://orcid.org/0000-0002-0074-1349
@@ -5635,7 +5635,7 @@
   country: Slovensko
   hindex: 40
   scholar: https://scholar.google.sk/citations?hl=en&user=WHTCo3IAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - publons
     - https://publons.com/researcher/3271361/juraj-bujdak/
@@ -6019,7 +6019,7 @@
   country: Slovensko
   hindex: 40
   scholar: https://scholar.google.com/citations?hl=en&user=9Ff2ZsoAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - orcid
     - https://orcid.org/0000-0003-0379-6414
@@ -6209,7 +6209,7 @@
   country: Slovensko
   hindex: 38
   scholar: https://scholar.google.sk/citations?user=S9nvaAkAAAAJ&amp;hl=sk
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Iveta_Bernatova/2
@@ -6907,7 +6907,7 @@
   country: USA
   hindex: 37
   scholar: https://scholar.google.com/citations?hl=en&amp;user=Ttsxv0IAAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - NBS
     - https://www.nbs.sk/en/about-the-bank/bank-board-of-the-nbs/the-bank-board-member-lubos-pastor
@@ -6986,7 +6986,7 @@
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?user=_fONjMIAAAAJ&amp;hl=en
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Tanya_Ravingerova
@@ -7306,6 +7306,35 @@
   affiliationurl: University_of_Stavanger
   cityurl: Stavanger
   sexurl: muz
+- name: "Jaroslav Mosn\xE1\u010Dek"
+  last: Mosnacek
+  year: null
+  sex: "mu\u017E"
+  position: vedec
+  field: "makromolekul\xE1rna ch\xE9mia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.sk/citations?user=-5YGCCsAAAAJ
+  last_update: '2026-05-09'
+  links:
+  - - academia.edu
+    - https://sav-sk.academia.edu/JaroslavMosnacek
+  - - LinkedIn
+    - https://www.linkedin.com/in/jaroslav-mosnacek-92556610/?originalSubdomain=sk
+  - - ResearchGate
+    - https://www.researchgate.net/lab/Jaroslav-Mosnacek-Lab
+  - - web
+    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=2395
+  img: Jaroslav_Mosnacek.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: makromolekularna_chemia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Daniela Ostatn\xEDkov\xE1"
   last: Ostatnikova
   year: 1957
@@ -7569,7 +7598,7 @@
   country: Slovensko
   hindex: 35
   scholar: https://scholar.google.com/citations?user=wlqRYUcAAAAJ&hl=en&oi=ao
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - orcid
     - https://orcid.org/0000-0003-1836-4913
@@ -7651,35 +7680,6 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
-- name: "Jaroslav Mosn\xE1\u010Dek"
-  last: Mosnacek
-  year: null
-  sex: "mu\u017E"
-  position: vedec
-  field: "makromolekul\xE1rna ch\xE9mia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 35
-  scholar: https://scholar.google.sk/citations?user=-5YGCCsAAAAJ
-  last_update: '2026-04-17'
-  links:
-  - - academia.edu
-    - https://sav-sk.academia.edu/JaroslavMosnacek
-  - - LinkedIn
-    - https://www.linkedin.com/in/jaroslav-mosnacek-92556610/?originalSubdomain=sk
-  - - ResearchGate
-    - https://www.researchgate.net/lab/Jaroslav-Mosnacek-Lab
-  - - web
-    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=2395
-  img: Jaroslav_Mosnacek.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: makromolekularna_chemia
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: muz
 - name: "Pavel Oblo\u017Einsk\xFD"
   last: Oblozinsky
   year: 1943
@@ -7718,7 +7718,7 @@
   country: Nemecko
   hindex: 35
   scholar: https://scholar.google.com/citations?user=t1W0brkAAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - loop
     - https://loop.frontiersin.org/people/458792/overview
@@ -7745,7 +7745,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?hl=en&amp;user=wiwZl54AAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/martin-baca-88421358/?originalSubdomain=sk
@@ -7867,7 +7867,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.co.in/citations?user=KPgJyEAAAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - web
     - http://www.quantum.physics.sk/rcqi/index.php?x=home_for&for=grajcar
@@ -7880,6 +7880,35 @@
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
+  sexurl: muz
+- name: "Milo\u0161 Hitka"
+  last: Hitka
+  year: 1965
+  sex: "mu\u017E"
+  position: profesor
+  field: "mana\u017Ement"
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 34
+  scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
+  last_update: '2026-05-09'
+  links:
+  - - academia.edu
+    - https://tuzvo.academia.edu/miloshitka
+  - - orcid
+    - https://orcid.org/0000-0002-6567-7333
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Milos-Hitka-2
+  - - web
+    - https://miloshitka.szm.com/index_e.html
+  img: Milos_Hitka.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: manazment
+  positionurl: profesor
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
   sexurl: muz
 - name: Miroslav Kocifaj
   last: Kocifaj
@@ -7975,7 +8004,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=WawpXZIAAAAJ&amp;hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Marian_Krajci
@@ -8184,7 +8213,7 @@
   country: "\u010Cesko"
   hindex: 34
   scholar: https://scholar.google.com/citations?user=1eLoTdcAAAAJ&hl=cs&oi=ao
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - avcr
     - https://www.avcr.cz/cs/o-nas/aktuality/PODCAST-Setkani-svetla-a-hmoty.-Marek-Piliarik-priblizuje-nanooptiku/
@@ -8248,7 +8277,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=J2qs3RMAAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/stefan-schlosser-7220424a/
@@ -8281,7 +8310,7 @@
   country: Slovensko
   hindex: 34
   scholar: https://scholar.google.com/citations?user=9SBHxBAAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - academia.edu
     - https://ucm-sk.academia.edu/J%C3%A1nTiti%C5%A1
@@ -8465,35 +8494,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
-- name: "Milo\u0161 Hitka"
-  last: Hitka
-  year: 1965
-  sex: "mu\u017E"
-  position: profesor
-  field: "mana\u017Ement"
-  affiliation: "Technick\xE1 univerzita vo Zvolene"
-  city: Zvolen
-  country: Slovensko
-  hindex: 33
-  scholar: https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en
-  last_update: '2026-04-17'
-  links:
-  - - academia.edu
-    - https://tuzvo.academia.edu/miloshitka
-  - - orcid
-    - https://orcid.org/0000-0002-6567-7333
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Milos-Hitka-2
-  - - web
-    - https://miloshitka.szm.com/index_e.html
-  img: Milos_Hitka.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: manazment
-  positionurl: profesor
-  affiliationurl: Technicka_univerzita_vo_Zvolene
-  cityurl: Zvolen
-  sexurl: muz
 - name: Richard Imrich
   last: Imrich
   year: 1974
@@ -8505,7 +8505,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.sk/citations?user=UTQ13_oAAAAJ&hl=en
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/richard-imrich-8347269/?originalSubdomain=sk
@@ -8571,7 +8571,7 @@
   country: "Franc\xFAzsko"
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=sk&user=gKofB3UAAAAJ
-  last_update: '2026-04-13'
+  last_update: '2026-05-09'
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Ctirad-Klimcik
@@ -8660,7 +8660,7 @@
   country: Slovensko
   hindex: 33
   scholar: https://scholar.google.com/citations?user=QhrxwOcAAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - dblp
     - https://dblp.org/pid/122/6263.html
@@ -8891,7 +8891,7 @@
   country: Slovensko
   hindex: 32
   scholar: https://scholar.google.com/citations?user=2ZVSiB8AAAAJ&hl=en
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - AMiner
     - https://www.aminer.cn/profile/milan-hronec/5405d945dabfae91d3014404
@@ -9119,7 +9119,7 @@
   country: Slovensko
   hindex: 30
   scholar: https://scholar.google.com/citations?user=HxBEVzwAAAAJ
-  last_update: '2026-04-17'
+  last_update: '2026-05-09'
   links:
   - - learned.sk
     - https://www.learned.sk/prof-ing-tomas-bleha-drsc/
