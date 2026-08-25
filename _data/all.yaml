@@ -6774,6 +6774,32 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
+- name: "\u013Dubo\u0161 Kri\u0161\u0165\xE1k"
+  last: Kristak
+  year: 1980
+  sex: "mu\u017E"
+  position: docent
+  field: fyzika dreva
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 37
+  scholar: https://scholar.google.com/citations?hl=sk&user=bF_5KtYAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-2385-5760
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Lubos-Kristak
+  - - web
+    - https://www.tuzvo.sk/sk/ludia-na-tuzvo/9595
+  img: Lubos_Kristak.jpg
+  countryurl: Slovensko
+  fieldurl: fyzika_dreva
+  positionurl: docent
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: Jozef Kristek
   last: Kristek
   year: 1956
@@ -8944,6 +8970,34 @@
   affiliationurl: Technicka_univerzita_vo_Zvolene
   cityurl: Zvolen
   sexurl: muz
+- name: Jaroslav Frnda
+  last: Frnda
+  year: 1989
+  sex: "mu\u017E"
+  position: docent
+  field: informatika
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=UBUvR_sAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/jaroslav-frnda-44787981/
+  - - orcid
+    - https://orcid.org/0000-0001-6065-3087
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Jaroslav-Frnda
+  - - web
+    - https://fpedas.uniza.sk/~frnda/
+  img: Jaroslav_Frnda.jpg
+  countryurl: Slovensko
+  fieldurl: informatika
+  positionurl: docent
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: muz
 - name: Milan Hronec
   last: Hronec
   year: ''
@@ -9115,6 +9169,34 @@
   positionurl: docent
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
+  sexurl: muz
+- name: "Tom\xE1\u0161 Tak\xE1\u010D"
+  last: Takac
+  year: 1976
+  sex: "mu\u017E"
+  position: profesor
+  field: "rastlinn\xE1 bioch\xE9mia"
+  affiliation: "Univerzita Palack\xE9ho v Olomouci"
+  city: Olomouc
+  country: "\u010Cesko"
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=jMfbEOQAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/tomas-takac-02863656
+  - - Loop
+    - https://loop.frontiersin.org/people/68259/overview
+  - - orcid
+    - https://orcid.org/0000-0002-1569-1305
+  - - web
+    - https://www.prf.upol.cz/kbt/katedra/clenove-katedry/
+  img: Tomas_Takac.jpg
+  countryurl: Cesko
+  fieldurl: rastlinna_biochemia
+  positionurl: profesor
+  affiliationurl: Univerzita_Palackeho_v_Olomouci
+  cityurl: Olomouc
   sexurl: muz
 - name: "Peter Toma\u0161ec"
   last: Tomasec
