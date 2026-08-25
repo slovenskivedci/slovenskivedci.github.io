@@ -8812,6 +8812,31 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Peter Vr\u0161ansk\xFD"
+  last: Vrsansky
+  year: null
+  sex: "mu\u017E"
+  position: vedec
+  field: "paleobiol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=kpVq-kIAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - "na\u0161i a svetov\xED"
+    - https://slovensko.stvr.sk/rubriky/starsie-znovu-si-vypocujte/nasi-a-svetovi/98479/nasi-a-svetovi-peter-vrsansky
+  - - web
+    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=3899&action=cv
+  img: Peter_Vrsansky.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: paleobiologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Iveta Waczul\xEDkov\xE1"
   last: Waczulikova
   year: '1966'
