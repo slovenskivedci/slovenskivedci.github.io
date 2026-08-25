@@ -6706,7 +6706,7 @@
   year: 1977
   sex: "mu\u017E"
   position: profesor
-  field: "regenerat\xEDvna medic\xEDna"
+  field: "lek\xE1rska biol\xF3gia a genetika"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -6720,7 +6720,7 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/danisovic1.uniba.sk.html
   img: Lubos_Danisovic.jpg
   countryurl: Slovensko
-  fieldurl: regenerativna_medicina
+  fieldurl: lekarska_biologia_a_genetika
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -9540,7 +9540,7 @@
   sex: "mu\u017E"
   position: docent
   field: "geografick\xE9 informa\u010Dn\xE9 vedy"
-  affiliation: University of Melbourne
+  affiliation: The University of Melbourne
   city: Melbourne
   country: "Austr\xE1lia"
   hindex: 32
@@ -9557,7 +9557,7 @@
   countryurl: Australia
   fieldurl: geograficke_informacne_vedy
   positionurl: docent
-  affiliationurl: University_of_Melbourne
+  affiliationurl: The_University_of_Melbourne
   cityurl: Melbourne
   sexurl: muz
 - name: "Pavol Balgav\xFD"
@@ -9675,7 +9675,7 @@
   sex: "\u017Eena"
   position: profesorka
   field: "hydrol\xF3gia"
-  affiliation: "Slovensk\xE1 technick\xE1 univerzita v Bratislave"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
   hindex: 31
@@ -9690,7 +9690,7 @@
   countryurl: Slovensko
   fieldurl: hydrologia
   positionurl: profesorka
-  affiliationurl: Slovenska_technicka_univerzita_v_Bratislave
+  affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: zena
 - name: "Tom\xE1\u0161 Tak\xE1\u010D"
