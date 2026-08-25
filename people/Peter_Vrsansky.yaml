@@ -1,10 +1,10 @@
 name: "Peter Vršanský"
 last: "Vršanský"
 year:
-sex: "mu\u017E"
+sex: "muž"
 position: vedec
 field: "paleobiológia"
-affiliation: "Slovensk\xE1 akad\xE9mia vied"
+affiliation: "Slovenská akadémia vied"
 city: Bratislava
 country: Slovensko
 hindex: 33
@@ -12,6 +12,12 @@ scholar: https://scholar.google.com/citations?hl=sk&user=kpVq-kIAAAAJ
 last_update: '2026-08-25'
 links:
   web: https://www.sav.sk/?lang=en&doc=user-org-user&user_no=3899&action=cv
+  web 2: https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=10438
+  ResearchGate: https://www.researchgate.net/scientific-contributions/Peter-Vrsansky-2002551580
+  orcid: https://orcid.org/0000-0001-6052-287X
+  Semantic Scholar: https://www.semanticscholar.org/author/P.-Vršanský/47440561
+  veda na dosah: https://vedanadosah.cvtisr.sk/register-vedcov/mgr-peter-vrsansky-phd/
+  science.sk: https://www.science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2300-peter-vrsansky
   naši a svetoví: https://slovensko.stvr.sk/rubriky/starsie-znovu-si-vypocujte/nasi-a-svetovi/98479/nasi-a-svetovi-peter-vrsansky
 img: Peter_Vrsansky.jpg
 update_status: UPDATED
