@@ -108,6 +108,56 @@ stats["hindex_hist_count"] = "["+",".join([str(e) for e in stats["hindex_hist_co
 print(stats["hindex_hist_x"],stats["hindex_hist_count"])
 
 
+def parse_year(val):
+    if val is None or val == '':
+        return None
+    if isinstance(val, int):
+        return val
+    try:
+        return int(val)
+    except (TypeError, ValueError):
+        return None
+
+years = []
+unknown_years = 0
+year_hindex_points = []
+for person in alllst:
+    y = parse_year(person.get('year'))
+    if y is None:
+        unknown_years += 1
+    else:
+        years.append(y)
+        year_hindex_points.append("{x:%d,y:%d}" % (y, int(person['hindex'])))
+
+if years:
+    max_year = max(years)
+    min_year = min(years)
+    floor_decade = (min_year // 10) * 10
+    top_edge = (max_year // 10 + 1) * 10
+    year_edges = list(range(floor_decade, top_edge + 1, 10))
+
+    yxcount = "["
+    for i, lo in enumerate(year_edges[:-1]):
+        hi = max_year if i == len(year_edges) - 2 else year_edges[i+1] - 1
+        yxcount += "'"+str(lo)+"-"+str(hi)+"',"
+    yxcount += "'neuvedený',"
+    yxcount += "]"
+    stats["year_hist_x"] = yxcount
+
+    year_counts = [int(e) for e in np.histogram(years, bins=year_edges)[0]]
+    year_counts.append(unknown_years)
+    stats["year_hist_count"] = "["+",".join([str(e) for e in year_counts])+"]"
+else:
+    stats["year_hist_x"] = "['neuvedený',]"
+    stats["year_hist_count"] = "["+str(unknown_years)+"]"
+
+stats["year_hindex_xy"] = "["+",".join(year_hindex_points)+"]"
+
+print(stats["year_hist_x"], stats["year_hist_count"])
+print("scatter", len(year_hindex_points), "unknown", unknown_years, "people", len(alllst))
+
+
+
 d = stats["countries"]
 d = sorted([(k,d[k]) for k in d],  key = lambda e: (-e[1],repl(e[0])))
 countries = "["+ ",".join(["'"+str(e[0])+"'" for e in d])+"]"
