@@ -8981,6 +8981,28 @@
   affiliationurl: Aalborg_Universitet
   cityurl: Aalborg
   sexurl: muz
+- name: "Du\u0161an Dr\xE1bik"
+  last: Drabik
+  year: 1983
+  sex: "mu\u017E"
+  position: docent
+  field: "po\u013Enohospod\xE1rska ekon\xF3mia"
+  affiliation: Wageningen University
+  city: Wageningen
+  country: Holandsko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=nhsfvLEAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - web
+    - https://www.wur.nl/en/persons/dr-d-dusan-drabik
+  img: Dusan_Drabik.jpg
+  countryurl: Holandsko
+  fieldurl: polnohospodarska_ekonomia
+  positionurl: docent
+  affiliationurl: Wageningen_University
+  cityurl: Wageningen
+  sexurl: muz
 - name: "Jozef D\u017Eurina"
   last: Dzurina
   year: 1958
@@ -9542,6 +9564,30 @@
   affiliationurl: Universite_Aix-Marseille
   cityurl: Marseille
   sexurl: muz
+- name: "Stanislav Komorovsk\xFD"
+  last: Komorovsky
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "teoretick\xE1 ch\xE9mia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=ScPhEXIAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5317-7200
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=10547
+  img: Stanislav_Komorovsky.jpg
+  countryurl: Slovensko
+  fieldurl: teoreticka_chemia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Vladim\xEDr Kov\xE1\u010D"
   last: Kovac
   year: 1958
@@ -9832,6 +9878,30 @@
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: zena
+- name: "J\xE1n Fidrmuc"
+  last: Fidrmuc
+  year: 1971
+  sex: "mu\u017E"
+  position: profesor
+  field: "ekon\xF3mia"
+  affiliation: "Universit\xE9 de Lille"
+  city: Lille
+  country: "Franc\xFAzsko"
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=Sc7jlXwAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-3350-7276
+  - - web
+    - http://www.fidrmuc.net/
+  img: Jan_Fidrmuc.jpg
+  countryurl: Francuzsko
+  fieldurl: ekonomia
+  positionurl: profesor
+  affiliationurl: Universite_de_Lille
+  cityurl: Lille
+  sexurl: muz
 - name: Karol Flachbart
   last: Flachbart
   year: 1952
@@ -9859,6 +9929,30 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: muz
+- name: "Zuzana Ga\u017Eov\xE1"
+  last: Gazova
+  year: 1961
+  sex: "\u017Eena"
+  position: "riadite\u013Eka"
+  field: biofyzika
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=DyciNCEAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-0670-3431
+  - - web
+    - https://amyllab.saske.sk/zuzkag.html
+  img: Zuzana_Gazova.jpg
+  countryurl: Slovensko
+  fieldurl: biofyzika
+  positionurl: riaditelka
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
+  sexurl: zena
 - name: "Silvia Kohnov\xE1"
   last: Kohnova
   year: 1960
@@ -9883,6 +9977,52 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: zena
+- name: Michal Kvasnica
+  last: Kvasnica
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "automatiz\xE1cia"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=pE8c4hsAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-8699-551X
+  - - web
+    - http://www.uiam.sk/~kvasnica/
+  img: Michal_Kvasnica.jpg
+  countryurl: Slovensko
+  fieldurl: automatizacia
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
+- name: "\u013Dubom\xEDr Lichner"
+  last: Lichner
+  year: 1949
+  sex: "mu\u017E"
+  position: vedec
+  field: "hydrol\xF3gia p\xF4dy"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=r0qXcXcAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - web
+    - https://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2088-lubomir-lichner
+  img: Lubomir_Lichner.jpg
+  countryurl: Slovensko
+  fieldurl: hydrologia_pody
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Tom\xE1\u0161 Tak\xE1\u010D"
   last: Takac
   year: 1976
@@ -9940,6 +10080,30 @@
   affiliationurl: Cardiff_University
   cityurl: Cardiff
   sexurl: muz
+- name: "M\xE1rio Ziman"
+  last: Ziman
+  year: 1977
+  sex: "mu\u017E"
+  position: "riadite\u013E"
+  field: "kvantov\xE1 inform\xE1cia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=96S9ctwAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-4805-5890
+  - - web
+    - http://quantum.physics.sk/people/ziman/
+  img: Mario_Ziman.jpg
+  countryurl: Slovensko
+  fieldurl: kvantova_informacia
+  positionurl: riaditel
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Peter Bod\xEDk"
   last: Bodik
   year: null
@@ -9967,6 +10131,28 @@
   affiliationurl: Microsoft_Research
   cityurl: Seattle
   sexurl: muz
+- name: Albert Breier
+  last: Breier
+  year: 1957
+  sex: "mu\u017E"
+  position: profesor
+  field: "bioch\xE9mia"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=k0m9c9kAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1395
+  img: Albert_Breier.jpg
+  countryurl: Slovensko
+  fieldurl: biochemia
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
 - name: Peter Cifra
   last: Cifra
   year: 1955
@@ -9990,6 +10176,50 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Peter Papcun
+  last: Papcun
+  year: 1987
+  sex: "mu\u017E"
+  position: docent
+  field: "umel\xE1 inteligencia"
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=Og4hTmUAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - web
+    - https://kyb.fei.tuke.sk/laben/ludia/papcun.php
+  img: Peter_Papcun.jpg
+  countryurl: Slovensko
+  fieldurl: umela_inteligencia
+  positionurl: docent
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Kosice
+  sexurl: muz
+- name: Peter Samuely
+  last: Samuely
+  year: 1956
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzika tuh\xFDch l\xE1tok"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=q9915jIAAAAJ
+  last_update: '2026-08-26'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=2803
+  img: Peter_Samuely.jpg
+  countryurl: Slovensko
+  fieldurl: fyzika_tuhych_latok
+  positionurl: profesor
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
   sexurl: muz
 - name: "J\xFAlius \u0160ub\xEDk"
   last: Subik
