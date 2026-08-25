@@ -2,7 +2,7 @@ countries:
   "\u0160vaj\u010Diarsko": 7
   "\xCDrsko": 1
   USA: 40
-  Slovensko: 168
+  Slovensko: 172
   "N\xF3rsko": 3
   "Ve\u013Ek\xE1 Brit\xE1nia": 9
   Nemecko: 10
@@ -23,7 +23,7 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 266
+man: 270
 woman: 59
 hindex:
 - 40
@@ -42,6 +42,7 @@ hindex:
 - 35
 - 53
 - 50
+- 30
 - 72
 - 47
 - 35
@@ -104,6 +105,7 @@ hindex:
 - 76
 - 35
 - 33
+- 33
 - 235
 - 34
 - 175
@@ -152,6 +154,7 @@ hindex:
 - 45
 - 47
 - 56
+- 30
 - 37
 - 40
 - 41
@@ -229,6 +232,7 @@ hindex:
 - 52
 - 68
 - 44
+- 31
 - 41
 - 195
 - 40
@@ -400,11 +404,11 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   ','Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B','Z\xE1pado\u010Desk\xE1 univerzita\
   \ v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-53'',''53-77'',''77-101'',''101-125'',''125-149'',''149-173'',''173-197'',''197-221'',''221-245'',''245-269'',]'
-hindex_hist_count: '[240,64,12,4,0,0,2,0,1,2]'
+hindex_hist_count: '[244,64,12,4,0,0,2,0,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','Nemecko','Ve\u013E\
   k\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[168,40,30,13,12,11,10,9,7,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[57,52,11,8,7,7,6,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[172,40,30,13,12,11,10,9,7,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[59,53,12,8,7,7,6,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
