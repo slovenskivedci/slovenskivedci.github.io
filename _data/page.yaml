@@ -2,12 +2,12 @@ countries:
   "\u0160vaj\u010Diarsko": 6
   "\xCDrsko": 1
   USA: 40
-  Slovensko: 156
+  Slovensko: 160
   "N\xF3rsko": 3
   "Ve\u013Ek\xE1 Brit\xE1nia": 8
   Nemecko: 10
   "Austr\xE1lia": 10
-  "\u010Cesko": 29
+  "\u010Cesko": 30
   "Rak\xFAsko": 13
   Belgium: 1
   "F\xEDnsko": 1
@@ -23,7 +23,7 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 253
+man: 258
 woman: 56
 hindex:
 - 40
@@ -170,6 +170,7 @@ hindex:
 - 40
 - 33
 - 52
+- 36
 - 63
 - 56
 - 39
@@ -232,6 +233,8 @@ hindex:
 - 36
 - 68
 - 101
+- 36
+- 34
 - 58
 - 32
 - 52
@@ -306,6 +309,7 @@ hindex:
 - 33
 - 37
 - 34
+- 34
 - 38
 - 45
 - 42
@@ -316,6 +320,7 @@ hindex:
 - 42
 - 36
 - 40
+- 37
 - 65
 - 64
 - 45
@@ -338,10 +343,10 @@ hindex:
 affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slovensk\xE1\
   \ technick\xE1 univerzita','\u010Cesk\xE1 akad\xE9mia vied','Univerzita Pavla Jozefa\
   \ \u0160af\xE1rika','Masarykova univerzita','Technick\xE1 univerzita v Ko\u0161\
-  iciach','Technick\xE1 univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','Medical\
-  \ University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1rska univerzita','\u017D\
-  ilinsk\xE1 univerzita','University of California','Univerzita Karlova','Univerzita\
-  \ Kon\u0161tant\xEDna Filozofa','Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave','\u010C\
+  iciach','Technick\xE1 univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','\u017D\
+  ilinsk\xE1 univerzita','Medical University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1\
+  rska univerzita','University of California','Univerzita Karlova','Univerzita Kon\u0161\
+  tant\xEDna Filozofa','Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave','\u010C\
   esk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe','Delft University of Technology','ETH\
   \ Z\xFCrich','KAUST','Microsoft Research','New York University','North Carolina\
   \ State University','Qatar University','Simon Fraser University','The University\
@@ -351,19 +356,20 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ Universitet','Adolphe Merkle Institute','Amazon','Apple','Brookhaven National\
   \ Laboratory','CERN','CSIRO','Cardiff University','Cardiovascular Research Center','Carleton\
   \ University','Central European University','\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1\
-  \ univerzita v Praze','Curtin University','DeepMind','European Alliance for Innovation','Eur\xF3\
-  pska komisia','Florida State University','Fraunhofer Institute','Georga Mason University','Georgia\
-  \ Institute of Technology','Google','Hannover Medical School','IST Austria','Indiana\
-  \ University Bloomington','Institute of Tropical Medicine Antwerp','International\
-  \ Institute for Applied Systems Analysis','Joint Institute for Nuclear Research','J\xFC\
-  lich Research Centre','Karlsruhe Institute of Technology','Kempelen Institute of\
-  \ Intelligent Technologies','Krembil Research Institute','Lawrence Berkeley National\
-  \ Laboratory','MBZUAI','McMaster University','Medical College of Wisconsin','Monash\
-  \ University','Montanuniversit\xE4t Leoben','Moorfields Eye Hospital','Murdoch University','NGM\
-  \ Biopharmaceuticals','N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4b','National\
-  \ Institute of Allergy and Infectious Diseases','National Institute of Health','National\
-  \ Institutes of Health','National Research Council','Norwegian Institute for Air\
-  \ Research','Oregon Health and Science University','Oregon State University','Polytechnique\
+  \ univerzita v Praze','Curtin University','DeepMind','Ekonomick\xE1 univerzita v\
+  \ Bratislave','European Alliance for Innovation','Eur\xF3pska komisia','Florida\
+  \ State University','Fraunhofer Institute','Georga Mason University','Georgia Institute\
+  \ of Technology','Google','Hannover Medical School','IST Austria','Indiana University\
+  \ Bloomington','Institute of Tropical Medicine Antwerp','International Institute\
+  \ for Applied Systems Analysis','Joint Institute for Nuclear Research','J\xFClich\
+  \ Research Centre','Karlsruhe Institute of Technology','Kempelen Institute of Intelligent\
+  \ Technologies','Krembil Research Institute','Lawrence Berkeley National Laboratory','MBZUAI','McMaster\
+  \ University','Medical College of Wisconsin','Monash University','Montanuniversit\xE4\
+  t Leoben','Moorfields Eye Hospital','Murdoch University','NGM Biopharmaceuticals','N\xE1\
+  rodn\xFD \xFAstav reumatick\xFDch chor\xF4b','National Institute of Allergy and\
+  \ Infectious Diseases','National Institute of Health','National Institutes of Health','National\
+  \ Research Council','Norwegian Institute for Air Research','Onkologick\xFD \xFA\
+  stav sv. Al\u017Ebety','Oregon Health and Science University','Oregon State University','Polytechnique\
   \ Montr\xE9al','Pre\u0161ovsk\xE1 univerzita','RIKEN','RWTH Aachen','Region\xE1\
   lny \xFArad verejn\xE9ho zdravotn\xEDctva','Research and Development Services','Ruprecht-Karls-Universit\xE4\
   t Heidelberg','Sigmund Freud University','Slovensk\xE1 zdravotn\xEDcka univerzita','Solargis','Stanford\
@@ -377,16 +383,16 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ of Ottawa','University of Pennsylvania','University of Pittsburgh','University\
   \ of Reading','University of Regensburg','University of Technology Sydney','University\
   \ of Turku','University of Vienna','University of Washington','University of Western\
-  \ Ontario','University of Zurich','Vanderbilt university','Vienna University of\
-  \ Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1','Vysok\xE9 u\u010D\
-  en\xED technick\xE9 v Brn\u011B','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin\
-  \ University']"
+  \ Ontario','University of Zurich','V\u0160B \u2013 Technick\xE1 univerzita Ostrava','Vanderbilt\
+  \ university','Vienna University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1\
+  ','Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B','Z\xE1pado\u010Desk\xE1 univerzita\
+  \ v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-53'',''53-76'',''76-99'',''99-122'',''122-146'',''146-169'',''169-192'',''192-215'',''215-238'',''238-262'',]'
-hindex_hist_count: '[228,59,13,4,0,1,0,1,1,2]'
+hindex_hist_count: '[233,59,13,4,0,1,0,1,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','Nemecko','Ve\u013E\
   k\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[156,40,29,13,12,10,10,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[54,50,10,7,7,6,6,6,6,4,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[160,40,30,13,12,10,10,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[55,50,10,7,7,6,6,6,6,5,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'

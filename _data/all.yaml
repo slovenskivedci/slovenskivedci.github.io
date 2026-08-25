@@ -6863,6 +6863,32 @@
   affiliationurl: Presovska_univerzita
   cityurl: Presov
   sexurl: muz
+- name: Peter Halama
+  last: Halama
+  year: 1975
+  sex: "mu\u017E"
+  position: profesor
+  field: "psychol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 37
+  scholar: https://scholar.google.com/citations?hl=sk&user=AGsfdO8AAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-6938-4845
+  - - Trnava
+    - https://ff.truni.sk/kontakty/peter-halama
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=2532
+  img: Peter_Halama.jpg
+  countryurl: Slovensko
+  fieldurl: psychologia
+  positionurl: profesor
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "M\xE1ria Kazim\xEDrov\xE1"
   last: Kazimirova
   year: '1957'
@@ -7340,6 +7366,28 @@
   affiliationurl: University_of_California
   cityurl: San_Diego
   sexurl: muz
+- name: Juraj Gerlici
+  last: Gerlici
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "ko\u013Eajov\xE9 vozidl\xE1"
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?hl=sk&user=76tWGcIAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - web
+    - https://kdmt.uniza.sk/index.php/uvod/vseobecne-informacie/pracovnici-katedry
+  img: Juraj_Gerlici.jpg
+  countryurl: Slovensko
+  fieldurl: kolajove_vozidla
+  positionurl: profesor
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: muz
 - name: "Franti\u0161ek Ka\u010D\xEDk"
   last: Kacik
   year: null
@@ -7409,6 +7457,34 @@
   positionurl: profesor
   affiliationurl: Central_European_University
   cityurl: Vieden
+  sexurl: muz
+- name: Karol Kajo
+  last: Kajo
+  year: 1962-2026
+  sex: "mu\u017E"
+  position: docent
+  field: "patol\xF3gia"
+  affiliation: "Onkologick\xFD \xFAstav sv. Al\u017Ebety"
+  city: Bratislava
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?hl=sk&user=0UbdxRMAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - in memoriam
+    - https://www.ousa.sk/navzdy-nas-opustil/
+  - - orcid
+    - https://orcid.org/0000-0002-8178-1093
+  - - parte
+    - https://spominam.sk/parte/karol-kajo
+  - - pluska
+    - https://www1.pluska.sk/regiony/slovensko-prislo-o-vyznamnych-odbornikov-lekari-zomreli-len-par-hodin-po-sebe
+  img: Karol_Kajo.jpg
+  countryurl: Slovensko
+  fieldurl: patologia
+  positionurl: docent
+  affiliationurl: Onkologicky_ustav_sv._Alzbety
+  cityurl: Bratislava
   sexurl: muz
 - name: "Vladim\xEDr Kell\xF6"
   last: Kello
@@ -8316,6 +8392,60 @@
   positionurl: vedec
   affiliationurl: Fraunhofer_Institute
   cityurl: Darmstadt
+  sexurl: muz
+- name: Ladislav Mura
+  last: Mura
+  year: 1979
+  sex: "mu\u017E"
+  position: profesor
+  field: "ekon\xF3mia"
+  affiliation: "Ekonomick\xE1 univerzita v Bratislave"
+  city: Bratislava
+  country: Slovensko
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=wKAA2j8AAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - EUBA
+    - https://euba.sk/aktivity-a-media/aktuality/3178-novy-profesor-na-euba-2026
+  - - orcid
+    - https://orcid.org/0000-0002-2453-8740
+  - - web
+    - https://of.euba.sk/katedry/katedra-cestovneho-ruchu/clenovia-katedry/mura-ladislav
+  img: Ladislav_Mura.jpg
+  countryurl: Slovensko
+  fieldurl: ekonomia
+  positionurl: profesor
+  affiliationurl: Ekonomicka_univerzita_v_Bratislave
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Michal Nem\u010Dok"
+  last: Nemcok
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "\u0161truktur\xE1lna geol\xF3gia a tektonika"
+  affiliation: "V\u0160B \u2013 Technick\xE1 univerzita Ostrava"
+  city: Ostrava
+  country: "\u010Cesko"
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=hwSYnhEAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - CV
+    - http://michalnemcok.sk/cv/
+  - - LAGEA
+    - https://www.lagea.sk/
+  - - orcid
+    - https://orcid.org/0000-0002-7067-3222
+  - - web
+    - http://michalnemcok.sk/
+  img: Michal_Nemcok.jpg
+  countryurl: Cesko
+  fieldurl: strukturalna_geologia_a_tektonika
+  positionurl: profesor
+  affiliationurl: VSB__Technicka_univerzita_Ostrava
+  cityurl: Ostrava
   sexurl: muz
 - name: Jozef Nosek
   last: Nosek
