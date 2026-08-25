@@ -348,19 +348,19 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ \u0160af\xE1rika','Masarykova univerzita','Technick\xE1 univerzita v Ko\u0161\
   iciach','Technick\xE1 univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','\u017D\
   ilinsk\xE1 univerzita','Medical University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1\
-  rska univerzita','University of California','Univerzita Karlova','Univerzita Kon\u0161\
-  tant\xEDna Filozofa','Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave','\u010C\
-  esk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe','Delft University of Technology','ETH\
-  \ Z\xFCrich','KAUST','Microsoft Research','New York University','North Carolina\
-  \ State University','Qatar University','Simon Fraser University','The University\
-  \ of Melbourne','Trnavsk\xE1 univerzita','University of Adelaide','University of\
-  \ Missouri','University of Natural Resources and Life Sciences','University of Oxford','University\
-  \ of Stavanger','University of Strathclyde','University of Toronto','Uppsala University','Aalborg\
-  \ Universitet','Adolphe Merkle Institute','Amazon','Apple','Brookhaven National\
-  \ Laboratory','CERN','CSIRO','Cardiff University','Cardiovascular Research Center','Carleton\
-  \ University','Central European University','\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1\
-  \ univerzita v Praze','Curtin University','DeepMind','Ekonomick\xE1 univerzita v\
-  \ Bratislave','European Alliance for Innovation','Eur\xF3pska komisia','Florida\
+  rska univerzita','Trnavsk\xE1 univerzita','University of California','Univerzita\
+  \ Karlova','Univerzita Kon\u0161tant\xEDna Filozofa','Univerzita sv\xE4t\xE9ho Cyrila\
+  \ a Metoda v Trnave','\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe','Delft\
+  \ University of Technology','ETH Z\xFCrich','KAUST','Microsoft Research','New York\
+  \ University','North Carolina State University','Qatar University','Simon Fraser\
+  \ University','The University of Melbourne','University of Adelaide','University\
+  \ of Missouri','University of Natural Resources and Life Sciences','University of\
+  \ Oxford','University of Stavanger','University of Strathclyde','University of Toronto','Uppsala\
+  \ University','Aalborg Universitet','Adolphe Merkle Institute','Amazon','Apple','Brookhaven\
+  \ National Laboratory','CERN','CSIRO','Cardiff University','Cardiovascular Research\
+  \ Center','Carleton University','Central European University','\u010Cesk\xE1 zem\u011B\
+  d\u011Blsk\xE1 univerzita v Praze','Curtin University','DeepMind','Ekonomick\xE1\
+  \ univerzita v Bratislave','European Alliance for Innovation','Eur\xF3pska komisia','Florida\
   \ State University','Fraunhofer Institute','Georga Mason University','Georgia Institute\
   \ of Technology','Google','Hannover Medical School','IST Austria','Indiana University\
   \ Bloomington','Institute of Tropical Medicine Antwerp','International Institute\
@@ -399,4 +399,4 @@ country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
 countryCount: '[162,40,30,13,12,10,10,9,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[56,51,10,7,7,6,6,6,6,5,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+affiliationCount: '[55,51,10,7,7,6,6,6,6,5,4,4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'

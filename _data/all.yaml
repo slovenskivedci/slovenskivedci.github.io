@@ -6895,8 +6895,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "psychol\xF3gia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
+  affiliation: "Trnavsk\xE1 univerzita"
+  city: Trnava
   country: Slovensko
   hindex: 37
   scholar: https://scholar.google.com/citations?hl=sk&user=AGsfdO8AAAAJ
@@ -6904,16 +6904,16 @@
   links:
   - - orcid
     - https://orcid.org/0000-0002-6938-4845
-  - - Trnava
-    - https://ff.truni.sk/kontakty/peter-halama
-  - - web
+  - - SAV
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=2532
+  - - web
+    - https://ff.truni.sk/kontakty/peter-halama
   img: Peter_Halama.jpg
   countryurl: Slovensko
   fieldurl: psychologia
   positionurl: profesor
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
+  affiliationurl: Trnavska_univerzita
+  cityurl: Trnava
   sexurl: muz
 - name: "M\xE1ria Kazim\xEDrov\xE1"
   last: Kazimirova
