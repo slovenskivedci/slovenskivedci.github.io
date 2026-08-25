@@ -2,7 +2,7 @@ countries:
   "\u0160vaj\u010Diarsko": 7
   "\xCDrsko": 1
   USA: 40
-  Slovensko: 167
+  Slovensko: 168
   "N\xF3rsko": 3
   "Ve\u013Ek\xE1 Brit\xE1nia": 9
   Nemecko: 10
@@ -23,7 +23,7 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 265
+man: 266
 woman: 59
 hindex:
 - 40
@@ -280,6 +280,7 @@ hindex:
 - 34
 - 43
 - 69
+- 34
 - 36
 - 73
 - 33
@@ -352,9 +353,9 @@ hindex:
 - 41
 affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slovensk\xE1\
   \ technick\xE1 univerzita','Univerzita Pavla Jozefa \u0160af\xE1rika','\u010Cesk\xE1\
-  \ akad\xE9mia vied','Masarykova univerzita','Technick\xE1 univerzita v Ko\u0161\
-  iciach','Technick\xE1 univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','\u017D\
-  ilinsk\xE1 univerzita','Medical University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1\
+  \ akad\xE9mia vied','Technick\xE1 univerzita v Ko\u0161iciach','Masarykova univerzita','Technick\xE1\
+  \ univerzita vo Zvolene','Univerzita Palack\xE9ho v Olomouci','\u017Dilinsk\xE1\
+  \ univerzita','Medical University of Vienna','Slovensk\xE1 po\u013Enohospod\xE1\
   rska univerzita','The University of Melbourne','Trnavsk\xE1 univerzita','University\
   \ of California','Univerzita Karlova','Univerzita Kon\u0161tant\xEDna Filozofa','Univerzita\
   \ sv\xE4t\xE9ho Cyrila a Metoda v Trnave','\u010Cesk\xE9 vysok\xE9 u\u010Den\xED\
@@ -399,11 +400,11 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   ','Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B','Z\xE1pado\u010Desk\xE1 univerzita\
   \ v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-53'',''53-77'',''77-101'',''101-125'',''125-149'',''149-173'',''173-197'',''197-221'',''221-245'',''245-269'',]'
-hindex_hist_count: '[239,64,12,4,0,0,2,0,1,2]'
+hindex_hist_count: '[240,64,12,4,0,0,2,0,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','Nemecko','Ve\u013E\
   k\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[167,40,30,13,12,11,10,9,7,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[57,52,11,8,7,6,6,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[168,40,30,13,12,11,10,9,7,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[57,52,11,8,7,7,6,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'

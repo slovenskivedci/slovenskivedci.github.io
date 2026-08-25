@@ -8542,6 +8542,30 @@
   affiliationurl: Fraunhofer_Institute
   cityurl: Darmstadt
   sexurl: muz
+- name: "Vieroslav Moln\xE1r"
+  last: Molnar
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "logistika / r\xFArov\xE9 dopravn\xEDky"
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Pre\u0161ov"
+  country: Slovensko
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=3aL5CrwAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-4182-4033
+  - - web
+    - https://kppvt.fvt.tuke.sk/elementor-popup/prof-ing-vieroslav-molnar-phd/
+  img: Vieroslav_Molnar.jpg
+  countryurl: Slovensko
+  fieldurl: logistika_/_rurove_dopravniky
+  positionurl: profesor
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Presov
+  sexurl: muz
 - name: Ladislav Mura
   last: Mura
   year: 1979
