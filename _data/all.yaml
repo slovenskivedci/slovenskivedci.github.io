@@ -6701,6 +6701,30 @@
   affiliationurl: Presovska_univerzita
   cityurl: Presov
   sexurl: muz
+- name: "\u013Dubo\u0161 Dani\u0161ovi\u010D"
+  last: Danisovic
+  year: 1977
+  sex: "mu\u017E"
+  position: profesor
+  field: "regenerat\xEDvna medic\xEDna"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 38
+  scholar: https://scholar.google.com/citations?hl=sk&user=HLFu2BgAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5074-9621
+  - - web
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/danisovic1.uniba.sk.html
+  img: Lubos_Danisovic.jpg
+  countryurl: Slovensko
+  fieldurl: regenerativna_medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Zdenka \u010Eura\u010Dkov\xE1"
   last: Durackova
   year: ''
@@ -7501,6 +7525,30 @@
   positionurl: vedec
   affiliationurl: RIKEN
   cityurl: Wako
+  sexurl: muz
+- name: "Matej Bal\xE1\u017E"
+  last: Balaz
+  year: 1988
+  sex: "mu\u017E"
+  position: vedec
+  field: "mechanoch\xE9mia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?hl=sk&user=udLGnu8AAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6563-7588
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=en&user_no=8905
+  img: Matej_Balaz.jpg
+  countryurl: Slovensko
+  fieldurl: mechanochemia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
   sexurl: muz
 - name: "Imrich Bar\xE1k"
   last: Barak
@@ -8868,6 +8916,30 @@
   affiliationurl: Technicka_univerzita_vo_Zvolene
   cityurl: Zvolen
   sexurl: muz
+- name: "Richard Hrivn\xE1k"
+  last: Hrivnak
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "vegeta\u010Dn\xE1 ekol\xF3gia mokrad\xED"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=L4arwc8AAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-0716-4553
+  - - web
+    - https://ibot.sav.sk/usr/Richard/
+  img: Richard_Hrivnak.jpg
+  countryurl: Slovensko
+  fieldurl: vegetacna_ekologia_mokradi
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Jana Jakub\xEDkov\xE1"
   last: Jakubikova
   year: ''
@@ -9384,6 +9456,30 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Martin Smie\u0161ko"
+  last: Smiesko
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "po\u010D\xEDta\u010Dom podporovan\xFD v\xFDvoj lie\u010Div"
+  affiliation: "Universit\xE4t Basel"
+  city: Basel
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=oBUP4p4AAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2758-2680
+  - - web
+    - https://pharma.unibas.ch/en/persons/smiesko-martin/
+  img: Martin_Smiesko.jpg
+  countryurl: Svajciarsko
+  fieldurl: pocitacom_podporovany_vyvoj_lieciv
+  positionurl: profesor
+  affiliationurl: Universitat_Basel
+  cityurl: Basel
+  sexurl: muz
 - name: "Eva \u0160pitalsk\xE1"
   last: Spitalska
   year: ''
@@ -9437,6 +9533,32 @@
   positionurl: riaditel
   affiliationurl: NGM_Biopharmaceuticals
   cityurl: San_Francisco
+  sexurl: muz
+- name: Martin Tomko
+  last: Tomko
+  year: 1979
+  sex: "mu\u017E"
+  position: docent
+  field: "geografick\xE9 informa\u010Dn\xE9 vedy"
+  affiliation: University of Melbourne
+  city: Melbourne
+  country: "Austr\xE1lia"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=Ww8A0yAAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - findanexpert
+    - https://findanexpert.unimelb.edu.au/profile/64610-martin-tomko
+  - - orcid
+    - https://orcid.org/0000-0002-5736-4679
+  - - web
+    - https://tomko.org
+  img: Martin_Tomko.jpg
+  countryurl: Australia
+  fieldurl: geograficke_informacne_vedy
+  positionurl: docent
+  affiliationurl: University_of_Melbourne
+  cityurl: Melbourne
   sexurl: muz
 - name: "Pavol Balgav\xFD"
   last: Balgavy
@@ -9496,6 +9618,30 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Eva \u010Cell\xE1rov\xE1"
+  last: Cellarova
+  year: ''
+  sex: "\u017Eena"
+  position: profesorka
+  field: "rastlinn\xE1 biotechnol\xF3gia"
+  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=GAUnRuwAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-1393-7591
+  - - web
+    - https://www.upjs.sk/PF/zamestnanec/eva.cellarova
+  img: Eva_Cellarova.jpg
+  countryurl: Slovensko
+  fieldurl: rastlinna_biotechnologia
+  positionurl: profesorka
+  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
+  cityurl: Kosice
+  sexurl: zena
 - name: Karol Flachbart
   last: Flachbart
   year: 1952
@@ -9523,6 +9669,30 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: muz
+- name: "Silvia Kohnov\xE1"
+  last: Kohnova
+  year: 1960
+  sex: "\u017Eena"
+  position: profesorka
+  field: "hydrol\xF3gia"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita v Bratislave"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=U_VSYdwAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5963-3748
+  - - web
+    - https://www.kvhk.sk/sk/clenovia-katedry/silvia-kohnova
+  img: Silvia_Kohnova.jpg
+  countryurl: Slovensko
+  fieldurl: hydrologia
+  positionurl: profesorka
+  affiliationurl: Slovenska_technicka_univerzita_v_Bratislave
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Tom\xE1\u0161 Tak\xE1\u010D"
   last: Takac
   year: 1976
