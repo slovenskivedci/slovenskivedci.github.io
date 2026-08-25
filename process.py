@@ -88,23 +88,22 @@ with open(r'_data/all.yaml', 'w') as file:
 
 import numpy as np
 
+hindexes = stats['hindex']
+max_h = max(hindexes)
+# Regular decades; last bin ends at the current max h-index.
+# Histogram edges go to the next multiple of 10 after max (269 -> 270).
+top_edge = (max_h // 10 + 1) * 10
+edges = list(range(30, top_edge + 1, 10))
 
-stats["hindex_hist_x"]= [int(e) for e in (np.histogram(stats['hindex'],10)[1])]
+xcount = "["
+for i, lo in enumerate(edges[:-1]):
+    hi = max_h if i == len(edges) - 2 else edges[i+1] - 1
+    xcount += "'"+str(lo)+"-"+str(hi)+"',"
+xcount += "]"
+stats["hindex_hist_x"] = xcount
 
-
-v = stats["hindex_hist_x"]
-xcount="["
-for i, val in enumerate(v[:-1]): 
-    xcount+= "'"+str(val)+"-"+str(v[i+1])+"',"
-xcount+="]"
-
-
-
-stats["hindex_hist_x"] = xcount #"["+",".join([str(e) for e in stats["hindex_hist_x"]])+"]"
-
-stats["hindex_hist_count"]=list([int(e) for e in (np.histogram(stats['hindex'],10)[0])])
-stats["hindex_hist_count"]= "["+",".join([str(e) for e in stats["hindex_hist_count"]])+"]"
-
+stats["hindex_hist_count"] = [int(e) for e in np.histogram(hindexes, bins=edges)[0]]
+stats["hindex_hist_count"] = "["+",".join([str(e) for e in stats["hindex_hist_count"]])+"]"
 
 print(stats["hindex_hist_x"],stats["hindex_hist_count"])
 
