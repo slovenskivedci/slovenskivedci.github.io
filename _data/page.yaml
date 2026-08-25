@@ -2,9 +2,9 @@ countries:
   "\u0160vaj\u010Diarsko": 6
   "\xCDrsko": 1
   USA: 40
-  Slovensko: 160
+  Slovensko: 162
   "N\xF3rsko": 3
-  "Ve\u013Ek\xE1 Brit\xE1nia": 8
+  "Ve\u013Ek\xE1 Brit\xE1nia": 9
   Nemecko: 10
   "Austr\xE1lia": 10
   "\u010Cesko": 30
@@ -23,14 +23,15 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 258
-woman: 56
+man: 260
+woman: 57
 hindex:
 - 40
 - 49
 - 41
 - 40
 - 37
+- 33
 - 46
 - 40
 - 36
@@ -105,6 +106,7 @@ hindex:
 - 34
 - 165
 - 262
+- 39
 - 45
 - 55
 - 78
@@ -287,6 +289,7 @@ hindex:
 - 45
 - 34
 - 73
+- 32
 - 69
 - 36
 - 39
@@ -363,16 +366,17 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ Bloomington','Institute of Tropical Medicine Antwerp','International Institute\
   \ for Applied Systems Analysis','Joint Institute for Nuclear Research','J\xFClich\
   \ Research Centre','Karlsruhe Institute of Technology','Kempelen Institute of Intelligent\
-  \ Technologies','Krembil Research Institute','Lawrence Berkeley National Laboratory','MBZUAI','McMaster\
-  \ University','Medical College of Wisconsin','Monash University','Montanuniversit\xE4\
-  t Leoben','Moorfields Eye Hospital','Murdoch University','NGM Biopharmaceuticals','N\xE1\
-  rodn\xFD \xFAstav reumatick\xFDch chor\xF4b','National Institute of Allergy and\
-  \ Infectious Diseases','National Institute of Health','National Institutes of Health','National\
-  \ Research Council','Norwegian Institute for Air Research','Onkologick\xFD \xFA\
-  stav sv. Al\u017Ebety','Oregon Health and Science University','Oregon State University','Polytechnique\
-  \ Montr\xE9al','Pre\u0161ovsk\xE1 univerzita','RIKEN','RWTH Aachen','Region\xE1\
-  lny \xFArad verejn\xE9ho zdravotn\xEDctva','Research and Development Services','Ruprecht-Karls-Universit\xE4\
-  t Heidelberg','Sigmund Freud University','Slovensk\xE1 zdravotn\xEDcka univerzita','Solargis','Stanford\
+  \ Technologies','King's College London','Krembil Research Institute','Lawrence Berkeley\
+  \ National Laboratory','MBZUAI','McMaster University','Medical College of Wisconsin','Monash\
+  \ University','Montanuniversit\xE4t Leoben','Moorfields Eye Hospital','Murdoch University','NGM\
+  \ Biopharmaceuticals','N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4b','National\
+  \ Institute of Allergy and Infectious Diseases','National Institute of Health','National\
+  \ Institutes of Health','National Research Council','Norwegian Institute for Air\
+  \ Research','Onkologick\xFD \xFAstav sv. Al\u017Ebety','Oregon Health and Science\
+  \ University','Oregon State University','Polytechnique Montr\xE9al','Pre\u0161ovsk\xE1\
+  \ univerzita','RIKEN','RWTH Aachen','Region\xE1lny \xFArad verejn\xE9ho zdravotn\xED\
+  ctva','Research and Development Services','Ruprecht-Karls-Universit\xE4t Heidelberg','Sigmund\
+  \ Freud University','Slovensk\xE1 zdravotn\xEDcka univerzita','Solargis','Stanford\
   \ University','Technical University Dortmund','Tren\u010Dianska univerzita Alexandra\
   \ Dub\u010Deka','Trinity College Dublin','U.S. Department of Agriculture','US Food\
   \ and Drug Administration','Universit\xE9 Aix-Marseille','University Medical Center\
@@ -388,11 +392,11 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   ','Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B','Z\xE1pado\u010Desk\xE1 univerzita\
   \ v Plzni','Zeppelin University']"
 hindex_hist_x: '[''30-53'',''53-76'',''76-99'',''99-122'',''122-146'',''146-169'',''169-192'',''192-215'',''215-238'',''238-262'',]'
-hindex_hist_count: '[233,59,13,4,0,1,0,1,1,2]'
+hindex_hist_count: '[236,59,13,4,0,1,0,1,1,2]'
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','Nemecko','Ve\u013E\
   k\xE1 Brit\xE1nia','\u0160vaj\u010Diarsko','Holandsko','N\xF3rsko','Belgicko','Franc\xFA\
   zsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1ty','\u0160\
   v\xE9dsko','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[160,40,30,13,12,10,10,8,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
-affiliationCount: '[55,50,10,7,7,6,6,6,6,5,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+countryCount: '[162,40,30,13,12,10,10,9,6,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1]'
+affiliationCount: '[56,51,10,7,7,6,6,6,6,5,4,4,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'

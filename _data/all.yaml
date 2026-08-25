@@ -6175,6 +6175,32 @@
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: zena
+- name: "M\xE1ria Kukli\u0161ov\xE1"
+  last: Kuklisova
+  year: ''
+  sex: "\u017Eena"
+  position: docentka
+  field: "medic\xEDnske zobrazovanie"
+  affiliation: King's College London
+  city: "Lond\xFDn"
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  hindex: 39
+  scholar: https://scholar.google.com/citations?hl=sk&user=qtojUaIAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - homepage
+    - https://sites.google.com/site/mariakuklisovamurgasova
+  - - orcid
+    - https://orcid.org/0000-0002-2799-6077
+  - - web
+    - https://www.kcl.ac.uk/people/maria-deprez
+  img: Maria_Kuklisova.jpg
+  countryurl: Velka_Britania
+  fieldurl: medicinske_zobrazovanie
+  positionurl: docentka
+  affiliationurl: King's_College_London
+  cityurl: Londyn
+  sexurl: zena
 - name: "Katar\xEDna Miku\u0161ov\xE1"
   last: Mikusova
   year: 1965
@@ -8923,6 +8949,30 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: zena
+- name: "J\xE1n Kyselovi\u010D"
+  last: Kyselovic
+  year: 1963
+  sex: "mu\u017E"
+  position: profesor
+  field: "farmakol\xF3gia"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=wJYM_ywAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-9208-5352
+  - - web
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/kyselovic1.uniba.sk.html
+  img: Jan_Kyselovic.jpg
+  countryurl: Slovensko
+  fieldurl: farmakologia
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Veronika Ostatn\xE1"
   last: Ostatna
   year: ''
@@ -9192,6 +9242,30 @@
   positionurl: profesor
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
+  sexurl: muz
+- name: "Tom\xE1\u0161 Bert\xF3k"
+  last: Bertok
+  year: 1986
+  sex: "mu\u017E"
+  position: vedec
+  field: biosenzory
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=HeZwAlsAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-7075-2687
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=7920
+  img: Tomas_Bertok.jpg
+  countryurl: Slovensko
+  fieldurl: biosenzory
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: muz
 - name: "Michal Bo\u0161e\u013Ea"
   last: Bosela
