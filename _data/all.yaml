@@ -263,7 +263,7 @@
   year: 1933
   sex: "mu\u017E"
   position: profesor
-  field: "mikrobiol\xF3gia"
+  field: "imunológia"
   affiliation: New York University
   city: New York
   country: USA
@@ -280,8 +280,8 @@
   img: Jan_Vilcek.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: mikrobiologia
-  area: "medic\xEDna"
+  fieldurl: imunologia
+  area: "medicína"
   areaurl: medicina
   positionurl: profesor
   affiliationurl: New_York_University
@@ -912,7 +912,7 @@
   year: 1957
   sex: "mu\u017E"
   position: profesor
-  field: "virol\xF3gia"
+  field: "onkológia"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -939,8 +939,8 @@
   img: Jaromir_Pastorek.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: virologia
-  area: "medic\xEDna"
+  fieldurl: onkologia
+  area: "medicína"
   areaurl: medicina
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
@@ -1406,7 +1406,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: fyzika
+  field: "fyzika kondenzovaných látok"
   affiliation: University of British Columbia
   city: "Britsk\xE1 Kolumbia"
   country: Kanada
@@ -1419,7 +1419,7 @@
   img: Marcel_Franz.jpg
   update_status: UPDATED
   countryurl: Kanada
-  fieldurl: fyzika
+  fieldurl: fyzika_kondenzovanych_latok
   area: fyzika
   areaurl: fyzika
   positionurl: profesor
@@ -2125,7 +2125,7 @@
   year: 1982
   sex: "mu\u017E"
   position: docent
-  field: "kardiovaskul\xE1rna genetika"
+  field: "kardiológia"
   affiliation: University Medical Center Utrecht
   city: Utrecht
   country: Holandsko
@@ -2142,8 +2142,8 @@
   img: Michal_Mokry.jpg
   update_status: UPDATED
   countryurl: Holandsko
-  fieldurl: kardiovaskularna_genetika
-  area: "medic\xEDna"
+  fieldurl: kardiologia
+  area: "medicína"
   areaurl: medicina
   positionurl: docent
   affiliationurl: University_Medical_Center_Utrecht
@@ -2154,7 +2154,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: fyzika
+  field: "nanooptika"
   affiliation: University of Technology Sydney
   city: Sydney
   country: "Austr\xE1lia"
@@ -2177,7 +2177,7 @@
   img: Milos_Toth.png
   update_status: UPDATED
   countryurl: Australia
-  fieldurl: fyzika
+  fieldurl: nanooptika
   area: fyzika
   areaurl: fyzika
   positionurl: profesor
@@ -2351,7 +2351,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: fyzika
+  field: "teoretická fyzika"
   affiliation: North Carolina State University
   city: Raleigh
   country: USA
@@ -2366,7 +2366,7 @@
   img: Lubos_Mitas.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: fyzika
+  fieldurl: teoreticka_fyzika
   area: fyzika
   areaurl: fyzika
   positionurl: profesor
@@ -2446,7 +2446,7 @@
   year: 1954
   sex: "mu\u017E"
   position: "odborn\xFD asistent"
-  field: "r\xE1diol\xF3gia"
+  field: "nukleárna magnetická rezonancia"
   affiliation: University of Minnesota
   city: Twin Cities
   country: USA
@@ -2464,9 +2464,9 @@
   img: Ivan_Tkac.jpeg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: radiologia
-  area: "medic\xEDna"
-  areaurl: medicina
+  fieldurl: nuklearna_magneticka_rezonancia
+  area: fyzika
+  areaurl: fyzika
   positionurl: odborny_asistent
   affiliationurl: University_of_Minnesota
   cityurl: Twin_Cities
@@ -2740,7 +2740,7 @@
   year: 1972
   sex: "mu\u017E"
   position: vedec
-  field: "biotechnol\xF3gia"
+  field: "biosenzory"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -2758,8 +2758,8 @@
   img: Jan_Tkac.jpeg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biotechnologia
-  area: "biol\xF3gia"
+  fieldurl: biosenzory
+  area: "biológia"
   areaurl: biologia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
@@ -2848,7 +2848,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "fyziol\xF3gia buniek"
+  field: "onkológia"
   affiliation: University of Zurich
   city: "Z\xFCrich"
   country: "\u0160vaj\u010Diarsko"
@@ -2867,9 +2867,9 @@
   img: Lubor_Borsig.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
-  fieldurl: fyziologia_buniek
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: onkologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: vedec
   affiliationurl: University_of_Zurich
   cityurl: Zurich
@@ -2949,7 +2949,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "ch\xE9mia"
+  field: "organická chémia"
   affiliation: University of Notre Dame
   city: Notre Dame
   country: USA
@@ -2962,8 +2962,8 @@
   img: Dusan_Hesek.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: chemia
-  area: "ch\xE9mia"
+  fieldurl: organicka_chemia
+  area: "chémia"
   areaurl: chemia
   positionurl: profesor
   affiliationurl: University_of_Notre_Dame
@@ -3079,7 +3079,7 @@
   year: ''
   sex: "mu\u017E"
   position: CEO
-  field: "biol\xF3gia"
+  field: "kardiológia"
   affiliation: Research and Development Services
   city: Brno
   country: "\u010Cesko"
@@ -3096,9 +3096,9 @@
   img: Peter_Kruzliak.jpg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: biologia
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: kardiologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: CEO
   affiliationurl: Research_and_Development_Services
   cityurl: Brno
@@ -3108,7 +3108,7 @@
   year: 1975
   sex: "mu\u017E"
   position: profesor
-  field: "aplikovan\xE1 fyzika"
+  field: "fyzika tuhých látok"
   affiliation: "Z\xE1pado\u010Desk\xE1 univerzita v Plzni"
   city: "Plze\u0148"
   country: "\u010Cesko"
@@ -3125,7 +3125,7 @@
   img: Jan_Minar.jpeg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: aplikovana_fyzika
+  fieldurl: fyzika_tuhych_latok
   area: fyzika
   areaurl: fyzika
   positionurl: profesor
@@ -3331,7 +3331,7 @@
   year: 1951
   sex: "mu\u017E"
   position: vedec
-  field: "fyzik\xE1lna ch\xE9mia"
+  field: "magnetická rezonancia"
   affiliation: Medical University of Vienna
   city: "Viede\u0148"
   country: "Rak\xFAsko"
@@ -3352,9 +3352,9 @@
   img: Vladimir_Mlynarik.png
   update_status: UPDATED
   countryurl: Rakusko
-  fieldurl: fyzikalna_chemia
-  area: "ch\xE9mia"
-  areaurl: chemia
+  fieldurl: magneticka_rezonancia
+  area: fyzika
+  areaurl: fyzika
   positionurl: vedec
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -3713,7 +3713,7 @@
   year: 1962
   sex: "\u017Eena"
   position: docentka
-  field: "bioch\xE9mia"
+  field: "patofyziológia"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -3730,9 +3730,9 @@
   img: Olga_Pechanova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biochemia
-  area: "ch\xE9mia"
-  areaurl: chemia
+  fieldurl: patofyziologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: docentka
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -3771,7 +3771,7 @@
   year: 1932
   sex: "mu\u017E"
   position: profesor
-  field: "farmakol\xF3gia"
+  field: "toxikológia"
   affiliation: "Slovensk\xE1 zdravotn\xEDcka univerzita"
   city: Bratislava
   country: Slovensko
@@ -3788,8 +3788,8 @@
   img: Tomas_Trnovec.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: farmakologia
-  area: "medic\xEDna"
+  fieldurl: toxikologia
+  area: "medicína"
   areaurl: medicina
   positionurl: profesor
   affiliationurl: Slovenska_zdravotnicka_univerzita
@@ -4318,7 +4318,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "molekul\xE1rna biol\xF3gia"
+  field: "imunológia"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -4335,9 +4335,9 @@
   img: Juraj_Majtan.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: molekularna_biologia
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: imunologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -4652,7 +4652,7 @@
   year: 1948
   sex: "mu\u017E"
   position: profesor
-  field: "bioanalytick\xE1 ch\xE9mia"
+  field: "výpočtová chémia"
   affiliation: "Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave"
   city: Trnava
   country: Slovensko
@@ -4673,8 +4673,8 @@
   img: Stanislav_Miertus.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: bioanalyticka_chemia
-  area: "ch\xE9mia"
+  fieldurl: vypoctova_chemia
+  area: "chémia"
   areaurl: chemia
   positionurl: profesor
   affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
@@ -4743,7 +4743,7 @@
   year: '1985'
   sex: "\u017Eena"
   position: docentka
-  field: "mana\u017Ement"
+  field: "finančný manažment"
   affiliation: "\u017Dilinsk\xE1 univerzita"
   city: "\u017Dilina"
   country: Slovensko
@@ -4764,8 +4764,8 @@
   img: Katarina_Valaskova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: manazment
-  area: "ekon\xF3mia a mana\u017Ement"
+  fieldurl: financny_manazment
+  area: "ekonómia a manažment"
   areaurl: ekonomia_a_manazment
   positionurl: docentka
   affiliationurl: Zilinska_univerzita
@@ -4776,7 +4776,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "ekon\xF3mia"
+  field: "poľnohospodárska ekonómia"
   affiliation: "Eur\xF3pska komisia"
   city: Sevilla
   country: "\u0160panielsko"
@@ -4795,8 +4795,8 @@
   img: Pavel_Ciaian.jpg
   update_status: UPDATED
   countryurl: Spanielsko
-  fieldurl: ekonomia
-  area: "ekon\xF3mia a mana\u017Ement"
+  fieldurl: polnohospodarska_ekonomia
+  area: "ekonómia a manažment"
   areaurl: ekonomia_a_manazment
   positionurl: vedec
   affiliationurl: Europska_komisia
@@ -4894,7 +4894,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "aplikovan\xE1 informatika"
+  field: "strojové učenie"
   affiliation: Apple
   city: Seattle
   country: USA
@@ -4913,9 +4913,9 @@
   img: Martin_Pelikan.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: aplikovana_informatika
-  area: informatika
-  areaurl: informatika
+  fieldurl: strojove_ucenie
+  area: "umelá inteligencia"
+  areaurl: umela_inteligencia
   positionurl: vedec
   affiliationurl: Apple
   cityurl: Seattle
@@ -5049,7 +5049,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "biol\xF3gia"
+  field: "fyziológia živočíchov"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -5066,8 +5066,8 @@
   img: Michal_Zeman.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biologia
-  area: "biol\xF3gia"
+  fieldurl: fyziologia_zivocichov
+  area: "biológia"
   areaurl: biologia
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
@@ -5144,7 +5144,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: elektrotechnika
+  field: "optika a fotonika"
   affiliation: University of Strathclyde
   city: Glasgow
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
@@ -5161,9 +5161,9 @@
   img: Ivan_Glesk.jpeg
   update_status: UPDATED
   countryurl: Velka_Britania
-  fieldurl: elektrotechnika
-  area: "in\u017Einierstvo"
-  areaurl: inzinierstvo
+  fieldurl: optika_a_fotonika
+  area: fyzika
+  areaurl: fyzika
   positionurl: profesor
   affiliationurl: University_of_Strathclyde
   cityurl: Glasgow
@@ -5415,7 +5415,7 @@
   year: ''
   sex: "\u017Eena"
   position: docentka
-  field: pediatria
+  field: "hematológia"
   affiliation: University of Pennsylvania
   city: Filadelfia
   country: USA
@@ -5432,8 +5432,8 @@
   img: Lubica_Rauova.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: pediatria
-  area: "medic\xEDna"
+  fieldurl: hematologia
+  area: "medicína"
   areaurl: medicina
   positionurl: docentka
   affiliationurl: University_of_Pennsylvania
@@ -5545,7 +5545,7 @@
   year: ''
   sex: "\u017Eena"
   position: docentka
-  field: "oce\xE1nografia"
+  field: "geochémia"
   affiliation: University of Hawaii
   city: Manoa
   country: USA
@@ -5562,7 +5562,7 @@
   img: Henrietta_Dulai.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: oceanografia
+  fieldurl: geochemia
   area: geovedy
   areaurl: geovedy
   positionurl: docentka
@@ -5631,7 +5631,7 @@
   year: ''
   sex: "mu\u017E"
   position: docent
-  field: "ch\xE9mia"
+  field: "anorganická chémia"
   affiliation: "Univerzita Palack\xE9ho v Olomouci"
   city: Olomouc
   country: "\u010Cesko"
@@ -5652,8 +5652,8 @@
   img: Radovan_Herchel.jpg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: chemia
-  area: "ch\xE9mia"
+  fieldurl: anorganicka_chemia
+  area: "chémia"
   areaurl: chemia
   positionurl: docent
   affiliationurl: Univerzita_Palackeho_v_Olomouci
@@ -6012,7 +6012,7 @@
   year: 1955
   sex: "mu\u017E"
   position: docent
-  field: "experiment\xE1lna fyzika"
+  field: "fyzika magnetizmu"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: "Ko\u0161ice"
   country: Slovensko
@@ -6029,7 +6029,7 @@
   img: Peter_Kopcansky.jpeg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: experimentalna_fyzika
+  fieldurl: fyzika_magnetizmu
   area: fyzika
   areaurl: fyzika
   positionurl: docent
@@ -6079,7 +6079,7 @@
   year: 1980
   sex: "mu\u017E"
   position: vedec
-  field: fyzika
+  field: "subjadrová fyzika"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -6094,7 +6094,7 @@
   img: Andrej_Liptaj.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: fyzika
+  fieldurl: subjadrova_fyzika
   area: fyzika
   areaurl: fyzika
   positionurl: vedec
@@ -6197,7 +6197,7 @@
   year: null
   sex: "mu\u017E"
   position: vedec
-  field: "antibakteri\xE1lne materi\xE1ly"
+  field: "nanomateriály"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -6226,8 +6226,8 @@
   img: Zdenko_Spitalsky.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: antibakterialne_materialy
-  area: "materi\xE1ly"
+  fieldurl: nanomaterialy
+  area: "materiály"
   areaurl: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
@@ -6326,7 +6326,7 @@
   year: 1942
   sex: "mu\u017E"
   position: profesor
-  field: "ch\xE9mia"
+  field: "teoretická chémia"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -6347,8 +6347,8 @@
   img: Miroslav_Urban.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: chemia
-  area: "ch\xE9mia"
+  fieldurl: teoreticka_chemia
+  area: "chémia"
   areaurl: chemia
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
@@ -6603,7 +6603,7 @@
   year: 1991
   sex: "mu\u017E"
   position: "odborn\xFD asistent"
-  field: "lek\xE1rska biol\xF3gia"
+  field: "onkológia"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Martin
   country: Slovensko
@@ -6619,8 +6619,8 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/EN/samec3.uniba.sk.html
   img: Marek_Samec.jpg
   countryurl: Slovensko
-  fieldurl: lekarska_biologia
-  area: "medic\xEDna"
+  fieldurl: onkologia
+  area: "medicína"
   areaurl: medicina
   positionurl: odborny_asistent
   affiliationurl: Univerzita_Komenskeho
@@ -7060,7 +7060,7 @@
   year: 1966
   sex: "\u017Eena"
   position: profesorka
-  field: "web syst\xE9my"
+  field: "umelá inteligencia"
   affiliation: Kempelen Institute of Intelligent Technologies
   city: Bratislava
   country: Slovensko
@@ -7091,9 +7091,9 @@
   img: Maria_Bielikova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: web_systemy
-  area: informatika
-  areaurl: informatika
+  fieldurl: umela_inteligencia
+  area: "umelá inteligencia"
+  areaurl: umela_inteligencia
   positionurl: profesorka
   affiliationurl: Kempelen_Institute_of_Intelligent_Technologies
   cityurl: Bratislava
@@ -7144,7 +7144,7 @@
   year: 1977
   sex: "mu\u017E"
   position: profesor
-  field: "lek\xE1rska biol\xF3gia a genetika"
+  field: "tkanivové inžinierstvo"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -7158,8 +7158,8 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/danisovic1.uniba.sk.html
   img: Lubos_Danisovic.jpg
   countryurl: Slovensko
-  fieldurl: lekarska_biologia_a_genetika
-  area: "medic\xEDna"
+  fieldurl: tkanivove_inzinierstvo
+  area: "medicína"
   areaurl: medicina
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
@@ -7294,7 +7294,7 @@
   year: '1960'
   sex: "\u017Eena"
   position: profesorka
-  field: "lak\xE1rska ch\xE9mia a bioch\xE9mia"
+  field: "lekárska chémia a biochémia"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratslava
   country: Slovensko
@@ -7319,9 +7319,9 @@
   img: Olga_Krizanova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: lakarska_chemia_a_biochemia
-  area: "medic\xEDna"
-  areaurl: medicina
+  fieldurl: lekarska_chemia_a_biochemia
+  area: "chémia"
+  areaurl: chemia
   positionurl: profesorka
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratslava
@@ -7364,7 +7364,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "fytol\xF3gia"
+  field: "genetika drevín"
   affiliation: "Technick\xE1 univerzita vo Zvolene"
   city: Zvolen
   country: Slovensko
@@ -7377,8 +7377,8 @@
   img: Ladislav_Paule.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: fytologia
-  area: "biol\xF3gia"
+  fieldurl: genetika_drevin
+  area: "biológia"
   areaurl: biologia
   positionurl: profesor
   affiliationurl: Technicka_univerzita_vo_Zvolene
@@ -7647,7 +7647,7 @@
   year: 1966
   sex: "\u017Eena"
   position: profesorka
-  field: "biotechnol\xF3gia"
+  field: "toxikológia"
   affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
   city: Nitra
   country: Slovensko
@@ -7666,9 +7666,9 @@
   img: Klaudia_Jomova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biotechnologia
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: toxikologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: profesorka
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
@@ -7678,7 +7678,7 @@
   year: '1957'
   sex: "\u017Eena"
   position: "vedky\u0148a"
-  field: "entomol\xF3gia"
+  field: "parazitológia"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -7701,8 +7701,8 @@
   img: Maria_Kazimirova.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: entomologia
-  area: "biol\xF3gia"
+  fieldurl: parazitologia
+  area: "biológia"
   areaurl: biologia
   positionurl: vedkyna
   affiliationurl: Slovenska_akademia_vied
@@ -7865,7 +7865,7 @@
   year: 1952
   sex: "mu\u017E"
   position: vedec
-  field: "biomedic\xEDna"
+  field: "biofyzika"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -7880,9 +7880,9 @@
   img: Karol_Ondrias.png
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biomedicina
-  area: "medic\xEDna"
-  areaurl: medicina
+  fieldurl: biofyzika
+  area: fyzika
+  areaurl: fyzika
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -8206,7 +8206,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "bioch\xE9mia"
+  field: "organická chémia"
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
   city: Praha
   country: "\u010Cesko"
@@ -8221,8 +8221,8 @@
   img: Juraj_Harmatha.jpg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: biochemia
-  area: "ch\xE9mia"
+  fieldurl: organicka_chemia
+  area: "chémia"
   areaurl: chemia
   positionurl: vedec
   affiliationurl: Ceska_akademia_vied
@@ -8720,7 +8720,7 @@
   year: 1966
   sex: "mu\u017E"
   position: profesor
-  field: fyzika
+  field: "kvantová fyzika"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -8735,7 +8735,7 @@
   img: Miroslav_Grajcar.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: fyzika
+  fieldurl: kvantova_fyzika
   area: fyzika
   areaurl: fyzika
   positionurl: profesor
@@ -9037,7 +9037,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "fylogenomick\xE1 ekol\xF3gia"
+  field: "enzymológia"
   affiliation: University of Natural Resources and Life Sciences
   city: "Viede\u0148"
   country: "Rak\xFAsko"
@@ -9058,9 +9058,9 @@
   img: Marcel_Zamocky.jpg
   update_status: UPDATED
   countryurl: Rakusko
-  fieldurl: fylogenomicka_ekologia
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: enzymologia
+  area: "chémia"
+  areaurl: chemia
   positionurl: vedec
   affiliationurl: University_of_Natural_Resources_and_Life_Sciences
   cityurl: Vieden
@@ -9512,7 +9512,7 @@
   year: '1972'
   sex: "mu\u017E"
   position: profesor
-  field: "cudzie jazyky a kult\xFAra"
+  field: "fonetika"
   affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
   city: Nitra
   country: Slovensko
@@ -9535,8 +9535,8 @@
   img: Stefan_Benus.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: cudzie_jazyky_a_kultura
-  area: "spolo\u010Densk\xE9 vedy"
+  fieldurl: fonetika
+  area: "spoločenské vedy"
   areaurl: spolocenske_vedy
   positionurl: profesor
   affiliationurl: Univerzita_Konstantina_Filozofa
@@ -9788,7 +9788,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: fyzika
+  field: "fyzika kondenzovaných látok"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -9803,7 +9803,7 @@
   img: Marian_Krajci.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: fyzika
+  fieldurl: fyzika_kondenzovanych_latok
   area: fyzika
   areaurl: fyzika
   positionurl: vedec
@@ -10368,7 +10368,7 @@
   year: ''
   sex: "mu\u017E"
   position: "riadite\u013E"
-  field: "bioch\xE9mia"
+  field: "biosenzory"
   affiliation: NGM Biopharmaceuticals
   city: San Francisco
   country: USA
@@ -10387,9 +10387,9 @@
   img: Juraj_Svitel.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: biochemia
-  area: "ch\xE9mia"
-  areaurl: chemia
+  fieldurl: biosenzory
+  area: "biológia"
+  areaurl: biologia
   positionurl: riaditel
   affiliationurl: NGM_Biopharmaceuticals
   cityurl: San_Francisco
@@ -10567,7 +10567,7 @@
   year: 1952
   sex: "mu\u017E"
   position: docent
-  field: "experiment\xE1lna fyzika"
+  field: "fyzika tuhých látok"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: "Ko\u0161ice"
   country: Slovensko
@@ -10584,7 +10584,7 @@
   img: Karol_Flachbart.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: experimentalna_fyzika
+  fieldurl: fyzika_tuhych_latok
   area: fyzika
   areaurl: fyzika
   positionurl: docent
@@ -10728,7 +10728,7 @@
   year: 1970-2017
   sex: "mu\u017E"
   position: "odborn\xFD asistent"
-  field: "biol\xF3gia"
+  field: "virológia"
   affiliation: Cardiff University
   city: Cardiff
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
@@ -10747,9 +10747,9 @@
   img: Peter_Tomasec.jpg
   update_status: ERROR
   countryurl: Velka_Britania
-  fieldurl: biologia
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: virologia
+  area: "medicína"
+  areaurl: medicina
   positionurl: odborny_asistent
   affiliationurl: Cardiff_University
   cityurl: Cardiff

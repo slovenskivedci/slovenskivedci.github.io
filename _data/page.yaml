@@ -834,6 +834,8 @@ odbor_key:
   - "reproduk\u010Dn\xE9 zdravie"
   - "reumatol\xF3gia"
   - "toxikol\xF3gia"
+  - "tkanivové inžinierstvo"
+  - "lekárska chémia a biochémia"
   - "verejn\xE9 zdravotn\xEDctvo"
   - "virol\xF3gia"
 - area: fyzika
@@ -876,6 +878,7 @@ odbor_key:
   - "biopolym\xE9ry"
   - "ch\xE9mia"
   - "environment\xE1lna ch\xE9mia"
+  - "enzymológia"
   - "farmaceutick\xE1 ch\xE9mia"
   - "fyzik\xE1lna ch\xE9mia"
   - "\xEDlov\xE9 miner\xE1ly"
@@ -919,6 +922,7 @@ odbor_key:
   - "molekul\xE1rna biol\xF3gia"
   - "neurobiol\xF3gia rastl\xEDn"
   - "paleobiol\xF3gia"
+  - "parazitológia"
   - "rastlinn\xE1 bioch\xE9mia"
   - "rastlinn\xE1 biotechnol\xF3gia"
   - "reproduk\u010Dn\xE1 biol\xF3gia"
@@ -1005,6 +1009,7 @@ odbor_key:
 - area: "spolo\u010Densk\xE9 vedy"
   fields:
   - "cudzie jazyky a kult\xFAra"
+  - fonetika
   - "kognit\xEDvna psychol\xF3gia"
   - "pred\u0161kolsk\xE1 pedagogika"
   - "psychol\xF3gia"

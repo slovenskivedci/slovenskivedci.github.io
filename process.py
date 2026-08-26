@@ -59,12 +59,13 @@ FIELD_GROUPS = [
 		'kardio', 'onko', 'imunol', 'virol', 'farmak', 'epidemiol',
 		'patofyziol', 'patol', 'hematol', 'radiol',
 		'oftalm', 'pediatr', 'reumat', 'biomedicin',
+		'tkanivov',
 		'toxikol', 'hygien', 'fyziologia', 'imun', 'genetik',
 	]),
 	('biológia', [
 		'fyziologia rastlin', 'fyziologia zivocich', 'fyziologia buniek',
 		'neurobiologia rastlin', 'biotechnolog', 'biosenzor',
-		'rastlinna', 'biologia rastlin', 'botanik', 'entomol',
+		'rastlinna', 'biologia rastlin', 'botanik', 'entomol', 'parazitol',
 		'paleobiol', 'fytolog', 'biogeograf', 'fylogenom',
 		'vegetacna', 'behavioralna ekolog', 'ekolog',
 		'biologia ryb', 'reprodukcna biol', 'reproduktivna',
@@ -86,6 +87,7 @@ FIELD_GROUPS = [
 	]),
 	('fyzika', ['fyzika polymer', 'termodynam']),
 	('chémia', [
+		'enzymol',
 		'biochem', 'fyzikalna chem', 'anorgan', 'organick',
 		'analyticka chem', 'makromolekular', 'teoreticka chem',
 		'environmentalna chem', 'farmaceuticka chem', 'materialova chem',
@@ -115,7 +117,7 @@ FIELD_GROUPS = [
 	('spoločenské vedy', [
 		'kognitivna psycholog', 'socialna psycholog', 'psycholog',
 		'sociolog', 'predskolska pedagog', 'rane detstvo',
-		'cudzie jazyky',
+		'cudzie jazyky', 'fonetik',
 	]),
 ]
 
