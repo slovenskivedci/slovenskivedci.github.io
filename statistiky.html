@@ -163,6 +163,9 @@ title: Statistiky
         title: {
           display: true,
           text: 'rok narodenia'
+        },
+        ticks: {
+          callback: function(value) { return String(Math.round(value)); }
         }
       },
       y: {
