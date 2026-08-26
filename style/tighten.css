@@ -50,3 +50,21 @@
 .scientists-count-line b {
     font-weight: 600;
 }
+
+.dropdown-wrapper {
+    position: static;
+    left: auto;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px auto 0;
+}
+.dropdown-menu {
+    float: none;
+    display: inline-block;
+}
+.menu-text {
+    float: none;
+}
