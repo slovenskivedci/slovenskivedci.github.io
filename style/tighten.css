@@ -75,7 +75,7 @@ a {
 }
 a:hover {
     color: #111;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .dropdown-menu a,
 .dropdown-menu a:hover,
@@ -154,10 +154,11 @@ a:hover {
 }
 a:hover {
     color: #1f4e79;
+    text-decoration: none;
 }
 .hindex-link,
 .compact-h {
-    color: #1f4e79;
+    color: #555;
 }
 .nav-current,
 .nav-current a,
@@ -176,12 +177,11 @@ a:hover {
 
 
 
-/* Former pills: same clickable-filter look on every list */
+/* Filters = navy. Outbound links = grey. No underlines. */
 .filter-link {
     color: #1f4e79;
     text-decoration: none;
     border: none;
-    border-bottom: 1px dotted #1f4e79;
     background: none;
     padding: 0;
     font-size: 13px;
@@ -189,8 +189,7 @@ a:hover {
     line-height: inherit;
 }
 .filter-link:hover {
-    color: #1f4e79;
-    border-bottom-style: solid;
+    color: #163a5a;
     text-decoration: none;
 }
 .card-facts {
@@ -200,20 +199,17 @@ a:hover {
 }
 .ext-link,
 .card-links a,
-.hindex-link {
+.hindex-link,
+.compact-h {
     color: #555;
     text-decoration: none;
-    border-bottom: 1px solid #999;
-}
-.hindex-link {
-    color: #1f4e79;
-    border-bottom-color: #1f4e79;
+    border: none;
 }
 .ext-link:hover,
 .card-links a:hover,
-.hindex-link:hover {
-    color: #1f4e79;
-    border-bottom-color: #1f4e79;
+.hindex-link:hover,
+.compact-h:hover {
+    color: #222;
     text-decoration: none;
 }
 
