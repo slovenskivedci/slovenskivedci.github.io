@@ -127,19 +127,7 @@ a:hover {
     flex: 1 1 280px;
     color: #666;
 }
-.compact-meta a.toggle {
-    color: #555;
-    text-decoration: none;
-    border: none;
-    background: none;
-    padding: 0;
-    font-size: inherit;
-    font-weight: 400;
-}
-.compact-meta a.toggle:hover {
-    color: #1f4e79;
-    text-decoration: underline;
-}
+
 .compact-dot {
     color: #bbb;
     margin: 0 2px;
@@ -170,14 +158,6 @@ a:hover {
 .hindex-link,
 .compact-h {
     color: #1f4e79;
-    border-bottom: 1px solid #1f4e79;
-    text-decoration: none;
-}
-.hindex-link:hover,
-.compact-h:hover {
-    color: #1f4e79;
-    border-bottom-color: #163a5a;
-    text-decoration: none;
 }
 .nav-current,
 .nav-current a,
@@ -193,47 +173,47 @@ a:hover {
     line-height: 16px;
     margin: 0 0 10px;
 }
-.compact-meta a.toggle {
-    color: #1f4e79;
-    text-decoration: none;
-    border-bottom: 1px dotted #1f4e79;
-    background: none;
-    padding: 0;
-    font-size: inherit;
-    font-weight: 400;
-}
-.compact-meta a.toggle:hover {
-    color: #1f4e79;
-    border-bottom-style: solid;
-    text-decoration: none;
-}
 
-.card-facts {
-    color: #666;
-    line-height: 20px;
-}
-.card-facts a.toggle {
+
+
+/* Former pills: same clickable-filter look on every list */
+.filter-link {
     color: #1f4e79;
     text-decoration: none;
     border: none;
     border-bottom: 1px dotted #1f4e79;
     background: none;
     padding: 0;
-    font-size: inherit;
+    font-size: 13px;
     font-weight: 400;
+    line-height: inherit;
 }
-.card-facts a.toggle:hover {
+.filter-link:hover {
     color: #1f4e79;
     border-bottom-style: solid;
     text-decoration: none;
 }
-.card-links a {
+.card-facts {
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+}
+.ext-link,
+.card-links a,
+.hindex-link {
     color: #555;
     text-decoration: none;
     border-bottom: 1px solid #999;
 }
-.card-links a:hover {
+.hindex-link {
+    color: #1f4e79;
+    border-bottom-color: #1f4e79;
+}
+.ext-link:hover,
+.card-links a:hover,
+.hindex-link:hover {
     color: #1f4e79;
     border-bottom-color: #1f4e79;
     text-decoration: none;
 }
+
