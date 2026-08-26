@@ -26,35 +26,97 @@ import unicodedata
 def repl(text):
 	return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('UTF-8').replace(",","_").replace("(","_").replace(")","_")
 
-# More specific keywords first. First match wins.
+# Superfields for the stats chart only. Profile "field" values stay narrow.
+# First match wins. More specific keywords first.
 FIELD_GROUPS = [
-	('neurológia', ['neuro']),
-	('kardiológia', ['kardio']),
-	('onkológia', ['onko']),
-	('imunológia', ['imun']),
-	('virológia', ['virol']),
-	('mikrobiológia', ['mikrobiol']),
-	('farmakológia', ['farmak']),
-	('epidemiológia', ['epidemiol']),
-	('fyziológia', ['fyziol']),  # before patológia so patofyziológia lands here
-	('patológia', ['patol']),
-	('hydrológia', ['hydrol']),
-	('geológia', ['geol']),
-	('ekonómia', ['ekon']),
-	('manažment', ['manazment']),
-	('umelá inteligencia', ['umela inteligencia']),
-	('informatika', ['informatik']),
-	('matematika', ['matemat']),
-	('biochémia', ['biochem']),
-	('biofyzika', ['biofyz']),
-	('biotechnológia', ['biotech']),
-	('molekulárna biológia', ['molekularn']),
-	('rastlinná biológia', ['rastlin']),
-	('ekológia', ['ekolog']),
-	('materiálová veda', ['material']),
-	('chémia', ['fyzikalna chem', 'anorgan', 'organick', 'chemick', 'chem']),
-	('fyzika', ['subjadr', 'tuhych latok', 'kvantov', 'fyzik', 'jadr']),
-	('biológia', ['biol']),
+	('umelá inteligencia', [
+		'umela inteligencia', 'strojove ucenie', 'pocitacove videnie',
+		'robotika', 'strojove videnie',
+	]),
+	('matematika', [
+		'teoria grafov', 'diferencialne rovnice', 'numericka matemat',
+		'aplikovana matemat', 'matemat',
+	]),
+	('informatika', [
+		'kvantova informac', 'distribuovane', 'bioinformatik',
+		'aplikovana informatik', 'informatik', 'datova veda',
+		'programovacie jazyky', 'web system', 'pocitacova grafik',
+		'grafove algoritm', 'geograficke informacne', 'geovizualiz',
+		'komplexne a adaptivne', 'komplexne system',
+	]),
+	('biológia', [
+		'fyziologia rastlin', 'fyziologia zivocich', 'fyziologia buniek',
+		'neurobiologia rastlin', 'genetika drevin', 'genetika a molekular',
+	]),
+	('fyzika', ['termodynam', 'fyzika polymer']),
+	('medicína', [
+		'mikrobiol', 'lekarska biol', 'genetika rakoviny',
+		'kardiovaskularna genetik', 'molekularna biomedicin',
+		'lekarska fyz', 'lekarska biochem', 'lakarska chem',
+		'behavioralna medic', 'verejne zdravot', 'interna medic',
+		'medicinske zobraz', 'vyvoj lieciv', 'reprodukcne zdrav',
+		'neuroimun', 'neurogenetik', 'neuroved', 'neurol',
+		'kardio', 'onko', 'imunol', 'virol', 'farmak', 'epidemiol',
+		'patofyziol', 'patol', 'hematol', 'radiol',
+		'oftalm', 'pediatr', 'reumat', 'biomedicin',
+		'toxikol', 'hygien', 'fyziologia', 'imun', 'genetik',
+	]),
+	('biológia', [
+		'fyziologia rastlin', 'fyziologia zivocich', 'fyziologia buniek',
+		'neurobiologia rastlin', 'biotechnolog', 'biosenzor',
+		'rastlinna', 'biologia rastlin', 'botanik', 'entomol',
+		'paleobiol', 'fytolog', 'biogeograf', 'fylogenom',
+		'vegetacna', 'behavioralna ekolog', 'ekolog',
+		'biologia ryb', 'reprodukcna biol', 'reproduktivna',
+		'biologia reprodukcie', 'synteza protein', 'genova expres',
+		'genetika drevin', 'molekularna a bunkova', 'molekularna biol',
+		'genetika a molekular', 'lesnictvo', 'fyzika dreva', 'chemia dreva',
+		'biologia',
+	]),
+	('geovedy', [
+		'geofyz', 'geochem', 'strukturalna geol', 'geol', 'hydrol',
+		'geochronol', 'seizmol', 'vulkanol', 'oceanograf', 'klimatick',
+	]),
+	('inžinierstvo', [
+		'chemicke inzinier', 'elektrotechnik', 'elektronik',
+		'energetik', 'environmentalne inzinier', 'vyrobne technolog',
+		'kolajove vozidl', 'aplikovana mechanik', 'telekomunik',
+		'potravinarska technolog', 'organicka technolog',
+		'automatizac', 'bezdrotove siete',
+	]),
+	('fyzika', ['fyzika polymer', 'termodynam']),
+	('chémia', [
+		'biochem', 'fyzikalna chem', 'anorgan', 'organick',
+		'analyticka chem', 'makromolekular', 'teoreticka chem',
+		'environmentalna chem', 'farmaceuticka chem', 'materialova chem',
+		'medicinalna chem', 'polymer', 'vypoctova chem', 'vypoctova katalyz',
+		'mechanochem', 'krystalograf', 'ilove mineral', 'biopolymer',
+		'membran', 'chemick', 'chem',
+	]),
+	('fyzika', [
+		'fyzika polymer', 'termodynam', 'subjadr', 'tuhych latok',
+		'kondenzovanych', 'fyzika castic', 'fyzika neutr', 'fyzika plazm',
+		'elektronova a plazmov', 'fyzika magnet', 'fyzika makkych',
+		'fyzika pevnych', 'experimentalna fyz', 'teoreticka fyz',
+		'aplikovana fyz', 'matematicka fyz', 'kvantov',
+		'astronom', 'nanooptik', 'fotonik', 'optika',
+		'fotovolta', 'fotovolt', 'supravodic',
+		'magneticka rezonanc', 'nuklearna magneticka',
+		'fyzik', 'jadr',
+	]),
+	('materiály', [
+		'nanomaterial', 'nanotechnol', 'antibakterialne material',
+		'opticke material', 'materialova veda', 'materialy', 'material',
+	]),
+	('ekonómia a manažment', [
+		'medzinarodna ekon', 'polnohospodarska ekon', 'ekon',
+		'financny manazment', 'manazment', 'logistik',
+	]),
+	('spoločenské vedy', [
+		'kognitivna psycholog', 'socialna psycholog', 'psycholog',
+		'sociolog', 'predskolska pedagog', 'rane detstvo',
+		'cudzie jazyky',
+	]),
 ]
 
 def _has_ai_token(norm):
@@ -73,7 +135,7 @@ def field_group(field):
 				return label
 	if _has_ai_token(norm):
 		return 'umelá inteligencia'
-	return raw
+	return 'ostatné'
 
 for y in glob.glob("./people/*.yaml"):
 	print(y)
@@ -91,6 +153,8 @@ for y in glob.glob("./people/*.yaml"):
 
 		dic["countryurl"]=repl(dic["country"].replace(" ","_"))
 		dic["fieldurl"]=repl(dic["field"].replace(" ","_"))
+		dic["area"]=field_group(dic.get("field") or "")
+		dic["areaurl"]=repl(dic["area"].replace(" ","_"))
 		dic["positionurl"]=repl(dic["position"].replace(" ","_"))
 		dic["affiliationurl"]=repl(dic["affiliation"].replace(" ","_"))
 		dic["cityurl"]=repl(dic["city"].replace(" ","_"))
@@ -127,6 +191,13 @@ for y in glob.glob("./people/*.yaml"):
 		if group not in stats["fields"]:
 			stats["fields"][group] = []
 		stats["fields"][group].append(int(dic['hindex']))
+		if "field_members" not in stats:
+			stats["field_members"] = {}
+		if group not in stats["field_members"]:
+			stats["field_members"][group] = []
+		label = str(field).strip() or "neuvedené"
+		if label not in stats["field_members"][group]:
+			stats["field_members"][group].append(label)
 		stats["hindex"].append(int(dic['hindex']))
 
 		countries[dic['country']].append(dic)
@@ -261,6 +332,14 @@ stats["odborCount"]=odborCount
 stats["odborMin"]=odborMin
 stats["odborAvg"]=odborAvg
 stats["odborMax"]=odborMax
+
+odbor_key = []
+members = stats.get("field_members") or {}
+for e in rows:
+	names = sorted(members.get(e[0], []), key=lambda s: repl(s).lower())
+	odbor_key.append({"area": e[0], "fields": names})
+stats["odbor_key"] = odbor_key
+stats.pop("field_members", None)
 
 print("odbor groups", len(rows), "sum n", sum(e[1] for e in rows))
 for e in rows[:8]:

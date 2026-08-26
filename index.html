@@ -6,7 +6,7 @@ title: Domov
 {% for item in site.data.all %}
 
 
-			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }} " id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
+			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }} " id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
 				<div role="listitem" class="w-dyn-item">
 					<div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
@@ -46,7 +46,7 @@ title: Domov
 
 <a class="button-round w-button toggle toggle-position toggle-position-{{ item.positionurl }} " id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
 
-<a class="button-round w-button toggle toggle-field toggle-field-{{ item.fieldurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a><br>
+<a class="button-round w-button toggle toggle-field toggle-field-{{ item.areaurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a><br>
 
 <a class="button-round w-button toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }} " id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a><br>
 

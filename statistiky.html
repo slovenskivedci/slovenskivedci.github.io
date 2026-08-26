@@ -191,7 +191,7 @@ title: Statistiky
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
         <div class="row" align="center">
-            <canvas id="myChartOdbor" width="400" height="400"></canvas>
+            <div style="width:100%;height:420px;"><canvas id="myChartOdbor"></canvas></div>
 
 
  
@@ -235,8 +235,8 @@ title: Statistiky
   type: 'bar',
   data: dataOdbor,
   options: {
-    indexAxis: 'y',
     responsive: true,
+    maintainAspectRatio: false,
     interaction: {
       mode: 'index',
       intersect: false
@@ -245,6 +245,11 @@ title: Statistiky
       legend: {
         display: true,
         position: 'top',
+        align: 'center',
+        labels: {
+          boxWidth: 12,
+          padding: 12
+        }
       },
       tooltip: {
         mode: 'index',
@@ -252,14 +257,30 @@ title: Statistiky
       },
       title: {
         display: true,
-        text: 'H-index podľa odboru'
+        text: 'H-index podľa oblasti'
+      }
+    },
+    scales: {
+      x: {
+        ticks: { maxRotation: 40, minRotation: 0, autoSkip: false }
+      },
+      y: {
+        title: { display: true, text: 'h-index' },
+        beginAtZero: true
       }
     }
   },
 });
 			</script>  
 
-
+        <div class="odbor-key" style="max-width:900px;margin:18px auto 0;text-align:left;font-size:14px;line-height:1.45;">
+          <p style="margin:0 0 8px 0;"><strong>Zloženie oblastí</strong> (konkrétne odbory z profilov):</p>
+          <ul style="margin:0;padding-left:1.2em;">
+          {% for g in site.data.page.odbor_key %}
+            <li style="margin:0 0 6px 0;"><strong>{{ g.area }}:</strong> {{ g.fields | join: ", " }}</li>
+          {% endfor %}
+          </ul>
+        </div>
 
         </div>
       </div>

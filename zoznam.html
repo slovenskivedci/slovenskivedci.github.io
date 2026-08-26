@@ -50,7 +50,7 @@ title: Zoznam
 
 
 
-			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
+			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
 
 				<div role="listitem" class="w-dyn-item">
 
@@ -97,7 +97,7 @@ title: Zoznam
 
 								<a class="button-round-small w-button toggle toggle-position toggle-position-{{ item.positionurl }} " id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
 
-								<a class="button-round-small w-button toggle toggle-field toggle-field-{{ item.fieldurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a> <br>
+								<a class="button-round-small w-button toggle toggle-field toggle-field-{{ item.areaurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a> <br>
 
 								<a class="button-round-small w-button toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }} " id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
 
