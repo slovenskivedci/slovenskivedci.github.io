@@ -9,7 +9,154 @@ title: Statistiky
 
 
 
-    <div role="listitem" class="w-dyn-item">
+        <div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        <div class="row" align="center">
+          <p style="margin:12px 0 4px;font-weight:600;font-size:16px;color:#111827;">Počet vedcov a vedkýň podľa krajiny pôsobenia</p>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
+          <style>
+#countryWorldMap { width: 100%; height: 420px; margin: 12px auto 0; }
+.country-map-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #374151; }
+.country-map-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #bbf7d0, #14532d); }
+</style>
+          <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
+          <div id="countryWorldMap"></div>
+          <div class="country-map-legend" aria-hidden="true"><span>menej</span><span class="country-map-legend-bar"></span><span>viac</span></div>
+          <script>
+          (function () {
+            var labels = {{ site.data.page.country }};
+            var counts = {{ site.data.page.countryCount }};
+            var skToIso = {"Slovensko": "SK", "USA": "US", "Spojené štáty": "US", "Česko": "CZ", "Česká republika": "CZ", "Rakúsko": "AT", "Kanada": "CA", "Austrália": "AU", "Nemecko": "DE", "Veľká Británia": "GB", "Spojené kráľovstvo": "GB", "Švajčiarsko": "CH", "Holandsko": "NL", "Francúzsko": "FR", "Nórsko": "NO", "Belgicko": "BE", "Belgium": "BE", "Katar": "QA", "Saudská Arábia": "SA", "Spojené arabské emiráty": "AE", "Švédsko": "SE", "Dánsko": "DK", "Fínsko": "FI", "Írsko": "IE", "Japonsko": "JP", "Ruská federácia": "RU", "Rusko": "RU", "Španielsko": "ES", "Taliansko": "IT", "Poľsko": "PL", "Maďarsko": "HU", "Portugalsko": "PT", "Grécko": "GR", "Rumunsko": "RO", "Bulharsko": "BG", "Chorvátsko": "HR", "Slovinsko": "SI", "Litva": "LT", "Lotyšsko": "LV", "Estónsko": "EE", "Ukrajina": "UA", "Bielorusko": "BY", "Čína": "CN", "India": "IN", "Brazília": "BR", "Mexiko": "MX", "Argentína": "AR", "Čile": "CL", "Južná Kórea": "KR", "Turecko": "TR", "Izrael": "IL", "Egypt": "EG", "Južná Afrika": "ZA", "Nový Zéland": "NZ", "Singapur": "SG", "Luxembursko": "LU", "Island": "IS", "Srbsko": "RS", "Malta": "MT", "Cyprus": "CY"};
+            var isoToSk = {"SK": "Slovensko", "US": "Spojené štáty", "CZ": "Česká republika", "AT": "Rakúsko", "CA": "Kanada", "AU": "Austrália", "DE": "Nemecko", "GB": "Spojené kráľovstvo", "CH": "Švajčiarsko", "NL": "Holandsko", "FR": "Francúzsko", "NO": "Nórsko", "BE": "Belgicko", "QA": "Katar", "SA": "Saudská Arábia", "AE": "Spojené arabské emiráty", "SE": "Švédsko", "DK": "Dánsko", "FI": "Fínsko", "IE": "Írsko", "JP": "Japonsko", "RU": "Rusko", "ES": "Španielsko", "IT": "Taliansko", "PL": "Poľsko", "HU": "Maďarsko", "PT": "Portugalsko", "GR": "Grécko", "RO": "Rumunsko", "BG": "Bulharsko", "HR": "Chorvátsko", "SI": "Slovinsko", "LT": "Litva", "LV": "Lotyšsko", "EE": "Estónsko", "UA": "Ukrajina", "BY": "Bielorusko", "CN": "Čína", "IN": "India", "BR": "Brazília", "MX": "Mexiko", "AR": "Argentína", "CL": "Čile", "KR": "Južná Kórea", "TR": "Turecko", "IL": "Izrael", "EG": "Egypt", "ZA": "Južná Afrika", "NZ": "Nový Zéland", "SG": "Singapur", "LU": "Luxembursko", "IS": "Island", "RS": "Srbsko", "MT": "Malta", "CY": "Cyprus"};
+            var realCounts = {};
+            var isoNames = {};
+            var scaleValues = {};
+            var unmapped = [];
+            for (var i = 0; i < labels.length; i++) {
+              var iso = skToIso[labels[i]];
+              var n = Number(counts[i]) || 0;
+              if (!iso) { unmapped.push(labels[i]); continue; }
+              realCounts[iso] = (realCounts[iso] || 0) + n;
+              if (!isoNames[iso] || isoNames[iso] === "Belgium") isoNames[iso] = labels[i];
+            }
+            Object.keys(realCounts).forEach(function (iso) {
+              scaleValues[iso] = Math.sqrt(realCounts[iso]);
+            });
+            if (unmapped.length) { console.warn("countryWorldMap unmapped", unmapped); }
+            new jsVectorMap({
+              selector: "#countryWorldMap",
+              map: "world",
+              backgroundColor: "transparent",
+              zoomOnScroll: false,
+              zoomButtons: true,
+              regionStyle: { initial: { fill: "#e5e7eb" } },
+              visualizeData: { scale: ["#bbf7d0", "#14532d"], values: scaleValues },
+              onRegionTooltipShow: function (event, tooltip, code) {
+                var name = (isoNames[code] || isoToSk[code] || tooltip.text());
+                var count = realCounts[code] || 0;
+                tooltip.text(name + ": " + count);
+              }
+            });
+          })();
+          </script>
+        </div>
+      </div>
+    </div>
+
+<div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+        <div class="row" align="center">
+            <canvas id="myChartCountByCountry" width="400" height="400"></canvas>
+
+
+ 
+			<script>
+			const ctxCountByCountry = document.getElementById('myChartCountByCountry');
+			const dataCountByCountry = {
+			  labels:{{ site.data.page.country }} ,
+			  datasets: [
+				{
+				  label: 'Count',
+				  data: {{ site.data.page.countryCount }},
+				  borderColor: 'rgba(34, 197, 94, 0.2)',
+				  backgroundColor: 'rgba(34, 197, 94, 1)',
+				  borderWidth: 2,
+				  borderRadius: 5,
+				  borderSkipped: false,
+				}
+			  ]
+			};
+			
+			const myChartCountByCountry = new Chart(ctxCountByCountry,
+			    {
+  type: 'bar',
+  data: dataCountByCountry,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'Počet vedcov a vedkýň podľa krajiny pôsobenia'
+      }
+    }
+  },
+});
+			</script>
+        </div>
+      </div>
+    </div>
+
+<div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+
+        <div class="row" align="center">
+           
+          <div style="width:100%;max-width:640px;height:420px;margin:0 auto;">
+<canvas id="myChartPlace"></canvas>
+</div>
+<script>
+const ctxPlace = document.getElementById("myChartPlace");
+const dataPlace = {
+  labels: {{ site.data.page.place }},
+  datasets: [
+    { label: "minimum", data: {{ site.data.page.placeMin }}, backgroundColor: "rgba(196, 181, 253, 1)", borderColor: "rgba(167, 139, 250, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
+    { label: "priemer", data: {{ site.data.page.placeAvg }}, backgroundColor: "rgba(139, 92, 246, 1)", borderColor: "rgba(124, 58, 237, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
+    { label: "maximum", data: {{ site.data.page.placeMax }}, backgroundColor: "rgba(91, 33, 182, 1)", borderColor: "rgba(76, 29, 149, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false }
+  ]
+};
+const myChartPlace = new Chart(ctxPlace, {
+  type: "bar",
+  data: dataPlace,
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { display: true, position: "top" },
+      title: { display: true, text: "H-index podľa pôsobiska: Slovensko vs zahraničie" },
+      tooltip: { mode: "index", intersect: false }
+    },
+    scales: {
+      y: { title: { display: true, text: "h-index" }, beginAtZero: true }
+    }
+  }
+});
+
+</script> 
+
+
+
+        </div>
+      </div>
+	</div>
+
+<div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
 
@@ -61,133 +208,7 @@ title: Statistiky
       </div>
 	</div>
 
-
-
-
-
-
-      <div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-
-        <div class="row" align="center">
-           
-          <canvas id="myChartYearHist" width="400" height="400"></canvas>
-		<script>
-			const ctxmyChartYearHist = document.getElementById('myChartYearHist');
-			 
-			
-			const dataYearHist = {
-			  labels:{{ site.data.page.year_hist_x }} ,
-			  datasets: [
-				{
-				  label: 'Count',
-				  data: {{ site.data.page.year_hist_count }},
-				  borderColor: 'rgba(20, 184, 166, 0.2)',
-				  backgroundColor: 'rgba(20, 184, 166, 1)',
-				  borderWidth: 2,
-				  borderRadius: 5,
-				  borderSkipped: false,
-				}
-			  ]
-			};
-			
-			const myChartYearHist = new Chart(ctxmyChartYearHist,
-			    {
-  type: 'bar',
-  data: dataYearHist,
-  options: {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa roku narodenia (histogram)'
-      }
-    }
-  },
-});
-			</script> 
-
-
-
-          <!--<img  src="stats/year.jpg"/>-->
-        </div>
-      </div>
-	</div>
-
-
-
-    <div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-
-        <div class="row" align="center">
-           
-          <canvas id="myChartYearHindex" width="400" height="400"></canvas>
-		<script>
-			const ctxmyChartYearHindex = document.getElementById('myChartYearHindex');
-			 
-			
-			const dataYearHindex = {
-			  datasets: [
-				{
-				  label: 'H-index',
-				  data: {{ site.data.page.year_hindex_xy }},
-				  borderColor: 'rgba(255, 159, 64, 0.2)',
-				  backgroundColor: 'rgba(255, 159, 64, 1)',
-				  borderWidth: 2,
-				}
-			  ]
-			};
-			
-			const myChartYearHindex = new Chart(ctxmyChartYearHindex,
-			    {
-  type: 'scatter',
-  data: dataYearHindex,
-  options: {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'H-index podľa roku narodenia'
-      }
-    },
-    scales: {
-      x: {
-        title: {
-          display: true,
-          text: 'rok narodenia'
-        },
-        ticks: {
-          callback: function(value) { return String(Math.round(value)); }
-        }
-      },
-      y: {
-        title: {
-          display: true,
-          text: 'h-index'
-        }
-      }
-    }
-  },
-});
-			</script> 
-
-
-
-        </div>
-      </div>
-	</div>
-
-
-
-    <div role="listitem" class="w-dyn-item">
+<div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
         <div class="row" align="center">
@@ -286,200 +307,7 @@ title: Statistiky
       </div>
 	</div>
 
-
-
-    <div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-
-        <div class="row" align="center">
-           
-          <div style="width:100%;max-width:640px;height:420px;margin:0 auto;">
-<canvas id="myChartPlace"></canvas>
-</div>
-<script>
-const ctxPlace = document.getElementById("myChartPlace");
-const dataPlace = {
-  labels: {{ site.data.page.place }},
-  datasets: [
-    { label: "minimum", data: {{ site.data.page.placeMin }}, backgroundColor: "rgba(196, 181, 253, 1)", borderColor: "rgba(167, 139, 250, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
-    { label: "priemer", data: {{ site.data.page.placeAvg }}, backgroundColor: "rgba(139, 92, 246, 1)", borderColor: "rgba(124, 58, 237, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
-    { label: "maximum", data: {{ site.data.page.placeMax }}, backgroundColor: "rgba(91, 33, 182, 1)", borderColor: "rgba(76, 29, 149, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false }
-  ]
-};
-const myChartPlace = new Chart(ctxPlace, {
-  type: "bar",
-  data: dataPlace,
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    interaction: { mode: "index", intersect: false },
-    plugins: {
-      legend: { display: true, position: "top" },
-      title: { display: true, text: "H-index podľa pôsobiska: Slovensko vs zahraničie" },
-      tooltip: { mode: "index", intersect: false }
-    },
-    scales: {
-      y: { title: { display: true, text: "h-index" }, beginAtZero: true }
-    }
-  }
-});
-
-</script> 
-
-
-
-        </div>
-      </div>
-	</div>
-
-
-
 <div role="listitem" class="w-dyn-item">
-    <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-      <div class="row">
-        <canvas id="myChartGender" width="400" height="400"></canvas>
-      </div>
-    </div>
-    
-	  
-		
-	<script>
-	const ctx = document.getElementById('myChartGender');
-	const myChart = new Chart(ctx, {
-		type: 'doughnut',
-		data: {
-			labels: ['ženy', 'muži'],
-			datasets: [{
-				label: '# count',
-				data: [{{ site.data.page.woman }}, {{ site.data.page.man }}],
-				backgroundColor: [
-					'rgba(255, 99, 132, 0.2)',
-					'rgba(54, 162, 235, 0.2)',
-				],
-				borderColor: [
-					'rgba(255, 99, 132, 1)',
-					'rgba(54, 162, 235, 1)',
-				],
-				borderWidth: 1
-			}]
-		},
-		options: {
-			scales: {
-				y: {
-					beginAtZero: true
-				}
-			}
-		}
-	});
-	</script>  
-	</div>  
-
-
-
-    <div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-        <div class="row" align="center">
-            <canvas id="myChartCountByCountry" width="400" height="400"></canvas>
-
-
- 
-			<script>
-			const ctxCountByCountry = document.getElementById('myChartCountByCountry');
-			const dataCountByCountry = {
-			  labels:{{ site.data.page.country }} ,
-			  datasets: [
-				{
-				  label: 'Count',
-				  data: {{ site.data.page.countryCount }},
-				  borderColor: 'rgba(34, 197, 94, 0.2)',
-				  backgroundColor: 'rgba(34, 197, 94, 1)',
-				  borderWidth: 2,
-				  borderRadius: 5,
-				  borderSkipped: false,
-				}
-			  ]
-			};
-			
-			const myChartCountByCountry = new Chart(ctxCountByCountry,
-			    {
-  type: 'bar',
-  data: dataCountByCountry,
-  options: {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa krajiny pôsobenia'
-      }
-    }
-  },
-});
-			</script>  
-
-
-
-
-
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
-          <style>
-#countryWorldMap { width: 100%; height: 420px; margin: 12px auto 0; }
-.country-map-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #374151; }
-.country-map-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #bbf7d0, #14532d); }
-</style>
-          <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
-          <div id="countryWorldMap"></div>
-          <div class="country-map-legend" aria-hidden="true"><span>menej</span><span class="country-map-legend-bar"></span><span>viac</span></div>
-          <script>
-          (function () {
-            var labels = {{ site.data.page.country }};
-            var counts = {{ site.data.page.countryCount }};
-            var skToIso = {"Slovensko": "SK", "USA": "US", "Spojené štáty": "US", "Česko": "CZ", "Česká republika": "CZ", "Rakúsko": "AT", "Kanada": "CA", "Austrália": "AU", "Nemecko": "DE", "Veľká Británia": "GB", "Spojené kráľovstvo": "GB", "Švajčiarsko": "CH", "Holandsko": "NL", "Francúzsko": "FR", "Nórsko": "NO", "Belgicko": "BE", "Belgium": "BE", "Katar": "QA", "Saudská Arábia": "SA", "Spojené arabské emiráty": "AE", "Švédsko": "SE", "Dánsko": "DK", "Fínsko": "FI", "Írsko": "IE", "Japonsko": "JP", "Ruská federácia": "RU", "Rusko": "RU", "Španielsko": "ES", "Taliansko": "IT", "Poľsko": "PL", "Maďarsko": "HU", "Portugalsko": "PT", "Grécko": "GR", "Rumunsko": "RO", "Bulharsko": "BG", "Chorvátsko": "HR", "Slovinsko": "SI", "Litva": "LT", "Lotyšsko": "LV", "Estónsko": "EE", "Ukrajina": "UA", "Bielorusko": "BY", "Čína": "CN", "India": "IN", "Brazília": "BR", "Mexiko": "MX", "Argentína": "AR", "Čile": "CL", "Južná Kórea": "KR", "Turecko": "TR", "Izrael": "IL", "Egypt": "EG", "Južná Afrika": "ZA", "Nový Zéland": "NZ", "Singapur": "SG", "Luxembursko": "LU", "Island": "IS", "Srbsko": "RS", "Malta": "MT", "Cyprus": "CY"};
-            var isoToSk = {"SK": "Slovensko", "US": "Spojené štáty", "CZ": "Česká republika", "AT": "Rakúsko", "CA": "Kanada", "AU": "Austrália", "DE": "Nemecko", "GB": "Spojené kráľovstvo", "CH": "Švajčiarsko", "NL": "Holandsko", "FR": "Francúzsko", "NO": "Nórsko", "BE": "Belgicko", "QA": "Katar", "SA": "Saudská Arábia", "AE": "Spojené arabské emiráty", "SE": "Švédsko", "DK": "Dánsko", "FI": "Fínsko", "IE": "Írsko", "JP": "Japonsko", "RU": "Rusko", "ES": "Španielsko", "IT": "Taliansko", "PL": "Poľsko", "HU": "Maďarsko", "PT": "Portugalsko", "GR": "Grécko", "RO": "Rumunsko", "BG": "Bulharsko", "HR": "Chorvátsko", "SI": "Slovinsko", "LT": "Litva", "LV": "Lotyšsko", "EE": "Estónsko", "UA": "Ukrajina", "BY": "Bielorusko", "CN": "Čína", "IN": "India", "BR": "Brazília", "MX": "Mexiko", "AR": "Argentína", "CL": "Čile", "KR": "Južná Kórea", "TR": "Turecko", "IL": "Izrael", "EG": "Egypt", "ZA": "Južná Afrika", "NZ": "Nový Zéland", "SG": "Singapur", "LU": "Luxembursko", "IS": "Island", "RS": "Srbsko", "MT": "Malta", "CY": "Cyprus"};
-            var realCounts = {};
-            var isoNames = {};
-            var scaleValues = {};
-            var unmapped = [];
-            for (var i = 0; i < labels.length; i++) {
-              var iso = skToIso[labels[i]];
-              var n = Number(counts[i]) || 0;
-              if (!iso) { unmapped.push(labels[i]); continue; }
-              realCounts[iso] = (realCounts[iso] || 0) + n;
-              if (!isoNames[iso] || isoNames[iso] === "Belgium") isoNames[iso] = labels[i];
-            }
-            Object.keys(realCounts).forEach(function (iso) {
-              scaleValues[iso] = Math.sqrt(realCounts[iso]);
-            });
-            if (unmapped.length) { console.warn("countryWorldMap unmapped", unmapped); }
-            new jsVectorMap({
-              selector: "#countryWorldMap",
-              map: "world",
-              backgroundColor: "transparent",
-              zoomOnScroll: false,
-              zoomButtons: true,
-              regionStyle: { initial: { fill: "#e5e7eb" } },
-              visualizeData: { scale: ["#bbf7d0", "#14532d"], values: scaleValues },
-              onRegionTooltipShow: function (event, tooltip, code) {
-                var name = (isoNames[code] || isoToSk[code] || tooltip.text());
-                var count = realCounts[code] || 0;
-                tooltip.text(name + ": " + count);
-              }
-            });
-          })();
-          </script>
-          <!--<img src="stats/countries.jpg"/>-->
-        </div>
-      </div>
-    </div>  
-
-
-
-    <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
         <div class="row" align="center">
@@ -529,6 +357,163 @@ const myChartPlace = new Chart(ctxPlace, {
           <!--<img src="stats/affiliation.jpg"/>-->
         </div>
       </div>
+	</div>
+
+<div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+
+        <div class="row" align="center">
+           
+          <canvas id="myChartYearHist" width="400" height="400"></canvas>
+		<script>
+			const ctxmyChartYearHist = document.getElementById('myChartYearHist');
+			 
+			
+			const dataYearHist = {
+			  labels:{{ site.data.page.year_hist_x }} ,
+			  datasets: [
+				{
+				  label: 'Count',
+				  data: {{ site.data.page.year_hist_count }},
+				  borderColor: 'rgba(20, 184, 166, 0.2)',
+				  backgroundColor: 'rgba(20, 184, 166, 1)',
+				  borderWidth: 2,
+				  borderRadius: 5,
+				  borderSkipped: false,
+				}
+			  ]
+			};
+			
+			const myChartYearHist = new Chart(ctxmyChartYearHist,
+			    {
+  type: 'bar',
+  data: dataYearHist,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'Počet vedcov a vedkýň podľa roku narodenia (histogram)'
+      }
+    }
+  },
+});
+			</script> 
+
+
+
+          <!--<img  src="stats/year.jpg"/>-->
+        </div>
+      </div>
+	</div>
+
+<div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+
+        <div class="row" align="center">
+           
+          <canvas id="myChartYearHindex" width="400" height="400"></canvas>
+		<script>
+			const ctxmyChartYearHindex = document.getElementById('myChartYearHindex');
+			 
+			
+			const dataYearHindex = {
+			  datasets: [
+				{
+				  label: 'H-index',
+				  data: {{ site.data.page.year_hindex_xy }},
+				  borderColor: 'rgba(255, 159, 64, 0.2)',
+				  backgroundColor: 'rgba(255, 159, 64, 1)',
+				  borderWidth: 2,
+				}
+			  ]
+			};
+			
+			const myChartYearHindex = new Chart(ctxmyChartYearHindex,
+			    {
+  type: 'scatter',
+  data: dataYearHindex,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'H-index podľa roku narodenia'
+      }
+    },
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: 'rok narodenia'
+        },
+        ticks: {
+          callback: function(value) { return String(Math.round(value)); }
+        }
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'h-index'
+        }
+      }
+    }
+  },
+});
+			</script> 
+
+
+
+        </div>
+      </div>
+	</div>
+
+<div role="listitem" class="w-dyn-item">
+    <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+      <div class="row">
+        <canvas id="myChartGender" width="400" height="400"></canvas>
+      </div>
+    </div>
+    
+	  
+		
+	<script>
+	const ctx = document.getElementById('myChartGender');
+	const myChart = new Chart(ctx, {
+		type: 'doughnut',
+		data: {
+			labels: ['ženy', 'muži'],
+			datasets: [{
+				label: '# count',
+				data: [{{ site.data.page.woman }}, {{ site.data.page.man }}],
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(54, 162, 235, 0.2)',
+				],
+				borderColor: [
+					'rgba(255, 99, 132, 1)',
+					'rgba(54, 162, 235, 1)',
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			scales: {
+				y: {
+					beginAtZero: true
+				}
+			}
+		}
+	});
+	</script>  
 	</div>
 
 </div>
