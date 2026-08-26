@@ -653,7 +653,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "umel\xE1 inteligencia"
+  field: "optimalizácia"
   affiliation: KAUST
   city: Thuwal
   country: "Saudsk\xE1 Ar\xE1bia"
@@ -692,7 +692,7 @@
   img: Peter_Richtarik.jpg
   update_status: UPDATED
   countryurl: Saudska_Arabia
-  fieldurl: umela_inteligencia
+  fieldurl: optimalizacia
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
   positionurl: profesor
@@ -6238,7 +6238,7 @@
   year: '1986'
   sex: "mu\u017E"
   position: docent
-  field: "umel\xE1 inteligencia"
+  field: "optimalizácia"
   affiliation: MBZUAI
   city: Abu Dhabi
   country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
@@ -6277,7 +6277,7 @@
   img: Martin_Takac.jpg
   update_status: UPDATED
   countryurl: Spojene_arabske_emiraty
-  fieldurl: umela_inteligencia
+  fieldurl: optimalizacia
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
   positionurl: docent

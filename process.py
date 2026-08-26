@@ -30,7 +30,7 @@ def repl(text):
 # First match wins. More specific keywords first.
 FIELD_GROUPS = [
 	('umelá inteligencia', [
-		'umela inteligencia', 'strojove ucenie', 'pocitacove videnie',
+		'umela inteligencia', 'optimalizac', 'strojove ucenie', 'pocitacove videnie',
 		'robotika', 'strojove videnie',
 	]),
 	('matematika', [

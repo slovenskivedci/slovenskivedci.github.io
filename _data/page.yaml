@@ -997,6 +997,7 @@ odbor_key:
 - area: "umel\xE1 inteligencia"
   fields:
   - "po\u010D\xEDta\u010Dov\xE9 videnie"
+  - "optimalizácia"
   - "robotika a strojov\xE9 videnie"
   - "robotika a umel\xE1 inteligencia"
   - "strojov\xE9 u\u010Denie"
