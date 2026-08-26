@@ -87,15 +87,14 @@
 	  $(".toggle-field").click(function(){
 		if($(this).hasClass("selected")){
 			$("#filter-field").html("");
-			$(".toggle-field").css("background-color", "white");
 			$(".toggle-field").removeClass("selected");
 
         }else{
 			var id = $(this).attr('id');
 			field = id.split(":")[6];
 			$("#filter-field").html(field);
+			$(".toggle-field").removeClass("selected");
 			$(".toggle-field-"+field).addClass("selected");
-			$(".toggle-field-"+field).css("background-color", "#FFF59E");
 		}
 		filter();
 
@@ -104,15 +103,14 @@
 	  $(".toggle-position").click(function(){
 		if($(this).hasClass("selected")){
 			$("#filter-position").html("");
-			$(".toggle-position").css("background-color", "white");
 			$(".toggle-position").removeClass("selected");
 
         }else{
 			var id = $(this).attr('id');
 			position = id.split(":")[5];
 			$("#filter-position").html(position);
+			$(".toggle-position").removeClass("selected");
 			$(".toggle-position-"+position).addClass("selected");
-			$(".toggle-position-"+position).css("background-color", "#FFF59E");
 		}
 		filter();
 	  });
@@ -120,15 +118,14 @@
 	  $(".toggle-affiliation").click(function(){
 		if($(this).hasClass("selected")){
 			$("#filter-affiliation").html("");
-			$(".toggle-affiliation").css("background-color", "white");
 			$(".toggle-affiliation").removeClass("selected");
 
         }else{
 			var id = $(this).attr('id');
 			affiliation = id.split(":")[3];
 			$("#filter-affiliation").html(affiliation);
+			$(".toggle-affiliation").removeClass("selected");
 			$(".toggle-affiliation-"+affiliation).addClass("selected");
-			$(".toggle-affiliation-"+affiliation).css("background-color", "#FFF59E");
 		}
 		filter();
 	  });
@@ -137,15 +134,14 @@
 	  $(".toggle-country").click(function(){
 		if($(this).hasClass("selected")){
 			$("#filter-country").html("");
-			$(".toggle-country").css("background-color", "white");
 			$(".toggle-country").removeClass("selected");
 
         }else{
 			var id = $(this).attr('id');
 			country = id.split(":")[2];
 			$("#filter-country").html(country);
+			$(".toggle-country").removeClass("selected");
 			$(".toggle-country-"+country).addClass("selected");
-			$(".toggle-country-"+country).css("background-color", "#FFF59E");
 		}
 		filter();
 	  });
@@ -153,15 +149,14 @@
 	  $(".toggle-city").click(function(){
 		if($(this).hasClass("selected")){
 			$("#filter-city").html("");
-			$(".toggle-city").css("background-color", "white");
 			$(".toggle-city").removeClass("selected");
 
         }else{
 			var id = $(this).attr('id');
 			city = id.split(":")[4];
 			$("#filter-city").html(city);
+			$(".toggle-city").removeClass("selected");
 			$(".toggle-city-"+city).addClass("selected");
-			$(".toggle-city-"+city).css("background-color", "#FFF59E");
 		}
 		filter();
 	  });
@@ -171,14 +166,11 @@
       var sex = $(this).attr("data-sex");
       if($(this).hasClass("selected")){
         $("#filter-sex").html("");
-        $(".sex-chip").css("background-color", "white");
         $(".sex-chip").removeClass("selected");
       } else {
         $("#filter-sex").html(sex);
-        $(".sex-chip").css("background-color", "white");
         $(".sex-chip").removeClass("selected");
         $(this).addClass("selected");
-        $(this).css("background-color", "#FFF59E");
       }
       filter();
     });
@@ -201,7 +193,6 @@
 			$(".entry").hide();
 			$(".city-"+city).fadeIn();
 			$(".toggle-city-"+city).addClass("selected");
-			$(".toggle-city-"+city).css("background-color", "#FFF59E");
 		}
 	  });
 	  */
@@ -290,8 +281,10 @@ width: 100%
     .compact-year { color: #888; }
     .compact-meta { flex: 1 1 280px; color: #666; }
     .compact-hint { text-align: center; color: #888; font-size: 12px; line-height: 16px; margin: 0 0 10px; }
-    .filter-link { color: #1f4e79; text-decoration: none; border: none; background: none; padding: 0; font-size: 13px; font-weight: 400; }
-    .filter-link:hover { color: #163a5a; text-decoration: none; }
+    .filter-link { color: #444; text-decoration: none; border: none; background: transparent; padding: 1px 4px; border-radius: 3px; font-size: 13px; font-weight: 400; }
+    .filter-link:hover { color: #444; background: #FFF4B8; text-decoration: none; }
+    .filter-link.selected { color: #222; background: #F0C94D; }
+    .filter-link.selected:hover { color: #222; background: #E8B83A; }
     .compact-dot { color: #bbb; margin: 0 2px; }
     @media (max-width: 700px) {
         .compact-name { flex: 1 1 calc(100% - 48px); }

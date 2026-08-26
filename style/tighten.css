@@ -177,20 +177,31 @@ a:hover {
 
 
 
-/* Filters = navy. Outbound links = grey. No underlines. */
+/* Filters: same text color; yellow hover; gold when on */
 .filter-link {
-    color: #1f4e79;
+    color: #444;
     text-decoration: none;
     border: none;
-    background: none;
-    padding: 0;
+    background: transparent;
+    padding: 1px 4px;
+    margin: 0 -2px;
+    border-radius: 3px;
     font-size: 13px;
     font-weight: 400;
     line-height: inherit;
 }
 .filter-link:hover {
-    color: #163a5a;
+    color: #444;
+    background: #FFF4B8;
     text-decoration: none;
+}
+.filter-link.selected {
+    color: #222;
+    background: #F0C94D;
+}
+.filter-link.selected:hover {
+    color: #222;
+    background: #E8B83A;
 }
 .card-facts {
     color: #666;
