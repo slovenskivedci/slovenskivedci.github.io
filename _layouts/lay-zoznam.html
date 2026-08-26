@@ -166,21 +166,23 @@
 		filter();
 	  });
 
-    $(".toggle-sex").click(function(){
-		if($(this).hasClass("selected")){
-			$("#filter-sex").html("");
-			$(".toggle-sex").css("background-color", "white");
-			$(".toggle-sex").removeClass("selected");
+    $(".sex-chip").click(function(e){
+      e.preventDefault();
+      var sex = $(this).attr("data-sex");
+      if($(this).hasClass("selected")){
+        $("#filter-sex").html("");
+        $(".sex-chip").css("background-color", "white");
+        $(".sex-chip").removeClass("selected");
+      } else {
+        $("#filter-sex").html(sex);
+        $(".sex-chip").css("background-color", "white");
+        $(".sex-chip").removeClass("selected");
+        $(this).addClass("selected");
+        $(this).css("background-color", "#FFF59E");
+      }
+      filter();
+    });
 
-        }else{
-			var id = $(this).attr('id');
-			sex = id.split(":")[7];
-			$("#filter-sex").html(sex);
-			$(".toggle-sex-"+sex).addClass("selected");
-			$(".toggle-sex-"+sex).css("background-color", "#FFF59E");
-		}
-		filter();
-	  });
 
 
 
@@ -233,6 +235,11 @@ width: 100%
         color: #888;
         font-weight: 400;
     }
+    .sex-chip {
+        margin-left: 10px;
+        font-weight: 400;
+        vertical-align: middle;
+    }
 
     </style>
     <title>Slovenskí vedci a vedkyne s vysokým Hirschovým indexom </title>
@@ -275,7 +282,9 @@ width: 100%
 -->
   <p>
 
-	  <b><span id="scientists-count"></span></b>
+  <b><span id="scientists-count"></span></b>
+  <a href="#" class="button-round w-button sex-chip" data-sex="muz">muži</a>
+  <a href="#" class="button-round w-button sex-chip" data-sex="zena">ženy</a>
 
     <div id="filter" style="display:none">
 		    <span id="filter-field"></span>
