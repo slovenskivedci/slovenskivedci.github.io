@@ -68,3 +68,21 @@
 .menu-text {
     float: none;
 }
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+.dropdown-menu a,
+.dropdown-menu a:hover,
+.button-round,
+.button-round:hover,
+.sex-chip,
+.sex-chip:hover {
+    color: #333;
+    text-decoration: none;
+}
