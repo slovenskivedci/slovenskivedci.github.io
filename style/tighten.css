@@ -150,8 +150,15 @@ a:hover {
     .compact-meta { flex: 1 1 100%; padding-left: 48px; }
 }
 .footer {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
+    color: #888;
+    background: none;
+    background-color: transparent;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    text-align: center;
 }
 
 .main-title {
@@ -163,6 +170,14 @@ a:hover {
 .hindex-link,
 .compact-h {
     color: #1f4e79;
+    border-bottom: 1px solid #1f4e79;
+    text-decoration: none;
+}
+.hindex-link:hover,
+.compact-h:hover {
+    color: #1f4e79;
+    border-bottom-color: #163a5a;
+    text-decoration: none;
 }
 .nav-current,
 .nav-current a,
@@ -190,5 +205,35 @@ a:hover {
 .compact-meta a.toggle:hover {
     color: #1f4e79;
     border-bottom-style: solid;
+    text-decoration: none;
+}
+
+.card-facts {
+    color: #666;
+    line-height: 20px;
+}
+.card-facts a.toggle {
+    color: #1f4e79;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px dotted #1f4e79;
+    background: none;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 400;
+}
+.card-facts a.toggle:hover {
+    color: #1f4e79;
+    border-bottom-style: solid;
+    text-decoration: none;
+}
+.card-links a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid #999;
+}
+.card-links a:hover {
+    color: #1f4e79;
+    border-bottom-color: #1f4e79;
     text-decoration: none;
 }
