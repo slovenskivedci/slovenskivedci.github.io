@@ -443,6 +443,91 @@ title: Statistiky
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
+<style>
+#countryWorldMap { width: 100%; height: 480px; margin: 12px auto 0; }
+.country-map-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #374151; }
+.country-map-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #bbf7d0, #14532d); }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
+<div id="countryWorldMap"></div>
+<div class="country-map-legend">
+<span>menej</span>
+<span class="country-map-legend-bar"></span>
+<span>viac</span>
+</div>
+<script>
+(function () {
+  var labels = {{ site.data.page.country }};
+  var counts = {{ site.data.page.countryCount }};
+  var skToIso = {
+    Slovensko: "SK", USA: "US", Cesko: "CZ", Rakusko: "AT", Kanada: "CA",
+    Australia: "AU", Nemecko: "DE", Holandsko: "NL", Francuzsko: "FR",
+    Norsko: "NO", Belgicko: "BE", Belgium: "BE", Katar: "QA", Dansko: "DK",
+    Finsko: "FI", Japonsko: "JP", Spanielsko: "ES", Taliansko: "IT",
+    Polsko: "PL", Madarsko: "HU", Portugalsko: "PT", Grecko: "GR",
+    Rumunsko: "RO", Bulharsko: "BG", Chorvatsko: "HR", Slovinsko: "SI",
+    Litva: "LT", Lotyssko: "LV", Estonsko: "EE", Ukrajina: "UA",
+    Cina: "CN", India: "IN", Brazilia: "BR", Mexiko: "MX", Turecko: "TR",
+    Izrael: "IL", Singapur: "SG"
+  };
+  skToIso["Česko"] = "CZ";
+  skToIso["Česká republika"] = "CZ";
+  skToIso["Rakúsko"] = "AT";
+  skToIso["Austrália"] = "AU";
+  skToIso["Veľká Británia"] = "GB";
+  skToIso["Spojené kráľovstvo"] = "GB";
+  skToIso["Švajčiarsko"] = "CH";
+  skToIso["Francúzsko"] = "FR";
+  skToIso["Nórsko"] = "NO";
+  skToIso["Saudská Arábia"] = "SA";
+  skToIso["Spojené arabské emiráty"] = "AE";
+  skToIso["Švédsko"] = "SE";
+  skToIso["Dánsko"] = "DK";
+  skToIso["Fínsko"] = "FI";
+  skToIso["Írsko"] = "IE";
+  skToIso["Ruská federácia"] = "RU";
+  skToIso["Rusko"] = "RU";
+  skToIso["Španielsko"] = "ES";
+  skToIso["Spojené štáty"] = "US";
+  skToIso["Spojené štáty americké"] = "US";
+  var isoName = {
+    SK: "Slovensko", US: "USA", CZ: "Česko", AT: "Rakúsko", CA: "Kanada",
+    AU: "Austrália", DE: "Nemecko", GB: "Veľká Británia", CH: "Švajčiarsko",
+    NL: "Holandsko", FR: "Francúzsko", NO: "Nórsko", BE: "Belgicko",
+    QA: "Katar", SA: "Saudská Arábia", AE: "Spojené arabské emiráty",
+    SE: "Švédsko", DK: "Dánsko", FI: "Fínsko", IE: "Írsko", JP: "Japonsko",
+    RU: "Ruská federácia", ES: "Španielsko"
+  };
+  var realCounts = {};
+  var scaleValues = {};
+  for (var i = 0; i < labels.length; i++) {
+    var iso = skToIso[labels[i]];
+    var n = Number(counts[i]) || 0;
+    if (!iso) { continue; }
+    realCounts[iso] = (realCounts[iso] || 0) + n;
+  }
+  Object.keys(realCounts).forEach(function (iso) {
+    scaleValues[iso] = Math.sqrt(realCounts[iso]);
+  });
+  new jsVectorMap({
+    selector: "#countryWorldMap",
+    map: "world",
+    backgroundColor: "transparent",
+    zoomOnScroll: false,
+    zoomButtons: true,
+    regionStyle: { initial: { fill: "#e5e7eb" } },
+    visualizeData: { scale: ["#bbf7d0", "#14532d"], values: scaleValues },
+    onRegionTooltipShow: function (event, tooltip, code) {
+      var name = isoName[code] || tooltip.text();
+      var count = realCounts[code] || 0;
+      tooltip.text(name + ": " + count);
+    }
+  });
+})();
+
+</script>
           <!--<img src="stats/countries.jpg"/>-->
         </div>
       </div>
