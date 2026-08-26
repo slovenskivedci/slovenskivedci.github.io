@@ -11,7 +11,8 @@ stats={
     'man':0,
     'woman':0,
     'hindex':[],
-    'affiliation': {}
+    'affiliation': {},
+    'fields': {}
       }
 
 
@@ -72,6 +73,10 @@ for y in glob.glob("./people/*.yaml"):
 			stats["affiliation"][dic["affiliation"]] = 0
 		stats["countries"][dic["country"]] += 1
 		stats["affiliation"][dic["affiliation"]] += 1
+		field = dic.get("field") or ""
+		if field not in stats["fields"]:
+			stats["fields"][field] = 0
+		stats["fields"][field] += 1
 		stats["hindex"].append(int(dic['hindex']))
 
 		countries[dic['country']].append(dic)
@@ -175,6 +180,50 @@ affiliationCount ="["+ ",".join([str(e[1]) for e in d])+"]"
 
 stats["affiliation"]=affiliation
 stats["affiliationCount"]=affiliationCount
+
+
+d = stats["fields"]
+d = sorted([(k,d[k]) for k in d],  key = lambda e: (-e[1],repl(e[0])))
+odbor = "["+ ",".join(["'"+str(e[0]).replace("'","\\'")+"'" for e in d])+"]"
+odborCount ="["+ ",".join([str(e[1]) for e in d])+"]"
+
+stats["odbor"]=odbor
+stats["odborCount"]=odborCount
+
+
+SENIORITY_LABELS = ['odborný asistent', 'docent', 'profesor', 'ostatné']
+
+def seniority_bucket(position):
+	p = repl(str(position or '')).lower()
+	is_asistent = (
+		'assistant professor' in p
+		or 'odborny asistent' in p
+		or 'odb. asistent' in p
+		or 'asistent' in p
+	)
+	is_docent = ('docent' in p) or ('associate professor' in p)
+	is_profesor = (
+		('profesor' in p)
+		or ('full professor' in p)
+		or ('professor' in p and 'assistant professor' not in p and 'associate professor' not in p)
+	)
+	if is_profesor:
+		return 'profesor'
+	if is_docent:
+		return 'docent'
+	if is_asistent:
+		return 'odborný asistent'
+	return 'ostatné'
+
+seniority_points = []
+seniority_counts = {k: 0 for k in SENIORITY_LABELS}
+for person in alllst:
+	bucket = seniority_bucket(person.get('position'))
+	seniority_counts[bucket] += 1
+	seniority_points.append("{x:'%s',y:%d}" % (bucket.replace("'", "\\'"), int(person['hindex'])))
+
+stats["seniority_xy"] = "[" + ",".join(seniority_points) + "]"
+print("seniority", seniority_counts, "sum", sum(seniority_counts.values()), "people", len(alllst))
 
 
  

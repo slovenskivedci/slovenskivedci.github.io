@@ -187,6 +187,124 @@ title: Statistiky
 
 
 
+    <div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+        <div class="row" align="center">
+            <canvas id="myChartOdbor" width="400" height="400"></canvas>
+
+
+ 
+			<script>
+			const ctxOdbor = document.getElementById('myChartOdbor');
+			const dataOdbor = {
+			  labels:{{ site.data.page.odbor }} ,
+			  datasets: [
+				{
+				  label: 'Count',
+				  data: {{ site.data.page.odborCount }},
+				  borderColor: 'rgba(255, 99, 132, 0.2)',
+				  backgroundColor: 'rgba(255, 99, 132, 1)',
+				  borderWidth: 2,
+				  borderRadius: 5,
+				  borderSkipped: false,
+				}
+			  ]
+			};
+			
+			const myChartOdbor = new Chart(ctxOdbor,
+			    {
+  type: 'bar',
+  data: dataOdbor,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'H-index podľa odboru'
+      }
+    }
+  },
+});
+			</script>  
+
+
+
+        </div>
+      </div>
+	</div>
+
+
+
+    <div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+
+        <div class="row" align="center">
+           
+          <canvas id="myChartSeniority" width="400" height="400"></canvas>
+		<script>
+			const ctxmyChartSeniority = document.getElementById('myChartSeniority');
+			 
+			
+			const dataSeniority = {
+			  datasets: [
+				{
+				  label: 'H-index',
+				  data: {{ site.data.page.seniority_xy }},
+				  borderColor: 'rgba(255, 99, 132, 0.2)',
+				  backgroundColor: 'rgba(255, 99, 132, 1)',
+				  borderWidth: 2,
+				}
+			  ]
+			};
+			
+			const myChartSeniority = new Chart(ctxmyChartSeniority,
+			    {
+  type: 'scatter',
+  data: dataSeniority,
+  options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: 'H-index podľa seniority'
+      }
+    },
+    scales: {
+      x: {
+        type: 'category',
+        labels: ['odborný asistent', 'docent', 'profesor', 'ostatné'],
+        title: {
+          display: true,
+          text: 'seniority'
+        }
+      },
+      y: {
+        title: {
+          display: true,
+          text: 'h-index'
+        }
+      }
+    }
+  },
+});
+			</script> 
+
+
+
+        </div>
+      </div>
+	</div>
+
+
+
 <div role="listitem" class="w-dyn-item">
     <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
       <div class="row">
