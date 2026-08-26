@@ -3,6 +3,8 @@ layout: lay-zoznam
 title: Zoznam
 ---
 
+<p class="compact-hint">Kliknutím na odbor, pracovisko alebo mesto filtrujete zoznam.</p>
+
 {% for item in site.data.all %}
 <div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
   <div role="listitem" class="w-dyn-item">
