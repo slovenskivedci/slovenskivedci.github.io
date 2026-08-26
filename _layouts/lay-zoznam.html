@@ -267,7 +267,7 @@ width: 100%
     <link href="https://uploads-ssl.webflow.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/img/webclip.png" rel="apple-touch-icon">
         <style>
-    .main-title { font-size: 22px; line-height: 26px; }
+    .main-title { font-size: 22px; line-height: 26px; color: #1f4e79; }
     .main-subheading { font-size: 13px; line-height: 18px; }
     .dropdown-menu { padding: 4px 8px; }
     .menu-text { font-size: 12px; }
@@ -279,8 +279,11 @@ width: 100%
     .dropdown-menu { float: none; display: inline-block; }
     .menu-text { float: none; }
     a { color: #444; text-decoration: none; }
-    a:hover { color: #111; text-decoration: underline; }
+    a:hover { color: #1f4e79; text-decoration: underline; }
     .dropdown-menu a, .dropdown-menu a:hover, .button-round, .button-round:hover { color: #333; text-decoration: none; }
+    .hindex-link, .compact-h { color: #1f4e79; }
+    .nav-current, .nav-current a, .nav-current .menu-text { color: #1f4e79; }
+
     .compact-row { display: flex; align-items: center; gap: 10px; padding: 3px 0; border-bottom: 1px solid #eee; font-size: 13px; line-height: 18px; }
     .compact-h { flex: 0 0 36px; text-align: right; font-weight: 600; }
     .compact-name { flex: 0 1 240px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -337,7 +340,7 @@ width: 100%
   	  <a href="/"><div  class="menu-text">Podrobný zoznam</div></a>
   	</div>
 
-    <div  onclick="location.href='/zoznam.html';" style="cursor: pointer;" class="dropdown-menu w-clearfix w-dropdown-toggle"   role="button" tabindex="0">
+    <div  onclick="location.href='/zoznam.html';" style="cursor: pointer;" class="dropdown-menu nav-current w-clearfix w-dropdown-toggle"   role="button" tabindex="0">
       <a href="/zoznam.html"><div class="menu-text">Kompaktný zoznam</div></a>
     </div>
 

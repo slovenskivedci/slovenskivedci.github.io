@@ -137,3 +137,20 @@ a:hover {
     font-size: 13px;
     line-height: 18px;
 }
+
+.main-title {
+    color: #1f4e79;
+}
+a:hover {
+    color: #1f4e79;
+}
+.hindex-link,
+.compact-h {
+    color: #1f4e79;
+}
+.nav-current,
+.nav-current a,
+.nav-current .menu-text {
+    color: #1f4e79;
+    border-color: #1f4e79;
+}
