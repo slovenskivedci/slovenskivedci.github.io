@@ -195,13 +195,10 @@ a:hover {
     background: #FFF4B8;
     text-decoration: none;
 }
-.filter-link.selected {
-    color: #222;
-    background: #F0C94D;
-}
+.filter-link.selected,
 .filter-link.selected:hover {
-    color: #222;
-    background: #E8B83A;
+    color: #444;
+    background: #FFF4B8;
 }
 .card-facts {
     color: #666;
