@@ -39,3 +39,14 @@
         padding-bottom: 40px;
     }
 }
+
+.scientists-count-line {
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 8px 0 0;
+    font-weight: 400;
+}
+.scientists-count-line b {
+    font-weight: 600;
+}
