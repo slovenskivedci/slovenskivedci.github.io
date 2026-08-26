@@ -294,57 +294,38 @@ title: Statistiky
 
         <div class="row" align="center">
            
-          <canvas id="myChartSeniority" width="400" height="400"></canvas>
-		<script>
-			const ctxmyChartSeniority = document.getElementById('myChartSeniority');
-			 
-			
-			const dataSeniority = {
-			  datasets: [
-				{
-				  label: 'H-index',
-				  data: {{ site.data.page.seniority_xy }},
-				  borderColor: 'rgba(153, 102, 255, 0.2)',
-				  backgroundColor: 'rgba(153, 102, 255, 1)',
-				  borderWidth: 2,
-				}
-			  ]
-			};
-			
-			const myChartSeniority = new Chart(ctxmyChartSeniority,
-			    {
-  type: 'scatter',
-  data: dataSeniority,
+          <div style="width:100%;max-width:640px;height:420px;margin:0 auto;">
+<canvas id="myChartPlace"></canvas>
+</div>
+<script>
+const ctxPlace = document.getElementById("myChartPlace");
+const dataPlace = {
+  labels: {{ site.data.page.place }},
+  datasets: [
+    { label: "minimum", data: {{ site.data.page.placeMin }}, backgroundColor: "rgba(196, 181, 253, 1)", borderColor: "rgba(167, 139, 250, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
+    { label: "priemer", data: {{ site.data.page.placeAvg }}, backgroundColor: "rgba(139, 92, 246, 1)", borderColor: "rgba(124, 58, 237, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
+    { label: "maximum", data: {{ site.data.page.placeMax }}, backgroundColor: "rgba(91, 33, 182, 1)", borderColor: "rgba(76, 29, 149, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false }
+  ]
+};
+const myChartPlace = new Chart(ctxPlace, {
+  type: "bar",
+  data: dataPlace,
   options: {
     responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
     plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'H-index podľa seniority'
-      }
+      legend: { display: true, position: "top" },
+      title: { display: true, text: "H-index podľa pôsobiska: Slovensko vs zahraničie" },
+      tooltip: { mode: "index", intersect: false }
     },
     scales: {
-      x: {
-        type: 'category',
-        labels: ['odborný asistent', 'docent', 'profesor', 'ostatné'],
-        title: {
-          display: true,
-          text: 'seniority'
-        }
-      },
-      y: {
-        title: {
-          display: true,
-          text: 'h-index'
-        }
-      }
+      y: { title: { display: true, text: "h-index" }, beginAtZero: true }
     }
-  },
+  }
 });
-			</script> 
+
+</script> 
 
 
 

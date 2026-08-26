@@ -82,7 +82,7 @@ FIELD_GROUPS = [
 		'energetik', 'environmentalne inzinier', 'vyrobne technolog',
 		'kolajove vozidl', 'aplikovana mechanik', 'telekomunik',
 		'potravinarska technolog', 'organicka technolog',
-		'automatizac', 'bezdrotove siete',
+		'automatizac', 'kybernet', 'bezdrotove siete',
 	]),
 	('fyzika', ['fyzika polymer', 'termodynam']),
 	('chémia', [
@@ -346,39 +346,28 @@ for e in rows[:8]:
 	print("odbor top", e[0], "n", e[1], "min", e[2], "avg", e[3], "max", e[4])
 
 
-SENIORITY_LABELS = ['odborný asistent', 'docent', 'profesor', 'ostatné']
-
-def seniority_bucket(position):
-	p = repl(str(position or '')).lower()
-	is_asistent = (
-		'assistant professor' in p
-		or 'odborny asistent' in p
-		or 'odb. asistent' in p
-		or 'asistent' in p
-	)
-	is_docent = ('docent' in p) or ('associate professor' in p)
-	is_profesor = (
-		('profesor' in p)
-		or ('full professor' in p)
-		or ('professor' in p and 'assistant professor' not in p and 'associate professor' not in p)
-	)
-	if is_profesor:
-		return 'profesor'
-	if is_docent:
-		return 'docent'
-	if is_asistent:
-		return 'odborný asistent'
-	return 'ostatné'
-
-seniority_points = []
-seniority_counts = {k: 0 for k in SENIORITY_LABELS}
+PLACE_LABELS = ["Slovensko", "zahraničie"]
+place_h = {k: [] for k in PLACE_LABELS}
 for person in alllst:
-	bucket = seniority_bucket(person.get('position'))
-	seniority_counts[bucket] += 1
-	seniority_points.append("{x:'%s',y:%d}" % (bucket.replace("'", "\\'"), int(person['hindex'])))
+	c = str(person.get("country") or "").strip()
+	bucket = "Slovensko" if c == "Slovensko" else PLACE_LABELS[1]
+	place_h[bucket].append(int(person["hindex"]))
 
-stats["seniority_xy"] = "[" + ",".join(seniority_points) + "]"
-print("seniority", seniority_counts, "sum", sum(seniority_counts.values()), "people", len(alllst))
+place_rows = []
+for name in PLACE_LABELS:
+	hs = place_h[name]
+	n = len(hs)
+	if n == 0:
+		place_rows.append((name, 0, 0, 0.0, 0))
+	else:
+		place_rows.append((name, n, min(hs), round(sum(hs) / float(n), 1), max(hs)))
+
+stats["place"] = "[" + ",".join([_js_str(e[0]) for e in place_rows]) + "]"
+stats["placeCount"] = "[" + ",".join([str(e[1]) for e in place_rows]) + "]"
+stats["placeMin"] = "[" + ",".join([_js_num(e[2]) for e in place_rows]) + "]"
+stats["placeAvg"] = "[" + ",".join([_js_num(e[3]) for e in place_rows]) + "]"
+stats["placeMax"] = "[" + ",".join([_js_num(e[4]) for e in place_rows]) + "]"
+print("place", [(e[0], e[1], e[2], e[3], e[4]) for e in place_rows])
 
 
  

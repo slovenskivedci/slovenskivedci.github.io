@@ -10864,7 +10864,7 @@
   year: 1987
   sex: "mu\u017E"
   position: docent
-  field: "umel\xE1 inteligencia"
+  field: kybernetika
   affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
   city: "Ko\u0161ice"
   country: Slovensko
@@ -10876,9 +10876,9 @@
     - https://kyb.fei.tuke.sk/laben/ludia/papcun.php
   img: Peter_Papcun.jpg
   countryurl: Slovensko
-  fieldurl: umela_inteligencia
-  area: "umel\xE1 inteligencia"
-  areaurl: umela_inteligencia
+  fieldurl: kybernetika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
   positionurl: docent
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
