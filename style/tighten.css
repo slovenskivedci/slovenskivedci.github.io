@@ -133,3 +133,7 @@ a:hover {
     font-size: 11px;
     padding: 0 6px;
 }
+.footer {
+    font-size: 13px;
+    line-height: 18px;
+}
