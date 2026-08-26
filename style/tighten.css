@@ -97,3 +97,39 @@ a:hover {
         padding-bottom: 16px;
     }
 }
+
+.compact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    line-height: 18px;
+}
+.compact-head {
+    font-weight: 600;
+    color: #888;
+    border-bottom: 1px solid #ccc;
+}
+.compact-h {
+    flex: 0 0 36px;
+    text-align: right;
+    font-weight: 600;
+}
+.compact-name {
+    flex: 0 1 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.compact-meta {
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.compact-meta .button-round-small {
+    font-size: 11px;
+    padding: 0 6px;
+}

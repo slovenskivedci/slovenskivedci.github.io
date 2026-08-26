@@ -3,126 +3,30 @@ layout: lay-zoznam
 title: Zoznam
 ---
 
-<div class="post-wrapper-new" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-	<div class="row container flex-direction">
-
-
-		<div class="w-col w-col-1 column">
-
-			h-index
-
-		</div>
-
-		<div class="w-col w-col-2  column">
-
-			
-
-		</div>
-
-		<div class="w-col w-col-4  column">
-
-			<b>
-			Meno
-			</b>
-			<br>
-			(rok narodenia)
-
-		</div>
-
-
-
-
-
-
-		<div class="w-col w-col-5  column">
-    informácie
-		</div>
-
-
-
-	</div>
-			</div>
-
-
+<div class="compact-row compact-head">
+  <span class="compact-h">h</span>
+  <span class="compact-name">Meno</span>
+  <span class="compact-meta">informácie</span>
+</div>
 
 {% for item in site.data.all %}
-
-
-
-			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
-
-				<div role="listitem" class="w-dyn-item">
-
-
-					<div class="post-wrapper-new" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-						<div class="row container flex-direction">
-
-
-							<div class="w-col w-col-1 column">
-
-								<a href="{{ item.scholar }}" target="_blank">{{ item.hindex }}</a>
-
-							</div>
-
-							<div class="w-col w-col-2  column">
-
-								<img src="/images/{{ item.img }}" width="75%" role="img" />
-
-
-							</div>
-
-							<div class="w-col w-col-4  column">
-
-                <b>
-								{{ item.name }}
- 								</b>
-
-								{% if item.year.size > 0 %}
-								<br>
-								({{ item.year }})
-								{% endif %}
-
-							</div>
-
-
-
-
-
-
-							<div class="w-col w-col-5  column">
-
-
-								<a class="button-round-small w-button toggle toggle-position toggle-position-{{ item.positionurl }} " id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
-
-								<a class="button-round-small w-button toggle toggle-field toggle-field-{{ item.areaurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a> <br>
-
-								<a class="button-round-small w-button toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }} " id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
-
-								<a class="button-round-small w-button toggle toggle-city toggle-city-{{ item.cityurl }} " id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
-
-								<a class="button-round-small w-button toggle toggle-country  toggle-country-{{ item.countryurl }} " id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
-
-								</div>
-
-
-
-						</div>
-								</div>
-
-			</div>
-
-
-
-
-      </div>
-
-
-
+<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
+  <div role="listitem" class="w-dyn-item">
+    <div class="compact-row">
+      <a class="compact-h" href="{{ item.scholar }}" target="_blank">{{ item.hindex }}</a>
+      <span class="compact-name"><b>{{ item.name }}</b>{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</span>
+      <span class="compact-meta">
+        <a class="button-round-small w-button toggle toggle-position toggle-position-{{ item.positionurl }} " id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
+        <a class="button-round-small w-button toggle toggle-field toggle-field-{{ item.areaurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a>
+        <a class="button-round-small w-button toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }} " id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
+        <a class="button-round-small w-button toggle toggle-city toggle-city-{{ item.cityurl }} " id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
+        <a class="button-round-small w-button toggle toggle-country  toggle-country-{{ item.countryurl }} " id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
+      </span>
+    </div>
+  </div>
+</div>
 {% endfor %}
 
-<br> <br>
 <div class="footer">
 Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).
 </div>
