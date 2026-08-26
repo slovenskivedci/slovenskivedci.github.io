@@ -284,10 +284,17 @@ width: 100%
     .hindex-link, .compact-h { color: #1f4e79; }
     .nav-current, .nav-current a, .nav-current .menu-text { color: #1f4e79; }
 
-    .compact-row { display: flex; align-items: center; gap: 10px; padding: 3px 0; border-bottom: 1px solid #eee; font-size: 13px; line-height: 18px; }
+    .compact-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; padding: 5px 0; border-bottom: 1px solid #eee; font-size: 13px; line-height: 18px; }
     .compact-h { flex: 0 0 36px; text-align: right; font-weight: 600; }
-    .compact-name { flex: 0 1 240px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .compact-meta { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .compact-name { flex: 0 1 220px; color: #222; }
+    .compact-year { color: #888; }
+    .compact-meta { flex: 1 1 280px; color: #666; }
+    .compact-meta a.toggle { color: #555; text-decoration: none; border: none; background: none; padding: 0; font-size: inherit; }
+    .compact-dot { color: #bbb; margin: 0 2px; }
+    @media (max-width: 700px) {
+        .compact-name { flex: 1 1 calc(100% - 48px); }
+        .compact-meta { flex: 1 1 100%; padding-left: 48px; }
+    }
 
     @media screen and (max-width: 991px) {
         .header-section { padding-top: 40px; padding-bottom: 12px; }

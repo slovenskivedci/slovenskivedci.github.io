@@ -3,24 +3,22 @@ layout: lay-zoznam
 title: Zoznam
 ---
 
-<div class="compact-row compact-head">
-  <span class="compact-h">h</span>
-  <span class="compact-name">Meno</span>
-  <span class="compact-meta">informácie</span>
-</div>
-
 {% for item in site.data.all %}
 <div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
   <div role="listitem" class="w-dyn-item">
     <div class="compact-row">
       <a class="compact-h" href="{{ item.scholar }}" target="_blank">{{ item.hindex }}</a>
-      <span class="compact-name"><b>{{ item.name }}</b>{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</span>
+      <span class="compact-name">{{ item.name }}{% if item.year.size > 0 %} <span class="compact-year">({{ item.year }})</span>{% endif %}</span>
       <span class="compact-meta">
-        <a class="button-round-small w-button toggle toggle-position toggle-position-{{ item.positionurl }} " id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
-        <a class="button-round-small w-button toggle toggle-field toggle-field-{{ item.areaurl }} " id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a>
-        <a class="button-round-small w-button toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }} " id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
-        <a class="button-round-small w-button toggle toggle-city toggle-city-{{ item.cityurl }} " id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
-        <a class="button-round-small w-button toggle toggle-country  toggle-country-{{ item.countryurl }} " id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
+        <a class="toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
+        <span class="compact-dot">·</span>
+        <a class="toggle toggle-field toggle-field-{{ item.areaurl }}" id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.field }}<span class="area-quiet"> · {{ item.area }}</span></a>
+        <span class="compact-dot">·</span>
+        <a class="toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }}" id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
+        <span class="compact-dot">·</span>
+        <a class="toggle toggle-city toggle-city-{{ item.cityurl }}" id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
+        <span class="compact-dot">·</span>
+        <a class="toggle toggle-country toggle-country-{{ item.countryurl }}" id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
       </span>
     </div>
   </div>

@@ -100,38 +100,54 @@ a:hover {
 
 .compact-row {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 3px 0;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 5px 0;
     border-bottom: 1px solid #eee;
     font-size: 13px;
     line-height: 18px;
-}
-.compact-head {
-    font-weight: 600;
-    color: #888;
-    border-bottom: 1px solid #ccc;
 }
 .compact-h {
     flex: 0 0 36px;
     text-align: right;
     font-weight: 600;
+    font-variant-numeric: tabular-nums;
 }
 .compact-name {
-    flex: 0 1 240px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    flex: 0 1 220px;
+    min-width: 140px;
+    color: #222;
+}
+.compact-year {
+    color: #888;
+    font-weight: 400;
 }
 .compact-meta {
-    flex: 1 1 auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    flex: 1 1 280px;
+    color: #666;
 }
-.compact-meta .button-round-small {
-    font-size: 11px;
-    padding: 0 6px;
+.compact-meta a.toggle {
+    color: #555;
+    text-decoration: none;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 400;
+}
+.compact-meta a.toggle:hover {
+    color: #1f4e79;
+    text-decoration: underline;
+}
+.compact-dot {
+    color: #bbb;
+    margin: 0 2px;
+    pointer-events: none;
+}
+@media (max-width: 700px) {
+    .compact-name { flex: 1 1 calc(100% - 48px); }
+    .compact-meta { flex: 1 1 100%; padding-left: 48px; }
 }
 .footer {
     font-size: 13px;
