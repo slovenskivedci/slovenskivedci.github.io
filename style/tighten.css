@@ -17,9 +17,11 @@
     text-align: center;
     margin: 10px 0 0;
 }
+.sex-filters {
+    font-size: 13px;
+}
 .sex-filters .sex-chip {
-    margin: 0 4px;
-    font-size: 12px;
+    margin: 0;
 }
 
 .header-section {
@@ -80,9 +82,7 @@ a:hover {
 .dropdown-menu a,
 .dropdown-menu a:hover,
 .button-round,
-.button-round:hover,
-.sex-chip,
-.sex-chip:hover {
+.button-round:hover {
     color: #333;
     text-decoration: none;
 }
