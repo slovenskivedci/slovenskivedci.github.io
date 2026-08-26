@@ -26,6 +26,55 @@ import unicodedata
 def repl(text):
 	return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('UTF-8').replace(",","_").replace("(","_").replace(")","_")
 
+# More specific keywords first. First match wins.
+FIELD_GROUPS = [
+	('neurológia', ['neuro']),
+	('kardiológia', ['kardio']),
+	('onkológia', ['onko']),
+	('imunológia', ['imun']),
+	('virológia', ['virol']),
+	('mikrobiológia', ['mikrobiol']),
+	('farmakológia', ['farmak']),
+	('epidemiológia', ['epidemiol']),
+	('fyziológia', ['fyziol']),  # before patológia so patofyziológia lands here
+	('patológia', ['patol']),
+	('hydrológia', ['hydrol']),
+	('geológia', ['geol']),
+	('ekonómia', ['ekon']),
+	('manažment', ['manazment']),
+	('umelá inteligencia', ['umela inteligencia']),
+	('informatika', ['informatik']),
+	('matematika', ['matemat']),
+	('biochémia', ['biochem']),
+	('biofyzika', ['biofyz']),
+	('biotechnológia', ['biotech']),
+	('molekulárna biológia', ['molekularn']),
+	('rastlinná biológia', ['rastlin']),
+	('ekológia', ['ekolog']),
+	('materiálová veda', ['material']),
+	('chémia', ['fyzikalna chem', 'anorgan', 'organick', 'chemick', 'chem']),
+	('fyzika', ['subjadr', 'tuhych latok', 'kvantov', 'fyzik', 'jadr']),
+	('biológia', ['biol']),
+]
+
+def _has_ai_token(norm):
+	# whole-token 'ai' only; avoid substring false positives
+	padded = ' ' + norm.replace('/', ' ').replace('_', ' ').replace('-', ' ') + ' '
+	return ' ai ' in padded
+
+def field_group(field):
+	raw = field if field is not None else ""
+	if str(raw).strip() == "":
+		return 'ostatné'
+	norm = repl(str(raw)).lower()
+	for label, keys in FIELD_GROUPS:
+		for key in keys:
+			if key in norm:
+				return label
+	if _has_ai_token(norm):
+		return 'umelá inteligencia'
+	return raw
+
 for y in glob.glob("./people/*.yaml"):
 	print(y)
 	with open(y) as f:
@@ -74,9 +123,10 @@ for y in glob.glob("./people/*.yaml"):
 		stats["countries"][dic["country"]] += 1
 		stats["affiliation"][dic["affiliation"]] += 1
 		field = dic.get("field") or ""
-		if field not in stats["fields"]:
-			stats["fields"][field] = 0
-		stats["fields"][field] += 1
+		group = field_group(field)
+		if group not in stats["fields"]:
+			stats["fields"][group] = []
+		stats["fields"][group].append(int(dic['hindex']))
 		stats["hindex"].append(int(dic['hindex']))
 
 		countries[dic['country']].append(dic)
@@ -183,12 +233,38 @@ stats["affiliationCount"]=affiliationCount
 
 
 d = stats["fields"]
-d = sorted([(k,d[k]) for k in d],  key = lambda e: (-e[1],repl(e[0])))
-odbor = "["+ ",".join(["'"+str(e[0]).replace("'","\\'")+"'" for e in d])+"]"
-odborCount ="["+ ",".join([str(e[1]) for e in d])+"]"
+rows = []
+for name, hs in d.items():
+	n = len(hs)
+	mn = min(hs)
+	mx = max(hs)
+	avg = round(sum(hs) / float(n), 1)
+	rows.append((name, n, mn, avg, mx))
+rows = sorted(rows, key=lambda e: (-e[1], repl(e[0]).lower()))
+
+def _js_str(s):
+	return "'"+str(s).replace("'","\\'")+"'"
+
+def _js_num(v):
+	if isinstance(v, float):
+		return ("%.1f" % v)
+	return str(v)
+
+odbor = "["+ ",".join([_js_str(e[0]) for e in rows])+"]"
+odborCount ="["+ ",".join([str(e[1]) for e in rows])+"]"
+odborMin ="["+ ",".join([_js_num(e[2]) for e in rows])+"]"
+odborAvg ="["+ ",".join([_js_num(e[3]) for e in rows])+"]"
+odborMax ="["+ ",".join([_js_num(e[4]) for e in rows])+"]"
 
 stats["odbor"]=odbor
 stats["odborCount"]=odborCount
+stats["odborMin"]=odborMin
+stats["odborAvg"]=odborAvg
+stats["odborMax"]=odborMax
+
+print("odbor groups", len(rows), "sum n", sum(e[1] for e in rows))
+for e in rows[:8]:
+	print("odbor top", e[0], "n", e[1], "min", e[2], "avg", e[3], "max", e[4])
 
 
 SENIORITY_LABELS = ['odborný asistent', 'docent', 'profesor', 'ostatné']

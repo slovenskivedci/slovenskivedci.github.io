@@ -420,196 +420,114 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ u\u010Den\xED technick\xE9 v Brn\u011B','Wageningen University','Z\xE1pado\u010D\
   esk\xE1 univerzita v Plzni','Zeppelin University']"
 fields:
-  informatika: 6
-  "psychol\xF3gia": 2
-  "geol\xF3gia": 3
-  "fyzik\xE1lna ch\xE9mia": 9
-  "biomedic\xEDna": 2
-  "farmakol\xF3gia": 4
-  "ran\xE9 detstvo a v\xFDvoj det\xED": 1
-  "g\xE9nov\xE1 expresia": 1
-  "biotechnol\xF3gia": 4
-  "fyzika kondenzovan\xFDch l\xE1tok": 1
-  "onkol\xF3gia": 4
-  "teoretick\xE1 fyzika": 2
-  matematika: 4
-  "fyziol\xF3gia": 4
-  "komplexn\xE9 a adapt\xEDvne syst\xE9my": 1
-  "fyzika polym\xE9rov": 1
-  "kvantov\xE1 fyzika": 2
-  "geochronol\xF3gia": 1
-  "neuroimunol\xF3gia": 3
-  "biol\xF3gia": 3
-  optika: 2
-  "experiment\xE1lna fyzika": 2
-  "rastlinn\xE1 bioch\xE9mia": 1
-  "medzin\xE1rodn\xE1 ekon\xF3mia": 1
-  "aplikovan\xE1 informatika": 1
-  "neurol\xF3gia": 6
-  "virol\xF3gia": 3
-  "telekomunik\xE1cie": 1
-  biofyzika: 7
-  "r\xE1diol\xF3gia": 2
-  "\u0161truktur\xE1lna geol\xF3gia a tektonika": 2
-  "bioch\xE9mia": 12
-  "mana\u017Ement": 4
-  "reproduk\u010Dn\xE1 biol\xF3gia": 1
-  "ekon\xF3mia": 10
-  "ch\xE9mia": 5
-  "robotika a umel\xE1 inteligencia": 1
-  "soci\xE1lna psychol\xF3gia": 1
-  fyzika magnetizmu: 1
-  "paleobiol\xF3gia": 2
-  "entomol\xF3gia": 1
-  "patol\xF3gia": 3
-  "biol\xF3gia r\xFDb": 1
-  "makromolekul\xE1rna ch\xE9mia": 2
-  "vegeta\u010Dn\xE1 ekol\xF3gia mokrad\xED": 1
-  "v\xFDpo\u010Dtov\xE1 katal\xFDza": 1
-  "hydrol\xF3gia p\xF4dy": 1
-  "epidemiol\xF3gia": 3
-  "biol\xF3gia reprodukcie": 1
-  "fyzika pevn\xFDch l\xE1tok": 1
-  "rastlinn\xE1 biotechnol\xF3gia": 1
-  neuroveda: 2
-  "automatiz\xE1cia": 2
-  "patofyziol\xF3gia": 3
-  "umel\xE1 inteligencia": 4
-  "sociol\xF3gia": 1
-  "magnetick\xE1 rezonancia": 2
-  "synt\xE9za prote\xEDnov": 1
-  "materi\xE1lov\xE1 veda": 4
-  "neurobiol\xF3gia rastl\xEDn": 1
-  "reproduk\u010Dn\xE9 zdravie": 1
-  "reprodukt\xEDvna biol\xF3gia": 1
-  "aplikovan\xE1 matematika": 3
-  programovacie jazyky: 1
-  "nanomateri\xE1ly": 2
-  "potravin\xE1rska technol\xF3gia": 1
-  "polym\xE9rna ch\xE9mia": 1
-  "subjadrov\xE1 fyzika": 8
-  "genetika a molekul\xE1rna biol\xF3gia": 1
-  "medic\xEDnske zobrazovanie": 1
-  "analytick\xE1 ch\xE9mia": 2
-  "lek\xE1rska bioch\xE9mia": 1
-  "kognit\xEDvna psychol\xF3gia": 1
-  "materi\xE1ly": 1
-  fyzika: 6
-  "lesn\xEDctvo": 2
-  "cudzie jazyky a kult\xFAra": 1
-  "aplikovan\xE1 fyzika": 1
-  neurogenetika: 1
+  fyzika: 43
+  "ch\xE9mia": 36
+  "bioch\xE9mia": 15
+  "neurol\xF3gia": 13
+  "ekon\xF3mia": 12
+  "fyziol\xF3gia": 12
+  "biol\xF3gia": 11
+  informatika: 10
+  "materi\xE1lov\xE1 veda": 10
+  matematika: 9
+  "molekul\xE1rna biol\xF3gia": 9
+  biofyzika: 8
+  "ekol\xF3gia": 6
+  "biotechnol\xF3gia": 5
+  "geol\xF3gia": 5
+  "hydrol\xF3gia": 5
+  "kardiol\xF3gia": 5
+  "mana\u017Ement": 5
   "mikrobiol\xF3gia": 5
-  "verejn\xE9 zdravotn\xEDctvo": 2
-  "po\u010D\xEDta\u010Dov\xE9 videnie": 1
-  "geovizualiz\xE1cia": 1
-  "behavior\xE1lna ekol\xF3gia": 3
-  "geoch\xE9mia": 1
-  "finan\u010Dn\xFD mana\u017Ement": 1
-  "jadrov\xE1 fyzika": 5
-  nanooptika: 1
-  "kardiol\xF3gia": 4
-  "hydrol\xF3gia": 4
-  "optick\xE9 materi\xE1ly": 1
-  genetika rakoviny: 1
-  "klimatick\xE1 zmena": 1
-  "fyziol\xF3gia rastl\xEDn": 3
-  "environment\xE1lna ch\xE9mia": 1
+  "onkol\xF3gia": 5
+  "umel\xE1 inteligencia": 5
+  "epidemiol\xF3gia": 4
+  "farmakol\xF3gia": 4
+  "patol\xF3gia": 3
+  "virol\xF3gia": 3
   "aplikovan\xE1 mechanika": 2
-  "imunol\xF3gia": 1
-  "molekul\xE1rna biol\xF3gia": 4
-  "chemick\xE9 in\u017Einierstvo": 3
-  "kry\u0161talografia": 1
-  "biopolym\xE9ry": 1
-  "ko\u013Eajov\xE9 vozidl\xE1": 1
-  "fyzika neutr\xEDn": 1
-  "mechanoch\xE9mia": 1
-  "kardiovaskul\xE1rna genetika": 1
-  genetika: 1
-  "onkol\xF3gia a epidemiol\xF3gia": 1
-  bioinformatika: 3
-  "te\xF3ria grafov": 2
-  "d\xE1tov\xE1 veda": 1
-  geofyzika: 2
-  fyzika dreva: 1
-  "supravodi\u010De": 1
-  "lek\xE1rska biol\xF3gia a genetika": 1
-  "molekul\xE1rna biomedic\xEDna": 1
-  "fyziol\xF3gia \u017Eivo\u010D\xEDchov": 1
-  "nukle\xE1rna magnetick\xE1 rezonancia": 1
-  "\xEDlov\xE9 miner\xE1ly": 1
-  "fyzika \u010Dast\xEDc": 1
-  "oftalmol\xF3gia": 1
-  "bezdr\xF4tov\xE9 siete a syst\xE9my": 1
-  "fyzika m\xE4kk\xFDch l\xE1tok": 1
-  "diferenci\xE1lne rovnice": 1
-  "molekul\xE1rna a bunkov\xE1 biol\xF3gia": 1
-  "reumatol\xF3gia": 1
-  "kvantov\xE1 inform\xE1cia": 1
-  "fytol\xF3gia": 1
-  "lek\xE1rska fyzika": 1
-  "komplexn\xE9 syst\xE9my": 1
-  "vulkanol\xF3gia": 1
-  "biol\xF3gia rastl\xEDn": 1
-  "strojov\xE9 u\u010Denie": 2
-  "grafov\xE9 algoritmy": 1
-  "hematol\xF3gia": 2
-  "environment\xE1lne in\u017Einierstvo": 1
-  "web syst\xE9my": 1
-  "materi\xE1lov\xE1 ch\xE9mia": 1
-  "astron\xF3mia": 1
-  "fyziol\xF3gia buniek": 1
-  "lak\xE1rska ch\xE9mia a bioch\xE9mia": 1
-  "antibakteri\xE1lne materi\xE1ly": 1
-  "lek\xE1rska biol\xF3gia": 1
-  "fyzika tuh\xFDch l\xE1tok": 3
-  fotovoltika: 1
-  termodynamika: 1
-  "seizmol\xF3gia": 1
-  "po\u013Enohospod\xE1rska ekon\xF3mia": 1
-  "anorganick\xE1 ch\xE9mia": 4
-  "geografick\xE9 informa\u010Dn\xE9 vedy": 1
-  "modifik\xE1cia polym\xE9rov": 1
+  "automatiz\xE1cia": 2
+  "biomedic\xEDna": 2
   botanika: 2
-  "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia": 1
+  "hematol\xF3gia": 2
+  "lesn\xEDctvo": 2
+  "magnetick\xE1 rezonancia": 2
+  optika: 2
+  "psychol\xF3gia": 2
+  "r\xE1diol\xF3gia": 2
+  "strojov\xE9 u\u010Denie": 2
+  "te\xF3ria grafov": 2
+  "verejn\xE9 zdravotn\xEDctvo": 2
+  "astron\xF3mia": 1
   "behavior\xE1lna medic\xEDna": 1
-  "organick\xE1 technol\xF3gia": 1
-  "robotika a strojov\xE9 videnie": 1
-  "ekol\xF3gia": 1
+  "bezdr\xF4tov\xE9 siete a syst\xE9my": 1
   biogeografia: 1
-  "logistika / r\xFArov\xE9 dopravn\xEDky": 1
-  elektronika: 1
-  "oce\xE1nografia": 1
-  "molekul\xE1rna biofyzika": 1
-  "farmaceutick\xE1 ch\xE9mia": 1
-  "hygiena a epidemiol\xF3gia": 1
+  "biopolym\xE9ry": 1
   biosenzory: 1
-  "ch\xE9mia dreva": 1
+  "cudzie jazyky a kult\xFAra": 1
+  "d\xE1tov\xE1 veda": 1
+  "diferenci\xE1lne rovnice": 1
   "distribuovan\xE9 syst\xE9my": 1
-  "v\xFDrobn\xE9 technol\xF3gie": 1
-  optika a fotonika: 1
-  "fyzika plazmy a environment\xE1lna fyzika": 1
-  "toxikol\xF3gia": 1
-  "po\u010D\xEDta\u010Dom podporovan\xFD v\xFDvoj lie\u010Div": 1
-  "pred\u0161kolsk\xE1 pedagogika": 1
-  "membr\xE1ny": 1
-  "matematick\xE1 fyzika": 1
-  logistika: 1
-  "organick\xE1 ch\xE9mia": 1
-  pediatria: 1
+  elektronika: 1
   elektrotechnika: 1
-  fotovoltaika: 1
-  "intern\xE1 medic\xEDna": 1
-  "genetika drev\xEDn": 1
-  "numerick\xE1 matematika": 1
-  "nanotechnol\xF3gia": 1
-  "fylogenomick\xE1 ekol\xF3gia": 1
-  "bioanalytick\xE1 ch\xE9mia": 1
-  "teoretick\xE1 ch\xE9mia": 2
   energetika: 1
-  "elektr\xF3nov\xE1 a plazmov\xE1 fyzika": 1
-  "medicin\xE1lna ch\xE9mia": 1
-  "v\xFDpo\u010Dtov\xE1 ch\xE9mia": 1
+  "entomol\xF3gia": 1
+  "environment\xE1lne in\u017Einierstvo": 1
+  fotovoltaika: 1
+  fotovoltika: 1
+  "fytol\xF3gia": 1
+  genetika: 1
+  "genetika drev\xEDn": 1
+  genetika rakoviny: 1
+  "g\xE9nov\xE1 expresia": 1
+  "geochronol\xF3gia": 1
+  "geografick\xE9 informa\u010Dn\xE9 vedy": 1
+  "geovizualiz\xE1cia": 1
+  "grafov\xE9 algoritmy": 1
+  "\xEDlov\xE9 miner\xE1ly": 1
+  "imunol\xF3gia": 1
+  "intern\xE1 medic\xEDna": 1
+  "klimatick\xE1 zmena": 1
+  "kognit\xEDvna psychol\xF3gia": 1
+  "ko\u013Eajov\xE9 vozidl\xE1": 1
+  "komplexn\xE9 a adapt\xEDvne syst\xE9my": 1
+  "komplexn\xE9 syst\xE9my": 1
+  "kry\u0161talografia": 1
+  logistika: 1
+  "logistika / r\xFArov\xE9 dopravn\xEDky": 1
+  "medic\xEDnske zobrazovanie": 1
+  "membr\xE1ny": 1
+  "modifik\xE1cia polym\xE9rov": 1
+  nanooptika: 1
+  "nanotechnol\xF3gia": 1
+  "nukle\xE1rna magnetick\xE1 rezonancia": 1
+  "oce\xE1nografia": 1
+  "oftalmol\xF3gia": 1
+  optika a fotonika: 1
+  pediatria: 1
+  "po\u010D\xEDta\u010Dom podporovan\xFD v\xFDvoj lie\u010Div": 1
+  "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia": 1
+  "po\u010D\xEDta\u010Dov\xE9 videnie": 1
+  "potravin\xE1rska technol\xF3gia": 1
+  "pred\u0161kolsk\xE1 pedagogika": 1
+  programovacie jazyky: 1
+  "ran\xE9 detstvo a v\xFDvoj det\xED": 1
+  "rastlinn\xE1 biol\xF3gia": 1
+  "reproduk\u010Dn\xE9 zdravie": 1
+  "reumatol\xF3gia": 1
+  "robotika a strojov\xE9 videnie": 1
+  "seizmol\xF3gia": 1
+  "soci\xE1lna psychol\xF3gia": 1
+  "sociol\xF3gia": 1
+  "supravodi\u010De": 1
+  "synt\xE9za prote\xEDnov": 1
+  "telekomunik\xE1cie": 1
+  termodynamika: 1
+  "toxikol\xF3gia": 1
+  "vulkanol\xF3gia": 1
+  "v\xFDpo\u010Dtov\xE1 katal\xFDza": 1
+  "v\xFDrobn\xE9 technol\xF3gie": 1
+  "web syst\xE9my": 1
 hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''90-99'',''100-109'',''110-119'',''120-129'',''130-139'',''140-149'',''150-159'',''160-169'',''170-179'',''180-189'',''190-199'',''200-209'',''210-219'',''220-229'',''230-239'',''240-249'',''250-259'',''260-269'',]'
 hindex_hist_count: '[138,89,60,22,18,2,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1993','neuveden\xFD\
@@ -622,60 +540,35 @@ country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','
   nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1cia','\u0160panielsko']"
 countryCount: '[183,40,30,13,12,11,11,10,7,4,3,3,2,2,2,2,2,1,1,1,1,1,1,1]'
 affiliationCount: '[64,53,15,9,9,7,6,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
-odbor: "['bioch\xE9mia','ekon\xF3mia','fyzik\xE1lna ch\xE9mia','subjadrov\xE1 fyzika','biofyzika','fyzika','informatika','neurol\xF3\
-  gia','ch\xE9mia','jadrov\xE1 fyzika','mikrobiol\xF3gia','anorganick\xE1 ch\xE9mia','biotechnol\xF3\
-  gia','farmakol\xF3gia','fyziol\xF3gia','hydrol\xF3gia','kardiol\xF3gia','mana\u017E\
-  ment','matematika','materi\xE1lov\xE1 veda','molekul\xE1rna biol\xF3gia','onkol\xF3\
-  gia','umel\xE1 inteligencia','aplikovan\xE1 matematika','behavior\xE1lna ekol\xF3\
-  gia','bioinformatika','biol\xF3gia','chemick\xE9 in\u017Einierstvo','epidemiol\xF3\
-  gia','fyzika tuh\xFDch l\xE1tok','fyziol\xF3gia rastl\xEDn','geol\xF3gia','neuroimunol\xF3\
-  gia','patofyziol\xF3gia','patol\xF3gia','virol\xF3gia','analytick\xE1 ch\xE9mia','aplikovan\xE1\
-  \ mechanika','automatiz\xE1cia','biomedic\xEDna','botanika','experiment\xE1lna fyzika','geofyzika','hematol\xF3\
-  gia','kvantov\xE1 fyzika','lesn\xEDctvo','magnetick\xE1 rezonancia','makromolekul\xE1\
-  rna ch\xE9mia','nanomateri\xE1ly','neuroveda','optika','paleobiol\xF3gia','psychol\xF3\
-  gia','r\xE1diol\xF3gia','strojov\xE9 u\u010Denie','\u0161truktur\xE1lna geol\xF3\
-  gia a tektonika','teoretick\xE1 ch\xE9mia','teoretick\xE1 fyzika','te\xF3ria grafov','verejn\xE9\
-  \ zdravotn\xEDctvo','antibakteri\xE1lne materi\xE1ly','aplikovan\xE1 fyzika','aplikovan\xE1\
-  \ informatika','astron\xF3mia','behavior\xE1lna medic\xEDna','bezdr\xF4tov\xE9 siete\
-  \ a syst\xE9my','bioanalytick\xE1 ch\xE9mia','biogeografia','biol\xF3gia rastl\xED\
-  n','biol\xF3gia reprodukcie','biol\xF3gia r\xFDb','biopolym\xE9ry','biosenzory','ch\xE9\
-  mia dreva','cudzie jazyky a kult\xFAra','d\xE1tov\xE1 veda','diferenci\xE1lne rovnice','distribuovan\xE9\
-  \ syst\xE9my','ekol\xF3gia','elektronika','elektr\xF3nov\xE1 a plazmov\xE1 fyzika','elektrotechnika','energetika','entomol\xF3\
-  gia','environment\xE1lna ch\xE9mia','environment\xE1lne in\u017Einierstvo','farmaceutick\xE1\
-  \ ch\xE9mia','finan\u010Dn\xFD mana\u017Ement','fotovoltaika','fotovoltika','fylogenomick\xE1\
-  \ ekol\xF3gia','fytol\xF3gia','fyzika \u010Dast\xEDc','fyzika dreva','fyzika kondenzovan\xFD\
-  ch l\xE1tok','fyzika magnetizmu','fyzika m\xE4kk\xFDch l\xE1tok','fyzika neutr\xED\
-  n','fyzika pevn\xFDch l\xE1tok','fyzika plazmy a environment\xE1lna fyzika','fyzika\
-  \ polym\xE9rov','fyziol\xF3gia buniek','fyziol\xF3gia \u017Eivo\u010D\xEDchov','genetika','genetika\
-  \ a molekul\xE1rna biol\xF3gia','genetika drev\xEDn','genetika rakoviny','g\xE9\
-  nov\xE1 expresia','geoch\xE9mia','geochronol\xF3gia','geografick\xE9 informa\u010D\
-  n\xE9 vedy','geovizualiz\xE1cia','grafov\xE9 algoritmy','hydrol\xF3gia p\xF4dy','hygiena\
-  \ a epidemiol\xF3gia','\xEDlov\xE9 miner\xE1ly','imunol\xF3gia','intern\xE1 medic\xED\
-  na','kardiovaskul\xE1rna genetika','klimatick\xE1 zmena','kognit\xEDvna psychol\xF3\
-  gia','ko\u013Eajov\xE9 vozidl\xE1','komplexn\xE9 a adapt\xEDvne syst\xE9my','komplexn\xE9\
-  \ syst\xE9my','kry\u0161talografia','kvantov\xE1 inform\xE1cia','lak\xE1rska ch\xE9\
-  mia a bioch\xE9mia','lek\xE1rska bioch\xE9mia','lek\xE1rska biol\xF3gia','lek\xE1\
-  rska biol\xF3gia a genetika','lek\xE1rska fyzika','logistika','logistika / r\xFA\
-  rov\xE9 dopravn\xEDky','matematick\xE1 fyzika','materi\xE1lov\xE1 ch\xE9mia','materi\xE1\
-  ly','mechanoch\xE9mia','medicin\xE1lna ch\xE9mia','medic\xEDnske zobrazovanie','medzin\xE1\
-  rodn\xE1 ekon\xF3mia','membr\xE1ny','modifik\xE1cia polym\xE9rov','molekul\xE1rna\
-  \ a bunkov\xE1 biol\xF3gia','molekul\xE1rna biofyzika','molekul\xE1rna biomedic\xED\
-  na','nanooptika','nanotechnol\xF3gia','neurobiol\xF3gia rastl\xEDn','neurogenetika','nukle\xE1\
-  rna magnetick\xE1 rezonancia','numerick\xE1 matematika','oce\xE1nografia','oftalmol\xF3\
-  gia','onkol\xF3gia a epidemiol\xF3gia','optick\xE9 materi\xE1ly','optika a fotonika','organick\xE1\
-  \ ch\xE9mia','organick\xE1 technol\xF3gia','pediatria','po\u010D\xEDta\u010Dom podporovan\xFD\
-  \ v\xFDvoj lie\u010Div','po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia','po\u010D\
-  \xEDta\u010Dov\xE9 videnie','po\u013Enohospod\xE1rska ekon\xF3mia','polym\xE9rna\
-  \ ch\xE9mia','potravin\xE1rska technol\xF3gia','pred\u0161kolsk\xE1 pedagogika','programovacie\
-  \ jazyky','ran\xE9 detstvo a v\xFDvoj det\xED','rastlinn\xE1 bioch\xE9mia','rastlinn\xE1\
-  \ biotechnol\xF3gia','reproduk\u010Dn\xE1 biol\xF3gia','reproduk\u010Dn\xE9 zdravie','reprodukt\xED\
-  vna biol\xF3gia','reumatol\xF3gia','robotika a strojov\xE9 videnie','robotika a\
-  \ umel\xE1 inteligencia','seizmol\xF3gia','soci\xE1lna psychol\xF3gia','sociol\xF3\
+odbor: "['fyzika','ch\xE9mia','bioch\xE9mia','neurol\xF3gia','ekon\xF3mia','fyziol\xF3\
+  gia','biol\xF3gia','informatika','materi\xE1lov\xE1 veda','matematika','molekul\xE1\
+  rna biol\xF3gia','biofyzika','ekol\xF3gia','biotechnol\xF3gia','geol\xF3gia','hydrol\xF3\
+  gia','kardiol\xF3gia','mana\u017Ement','mikrobiol\xF3gia','onkol\xF3gia','umel\xE1\
+  \ inteligencia','epidemiol\xF3gia','farmakol\xF3gia','patol\xF3gia','virol\xF3gia','aplikovan\xE1\
+  \ mechanika','automatiz\xE1cia','biomedic\xEDna','botanika','hematol\xF3gia','lesn\xED\
+  ctvo','magnetick\xE1 rezonancia','optika','psychol\xF3gia','r\xE1diol\xF3gia','strojov\xE9\
+  \ u\u010Denie','te\xF3ria grafov','verejn\xE9 zdravotn\xEDctvo','astron\xF3mia','behavior\xE1\
+  lna medic\xEDna','bezdr\xF4tov\xE9 siete a syst\xE9my','biogeografia','biopolym\xE9\
+  ry','biosenzory','cudzie jazyky a kult\xFAra','d\xE1tov\xE1 veda','diferenci\xE1\
+  lne rovnice','distribuovan\xE9 syst\xE9my','elektronika','elektrotechnika','energetika','entomol\xF3\
+  gia','environment\xE1lne in\u017Einierstvo','fotovoltaika','fotovoltika','fytol\xF3\
+  gia','genetika','genetika drev\xEDn','genetika rakoviny','g\xE9nov\xE1 expresia','geochronol\xF3\
+  gia','geografick\xE9 informa\u010Dn\xE9 vedy','geovizualiz\xE1cia','grafov\xE9 algoritmy','\xED\
+  lov\xE9 miner\xE1ly','imunol\xF3gia','intern\xE1 medic\xEDna','klimatick\xE1 zmena','kognit\xED\
+  vna psychol\xF3gia','ko\u013Eajov\xE9 vozidl\xE1','komplexn\xE9 a adapt\xEDvne syst\xE9\
+  my','komplexn\xE9 syst\xE9my','kry\u0161talografia','logistika','logistika / r\xFA\
+  rov\xE9 dopravn\xEDky','medic\xEDnske zobrazovanie','membr\xE1ny','modifik\xE1cia\
+  \ polym\xE9rov','nanooptika','nanotechnol\xF3gia','nukle\xE1rna magnetick\xE1 rezonancia','oce\xE1\
+  nografia','oftalmol\xF3gia','optika a fotonika','pediatria','po\u010D\xEDta\u010D\
+  om podporovan\xFD v\xFDvoj lie\u010Div','po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1\
+  cia','po\u010D\xEDta\u010Dov\xE9 videnie','potravin\xE1rska technol\xF3gia','pred\u0161\
+  kolsk\xE1 pedagogika','programovacie jazyky','ran\xE9 detstvo a v\xFDvoj det\xED\
+  ','rastlinn\xE1 biol\xF3gia','reproduk\u010Dn\xE9 zdravie','reumatol\xF3gia','robotika\
+  \ a strojov\xE9 videnie','seizmol\xF3gia','soci\xE1lna psychol\xF3gia','sociol\xF3\
   gia','supravodi\u010De','synt\xE9za prote\xEDnov','telekomunik\xE1cie','termodynamika','toxikol\xF3\
-  gia','vegeta\u010Dn\xE1 ekol\xF3gia mokrad\xED','vulkanol\xF3gia','v\xFDpo\u010D\
-  tov\xE1 ch\xE9mia','v\xFDpo\u010Dtov\xE1 katal\xFDza','v\xFDrobn\xE9 technol\xF3\
+  gia','vulkanol\xF3gia','v\xFDpo\u010Dtov\xE1 katal\xFDza','v\xFDrobn\xE9 technol\xF3\
   gie','web syst\xE9my']"
-odborCount: '[12,10,9,8,7,6,6,6,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+odborCount: '[43,36,15,13,12,12,11,10,10,9,9,8,6,5,5,5,5,5,5,5,5,4,4,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 seniority_xy: "[{x:'profesor',y:269},{x:'ostatn\xE9',y:257},{x:'docent',y:235},{x:'ostatn\xE9\
   ',y:195},{x:'profesor',y:175},{x:'profesor',y:110},{x:'profesor',y:106},{x:'ostatn\xE9\
   ',y:104},{x:'profesor',y:102},{x:'profesor',y:97},{x:'profesor',y:95},{x:'ostatn\xE9\
@@ -730,3 +623,6 @@ seniority_xy: "[{x:'profesor',y:269},{x:'ostatn\xE9',y:257},{x:'docent',y:235},{
   ',y:31},{x:'profesor',y:31},{x:'profesor',y:31},{x:'ostatn\xE9',y:31},{x:'profesor',y:31},{x:'odborn\xFD\
   \ asistent',y:31},{x:'docent',y:31},{x:'ostatn\xE9',y:30},{x:'profesor',y:30},{x:'ostatn\xE9\
   ',y:30},{x:'docent',y:30},{x:'profesor',y:30},{x:'profesor',y:30}]"
+odborMin: '[30,31,30,34,31,37,31,32,38,32,34,31,33,31,34,31,36,33,30,36,30,63,33,36,53,59,31,34,52,33,34,38,35,37,33,42,35,38,70,47,40,69,40,32,33,48,33,30,73,44,48,37,31,36,67,38,40,42,47,41,47,32,51,52,55,44,42,40,38,36,50,42,37,38,34,39,34,41,34,49,50,42,49,72,43,32,39,35,35,39,54,47,69,52,52,52,46,55,52,36,56,70,46,76,33,46,43,38]'
+odborAvg: '[70.3,44.1,41.3,56.2,36.6,50.1,43.7,48.1,47.2,41.1,42.0,39.2,46.7,41.2,38.8,41.6,66.0,44.6,54.6,58.2,56.4,70.2,45.8,53.3,65.7,59.5,39.5,35.5,61.0,50.5,36.5,40.5,40.0,44.5,44.5,44.5,40.5,58.5,70.0,47.0,40.0,69.0,40.0,32.0,33.0,48.0,33.0,30.0,73.0,44.0,48.0,37.0,31.0,36.0,67.0,38.0,40.0,42.0,47.0,41.0,47.0,32.0,51.0,52.0,55.0,44.0,42.0,40.0,38.0,36.0,50.0,42.0,37.0,38.0,34.0,39.0,34.0,41.0,34.0,49.0,50.0,42.0,49.0,72.0,43.0,32.0,39.0,35.0,35.0,39.0,54.0,47.0,69.0,52.0,52.0,52.0,46.0,55.0,52.0,36.0,56.0,70.0,46.0,76.0,33.0,46.0,43.0,38.0]'
+odborMax: '[269,92,65,110,45,106,69,95,58,82,55,58,60,54,46,56,94,52,102,76,79,76,56,87,73,60,48,37,70,68,39,43,45,52,56,47,46,79,70,47,40,69,40,32,33,48,33,30,73,44,48,37,31,36,67,38,40,42,47,41,47,32,51,52,55,44,42,40,38,36,50,42,37,38,34,39,34,41,34,49,50,42,49,72,43,32,39,35,35,39,54,47,69,52,52,52,46,55,52,36,56,70,46,76,33,46,43,38]'
