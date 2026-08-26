@@ -86,3 +86,14 @@ a:hover {
     color: #333;
     text-decoration: none;
 }
+
+.post-wrapper {
+    margin-bottom: 12px;
+    padding-bottom: 16px;
+}
+@media screen and (max-width: 991px) {
+    .post-wrapper {
+        margin-bottom: 12px;
+        padding-bottom: 16px;
+    }
+}
