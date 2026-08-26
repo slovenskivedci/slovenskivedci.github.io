@@ -117,51 +117,6 @@ title: Statistiky
 
         <div class="row" align="center">
            
-          <div style="width:100%;max-width:640px;height:420px;margin:0 auto;">
-<canvas id="myChartPlace"></canvas>
-</div>
-<script>
-const ctxPlace = document.getElementById("myChartPlace");
-const dataPlace = {
-  labels: {{ site.data.page.place }},
-  datasets: [
-    { label: "minimum", data: {{ site.data.page.placeMin }}, backgroundColor: "rgba(196, 181, 253, 1)", borderColor: "rgba(167, 139, 250, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
-    { label: "priemer", data: {{ site.data.page.placeAvg }}, backgroundColor: "rgba(139, 92, 246, 1)", borderColor: "rgba(124, 58, 237, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false },
-    { label: "maximum", data: {{ site.data.page.placeMax }}, backgroundColor: "rgba(91, 33, 182, 1)", borderColor: "rgba(76, 29, 149, 0.8)", borderWidth: 2, borderRadius: 5, borderSkipped: false }
-  ]
-};
-const myChartPlace = new Chart(ctxPlace, {
-  type: "bar",
-  data: dataPlace,
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    interaction: { mode: "index", intersect: false },
-    plugins: {
-      legend: { display: true, position: "top" },
-      title: { display: true, text: "H-index podľa pôsobiska: Slovensko vs zahraničie" },
-      tooltip: { mode: "index", intersect: false }
-    },
-    scales: {
-      y: { title: { display: true, text: "h-index" }, beginAtZero: true }
-    }
-  }
-});
-
-</script> 
-
-
-
-        </div>
-      </div>
-	</div>
-
-<div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-
-        <div class="row" align="center">
-           
           <canvas id="myChartHindex" width="400" height="400"></canvas>
 		<script>
 			const ctxmyChartHindex = document.getElementById('myChartHindex');
