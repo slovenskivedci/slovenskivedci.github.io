@@ -27,6 +27,9 @@
 .header-section {
     padding-top: 48px;
     padding-bottom: 16px;
+    background: none;
+    background-color: #fff;
+    border-bottom: none;
 }
 .content-wrapper {
     padding-top: 20px;
