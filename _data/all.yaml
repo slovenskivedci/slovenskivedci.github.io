@@ -9169,6 +9169,8 @@
   scholar: https://scholar.google.com/citations?hl=sk&user=frDz7fwAAAAJ
   last_update: '2026-08-27'
   links:
+  - - orcid
+    - https://orcid.org/0000-0002-9941-7855
   - - web
     - https://ki.se/en/people/jaromir-mikes
   img: Jaromir_Mikes.jpg
@@ -9410,7 +9412,7 @@
   - - orcid
     - https://orcid.org/0000-0003-0776-4137
   - - web
-    - https://en.uit.no/ansatte/person?p_dimension_id=88139&p_document_id=165784
+    - https://en.uit.no/ansatte/person?p_document_id=165784
   img: Michal_Repisky.jpg
   countryurl: Norsko
   fieldurl: vypoctova_chemia
@@ -9923,10 +9925,10 @@
   last: Madzo
   year: 1976
   sex: "mu\u017E"
-  position: "riadite\u013E"
+  position: "odborn\xFD asistent"
   field: bioinformatika
-  affiliation: Wistar Institute
-  city: Philadelphia
+  affiliation: The Wistar Institute
+  city: Filadelfia
   country: USA
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=sk&user=-WVHq38AAAAJ
@@ -9941,9 +9943,9 @@
   fieldurl: bioinformatika
   area: informatika
   areaurl: informatika
-  positionurl: riaditel
-  affiliationurl: Wistar_Institute
-  cityurl: Philadelphia
+  positionurl: odborny_asistent
+  affiliationurl: The_Wistar_Institute
+  cityurl: Filadelfia
   sexurl: muz
 - name: "Igor Nov\xE1k"
   last: Novak
@@ -10184,6 +10186,32 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Du\u0161an Chorv\xE1t"
+  last: Chorvat
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: biofotonika
+  affiliation: "Centrum vedecko-technick\xFDch inform\xE1ci\xED SR"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=loVfHtIAAAAJ
+  last_update: '2026-08-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-0227-0296
+  - - web
+    - https://www.ilc.sk/en/vyskum/laboratoria/lasmicro/
+  img: Dusan_Chorvat.jpg
+  countryurl: Slovensko
+  fieldurl: biofotonika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedec
+  affiliationurl: Centrum_vedecko-technickych_informacii_SR
+  cityurl: Bratislava
+  sexurl: muz
 - name: "\u013Dubo\u0161 Drgo\u0148a"
   last: Drgona
   year: 1967
@@ -10197,8 +10225,10 @@
   scholar: https://scholar.google.com/citations?hl=sk&user=sHDD2hEAAAAJ
   last_update: '2026-08-27'
   links:
+  - - orcid
+    - https://orcid.org/0000-0002-5089-3201
   - - web
-    - https://www.nou.sk/klinika-onkohematologie-lfuk-a-nou
+    - https://www.nou.sk/prednostovia-klinik
   img: Lubos_Drgona.jpg
   countryurl: Slovensko
   fieldurl: onkohematologia
@@ -10373,7 +10403,7 @@
   - - orcid
     - https://orcid.org/0000-0002-4138-3250
   - - web
-    - https://research.rug.nl/en/persons/tibor-kudern%C3%A1c/
+    - https://www.rug.nl/staff/t.kudernac/
   img: Tibor_Kudernac.jpg
   countryurl: Holandsko
   fieldurl: nanotechnologia
@@ -10436,6 +10466,32 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "O\u013Ega \u0160amajov\xE1"
+  last: Samajova
+  year: ''
+  sex: "\u017Eena"
+  position: "odborn\xE1 asistentka"
+  field: "molekul\xE1rna a bunkov\xE1 biol\xF3gia"
+  affiliation: "Univerzita Palack\xE9ho v Olomouci"
+  city: Olomouc
+  country: "\u010Cesko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=do4mcnYAAAAJ
+  last_update: '2026-08-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6121-7164
+  - - web
+    - https://www.prf.upol.cz/kbt/katedra/clenove-katedry/
+  img: Olga_Samajova.jpg
+  countryurl: Cesko
+  fieldurl: molekularna_a_bunkova_biologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: odborna_asistentka
+  affiliationurl: Univerzita_Palackeho_v_Olomouci
+  cityurl: Olomouc
+  sexurl: zena
 - name: "Martin Smie\u0161ko"
   last: Smiesko
   year: ''
@@ -10819,6 +10875,54 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Gust\xE1v Plesch"
+  last: Plesch
+  year: ''
+  sex: "mu\u017E"
+  position: "emeritn\xFD profesor"
+  field: "anorganick\xE1 ch\xE9mia"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=FBfNaH0AAAAJ
+  last_update: '2026-08-27'
+  links:
+  - - web
+    - https://fns.uniba.sk/en/departments/chemistry/department-of-inorganic-chemistry/staff/prof-gustav-plesch/
+  img: Gustav_Plesch.jpg
+  countryurl: Slovensko
+  fieldurl: anorganicka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: emeritny_profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Jozef \u0160ir\xE1\u0148"
+  last: Siran
+  year: 1954
+  sex: "mu\u017E"
+  position: profesor
+  field: "algebraick\xE1 te\xF3ria grafov"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=gqyz48YAAAAJ
+  last_update: '2026-08-27'
+  links:
+  - - web
+    - http://www.math.sk/siran/
+  img: Jozef_Siran.jpg
+  countryurl: Slovensko
+  fieldurl: algebraicka_teoria_grafov
+  area: matematika
+  areaurl: matematika
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Tom\xE1\u0161 Tak\xE1\u010D"
   last: Takac
   year: 1976
@@ -10984,6 +11088,32 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Demeter Krupka
+  last: Krupka
+  year: 1942
+  sex: "mu\u017E"
+  position: profesor
+  field: "diferenci\xE1lna geometria"
+  affiliation: Lepage Research Institute
+  city: "Pre\u0161ov"
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=BkW-VmAAAAAJ
+  last_update: '2026-08-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-5556-6616
+  - - web
+    - https://www.lepageri.eu/members/demeter-krupka
+  img: Demeter_Krupka.jpg
+  countryurl: Slovensko
+  fieldurl: diferencialna_geometria
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: profesor
+  affiliationurl: Lepage_Research_Institute
+  cityurl: Presov
   sexurl: muz
 - name: Peter Papcun
   last: Papcun
