@@ -14,7 +14,11 @@ title: Domov
 						<div class="w-col w-col-6  column">
 
 
-							<img src="/images/{{ item.img }}" width="100%" role="img">
+							{% if forloop.index <= 8 %}
+							<img src="/images/{{ item.img }}" width="400" height="224" decoding="async" role="img">
+							{% else %}
+							<img src="/images/{{ item.img }}" width="400" height="224" loading="lazy" decoding="async" role="img">
+							{% endif %}
 						</div>
 
 						<div class="w-col w-col-6">
