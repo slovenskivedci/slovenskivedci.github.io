@@ -224,3 +224,27 @@ a:hover {
     text-decoration: none;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+.back-to-top {
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.back-to-top a {
+    color: #666;
+    text-decoration: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.back-to-top a:hover {
+    color: #1f4e79;
+    background: #FFF4B8;
+    text-decoration: none;
+}
+.back-to-top a:focus-visible {
+    outline: 1px solid #1f4e79;
+    outline-offset: 2px;
+}
