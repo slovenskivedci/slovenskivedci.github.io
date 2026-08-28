@@ -18,11 +18,13 @@ title: Statistiky
 #countryWorldMap { width: 100%; height: 260px; margin: 12px auto 0; }
 
 .sv-chart { width: 100%; max-width: 920px; height: 260px; margin: 0 auto; }
+.sv-chart-workplace { height: 420px; }
 .sv-chart-donut { width: 220px; height: 220px; margin: 0 auto; }
 .sv-chart-pair { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
 .sv-chart-pair .sv-chart { flex: 1 1 360px; max-width: 460px; }
 @media (max-width: 700px) {
   .sv-chart { height: 200px; }
+  .sv-chart-workplace { height: 420px; }
   #countryWorldMap { height: 200px !important; }
 }
 
@@ -39,8 +41,10 @@ title: Statistiky
             var counts = {{ site.data.page.countryCount }};
             var skToIso = {"Slovensko": "SK", "USA": "US", "Spojené štáty": "US", "Česko": "CZ", "Česká republika": "CZ", "Rakúsko": "AT", "Kanada": "CA", "Austrália": "AU", "Nemecko": "DE", "Veľká Británia": "GB", "Spojené kráľovstvo": "GB", "Švajčiarsko": "CH", "Holandsko": "NL", "Francúzsko": "FR", "Nórsko": "NO", "Belgicko": "BE", "Belgium": "BE", "Katar": "QA", "Saudská Arábia": "SA", "Spojené arabské emiráty": "AE", "Švédsko": "SE", "Dánsko": "DK", "Fínsko": "FI", "Írsko": "IE", "Japonsko": "JP", "Ruská federácia": "RU", "Rusko": "RU", "Španielsko": "ES", "Taliansko": "IT", "Poľsko": "PL", "Maďarsko": "HU", "Portugalsko": "PT", "Grécko": "GR", "Rumunsko": "RO", "Bulharsko": "BG", "Chorvátsko": "HR", "Slovinsko": "SI", "Litva": "LT", "Lotyšsko": "LV", "Estónsko": "EE", "Ukrajina": "UA", "Bielorusko": "BY", "Čína": "CN", "India": "IN", "Brazília": "BR", "Mexiko": "MX", "Argentína": "AR", "Čile": "CL", "Južná Kórea": "KR", "Turecko": "TR", "Izrael": "IL", "Egypt": "EG", "Južná Afrika": "ZA", "Nový Zéland": "NZ", "Singapur": "SG", "Luxembursko": "LU", "Island": "IS", "Srbsko": "RS", "Malta": "MT", "Cyprus": "CY"};
             var isoToSk = {"SK": "Slovensko", "US": "Spojené štáty", "CZ": "Česká republika", "AT": "Rakúsko", "CA": "Kanada", "AU": "Austrália", "DE": "Nemecko", "GB": "Spojené kráľovstvo", "CH": "Švajčiarsko", "NL": "Holandsko", "FR": "Francúzsko", "NO": "Nórsko", "BE": "Belgicko", "QA": "Katar", "SA": "Saudská Arábia", "AE": "Spojené arabské emiráty", "SE": "Švédsko", "DK": "Dánsko", "FI": "Fínsko", "IE": "Írsko", "JP": "Japonsko", "RU": "Rusko", "ES": "Španielsko", "IT": "Taliansko", "PL": "Poľsko", "HU": "Maďarsko", "PT": "Portugalsko", "GR": "Grécko", "RO": "Rumunsko", "BG": "Bulharsko", "HR": "Chorvátsko", "SI": "Slovinsko", "LT": "Litva", "LV": "Lotyšsko", "EE": "Estónsko", "UA": "Ukrajina", "BY": "Bielorusko", "CN": "Čína", "IN": "India", "BR": "Brazília", "MX": "Mexiko", "AR": "Argentína", "CL": "Čile", "KR": "Južná Kórea", "TR": "Turecko", "IL": "Izrael", "EG": "Egypt", "ZA": "Južná Afrika", "NZ": "Nový Zéland", "SG": "Singapur", "LU": "Luxembursko", "IS": "Island", "RS": "Srbsko", "MT": "Malta", "CY": "Cyprus"};
+            var urls = {{ site.data.page.countryUrl }};
             var realCounts = {};
             var isoNames = {};
+            var isoToUrl = {};
             var scaleValues = {};
             var unmapped = [];
             for (var i = 0; i < labels.length; i++) {
@@ -49,6 +53,7 @@ title: Statistiky
               if (!iso) { unmapped.push(labels[i]); continue; }
               realCounts[iso] = (realCounts[iso] || 0) + n;
               if (!isoNames[iso] || isoNames[iso] === "Belgium") isoNames[iso] = labels[i];
+              if (!isoToUrl[iso] && urls[i]) isoToUrl[iso] = urls[i];
             }
             Object.keys(realCounts).forEach(function (iso) {
               scaleValues[iso] = Math.sqrt(realCounts[iso]);
@@ -66,58 +71,23 @@ title: Statistiky
                 var name = (isoNames[code] || isoToSk[code] || tooltip.text());
                 var count = realCounts[code] || 0;
                 tooltip.text(name + ": " + count);
+              },
+              onRegionClick: function (event, code) {
+                var curl = isoToUrl[code];
+                if (!curl) return;
+                window.location.href = '/?country=' + encodeURIComponent(curl);
+              },
+              onLoaded: function () {
+                var root = document.getElementById('countryWorldMap');
+                if (!root) return;
+                Object.keys(realCounts).forEach(function (iso) {
+                  var nodes = root.querySelectorAll('[data-code="' + iso + '"]');
+                  for (var j = 0; j < nodes.length; j++) nodes[j].style.cursor = 'pointer';
+                });
               }
             });
           })();
           </script>
-        </div>
-      </div>
-    </div>
-
-<div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-        <div class="row" align="center">
-            <div class="sv-chart"><canvas id="myChartCountByCountry"></canvas></div>
-
-
- 
-			<script>
-			const ctxCountByCountry = document.getElementById('myChartCountByCountry');
-			const dataCountByCountry = {
-			  labels:{{ site.data.page.country }} ,
-			  datasets: [
-				{
-				  label: 'Count',
-				  data: {{ site.data.page.countryCount }},
-				  borderColor: 'rgba(34, 197, 94, 0.2)',
-				  backgroundColor: 'rgba(34, 197, 94, 1)',
-				  borderWidth: 2,
-				  borderRadius: 5,
-				  borderSkipped: false,
-				}
-			  ]
-			};
-			
-			const myChartCountByCountry = new Chart(ctxCountByCountry,
-			    {
-  type: 'bar',
-  data: dataCountByCountry,
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        position: 'top',
-      },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa krajiny pôsobenia'
-      }
-    }
-  },
-});
-			</script>
         </div>
       </div>
     </div>
@@ -226,46 +196,49 @@ title: Statistiky
  
 			<script>
 			const ctxOdbor = document.getElementById('myChartOdbor');
+			const odborCounts = {{ site.data.page.odborCount }};
 			const dataOdbor = {
 			  labels:{{ site.data.page.odbor }} ,
 			  datasets: [
 				{
-				  label: 'minimum',
-				  data: {{ site.data.page.odborMin }},
-				  borderColor: 'rgba(147, 197, 253, 0.8)',
-				  backgroundColor: 'rgba(147, 197, 253, 1)',
-				  borderWidth: 2,
-				  borderRadius: 5,
-				  borderSkipped: false,
-				},
-				{
-				  label: 'priemer',
-				  data: {{ site.data.page.odborAvg }},
-				  borderColor: 'rgba(59, 130, 246, 0.8)',
-				  backgroundColor: 'rgba(59, 130, 246, 1)',
-				  borderWidth: 2,
-				  borderRadius: 5,
-				  borderSkipped: false,
-				},
-				{
-				  label: 'maximum',
-				  data: {{ site.data.page.odborMax }},
-				  borderColor: 'rgba(30, 64, 175, 0.8)',
-				  backgroundColor: 'rgba(30, 64, 175, 1)',
+				  label: 'medián',
+				  data: {{ site.data.page.odborMedian }},
+				  borderColor: 'rgba(31, 78, 121, 0.25)',
+				  backgroundColor: 'rgba(31, 78, 121, 0.85)',
 				  borderWidth: 2,
 				  borderRadius: 5,
 				  borderSkipped: false,
 				}
 			  ]
 			};
+			const odborCountLabels = {
+			  id: 'odborCountLabels',
+			  afterDatasetsDraw: function(chart) {
+			    var meta = chart.getDatasetMeta(0);
+			    if (!meta || !meta.data) return;
+			    var c = chart.ctx;
+			    c.save();
+			    c.fillStyle = '#666';
+			    c.font = '12px Open Sans, sans-serif';
+			    c.textAlign = 'center';
+			    c.textBaseline = 'bottom';
+			    meta.data.forEach(function(bar, i) {
+			      if (!bar || odborCounts[i] == null) return;
+			      c.fillText(String(odborCounts[i]), bar.x, bar.y - 3);
+			    });
+			    c.restore();
+			  }
+			};
 			
 			const myChartOdbor = new Chart(ctxOdbor,
 			    {
   type: 'bar',
   data: dataOdbor,
+  plugins: [odborCountLabels],
   options: {
     responsive: true,
     maintainAspectRatio: false,
+    layout: { padding: { top: 18 } },
     interaction: {
       mode: 'index',
       intersect: false
@@ -282,11 +255,18 @@ title: Statistiky
       },
       tooltip: {
         mode: 'index',
-        intersect: false
+        intersect: false,
+        callbacks: {
+          afterBody: function(items) {
+            if (!items || !items.length) return '';
+            var i = items[0].dataIndex;
+            return 'počet: ' + odborCounts[i];
+          }
+        }
       },
       title: {
         display: true,
-        text: 'H-index podľa oblasti'
+        text: 'H-index a počet podľa oblasti'
       }
     },
     scales: {
@@ -294,7 +274,7 @@ title: Statistiky
         ticks: { maxRotation: 40, minRotation: 0, autoSkip: false }
       },
       y: {
-        title: { display: true, text: 'h-index' },
+        title: { display: true, text: 'medián h-index' },
         beginAtZero: true
       }
     }
@@ -302,14 +282,14 @@ title: Statistiky
 });
 			</script>  
 
-        <div class="odbor-key" style="max-width:900px;margin:18px auto 0;text-align:left;font-size:14px;line-height:1.45;">
-          <p style="margin:0 0 8px 0;"><strong>Zloženie oblastí</strong> (konkrétne odbory z profilov):</p>
-          <ul style="margin:0;padding-left:1.2em;">
+        <details class="odbor-key" style="max-width:900px;margin:18px auto 0;text-align:left;font-size:13px;line-height:1.45;color:#666;">
+          <summary style="cursor:pointer;color:#666;">Zloženie oblastí</summary>
+          <ul style="margin:8px 0 0;padding-left:1.2em;">
           {% for g in site.data.page.odbor_key %}
             <li style="margin:0 0 6px 0;"><strong>{{ g.area }}:</strong> {{ g.fields | join: ", " }}</li>
           {% endfor %}
           </ul>
-        </div>
+        </details>
 
         </div>
       </div>
@@ -320,7 +300,7 @@ title: Statistiky
 
         <div class="row" align="center">
                
-            <div class="sv-chart"><canvas id="myChartCountByWorkplace"></canvas></div>
+            <div class="sv-chart sv-chart-workplace"><canvas id="myChartCountByWorkplace"></canvas></div>
 
 
  
@@ -356,6 +336,7 @@ title: Statistiky
   type: 'bar',
   data: dataCountByWorkplace,
   options: {
+    indexAxis: 'y',
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
@@ -366,6 +347,9 @@ title: Statistiky
         display: true,
         text: 'Počet vedcov a vedkýň podľa pracoviska'
       }
+    },
+    scales: {
+      x: { beginAtZero: true }
     }
   },
 });
@@ -415,7 +399,33 @@ title: Statistiky
       title: {
         display: true,
         text: 'H-index podľa roku narodenia'
+      },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            var p = ctx.raw || {};
+            var name = p.name || '';
+            var year = p.x;
+            var h = p.y;
+            var parts = [];
+            if (name) parts.push(name);
+            if (h != null) parts.push('h ' + h);
+            if (year != null) parts.push(String(year));
+            return parts.join(' · ');
+          }
+        }
       }
+    },
+    onHover: function(evt, elements) {
+      var t = evt && evt.native && evt.native.target;
+      if (t) t.style.cursor = elements.length ? 'pointer' : 'default';
+    },
+    onClick: function(evt, elements, chart) {
+      if (!elements || !elements.length) return;
+      var el = elements[0];
+      var p = chart.data.datasets[el.datasetIndex].data[el.index];
+      if (!p || !p.id) return;
+      window.location.href = '/#' + encodeURI(p.id);
     },
     scales: {
       x: {
@@ -446,40 +456,10 @@ title: Statistiky
 
 <div role="listitem" class="w-dyn-item">
     <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-      <div class="row">
-        <div class="sv-chart-donut"><canvas id="myChartGender"></canvas></div>
+      <div class="row" align="center">
+        <p style="margin:12px 0;font-size:13px;line-height:18px;color:#666;">Ženy: {{ site.data.page.woman }} · Muži: {{ site.data.page.man }}</p>
       </div>
     </div>
-    
-	  
-		
-	<script>
-	const ctx = document.getElementById('myChartGender');
-	const myChart = new Chart(ctx, {
-		type: 'doughnut',
-		data: {
-			labels: ['ženy', 'muži'],
-			datasets: [{
-				label: '# count',
-				data: [{{ site.data.page.woman }}, {{ site.data.page.man }}],
-				backgroundColor: [
-					'rgba(255, 99, 132, 0.2)',
-					'rgba(54, 162, 235, 0.2)',
-				],
-				borderColor: [
-					'rgba(255, 99, 132, 1)',
-					'rgba(54, 162, 235, 1)',
-				],
-				borderWidth: 1
-			}]
-		},
-		options: {
-			responsive: true,
-			maintainAspectRatio: false,
-			plugins: { legend: { position: 'top' }, title: { display: true, text: 'Pohlavie' } }
-		}
-	});
-	</script>  
 	</div>
 
 </div>

@@ -26,6 +26,14 @@ import unicodedata
 def repl(text):
 	return unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('UTF-8').replace(",","_").replace("(","_").replace(")","_")
 
+def _js_str(s):
+	return "'"+str(s).replace("\\","\\\\").replace("'","\\'")+"'"
+
+def _js_num(v):
+	if isinstance(v, float):
+		return ("%.1f" % v)
+	return str(v)
+
 # Superfields for the stats chart only. Profile "field" values stay narrow.
 # First match wins. More specific keywords first.
 FIELD_GROUPS = [
@@ -255,7 +263,18 @@ for person in alllst:
         unknown_years += 1
     else:
         years.append(y)
-        year_hindex_points.append("{x:%d,y:%d}" % (y, int(person['hindex'])))
+        card_id = ":".join([
+            str(person.get("last") or ""),
+            str(person.get("countryurl") or ""),
+            str(person.get("affiliationurl") or ""),
+            str(person.get("cityurl") or ""),
+            str(person.get("positionurl") or ""),
+            str(person.get("fieldurl") or ""),
+            str(person.get("sexurl") or ""),
+        ])
+        pname = person.get("name") or person.get("last") or ""
+        year_hindex_points.append("{x:%d,y:%d,name:%s,id:%s}" % (
+            y, int(person['hindex']), _js_str(pname), _js_str(card_id)))
 
 if years:
     max_year = max(years)
@@ -293,6 +312,8 @@ countriesCount ="["+ ",".join([str(e[1]) for e in d])+"]"
 
 stats["country"]=countries
 stats["countryCount"]=countriesCount
+countryUrl = "["+ ",".join(["'"+repl(str(e[0]).replace(" ","_")).replace("'","\\'")+"'" for e in d])+"]"
+stats["countryUrl"]=countryUrl
 
 
 
@@ -312,28 +333,23 @@ for name, hs in d.items():
 	mn = min(hs)
 	mx = max(hs)
 	avg = round(sum(hs) / float(n), 1)
-	rows.append((name, n, mn, avg, mx))
+	med = round(float(np.median(hs)), 1)
+	rows.append((name, n, mn, avg, mx, med))
 rows = sorted(rows, key=lambda e: (-e[1], repl(e[0]).lower()))
-
-def _js_str(s):
-	return "'"+str(s).replace("'","\\'")+"'"
-
-def _js_num(v):
-	if isinstance(v, float):
-		return ("%.1f" % v)
-	return str(v)
 
 odbor = "["+ ",".join([_js_str(e[0]) for e in rows])+"]"
 odborCount ="["+ ",".join([str(e[1]) for e in rows])+"]"
 odborMin ="["+ ",".join([_js_num(e[2]) for e in rows])+"]"
 odborAvg ="["+ ",".join([_js_num(e[3]) for e in rows])+"]"
 odborMax ="["+ ",".join([_js_num(e[4]) for e in rows])+"]"
+odborMedian ="["+ ",".join([_js_num(e[5]) for e in rows])+"]"
 
 stats["odbor"]=odbor
 stats["odborCount"]=odborCount
 stats["odborMin"]=odborMin
 stats["odborAvg"]=odborAvg
 stats["odborMax"]=odborMax
+stats["odborMedian"]=odborMedian
 
 odbor_key = []
 members = stats.get("field_members") or {}
@@ -345,7 +361,7 @@ stats.pop("field_members", None)
 
 print("odbor groups", len(rows), "sum n", sum(e[1] for e in rows))
 for e in rows[:8]:
-	print("odbor top", e[0], "n", e[1], "min", e[2], "avg", e[3], "max", e[4])
+	print("odbor top", e[0], "n", e[1], "min", e[2], "avg", e[3], "max", e[4], "median", e[5])
 
 
 PLACE_LABELS = ["Slovensko", "zahraničie"]
