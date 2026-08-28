@@ -1,5 +1,6 @@
 import oyaml as yaml
 import os
+import math
 
 import glob
 countries={}
@@ -277,8 +278,10 @@ for person in alllst:
             str(person.get("sexurl") or ""),
         ])
         pname = person.get("name") or person.get("last") or ""
-        year_hindex_points.append("{x:%d,y:%d,name:%s,id:%s}" % (
-            y, int(person['hindex']), _js_str(pname), _js_str(card_id)))
+        year_hindex_points.append("{x:%d,y:%d,name:%s,id:%s,field:%s,area:%s}" % (
+            y, int(person['hindex']), _js_str(pname), _js_str(card_id),
+            _js_str(person.get("field") or ""),
+            _js_str(person.get("area") or "")))
 
 if years:
     max_year = max(years)
@@ -459,6 +462,67 @@ stats["city_markers"] = "[" + ",".join(city_js) + "]"
 print("city markers", len(city_js), "skipped", len(skipped_cities))
 for s in skipped_cities:
 	print("city skip", s)
+
+# Slovak institution markers (city coords + slight jitter when stacked).
+sk_inst = {}
+for person in alllst:
+	if str(person.get("country") or "").strip() != "Slovensko":
+		continue
+	aff = (person.get("affiliation") or "").strip() or "neuvedené"
+	city = (person.get("city") or "").strip()
+	key = aff + " | " + city
+	if key not in sk_inst:
+		sk_inst[key] = {
+			"name": aff,
+			"city": city,
+			"url": person.get("affiliationurl") or repl(aff.replace(" ", "_")),
+			"names": [],
+		}
+	pname = person.get("name") or person.get("last") or ""
+	if pname:
+		sk_inst[key]["names"].append(pname)
+
+sk_rows = []
+for key, info in sk_inst.items():
+	rec = _coords_for(info["city"], "Slovensko", info["city"] + " | Slovensko")
+	lat, lon = rec.get("lat"), rec.get("lon")
+	if lat is None or lon is None:
+		print("inst skip", info["name"], "/", info["city"], "n", len(info["names"]))
+		continue
+	info["lat"] = float(lat)
+	info["lon"] = float(lon)
+	info["names"] = sorted(info["names"], key=lambda n: repl(n).lower())
+	sk_rows.append(info)
+
+from collections import defaultdict
+_buckets = defaultdict(list)
+for info in sk_rows:
+	_buckets[(round(info["lat"], 3), round(info["lon"], 3))].append(info)
+for (blat, blon), items in _buckets.items():
+	if len(items) <= 1:
+		continue
+	rad = 0.035 + 0.008 * min(len(items), 10)
+	coslat = max(0.35, math.cos(math.radians(blat)))
+	for i, info in enumerate(items):
+		ang = 2.0 * math.pi * i / len(items)
+		info["lat"] = blat + rad * math.cos(ang)
+		info["lon"] = blon + (rad * math.sin(ang)) / coslat
+
+sk_rows.sort(key=lambda e: (-len(e["names"]), repl(e["name"]).lower()))
+sk_js = []
+for info in sk_rows:
+	names_js = "[" + ",".join(_js_str(n) for n in info["names"]) + "]"
+	sk_js.append("{name:%s,city:%s,count:%d,lat:%s,lon:%s,url:%s,names:%s}" % (
+		_js_str(info["name"]),
+		_js_str(info["city"]),
+		len(info["names"]),
+		str(info["lat"]),
+		str(info["lon"]),
+		_js_str(info["url"]),
+		names_js,
+	))
+stats["sk_institutions"] = "[" + ",".join(sk_js) + "]"
+print("sk institutions", len(sk_js))
 
 # Record holders: highest h-index per area and per birth decade.
 # alllst is already sorted by (-hindex, last); first at a given h wins.

@@ -193,6 +193,7 @@
 		var qCountry = params.get("country");
 		var qCity = params.get("city");
 		var qArea = params.get("area");
+		var qAff = params.get("affiliation");
 		var changed = false;
 		if (qCountry) {
 		  $("#filter-country").html(qCountry);
@@ -210,6 +211,12 @@
 		  $("#filter-field").html(qArea);
 		  $(".toggle-field").removeClass("selected");
 		  $(".toggle-field-" + qArea).addClass("selected");
+		  changed = true;
+		}
+		if (qAff) {
+		  $("#filter-affiliation").html(qAff);
+		  $(".toggle-affiliation").removeClass("selected");
+		  $(".toggle-affiliation-" + qAff).addClass("selected");
 		  changed = true;
 		}
 		if (changed) filter();

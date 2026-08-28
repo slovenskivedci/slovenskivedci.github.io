@@ -12,6 +12,7 @@ title: Statistiky
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
           <style>
 #countryWorldMap { width: 100%; height: 280px; margin: 12px auto 0; }
+#slovakiaInstMap { width: 100%; height: 340px; margin: 18px auto 0; }
 
 .sv-chart { display: block; width: 100%; max-width: 920px; height: 260px; margin: 0 auto; }
 .sv-plot-title {
@@ -53,6 +54,9 @@ title: Statistiky
 .country-map-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #bbf7d0, #14532d); }
 .sv-median-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #666; }
 .sv-median-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #d6e4f0, #1f4e79); }
+.sv-area-key-link { display: inline; margin-left: 8px; font-weight: 400; font-size: 13px; color: #666; text-decoration: none; }
+.sv-area-key-link:hover { color: #1f4e79; text-decoration: underline; }
+.jvm-tooltip { max-width: 280px; white-space: normal; text-align: left; line-height: 1.35; max-height: 260px; overflow: auto; }
 </style>
           <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
@@ -133,6 +137,62 @@ title: Statistiky
             });
           })();
           </script>
+          <p class="sv-plot-title">Pracoviská na Slovensku</p>
+          <div id="slovakiaInstMap"></div>
+          <script>
+          (function () {
+            var inst = {{ site.data.page.sk_institutions }};
+            function esc(s) {
+              return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+                return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
+              });
+            }
+            var jsvMarkers = (inst || []).map(function (m) {
+              var r = 3 + Math.sqrt(Number(m.count) || 1);
+              return { name: m.name, coords: [Number(m.lat), Number(m.lon)], style: { initial: { r: r } } };
+            });
+            new jsVectorMap({
+              selector: "#slovakiaInstMap",
+              map: "world",
+              backgroundColor: "transparent",
+              zoomOnScroll: false,
+              zoomButtons: true,
+              focusOn: { region: "SK", animate: false },
+              regionStyle: { initial: { fill: "#e5e7eb" }, hover: { fill: "#d1d5db" } },
+              visualizeData: { scale: ["#bbf7d0", "#14532d"], values: { SK: 8 } },
+              markers: jsvMarkers,
+              markerStyle: {
+                initial: { fill: "#1f4e79", stroke: "#ffffff", strokeWidth: 1, fillOpacity: 0.92 },
+                hover: { fill: "#16395a", stroke: "#ffffff", strokeWidth: 1 }
+              },
+              onRegionTooltipShow: function (event, tooltip, code) {
+                tooltip.text(code === "SK" ? "Slovensko" : "");
+              },
+              onMarkerTooltipShow: function (event, tooltip, index) {
+                var m = inst[index];
+                if (!m) return;
+                var names = m.names || [];
+                var html = "<strong>" + esc(m.name) + "</strong><br>" + esc(m.city) + " · " + names.length;
+                if (names.length) html += "<br>" + names.map(esc).join("<br>");
+                tooltip.text(html);
+              },
+              onMarkerClick: function (event, index) {
+                var m = inst[index];
+                if (!m || !m.url) return;
+                window.location.href = "/?affiliation=" + encodeURIComponent(m.url);
+              },
+              onLoaded: function (map) {
+                var root = document.getElementById("slovakiaInstMap");
+                if (root) {
+                  var marks = root.querySelectorAll(".jvm-marker, circle.jvm-marker");
+                  for (var k = 0; k < marks.length; k++) marks[k].style.cursor = "pointer";
+                }
+                try { if (map && map.setFocus) map.setFocus({ region: "SK", animate: false }); } catch (e) {}
+              }
+            });
+          })();
+          </script>
+
         </div>
       </div>
     </div>
@@ -140,7 +200,7 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
-          <p class="sv-plot-title">Najvyšší h-index v oblasti</p>
+          <p class="sv-plot-title">Najvyšší h-index v oblasti <a class="sv-area-key-link" href="#zlozenie-oblasti">zloženie oblastí</a></p>
           <div class="sv-chart sv-chart-lollipop-area"><canvas id="chartRecordArea"></canvas></div>
           <script>
           (function () {
@@ -213,6 +273,22 @@ title: Statistiky
             });
           })();
           </script>
+        </div>
+      </div>
+	</div>
+
+
+<div role="listitem" class="w-dyn-item">
+      <div class="post-wrapper" style="opacity: 1;">
+        <div class="row" align="center">
+        <details id="zlozenie-oblasti" class="odbor-key" style="max-width:900px;margin:8px auto 12px;text-align:left;font-size:13px;line-height:1.45;color:#666;">
+          <summary style="cursor:pointer;color:#666;">Zloženie oblastí</summary>
+          <ul style="margin:8px 0 0;padding-left:1.2em;">
+          {% for g in site.data.page.odbor_key %}
+            <li style="margin:0 0 6px 0;"><strong>{{ g.area }}:</strong> {{ g.fields | join: ", " }}</li>
+          {% endfor %}
+          </ul>
+        </details>
         </div>
       </div>
 	</div>
@@ -333,16 +409,21 @@ title: Statistiky
       title: { display: false },
       tooltip: {
         callbacks: {
+          title: function(items) {
+            var p = (items[0] && items[0].raw) || {};
+            return p.name || '';
+          },
           label: function(ctx) {
             var p = ctx.raw || {};
-            var name = p.name || '';
-            var year = p.x;
-            var h = p.y;
             var parts = [];
-            if (name) parts.push(name);
-            if (h != null) parts.push('h ' + h);
-            if (year != null) parts.push(String(year));
+            if (p.y != null) parts.push('h ' + p.y);
+            if (p.x != null) parts.push(String(p.x));
             return parts.join(' · ');
+          },
+          afterLabel: function(ctx) {
+            var p = ctx.raw || {};
+            var extra = [p.field, p.area].filter(Boolean);
+            return extra.join(' · ');
           }
         }
       }
@@ -388,7 +469,7 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
-          <p class="sv-plot-title">Zastúpenie oblastí</p>
+          <p class="sv-plot-title">Zastúpenie oblastí <a class="sv-area-key-link" href="#zlozenie-oblasti">zloženie oblastí</a></p>
           <div class="sv-field-share" id="fieldShare"></div>
           <div class="sv-median-legend" aria-hidden="true"><span>nižší medián h</span><span class="sv-median-legend-bar"></span><span>vyšší medián h</span></div>
           <script>
@@ -453,7 +534,7 @@ title: Statistiky
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
         <div class="row" align="center">
-            <p class="sv-plot-title">H-index a počet podľa oblasti</p>
+            <p class="sv-plot-title">H-index a počet podľa oblasti <a class="sv-area-key-link" href="#zlozenie-oblasti">zloženie oblastí</a></p>
             <div class="sv-chart"><canvas id="myChartOdbor"></canvas></div>
 
 
@@ -461,17 +542,37 @@ title: Statistiky
 			<script>
 			const ctxOdbor = document.getElementById('myChartOdbor');
 			const odborCounts = {{ site.data.page.odborCount }};
+			const odborMins = {{ site.data.page.odborMin }};
+			const odborMaxs = {{ site.data.page.odborMax }};
+			const odborMedians = {{ site.data.page.odborMedian }};
+			const odborRange = [];
+			for (var oi = 0; oi < odborMins.length; oi++) odborRange.push([odborMins[oi], odborMaxs[oi]]);
 			const dataOdbor = {
 			  labels:{{ site.data.page.odbor }} ,
 			  datasets: [
 				{
-				  label: 'medián',
-				  data: {{ site.data.page.odborMedian }},
-				  borderColor: 'rgba(31, 78, 121, 0.25)',
-				  backgroundColor: 'rgba(31, 78, 121, 0.85)',
-				  borderWidth: 2,
-				  borderRadius: 5,
+				  label: 'rozsah',
+				  data: odborRange,
+				  borderColor: 'rgba(31, 78, 121, 0.7)',
+				  backgroundColor: 'rgba(31, 78, 121, 0.28)',
+				  borderWidth: 1,
+				  borderRadius: 4,
 				  borderSkipped: false,
+				  barPercentage: 0.45,
+				  categoryPercentage: 0.7,
+				  order: 2
+				},
+				{
+				  type: 'line',
+				  label: 'medián',
+				  data: odborMedians,
+				  showLine: false,
+				  pointStyle: 'circle',
+				  pointRadius: 4.5,
+				  pointHoverRadius: 6,
+				  pointBackgroundColor: '#1f4e79',
+				  pointBorderColor: '#1f4e79',
+				  order: 1
 				}
 			  ]
 			};
@@ -512,11 +613,16 @@ title: Statistiky
       tooltip: {
         mode: 'index',
         intersect: false,
+        filter: function(item) { return item.datasetIndex === 0; },
         callbacks: {
+          label: function(ctx) {
+            var i = ctx.dataIndex;
+            return 'min ' + odborMins[i] + ' · medián ' + odborMedians[i] + ' · max ' + odborMaxs[i];
+          },
           afterBody: function(items) {
             if (!items || !items.length) return '';
             var i = items[0].dataIndex;
-            return 'počet: ' + odborCounts[i];
+            return 'počet ' + odborCounts[i];
           }
         }
       },
@@ -527,7 +633,7 @@ title: Statistiky
         ticks: { maxRotation: 40, minRotation: 0, autoSkip: false }
       },
       y: {
-        title: { display: true, text: 'medián h-index' },
+        title: { display: true, text: 'h-index' },
         beginAtZero: true
       }
     }
@@ -694,26 +800,5 @@ title: Statistiky
       </div>
 	</div>
 
-<div role="listitem" class="w-dyn-item">
-    <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-      <div class="row" align="center">
-        <p style="margin:12px 0;font-size:13px;line-height:18px;color:#666;">Ženy: {{ site.data.page.woman }} · Muži: {{ site.data.page.man }}</p>
-      </div>
-    </div>
-
-<div role="listitem" class="w-dyn-item">
-      <div class="post-wrapper" style="opacity: 1;">
-        <div class="row" align="center">
-        <details class="odbor-key" style="max-width:900px;margin:18px auto 0;text-align:left;font-size:13px;line-height:1.45;color:#666;">
-          <summary style="cursor:pointer;color:#666;">Zloženie oblastí</summary>
-          <ul style="margin:8px 0 0;padding-left:1.2em;">
-          {% for g in site.data.page.odbor_key %}
-            <li style="margin:0 0 6px 0;"><strong>{{ g.area }}:</strong> {{ g.fields | join: ", " }}</li>
-          {% endfor %}
-          </ul>
-        </details>
-        </div>
-      </div>
-	</div>
 
 </div>
