@@ -307,13 +307,6 @@ Bonn | Nemecko:
   lon: 7.1024635
   display: Bonn, North Rhine-Westphalia, Germany
   query: Bonn
-Bratslava | Slovensko:
-  city: Bratslava
-  country: Slovensko
-  lat: null
-  lon: null
-  skip: true
-  reason: no nominatim hit
 "Brisbane | Austr\xE1lia":
   city: Brisbane
   country: "Austr\xE1lia"

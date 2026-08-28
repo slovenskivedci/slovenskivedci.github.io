@@ -932,7 +932,7 @@ year_hindex_xy: "[{x:1952,y:269,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ Chmel\xEDk',id:'Chmelik:Slovensko:Presovska_univerzita:Presov:vedec:magneticka_rezonancia:muz'},{x:1977,y:38,name:'\u013D\
   ubo\u0161 Dani\u0161ovi\u010D',id:'Danisovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:tkanivove_inzinierstvo:muz'},{x:1968,y:38,name:'Jarko\
   \ Fidrmuc',id:'Fidrmuc:Nemecko:Zeppelin_University:Friedrichshafen:profesor:medzinarodna_ekonomia:muz'},{x:1960,y:38,name:'O\u013E\
-  ga Kri\u017Eanov\xE1',id:'Krizanova:Slovensko:Slovenska_akademia_vied:Bratslava:profesorka:lekarska_chemia_a_biochemia:zena'},{x:1967,y:38,name:'Miroslav\
+  ga Kri\u017Eanov\xE1',id:'Krizanova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:lekarska_chemia_a_biochemia:zena'},{x:1967,y:38,name:'Miroslav\
   \ Ove\u010Dka',id:'Ovecka:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:profesor:molekularna_a_bunkova_biologia:muz'},{x:1981,y:38,name:'\u013D\
   udov\xEDt Paulis',id:'Paulis:Slovensko:Univerzita_Komenskeho:Bratislava:odborny_asistent:patofyziologia:muz'},{x:1951,y:38,name:'Martin\
   \ Rusn\xE1k',id:'Rusnak:Slovensko:Trnavska_univerzita:Trnava:profesor:verejne_zdravotnictvo:muz'},{x:1954,y:38,name:'Milan\
@@ -1239,7 +1239,7 @@ placeCount: '[188,166]'
 placeMin: '[30,30]'
 placeAvg: '[45.3,52.8]'
 placeMax: '[269,257]'
-city_markers: "[{name:'Bratislava',country:'Slovensko',count:132,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
+city_markers: "[{name:'Bratislava',country:'Slovensko',count:133,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
   ice',country:'Slovensko',count:24,lat:48.7172272,lon:21.2496774,url:'Kosice'},{name:'Praha',country:'\u010C\
   esko',count:13,lat:50.0874654,lon:14.4212535,url:'Praha'},{name:'Viede\u0148',country:'Rak\xFA\
   sko',count:10,lat:48.2083537,lon:16.3725042,url:'Vieden'},{name:'Brno',country:'\u010C\

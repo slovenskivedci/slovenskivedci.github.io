@@ -8,16 +8,31 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
         <div class="row" align="center">
-          <p style="margin:12px 0 4px;font-weight:600;font-size:16px;color:#111827;">Počet vedcov a vedkýň podľa krajiny a mesta pôsobenia</p>
+          <p class="sv-plot-title">Počet vedcov a vedkýň podľa krajiny a mesta pôsobenia</p>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
           <style>
 #countryWorldMap { width: 100%; height: 280px; margin: 12px auto 0; }
 
 .sv-chart { width: 100%; max-width: 920px; height: 260px; margin: 0 auto; }
+.sv-plot-title {
+  margin: 12px 0 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111827;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: center;
+}
 .sv-chart-workplace { height: 420px; }
 .sv-chart-lollipop-area { height: 340px; }
 .sv-chart-lollipop-decade { height: 220px; }
-.sv-chart-treemap { height: 360px; max-width: 920px; margin: 0 auto; }
+.sv-field-share { width: 100%; max-width: 920px; margin: 8px auto 0; text-align: left; font-family: "Open Sans", Arial, sans-serif; }
+.sv-field-share-row { display: grid; grid-template-columns: minmax(120px, 200px) 1fr auto; align-items: center; gap: 12px; padding: 4px 0; cursor: pointer; }
+.sv-field-share-row:hover .sv-field-share-name { color: #1f4e79; }
+.sv-field-share-name { font-size: 13px; line-height: 18px; color: #111827; }
+.sv-field-share-track { height: 10px; background: #eef2f6; border-radius: 999px; overflow: hidden; }
+.sv-field-share-bar { display: block; height: 100%; border-radius: 999px; min-width: 2px; }
+.sv-field-share-stat { font-size: 13px; line-height: 18px; color: #666; white-space: nowrap; text-align: right; min-width: 4.5em; }
 .sv-chart-donut { width: 220px; height: 220px; margin: 0 auto; }
 .sv-chart-pair { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
 .sv-chart-pair .sv-chart { flex: 1 1 360px; max-width: 460px; }
@@ -26,17 +41,14 @@ title: Statistiky
   .sv-chart-workplace { height: 420px; }
   .sv-chart-lollipop-area { height: 340px; }
   .sv-chart-lollipop-decade { height: 220px; }
-  .sv-chart-treemap { height: 300px; }
+  .sv-field-share-row { grid-template-columns: minmax(96px, 1fr) 1.4fr auto; gap: 8px; }
   #countryWorldMap { height: 220px !important; }
 }
 
 .country-map-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #374151; }
 .country-map-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #bbf7d0, #14532d); }
-.treemap-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #666; }
-.treemap-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #d6e4f0, #1f4e79); }
-#fieldTreemap { width: 100%; height: 100%; display: block; }
-#fieldTreemap rect { cursor: pointer; stroke: #fff; stroke-width: 2; }
-#fieldTreemap text { font: 12px Open Sans, sans-serif; pointer-events: none; }
+.sv-median-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #666; }
+.sv-median-legend-bar { display: inline-block; width: 140px; height: 10px; border-radius: 999px; background: linear-gradient(to right, #d6e4f0, #1f4e79); }
 </style>
           <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
@@ -124,6 +136,7 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
+          <p class="sv-plot-title">Najvyšší h-index v oblasti</p>
           <div class="sv-chart sv-chart-lollipop-area"><canvas id="chartRecordArea"></canvas></div>
           <script>
           (function () {
@@ -170,20 +183,23 @@ title: Statistiky
                 indexAxis: "y",
                 responsive: true,
                 maintainAspectRatio: false,
-                layout: { padding: { right: 168 } },
-                onHover: function(evt, elements) {
+                layout: { padding: { right: 220 } },
+                interaction: { mode: "index", intersect: false, axis: "y" },
+                onHover: function(evt, _els, chart) {
+                  var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
                   var t = evt && evt.native && evt.native.target;
-                  if (t) t.style.cursor = elements.length ? "pointer" : "default";
+                  if (t) t.style.cursor = els.length ? "pointer" : "default";
                 },
-                onClick: function(evt, elements) {
-                  if (!elements || !elements.length) return;
-                  var rec = records[elements[0].index];
+                onClick: function(evt, _els, chart) {
+                  var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
+                  if (!els.length) return;
+                  var rec = records[els[0].index];
                   if (rec && rec.id) window.location.href = "/#" + encodeURI(rec.id);
                 },
                 plugins: {
                   legend: { display: false },
-                  title: { display: true, text: "Najvyšší h-index v oblasti", color: "#111827", font: { size: 16, weight: "600", family: "Open Sans, sans-serif" } },
-                  tooltip: { callbacks: { label: function(ctx) { var r = records[ctx.dataIndex] || {}; return (r.name || "") + " · h " + r.h; } } }
+                  title: { display: false },
+                  tooltip: { mode: "index", intersect: false, axis: "y", callbacks: { title: function(items) { var r = records[(items[0] && items[0].dataIndex) || 0] || {}; return r.name || ""; }, label: function(ctx) { var r = records[ctx.dataIndex] || {}; return "h-index " + r.h; } } }
                 },
                 scales: {
                   x: { beginAtZero: true, title: { display: true, text: "h-index", color: "#666", font: { size: 12 } }, ticks: { color: "#666", font: { size: 11 } }, grid: { color: "rgba(0,0,0,0.06)" } },
@@ -200,6 +216,7 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
+          <p class="sv-plot-title">Najvyšší h-index podľa desaťročia narodenia</p>
           <div class="sv-chart sv-chart-lollipop-decade"><canvas id="chartRecordDecade"></canvas></div>
           <script>
           (function () {
@@ -246,20 +263,23 @@ title: Statistiky
                 indexAxis: "y",
                 responsive: true,
                 maintainAspectRatio: false,
-                layout: { padding: { right: 168 } },
-                onHover: function(evt, elements) {
+                layout: { padding: { right: 220 } },
+                interaction: { mode: "index", intersect: false, axis: "y" },
+                onHover: function(evt, _els, chart) {
+                  var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
                   var t = evt && evt.native && evt.native.target;
-                  if (t) t.style.cursor = elements.length ? "pointer" : "default";
+                  if (t) t.style.cursor = els.length ? "pointer" : "default";
                 },
-                onClick: function(evt, elements) {
-                  if (!elements || !elements.length) return;
-                  var rec = records[elements[0].index];
+                onClick: function(evt, _els, chart) {
+                  var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
+                  if (!els.length) return;
+                  var rec = records[els[0].index];
                   if (rec && rec.id) window.location.href = "/#" + encodeURI(rec.id);
                 },
                 plugins: {
                   legend: { display: false },
-                  title: { display: true, text: "Najvyšší h-index podľa desaťročia narodenia", color: "#111827", font: { size: 16, weight: "600", family: "Open Sans, sans-serif" } },
-                  tooltip: { callbacks: { label: function(ctx) { var r = records[ctx.dataIndex] || {}; return (r.name || "") + " · h " + r.h; } } }
+                  title: { display: false },
+                  tooltip: { mode: "index", intersect: false, axis: "y", callbacks: { title: function(items) { var r = records[(items[0] && items[0].dataIndex) || 0] || {}; return r.name || ""; }, label: function(ctx) { var r = records[ctx.dataIndex] || {}; return "h-index " + r.h; } } }
                 },
                 scales: {
                   x: { beginAtZero: true, title: { display: true, text: "h-index", color: "#666", font: { size: 12 } }, ticks: { color: "#666", font: { size: 11 } }, grid: { color: "rgba(0,0,0,0.06)" } },
@@ -279,6 +299,7 @@ title: Statistiky
 
         <div class="row" align="center">
            
+          <p class="sv-plot-title">H-index podľa roku narodenia</p>
           <div class="sv-chart"><canvas id="myChartYearHindex"></canvas></div>
 		<script>
 			const ctxmyChartYearHindex = document.getElementById('myChartYearHindex');
@@ -307,10 +328,7 @@ title: Statistiky
       legend: {
         position: 'top',
       },
-      title: {
-        display: true,
-        text: 'H-index podľa roku narodenia'
-      },
+      title: { display: false },
       tooltip: {
         callbacks: {
           label: function(ctx) {
@@ -368,9 +386,9 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
-          <p style="margin:12px 0 4px;font-weight:600;font-size:16px;color:#111827;">Zastúpenie oblastí</p>
-          <div class="sv-chart-treemap"><svg id="fieldTreemap" viewBox="0 0 920 360" preserveAspectRatio="none"></svg></div>
-          <div class="treemap-legend" aria-hidden="true"><span>nižší medián h</span><span class="treemap-legend-bar"></span><span>vyšší medián h</span></div>
+          <p class="sv-plot-title">Zastúpenie oblastí</p>
+          <div class="sv-field-share" id="fieldShare"></div>
+          <div class="sv-median-legend" aria-hidden="true"><span>nižší medián h</span><span class="sv-median-legend-bar"></span><span>vyšší medián h</span></div>
           <script>
           (function () {
             var labels = {{ site.data.page.odbor }};
@@ -378,108 +396,50 @@ title: Statistiky
             var medians = {{ site.data.page.odborMedian }};
             var urls = {{ site.data.page.odborUrl }};
             var items = [];
+            var total = 0;
             var minM = Infinity, maxM = -Infinity;
             for (var i = 0; i < labels.length; i++) {
               var c = Number(counts[i]) || 0;
               var m = Number(medians[i]) || 0;
               if (c <= 0) continue;
               items.push({ name: labels[i], count: c, median: m, url: urls[i] });
+              total += c;
               if (m < minM) minM = m;
               if (m > maxM) maxM = m;
             }
+            items.sort(function (a, b) { return b.count - a.count; });
             function mix(t) {
               var a = [214, 228, 240], b = [31, 78, 121];
               var u = Math.max(0, Math.min(1, t));
               return "rgb(" + Math.round(a[0]+(b[0]-a[0])*u) + "," + Math.round(a[1]+(b[1]-a[1])*u) + "," + Math.round(a[2]+(b[2]-a[2])*u) + ")";
             }
-            function lum(t) {
-              var a = [214, 228, 240], b = [31, 78, 121];
-              var u = Math.max(0, Math.min(1, t));
-              return 0.299*(a[0]+(b[0]-a[0])*u) + 0.587*(a[1]+(b[1]-a[1])*u) + 0.114*(a[2]+(b[2]-a[2])*u);
-            }
-            function worst(row, w) {
-              var s = 0, mx = 0, mn = Infinity;
-              for (var i = 0; i < row.length; i++) { s += row[i].count; if (row[i].count > mx) mx = row[i].count; if (row[i].count < mn) mn = row[i].count; }
-              var s2 = s*s, w2 = w*w;
-              return Math.max((w2*mx)/s2, s2/(w2*mn));
-            }
-            function layoutRow(row, x, y, w, h, vertical) {
-              var s = 0, out = [];
-              for (var i = 0; i < row.length; i++) s += row[i].count;
-              if (vertical) {
-                var yy = y;
-                for (var j = 0; j < row.length; j++) { var hh = h * (row[j].count / s); out.push({ item: row[j], x: x, y: yy, w: w, h: hh }); yy += hh; }
-              } else {
-                var xx = x;
-                for (var k = 0; k < row.length; k++) { var ww = w * (row[k].count / s); out.push({ item: row[k], x: xx, y: y, w: ww, h: h }); xx += ww; }
-              }
-              return out;
-            }
-            function squarify(nodes, x, y, w, h) {
-              var rects = [];
-              nodes = nodes.slice();
-              while (nodes.length) {
-                var vertical = h > w;
-                var side = vertical ? h : w;
-                var row = [nodes[0]];
-                var rest = nodes.slice(1);
-                while (rest.length) {
-                  var trial = row.concat([rest[0]]);
-                  if (worst(trial, side) <= worst(row, side)) { row = trial; rest = rest.slice(1); } else break;
-                }
-                var sumRow = 0, sumAll = 0;
-                for (var i = 0; i < row.length; i++) sumRow += row[i].count;
-                for (var j = 0; j < row.length; j++) sumAll += row[j].count;
-                for (var k = 0; k < rest.length; k++) sumAll += rest[k].count;
-                if (vertical) {
-                  var thick = w * (sumRow / sumAll);
-                  rects = rects.concat(layoutRow(row, x, y, thick, h, true));
-                  x += thick; w -= thick;
-                } else {
-                  var thickH = h * (sumRow / sumAll);
-                  rects = rects.concat(layoutRow(row, x, y, w, thickH, false));
-                  y += thickH; h -= thickH;
-                }
-                nodes = rest;
-              }
-              return rects;
-            }
-            var rects = squarify(items, 0, 0, 920, 360);
-            var svg = document.getElementById("fieldTreemap");
-            var ns = "http://www.w3.org/2000/svg";
-            rects.forEach(function (r) {
-              var t = (maxM === minM) ? 0.5 : (r.item.median - minM) / (maxM - minM);
-              var g = document.createElementNS(ns, "g");
-              var rect = document.createElementNS(ns, "rect");
-              rect.setAttribute("x", r.x); rect.setAttribute("y", r.y);
-              rect.setAttribute("width", Math.max(0, r.w)); rect.setAttribute("height", Math.max(0, r.h));
-              rect.setAttribute("fill", mix(t));
-              var title = document.createElementNS(ns, "title");
-              title.textContent = r.item.name + ": " + r.item.count + " · medián h " + r.item.median;
-              rect.appendChild(title);
-              g.appendChild(rect);
-              var ink = lum(t) < 140 ? "#fff" : "#1f4e79";
-              if (r.w > 70 && r.h > 28) {
-                var tx = document.createElementNS(ns, "text");
-                tx.setAttribute("x", r.x + 8); tx.setAttribute("y", r.y + 18);
-                tx.setAttribute("fill", ink); tx.textContent = r.item.name;
-                g.appendChild(tx);
-                if (r.h > 42) {
-                  var tx2 = document.createElementNS(ns, "text");
-                  tx2.setAttribute("x", r.x + 8); tx2.setAttribute("y", r.y + 34);
-                  tx2.setAttribute("fill", ink); tx2.textContent = String(r.item.count);
-                  g.appendChild(tx2);
-                }
-              } else if (r.w > 36 && r.h > 20) {
-                var tx3 = document.createElementNS(ns, "text");
-                tx3.setAttribute("x", r.x + 6); tx3.setAttribute("y", r.y + r.h / 2 + 4);
-                tx3.setAttribute("fill", ink); tx3.textContent = String(r.item.count);
-                g.appendChild(tx3);
-              }
-              g.addEventListener("click", function () {
-                if (r.item.url) window.location.href = "/?area=" + encodeURIComponent(r.item.url);
+            var root = document.getElementById("fieldShare");
+            items.forEach(function (item) {
+              var t = (maxM === minM) ? 0.5 : (item.median - minM) / (maxM - minM);
+              var rawPct = total ? (100 * item.count / total) : 0;
+              var pctLabel = (rawPct < 1 && item.count > 0) ? "<1%" : (Math.round(rawPct) + "%");
+              var row = document.createElement("div");
+              row.className = "sv-field-share-row";
+              var name = document.createElement("div");
+              name.className = "sv-field-share-name";
+              name.textContent = item.name;
+              var track = document.createElement("div");
+              track.className = "sv-field-share-track";
+              var bar = document.createElement("span");
+              bar.className = "sv-field-share-bar";
+              bar.style.width = (total ? (100 * item.count / total) : 0) + "%";
+              bar.style.background = mix(t);
+              track.appendChild(bar);
+              var stat = document.createElement("div");
+              stat.className = "sv-field-share-stat";
+              stat.textContent = item.count + " · " + pctLabel;
+              row.appendChild(name);
+              row.appendChild(track);
+              row.appendChild(stat);
+              row.addEventListener("click", function () {
+                if (item.url) window.location.href = "/?area=" + encodeURIComponent(item.url);
               });
-              svg.appendChild(g);
+              root.appendChild(row);
             });
           })();
           </script>
@@ -491,6 +451,7 @@ title: Statistiky
       <div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 
         <div class="row" align="center">
+            <p class="sv-plot-title">H-index a počet podľa oblasti</p>
             <div class="sv-chart"><canvas id="myChartOdbor"></canvas></div>
 
 
@@ -565,10 +526,7 @@ title: Statistiky
           }
         }
       },
-      title: {
-        display: true,
-        text: 'H-index a počet podľa oblasti'
-      }
+      title: { display: false }
     },
     scales: {
       x: {
@@ -594,6 +552,7 @@ title: Statistiky
 
         <div class="row" align="center">
                
+            <p class="sv-plot-title">Počet vedcov a vedkýň podľa pracoviska</p>
             <div class="sv-chart sv-chart-workplace"><canvas id="myChartCountByWorkplace"></canvas></div>
 
 
@@ -614,7 +573,7 @@ title: Statistiky
 			  labels: labelsWp,
 			  datasets: [
 				{
-				  label: 'Count',
+				  label: 'počet',
 				  data: countsWp,
 				  borderColor: 'rgba(180, 83, 9, 0.2)',
 				  backgroundColor: 'rgba(217, 119, 6, 1)',
@@ -637,10 +596,7 @@ title: Statistiky
       legend: {
         position: 'top',
       },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa pracoviska'
-      }
+      title: { display: false }
     },
     scales: {
       x: { beginAtZero: true }
@@ -663,6 +619,7 @@ title: Statistiky
         <div class="row" align="center">
            
           <div class="sv-chart-pair">
+<p class="sv-plot-title">Počet vedcov a vedkýň podľa h-indexu</p>
 <div class="sv-chart"><canvas id="myChartHindex"></canvas></div>
 		<script>
 			const ctxmyChartHindex = document.getElementById('myChartHindex');
@@ -672,7 +629,7 @@ title: Statistiky
 			  labels:{{ site.data.page.hindex_hist_x }} ,
 			  datasets: [
 				{
-				  label: 'Count',
+				  label: 'počet',
 				  data: {{ site.data.page.hindex_hist_count }},
 				  borderColor: 'rgba(255, 99, 132, 0.2)',
 				  backgroundColor: 'rgba(255, 99, 132, 1)',
@@ -694,14 +651,12 @@ title: Statistiky
       legend: {
         position: 'top',
       },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa h-indexu (histogram)'
-      }
+      title: { display: false }
     }
   },
 });
 			</script> 
+<p class="sv-plot-title">Počet vedcov a vedkýň podľa roku narodenia</p>
 <div class="sv-chart"><canvas id="myChartYearHist"></canvas></div>
 		<script>
 			const ctxmyChartYearHist = document.getElementById('myChartYearHist');
@@ -711,7 +666,7 @@ title: Statistiky
 			  labels:{{ site.data.page.year_hist_x }} ,
 			  datasets: [
 				{
-				  label: 'Count',
+				  label: 'počet',
 				  data: {{ site.data.page.year_hist_count }},
 				  borderColor: 'rgba(20, 184, 166, 0.2)',
 				  backgroundColor: 'rgba(20, 184, 166, 1)',
@@ -733,10 +688,7 @@ title: Statistiky
       legend: {
         position: 'top',
       },
-      title: {
-        display: true,
-        text: 'Počet vedcov a vedkýň podľa roku narodenia (histogram)'
-      }
+      title: { display: false }
     }
   },
 });
