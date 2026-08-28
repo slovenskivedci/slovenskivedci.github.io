@@ -18,7 +18,11 @@ stats={
 
 #os.system("rm country_*")
 #os.system("rm affiliation_*")
-os.system("rm _data/*yaml")
+# Keep _data/city_coords.yaml (Nominatim cache). Only rebuild generated files.
+for _gen in ("all.yaml", "page.yaml"):
+	_gp = os.path.join("_data", _gen)
+	if os.path.exists(_gp):
+		os.remove(_gp)
 
 
 import unicodedata
@@ -350,6 +354,8 @@ stats["odborMin"]=odborMin
 stats["odborAvg"]=odborAvg
 stats["odborMax"]=odborMax
 stats["odborMedian"]=odborMedian
+odborUrl = "["+ ",".join([_js_str(repl(e[0].replace(" ","_"))) for e in rows])+"]"
+stats["odborUrl"]=odborUrl
 
 odbor_key = []
 members = stats.get("field_members") or {}
@@ -388,7 +394,143 @@ stats["placeMax"] = "[" + ",".join([_js_num(e[4]) for e in place_rows]) + "]"
 print("place", [(e[0], e[1], e[2], e[3], e[4]) for e in place_rows])
 
 
- 
+def person_card_id(person):
+	return ":".join([
+		str(person.get("last") or ""),
+		str(person.get("countryurl") or ""),
+		str(person.get("affiliationurl") or ""),
+		str(person.get("cityurl") or ""),
+		str(person.get("positionurl") or ""),
+		str(person.get("fieldurl") or ""),
+		str(person.get("sexurl") or ""),
+	])
+
+# City markers from Nominatim cache. No network here.
+city_counts = {}
+for person in alllst:
+	city = (person.get("city") or "").strip()
+	country = (person.get("country") or "").strip()
+	key = city + " | " + country
+	if key not in city_counts:
+		city_counts[key] = {
+			"city": city,
+			"country": country,
+			"cityurl": person.get("cityurl") or repl(city.replace(" ","_")),
+			"n": 0,
+		}
+	city_counts[key]["n"] += 1
+
+coords_cache = {}
+_coords_path = os.path.join("_data", "city_coords.yaml")
+if os.path.exists(_coords_path):
+	with open(_coords_path) as _cf:
+		loaded = yaml.safe_load(_cf) or {}
+		if isinstance(loaded, dict):
+			coords_cache = loaded
+
+def _coords_for(city, country, key):
+	rec = coords_cache.get(key)
+	if isinstance(rec, dict) and rec.get("lat") is not None and rec.get("lon") is not None:
+		return rec
+	for rec in coords_cache.values():
+		if not isinstance(rec, dict):
+			continue
+		if rec.get("city") == city and rec.get("country") == country:
+			return rec
+	return {}
+
+city_js = []
+skipped_cities = []
+for key, info in sorted(city_counts.items(), key=lambda e: (-e[1]["n"], repl(e[1]["city"]).lower(), repl(e[1]["country"]).lower())):
+	rec = _coords_for(info["city"], info["country"], key)
+	lat, lon = rec.get("lat"), rec.get("lon")
+	if lat is None or lon is None:
+		skipped_cities.append("%s / %s (n=%d)" % (info["city"], info["country"], info["n"]))
+		continue
+	city_js.append("{name:%s,country:%s,count:%d,lat:%s,lon:%s,url:%s}" % (
+		_js_str(info["city"]),
+		_js_str(info["country"]),
+		info["n"],
+		str(float(lat)),
+		str(float(lon)),
+		_js_str(info["cityurl"]),
+	))
+stats["city_markers"] = "[" + ",".join(city_js) + "]"
+print("city markers", len(city_js), "skipped", len(skipped_cities))
+for s in skipped_cities:
+	print("city skip", s)
+
+# Record holders: highest h-index per area and per birth decade.
+# alllst is already sorted by (-hindex, last); first at a given h wins.
+area_best = {}
+area_ties = {}
+for person in alllst:
+	area = person.get("area") or "ostatné"
+	h = int(person["hindex"])
+	cur = area_best.get(area)
+	if cur is None:
+		area_best[area] = person
+		area_ties[area] = [person]
+	elif h == int(cur["hindex"]):
+		area_ties[area].append(person)
+
+area_rec_rows = []
+for area, person in area_best.items():
+	pname = person.get("name") or person.get("last") or ""
+	area_rec_rows.append((int(person["hindex"]), repl(area).lower(), area, person, pname))
+area_rec_rows.sort(key=lambda e: (-e[0], e[1]))
+area_rec_js = []
+for h, _k, area, person, pname in area_rec_rows:
+	area_rec_js.append("{name:%s,h:%d,id:%s,area:%s}" % (
+		_js_str(pname),
+		h,
+		_js_str(person_card_id(person)),
+		_js_str(area),
+	))
+	tied = area_ties.get(area) or [person]
+	if len(tied) > 1:
+		print("record area TIE", area, [(p.get("name"), p.get("hindex")) for p in tied])
+	else:
+		print("record area", area, pname, h)
+stats["record_area"] = "[" + ",".join(area_rec_js) + "]"
+
+decade_best = {}
+decade_ties = {}
+decade_order = []
+for person in alllst:
+	y = parse_year(person.get("year"))
+	if y is None:
+		continue
+	dec = (y // 10) * 10
+	label = str(dec) + "s"
+	h = int(person["hindex"])
+	cur = decade_best.get(label)
+	if cur is None:
+		decade_best[label] = person
+		decade_ties[label] = [person]
+		decade_order.append(label)
+	elif h == int(cur["hindex"]):
+		decade_ties[label].append(person)
+
+decade_order = sorted(set(decade_order), key=lambda s: int(s[:-1]))
+decade_rec_js = []
+for label in decade_order:
+	person = decade_best[label]
+	pname = person.get("name") or person.get("last") or ""
+	decade_rec_js.append("{name:%s,h:%d,id:%s,decade:%s}" % (
+		_js_str(pname),
+		int(person["hindex"]),
+		_js_str(person_card_id(person)),
+		_js_str(label),
+	))
+	tied = decade_ties.get(label) or [person]
+	if len(tied) > 1:
+		print("record decade TIE", label, [(p.get("name"), p.get("hindex")) for p in tied])
+	else:
+		print("record decade", label, pname, person["hindex"])
+stats["record_decade"] = "[" + ",".join(decade_rec_js) + "]"
+
+
 with open(r'_data/page.yaml', 'w') as file:
 	documents = yaml.dump(stats, file)
  

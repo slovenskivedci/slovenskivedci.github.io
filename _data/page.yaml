@@ -1025,6 +1025,7 @@ odborMin: '[30,30,30,31,30,31,31,30,31,32,35,33,30]'
 odborAvg: '[51.3,62.3,42.7,47.1,44.9,38.6,43.3,44.4,39.6,45.3,51.1,44.1,30.0]'
 odborMax: '[110,269,65,106,95,52,92,73,82,58,79,55,30]'
 odborMedian: '[49.0,44.0,40.5,42.0,39.5,37.0,40.5,40.0,35.0,45.0,46.0,43.0,30.0]'
+odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''informatika'',''ekonomia_a_manazment'',''geovedy'',''inzinierstvo'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'',''ostatne'']'
 odbor_key:
 - area: "medic\xEDna"
   fields:
@@ -1238,3 +1239,78 @@ placeCount: '[188,166]'
 placeMin: '[30,30]'
 placeAvg: '[45.3,52.8]'
 placeMax: '[269,257]'
+city_markers: "[{name:'Bratislava',country:'Slovensko',count:132,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
+  ice',country:'Slovensko',count:24,lat:48.7172272,lon:21.2496774,url:'Kosice'},{name:'Praha',country:'\u010C\
+  esko',count:13,lat:50.0874654,lon:14.4212535,url:'Praha'},{name:'Viede\u0148',country:'Rak\xFA\
+  sko',count:10,lat:48.2083537,lon:16.3725042,url:'Vieden'},{name:'Brno',country:'\u010C\
+  esko',count:9,lat:49.1922443,lon:16.6113382,url:'Brno'},{name:'Nitra',country:'Slovensko',count:7,lat:48.31295,lon:18.0894593,url:'Nitra'},{name:'Olomouc',country:'\u010C\
+  esko',count:7,lat:49.5940567,lon:17.251143,url:'Olomouc'},{name:'Trnava',country:'Slovensko',count:6,lat:48.3767652,lon:17.5858175,url:'Trnava'},{name:'Zvolen',country:'Slovensko',count:6,lat:48.5782517,lon:19.1247135,url:'Zvolen'},{name:'\u017D\
+  ilina',country:'Slovensko',count:5,lat:49.2234674,lon:18.7393139,url:'Zilina'},{name:'Melbourne',country:'Austr\xE1\
+  lia',count:4,lat:-37.8142454,lon:144.9631732,url:'Melbourne'},{name:'Z\xFCrich',country:'\u0160\
+  vaj\u010Diarsko',count:4,lat:47.3744489,lon:8.5410422,url:'Zurich'},{name:'Berkeley',country:'USA',count:3,lat:37.8708393,lon:-122.272863,url:'Berkeley'},{name:'Bethesda',country:'USA',count:3,lat:38.9846816,lon:-77.0942447,url:'Bethesda'},{name:'New\
+  \ York',country:'USA',count:3,lat:40.7127281,lon:-74.0060152,url:'New_York'},{name:'Ottawa',country:'Kanada',count:3,lat:45.4208777,lon:-75.6901106,url:'Ottawa'},{name:'Pre\u0161\
+  ov',country:'Slovensko',count:3,lat:49.0000074,lon:21.2392122,url:'Presov'},{name:'Seattle',country:'USA',count:3,lat:47.6038321,lon:-122.330062,url:'Seattle'},{name:'Toronto',country:'Kanada',count:3,lat:43.6534817,lon:-79.3839347,url:'Toronto'},{name:'Abu\
+  \ Dhabi',country:'Spojen\xE9 arabsk\xE9 emir\xE1ty',count:2,lat:24.4538352,lon:54.3774014,url:'Abu_Dhabi'},{name:'Adelaide',country:'Austr\xE1\
+  lia',count:2,lat:-34.9281805,lon:138.5999312,url:'Adelaide'},{name:'Columbia',country:'USA',count:2,lat:38.951883,lon:-92.3337366,url:'Columbia'},{name:'Delft',country:'Holandsko',count:2,lat:52.0114017,lon:4.35839,url:'Delft'},{name:'Doha',country:'Katar',count:2,lat:25.2856329,lon:51.5264162,url:'Doha'},{name:'Filadelfia',country:'USA',count:2,lat:39.9527237,lon:-75.1635262,url:'Filadelfia'},{name:'Glasgow',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:2,lat:55.861155,lon:-4.2501687,url:'Glasgow'},{name:'Oxford',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:2,lat:51.7520131,lon:-1.2578499,url:'Oxford'},{name:'Perth',country:'Austr\xE1\
+  lia',count:2,lat:-31.9558967,lon:115.8605784,url:'Perth'},{name:'Raleigh',country:'USA',count:2,lat:35.7803977,lon:-78.6390989,url:'Raleigh'},{name:'San\
+  \ Diego',country:'USA',count:2,lat:32.7174202,lon:-117.162772,url:'San_Diego'},{name:'Stavanger',country:'N\xF3\
+  rsko',count:2,lat:58.9699675,lon:5.7318101,url:'Stavanger'},{name:'Sydney',country:'Austr\xE1\
+  lia',count:2,lat:-33.8698439,lon:151.2082848,url:'Sydney'},{name:'Thuwal',country:'Saudsk\xE1\
+  \ Ar\xE1bia',count:2,lat:22.2833454,lon:39.1128145,url:'Thuwal'},{name:'Uppsala',country:'\u0160\
+  v\xE9dsko',count:2,lat:59.8586126,lon:17.6387436,url:'Uppsala'},{name:'Aachen',country:'Nemecko',count:1,lat:50.776351,lon:6.083862,url:'Aachen'},{name:'Aalborg',country:'D\xE1\
+  nsko',count:1,lat:57.0462626,lon:9.9215263,url:'Aalborg'},{name:'Aalst',country:'Belgicko',count:1,lat:50.9383226,lon:4.0392147,url:'Aalst'},{name:'Antwerpy',country:'Belgicko',count:1,lat:51.2211097,lon:4.3997081,url:'Antwerpy'},{name:'Atlanta',country:'USA',count:1,lat:33.7544657,lon:-84.3898151,url:'Atlanta'},{name:'Bansk\xE1\
+  \ Bystrica',country:'Slovensko',count:1,lat:48.735429,lon:19.1457338,url:'Banska_Bystrica'},{name:'Basel',country:'\u0160\
+  vaj\u010Diarsko',count:1,lat:47.5581077,lon:7.5878261,url:'Basel'},{name:'Birmingham',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:1,lat:52.4948994,lon:-1.8518439,url:'Birmingham'},{name:'Bloomington',country:'USA',count:1,lat:39.1670396,lon:-86.5342881,url:'Bloomington'},{name:'Bonn',country:'Nemecko',count:1,lat:50.7352621,lon:7.1024635,url:'Bonn'},{name:'Brisbane',country:'Austr\xE1\
+  lia',count:1,lat:-27.4689623,lon:153.0235009,url:'Brisbane'},{name:'Britsk\xE1 Kolumbia',country:'Kanada',count:1,lat:55.001251,lon:-125.002441,url:'Britska_Kolumbia'},{name:'Burnaby',country:'Kanada',count:1,lat:49.2433804,lon:-122.972545,url:'Burnaby'},{name:'Cardiff',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:1,lat:51.4816546,lon:-3.1791934,url:'Cardiff'},{name:'Chicago',country:'USA',count:1,lat:41.8755616,lon:-87.6244212,url:'Chicago'},{name:'Corvallis',country:'USA',count:1,lat:44.5645659,lon:-123.2620435,url:'Corvallis'},{name:'Darmstadt',country:'Nemecko',count:1,lat:49.872775,lon:8.651177,url:'Darmstadt'},{name:'Dortmund',country:'Nemecko',count:1,lat:51.5142273,lon:7.4652789,url:'Dortmund'},{name:'Dublin',country:'\xCD\
+  rsko',count:1,lat:53.3493795,lon:-6.2605593,url:'Dublin'},{name:'Dubna',country:'Rusk\xE1\
+  \ feder\xE1cia',count:1,lat:56.7362705,lon:37.1623696,url:'Dubna'},{name:'Edinburg',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:1,lat:55.9533456,lon:-3.1883749,url:'Edinburg'},{name:'Essex/Colchester',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:1,lat:51.8896903,lon:0.8994651,url:'Essex/Colchester'},{name:'Fairfax',country:'USA',count:1,lat:38.8462236,lon:-77.3063733,url:'Fairfax'},{name:'Fribourg',country:'\u0160\
+  vaj\u010Diarsko',count:1,lat:46.8055656,lon:7.1612669,url:'Fribourg'},{name:'Friedrichshafen',country:'Nemecko',count:1,lat:47.6500279,lon:9.4800858,url:'Friedrichshafen'},{name:'Gent',country:'Belgium',count:1,lat:51.0538286,lon:3.7250121,url:'Gent'},{name:'Groningen',country:'Holandsko',count:1,lat:53.2190652,lon:6.5680077,url:'Groningen'},{name:'Hamilton',country:'Kanada',count:1,lat:43.2560802,lon:-79.8728583,url:'Hamilton'},{name:'Hannover',country:'Nemecko',count:1,lat:52.3744779,lon:9.7385532,url:'Hannover'},{name:'J\xFC\
+  lich',country:'Nemecko',count:1,lat:50.9220931,lon:6.3611015,url:'Julich'},{name:'Karlsruhe',country:'Nemecko',count:1,lat:49.0068705,lon:8.4034195,url:'Karlsruhe'},{name:'Kjeller',country:'N\xF3\
+  rsko',count:1,lat:59.9738693,lon:11.0475937,url:'Kjeller'},{name:'Klosterneuburg',country:'Rak\xFA\
+  sko',count:1,lat:48.30499,lon:16.323756,url:'Klosterneuburg'},{name:'Laxenburg',country:'Rak\xFA\
+  sko',count:1,lat:48.0686831,lon:16.3561206,url:'Laxenburg'},{name:'Leoben',country:'Rak\xFA\
+  sko',count:1,lat:47.3805128,lon:15.0947756,url:'Leoben'},{name:'Lille',country:'Franc\xFA\
+  zsko',count:1,lat:50.6365654,lon:3.0635282,url:'Lille'},{name:'London',country:'Kanada',count:1,lat:42.9836747,lon:-81.2496068,url:'London'},{name:'Lond\xFD\
+  n',country:'Ve\u013Ek\xE1 Brit\xE1nia',count:1,lat:51.5074456,lon:-0.1277653,url:'Londyn'},{name:'Louisville',country:'USA',count:1,lat:38.2542376,lon:-85.759407,url:'Louisville'},{name:'Mainz',country:'Nemecko',count:1,lat:49.9995205,lon:8.2736253,url:'Mainz'},{name:'Mannheim',country:'Nemecko',count:1,lat:49.4892913,lon:8.4673098,url:'Mannheim'},{name:'Manoa',country:'USA',count:1,lat:21.3093848,lon:-157.8118169,url:'Manoa'},{name:'Marseille',country:'Franc\xFA\
+  zsko',count:1,lat:43.2963986,lon:5.3777888,url:'Marseille'},{name:'Martin',country:'Slovensko',count:1,lat:49.0724921,lon:18.929193,url:'Martin'},{name:'Menlo\
+  \ Park',country:'USA',count:1,lat:37.4519671,lon:-122.177992,url:'Menlo_Park'},{name:'Milwaukee',country:'USA',count:1,lat:43.0386475,lon:-87.9090751,url:'Milwaukee'},{name:'Montreal',country:'Kanada',count:1,lat:45.5031824,lon:-73.5698065,url:'Montreal'},{name:'Nashville',country:'USA',count:1,lat:36.1622767,lon:-86.7742984,url:'Nashville'},{name:'Notre\
+  \ Dame',country:'USA',count:1,lat:41.6992003,lon:-86.2373691,url:'Notre_Dame'},{name:'Ostrava',country:'\u010C\
+  esko',count:1,lat:49.8354045,lon:18.292978,url:'Ostrava'},{name:'Par\xED\u017E',country:'Franc\xFA\
+  zsko',count:1,lat:48.8534951,lon:2.3483915,url:'Pariz'},{name:'Pie\u0161\u0165any',country:'Slovensko',count:1,lat:48.5895247,lon:17.8213848,url:'Piestany'},{name:'Pittsburgh',country:'USA',count:1,lat:40.4406968,lon:-80.0025666,url:'Pittsburgh'},{name:'Plze\u0148\
+  ',country:'\u010Cesko',count:1,lat:49.7477415,lon:13.3775249,url:'Plzen'},{name:'Portland',country:'USA',count:1,lat:45.5202471,lon:-122.674194,url:'Portland'},{name:'Reading',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:1,lat:51.4564242,lon:-0.9700664,url:'Reading'},{name:'Regensburg',country:'Nemecko',count:1,lat:49.0195333,lon:12.0974869,url:'Regensburg'},{name:'Rockville',country:'USA',count:1,lat:39.0817985,lon:-77.1516844,url:'Rockville'},{name:'Salinas',country:'USA',count:1,lat:36.6744117,lon:-121.655037,url:'Salinas'},{name:'San\
+  \ Francisco',country:'USA',count:1,lat:37.7879363,lon:-122.4075201,url:'San_Francisco'},{name:'Sevilla',country:'\u0160\
+  panielsko',count:1,lat:37.3886303,lon:-5.9953403,url:'Sevilla'},{name:'Stockholm',country:'\u0160\
+  v\xE9dsko',count:1,lat:59.3251172,lon:18.0710935,url:'Stockholm'},{name:'Surrey',country:'Kanada',count:1,lat:49.1913033,lon:-122.849143,url:'Surrey'},{name:'Tallahassee',country:'USA',count:1,lat:30.4380832,lon:-84.2809332,url:'Tallahassee'},{name:'Tren\u010D\
+  \xEDn',country:'Slovensko',count:1,lat:48.8922719,lon:18.0387465,url:'Trencin'},{name:'Troms\xF8\
+  ',country:'N\xF3rsko',count:1,lat:69.6516345,lon:18.9558585,url:'Troms'},{name:'Tucson',country:'USA',count:1,lat:32.2228765,lon:-110.974847,url:'Tucson'},{name:'Turku',country:'F\xED\
+  nsko',count:1,lat:60.4515932,lon:22.2669991,url:'Turku'},{name:'Twin Cities',country:'USA',count:1,lat:44.9772995,lon:-93.2654692,url:'Twin_Cities'},{name:'Upton',country:'USA',count:1,lat:40.869543,lon:-72.8867697,url:'Upton'},{name:'Urbana-Champaign',country:'USA',count:1,lat:40.1117174,lon:-88.207301,url:'Urbana-Champaign'},{name:'Utrecht',country:'Holandsko',count:1,lat:52.0907006,lon:5.1215634,url:'Utrecht'},{name:'Wageningen',country:'Holandsko',count:1,lat:51.9663016,lon:5.6662814,url:'Wageningen'},{name:'Wak\u014D\
+  ',country:'Japonsko',count:1,lat:35.7817053,lon:139.6058692,url:'Wako'},{name:'\u017D\
+  eneva',country:'\u0160vaj\u010Diarsko',count:1,lat:46.2017559,lon:6.1466014,url:'Zeneva'}]"
+record_area: "[{name:'Stanislav Tok\xE1r',h:269,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',area:'fyzika'},{name:'Jozef\
+  \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',area:'medic\xED\
+  na'},{name:'Mari\xE1n Bresti\u010D',h:106,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
+  gia'},{name:'Kl\xE1ra Nahrstedt',h:95,id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:informatika:zena',area:'informatika'},{name:'J\xE1\
+  n Veizer',h:92,id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',area:'geovedy'},{name:'Radko\
+  \ Mesiar',h:82,id:'Mesiar:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',area:'matematika'},{name:'Ru\u017E\
+  ena Bajcsy',h:79,id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_umela_inteligencia:zena',area:'umel\xE1\
+  \ inteligencia'},{name:'Pavol Bauer',h:73,id:'Bauer:Holandsko:Delft_University_of_Technology:Delft:profesor:elektronika:muz',area:'in\u017E\
+  inierstvo'},{name:'Peter Biely',h:65,id:'Biely:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biochemia:muz',area:'ch\xE9\
+  mia'},{name:'Jozef Ke\u010Dk\xE9\u0161',h:58,id:'Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz',area:'materi\xE1\
+  ly'},{name:'Andrea Madarasov\xE1 Geckov\xE1',h:55,id:'Geckova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:socialna_psychologia:zena',area:'spolo\u010D\
+  ensk\xE9 vedy'},{name:'Tom\xE1\u0161 Klie\u0161tik',h:52,id:'Kliestik:Slovensko:Zilinska_univerzita:Zilina:profesor:financny_manazment:muz',area:'ekon\xF3\
+  mia a mana\u017Ement'},{name:'Demeter Krupka',h:30,id:'Krupka:Slovensko:Lepage_Research_Institute:Presov:profesor:diferencialna_geometria:muz',area:'ostatn\xE9\
+  '}]"
+record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',decade:'1930s'},{name:'Branislav\
+  \ Sit\xE1r',h:175,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
+  \ Tok\xE1r',h:269,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1950s'},{name:'Jozef\
+  \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',decade:'1960s'},{name:'Roman\
+  \ Lys\xE1k',h:257,id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',decade:'1970s'},{name:'Pavol\
+  \ Barto\u0161',h:235,id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',decade:'1980s'},{name:'Peter\
+  \ \u0160vihra',h:70,id:'Svihra:Svajciarsko:CERN:Zeneva:vedec:subjadrova_fyzika:muz',decade:'1990s'}]"

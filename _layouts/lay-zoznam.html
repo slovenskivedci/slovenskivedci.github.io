@@ -188,15 +188,31 @@
 		if (el) el.scrollIntoView();
 	  }
 
-	  (function applyCountryQuery(){
+	  (function applyListQuery(){
 		var params = new URLSearchParams(window.location.search);
 		var qCountry = params.get("country");
+		var qCity = params.get("city");
+		var qArea = params.get("area");
+		var changed = false;
 		if (qCountry) {
 		  $("#filter-country").html(qCountry);
 		  $(".toggle-country").removeClass("selected");
 		  $(".toggle-country-" + qCountry).addClass("selected");
-		  filter();
+		  changed = true;
 		}
+		if (qCity) {
+		  $("#filter-city").html(qCity);
+		  $(".toggle-city").removeClass("selected");
+		  $(".toggle-city-" + qCity).addClass("selected");
+		  changed = true;
+		}
+		if (qArea) {
+		  $("#filter-field").html(qArea);
+		  $(".toggle-field").removeClass("selected");
+		  $(".toggle-field-" + qArea).addClass("selected");
+		  changed = true;
+		}
+		if (changed) filter();
 		scrollToHash();
 	  })();
 

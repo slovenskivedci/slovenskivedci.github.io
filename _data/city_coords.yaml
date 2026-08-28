@@ -1,0 +1,778 @@
+Bratislava | Slovensko:
+  city: Bratislava
+  country: Slovensko
+  lat: 48.1516988
+  lon: 17.1093063
+  display: Bratislava, Region of Bratislava, Slovakia
+  query: Bratislava
+"Ko\u0161ice | Slovensko":
+  city: "Ko\u0161ice"
+  country: Slovensko
+  lat: 48.7172272
+  lon: 21.2496774
+  display: "Ko\u0161ice, Region of Ko\u0161ice, Slovakia"
+  query: Kosice
+"Praha | \u010Cesko":
+  city: Praha
+  country: "\u010Cesko"
+  lat: 50.0874654
+  lon: 14.4212535
+  display: Prague, Czechia
+  query: Prague
+"Viede\u0148 | Rak\xFAsko":
+  city: "Viede\u0148"
+  country: "Rak\xFAsko"
+  lat: 48.2083537
+  lon: 16.3725042
+  display: Vienna, Austria
+  query: Vienna
+"Brno | \u010Cesko":
+  city: Brno
+  country: "\u010Cesko"
+  lat: 49.1922443
+  lon: 16.6113382
+  display: "Brno, okres Brno-m\u011Bsto, South Moravian Region, Czechia"
+  query: Brno
+Nitra | Slovensko:
+  city: Nitra
+  country: Slovensko
+  lat: 48.31295
+  lon: 18.0894593
+  display: Nitra, District of Nitra, Region of Nitra, Slovakia
+  query: Nitra
+"Olomouc | \u010Cesko":
+  city: Olomouc
+  country: "\u010Cesko"
+  lat: 49.5940567
+  lon: 17.251143
+  display: Olomouc, okres Olomouc, Olomouc Region, Czechia
+  query: Olomouc
+Trnava | Slovensko:
+  city: Trnava
+  country: Slovensko
+  lat: 48.3767652
+  lon: 17.5858175
+  display: Trnava, District of Trnava, Region of Trnava, Slovakia
+  query: Trnava
+Zvolen | Slovensko:
+  city: Zvolen
+  country: Slovensko
+  lat: 48.5782517
+  lon: 19.1247135
+  display: "Zvolen, District of Zvolen, Region of Bansk\xE1 Bystrica, Slovakia"
+  query: Zvolen
+"\u017Dilina | Slovensko":
+  city: "\u017Dilina"
+  country: Slovensko
+  lat: 49.2234674
+  lon: 18.7393139
+  display: "\u017Dilina, District of \u017Dilina, Region of \u017Dilina, Slovakia"
+  query: Zilina
+"Melbourne | Austr\xE1lia":
+  city: Melbourne
+  country: "Austr\xE1lia"
+  lat: -37.8142454
+  lon: 144.9631732
+  display: Melbourne, Victoria, Australia
+  query: Melbourne
+"Z\xFCrich | \u0160vaj\u010Diarsko":
+  city: "Z\xFCrich"
+  country: "\u0160vaj\u010Diarsko"
+  lat: 47.3744489
+  lon: 8.5410422
+  display: Zurich, District Zurich, Zurich, Switzerland
+  query: Zurich
+Berkeley | USA:
+  city: Berkeley
+  country: USA
+  lat: 37.8708393
+  lon: -122.272863
+  display: Berkeley, Alameda County, California, United States
+  query: Berkeley
+Bethesda | USA:
+  city: Bethesda
+  country: USA
+  lat: 38.9846816
+  lon: -77.0942447
+  display: Bethesda, Montgomery County, Maryland, 22814, United States
+  query: Bethesda
+New York | USA:
+  city: New York
+  country: USA
+  lat: 40.7127281
+  lon: -74.0060152
+  display: New York, United States
+  query: New York
+Ottawa | Kanada:
+  city: Ottawa
+  country: Kanada
+  lat: 45.4208777
+  lon: -75.6901106
+  display: Ottawa, Eastern Ontario, Ontario, Canada
+  query: Ottawa
+"Pre\u0161ov | Slovensko":
+  city: "Pre\u0161ov"
+  country: Slovensko
+  lat: 49.0000074
+  lon: 21.2392122
+  display: "Pre\u0161ov, District of Pre\u0161ov, Region of Pre\u0161ov, Slovakia"
+  query: Presov
+Seattle | USA:
+  city: Seattle
+  country: USA
+  lat: 47.6038321
+  lon: -122.330062
+  display: Seattle, King County, Washington, United States
+  query: Seattle
+Toronto | Kanada:
+  city: Toronto
+  country: Kanada
+  lat: 43.6534817
+  lon: -79.3839347
+  display: Toronto, Golden Horseshoe, Ontario, Canada
+  query: Toronto
+"Abu Dhabi | Spojen\xE9 arabsk\xE9 emir\xE1ty":
+  city: Abu Dhabi
+  country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
+  lat: 24.4538352
+  lon: 54.3774014
+  display: Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates
+  query: Abu Dhabi
+"Adelaide | Austr\xE1lia":
+  city: Adelaide
+  country: "Austr\xE1lia"
+  lat: -34.9281805
+  lon: 138.5999312
+  display: Adelaide, South Australia, Australia
+  query: Adelaide
+Columbia | USA:
+  city: Columbia
+  country: USA
+  lat: 38.951883
+  lon: -92.3337366
+  display: Columbia, Columbia Township, Boone County, Missouri, United States
+  query: Columbia Missouri
+Delft | Holandsko:
+  city: Delft
+  country: Holandsko
+  lat: 52.0114017
+  lon: 4.35839
+  display: Delft, South Holland, Netherlands
+  query: Delft
+Doha | Katar:
+  city: Doha
+  country: Katar
+  lat: 25.2856329
+  lon: 51.5264162
+  display: Doha, Qatar
+  query: Doha
+Filadelfia | USA:
+  city: Filadelfia
+  country: USA
+  lat: 39.9527237
+  lon: -75.1635262
+  display: Philadelphia, Philadelphia County, Pennsylvania, United States
+  query: Philadelphia
+"Glasgow | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Glasgow
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 55.861155
+  lon: -4.2501687
+  display: Glasgow, Glasgow City, Scotland, G2 1AL, United Kingdom
+  query: Glasgow
+"Oxford | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Oxford
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.7520131
+  lon: -1.2578499
+  display: Oxford, Oxfordshire, England, United Kingdom
+  query: Oxford
+"Perth | Austr\xE1lia":
+  city: Perth
+  country: "Austr\xE1lia"
+  lat: -31.9558967
+  lon: 115.8605784
+  display: Perth, Western Australia, 6000, Australia
+  query: Perth
+Raleigh | USA:
+  city: Raleigh
+  country: USA
+  lat: 35.7803977
+  lon: -78.6390989
+  display: Raleigh, Wake County, North Carolina, United States
+  query: Raleigh
+San Diego | USA:
+  city: San Diego
+  country: USA
+  lat: 32.7174202
+  lon: -117.162772
+  display: San Diego, San Diego County, California, United States
+  query: San Diego
+"Stavanger | N\xF3rsko":
+  city: Stavanger
+  country: "N\xF3rsko"
+  lat: 58.9699675
+  lon: 5.7318101
+  display: Stavanger, Rogaland, Norway
+  query: Stavanger
+"Sydney | Austr\xE1lia":
+  city: Sydney
+  country: "Austr\xE1lia"
+  lat: -33.8698439
+  lon: 151.2082848
+  display: Sydney, New South Wales, Australia
+  query: Sydney
+"Thuwal | Saudsk\xE1 Ar\xE1bia":
+  city: Thuwal
+  country: "Saudsk\xE1 Ar\xE1bia"
+  lat: 22.2833454
+  lon: 39.1128145
+  display: Thuwal, Governorate of Jidda, Makkah Region, 23955-6900, Saudi Arabia
+  query: Thuwal
+"Uppsala | \u0160v\xE9dsko":
+  city: Uppsala
+  country: "\u0160v\xE9dsko"
+  lat: 59.8586126
+  lon: 17.6387436
+  display: Uppsala, Uppsala kommun, Uppsala County, 753 20, Sweden
+  query: Uppsala
+Aachen | Nemecko:
+  city: Aachen
+  country: Nemecko
+  lat: 50.776351
+  lon: 6.083862
+  display: Aachen, Aachen (district), North Rhine-Westphalia, Germany
+  query: Aachen
+"Aalborg | D\xE1nsko":
+  city: Aalborg
+  country: "D\xE1nsko"
+  lat: 57.0462626
+  lon: 9.9215263
+  display: Aalborg, Aalborg Municipality, North Denmark Region, 9000, Denmark
+  query: Aalborg
+Aalst | Belgicko:
+  city: Aalst
+  country: Belgicko
+  lat: 50.9383226
+  lon: 4.0392147
+  display: Aalst, East Flanders, Flanders, Belgium
+  query: Aalst
+Antwerpy | Belgicko:
+  city: Antwerpy
+  country: Belgicko
+  lat: 51.2211097
+  lon: 4.3997081
+  display: Antwerp, Flanders, Belgium
+  query: Antwerp
+Atlanta | USA:
+  city: Atlanta
+  country: USA
+  lat: 33.7544657
+  lon: -84.3898151
+  display: Atlanta, Fulton County, Georgia, United States
+  query: Atlanta
+"Bansk\xE1 Bystrica | Slovensko":
+  city: "Bansk\xE1 Bystrica"
+  country: Slovensko
+  lat: 48.735429
+  lon: 19.1457338
+  display: "Bansk\xE1 Bystrica, District of Bansk\xE1 Bystrica, Region of Bansk\xE1\
+    \ Bystrica, Slovakia"
+  query: Banska Bystrica
+"Basel | \u0160vaj\u010Diarsko":
+  city: Basel
+  country: "\u0160vaj\u010Diarsko"
+  lat: 47.5581077
+  lon: 7.5878261
+  display: Basel, Basel-City, Switzerland
+  query: Basel
+"Birmingham | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Birmingham
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 52.4948994
+  lon: -1.8518439
+  display: Birmingham, West Midlands, England, United Kingdom
+  query: Birmingham
+Bloomington | USA:
+  city: Bloomington
+  country: USA
+  lat: 39.1670396
+  lon: -86.5342881
+  display: Bloomington, Monroe County, Indiana, United States
+  query: Bloomington
+Bonn | Nemecko:
+  city: Bonn
+  country: Nemecko
+  lat: 50.7352621
+  lon: 7.1024635
+  display: Bonn, North Rhine-Westphalia, Germany
+  query: Bonn
+Bratslava | Slovensko:
+  city: Bratslava
+  country: Slovensko
+  lat: null
+  lon: null
+  skip: true
+  reason: no nominatim hit
+"Brisbane | Austr\xE1lia":
+  city: Brisbane
+  country: "Austr\xE1lia"
+  lat: -27.4689623
+  lon: 153.0235009
+  display: Brisbane, Queensland, Australia
+  query: Brisbane
+"Britsk\xE1 Kolumbia | Kanada":
+  city: "Britsk\xE1 Kolumbia"
+  country: Kanada
+  lat: 55.001251
+  lon: -125.002441
+  display: British Columbia, Canada
+  query: "Britsk\xE1 Kolumbia"
+Burnaby | Kanada:
+  city: Burnaby
+  country: Kanada
+  lat: 49.2433804
+  lon: -122.972545
+  display: Burnaby, Metro Vancouver Regional District, British Columbia, Canada
+  query: Burnaby
+"Cardiff | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Cardiff
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.4816546
+  lon: -3.1791934
+  display: Cardiff, Wales, CF10 2AF, United Kingdom
+  query: Cardiff
+Chicago | USA:
+  city: Chicago
+  country: USA
+  lat: 41.8755616
+  lon: -87.6244212
+  display: Chicago, South Chicago Township, Cook County, Illinois, United States
+  query: Chicago
+Corvallis | USA:
+  city: Corvallis
+  country: USA
+  lat: 44.5645659
+  lon: -123.2620435
+  display: Corvallis, Benton County, Oregon, United States
+  query: Corvallis
+Darmstadt | Nemecko:
+  city: Darmstadt
+  country: Nemecko
+  lat: 49.872775
+  lon: 8.651177
+  display: Darmstadt, Hesse, Germany
+  query: Darmstadt
+Dortmund | Nemecko:
+  city: Dortmund
+  country: Nemecko
+  lat: 51.5142273
+  lon: 7.4652789
+  display: Dortmund, North Rhine-Westphalia, Germany
+  query: Dortmund
+"Dublin | \xCDrsko":
+  city: Dublin
+  country: "\xCDrsko"
+  lat: 53.3493795
+  lon: -6.2605593
+  display: Dublin, County Dublin, Leinster, Ireland
+  query: Dublin
+"Dubna | Rusk\xE1 feder\xE1cia":
+  city: Dubna
+  country: "Rusk\xE1 feder\xE1cia"
+  lat: 56.7362705
+  lon: 37.1623696
+  display: Dubna, Moscow Oblast, Central Federal District, 141980, Russia
+  query: Dubna
+"Edinburg | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Edinburg
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 55.9533456
+  lon: -3.1883749
+  display: City of Edinburgh, Scotland, United Kingdom
+  query: Edinburgh
+"Essex/Colchester | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Essex/Colchester
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.8896903
+  lon: 0.8994651
+  display: Colchester, Essex, England, CO1 1SP, United Kingdom
+  query: Colchester
+Fairfax | USA:
+  city: Fairfax
+  country: USA
+  lat: 38.8462236
+  lon: -77.3063733
+  display: Fairfax, Virginia, 20030, United States
+  query: Fairfax
+"Fribourg | \u0160vaj\u010Diarsko":
+  city: Fribourg
+  country: "\u0160vaj\u010Diarsko"
+  lat: 46.8055656
+  lon: 7.1612669
+  display: Fribourg - Freiburg, Sarine District, Fribourg, Switzerland
+  query: Fribourg
+Friedrichshafen | Nemecko:
+  city: Friedrichshafen
+  country: Nemecko
+  lat: 47.6500279
+  lon: 9.4800858
+  display: "Friedrichshafen, VVG der Stadt Friedrichshafen, Lake Constance district,\
+    \ Baden-W\xFCrttemberg, Germany"
+  query: Friedrichshafen
+Gent | Belgium:
+  city: Gent
+  country: Belgium
+  lat: 51.0538286
+  lon: 3.7250121
+  display: Ghent, Gent, East Flanders, Flanders, Belgium
+  query: Ghent
+Groningen | Holandsko:
+  city: Groningen
+  country: Holandsko
+  lat: 53.2190652
+  lon: 6.5680077
+  display: Groningen, Netherlands
+  query: Groningen
+Hamilton | Kanada:
+  city: Hamilton
+  country: Kanada
+  lat: 43.2560802
+  lon: -79.8728583
+  display: Hamilton, Golden Horseshoe, Ontario, Canada
+  query: Hamilton
+Hannover | Nemecko:
+  city: Hannover
+  country: Nemecko
+  lat: 52.3744779
+  lon: 9.7385532
+  display: Hanover, Region Hannover, Lower Saxony, Germany
+  query: Hannover
+"J\xFClich | Nemecko":
+  city: "J\xFClich"
+  country: Nemecko
+  lat: 50.9220931
+  lon: 6.3611015
+  display: "J\xFClich, Kreis D\xFCren, North Rhine-Westphalia, 52428, Germany"
+  query: Julich
+Karlsruhe | Nemecko:
+  city: Karlsruhe
+  country: Nemecko
+  lat: 49.0068705
+  lon: 8.4034195
+  display: "Karlsruhe, Baden-W\xFCrttemberg, Germany"
+  query: Karlsruhe
+"Kjeller | N\xF3rsko":
+  city: Kjeller
+  country: "N\xF3rsko"
+  lat: 59.9738693
+  lon: 11.0475937
+  display: "Kjeller, Lillestr\xF8m, Akershus, 2007, Norway"
+  query: Kjeller
+"Klosterneuburg | Rak\xFAsko":
+  city: Klosterneuburg
+  country: "Rak\xFAsko"
+  lat: 48.30499
+  lon: 16.323756
+  display: Klosterneuburg, Bezirk Tulln, Lower Austria, Austria
+  query: Klosterneuburg
+"Laxenburg | Rak\xFAsko":
+  city: Laxenburg
+  country: "Rak\xFAsko"
+  lat: 48.0686831
+  lon: 16.3561206
+  display: "Laxenburg, Bezirk M\xF6dling, Lower Austria, 2361, Austria"
+  query: Laxenburg
+"Leoben | Rak\xFAsko":
+  city: Leoben
+  country: "Rak\xFAsko"
+  lat: 47.3805128
+  lon: 15.0947756
+  display: Leoben, Bezirk Leoben, Styria, 8700, Austria
+  query: Leoben
+"Lille | Franc\xFAzsko":
+  city: Lille
+  country: "Franc\xFAzsko"
+  lat: 50.6365654
+  lon: 3.0635282
+  display: Lille, Nord, Hauts-de-France, Metropolitan France, France
+  query: Lille
+London | Kanada:
+  city: London
+  country: Kanada
+  lat: 42.9836747
+  lon: -81.2496068
+  display: London, Southwestern Ontario, Ontario, Canada
+  query: London Ontario
+"Lond\xFDn | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: "Lond\xFDn"
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.5074456
+  lon: -0.1277653
+  display: Greater London, England, United Kingdom
+  query: London
+Louisville | USA:
+  city: Louisville
+  country: USA
+  lat: 38.2542376
+  lon: -85.759407
+  display: Louisville, Jefferson County, Kentucky, United States
+  query: Louisville
+Mainz | Nemecko:
+  city: Mainz
+  country: Nemecko
+  lat: 49.9995205
+  lon: 8.2736253
+  display: Mainz, Rhineland-Palatinate, Germany
+  query: Mainz
+Mannheim | Nemecko:
+  city: Mannheim
+  country: Nemecko
+  lat: 49.4892913
+  lon: 8.4673098
+  display: "Mannheim, Baden-W\xFCrttemberg, Germany"
+  query: Mannheim
+Manoa | USA:
+  city: Manoa
+  country: USA
+  lat: 21.3093848
+  lon: -157.8118169
+  display: "M\u0101noa, East Honolulu, Honolulu, Honolulu County, Hawaii, 96848, United\
+    \ States"
+  query: Manoa Hawaii
+"Marseille | Franc\xFAzsko":
+  city: Marseille
+  country: "Franc\xFAzsko"
+  lat: 43.2963986
+  lon: 5.3777888
+  display: "Marseille, Bouches-du-Rh\xF4ne, Provence-Alpes-C\xF4te d'Azur, Metropolitan\
+    \ France, France"
+  query: Marseille
+Martin | Slovensko:
+  city: Martin
+  country: Slovensko
+  lat: 49.0724921
+  lon: 18.929193
+  display: "Martin, District of Martin, Region of \u017Dilina, Slovakia"
+  query: Martin
+Menlo Park | USA:
+  city: Menlo Park
+  country: USA
+  lat: 37.4519671
+  lon: -122.177992
+  display: Menlo Park, San Mateo County, California, 94025, United States
+  query: Menlo Park
+Milwaukee | USA:
+  city: Milwaukee
+  country: USA
+  lat: 43.0386475
+  lon: -87.9090751
+  display: Milwaukee, Milwaukee County, Wisconsin, United States
+  query: Milwaukee
+Montreal | Kanada:
+  city: Montreal
+  country: Kanada
+  lat: 45.5031824
+  lon: -73.5698065
+  display: Montreal, Urban agglomeration of Montreal, Montreal (administrative region),
+    Quebec, Canada
+  query: Montreal
+Nashville | USA:
+  city: Nashville
+  country: USA
+  lat: 36.1622767
+  lon: -86.7742984
+  display: Nashville, Davidson County, Middle Tennessee, Tennessee, United States
+  query: Nashville
+Notre Dame | USA:
+  city: Notre Dame
+  country: USA
+  lat: 41.6992003
+  lon: -86.2373691
+  display: Notre Dame, Saint Joseph County, Indiana, 46556, United States
+  query: Notre Dame
+"Ostrava | \u010Cesko":
+  city: Ostrava
+  country: "\u010Cesko"
+  lat: 49.8354045
+  lon: 18.292978
+  display: "Ostrava, okres Ostrava-m\u011Bsto, Moravian-Silesian Region, Czechia"
+  query: Ostrava
+"Par\xED\u017E | Franc\xFAzsko":
+  city: "Par\xED\u017E"
+  country: "Franc\xFAzsko"
+  lat: 48.8534951
+  lon: 2.3483915
+  display: Paris, Ile-de-France, Metropolitan France, France
+  query: Paris
+"Pie\u0161\u0165any | Slovensko":
+  city: "Pie\u0161\u0165any"
+  country: Slovensko
+  lat: 48.5895247
+  lon: 17.8213848
+  display: "Pie\u0161\u0165any, District of Pie\u0161\u0165any, Region of Trnava,\
+    \ 921 01, Slovakia"
+  query: Piestany
+Pittsburgh | USA:
+  city: Pittsburgh
+  country: USA
+  lat: 40.4406968
+  lon: -80.0025666
+  display: Pittsburgh, Allegheny County, Pennsylvania, United States
+  query: Pittsburgh
+"Plze\u0148 | \u010Cesko":
+  city: "Plze\u0148"
+  country: "\u010Cesko"
+  lat: 49.7477415
+  lon: 13.3775249
+  display: "Pilsen, okres Plze\u0148-m\u011Bsto, Plze\u0148 Region, Southwest, Czechia"
+  query: Plzen
+Portland | USA:
+  city: Portland
+  country: USA
+  lat: 45.5202471
+  lon: -122.674194
+  display: Portland, Multnomah County, Oregon, United States
+  query: Portland
+"Reading | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Reading
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.4564242
+  lon: -0.9700664
+  display: Reading, England, United Kingdom
+  query: Reading
+Regensburg | Nemecko:
+  city: Regensburg
+  country: Nemecko
+  lat: 49.0195333
+  lon: 12.0974869
+  display: Regensburg, Bavaria, Germany
+  query: Regensburg
+Rockville | USA:
+  city: Rockville
+  country: USA
+  lat: 39.0817985
+  lon: -77.1516844
+  display: Rockville, Montgomery County, Maryland, United States
+  query: Rockville
+Salinas | USA:
+  city: Salinas
+  country: USA
+  lat: 36.6744117
+  lon: -121.655037
+  display: Salinas, Monterey County, California, United States
+  query: Salinas California
+San Francisco | USA:
+  city: San Francisco
+  country: USA
+  lat: 37.7879363
+  lon: -122.4075201
+  display: San Francisco, California, United States
+  query: San Francisco
+"Sevilla | \u0160panielsko":
+  city: Sevilla
+  country: "\u0160panielsko"
+  lat: 37.3886303
+  lon: -5.9953403
+  display: Seville, Sevilla, Andalusia, Spain
+  query: Sevilla
+"Stockholm | \u0160v\xE9dsko":
+  city: Stockholm
+  country: "\u0160v\xE9dsko"
+  lat: 59.3251172
+  lon: 18.0710935
+  display: Stockholm, Stockholm Municipality, Stockholm County, 111 29, Sweden
+  query: Stockholm
+Surrey | Kanada:
+  city: Surrey
+  country: Kanada
+  lat: 49.1913033
+  lon: -122.849143
+  display: Surrey, Metro Vancouver Regional District, British Columbia, Canada
+  query: Surrey
+Tallahassee | USA:
+  city: Tallahassee
+  country: USA
+  lat: 30.4380832
+  lon: -84.2809332
+  display: Tallahassee, Leon County, Florida, United States
+  query: Tallahassee
+"Tren\u010D\xEDn | Slovensko":
+  city: "Tren\u010D\xEDn"
+  country: Slovensko
+  lat: 48.8922719
+  lon: 18.0387465
+  display: "Tren\u010D\xEDn, District of Tren\u010D\xEDn, Region of Tren\u010D\xED\
+    n, Slovakia"
+  query: Trencin
+"Troms\xF8 | N\xF3rsko":
+  city: "Troms\xF8"
+  country: "N\xF3rsko"
+  lat: 69.6516345
+  lon: 18.9558585
+  display: "Troms\xF8, Troms, Norway"
+  query: Tromso
+Tucson | USA:
+  city: Tucson
+  country: USA
+  lat: 32.2228765
+  lon: -110.974847
+  display: Tucson, Pima County, Arizona, United States
+  query: Tucson
+"Turku | F\xEDnsko":
+  city: Turku
+  country: "F\xEDnsko"
+  lat: 60.4515932
+  lon: 22.2669991
+  display: Turku, Turku sub-region, Southwest Finland, Mainland Finland, Finland
+  query: Turku
+Twin Cities | USA:
+  city: Twin Cities
+  country: USA
+  lat: 44.9772995
+  lon: -93.2654692
+  display: Minneapolis, Hennepin County, Minnesota, United States
+  query: Minneapolis Minnesota
+Upton | USA:
+  city: Upton
+  country: USA
+  lat: 40.869543
+  lon: -72.8867697
+  display: Upton, Ridge, Town of Brookhaven, Suffolk County, New York, 11973, United
+    States
+  query: Upton New York
+Urbana-Champaign | USA:
+  city: Urbana-Champaign
+  country: USA
+  lat: 40.1117174
+  lon: -88.207301
+  display: Urbana, Champaign County, Illinois, United States
+  query: Urbana Illinois
+Utrecht | Holandsko:
+  city: Utrecht
+  country: Holandsko
+  lat: 52.0907006
+  lon: 5.1215634
+  display: Utrecht, Netherlands
+  query: Utrecht
+Wageningen | Holandsko:
+  city: Wageningen
+  country: Holandsko
+  lat: 51.9663016
+  lon: 5.6662814
+  display: Wageningen, Gelderland, Netherlands
+  query: Wageningen
+"Wak\u014D | Japonsko":
+  city: "Wak\u014D"
+  country: Japonsko
+  lat: 35.7817053
+  lon: 139.6058692
+  display: Wako, Saitama Prefecture, Japan
+  query: Wako
+"\u017Deneva | \u0160vaj\u010Diarsko":
+  city: "\u017Deneva"
+  country: "\u0160vaj\u010Diarsko"
+  lat: 46.2017559
+  lon: 6.1466014
+  display: Geneva, Switzerland
+  query: Geneva
