@@ -1,0 +1,17 @@
+name: "Miroslav Gál"
+last: "Gál"
+year: 1974
+sex: "muž"
+position: profesor
+field: "elektrochémia"
+affiliation: "Slovenská technická univerzita"
+city: Bratislava
+country: Slovensko
+hindex: 30
+scholar: https://scholar.google.com/citations?hl=sk&user=k7jZL6kAAAAJ
+last_update: '2026-08-28'
+links:
+ "životopis": files/cv_Miroslav_Gal.pdf
+ web: https://www.fchpt.stuba.sk/
+ orcid: https://orcid.org/0000-0002-5573-4226
+img: Miroslav_Gal_size_280px.jpg

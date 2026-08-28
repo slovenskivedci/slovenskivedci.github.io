@@ -8393,6 +8393,32 @@
   affiliationurl: Onkologicky_ustav_sv._Alzbety
   cityurl: Bratislava
   sexurl: muz
+- name: "Lenka Koklesov\xE1"
+  last: Koklesova
+  year: 1994
+  sex: "\u017Eena"
+  position: "odborn\xE1 asistentka"
+  field: "chemoprevencia rakoviny prsn\xEDka"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Martin
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?hl=sk&user=fYLdTWQAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0009-0000-2732-066X
+  - - web
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/SK/koklesova5.uniba.sk.html
+  img: Lenka_Koklesova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: chemoprevencia_rakoviny_prsnika
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: odborna_asistentka
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Martin
+  sexurl: zena
 - name: "\u013Dubica Lacinov\xE1"
   last: Lacinova
   year: 1959
@@ -9881,6 +9907,34 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
+- name: "Rastislav Jaku\u0161"
+  last: Jakus
+  year: ''
+  sex: "mu\u017E"
+  position: "samostatn\xFD vedeck\xFD pracovn\xEDk"
+  field: ochrana lesa
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Zvolen
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=d5G0NZsAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2280-1952
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&user_no=5804&lang=sk
+  - - "\u017Eivotopis"
+    - https://www.sav.sk/?doc=user-org-user&user_no=5804&lang=sk&action=cv
+  img: Rastislav_Jakus_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: ochrana_lesa
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: samostatny_vedecky_pracovnik
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Zvolen
+  sexurl: muz
 - name: Ivan Jambor
   last: Jambor
   year: null
@@ -9979,6 +10033,34 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Ivan Kuric
+  last: Kuric
+  year: 1964
+  sex: "mu\u017E"
+  position: profesor
+  field: "automatiz\xE1cia v\xFDrobn\xFDch syst\xE9mov"
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=bSDwupIAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2386-9211
+  - - web
+    - https://www.kavs.uniza.sk/index.php/sk/zamestnanci/profil-zam-kuric
+  - - "\u017Eivotopis"
+    - https://www.kavs.uniza.sk/index.php/sk/zamestnanci/profil-zam-kuric
+  img: Ivan_Kuric_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: automatizacia_vyrobnych_systemov
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: profesor
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
   sexurl: muz
 - name: "J\xE1n Kyselovi\u010D"
   last: Kyselovic
@@ -10430,6 +10512,60 @@
   positionurl: emeritny_profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
+  sexurl: muz
+- name: Marian Jandel
+  last: Jandel
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "jadrov\xE1 fyzika"
+  affiliation: University of Massachusetts Lowell
+  city: Lowell
+  country: USA
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=OCHIvToAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0009-0009-6449-3821
+  - - web
+    - https://www.uml.edu/sciences/physics/people/jandel-marian.aspx
+  img: Marian_Jandel_size_280px.jpg
+  countryurl: USA
+  fieldurl: jadrova_fyzika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: docent
+  affiliationurl: University_of_Massachusetts_Lowell
+  cityurl: Lowell
+  sexurl: muz
+- name: "Vladim\xEDr Jur\xE1\u0161"
+  last: Juras
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "kvantitat\xEDvne muskuloskelet\xE1lne MRI"
+  affiliation: Medical University of Vienna
+  city: "Viede\u0148"
+  country: "Rak\xFAsko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=Y4eCDocAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-4026-5922
+  - - web
+    - http://www.vladovci.sk/
+  - - "\u017Eivotopis"
+    - http://www.vladovci.sk/
+  img: Vladimir_Juras_size_280px.jpg
+  countryurl: Rakusko
+  fieldurl: kvantitativne_muskuloskeletalne_MRI
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: docent
+  affiliationurl: Medical_University_of_Vienna
+  cityurl: Vieden
   sexurl: muz
 - name: "Ctirad Klim\u010D\xEDk"
   last: Klimcik
@@ -11241,6 +11377,34 @@
   areaurl: fyzika
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Miroslav G\xE1l"
+  last: Gal
+  year: 1974
+  sex: "mu\u017E"
+  position: profesor
+  field: "elektroch\xE9mia"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=k7jZL6kAAAAJ
+  last_update: '2026-08-28'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5573-4226
+  - - web
+    - https://www.fchpt.stuba.sk/
+  - - "\u017Eivotopis"
+    - files/cv_Miroslav_Gal.pdf
+  img: Miroslav_Gal_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: elektrochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
 - name: Demeter Krupka

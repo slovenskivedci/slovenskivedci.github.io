@@ -1,15 +1,15 @@
 countries:
   "\u0160vaj\u010Diarsko": 7
   "\xCDrsko": 1
-  USA: 41
-  Slovensko: 188
+  USA: 42
+  Slovensko: 192
   "N\xF3rsko": 4
   Holandsko: 5
   "Ve\u013Ek\xE1 Brit\xE1nia": 10
   Nemecko: 11
   "Austr\xE1lia": 11
   "\u010Cesko": 31
-  "Rak\xFAsko": 13
+  "Rak\xFAsko": 14
   Belgium: 1
   "F\xEDnsko": 1
   "\u0160v\xE9dsko": 3
@@ -23,8 +23,8 @@ countries:
   Japonsko: 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 292
-woman: 62
+man: 297
+woman: 63
 hindex:
 - 40
 - 52
@@ -35,6 +35,7 @@ hindex:
 - 47
 - 41
 - 37
+- 33
 - 36
 - 51
 - 46
@@ -88,6 +89,7 @@ hindex:
 - 42
 - 31
 - 95
+- 30
 - 41
 - 51
 - 48
@@ -130,6 +132,7 @@ hindex:
 - 50
 - 39
 - 33
+- 32
 - 56
 - 53
 - 56
@@ -152,6 +155,7 @@ hindex:
 - 33
 - 79
 - 77
+- 32
 - 34
 - 36
 - 53
@@ -225,6 +229,7 @@ hindex:
 - 52
 - 94
 - 38
+- 33
 - 45
 - 31
 - 44
@@ -317,6 +322,7 @@ hindex:
 - 58
 - 87
 - 42
+- 36
 - 46
 - 35
 - 74
@@ -422,15 +428,15 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ of Arizona','University of Birmingham','University of Bonn','University of British\
   \ Columbia','University of Chicago','University of Edinburgh','University of Essex','University\
   \ of Groningen','University of Hawaii','University of Illinois','University of Louisville','University\
-  \ of Minnesota','University of New South Wales','University of Notre Dame','University\
-  \ of Ottawa','University of Pennsylvania','University of Pittsburgh','University\
-  \ of Reading','University of Regensburg','University of Technology Sydney','University\
-  \ of Troms\xF8','University of Turku','University of Vienna','University of Washington','University\
-  \ of Western Ontario','University of Zurich','V\u0160B \u2013 Technick\xE1 univerzita\
-  \ Ostrava','Vanderbilt university','Vienna University of Technology','Vysok\xE1\
-  \ \u0161kola chemicko-technologick\xE1','Vysok\xE9 u\u010Den\xED technick\xE9 v\
-  \ Brn\u011B','Wageningen University','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin\
-  \ University']"
+  \ of Massachusetts Lowell','University of Minnesota','University of New South Wales','University\
+  \ of Notre Dame','University of Ottawa','University of Pennsylvania','University\
+  \ of Pittsburgh','University of Reading','University of Regensburg','University\
+  \ of Technology Sydney','University of Troms\xF8','University of Turku','University\
+  \ of Vienna','University of Washington','University of Western Ontario','University\
+  \ of Zurich','V\u0160B \u2013 Technick\xE1 univerzita Ostrava','Vanderbilt university','Vienna\
+  \ University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1','Vysok\xE9\
+  \ u\u010Den\xED technick\xE9 v Brn\u011B','Wageningen University','Z\xE1pado\u010D\
+  esk\xE1 univerzita v Plzni','Zeppelin University']"
 fields:
   informatika:
   - 40
@@ -489,6 +495,7 @@ fields:
   - 34
   - 51
   - 46
+  - 30
   - 31
   - 42
   - 52
@@ -518,6 +525,7 @@ fields:
   - 41
   - 38
   - 35
+  - 36
   - 35
   - 51
   - 34
@@ -558,6 +566,7 @@ fields:
   - 57
   - 33
   - 77
+  - 32
   - 34
   - 41
   - 68
@@ -722,6 +731,25 @@ fields:
   - 42
   - 45
   - 57
+  "in\u017Einierstvo":
+  - 33
+  - 70
+  - 48
+  - 35
+  - 31
+  - 60
+  - 45
+  - 36
+  - 30
+  - 40
+  - 31
+  - 34
+  - 32
+  - 73
+  - 39
+  - 43
+  - 59
+  - 48
   matematika:
   - 35
   - 35
@@ -779,31 +807,15 @@ fields:
   - 41
   - 38
   - 52
-  "in\u017Einierstvo":
-  - 70
-  - 48
-  - 35
-  - 31
-  - 60
-  - 45
-  - 36
-  - 30
-  - 40
-  - 31
-  - 34
-  - 32
-  - 73
-  - 39
-  - 43
-  - 59
-  - 48
   "ostatn\xE9":
   - 30
+  - 32
+  - 33
 hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''90-99'',''100-109'',''110-119'',''120-129'',''130-139'',''140-149'',''150-159'',''160-169'',''170-179'',''180-189'',''190-199'',''200-209'',''210-219'',''220-229'',''230-239'',''240-249'',''250-259'',''260-269'',]'
-hindex_hist_count: '[148,89,60,22,18,2,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1]'
-year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1993','neuveden\xFD\
+hindex_hist_count: '[154,89,60,22,18,2,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1]'
+year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
   ',]"
-year_hist_count: '[6,26,53,55,45,18,2,149]'
+year_hist_count: '[6,26,53,56,46,18,3,152]'
 year_hindex_xy: "[{x:1952,y:269,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1979,y:257,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1983,y:235,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
@@ -974,7 +986,9 @@ year_hindex_xy: "[{x:1952,y:269,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ fyzika',area:'fyzika'},{x:1988,y:36,name:'Matej Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Kosice:vedec:mechanochemia:muz',field:'mechanoch\xE9\
   mia',area:'ch\xE9mia'},{x:1961,y:36,name:'Imrich Bar\xE1k',id:'Barak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:molekularna_biologia:muz',field:'molekul\xE1\
   rna biol\xF3gia',area:'biol\xF3gia'},{x:1952,y:36,name:'Fedor G\xF6m\xF6ry',id:'Gomory:Slovensko:Slovenska_akademia_vied:Bratislava:docent:supravodice:muz',field:'supravodi\u010D\
-  e',area:'fyzika'},{x:1959,y:36,name:'\u013Dubica Lacinov\xE1',id:'Lacinova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1964,y:36,name:'Roman\
+  e',area:'fyzika'},{x:1994,y:36,name:'Lenka Koklesov\xE1',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:chemoprevencia_rakoviny_prsnika:zena',field:'chemoprevencia\
+  \ rakoviny prsn\xEDka',area:'ch\xE9mia'},{x:1959,y:36,name:'\u013Dubica Lacinov\xE1\
+  ',id:'Lacinova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1964,y:36,name:'Roman\
   \ Marto\u0148\xE1k',id:'Martonak:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzika_kondenzovanych_latok:muz',field:'fyzika\
   \ kondenzovan\xFDch l\xE1tok',area:'fyzika'},{x:1981,y:36,name:'Peter Moln\xE1r',id:'Molnar:Norsko:University_of_Stavanger:Stavanger:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1953,y:36,name:'Du\u0161an Pla\u0161\
@@ -1003,7 +1017,9 @@ year_hindex_xy: "[{x:1952,y:269,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   lne rovnice',area:'matematika'},{x:1965,y:33,name:'Milo\u0161 Hitka',id:'Hitka:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:manazment:muz',field:'mana\u017E\
   ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1977,y:33,name:'Jana Kordul\xE1kov\xE1\
   ',id:'Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena',field:'bioch\xE9\
-  mia',area:'ch\xE9mia'},{x:1963,y:33,name:'J\xE1n Kyselovi\u010D',id:'Kyselovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmakologia:muz',field:'farmakol\xF3\
+  mia',area:'ch\xE9mia'},{x:1964,y:33,name:'Ivan Kuric',id:'Kuric:Slovensko:Zilinska_univerzita:Zilina:profesor:automatizacia_vyrobnych_systemov:muz',field:'automatiz\xE1\
+  cia v\xFDrobn\xFDch syst\xE9mov',area:'in\u017Einierstvo'},{x:1963,y:33,name:'J\xE1\
+  n Kyselovi\u010D',id:'Kyselovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmakologia:muz',field:'farmakol\xF3\
   gia',area:'medic\xEDna'},{x:1944,y:33,name:'Jaroslav Lexa',id:'Lexa:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:vulkanologia:muz',field:'vulkanol\xF3\
   gia',area:'geovedy'},{x:1976,y:33,name:'Jozef Mad\u017Eo',id:'Madzo:USA:The_Wistar_Institute:Filadelfia:odborny_asistent:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1951,y:33,name:'Igor\
   \ Nov\xE1k',id:'Novak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:polymerna_chemia:muz',field:'polym\xE9\
@@ -1032,7 +1048,8 @@ year_hindex_xy: "[{x:1952,y:269,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ bioch\xE9mia',area:'biol\xF3gia'},{x:1977,y:31,name:'M\xE1rio Ziman',id:'Ziman:Slovensko:Slovenska_akademia_vied:Bratislava:docent:kvantova_informacia:muz',field:'kvantov\xE1\
   \ inform\xE1cia',area:'informatika'},{x:1957,y:30,name:'Albert Breier',id:'Breier:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1955,y:30,name:'Peter Cifra',id:'Cifra:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:fyzika_polymerov:muz',field:'fyzika\
-  \ polym\xE9rov',area:'fyzika'},{x:1942,y:30,name:'Demeter Krupka',id:'Krupka:Slovensko:Lepage_Research_Institute:Presov:profesor:diferencialna_geometria:muz',field:'diferenci\xE1\
+  \ polym\xE9rov',area:'fyzika'},{x:1974,y:30,name:'Miroslav G\xE1l',id:'Gal:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:elektrochemia:muz',field:'elektroch\xE9\
+  mia',area:'ch\xE9mia'},{x:1942,y:30,name:'Demeter Krupka',id:'Krupka:Slovensko:Lepage_Research_Institute:Presov:profesor:diferencialna_geometria:muz',field:'diferenci\xE1\
   lna geometria',area:'ostatn\xE9'},{x:1987,y:30,name:'Peter Papcun',id:'Papcun:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:docent:kybernetika:muz',field:'kybernetika',area:'in\u017E\
   inierstvo'},{x:1956,y:30,name:'Peter Samuely',id:'Samuely:Slovensko:Slovenska_akademia_vied:Kosice:profesor:fyzika_tuhych_latok:muz',field:'fyzika\
   \ tuh\xFDch l\xE1tok',area:'fyzika'},{x:1944,y:30,name:'J\xFAlius \u0160ub\xEDk',id:'Subik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:mikrobiologia:muz',field:'mikrobiol\xF3\
@@ -1042,17 +1059,17 @@ country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Kanada','Austr\xE1lia','
   v\xE9dsko','Belgicko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9 emir\xE1\
   ty','Belgium','D\xE1nsko','F\xEDnsko','\xCDrsko','Japonsko','Rusk\xE1 feder\xE1\
   cia','\u0160panielsko']"
-countryCount: '[188,41,31,13,12,11,11,10,7,5,4,3,3,2,2,2,2,1,1,1,1,1,1,1]'
+countryCount: '[192,42,31,14,12,11,11,10,7,5,4,3,3,2,2,2,2,1,1,1,1,1,1,1]'
 countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Kanada'',''Australia'',''Nemecko'',''Velka_Britania'',''Svajciarsko'',''Holandsko'',''Norsko'',''Francuzsko'',''Svedsko'',''Belgicko'',''Katar'',''Saudska_Arabia'',''Spojene_arabske_emiraty'',''Belgium'',''Dansko'',''Finsko'',''Irsko'',''Japonsko'',''Ruska_federacia'',''Spanielsko'']'
-affiliationCount: '[64,54,16,9,9,7,7,6,6,5,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+affiliationCount: '[65,55,17,9,9,7,7,6,6,6,5,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','informatika','ekon\xF3\
   mia a mana\u017Ement','geovedy','in\u017Einierstvo','matematika','materi\xE1ly','umel\xE1\
   \ inteligencia','spolo\u010Densk\xE9 vedy','ostatn\xE9']"
-odborCount: '[79,63,52,43,20,19,18,17,13,11,10,8,1]'
+odborCount: '[79,64,54,43,20,19,18,18,13,11,10,8,3]'
 odborMin: '[30,30,30,31,30,31,31,30,31,32,35,33,30]'
-odborAvg: '[51.3,62.3,42.7,47.1,44.9,38.6,43.3,44.4,39.6,45.3,51.1,44.1,30.0]'
-odborMax: '[110,269,65,106,95,52,92,73,82,58,79,55,30]'
-odborMedian: '[49.0,44.0,40.5,42.0,39.5,37.0,40.5,40.0,35.0,45.0,46.0,43.0,30.0]'
+odborAvg: '[51.3,61.8,42.3,47.1,44.9,38.6,43.3,43.7,39.6,45.3,51.1,44.1,31.7]'
+odborMax: '[110,269,65,106,95,52,92,73,82,58,79,55,33]'
+odborMedian: '[49.0,44.0,40.0,42.0,39.5,37.0,40.5,39.5,35.0,45.0,46.0,43.0,32.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''informatika'',''ekonomia_a_manazment'',''geovedy'',''inzinierstvo'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'',''ostatne'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1128,6 +1145,8 @@ odbor_key:
   - "bioch\xE9mia"
   - "biopolym\xE9ry"
   - "ch\xE9mia"
+  - "chemoprevencia rakoviny prsn\xEDka"
+  - "elektroch\xE9mia"
   - "environment\xE1lna ch\xE9mia"
   - "enzymol\xF3gia"
   - "farmaceutick\xE1 ch\xE9mia"
@@ -1215,6 +1234,7 @@ odbor_key:
   fields:
   - "aplikovan\xE1 mechanika"
   - "automatiz\xE1cia"
+  - "automatiz\xE1cia v\xFDrobn\xFDch syst\xE9mov"
   - "bezdr\xF4tov\xE9 siete a syst\xE9my"
   - "chemick\xE9 in\u017Einierstvo"
   - elektronika
@@ -1262,25 +1282,27 @@ odbor_key:
 - area: "ostatn\xE9"
   fields:
   - "diferenci\xE1lna geometria"
+  - "kvantitat\xEDvne muskuloskelet\xE1lne MRI"
+  - ochrana lesa
 place: "['Slovensko','zahrani\u010Die']"
-placeCount: '[188,166]'
+placeCount: '[192,168]'
 placeMin: '[30,30]'
-placeAvg: '[45.3,52.8]'
+placeAvg: '[45.1,52.6]'
 placeMax: '[269,257]'
-city_markers: "[{name:'Bratislava',country:'Slovensko',count:133,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
+city_markers: "[{name:'Bratislava',country:'Slovensko',count:134,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
   ice',country:'Slovensko',count:24,lat:48.7172272,lon:21.2496774,url:'Kosice'},{name:'Praha',country:'\u010C\
   esko',count:13,lat:50.0874654,lon:14.4212535,url:'Praha'},{name:'Viede\u0148',country:'Rak\xFA\
-  sko',count:10,lat:48.2083537,lon:16.3725042,url:'Vieden'},{name:'Brno',country:'\u010C\
+  sko',count:11,lat:48.2083537,lon:16.3725042,url:'Vieden'},{name:'Brno',country:'\u010C\
   esko',count:9,lat:49.1922443,lon:16.6113382,url:'Brno'},{name:'Nitra',country:'Slovensko',count:7,lat:48.31295,lon:18.0894593,url:'Nitra'},{name:'Olomouc',country:'\u010C\
-  esko',count:7,lat:49.5940567,lon:17.251143,url:'Olomouc'},{name:'Trnava',country:'Slovensko',count:6,lat:48.3767652,lon:17.5858175,url:'Trnava'},{name:'Zvolen',country:'Slovensko',count:6,lat:48.5782517,lon:19.1247135,url:'Zvolen'},{name:'\u017D\
-  ilina',country:'Slovensko',count:5,lat:49.2234674,lon:18.7393139,url:'Zilina'},{name:'Melbourne',country:'Austr\xE1\
+  esko',count:7,lat:49.5940567,lon:17.251143,url:'Olomouc'},{name:'Zvolen',country:'Slovensko',count:7,lat:48.5782517,lon:19.1247135,url:'Zvolen'},{name:'Trnava',country:'Slovensko',count:6,lat:48.3767652,lon:17.5858175,url:'Trnava'},{name:'\u017D\
+  ilina',country:'Slovensko',count:6,lat:49.2234674,lon:18.7393139,url:'Zilina'},{name:'Melbourne',country:'Austr\xE1\
   lia',count:4,lat:-37.8142454,lon:144.9631732,url:'Melbourne'},{name:'Z\xFCrich',country:'\u0160\
   vaj\u010Diarsko',count:4,lat:47.3744489,lon:8.5410422,url:'Zurich'},{name:'Berkeley',country:'USA',count:3,lat:37.8708393,lon:-122.272863,url:'Berkeley'},{name:'Bethesda',country:'USA',count:3,lat:38.9846816,lon:-77.0942447,url:'Bethesda'},{name:'New\
   \ York',country:'USA',count:3,lat:40.7127281,lon:-74.0060152,url:'New_York'},{name:'Ottawa',country:'Kanada',count:3,lat:45.4208777,lon:-75.6901106,url:'Ottawa'},{name:'Pre\u0161\
   ov',country:'Slovensko',count:3,lat:49.0000074,lon:21.2392122,url:'Presov'},{name:'Seattle',country:'USA',count:3,lat:47.6038321,lon:-122.330062,url:'Seattle'},{name:'Toronto',country:'Kanada',count:3,lat:43.6534817,lon:-79.3839347,url:'Toronto'},{name:'Abu\
   \ Dhabi',country:'Spojen\xE9 arabsk\xE9 emir\xE1ty',count:2,lat:24.4538352,lon:54.3774014,url:'Abu_Dhabi'},{name:'Adelaide',country:'Austr\xE1\
   lia',count:2,lat:-34.9281805,lon:138.5999312,url:'Adelaide'},{name:'Columbia',country:'USA',count:2,lat:38.951883,lon:-92.3337366,url:'Columbia'},{name:'Delft',country:'Holandsko',count:2,lat:52.0114017,lon:4.35839,url:'Delft'},{name:'Doha',country:'Katar',count:2,lat:25.2856329,lon:51.5264162,url:'Doha'},{name:'Filadelfia',country:'USA',count:2,lat:39.9527237,lon:-75.1635262,url:'Filadelfia'},{name:'Glasgow',country:'Ve\u013E\
-  k\xE1 Brit\xE1nia',count:2,lat:55.861155,lon:-4.2501687,url:'Glasgow'},{name:'Oxford',country:'Ve\u013E\
+  k\xE1 Brit\xE1nia',count:2,lat:55.861155,lon:-4.2501687,url:'Glasgow'},{name:'Martin',country:'Slovensko',count:2,lat:49.0724921,lon:18.929193,url:'Martin'},{name:'Oxford',country:'Ve\u013E\
   k\xE1 Brit\xE1nia',count:2,lat:51.7520131,lon:-1.2578499,url:'Oxford'},{name:'Perth',country:'Austr\xE1\
   lia',count:2,lat:-31.9558967,lon:115.8605784,url:'Perth'},{name:'Raleigh',country:'USA',count:2,lat:35.7803977,lon:-78.6390989,url:'Raleigh'},{name:'San\
   \ Diego',country:'USA',count:2,lat:32.7174202,lon:-117.162772,url:'San_Diego'},{name:'Stavanger',country:'N\xF3\
@@ -1306,8 +1328,7 @@ city_markers: "[{name:'Bratislava',country:'Slovensko',count:133,lat:48.1516988,
   sko',count:1,lat:47.3805128,lon:15.0947756,url:'Leoben'},{name:'Lille',country:'Franc\xFA\
   zsko',count:1,lat:50.6365654,lon:3.0635282,url:'Lille'},{name:'London',country:'Kanada',count:1,lat:42.9836747,lon:-81.2496068,url:'London'},{name:'Lond\xFD\
   n',country:'Ve\u013Ek\xE1 Brit\xE1nia',count:1,lat:51.5074456,lon:-0.1277653,url:'Londyn'},{name:'Louisville',country:'USA',count:1,lat:38.2542376,lon:-85.759407,url:'Louisville'},{name:'Mainz',country:'Nemecko',count:1,lat:49.9995205,lon:8.2736253,url:'Mainz'},{name:'Mannheim',country:'Nemecko',count:1,lat:49.4892913,lon:8.4673098,url:'Mannheim'},{name:'Manoa',country:'USA',count:1,lat:21.3093848,lon:-157.8118169,url:'Manoa'},{name:'Marseille',country:'Franc\xFA\
-  zsko',count:1,lat:43.2963986,lon:5.3777888,url:'Marseille'},{name:'Martin',country:'Slovensko',count:1,lat:49.0724921,lon:18.929193,url:'Martin'},{name:'Menlo\
-  \ Park',country:'USA',count:1,lat:37.4519671,lon:-122.177992,url:'Menlo_Park'},{name:'Milwaukee',country:'USA',count:1,lat:43.0386475,lon:-87.9090751,url:'Milwaukee'},{name:'Montreal',country:'Kanada',count:1,lat:45.5031824,lon:-73.5698065,url:'Montreal'},{name:'Nashville',country:'USA',count:1,lat:36.1622767,lon:-86.7742984,url:'Nashville'},{name:'Notre\
+  zsko',count:1,lat:43.2963986,lon:5.3777888,url:'Marseille'},{name:'Menlo Park',country:'USA',count:1,lat:37.4519671,lon:-122.177992,url:'Menlo_Park'},{name:'Milwaukee',country:'USA',count:1,lat:43.0386475,lon:-87.9090751,url:'Milwaukee'},{name:'Montreal',country:'Kanada',count:1,lat:45.5031824,lon:-73.5698065,url:'Montreal'},{name:'Nashville',country:'USA',count:1,lat:36.1622767,lon:-86.7742984,url:'Nashville'},{name:'Notre\
   \ Dame',country:'USA',count:1,lat:41.6992003,lon:-86.2373691,url:'Notre_Dame'},{name:'Ostrava',country:'\u010C\
   esko',count:1,lat:49.8354045,lon:18.292978,url:'Ostrava'},{name:'Par\xED\u017E',country:'Franc\xFA\
   zsko',count:1,lat:48.8534951,lon:2.3483915,url:'Pariz'},{name:'Pie\u0161\u0165any',country:'Slovensko',count:1,lat:48.5895247,lon:17.8213848,url:'Piestany'},{name:'Pittsburgh',country:'USA',count:1,lat:40.4406968,lon:-80.0025666,url:'Pittsburgh'},{name:'Plze\u0148\
@@ -1352,12 +1373,12 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \xEDk','Tibor Hianik','Tom\xE1\u0161 Bu\u010Dko','Tom\xE1\u0161 Roch','Tom\xE1\u0161\
   \ Vina\u0159','Vladim\xEDr \u010Cern\xFD','Vladim\xEDr Kell\xF6','Vladim\xEDr Kov\xE1\
   \u010D','Zdenka \u010Eura\u010Dkov\xE1','Zdenko Machala']},{name:'Slovensk\xE1 technick\xE1\
-  \ univerzita',city:'Bratislava',count:16,lat:48.24503695435312,lon:17.21031847203089,url:'Slovenska_technicka_univerzita',names:['Albert\
+  \ univerzita',city:'Bratislava',count:17,lat:48.24503695435312,lon:17.21031847203089,url:'Slovenska_technicka_univerzita',names:['Albert\
   \ Breier','Igor Bod\xEDk','J\xE1n Szolgay','Jozef \u0160ir\xE1\u0148','Karol Mikula','\u013D\
   ubom\xEDr \u0160vorc','Mari\xE1n Valko','Michal Kvasnica','Milan \u010Cert\xEDk','Milan\
-  \ Hronec','Milan Polakovi\u010D','Radko Mesiar','Silvia Kohnov\xE1','\u0160tefan\
-  \ Schlosser','Vlasta Brezov\xE1','Zlatica Kohajdov\xE1']},{name:'Univerzita Pavla\
-  \ Jozefa \u0160af\xE1rika',city:'Ko\u0161ice',count:9,lat:48.775999999999996,lon:21.25,url:'Univerzita_Pavla_Jozefa_Safarika',names:['Andrea\
+  \ Hronec','Milan Polakovi\u010D','Miroslav G\xE1l','Radko Mesiar','Silvia Kohnov\xE1\
+  ','\u0160tefan Schlosser','Vlasta Brezov\xE1','Zlatica Kohajdov\xE1']},{name:'Univerzita\
+  \ Pavla Jozefa \u0160af\xE1rika',city:'Ko\u0161ice',count:9,lat:48.775999999999996,lon:21.25,url:'Univerzita_Pavla_Jozefa_Safarika',names:['Andrea\
   \ Madarasov\xE1 Geckov\xE1','Eva \u010Cell\xE1rov\xE1','Iveta Nagyov\xE1','J\xE1\
   n Moj\u017Ei\u0161','Martin Ba\u010Dkor','Martin Gmitra','Matej \u0160korv\xE1nek','Vladimir\
   \ Zele\u0148\xE1k','Zuzana Gdovinov\xE1']},{name:'Technick\xE1 univerzita v Ko\u0161\
@@ -1367,21 +1388,23 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ akad\xE9mia vied',city:'Ko\u0161ice',count:7,lat:48.6875,lon:21.327443385429913,url:'Slovenska_akademia_vied',names:['J\xE1\
   n Dusza','Karol Flachbart','Matej Bal\xE1\u017E','Milan Timko','Peter Kop\u010D\
   ansk\xFD','Peter Samuely','Zuzana Ga\u017Eov\xE1']},{name:'Technick\xE1 univerzita\
-  \ vo Zvolene',city:'Zvolen',count:6,lat:48.5782517,lon:19.1247135,url:'Technicka_univerzita_vo_Zvolene',names:['Du\u0161\
+  \ vo Zvolene',city:'Zvolen',count:6,lat:48.629000000000005,lon:19.125,url:'Technicka_univerzita_vo_Zvolene',names:['Du\u0161\
   an G\xF6m\xF6ry','Franti\u0161ek Ka\u010D\xEDk','Ladislav Paule','\u013Dubo\u0161\
   \ Kri\u0161\u0165\xE1k','Michal Bo\u0161e\u013Ea','Milo\u0161 Hitka']},{name:'\u017D\
-  ilinsk\xE1 univerzita',city:'\u017Dilina',count:5,lat:49.2234674,lon:18.7393139,url:'Zilinska_univerzita',names:['Jaroslav\
-  \ Frnda','Juraj Gerlici','Katar\xEDna Val\xE1\u0161kov\xE1','M\xE1ria Kov\xE1\u010D\
-  ov\xE1','Tom\xE1\u0161 Klie\u0161tik']},{name:'Slovensk\xE1 po\u013Enohospod\xE1\
-  rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:['Marek\
+  ilinsk\xE1 univerzita',city:'\u017Dilina',count:6,lat:49.2234674,lon:18.7393139,url:'Zilinska_univerzita',names:['Ivan\
+  \ Kuric','Jaroslav Frnda','Juraj Gerlici','Katar\xEDna Val\xE1\u0161kov\xE1','M\xE1\
+  ria Kov\xE1\u010Dov\xE1','Tom\xE1\u0161 Klie\u0161tik']},{name:'Slovensk\xE1 po\u013E\
+  nohospod\xE1rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:['Marek\
   \ \u017Div\u010D\xE1k','Mari\xE1n Bresti\u010D','Miroslava Ka\u010D\xE1niov\xE1\
   ','Peter Mass\xE1nyi']},{name:'Trnavsk\xE1 univerzita',city:'Trnava',count:3,lat:48.428000000000004,lon:17.586,url:'Trnavska_univerzita',names:['Marek\
   \ Majdan','Martin Rusn\xE1k','Peter Halama']},{name:'Univerzita Kon\u0161tant\xED\
   na Filozofa',city:'Nitra',count:3,lat:48.262,lon:18.089,url:'Univerzita_Konstantina_Filozofa',names:['Alexander\
   \ V. Sirotkin','Klaudia Jomov\xE1','\u0160tefan Be\u0148u\u0161']},{name:'Univerzita\
   \ sv\xE4t\xE9ho Cyrila a Metoda v Trnave',city:'Trnava',count:3,lat:48.326,lon:17.586,url:'Univerzita_svateho_Cyrila_a_Metoda_v_Trnave',names:['J\xE1\
-  n Titi\u0161','Roman Bo\u010Da','Stanislav Miertu\u0161']},{name:'Centrum vedecko-technick\xFD\
-  ch inform\xE1ci\xED SR',city:'Bratislava',count:1,lat:48.18753695435312,lon:16.945063268565818,url:'Centrum_vedecko-technickych_informacii_SR',names:['Du\u0161\
+  n Titi\u0161','Roman Bo\u010Da','Stanislav Miertu\u0161']},{name:'Univerzita Komensk\xE9\
+  ho',city:'Martin',count:2,lat:49.0724921,lon:18.929193,url:'Univerzita_Komenskeho',names:['Lenka\
+  \ Koklesov\xE1','Marek Samec']},{name:'Centrum vedecko-technick\xFDch inform\xE1\
+  ci\xED SR',city:'Bratislava',count:1,lat:48.18753695435312,lon:16.945063268565818,url:'Centrum_vedecko-technickych_informacii_SR',names:['Du\u0161\
   an Chorv\xE1t']},{name:'Ekonomick\xE1 univerzita v Bratislave',city:'Bratislava',count:1,lat:48.11646304564688,lon:16.945063268565818,url:'Ekonomicka_univerzita_v_Bratislave',names:['Ladislav\
   \ Mura']},{name:'Kempelen Institute of Intelligent Technologies',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.21031847203089,url:'Kempelen_Institute_of_Intelligent_Technologies',names:['M\xE1\
   ria Bielikov\xE1']},{name:'Lepage Research Institute',city:'Pre\u0161ov',count:1,lat:48.9705,lon:21.16111752820184,url:'Lepage_Research_Institute',names:['Demeter\
@@ -1392,14 +1415,14 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Kajo']},{name:'Pre\u0161ovsk\xE1 univerzita',city:'Pre\u0161ov',count:1,lat:49.059,lon:21.239,url:'Presovska_univerzita',names:['Marek\
   \ Chmel\xEDk']},{name:'Region\xE1lny \xFArad verejn\xE9ho zdravotn\xEDctva',city:'Bansk\xE1\
   \ Bystrica',count:1,lat:48.735429,lon:19.1457338,url:'Regionalny_urad_verejneho_zdravotnictva',names:['Eleon\xF3\
-  ra Fabi\xE1nov\xE1']},{name:'Slovensk\xE1 zdravotn\xEDcka univerzita',city:'Bratislava',count:1,lat:48.11646304564688,lon:17.272936731434186,url:'Slovenska_zdravotnicka_univerzita',names:['Tom\xE1\
+  ra Fabi\xE1nov\xE1']},{name:'Slovensk\xE1 akad\xE9mia vied',city:'Zvolen',count:1,lat:48.527,lon:19.125,url:'Slovenska_akademia_vied',names:['Rastislav\
+  \ Jaku\u0161']},{name:'Slovensk\xE1 zdravotn\xEDcka univerzita',city:'Bratislava',count:1,lat:48.11646304564688,lon:17.272936731434186,url:'Slovenska_zdravotnicka_univerzita',names:['Tom\xE1\
   \u0161 Trnovec']},{name:'Solargis',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.007681527969112,url:'Solargis',names:['Marcel\
   \ \u0160\xFAri']},{name:'Technick\xE1 univerzita v Ko\u0161iciach',city:'Pre\u0161\
   ov',count:1,lat:48.9705,lon:21.316882471798163,url:'Technicka_univerzita_v_Kosiciach',names:['Vieroslav\
   \ Moln\xE1r']},{name:'Tren\u010Dianska univerzita Alexandra Dub\u010Deka',city:'Tren\u010D\
   \xEDn',count:1,lat:48.8922719,lon:18.0387465,url:'Trencianska_univerzita_Alexandra_Dubceka',names:['Du\u0161\
-  an Galusek']},{name:'Univerzita Komensk\xE9ho',city:'Martin',count:1,lat:49.0724921,lon:18.929193,url:'Univerzita_Komenskeho',names:['Marek\
-  \ Samec']}]"
+  an Galusek']}]"
 record_area: "[{name:'Stanislav Tok\xE1r',h:269,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',area:'fyzika'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',area:'medic\xED\
   na'},{name:'Mari\xE1n Bresti\u010D',h:106,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
@@ -1412,7 +1435,7 @@ record_area: "[{name:'Stanislav Tok\xE1r',h:269,id:'Tokar:Slovensko:Univerzita_K
   mia'},{name:'Jozef Ke\u010Dk\xE9\u0161',h:58,id:'Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz',area:'materi\xE1\
   ly'},{name:'Andrea Madarasov\xE1 Geckov\xE1',h:55,id:'Geckova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:socialna_psychologia:zena',area:'spolo\u010D\
   ensk\xE9 vedy'},{name:'Tom\xE1\u0161 Klie\u0161tik',h:52,id:'Kliestik:Slovensko:Zilinska_univerzita:Zilina:profesor:financny_manazment:muz',area:'ekon\xF3\
-  mia a mana\u017Ement'},{name:'Demeter Krupka',h:30,id:'Krupka:Slovensko:Lepage_Research_Institute:Presov:profesor:diferencialna_geometria:muz',area:'ostatn\xE9\
+  mia a mana\u017Ement'},{name:'Rastislav Jaku\u0161',h:33,id:'Jakus:Slovensko:Slovenska_akademia_vied:Zvolen:samostatny_vedecky_pracovnik:ochrana_lesa:muz',area:'ostatn\xE9\
   '}]"
 record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',decade:'1930s'},{name:'Branislav\
   \ Sit\xE1r',h:175,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
