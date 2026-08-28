@@ -9878,6 +9878,32 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Pavol Hvizdo\u0161"
+  last: Hvizdos
+  year: 1965
+  sex: "mu\u017E"
+  position: docent
+  field: "keramick\xE9 materi\xE1ly"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=M_hgO24AAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-9536-4514
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1423
+  img: Pavol_Hvizdos_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: keramicke_materialy
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: docent
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
+  sexurl: muz
 - name: "Jana Jakub\xEDkov\xE1"
   last: Jakubikova
   year: ''
@@ -10422,6 +10448,30 @@
   affiliationurl: Centrum_vedecko-technickych_informacii_SR
   cityurl: Bratislava
   sexurl: muz
+- name: "Martin Dov\u010Diak"
+  last: Dovciak
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "lesn\xEDcka ekol\xF3gia"
+  affiliation: SUNY ESF
+  city: Syracuse
+  country: USA
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=VWKAu9EAAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - web
+    - https://www.esf.edu/faculty/dovciak/index.php
+  img: Martin_Dovciak_size_280px.jpg
+  countryurl: USA
+  fieldurl: lesnicka_ekologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: profesor
+  affiliationurl: SUNY_ESF
+  cityurl: Syracuse
+  sexurl: muz
 - name: "\u013Dubo\u0161 Drgo\u0148a"
   last: Drgona
   year: 1967
@@ -10567,6 +10617,30 @@
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
   sexurl: muz
+- name: "Michal Jur\xED\u010Dek"
+  last: Juricek
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "aromatick\xE1 ch\xE9mia"
+  affiliation: University of Zurich
+  city: "Z\xFCrich"
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=A0iacEUAAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - web
+    - https://www.chem.uzh.ch/en/research/groups/juricek.html
+  img: Michal_Juricek_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: aromaticka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: University_of_Zurich
+  cityurl: Zurich
+  sexurl: muz
 - name: "Ctirad Klim\u010D\xEDk"
   last: Klimcik
   year: 1961
@@ -10708,6 +10782,30 @@
   positionurl: profesorka
   affiliationurl: Johannes_Gutenberg-Universitat_Mainz
   cityurl: Mainz
+  sexurl: zena
+- name: "Dana Miklisov\xE1"
+  last: Miklisova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "parazitol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=PGBgF4QAAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - web
+    - https://pau.saske.sk/staff-list/miklisova/
+  img: Dana_Miklisova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: parazitologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedkyna
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
   sexurl: zena
 - name: "Tom\xE1\u0161 Roch"
   last: Roch
@@ -11352,6 +11450,30 @@
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
+  sexurl: muz
+- name: "Alexander Chud\xEDk"
+  last: Chudik
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: ekonometria
+  affiliation: Federal Reserve Bank of Dallas
+  city: Dallas
+  country: USA
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=s9CJ03QAAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - web
+    - https://www.dallasfed.org/people/research/economists/chudik
+  img: Alexander_Chudik_size_280px.jpg
+  countryurl: USA
+  fieldurl: ekonometria
+  area: "ekon\xF3mia a mana\u017Ement"
+  areaurl: ekonomia_a_manazment
+  positionurl: vedec
+  affiliationurl: Federal_Reserve_Bank_of_Dallas
+  cityurl: Dallas
   sexurl: muz
 - name: Peter Cifra
   last: Cifra
