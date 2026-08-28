@@ -480,7 +480,10 @@ for person in alllst:
 		}
 	pname = person.get("name") or person.get("last") or ""
 	if pname:
-		sk_inst[key]["names"].append(pname)
+		sk_inst[key]["names"].append({
+			"name": pname,
+			"h": int(person.get("hindex") or 0),
+		})
 
 sk_rows = []
 for key, info in sk_inst.items():
@@ -491,7 +494,10 @@ for key, info in sk_inst.items():
 		continue
 	info["lat"] = float(lat)
 	info["lon"] = float(lon)
-	info["names"] = sorted(info["names"], key=lambda n: repl(n).lower())
+	info["names"] = sorted(
+		info["names"],
+		key=lambda e: (-int(e["h"]), repl(e["name"]).lower()),
+	)
 	sk_rows.append(info)
 
 from collections import defaultdict
@@ -511,7 +517,7 @@ for (blat, blon), items in _buckets.items():
 sk_rows.sort(key=lambda e: (-len(e["names"]), repl(e["name"]).lower()))
 sk_js = []
 for info in sk_rows:
-	names_js = "[" + ",".join(_js_str(n) for n in info["names"]) + "]"
+	names_js = "[" + ",".join("{name:%s,h:%d}" % (_js_str(e["name"]), int(e["h"])) for e in info["names"]) + "]"
 	sk_js.append("{name:%s,city:%s,count:%d,lat:%s,lon:%s,url:%s,names:%s}" % (
 		_js_str(info["name"]),
 		_js_str(info["city"]),

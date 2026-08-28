@@ -251,6 +251,23 @@ title: Statistiky
                 return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
               });
             }
+            function instNameLabel(n) {
+              if (n && typeof n === "object") {
+                var nm = n.name || "";
+                return (n.h != null && n.h !== "") ? (nm + " (" + n.h + ")") : nm;
+              }
+              return String(n == null ? "" : n);
+            }
+            function instNameSort(a, b) {
+              var ah = (a && typeof a === "object") ? (Number(a.h) || 0) : 0;
+              var bh = (b && typeof b === "object") ? (Number(b.h) || 0) : 0;
+              if (bh !== ah) return bh - ah;
+              var an = (a && typeof a === "object") ? String(a.name || "") : String(a || "");
+              var bn = (b && typeof b === "object") ? String(b.name || "") : String(b || "");
+              if (an < bn) return -1;
+              if (an > bn) return 1;
+              return 0;
+            }
             var g = document.getElementById("skInstDots");
             var tip = document.getElementById("slovakiaInstTip");
             var root = document.getElementById("slovakiaInstMap");
@@ -267,9 +284,9 @@ title: Statistiky
               c.setAttribute("stroke-width", "1");
               c.setAttribute("fill-opacity", "0.92");
               c.addEventListener("mouseenter", function (ev) {
-                var names = m.names || [];
+                var names = (m.names || []).slice().sort(instNameSort);
                 tip.innerHTML = "<strong>" + esc(m.name) + "</strong>" + esc(m.city) + " · " + names.length +
-                  (names.length ? "<br>" + names.map(esc).join("<br>") : "");
+                  (names.length ? "<br>" + names.map(instNameLabel).map(esc).join("<br>") : "");
                 tip.style.display = "block";
                 var box = root.getBoundingClientRect();
                 tip.style.left = Math.min(ev.clientX - box.left + 12, box.width - 160) + "px";

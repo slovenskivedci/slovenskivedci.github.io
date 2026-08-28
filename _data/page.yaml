@@ -1342,87 +1342,106 @@ city_markers: "[{name:'Bratislava',country:'Slovensko',count:134,lat:48.1516988,
   nsko',count:1,lat:60.4515932,lon:22.2669991,url:'Turku'},{name:'Twin Cities',country:'USA',count:1,lat:44.9772995,lon:-93.2654692,url:'Twin_Cities'},{name:'Upton',country:'USA',count:1,lat:40.869543,lon:-72.8867697,url:'Upton'},{name:'Urbana-Champaign',country:'USA',count:1,lat:40.1117174,lon:-88.207301,url:'Urbana-Champaign'},{name:'Utrecht',country:'Holandsko',count:1,lat:52.0907006,lon:5.1215634,url:'Utrecht'},{name:'Wageningen',country:'Holandsko',count:1,lat:51.9663016,lon:5.6662814,url:'Wageningen'},{name:'Wak\u014D\
   ',country:'Japonsko',count:1,lat:35.7817053,lon:139.6058692,url:'Wako'},{name:'\u017D\
   eneva',country:'\u0160vaj\u010Diarsko',count:1,lat:46.2017559,lon:6.1466014,url:'Zeneva'}]"
-sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count:57,lat:48.18753695435312,lon:17.272936731434186,url:'Slovenska_akademia_vied',names:['Adam\
-  \ Toma\u0161ov\xFDch','Anatolij Dvure\u010Denskij','Andrej Liptaj','Boris Klempa','Daniela\
-  \ Je\u017Eov\xE1','Da\u0161a \u010C\xED\u017Ekov\xE1','Eva \u0160pitalsk\xE1','Fedor\
-  \ G\xF6m\xF6ry','Igor Lac\xEDk','Igor Nov\xE1k','Igor Tvaro\u0161ka','Imrich Bar\xE1\
-  k','Ivan Chod\xE1k','Iveta Bern\xE1tov\xE1','Iwar Klime\u0161','J\xE1n Kormanec','J\xE1\
-  n Sl\xE1dek','J\xE1n Tk\xE1\u010D','Jana Jakub\xEDkov\xE1','Jana Madejov\xE1','Jarom\xED\
-  r Pastorek','Jaroslav Lexa','Jaroslav Mosn\xE1\u010Dek','Jozef Ukropec','Juraj Majt\xE1\
-  n','Karol Marhold','Karol Ondria\u0161','\u013Dubica Lacinov\xE1','\u013Dubom\xED\
-  r Lichner','M\xE1ria Kazim\xEDrov\xE1','M\xE1ria Omastov\xE1','Mari\xE1n Kraj\u010D\
-  \xED','M\xE1rio Ziman','Miroslav Kocifaj','Norbert \u017Dilka','O\u013Ega Kri\u017E\
-  anov\xE1','O\u013Ega Pech\xE1\u0148ov\xE1','Pavol \u0160ajgal\xEDk','Peter Biely','Peter\
-  \ Cifra','Peter Gemeiner','Peter Komadel','Peter Vr\u0161ansk\xFD','Richard Hrivn\xE1\
-  k','Richard Imrich','Richard Kvet\u0148ansk\xFD','Silvia Pastorekov\xE1','Stanislav\
-  \ Komorovsk\xFD','\u0160tefan Jane\u010Dek','Tanya Ravingerov\xE1','Tom\xE1\u0161\
-  \ Bert\xF3k','Tom\xE1\u0161 Bleha','Vladim\xEDr Bal\xE1\u017E','Vladim\xEDr Bu\u017E\
-  ek','Vladim\xEDr Farka\u0161','Vladim\xEDr Sl\xE1dek','Zdenko \u0160pit\xE1lsky']},{name:'Univerzita\
-  \ Komensk\xE9ho',city:'Bratislava',count:53,lat:48.267,lon:17.109,url:'Univerzita_Komenskeho',names:['Alexandra\
-  \ Bra\u017Einov\xE1','Branislav Sit\xE1r','Daniela Ostatn\xEDkov\xE1','Du\u0161\
-  an Pla\u0161ienka','Fedor \u0160imkovic','Ferdinand Dev\xEDnsky','Gust\xE1v Plesch','Iveta\
-  \ Waczul\xEDkov\xE1','J\xE1n Kyselovi\u010D','J\xE1n Lehotsk\xFD','Jana Kordul\xE1\
-  kov\xE1','Josef Jamp\xEDlek','Jozef Kristek','Jozef Masarik','Jozef Noga','Jozef\
-  \ Nosek','J\xFAlius \u0160ub\xEDk','Juraj Bujd\xE1k','Katar\xEDna Miku\u0161ov\xE1\
-  ','Katar\xEDna \u0160ebekov\xE1','\u013Dubom\xEDr Tom\xE1\u0161ka','\u013Dubo\u0161\
-  \ Dani\u0161ovi\u010D','\u013Dudov\xEDt Paulis','Marek Fila','Michal Fe\u010Dkan','Michal\
-  \ Mego','Michal Zeman','Milan Remko','Milan S\xFDkora','Miroslav Grajcar','Miroslav\
-  \ Urban','Nat\xE1lia Kryvinsk\xE1','Pavel Povinec','Pavol Balgav\xFD','Pavol Barto\u0161\
-  ','Pavol Prokop','Pavol Quittner','Peter Celec','Peter Kubatka','Peter Moczo','Roman\
-  \ Marto\u0148\xE1k','Stanislav Antalic','Stanislav Tok\xE1r','\u0160tefan Matej\u010D\
-  \xEDk','Tibor Hianik','Tom\xE1\u0161 Bu\u010Dko','Tom\xE1\u0161 Roch','Tom\xE1\u0161\
-  \ Vina\u0159','Vladim\xEDr \u010Cern\xFD','Vladim\xEDr Kell\xF6','Vladim\xEDr Kov\xE1\
-  \u010D','Zdenka \u010Eura\u010Dkov\xE1','Zdenko Machala']},{name:'Slovensk\xE1 technick\xE1\
-  \ univerzita',city:'Bratislava',count:17,lat:48.24503695435312,lon:17.21031847203089,url:'Slovenska_technicka_univerzita',names:['Albert\
-  \ Breier','Igor Bod\xEDk','J\xE1n Szolgay','Jozef \u0160ir\xE1\u0148','Karol Mikula','\u013D\
-  ubom\xEDr \u0160vorc','Mari\xE1n Valko','Michal Kvasnica','Milan \u010Cert\xEDk','Milan\
-  \ Hronec','Milan Polakovi\u010D','Miroslav G\xE1l','Radko Mesiar','Silvia Kohnov\xE1\
-  ','\u0160tefan Schlosser','Vlasta Brezov\xE1','Zlatica Kohajdov\xE1']},{name:'Univerzita\
-  \ Pavla Jozefa \u0160af\xE1rika',city:'Ko\u0161ice',count:9,lat:48.775999999999996,lon:21.25,url:'Univerzita_Pavla_Jozefa_Safarika',names:['Andrea\
-  \ Madarasov\xE1 Geckov\xE1','Eva \u010Cell\xE1rov\xE1','Iveta Nagyov\xE1','J\xE1\
-  n Moj\u017Ei\u0161','Martin Ba\u010Dkor','Martin Gmitra','Matej \u0160korv\xE1nek','Vladimir\
-  \ Zele\u0148\xE1k','Zuzana Gdovinov\xE1']},{name:'Technick\xE1 univerzita v Ko\u0161\
-  iciach',city:'Ko\u0161ice',count:8,lat:48.6875,lon:21.17255661457009,url:'Technicka_univerzita_v_Kosiciach',names:['Be\xE1\
-  ta Gavurov\xE1','Gabriel Fedorko','Igor Podlubn\xFD','Ivo Petr\xE1\u0161','Jozef\
-  \ D\u017Eurina','Martin Ba\u010Da','Peter Papcun','Sergej Hloch']},{name:'Slovensk\xE1\
-  \ akad\xE9mia vied',city:'Ko\u0161ice',count:7,lat:48.6875,lon:21.327443385429913,url:'Slovenska_akademia_vied',names:['J\xE1\
-  n Dusza','Karol Flachbart','Matej Bal\xE1\u017E','Milan Timko','Peter Kop\u010D\
-  ansk\xFD','Peter Samuely','Zuzana Ga\u017Eov\xE1']},{name:'Technick\xE1 univerzita\
-  \ vo Zvolene',city:'Zvolen',count:6,lat:48.629000000000005,lon:19.125,url:'Technicka_univerzita_vo_Zvolene',names:['Du\u0161\
-  an G\xF6m\xF6ry','Franti\u0161ek Ka\u010D\xEDk','Ladislav Paule','\u013Dubo\u0161\
-  \ Kri\u0161\u0165\xE1k','Michal Bo\u0161e\u013Ea','Milo\u0161 Hitka']},{name:'\u017D\
-  ilinsk\xE1 univerzita',city:'\u017Dilina',count:6,lat:49.2234674,lon:18.7393139,url:'Zilinska_univerzita',names:['Ivan\
-  \ Kuric','Jaroslav Frnda','Juraj Gerlici','Katar\xEDna Val\xE1\u0161kov\xE1','M\xE1\
-  ria Kov\xE1\u010Dov\xE1','Tom\xE1\u0161 Klie\u0161tik']},{name:'Slovensk\xE1 po\u013E\
-  nohospod\xE1rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:['Marek\
-  \ \u017Div\u010D\xE1k','Mari\xE1n Bresti\u010D','Miroslava Ka\u010D\xE1niov\xE1\
-  ','Peter Mass\xE1nyi']},{name:'Trnavsk\xE1 univerzita',city:'Trnava',count:3,lat:48.428000000000004,lon:17.586,url:'Trnavska_univerzita',names:['Marek\
-  \ Majdan','Martin Rusn\xE1k','Peter Halama']},{name:'Univerzita Kon\u0161tant\xED\
-  na Filozofa',city:'Nitra',count:3,lat:48.262,lon:18.089,url:'Univerzita_Konstantina_Filozofa',names:['Alexander\
-  \ V. Sirotkin','Klaudia Jomov\xE1','\u0160tefan Be\u0148u\u0161']},{name:'Univerzita\
-  \ sv\xE4t\xE9ho Cyrila a Metoda v Trnave',city:'Trnava',count:3,lat:48.326,lon:17.586,url:'Univerzita_svateho_Cyrila_a_Metoda_v_Trnave',names:['J\xE1\
-  n Titi\u0161','Roman Bo\u010Da','Stanislav Miertu\u0161']},{name:'Univerzita Komensk\xE9\
-  ho',city:'Martin',count:2,lat:49.0724921,lon:18.929193,url:'Univerzita_Komenskeho',names:['Lenka\
-  \ Koklesov\xE1','Marek Samec']},{name:'Centrum vedecko-technick\xFDch inform\xE1\
-  ci\xED SR',city:'Bratislava',count:1,lat:48.18753695435312,lon:16.945063268565818,url:'Centrum_vedecko-technickych_informacii_SR',names:['Du\u0161\
-  an Chorv\xE1t']},{name:'Ekonomick\xE1 univerzita v Bratislave',city:'Bratislava',count:1,lat:48.11646304564688,lon:16.945063268565818,url:'Ekonomicka_univerzita_v_Bratislave',names:['Ladislav\
-  \ Mura']},{name:'Kempelen Institute of Intelligent Technologies',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.21031847203089,url:'Kempelen_Institute_of_Intelligent_Technologies',names:['M\xE1\
-  ria Bielikov\xE1']},{name:'Lepage Research Institute',city:'Pre\u0161ov',count:1,lat:48.9705,lon:21.16111752820184,url:'Lepage_Research_Institute',names:['Demeter\
-  \ Krupka']},{name:'N\xE1rodn\xFD onkologick\xFD \xFAstav',city:'Bratislava',count:1,lat:48.24503695435312,lon:17.007681527969112,url:'Narodny_onkologicky_ustav',names:['\u013D\
-  ubo\u0161 Drgo\u0148a']},{name:'N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4\
-  b',city:'Pie\u0161\u0165any',count:1,lat:48.5895247,lon:17.8213848,url:'Narodny_ustav_reumatickych_chorob',names:['Jozef\
-  \ Rovensk\xFD']},{name:'Onkologick\xFD \xFAstav sv. Al\u017Ebety',city:'Bratislava',count:1,lat:48.037,lon:17.109,url:'Onkologicky_ustav_sv._Alzbety',names:['Karol\
-  \ Kajo']},{name:'Pre\u0161ovsk\xE1 univerzita',city:'Pre\u0161ov',count:1,lat:49.059,lon:21.239,url:'Presovska_univerzita',names:['Marek\
-  \ Chmel\xEDk']},{name:'Region\xE1lny \xFArad verejn\xE9ho zdravotn\xEDctva',city:'Bansk\xE1\
-  \ Bystrica',count:1,lat:48.735429,lon:19.1457338,url:'Regionalny_urad_verejneho_zdravotnictva',names:['Eleon\xF3\
-  ra Fabi\xE1nov\xE1']},{name:'Slovensk\xE1 akad\xE9mia vied',city:'Zvolen',count:1,lat:48.527,lon:19.125,url:'Slovenska_akademia_vied',names:['Rastislav\
-  \ Jaku\u0161']},{name:'Slovensk\xE1 zdravotn\xEDcka univerzita',city:'Bratislava',count:1,lat:48.11646304564688,lon:17.272936731434186,url:'Slovenska_zdravotnicka_univerzita',names:['Tom\xE1\
-  \u0161 Trnovec']},{name:'Solargis',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.007681527969112,url:'Solargis',names:['Marcel\
-  \ \u0160\xFAri']},{name:'Technick\xE1 univerzita v Ko\u0161iciach',city:'Pre\u0161\
-  ov',count:1,lat:48.9705,lon:21.316882471798163,url:'Technicka_univerzita_v_Kosiciach',names:['Vieroslav\
-  \ Moln\xE1r']},{name:'Tren\u010Dianska univerzita Alexandra Dub\u010Deka',city:'Tren\u010D\
-  \xEDn',count:1,lat:48.8922719,lon:18.0387465,url:'Trencianska_univerzita_Alexandra_Dubceka',names:['Du\u0161\
-  an Galusek']}]"
+sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count:57,lat:48.18753695435312,lon:17.272936731434186,url:'Slovenska_akademia_vied',names:[{name:'Silvia\
+  \ Pastorekov\xE1',h:76},{name:'Jarom\xEDr Pastorek',h:73},{name:'Peter Biely',h:65},{name:'Vladim\xED\
+  r Bu\u017Eek',h:65},{name:'Richard Kvet\u0148ansk\xFD',h:61},{name:'J\xE1n Sl\xE1\
+  dek',h:60},{name:'Vladim\xEDr Sl\xE1dek',h:59},{name:'Daniela Je\u017Eov\xE1',h:56},{name:'Jana\
+  \ Madejov\xE1',h:55},{name:'M\xE1ria Omastov\xE1',h:55},{name:'J\xE1n Tk\xE1\u010D\
+  ',h:54},{name:'Boris Klempa',h:53},{name:'Karol Marhold',h:52},{name:'Igor Lac\xED\
+  k',h:51},{name:'Peter Komadel',h:51},{name:'O\u013Ega Pech\xE1\u0148ov\xE1',h:50},{name:'Juraj\
+  \ Majt\xE1n',h:47},{name:'Peter Gemeiner',h:47},{name:'\u0160tefan Jane\u010Dek',h:46},{name:'Iwar\
+  \ Klime\u0161',h:44},{name:'Norbert \u017Dilka',h:44},{name:'Jozef Ukropec',h:42},{name:'Andrej\
+  \ Liptaj',h:41},{name:'Igor Tvaro\u0161ka',h:41},{name:'Ivan Chod\xE1k',h:41},{name:'J\xE1\
+  n Kormanec',h:41},{name:'Zdenko \u0160pit\xE1lsky',h:41},{name:'Adam Toma\u0161\
+  ov\xFDch',h:40},{name:'Pavol \u0160ajgal\xEDk',h:39},{name:'Vladim\xEDr Farka\u0161\
+  ',h:39},{name:'Iveta Bern\xE1tov\xE1',h:38},{name:'O\u013Ega Kri\u017Eanov\xE1',h:38},{name:'Karol\
+  \ Ondria\u0161',h:37},{name:'M\xE1ria Kazim\xEDrov\xE1',h:37},{name:'Tanya Ravingerov\xE1\
+  ',h:37},{name:'Fedor G\xF6m\xF6ry',h:36},{name:'Imrich Bar\xE1k',h:36},{name:'Jaroslav\
+  \ Mosn\xE1\u010Dek',h:36},{name:'\u013Dubica Lacinov\xE1',h:36},{name:'Anatolij\
+  \ Dvure\u010Denskij',h:35},{name:'Da\u0161a \u010C\xED\u017Ekov\xE1',h:35},{name:'Miroslav\
+  \ Kocifaj',h:35},{name:'Richard Imrich',h:34},{name:'Igor Nov\xE1k',h:33},{name:'Jana\
+  \ Jakub\xEDkov\xE1',h:33},{name:'Jaroslav Lexa',h:33},{name:'Mari\xE1n Kraj\u010D\
+  \xED',h:33},{name:'Peter Vr\u0161ansk\xFD',h:33},{name:'Richard Hrivn\xE1k',h:33},{name:'Eva\
+  \ \u0160pitalsk\xE1',h:32},{name:'Stanislav Komorovsk\xFD',h:32},{name:'Tom\xE1\u0161\
+  \ Bert\xF3k',h:32},{name:'Vladim\xEDr Bal\xE1\u017E',h:32},{name:'\u013Dubom\xED\
+  r Lichner',h:31},{name:'M\xE1rio Ziman',h:31},{name:'Tom\xE1\u0161 Bleha',h:31},{name:'Peter\
+  \ Cifra',h:30}]},{name:'Univerzita Komensk\xE9ho',city:'Bratislava',count:53,lat:48.267,lon:17.109,url:'Univerzita_Komenskeho',names:[{name:'Stanislav\
+  \ Tok\xE1r',h:269},{name:'Pavol Barto\u0161',h:235},{name:'Branislav Sit\xE1r',h:175},{name:'\u0160\
+  tefan Matej\u010D\xEDk',h:90},{name:'Fedor \u0160imkovic',h:77},{name:'Pavel Povinec',h:68},{name:'Peter\
+  \ Kubatka',h:64},{name:'Alexandra Bra\u017Einov\xE1',h:63},{name:'Vladim\xEDr \u010C\
+  ern\xFD',h:63},{name:'Pavol Prokop',h:60},{name:'Josef Jamp\xEDlek',h:57},{name:'Peter\
+  \ Celec',h:55},{name:'Michal Mego',h:51},{name:'Jozef Noga',h:47},{name:'Tibor Hianik',h:47},{name:'Tom\xE1\
+  \u0161 Bu\u010Dko',h:47},{name:'Nat\xE1lia Kryvinsk\xE1',h:46},{name:'Michal Zeman',h:45},{name:'Michal\
+  \ Fe\u010Dkan',h:44},{name:'Jozef Masarik',h:42},{name:'Katar\xEDna \u0160ebekov\xE1\
+  ',h:42},{name:'Zdenko Machala',h:42},{name:'Miroslav Urban',h:41},{name:'Peter Moczo',h:41},{name:'Stanislav\
+  \ Antalic',h:41},{name:'Juraj Bujd\xE1k',h:40},{name:'Katar\xEDna Miku\u0161ov\xE1\
+  ',h:40},{name:'J\xE1n Lehotsk\xFD',h:39},{name:'\u013Dubo\u0161 Dani\u0161ovi\u010D\
+  ',h:38},{name:'\u013Dudov\xEDt Paulis',h:38},{name:'Milan S\xFDkora',h:38},{name:'Zdenka\
+  \ \u010Eura\u010Dkov\xE1',h:38},{name:'Daniela Ostatn\xEDkov\xE1',h:37},{name:'Jozef\
+  \ Kristek',h:37},{name:'Vladim\xEDr Kell\xF6',h:37},{name:'Du\u0161an Pla\u0161\
+  ienka',h:36},{name:'Roman Marto\u0148\xE1k',h:36},{name:'Ferdinand Dev\xEDnsky',h:35},{name:'Jozef\
+  \ Nosek',h:35},{name:'Marek Fila',h:35},{name:'Miroslav Grajcar',h:35},{name:'Iveta\
+  \ Waczul\xEDkov\xE1',h:34},{name:'\u013Dubom\xEDr Tom\xE1\u0161ka',h:34},{name:'Milan\
+  \ Remko',h:34},{name:'J\xE1n Kyselovi\u010D',h:33},{name:'Jana Kordul\xE1kov\xE1\
+  ',h:33},{name:'Pavol Quittner',h:33},{name:'Tom\xE1\u0161 Vina\u0159',h:33},{name:'Tom\xE1\
+  \u0161 Roch',h:32},{name:'Vladim\xEDr Kov\xE1\u010D',h:32},{name:'Gust\xE1v Plesch',h:31},{name:'Pavol\
+  \ Balgav\xFD',h:31},{name:'J\xFAlius \u0160ub\xEDk',h:30}]},{name:'Slovensk\xE1\
+  \ technick\xE1 univerzita',city:'Bratislava',count:17,lat:48.24503695435312,lon:17.21031847203089,url:'Slovenska_technicka_univerzita',names:[{name:'Radko\
+  \ Mesiar',h:82},{name:'Mari\xE1n Valko',h:52},{name:'Vlasta Brezov\xE1',h:52},{name:'\u013D\
+  ubom\xEDr \u0160vorc',h:42},{name:'Milan \u010Cert\xEDk',h:37},{name:'J\xE1n Szolgay',h:35},{name:'Karol\
+  \ Mikula',h:35},{name:'Zlatica Kohajdov\xE1',h:35},{name:'Milan Polakovi\u010D',h:34},{name:'\u0160\
+  tefan Schlosser',h:34},{name:'Milan Hronec',h:32},{name:'Igor Bod\xEDk',h:31},{name:'Jozef\
+  \ \u0160ir\xE1\u0148',h:31},{name:'Michal Kvasnica',h:31},{name:'Silvia Kohnov\xE1\
+  ',h:31},{name:'Albert Breier',h:30},{name:'Miroslav G\xE1l',h:30}]},{name:'Univerzita\
+  \ Pavla Jozefa \u0160af\xE1rika',city:'Ko\u0161ice',count:9,lat:48.775999999999996,lon:21.25,url:'Univerzita_Pavla_Jozefa_Safarika',names:[{name:'Andrea\
+  \ Madarasov\xE1 Geckov\xE1',h:55},{name:'Iveta Nagyov\xE1',h:47},{name:'Martin Ba\u010D\
+  kor',h:47},{name:'Martin Gmitra',h:46},{name:'J\xE1n Moj\u017Ei\u0161',h:44},{name:'Zuzana\
+  \ Gdovinov\xE1',h:39},{name:'Vladimir Zele\u0148\xE1k',h:38},{name:'Matej \u0160\
+  korv\xE1nek',h:34},{name:'Eva \u010Cell\xE1rov\xE1',h:31}]},{name:'Technick\xE1\
+  \ univerzita v Ko\u0161iciach',city:'Ko\u0161ice',count:8,lat:48.6875,lon:21.17255661457009,url:'Technicka_univerzita_v_Kosiciach',names:[{name:'Ivo\
+  \ Petr\xE1\u0161',h:48},{name:'Be\xE1ta Gavurov\xE1',h:46},{name:'Sergej Hloch',h:43},{name:'Igor\
+  \ Podlubn\xFD',h:42},{name:'Gabriel Fedorko',h:38},{name:'Martin Ba\u010Da',h:35},{name:'Jozef\
+  \ D\u017Eurina',h:33},{name:'Peter Papcun',h:30}]},{name:'Slovensk\xE1 akad\xE9\
+  mia vied',city:'Ko\u0161ice',count:7,lat:48.6875,lon:21.327443385429913,url:'Slovenska_akademia_vied',names:[{name:'J\xE1\
+  n Dusza',h:53},{name:'Peter Kop\u010Dansk\xFD',h:41},{name:'Milan Timko',h:38},{name:'Matej\
+  \ Bal\xE1\u017E',h:36},{name:'Karol Flachbart',h:31},{name:'Zuzana Ga\u017Eov\xE1\
+  ',h:31},{name:'Peter Samuely',h:30}]},{name:'Technick\xE1 univerzita vo Zvolene',city:'Zvolen',count:6,lat:48.629000000000005,lon:19.125,url:'Technicka_univerzita_vo_Zvolene',names:[{name:'Du\u0161\
+  an G\xF6m\xF6ry',h:42},{name:'Franti\u0161ek Ka\u010D\xEDk',h:38},{name:'Ladislav\
+  \ Paule',h:38},{name:'\u013Dubo\u0161 Kri\u0161\u0165\xE1k',h:37},{name:'Michal\
+  \ Bo\u0161e\u013Ea',h:34},{name:'Milo\u0161 Hitka',h:33}]},{name:'\u017Dilinsk\xE1\
+  \ univerzita',city:'\u017Dilina',count:6,lat:49.2234674,lon:18.7393139,url:'Zilinska_univerzita',names:[{name:'Tom\xE1\
+  \u0161 Klie\u0161tik',h:52},{name:'Katar\xEDna Val\xE1\u0161kov\xE1',h:46},{name:'Juraj\
+  \ Gerlici',h:36},{name:'M\xE1ria Kov\xE1\u010Dov\xE1',h:35},{name:'Ivan Kuric',h:33},{name:'Jaroslav\
+  \ Frnda',h:32}]},{name:'Slovensk\xE1 po\u013Enohospod\xE1rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:[{name:'Mari\xE1\
+  n Bresti\u010D',h:106},{name:'Marek \u017Div\u010D\xE1k',h:57},{name:'Miroslava\
+  \ Ka\u010D\xE1niov\xE1',h:53},{name:'Peter Mass\xE1nyi',h:49}]},{name:'Trnavsk\xE1\
+  \ univerzita',city:'Trnava',count:3,lat:48.428000000000004,lon:17.586,url:'Trnavska_univerzita',names:[{name:'Marek\
+  \ Majdan',h:76},{name:'Martin Rusn\xE1k',h:38},{name:'Peter Halama',h:37}]},{name:'Univerzita\
+  \ Kon\u0161tant\xEDna Filozofa',city:'Nitra',count:3,lat:48.262,lon:18.089,url:'Univerzita_Konstantina_Filozofa',names:[{name:'Alexander\
+  \ V. Sirotkin',h:45},{name:'Klaudia Jomov\xE1',h:37},{name:'\u0160tefan Be\u0148\
+  u\u0161',h:33}]},{name:'Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave',city:'Trnava',count:3,lat:48.326,lon:17.586,url:'Univerzita_svateho_Cyrila_a_Metoda_v_Trnave',names:[{name:'Roman\
+  \ Bo\u010Da',h:53},{name:'Stanislav Miertu\u0161',h:46},{name:'J\xE1n Titi\u0161\
+  ',h:35}]},{name:'Univerzita Komensk\xE9ho',city:'Martin',count:2,lat:49.0724921,lon:18.929193,url:'Univerzita_Komenskeho',names:[{name:'Marek\
+  \ Samec',h:40},{name:'Lenka Koklesov\xE1',h:36}]},{name:'Centrum vedecko-technick\xFD\
+  ch inform\xE1ci\xED SR',city:'Bratislava',count:1,lat:48.18753695435312,lon:16.945063268565818,url:'Centrum_vedecko-technickych_informacii_SR',names:[{name:'Du\u0161\
+  an Chorv\xE1t',h:32}]},{name:'Ekonomick\xE1 univerzita v Bratislave',city:'Bratislava',count:1,lat:48.11646304564688,lon:16.945063268565818,url:'Ekonomicka_univerzita_v_Bratislave',names:[{name:'Ladislav\
+  \ Mura',h:34}]},{name:'Kempelen Institute of Intelligent Technologies',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.21031847203089,url:'Kempelen_Institute_of_Intelligent_Technologies',names:[{name:'M\xE1\
+  ria Bielikov\xE1',h:38}]},{name:'Lepage Research Institute',city:'Pre\u0161ov',count:1,lat:48.9705,lon:21.16111752820184,url:'Lepage_Research_Institute',names:[{name:'Demeter\
+  \ Krupka',h:30}]},{name:'N\xE1rodn\xFD onkologick\xFD \xFAstav',city:'Bratislava',count:1,lat:48.24503695435312,lon:17.007681527969112,url:'Narodny_onkologicky_ustav',names:[{name:'\u013D\
+  ubo\u0161 Drgo\u0148a',h:32}]},{name:'N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4\
+  b',city:'Pie\u0161\u0165any',count:1,lat:48.5895247,lon:17.8213848,url:'Narodny_ustav_reumatickych_chorob',names:[{name:'Jozef\
+  \ Rovensk\xFD',h:52}]},{name:'Onkologick\xFD \xFAstav sv. Al\u017Ebety',city:'Bratislava',count:1,lat:48.037,lon:17.109,url:'Onkologicky_ustav_sv._Alzbety',names:[{name:'Karol\
+  \ Kajo',h:36}]},{name:'Pre\u0161ovsk\xE1 univerzita',city:'Pre\u0161ov',count:1,lat:49.059,lon:21.239,url:'Presovska_univerzita',names:[{name:'Marek\
+  \ Chmel\xEDk',h:38}]},{name:'Region\xE1lny \xFArad verejn\xE9ho zdravotn\xEDctva',city:'Bansk\xE1\
+  \ Bystrica',count:1,lat:48.735429,lon:19.1457338,url:'Regionalny_urad_verejneho_zdravotnictva',names:[{name:'Eleon\xF3\
+  ra Fabi\xE1nov\xE1',h:79}]},{name:'Slovensk\xE1 akad\xE9mia vied',city:'Zvolen',count:1,lat:48.527,lon:19.125,url:'Slovenska_akademia_vied',names:[{name:'Rastislav\
+  \ Jaku\u0161',h:33}]},{name:'Slovensk\xE1 zdravotn\xEDcka univerzita',city:'Bratislava',count:1,lat:48.11646304564688,lon:17.272936731434186,url:'Slovenska_zdravotnicka_univerzita',names:[{name:'Tom\xE1\
+  \u0161 Trnovec',h:50}]},{name:'Solargis',city:'Bratislava',count:1,lat:48.058963045646884,lon:17.007681527969112,url:'Solargis',names:[{name:'Marcel\
+  \ \u0160\xFAri',h:36}]},{name:'Technick\xE1 univerzita v Ko\u0161iciach',city:'Pre\u0161\
+  ov',count:1,lat:48.9705,lon:21.316882471798163,url:'Technicka_univerzita_v_Kosiciach',names:[{name:'Vieroslav\
+  \ Moln\xE1r',h:34}]},{name:'Tren\u010Dianska univerzita Alexandra Dub\u010Deka',city:'Tren\u010D\
+  \xEDn',count:1,lat:48.8922719,lon:18.0387465,url:'Trencianska_univerzita_Alexandra_Dubceka',names:[{name:'Du\u0161\
+  an Galusek',h:42}]}]"
 record_area: "[{name:'Stanislav Tok\xE1r',h:269,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',area:'fyzika'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',area:'medic\xED\
   na'},{name:'Mari\xE1n Bresti\u010D',h:106,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
