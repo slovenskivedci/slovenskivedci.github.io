@@ -27,7 +27,7 @@
     - https://www.wikidata.org/wiki/Q98507487
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Tokar/01_inauguracia_zivotopis__tokar.pdf
-  img: Stanislav_Tokar.jpg
+  img: Stanislav_Tokar_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: subjadrova_fyzika
@@ -58,7 +58,7 @@
     - https://www.fzu.cz/en/people/rndr-roman-lysak-phd
   - - "\u017Eivotopis"
     - https://www.fzu.cz/~lysak/documents/Lysak_CV_ENG.pdf
-  img: Roman_Lysak.jpg
+  img: Roman_Lysak_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: subjadrova_fyzika
@@ -89,7 +89,7 @@
     - https://uniba.sk/ludia/?tx_unibausers_pi1=Array&cHash=1e2f0cf1f02d8841b8d704c04ba8059b&p3::omega-page=27
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Bartos/CV.pdf
-  img: Pavol_Bartos.jpg
+  img: Pavol_Bartos_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: subjadrova_fyzika
@@ -118,7 +118,7 @@
     - https://www.linkedin.com/in/tomas-dado-298a75191/?originalSubdomain=sk
   - - web
     - https://www.e4.physik.tu-dortmund.de/cms/de/AG-Kroeninger/Mitarbeiter/WiMis/Tomas-Dado.html
-  img: Tomas_Dado.jpg
+  img: Tomas_Dado_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: subjadrova_fyzika
@@ -149,7 +149,7 @@
     - "https://sk.wikipedia.org/wiki/Branislav_Sit\xE1r"
   - - "\u017Eivotopis"
     - files/cv_Branislav_Sitar_2022.pdf
-  img: Branislav_Sitar.jpg
+  img: Branislav_Sitar_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: subjadrova_fyzika
@@ -190,7 +190,7 @@
     - https://en.wikipedia.org/wiki/Jozef_G\xE9cz
   - - "\u017Eivotopis"
     - https://prabook.com/web/jozef.gecz/418497
-  img: Jozef_Gecz.jpg
+  img: Jozef_Gecz_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: neurogenetika
@@ -217,7 +217,7 @@
     - https://is.uniag.sk/lide/clovek.pl?id=1426
   - - "\u017Eivotopis"
     - https://uniag.academia.edu/MarianBrestic/CurriculumVitae
-  img: Marian_Brestic.jpg
+  img: Marian_Brestic_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia_rastlin
@@ -248,7 +248,7 @@
     - https://physics.fjfi.cvut.cz/en/cb-profile/gajdokat
   - - web 2
     - https://www.meltingpotforum.com/cs/archiv/recnici-2019/katarina-krizkova-gajdosova-svk-cze
-  img: Katarina_Krizkova_Gajdosova.jpg
+  img: Katarina_Krizkova_Gajdosova_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: subjadrova_fyzika
@@ -277,7 +277,7 @@
     - http://www.janvilcek.com
   - - "wikip\xE9dia"
     - "https://en.wikipedia.org/wiki/Jan_Vil\u010Dek"
-  img: Jan_Vilcek.jpg
+  img: Jan_Vilcek_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: imunologia
@@ -312,7 +312,7 @@
     - https://www.researchgate.net/profile/Frantisek-Baluska
   - - web
     - http://ds9.botanik.uni-bonn.de/zellbio/AG-Baluska-Volkmann/index.php
-  img: Frantisek_Baluska.jpg
+  img: Frantisek_Baluska_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: neurobiologia_rastlin
@@ -343,7 +343,7 @@
     - https://en.wikipedia.org/wiki/Klara_Nahrstedt
   - - "\u017Eivotopis"
     - files/cv_Klara_Nahrstedt_2020.pdf
-  img: Klara_Nahrstedt.jpg
+  img: Klara_Nahrstedt_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: informatika
@@ -380,7 +380,7 @@
     - files/cv_Jozef_Bartunek.pdf
   - - "\u017Eivotopis 2"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Bartunek/H19_MUDr._Bartunek_-_Profesijny_zivotopis.pdf
-  img: Jozef_Bartunek.jpg
+  img: Jozef_Bartunek_size_280px.jpg
   update_status: UPDATED
   countryurl: Belgicko
   fieldurl: kardiologia
@@ -421,7 +421,7 @@
     - https://en.wikipedia.org/wiki/Igor_Jurisica
   - - "\u017Eivotopis"
     - https://www.fmb.unesp.br/Home/ensino/Pos-Graduacao/mestradoacademicoedoutorado/pgbasesgeraisdacirurgia/igor-jurisica_curriculum-vitae-july-2015-1.pdf
-  img: Igor_Jurisica.jpg
+  img: Igor_Jurisica_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: bioinformatika
@@ -458,7 +458,7 @@
     - https://en.wikipedia.org/wiki/Jan_Veizer
   - - "\u017Eivotopis"
     - https://mysite.science.uottawa.ca/jveizer/
-  img: Jan_Veizer_2.jpg
+  img: Jan_Veizer_2_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: geochemia
@@ -485,7 +485,7 @@
     - http://neon.dpp.fmph.uniba.sk/workgroup/index.php?option=com_content&view=article&id=1&Itemid=101
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/EN/matejcik1.uniba.sk.html
-  img: Stefan_Matejcik.jpg
+  img: Stefan_Matejcik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: elektronova_a_plazmova_fyzika
@@ -512,7 +512,7 @@
     - https://www.ukaachen.de/kliniken-institute/institut-fuer-pathologie/forschung/labooratory-of-nephropathology/
   - - "\u017Eivotopis"
     - http://www.imbm.sk/wp-content/uploads/2018/01/cv-english-pb.pdf
-  img: Peter_Boor.jpeg
+  img: Peter_Boor_size_280px.jpeg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: patologia
@@ -547,7 +547,7 @@
     - https://www.researchgate.net/profile/Radko-Mesiar
   - - web
     - https://www.math.sk/mesiar/
-  img: Radko_Mesiar.jpeg
+  img: Radko_Mesiar_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: aplikovana_matematika
@@ -580,7 +580,7 @@
     - https://en.wikipedia.org/wiki/Ruzena_Bajcsy
   - - "\u017Eivotopis"
     - https://www.memoryofnations.eu/en/bajcsy-ruzena-1933
-  img: Ruzena_Bajcsy.jpg
+  img: Ruzena_Bajcsy_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: robotika_a_umela_inteligencia
@@ -609,7 +609,7 @@
     - "https://sk.wikipedia.org/wiki/Eleon\xF3ra_Fabi\xE1nov\xE1"
   - - "\u017Eivotopis"
     - https://www.vzbb.sk/sk/historia/fabianova_eleonora_zivotopis.pdf
-  img: Eleonora_Fabianova.jpg
+  img: Eleonora_Fabianova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: verejne_zdravotnictvo
@@ -644,7 +644,7 @@
     - https://www.scopus.com/authid/detail.uri?authorId=7004450973
   - - web
     - https://www.uhnresearch.ca/researcher/vladimir-dzavic
-  img: Vladimir_Dzavik.jpg
+  img: Vladimir_Dzavik_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: kardiologia
@@ -695,7 +695,7 @@
     - https://en.wikipedia.org/wiki/Peter_Richtarik
   - - "\u017Eivotopis"
     - https://richtarik.org/docs/richtarik-cv-2021-03.pdf
-  img: Peter_Richtarik.jpg
+  img: Peter_Richtarik_size_280px.jpg
   update_status: UPDATED
   countryurl: Saudska_Arabia
   fieldurl: optimalizacia
@@ -728,7 +728,7 @@
     - http://www.dnp.fmph.uniba.sk/people.php
   - - "\u017Eivotopis"
     - https://drive.google.com/file/d/1blN4ByXStaQ2gcbCpD7J7Ra0uTVTZio8/view?usp=sharing
-  img: Fedor_Simkovic.jpg
+  img: Fedor_Simkovic_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: jadrova_fyzika
@@ -763,7 +763,7 @@
     - https://www.nilu.com/employee/maria-dusinska/
   - - "\u017Eivotopis"
     - https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/cv_sccs_dusinska_en.pdf
-  img: Maria_Dusinska.jpg
+  img: Maria_Dusinska_size_280px.jpg
   update_status: UPDATED
   countryurl: Norsko
   fieldurl: toxikologia
@@ -793,7 +793,7 @@
     - https://www.researchgate.net/profile/Marek-Majdan-3
   - - "\u017Eivotopis"
     - files/cv_Marek_Majdan_2020.pdf
-  img: Marek_Majdan.jpg
+  img: Marek_Majdan_size_280px.jpg
   last_update: '2026-08-25'
   update_status: UPDATED
   countryurl: Slovensko
@@ -839,7 +839,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1886
   - - "\u017Eivotopis"
     - files/cv_Silvia Pastorekova_2021-12.pdf
-  img: Silvia_Pastorekova.jpg
+  img: Silvia_Pastorekova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: onkologia
@@ -876,7 +876,7 @@
     - https://hyg.lf1.cuni.cz/en/departments-contacts?nDepartmentID=0&sAction=detail&nContactID=87247
   - - "wikip\xE9dia"
     - https://cs.wikipedia.org/wiki/Vladim%C3%ADr_Bencko
-  img: Vladimir_Bencko.jpg
+  img: Vladimir_Bencko_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: hygiena_a_epidemiologia
@@ -905,7 +905,7 @@
     - https://www.tudelft.nl/staff/p.bauer/?cHash=96dc8f6d55c5ea75995f7e9d5b68a50d
   - - "\u017Eivotopis"
     - https://www.tudelft.nl/en/staff/p.bauer/
-  img: Pavol_Bauer.jpg
+  img: Pavol_Bauer_size_280px.jpg
   update_status: UPDATED
   countryurl: Holandsko
   fieldurl: elektronika
@@ -944,7 +944,7 @@
     - https://sk.wikipedia.org/wiki/Jarom%C3%ADr_Pastorek
   - - "\u017Eivotopis"
     - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/prof.Pastorek-curriculum%20vitae.pdf
-  img: Jaromir_Pastorek.jpg
+  img: Jaromir_Pastorek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: onkologia
@@ -973,7 +973,7 @@
     - https://nrc.canada.ca/en/stories/drs-pavel-cheben-laura-ferrarese-inducted-royal-society-canada
   - - "\u017Eivotopis"
     - https://drive.google.com/file/d/1uc5JzZPAZjk8NoGP0xPp_eEs1lv1gGcn/view?usp=sharing
-  img: Pavel_Cheben.jpg
+  img: Pavel_Cheben_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: optika_a_fotonika
@@ -1000,7 +1000,7 @@
     - http://www.physik.uni-regensburg.de/forschung/fabian/
   - - "\u017Eivotopis"
     - http://www.physik.uni-regensburg.de/forschung/fabian/pages/mainframes/people/JaroslavFabian/resume.pdf
-  img: Jaroslav_Fabian.jpg
+  img: Jaroslav_Fabian_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: kvantova_fyzika
@@ -1043,7 +1043,7 @@
     - https://www.path.ox.ac.uk/content/ervin-fodor
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Ervin_Fodor
-  img: Ervin_Fodor.jpg
+  img: Ervin_Fodor_size_280px.jpg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: virologia
@@ -1082,7 +1082,7 @@
     - https://www.semanticscholar.org/author/I.-Chlamtac/1700194
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Imrich_Chlamtac
-  img: Imrich_Chlamtac.jpg
+  img: Imrich_Chlamtac_size_280px.jpg
   update_status: UPDATED
   countryurl: Belgium
   fieldurl: telekomunikacie
@@ -1119,7 +1119,7 @@
     - https://kbt.upol.cz/en/
   - - "\u017Eivotopis"
     - "https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Jozef-\u0160amaj.pdf"
-  img: Jozef_Samaj.jpg
+  img: Jozef_Samaj_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: botanika
@@ -1158,7 +1158,7 @@
     - https://ep-rnd.web.cern.ch/person/peter-svihra
   - - "\u017Eivotopis"
     - https://uni-freiburg.de/frias/dr-peter-svihra/
-  img: Peter_Svihra.jpg
+  img: Peter_Svihra_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: subjadrova_fyzika
@@ -1199,7 +1199,7 @@
     - https://www.youtube.com/c/UTFAMUNI
   - - "\u017Eivotopis"
     - https://www.upjs.sk/prirodovedecka-fakulta/absolventi/as/archiv/hostia-nw/
-  img: Norbert_Werner.jpg
+  img: Norbert_Werner_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: astronomia
@@ -1226,7 +1226,7 @@
     - https://ist.ac.at/en/research/benkova-group/#career
   - - "\u017Eivotopis"
     - https://ist.ac.at/wp-content/uploads/2019/11/CV_Benkova.pdf
-  img: Eva_Benkova.jpg
+  img: Eva_Benkova_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: biologia_rastlin
@@ -1267,7 +1267,7 @@
     - http://profiles.murdoch.edu.au/myprofile/ladislav-mucina/
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Ladislav_Mucina
-  img: Ladislav_Mucina.png
+  img: Ladislav_Mucina_size_280px.png
   update_status: UPDATED
   countryurl: Australia
   fieldurl: biogeografia
@@ -1298,7 +1298,7 @@
     - https://cafnrfaculty.missouri.edu/sutovskylab/cv-peter-sutovsky/
   - - "\u017Eivotopis 2"
     - https://www.obec-beckov.sk/upload/yk0ugoq5-BN-2-2015.pdf
-  img: Peter_Sutovsky.jpeg
+  img: Peter_Sutovsky_size_280px.jpeg
   update_status: UPDATED
   countryurl: USA
   fieldurl: reprodukcna_biologia
@@ -1329,7 +1329,7 @@
     - https://www.meduniwien.ac.at/hp/sfb-mpn/projects/project-02-somatic-aberration-networks-in-mpn/principal-investigator/
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Robert_Kralovics
-  img: Robert_Kralovics.jpg
+  img: Robert_Kralovics_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: hematologia
@@ -1366,7 +1366,7 @@
     - https://www.researchgate.net/profile/Pavel_Povinec
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/ovv/2014/141112_Profesorska_prednaska_o_Fukusime-CV_Povinec.pdf
-  img: Pavel_Povinec.jpg
+  img: Pavel_Povinec_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: jadrova_fyzika
@@ -1401,7 +1401,7 @@
     - https://www.monash.edu/medicine/scs/researchers/barbora-de-courten
   - - web 2
     - https://research.monash.edu/en/persons/barbora-de-courten
-  img: Barbora_Courten.jpg
+  img: Barbora_Courten_size_280px.jpg
   update_status: ERROR
   countryurl: Australia
   fieldurl: epidemiologia
@@ -1426,7 +1426,7 @@
   links:
   - - web
     - https://phas.ubc.ca/~franz/
-  img: Marcel_Franz.jpg
+  img: Marcel_Franz_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: fyzika_kondenzovanych_latok
@@ -1453,7 +1453,7 @@
     - https://www.researchgate.net/profile/Miro_Zeman
   - - web
     - https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/staff/miro-zeman/
-  img: Miro_Zeman.jpg
+  img: Miro_Zeman_size_280px.jpg
   update_status: UPDATED
   countryurl: Holandsko
   fieldurl: fotovoltika
@@ -1484,7 +1484,7 @@
     - http://www.chem.sk/people/bielypeter/
   - - "\u017Eivotopis"
     - "https://www.learned.sk/wp-content/uploads/2020/03/\u017Divotopis-Peter-Biely.pdf"
-  img: Peter_Biely.jpg
+  img: Peter_Biely_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -1511,7 +1511,7 @@
     - http://www.quantum.physics.sk/rcqi/index.php?x=home_for&for=buzek
   - - "\u017Eivotopis"
     - https://www.learned.sk/wp-content/uploads/2018/03/buzek_cv.pdf
-  img: Vladimir_Buzek.jpg
+  img: Vladimir_Buzek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: kvantova_fyzika
@@ -1542,7 +1542,7 @@
     - https://mobile.twitter.com/cardiacctguy
   - - web
     - https://www.ohsu.edu/people/maros-ferencik-md-phd
-  img: Maros_Ferencik.jpg
+  img: Maros_Ferencik_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: kardiologia
@@ -1587,7 +1587,7 @@
     - https://www.livialudhova.com/about
   - - web
     - http://collaborations.fz-juelich.de/ikp/neutrino/group_mem/group_mem_livia.html
-  img: Livia_Ludhova.jpg
+  img: Livia_Ludhova_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: fyzika_neutrin
@@ -1624,7 +1624,7 @@
     - https://www.imtm.cz/users/mari%C3%A1n-hajd%C3%BAch
   - - "\u017Eivotopis"
     - https://cenamesta.cz/laureati/marian-hajduch/
-  img: Marian_Hajduch.jpg
+  img: Marian_Hajduch_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: onkologia
@@ -1663,7 +1663,7 @@
     - https://www.jfmed.uniba.sk/en/departments/scientific-and-teaching-workplaces/departments-of-basic-sciences/department-of-medical-biology/staff/
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/KUBATKA/CV_Kubatka.pdf
-  img: Peter_Kubatka.jpg
+  img: Peter_Kubatka_size_280px.jpg
   update_status: ERROR
   countryurl: Slovensko
   fieldurl: onkologia
@@ -1694,7 +1694,7 @@
     - https://publons.com/researcher/2304958/alexandra-brazinova
   - - "\u017Eivotopis"
     - https://www.upjs.sk/public/media/17805/Brazinova-IK-LF.pdf
-  img: Alexandra_Brazinova.jpg
+  img: Alexandra_Brazinova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: epidemiologia
@@ -1719,7 +1719,7 @@
   links:
   - - web
     - http://davinci.fmph.uniba.sk/~cerny1/
-  img: Vladimir_Cerny.jpg
+  img: Vladimir_Cerny_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: subjadrova_fyzika
@@ -1756,7 +1756,7 @@
     - https://cs.wikipedia.org/wiki/Ivan_Rektor
   - - "\u017Eivotopis"
     - https://web.archive.org/web/20220122201731/https://www.muni.cz/lide/1073-ivan-rektor/zivotopis
-  img: Ivan_Rektor.jpg
+  img: Ivan_Rektor_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: neurologia
@@ -1785,7 +1785,7 @@
     - https://sk.wikipedia.org/wiki/Philipp_Kukura
   - - "\u017Eivotopis"
     - https://www.phys.uniroma1.it/fisica/sites/default/files/bandi/CV/CurrentCVKukura.pdf
-  img: Philipp_Kukura.jpeg
+  img: Philipp_Kukura_size_280px.jpeg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: fyzikalna_chemia
@@ -1816,7 +1816,7 @@
     - https://www.osobnosti.sk/osobnost/richard-kvetnansky-692
   - - ResearchGate
     - https://www.researchgate.net/scientific-contributions/Richard-Kvetnansky-2127391892
-  img: Richard_Kvetnansky.jpg
+  img: Richard_Kvetnansky_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -1855,7 +1855,7 @@
     - https://www.sci.muni.cz/zoolecol/inverteb/?teams=prof-stano-pekar-ph-d
   - - web 2
     - https://www.arachnology.cz/lide/stano-pekar-318.html
-  img: Stano_Pekar.jpg
+  img: Stano_Pekar_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: behavioralna_ekologia
@@ -1890,7 +1890,7 @@
     - https://fns.uniba.sk/pracoviska/environmentalna-sekcia/kee/zamestnanci/pavol-prokop/
   - - "\u017Eivotopis"
     - files/cv_Pavol_Prokop_2016.pdf
-  img: Pavol_Prokop.png
+  img: Pavol_Prokop_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: behavioralna_ekologia
@@ -1917,7 +1917,7 @@
     - https://www.osobnosti.sk/osobnost/jan-sladek-590
   - - "\u017Eivotopis"
     - https://www.ae-info.org/ae/Member/Sladek_Jan
-  img: Jan_Sladek.jpg
+  img: Jan_Sladek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: aplikovana_mechanika
@@ -1946,7 +1946,7 @@
     - https://www.researchgate.net/scientific-contributions/Jozef-Adamcik-2130746424
   - - web
     - https://www.ami.swiss/en/about-us/contact/people-a-z/person.html?personid=917
-  img: Jozef_Adamcik.jpg
+  img: Jozef_Adamcik_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: fyzika_makkych_latok
@@ -1973,7 +1973,7 @@
     - https://www.osobnosti.sk/osobnost/vladimir-sladek-591
   - - "\u017Eivotopis"
     - files/cv_Vladimir_Sladek_2019.pdf
-  img: Vladimir_Sladek.png
+  img: Vladimir_Sladek_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: aplikovana_mechanika
@@ -2002,7 +2002,7 @@
     - https://www.researchgate.net/profile/Michal-Hammel
   - - web
     - https://biosciences.lbl.gov/profiles/michal-hammel-2/
-  img: Michal_Hammel.jpg
+  img: Michal_Hammel_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: molekularna_biofyzika
@@ -2037,7 +2037,7 @@
     - https://www.researchgate.net/profile/Jozef-Keckes
   - - web
     - https://nmaxs.unileoben.ac.at/contact/
-  img: Jozef_Keckes.jpg
+  img: Jozef_Keckes_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: materialova_veda
@@ -2070,7 +2070,7 @@
     - https://analytika.sk/o-nas/pracovnici/josef-jampilek/
   - - "\u017Eivotopis"
     - http://www.gnnconf.org/Speaker/Details?id=431
-  img: Josef_Jampilek.jpg
+  img: Josef_Jampilek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: medicinalna_chemia
@@ -2099,7 +2099,7 @@
     - https://www.meduniwien.ac.at/hp/programs-endocrinology/supervisors-topics/krssak-martin/
   - - "\u017Eivotopis"
     - files/cv_Martin_Krssak.pdf
-  img: Martin_Krssak.jpg
+  img: Martin_Krssak_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: lekarska_fyzika
@@ -2128,7 +2128,7 @@
     - https://www.researchgate.net/profile/Martin_Marsala
   - - web
     - http://www.marsala-lab.com/team/
-  img: Martin_Marsala.jpg
+  img: Martin_Marsala_size_280px.jpg
   update_status: ERROR
   countryurl: USA
   fieldurl: neuroveda
@@ -2157,7 +2157,7 @@
     - https://www.researchgate.net/profile/Michal_Mokry
   - - web
     - https://www.umcutrecht.nl/en/research/researchers/mokry-michal-m
-  img: Michal_Mokry.jpg
+  img: Michal_Mokry_size_280px.jpg
   update_status: UPDATED
   countryurl: Holandsko
   fieldurl: kardiologia
@@ -2192,7 +2192,7 @@
     - https://profiles.uts.edu.au/Milos.Toth
   - - web 2
     - https://tmos.org.au/team/cis/
-  img: Milos_Toth.png
+  img: Milos_Toth_size_280px.png
   update_status: UPDATED
   countryurl: Australia
   fieldurl: nanooptika
@@ -2219,7 +2219,7 @@
     - "https://www.linkedin.com/in/marek-\u017Eiv\u010D\xE1k-358421119/?originalSubdomain=sk"
   - - web
     - https://is.uniag.sk/lide/clovek.pl?id=1211;zalozka=3;lang=en
-  img: Marek_Zivcak.jpg
+  img: Marek_Zivcak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia_rastlin
@@ -2248,7 +2248,7 @@
     - https://www.researchgate.net/profile/Peter_Hedera
   - - web
     - https://uoflphysicians.com/provider/peter-hedera/
-  img: Peter_Hedera.jpg
+  img: Peter_Hedera_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: neurologia
@@ -2285,7 +2285,7 @@
     - https://twitter.com/mholcik
   - - web
     - https://carleton.ca/healthsciences/people/martin-holcik/
-  img: Martin_Holcik.jpg
+  img: Martin_Holcik_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: synteza_proteinov
@@ -2323,7 +2323,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1154
   - - "\u017Eivotopis"
     - http://www.sss421.sk/wp-content/uploads/2019/10/Jezova.pdf
-  img: Daniela_Jezova.jpg
+  img: Daniela_Jezova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: farmakologia
@@ -2354,7 +2354,7 @@
     - http://qufaculty.qu.edu.qa/igor-krupa/home/
   - - "\u017Eivotopis"
     - https://cam.qu.edu.qa/static_file/qu/Faculty and Staff/images/Prof. Igor Krupa.pdf
-  img: Igor_Krupa.jpg
+  img: Igor_Krupa_size_280px.jpg
   update_status: UPDATED
   countryurl: Katar
   fieldurl: materialova_veda
@@ -2381,7 +2381,7 @@
     - https://physics.sciences.ncsu.edu/people/lmitas/
   - - "\u017Eivotopis"
     - http://altair.physics.ncsu.edu/cv.html
-  img: Lubos_Mitas.jpg
+  img: Lubos_Mitas_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: teoreticka_fyzika
@@ -2410,7 +2410,7 @@
     - https://www.researchgate.net/profile/Juraj_Parajka
   - - web
     - https://www.waterresources.at/index.php?id=113
-  img: Juraj_Parajka.jpg
+  img: Juraj_Parajka_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: hydrologia
@@ -2449,7 +2449,7 @@
     - https://mbucas.cz/en/research/microbiology/laboratory-of-molecular-biology-of-bacterial-pathogens/
   - - "\u017Eivotopis"
     - https://independent.academia.edu/PeterSebo/CurriculumVitae
-  img: Peter_Sebo.jpeg
+  img: Peter_Sebo_size_280px.jpeg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: mikrobiologia
@@ -2479,7 +2479,7 @@
   - - "\u017Eivotopis"
     - https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/Veda v Centre
       2011/Tkac- curriculum vitae 2011-02-14.pdf
-  img: Ivan_Tkac.jpeg
+  img: Ivan_Tkac_size_280px.jpeg
   update_status: UPDATED
   countryurl: USA
   fieldurl: nuklearna_magneticka_rezonancia
@@ -2506,7 +2506,7 @@
     - https://www.imbm.sk/sk/members/peter-celec-sk/
   - - "\u017Eivotopis"
     - http://www.imbm.sk/wp-content/uploads/2017/03/cv_peter-celec-short-en.pdf
-  img: Peter_Celec.jpg
+  img: Peter_Celec_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: molekularna_biomedicina
@@ -2539,7 +2539,7 @@
     - https://www.upjs.sk/LF/zamestnanec/andrea.geckova/
   - - "\u017Eivotopis"
     - https://www.rug.nl/staff/a.geckova/cv
-  img: Andrea_Madarasova_Geckova.jpg
+  img: Andrea_Madarasova_Geckova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: socialna_psychologia
@@ -2570,7 +2570,7 @@
     - https://www.researchgate.net/profile/Andrea-Jurisicova
   - - web
     - http://www.lunenfeld.ca/?page=jurisicova-andrea
-  img: Andrea_Jurisicova.png
+  img: Andrea_Jurisicova_size_280px.png
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: reproduktivna_biologia
@@ -2601,7 +2601,7 @@
     - https://core.melbourne
   - - web 2
     - https://findanexpert.unimelb.edu.au/profile/458758-tomas-kalincik
-  img: Tomas_Kalincik.png
+  img: Tomas_Kalincik_size_280px.png
   update_status: UPDATED
   countryurl: Australia
   fieldurl: neurologia
@@ -2640,7 +2640,7 @@
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1105
   - - "\u017Eivotopis"
     - https://www.learned.sk/wp-content/uploads/2020/03/Zivotopis_Madejova.pdf
-  img: Jana_Madejova.jpg
+  img: Jana_Madejova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: ilove_mineraly
@@ -2673,7 +2673,7 @@
     - https://www.researchgate.net/profile/Peter_Molnar11
   - - web
     - https://hyd.ifu.ethz.ch/the-group/people/person-detail.html?persid=100330
-  img: Peter_Molnar.jpg
+  img: Peter_Molnar_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: hydrologia
@@ -2702,7 +2702,7 @@
     - http://www.polymer.sav.sk/OKM
   - - "\u017Eivotopis"
     - https://drive.google.com/file/d/1N08kDcSaK0QsIq5_lGpbp-D4Xp1e7xGO/view?usp=sharing
-  img: Maria_Omastova.jpg
+  img: Maria_Omastova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: materialova_chemia
@@ -2745,7 +2745,7 @@
     - https://homes.cs.washington.edu/~bodik/
   - - "\u017Eivotopis"
     - https://homes.cs.washington.edu/~bodik/cv.pdf
-  img: Rastislav_Bodik.jpg
+  img: Rastislav_Bodik_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: programovacie_jazyky
@@ -2775,7 +2775,7 @@
   - - "\u017Eivotopis"
     - "https://www.vedatechnika.sk/SK/enoviny/ZakciiNCPVaT/Documents/Veda v Centre\
       \ Ba 2013/CV_Ing_J\xE1n Tk\xE1\u010D_DrSc.pdf"
-  img: Jan_Tkac.jpeg
+  img: Jan_Tkac_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biosenzory
@@ -2822,7 +2822,7 @@
     - https://misovalko.github.io/index.html
   - - "\u017Eivotopis"
     - https://misovalko.github.io/cv/long-cv-michal-valko.pdf
-  img: Michal_Valko.jpg
+  img: Michal_Valko_size_280px.jpg
   update_status: UPDATED
   countryurl: Francuzsko
   fieldurl: umela_inteligencia
@@ -2853,7 +2853,7 @@
     - https://www.ucm.sk/sk/rektor/
   - - "\u017Eivotopis"
     - https://www.stuba.sk/new/docs//stu/uradna_tabula/2010volby/_boca.pdf
-  img: Roman_Boca.jpg
+  img: Roman_Boca_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: anorganicka_chemia
@@ -2884,7 +2884,7 @@
     - https://www.to2.uzh.ch/en/aboutus/researchgroups/groupwengerborsig/luborborsig.html
   - - web2
     - https://www.physiol.uzh.ch/en/research/institutegroups/grborsig/membersgrborsig.html
-  img: Lubor_Borsig.jpg
+  img: Lubor_Borsig_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: onkologia
@@ -2919,7 +2919,7 @@
     - https://medicine.vumc.org/person/marcela-brissova-phd
   - - web 2
     - https://labnodes.vanderbilt.edu/member/profile/id/10427
-  img: Marcela_Brissova.jpg
+  img: Marcela_Brissova_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: fyziologia
@@ -2956,7 +2956,7 @@
     - https://promatech.sk
   - - "\u017Eivotopis"
     - files/cv_Jan_Dusza_2023.pdf
-  img: Jan_Dusza.jpg
+  img: Jan_Dusza_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: nanomaterialy
@@ -2981,7 +2981,7 @@
   links:
   - - ResearchGate
     - https://www.researchgate.net/profile/Dusan-Hesek
-  img: Dusan_Hesek.jpg
+  img: Dusan_Hesek_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: organicka_chemia
@@ -3010,7 +3010,7 @@
     - https://www.researchgate.net/profile/Maria_Hrmova
   - - web
     - https://www.adelaide.edu.au/directory/maria.hrmova
-  img: Maria_Hrmova.jpg
+  img: Maria_Hrmova_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: biochemia
@@ -3053,7 +3053,7 @@
     - http://www.uniag.sk/en/faculty-of-biotechnology-and-food-sciences/?page=5
   - - "\u017Eivotopis"
     - files/cv_Miroslava_Kacaniova_2022.pdf
-  img: Miroslava_Kacaniova_400.png
+  img: Miroslava_Kacaniova_400_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: mikrobiologia
@@ -3090,7 +3090,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=3476
   - - "\u017Eivotopis"
     - https://www.sav.sk/?action=cv&doc=user-org-user&lang=en&user_no=3476
-  img: Boris_Klempa.jpg
+  img: Boris_Klempa_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: virologia
@@ -3119,7 +3119,7 @@
     - https://www.omicsonline.org/author-profile/peter-kruzliak-243383/
   - - orcid
     - https://orcid.org/0000-0002-7069-3784
-  img: Peter_Kruzliak.jpg
+  img: Peter_Kruzliak_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: kardiologia
@@ -3148,7 +3148,7 @@
     - https://cedam.ntc.zcu.cz/cz/kontakt.html
   - - "\u017Eivotopis"
     - files/cv_Jan_Minar_2022.pdf
-  img: Jan_Minar.jpeg
+  img: Jan_Minar_size_280px.jpeg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: fyzika_tuhych_latok
@@ -3181,7 +3181,7 @@
     - https://research.itg.be/en/persons/lenka-benova
   - - web 2
     - https://www.lshtm.ac.uk/aboutus/people/benova.lenka
-  img: Lenka_Benova.jpg
+  img: Lenka_Benova_size_280px.jpg
   update_status: UPDATED
   countryurl: Belgicko
   fieldurl: reprodukcne_zdravie
@@ -3218,7 +3218,7 @@
     - https://ufchchf.fchpt.stuba.sk/en/people/academics/7-vlasta-brezova
   - - web 2
     - https://www.fchpt.stuba.sk/english/institutes-and-departments/institute-of-physical-chemistry-and-chemical-physics/department-of-physical-chemistry/staff.html?page_id=3970
-  img: Vlasta_Brezova_400.jpg
+  img: Vlasta_Brezova_400_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -3247,7 +3247,7 @@
     - https://www2.cs.sfu.ca/~pavol/
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Pavol_Hell
-  img: Pavol_Hell.jpg
+  img: Pavol_Hell_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: grafove_algoritmy
@@ -3282,7 +3282,7 @@
     - https://www.researchgate.net/profile/Tomas-Kliestik
   - - "\u017Eivotopis"
     - https://www.uniza.sk/document/hab_in/529885c867b31.pdf
-  img: Tomas_Kliestik.jpg
+  img: Tomas_Kliestik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: financny_manazment
@@ -3315,7 +3315,7 @@
     - https://volgenau.gmu.edu/profiles/kosecka
   - - "wikip\xE9dia"
     - "https://en.wikipedia.org/wiki/Jana_Ko\u0161eck\xE1"
-  img: Jana_Kosecka.jpg
+  img: Jana_Kosecka_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: robotika_a_strojove_videnie
@@ -3344,7 +3344,7 @@
     - https://ibot.sav.sk/usr/Karol/
   - - "\u017Eivotopis"
     - files/cv_Karol_Marhold.pdf
-  img: Karol_Marhold.jpg
+  img: Karol_Marhold_size_280px.jpg
   update_status: ERROR
   countryurl: Slovensko
   fieldurl: botanika
@@ -3377,7 +3377,7 @@
     - https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=3558CE2E81E383D62A7CD592A5895D10.Vdktg6RVtMfaQJ4pNTCQ%3a1070&sot=a&sdt=a&sl=77&s=AUTHOR-NAME%28Mlynarik%2c+V%29+OR+AUTHOR-NAME%28Mlynrik%2cV%29+OR+AUTHOR-NAME%28Mlinarik%2cV%29&origin=savedSearchNewOnly&txGid=3558CE2E81E383D62A7CD592A5895D10.Vdktg6RVtMfaQJ4pNTCQ%3a107
   - - "\u017Eivotopis"
     - files/cv_Vladimir_Mlynarik.pdf
-  img: Vladimir_Mlynarik.png
+  img: Vladimir_Mlynarik_size_280px.png
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: magneticka_rezonancia
@@ -3412,7 +3412,7 @@
     - https://vedanadosah.cvtisr.sk/wp-content/uploads/2020/09/LAUDATIO-2013-ROVENSKY.pdf
   - - "\u017Eivotopis"
     - https://www.pic-piestany.sk/o-meste/vyznamne-osobnosti/detaily/?tx_kioscosmotron_pi1%5Bdetail%5D=r101
-  img: Jozef_Rovensky.png
+  img: Jozef_Rovensky_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: reumatologia
@@ -3443,7 +3443,7 @@
     - https://people.tcd.ie/Profile?Username=timulakl
   - - web 2
     - https://www.tcd.ie/research/profiles/?profile=timulakl
-  img: Ladislav_Timulak.jpg
+  img: Ladislav_Timulak_size_280px.jpg
   update_status: UPDATED
   countryurl: Irsko
   fieldurl: psychologia
@@ -3470,7 +3470,7 @@
     - https://loop.frontiersin.org/people/127211/overview
   - - web
     - http://edisk.cvt.stuba.sk/~valkom/Homepage.html
-  img: Marian_Valko.jpeg
+  img: Marian_Valko_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: chemia
@@ -3507,7 +3507,7 @@
     - https://sociology.uwo.ca/people/profiles/Zajacova.html
   - - "\u017Eivotopis"
     - https://annazajacova.com/wp-content/uploads/2021/11/Zajacova-CV-Nov-2021.pdf
-  img: Anna_Zajacova.jpg
+  img: Anna_Zajacova_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: sociologia
@@ -3544,7 +3544,7 @@
     - https://irp.nih.gov/pi/bibiana-bielekova
   - - "\u017Eivotopis"
     - https://demystifyingmedicine.od.nih.gov/dm11/biosketch/dm0301-bielekova-bibiana.pdf
-  img: Bibiana_Bielekova.jpg
+  img: Bibiana_Bielekova_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: neuroimunologia
@@ -3581,7 +3581,7 @@
     - http://www.slovakclaygroup.sk/en/events/45-memory-of-dr-peter-komadel
   - - "\u017Eivotopis 2"
     - https://www.learned.sk/smutocny-oznam-10/
-  img: Peter_Komadel.jpg
+  img: Peter_Komadel_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: anorganicka_chemia
@@ -3614,7 +3614,7 @@
     - https://www.neuroprostheses.com/AK/Main.html
   - - "\u017Eivotopis"
     - https://www.leopoldina.org/mitglieder/mitgliederverzeichnis/detail/andrej-kral/
-  img: Andrej_Kral.jpg
+  img: Andrej_Kral_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: neuroveda
@@ -3645,7 +3645,7 @@
     - http://www.polymer.sav.sk/CVcka/cvlacik.pdf
   - - "\u017Eivotopis 2"
     - https://www.learned.sk/wp-content/uploads/2020/01/ZIVOTOPIS_Lacik_Europass-Jan-2020_pre-UcSS.pdf
-  img: Igor_Lacik.jpeg
+  img: Igor_Lacik_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: makromolekularna_chemia
@@ -3670,7 +3670,7 @@
   links:
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Mego/18_doc._Mego_-_zivotopis.pdf
-  img: Michal_Mego.jpg
+  img: Michal_Mego_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: onkologia
@@ -3699,7 +3699,7 @@
     - https://meas.sciences.ncsu.edu/people/hmitaso/
   - - "\u017Eivotopis"
     - https://meas.sciences.ncsu.edu/wp-content/uploads/sites/3/2015/08/Mitasova_CV2p_Dec2020.pdf
-  img: Helena_Mitasova.jpg
+  img: Helena_Mitasova_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: geovizualizacia
@@ -3728,7 +3728,7 @@
     - https://www.researchgate.net/profile/Branislav_Vrana
   - - web
     - https://www.recetox.muni.cz/en/research/principal-investigators/dr-branislav-vrana
-  img: Branislav_Vrana.jpg
+  img: Branislav_Vrana_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: environmentalna_chemia
@@ -3757,7 +3757,7 @@
     - http://cem.sav.sk/index.php/en/cem/
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Pechanova/H13_RNDr._Pechanova_-_zivotopis.pdf
-  img: Olga_Pechanova.jpg
+  img: Olga_Pechanova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: patofyziologia
@@ -3786,7 +3786,7 @@
     - https://www.cs.bham.ac.uk/~pxt/
   - - "\u017Eivotopis"
     - https://www.cs.bham.ac.uk/~pxt/cv_pt.pdf
-  img: Peter_Tino.jpg
+  img: Peter_Tino_size_280px.jpg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: komplexne_a_adaptivne_systemy
@@ -3815,7 +3815,7 @@
     - https://zurnal.pravda.sk/rozhovory/clanok/536256-tomas-trnovec-slovaci-su-rekorderi-v-jedoch-v-tele/
   - - ResearchGate
     - https://www.researchgate.net/profile/Tomas-Trnovec
-  img: Tomas_Trnovec.jpg
+  img: Tomas_Trnovec_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: toxikologia
@@ -3844,7 +3844,7 @@
     - https://uhringroup.wixsite.com/nmrgroup
   - - "\u017Eivotopis"
     - https://www.uhringroup.com/dr-dusan-uhrin
-  img: Dusan_Uhrin.jpg
+  img: Dusan_Uhrin_size_280px.jpg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: nuklearna_magneticka_rezonancia
@@ -3877,7 +3877,7 @@
     - http://www.tomasgrim.com
   - - "\u017Eivotopis"
     - https://prf.osu.cz/kbe/tomas-grim/52167/
-  img: Tomas_Grim.jpg
+  img: Tomas_Grim_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: behavioralna_ekologia
@@ -3906,7 +3906,7 @@
     - https://www.researchgate.net/profile/Igor-Kozak/5
   - - web
     - https://moorfields.ae/medical-team/ophthalmologists/dr-igor-kozak/
-  img: Igor_Kozak.jpeg
+  img: Igor_Kozak_size_280px.jpeg
   update_status: UPDATED
   countryurl: Spojene_arabske_emiraty
   fieldurl: oftalmologia
@@ -3949,7 +3949,7 @@
     - https://sites.google.com/site/massanyip
   - - "\u017Eivotopis"
     - https://sites.google.com/site/massanyip/1_curriculum-vitae
-  img: Peter_Massanyi.jpg
+  img: Peter_Massanyi_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia_zivocichov
@@ -3982,7 +3982,7 @@
     - https://www.int.kit.edu/1801_749.php
   - - "\u017Eivotopis"
     - https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Vladimir-Sepelak.pdf
-  img: Vladimir_Sepelak_400.png
+  img: Vladimir_Sepelak_400_size_280px.png
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: nanotechnologia
@@ -4015,7 +4015,7 @@
     - https://www.researchgate.net/profile/Marek-Hatala
   - - web
     - https://www.sfu.ca/siat/people/research-faculty/marek-hatala.html
-  img: Marek_Hatala.jpg
+  img: Marek_Hatala_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: datova_veda
@@ -4042,7 +4042,7 @@
     - https://orcid.org/0000-0002-4863-3419
   - - web
     - https://s324741.wixsite.com/bhredzak
-  img: Branislav_Hredzak.jpg
+  img: Branislav_Hredzak_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: energetika
@@ -4077,7 +4077,7 @@
     - http://people.tuke.sk/ivo.petras/
   - - "\u017Eivotopis"
     - http://people.tuke.sk/ivo.petras/CV_Petras.pdf
-  img: Ivo_Petras.jpg
+  img: Ivo_Petras_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: automatizacia
@@ -4110,7 +4110,7 @@
     - https://www.upjs.sk/PF/zamestnanec/martin.backor/
   - - "\u017Eivotopis"
     - http://kfrserver.natur.cuni.cz/studium/anatomie/soubory/CV_Backor.pdf
-  img: Martin_Backor_1.jpg
+  img: Martin_Backor_1_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia_rastlin
@@ -4139,7 +4139,7 @@
     - https://fns.uniba.sk/en/departments/chemistry/department-of-physical-and-theoretical-chemistry/people/central-database-of-staff/?tx_unibausers_pi1[person]=bucko19
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/PriF/EN/bucko19.uniba.sk.html
-  img: Tomas_Bucko.png
+  img: Tomas_Bucko_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -4174,7 +4174,7 @@
     - https://tech.sme.sk/c/20489874/geolog-napiseme-do-nasa-aby-nam-zaslali-vzorky-z-meteoritov-alebo-z-mesiaca.html
   - - web
     - https://staffportal.curtin.edu.au/staff/profile/view/martin-danisik-b20e9bfb/
-  img: Martin_Danisik.jpg
+  img: Martin_Danisik_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: geochronologia
@@ -4203,7 +4203,7 @@
     - http://www.chem.sk/people/gemeinerpeter/
   - - "\u017Eivotopis"
     - https://prabook.com/web/peter.gemeiner/337833
-  img: Peter_Gemeiner.png
+  img: Peter_Gemeiner_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biotechnologia
@@ -4230,7 +4230,7 @@
     - https://uniba.sk/ludia/hianik1/
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/hianik1.uniba.sk.html
-  img: Tibor_Hianik.jpg
+  img: Tibor_Hianik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biofyzika
@@ -4267,7 +4267,7 @@
     - https://www.kirchhofflab.org/team
   - - web 2
     - https://med.nyu.edu/faculty/tomas-kirchhoff
-  img: Tomas_Kirchhoff.jpg
+  img: Tomas_Kirchhoff_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: genetika_rakoviny
@@ -4314,7 +4314,7 @@
     - https://en.wikipedia.org/wiki/Natalia_Kucirkova
   - - youtube
     - https://www.youtube.com/watch?v=IZ6TdcM1g94
-  img: Natalia_Kucirkova.jpg
+  img: Natalia_Kucirkova_size_280px.jpg
   update_status: UPDATED
   countryurl: Norsko
   fieldurl: rane_detstvo_a_vyvoj_deti
@@ -4341,7 +4341,7 @@
     - https://dblp.org/pid/92/5526.html
   - - web
     - http://www.bkveton.com
-  img: Branislav_Kveton.jpg
+  img: Branislav_Kveton_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: strojove_ucenie
@@ -4370,7 +4370,7 @@
     - https://www.researchgate.net/profile/Juraj_Majtan
   - - web
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=10368
-  img: Juraj_Majtan.jpg
+  img: Juraj_Majtan_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: imunologia
@@ -4395,7 +4395,7 @@
   links:
   - - web
     - https://mc3.sk/autor/iveta-nagyova/
-  img: Iveta_Nagyova.jpg
+  img: Iveta_Nagyova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: behavioralna_medicina
@@ -4436,7 +4436,7 @@
     - https://uniba.sk/ludia/noga2
   - - "\u017Eivotopis"
     - https://fns.uniba.sk/fileadmin/prif/chem/kag/Zam-Noga/jozef_noga_2014.pdf
-  img: Jozef_Noga.jpg
+  img: Jozef_Noga_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: teoreticka_chemia
@@ -4479,7 +4479,7 @@
     - https://profiles.stanford.edu/michal-bajdich
   - - "\u017Eivotopis"
     - https://suncat.stanford.edu/sites/default/files/MBajdich_CV_late_2020_0.pdf
-  img: Michal_Bajdich.jpg
+  img: Michal_Bajdich_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: vypoctova_katalyza
@@ -4510,7 +4510,7 @@
     - https://buraniemytov.sk/author/beata-gavurova/
   - - "\u017Eivotopis"
     - https://www.ef.umb.sk/print.asp?uid=747&aid=0&zid=0&pid=0&tid=0&sid=0&zahr=0&vkid=0&hkid=25&projektid=0
-  img: Beata_Gavurova.jpg
+  img: Beata_Gavurova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: manazment
@@ -4537,7 +4537,7 @@
     - https://www.esetscienceaward.sk/sk/finalisti/martin-gmitra
   - - web
     - https://ktfa.science.upjs.sk/people/martin-gmitra/
-  img: Martin_Gmitra.jpg
+  img: Martin_Gmitra_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: teoreticka_fyzika
@@ -4570,7 +4570,7 @@
     - https://www.polymtl.ca/crepec/en/membres/grmela-miroslav
   - - youtube
     - https://www.youtube.com/watch?v=SB3dwG3TYnE
-  img: Miroslav_Grmela.jpg
+  img: Miroslav_Grmela_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: termodynamika
@@ -4597,7 +4597,7 @@
     - http://imb.savba.sk/~janecek/
   - - "\u017Eivotopis"
     - https://fpv-kbio.webnode.sk/stefan-janecek/
-  img: Stefan_Janecek.jpg
+  img: Stefan_Janecek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: molekularna_biologia
@@ -4636,7 +4636,7 @@
     - https://uniba.sk/ludia/kryvinska1/publications/
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/FM_UK/2015_Kryvinska/AppendixB--Kryvinska-CV-FM-2014.pdf
-  img: Natalia_Kryvinska.jpg
+  img: Natalia_Kryvinska_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: manazment
@@ -4675,7 +4675,7 @@
     - https://petrol.natur.cuni.cz/~ondro/
   - - "\u017Eivotopis"
     - https://petrol.natur.cuni.cz/~ondro/research/cv
-  img: Ondrej_Lexa.jpg
+  img: Ondrej_Lexa_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: strukturalna_geologia_a_tektonika
@@ -4708,7 +4708,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5352
   - - "\u017Eivotopis"
     - https://www.icarst.org/prof-s-miertus/
-  img: Stanislav_Miertus.jpg
+  img: Stanislav_Miertus_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: vypoctova_chemia
@@ -4735,7 +4735,7 @@
     - https://www.researchgate.net/profile/John_Nabelek
   - - web
     - https://ceoas.oregonstate.edu/people/john-nabelek
-  img: John_Nabelek.jpeg
+  img: John_Nabelek_size_280px.jpeg
   update_status: UPDATED
   countryurl: USA
   fieldurl: seizmologia
@@ -4766,7 +4766,7 @@
     - https://experts.mcmaster.ca/display/rosa
   - - "wikip\xE9dia"
     - https://sk.wikipedia.org/wiki/Alexander_Rosa
-  img: Alexander_Rosa.jpg
+  img: Alexander_Rosa_size_280px.jpg
   update_status: UPDATED
   countryurl: Kanada
   fieldurl: teoria_grafov
@@ -4799,7 +4799,7 @@
     - https://ke.uniza.sk/sk/component/contact/contact/30-doc-ing-katarina-valaskova-phd?catid=33&Itemid=210
   - - "\u017Eivotopis"
     - https://www.unipo.sk/public/media/43544/%C5%BDivotopis%20-%20Val%C3%A1%C5%A1kov%C3%A1.pdf
-  img: Katarina_Valaskova.jpg
+  img: Katarina_Valaskova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: financny_manazment
@@ -4832,7 +4832,7 @@
     - http://ciaian.szm.sk/
   - - "\u017Eivotopis"
     - http://ciaian.szm.sk/EXP.html
-  img: Pavel_Ciaian.jpg
+  img: Pavel_Ciaian_size_280px.jpg
   update_status: UPDATED
   countryurl: Spanielsko
   fieldurl: polnohospodarska_ekonomia
@@ -4859,7 +4859,7 @@
     - http://acms.arizona.edu/FemtoTheory/MK_personal/index.html
   - - "\u017Eivotopis"
     - files/cv_Miroslav_Kolesik_2020.pdf
-  img: Miroslav_Kolesik.jpg
+  img: Miroslav_Kolesik_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: optika
@@ -4890,7 +4890,7 @@
     - https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-bioorganic-chemistry/carbohydrates-section
   - - youtube
     - https://www.youtube.com/watch?v=1u6wT-EHMuE
-  img: Pavol_Kovac.jpg
+  img: Pavol_Kovac_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: organicka_chemia
@@ -4921,7 +4921,7 @@
     - https://www.fzu.cz/~kromka/
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Mego/18_doc._Mego_-_zivotopis.pdf
-  img: Alexander_Kromka.jpg
+  img: Alexander_Kromka_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: opticke_materialy
@@ -4954,7 +4954,7 @@
     - https://martinpelikan.net
   - - "\u017Eivotopis"
     - https://martinpelikan.net/
-  img: Martin_Pelikan.jpg
+  img: Martin_Pelikan_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: strojove_ucenie
@@ -4987,7 +4987,7 @@
     - https://www.strath.ac.uk/staff/sefcikjanprof/
   - - web 2
     - https://pureportal.strath.ac.uk/en/persons/jan-sefcik
-  img: Jan_Sefcik.jpeg
+  img: Jan_Sefcik_size_280px.jpeg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: chemicke_inzinierstvo
@@ -5016,7 +5016,7 @@
     - https://www.researchgate.net/profile/Alexander_Sirotkin
   - - "\u017Eivotopis"
     - https://portal.ukf.sk/kvalita/upload/inauguracie/5/1428071166_1440_551ea2fe525e0_zivotopis_asirotkin.pdf
-  img: Alexander_Sirotkin.jpg
+  img: Alexander_Sirotkin_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biologia_reprodukcie
@@ -5047,7 +5047,7 @@
     - https://ufind.univie.ac.at/en/person.html?id=46790
   - - "\u017Eivotopis"
     - https://iea.u-cergy.fr/en/invited-researchers-cv/fellows-in-residence-2019-2020/viera-skakalova.html
-  img: Viera_Skakalova.jpeg
+  img: Viera_Skakalova_size_280px.jpeg
   update_status: ERROR
   countryurl: Rakusko
   fieldurl: nanomaterialy
@@ -5078,7 +5078,7 @@
     - https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&menue_id_in=101&id_in=5610
   - - "\u017Eivotopis"
     - http://202.113.8.3/oneschool/Upload/activity/201605/627386.pdf
-  img: Daniel_Tunega.jpg
+  img: Daniel_Tunega_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: fyzikalna_chemia
@@ -5109,7 +5109,7 @@
     - https://fns.uniba.sk/kontakt/zamestnanci-prif-uk/?tx_unibausers_pi1[person]=zeman1
   - - "\u017Eivotopis"
     - files/cv_Michal_Zeman_2025.pdf
-  img: Michal_Zeman.jpg
+  img: Michal_Zeman_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia_zivocichov
@@ -5136,7 +5136,7 @@
     - https://physics.indiana.edu/about/directory/all-faculty-scientists/dermisek-radovan.html
   - - "\u017Eivotopis"
     - https://dermisek.pages.iu.edu/dermisek_CV.pdf
-  img: Radovan_Dermisek.jpg
+  img: Radovan_Dermisek_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: fyzika_castic
@@ -5175,7 +5175,7 @@
     - https://www.mat.savba.sk/~feckan/
   - - "\u017Eivotopis"
     - https://www.mat.savba.sk/~feckan/#_toc16
-  img: Michal_Feckan.jpg
+  img: Michal_Feckan_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: matematika
@@ -5206,7 +5206,7 @@
     - https://pureportal.strath.ac.uk/en/persons/ivan-glesk
   - - "\u017Eivotopis"
     - https://ivanglesk.uniza.sk/
-  img: Ivan_Glesk.jpeg
+  img: Ivan_Glesk_size_280px.jpeg
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: optika_a_fotonika
@@ -5233,7 +5233,7 @@
     - https://www.linkedin.com/in/kabat-juraj-1a784b5/
   - - ResearchGate
     - https://www.researchgate.net/scientific-contributions/Juraj-Kabat-2045003947
-  img: Juraj_Kabat.jpg
+  img: Juraj_Kabat_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: imunologia
@@ -5260,7 +5260,7 @@
     - http://www.qu.edu.qa/research/CAM/about-us/staff
   - - "\u017Eivotopis"
     - http://www.qu.edu.qa/static_file/qu/Faculty and Staff/images/resume_1464862560.pdf
-  img: Peter_Kasak.jpeg
+  img: Peter_Kasak_size_280px.jpeg
   update_status: UPDATED
   countryurl: Katar
   fieldurl: chemia
@@ -5291,7 +5291,7 @@
     - http://www.endo.sav.sk/dld/dld-staff.php
   - - youtube
     - https://www.youtube.com/watch?v=gmsHn0seJ3U
-  img: Iwar_Klimes.jpg
+  img: Iwar_Klimes_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: patofyziologia
@@ -5324,7 +5324,7 @@
     - https://uniba.sk/en/nc/people/kucerka1/
   - - "\u017Eivotopis"
     - http://www.norbbi.com/curriculum/curriculum.html
-  img: Norbert_Kucerka.jpeg
+  img: Norbert_Kucerka_size_280px.jpeg
   update_status: UPDATED
   countryurl: Ruska_federacia
   fieldurl: biofyzika
@@ -5355,7 +5355,7 @@
     - https://www.upjs.sk/LF/zamestnanec/jan.mojzis/
   - - "\u017Eivotopis"
     - https://ais2.upjs.sk/repo2/repository/default/ais/zamestnanec/LF_UPJS/SK/jan.mojzis.upjs.sk.html
-  img: Jan_Mojzis.jpg
+  img: Jan_Mojzis_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: farmakologia
@@ -5398,7 +5398,7 @@
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=3501
   - - "\u017Eivotopis"
     - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiZorKT7aT1AhVB8LsIHbYKCo0QFnoECAMQAQ&url=https%3A%2F%2Fwww.uvlf.sk%2Fdocument%2Fdoc-mvdr-norbert-zilka-phd-drsc-zverejnenie-udajov-podla-zakona.docx&usg=AOvVaw0W8NxsgHcSMXOWYg08TyyT
-  img: Norbert_Zilka.jpg
+  img: Norbert_Zilka_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: neuroimunologia
@@ -5423,7 +5423,7 @@
   links:
   - - web
     - http://kavt.fvt.tuke.sk/katedra/zamestnanci/4
-  img: Sergej_Hloch.jpeg
+  img: Sergej_Hloch_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: vyrobne_technologie
@@ -5450,7 +5450,7 @@
     - https://www.researchgate.net/profile/Martin-Lukac-4
   - - web
     - https://www.reading.ac.uk/apd/staff/m-lukac.aspx
-  img: Martin_Lukac.png
+  img: Martin_Lukac_size_280px.png
   update_status: UPDATED
   countryurl: Velka_Britania
   fieldurl: ekologia
@@ -5479,7 +5479,7 @@
     - https://www.researchgate.net/profile/Lubica_Rauova
   - - web
     - https://www.med.upenn.edu/apps/faculty/index.php/g275/p6616233
-  img: Lubica_Rauova.jpg
+  img: Lubica_Rauova_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: hematologia
@@ -5514,7 +5514,7 @@
     - https://hfmr.meduniwien.ac.at/fileadmin/hfmr/files/Curriculum_Vitae_for_HFMR_homepage_Pavol_Szomolanyi_v5.pdf
   - - "\u017Eivotopis 2"
     - https://www.um.sav.sk/sk2/oddelenie-04/pavol-szomolanyi.html
-  img: Pavol_Szomolanyi.jpg
+  img: Pavol_Szomolanyi_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: magneticka_rezonancia
@@ -5547,7 +5547,7 @@
     - https://fs.magnet.fsu.edu/~vafek/
   - - "\u017Eivotopis"
     - https://fs.magnet.fsu.edu/~vafek/cv2015 Apr.pdf
-  img: Oskar_Vafek.jpg
+  img: Oskar_Vafek_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: fyzika_tuhych_latok
@@ -5580,7 +5580,7 @@
     - https://slideslive.at/s/miro-dudik-19100
   - - web
     - https://www.microsoft.com/en-us/research/people/mdudik/
-  img: Miro_Dudik.jpg
+  img: Miro_Dudik_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: strojove_ucenie
@@ -5609,7 +5609,7 @@
     - http://www.soest.hawaii.edu/GG/FACULTY/hdulaiov/
   - - "\u017Eivotopis"
     - http://www.soest.hawaii.edu/GG/FACULTY/hdulaiov/files/CV_henrietta.pdf
-  img: Henrietta_Dulai.jpg
+  img: Henrietta_Dulai_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: geochemia
@@ -5638,7 +5638,7 @@
     - https://www.funglass.eu/personnel-portfolio/prof-ing-dusan-galusek-drsc/
   - - "\u017Eivotopis"
     - https://www.funglass.eu/personnel-portfolio/prof-ing-dusan-galusek-drsc/
-  img: Dusan_Galusek.jpg
+  img: Dusan_Galusek_size_280px.jpg
   countryurl: Slovensko
   fieldurl: materialy
   area: "materi\xE1ly"
@@ -5668,7 +5668,7 @@
     - https://www.researchgate.net/profile/Dusan-Goemoery
   - - web
     - https://www.tuzvo.sk/en/ludia-na-tuzvo/792
-  img: Dusan_Gomory.png
+  img: Dusan_Gomory_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: genetika_drevin
@@ -5701,7 +5701,7 @@
     - https://www.researchgate.net/profile/Radovan-Herchel
   - - web
     - https://www.prf.upol.cz/nc/afc/kontakty/vizitka/empid/22158/
-  img: Radovan_Herchel.jpg
+  img: Radovan_Herchel_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: anorganicka_chemia
@@ -5730,7 +5730,7 @@
     - https://sites.google.com/view/horvath/
   - - "\u017Eivotopis"
     - http://ies.fsv.cuni.cz/en/staff/horvath
-  img: Roman_Horvath.jpg
+  img: Roman_Horvath_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: ekonomia
@@ -5769,7 +5769,7 @@
     - http://enviro.fmph.uniba.sk/index.php?link=machala
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/EN/machala1.uniba.sk.html
-  img: Zdenko_Machala.jpg
+  img: Zdenko_Machala_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_plazmy_a_environmentalna_fyzika
@@ -5798,7 +5798,7 @@
     - https://sk.wikipedia.org/wiki/Jozef_Masarik
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/ovv/2018/181031_Volby-JozefMasarikZivotopis.pdf
-  img: Jozef_Masarik.jpg
+  img: Jozef_Masarik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: jadrova_fyzika
@@ -5829,7 +5829,7 @@
     - https://www.researchgate.net/profile/Milan-Palus
   - - web
     - http://www.cs.cas.cz/mp/
-  img: Milan_Palus.jpg
+  img: Milan_Palus_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: komplexne_systemy
@@ -5862,7 +5862,7 @@
     - http://people.tuke.sk/igor.podlubny/index.html
   - - "\u017Eivotopis"
     - https://igor.podlubny.website.tuke.sk/degrees.html
-  img: Igor_Podlubny.jpeg
+  img: Igor_Podlubny_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: aplikovana_matematika
@@ -5891,7 +5891,7 @@
     - https://www.researchgate.net/profile/Jan-Rusz
   - - web
     - https://www.katalog.uu.se/profile/?id=N7-244
-  img: Jan_Rusz.jpg
+  img: Jan_Rusz_size_280px.jpg
   update_status: UPDATED
   countryurl: Svedsko
   fieldurl: fyzika_pevnych_latok
@@ -5918,7 +5918,7 @@
     - https://www.imbm.sk/members/katarina-sebekova/
   - - "\u017Eivotopis"
     - http://www.imbm.sk/wp-content/uploads/2017/03/cv-ks-3.pdf
-  img: Katarina_Sebekova.jpg
+  img: Katarina_Sebekova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: interna_medicina
@@ -5953,7 +5953,7 @@
     - https://is.stuba.sk/lide/clovek.pl?id=19350;lang=sk
   - - "\u017Eivotopis"
     - files/cv_Lubomir_Svorc_2025.pdf
-  img: Lubomir_Svorc.jpg
+  img: Lubomir_Svorc_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: analyticka_chemia
@@ -5990,7 +5990,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1273
   - - "\u017Eivotopis"
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1273&action=cv
-  img: Jozef_Ukropec.jpg
+  img: Jozef_Ukropec_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: patofyziologia
@@ -6018,7 +6018,7 @@
     - http://antalic.dnp.fmph.uniba.sk/index.php
   - - "\u017Eivotopis"
     - http://antalic.dnp.fmph.uniba.sk/cv.php
-  img: Stanislav_Antalic.jpg
+  img: Stanislav_Antalic_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: jadrova_fyzika
@@ -6055,7 +6055,7 @@
     - https://www.researchgate.net/profile/Ivan-Chodak
   - - web
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1629
-  img: Ivan_Chodak.jpg
+  img: Ivan_Chodak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: modifikacia_polymerov
@@ -6084,7 +6084,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=4000
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20160108133831_137_2015_PK_Vedeckyzivotopis_ENG.pdf
-  img: Peter_Kopcansky.jpeg
+  img: Peter_Kopcansky_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_magnetizmu
@@ -6122,7 +6122,7 @@
     - https://www.youtube.com/watch?v=k-YXwl4v-r4
   - - "\u017Eivotopis"
     - https://www.kysuce.sk/osobnosti/osobnosti-regionu/63/jan-kormanec.html
-  img: Jan_Kormanec.jpg
+  img: Jan_Kormanec_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: genova_expresia
@@ -6149,7 +6149,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5352
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20191219104536_138_zivotopis.pdf
-  img: Andrej_Liptaj.jpg
+  img: Andrej_Liptaj_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: subjadrova_fyzika
@@ -6178,7 +6178,7 @@
     - https://sk.wikipedia.org/wiki/Peter_Moczo
   - - "\u017Eivotopis"
     - https://vedanadosah.cvtisr.sk/prof-peter-moczo-sme-radi-ze-sme-sucastou-spickoveho-vyskumu
-  img: Peter_Moczo.jpg
+  img: Peter_Moczo_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: geofyzika
@@ -6209,7 +6209,7 @@
     - http://faculty.missouri.edu/nabelekp/Welcome.html
   - - "\u017Eivotopis"
     - https://geology.missouri.edu/sites/default/files/people-files/2019-09/nabelek_cv.pdf
-  img: Peter_Nabelek.jpeg
+  img: Peter_Nabelek_size_280px.jpeg
   update_status: UPDATED
   countryurl: USA
   fieldurl: geologia
@@ -6242,7 +6242,7 @@
     - https://sk.wikipedia.org/wiki/Juraj_Nemec
   - - "\u017Eivotopis"
     - https://www.econ.muni.cz/o-nas/zamestnanci-fakulty/29310-juraj-nemec/zivotopis
-  img: Juraj_Nemec.jpg
+  img: Juraj_Nemec_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: ekonomia
@@ -6283,7 +6283,7 @@
     - https://www.youtube.com/watch?v=Bl5cSD8RUA8
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20210827143439_887_CurVit-Spitalsky2021.pdf
-  img: Zdenko_Spitalsky.jpg
+  img: Zdenko_Spitalsky_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: nanomaterialy
@@ -6334,7 +6334,7 @@
     - https://engineering.lehigh.edu/faculty/martin-takac
   - - "\u017Eivotopis"
     - https://mtakac.com/CV
-  img: Martin_Takac.jpg
+  img: Martin_Takac_size_280px.jpg
   update_status: UPDATED
   countryurl: Spojene_arabske_emiraty
   fieldurl: optimalizacia
@@ -6371,7 +6371,7 @@
     - https://www.researchgate.net/profile/Igor-Tvaroska/4
   - - web
     - http://www.chem.sk/people/tvaroskaigor/
-  img: Igor_Tvaroska.jpg
+  img: Igor_Tvaroska_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: vypoctova_chemia
@@ -6404,7 +6404,7 @@
     - https://www.learned.sk/wp-content/uploads/2020/03/Zivotopis_Miroslav_Urban.pdf
   - - "\u017Eivotopis 2"
     - http://www.qch.fns.uniba.sk/GroupPage/members/urban/cv-urban.pdf
-  img: Miroslav_Urban.jpg
+  img: Miroslav_Urban_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: teoreticka_chemia
@@ -6439,7 +6439,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1203
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/BUJDAK-prof/CV_Bujdak.pdf
-  img: Juraj_Bujdak.jpg
+  img: Juraj_Bujdak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -6476,7 +6476,7 @@
     - http://people.cs.pitt.edu/~milos/
   - - "\u017Eivotopis"
     - http://people.cs.pitt.edu/~milos/CV.pdf
-  img: Milos_Hauskrecht.jpg
+  img: Milos_Hauskrecht_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: informatika
@@ -6513,7 +6513,7 @@
     - https://en.wikipedia.org/wiki/Juraj_Hromkovi\u010D
   - - "\u017Eivotopis"
     - https://www.ae-info.org/ae/User/Hromkovic_Juraj/CV
-  img: Juraj_Hromkovic.jpg
+  img: Juraj_Hromkovic_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: informatika
@@ -6544,7 +6544,7 @@
     - https://www.fch.vut.cz/en/people/adriana-kovalcik-201963
   - - "\u017Eivotopis"
     - https://www.vut.cz/en/people/adriana-kovalcik-201963/zivotopis
-  img: Adriana_Kovalcik.jpg
+  img: Adriana_Kovalcik_size_280px.jpg
   countryurl: Cesko
   fieldurl: biopolymery
   area: "ch\xE9mia"
@@ -6578,7 +6578,7 @@
     - https://sites.google.com/site/branislavkusy/
   - - "\u017Eivotopis"
     - https://sites.google.com/site/branislavkusy/cv
-  img: Branislav_Kusy.jpg
+  img: Branislav_Kusy_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: bezdrotove_siete_a_systemy
@@ -6617,7 +6617,7 @@
     - https://uniba.sk/nc/ludia/mikusova1/
   - - "\u017Eivotopis"
     - files/cv_Katarina_Mikusova_2021.pdf
-  img: Katarina_Mikusova.jpg
+  img: Katarina_Mikusova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -6654,7 +6654,7 @@
     - https://iiasa.ac.at/staff/staff.php?type=auto&visibility=visible&search=true&login=rafaj
   - - "\u017Eivotopis"
     - https://biography.omicsonline.org/austria/international-institute-for-applied-systems-analysis/peter-rafaj-77808
-  img: Peter_Rafaj.jpg
+  img: Peter_Rafaj_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: klimaticka_zmena
@@ -6683,7 +6683,7 @@
     - https://www.researchgate.net/profile/Marek-Samec
   - - web
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/EN/samec3.uniba.sk.html
-  img: Marek_Samec.jpg
+  img: Marek_Samec_size_280px.jpg
   countryurl: Slovensko
   fieldurl: onkologia
   area: "medic\xEDna"
@@ -6717,7 +6717,7 @@
     - https://www.researchgate.net/profile/Ivan-Simko-4
   - - web
     - https://www.ars.usda.gov/people-locations/person/?person-id=39590
-  img: Ivan_Simko.jpg
+  img: Ivan_Simko_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: genetika
@@ -6764,7 +6764,7 @@
     - http://www.geo.sav.sk/en/staff/adam-tomasovych-en/
   - - "\u017Eivotopis"
     - http://www.geol.sav.sk/tomasovych/curriculum%20vitae.pdf
-  img: Adam_Tomasovych.jpg
+  img: Adam_Tomasovych_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: paleobiologia
@@ -6803,7 +6803,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=615
   - - "\u017Eivotopis"
     - "https://www.learned.sk/wp-content/uploads/2020/03/\u017Eivotopis-UcSS.pdf"
-  img: Vladimir_Farkas.jpg
+  img: Vladimir_Farkas_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -6835,7 +6835,7 @@
     - https://www.upjs.sk/LF/zamestnanec/zuzana.gdovinova
   - - "\u017Eivotopis"
     - https://www.neurologiepropraxi.cz/pdfs/neu/2019/01/17.pdf
-  img: Zuzana_Gdovinova.jpg
+  img: Zuzana_Gdovinova_size_280px.jpg
   last_update: '2026-08-25'
   update_status: UPDATED
   countryurl: Slovensko
@@ -6875,7 +6875,7 @@
     - https://www.youtube.com/watch?v=p6uf0nYehsw
   - - "\u017Eivotopis"
     - https://home.czu.cz/hlasny/zivotopis
-  img: Tomas_Hlasny.jpg
+  img: Tomas_Hlasny_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: lesnictvo
@@ -6904,7 +6904,7 @@
     - https://orcid.org/0000-0002-2799-6077
   - - web
     - https://www.kcl.ac.uk/people/maria-deprez
-  img: Maria_Kuklisova.jpg
+  img: Maria_Kuklisova_size_280px.jpg
   countryurl: Velka_Britania
   fieldurl: medicinske_zobrazovanie
   area: "medic\xEDna"
@@ -6936,7 +6936,7 @@
     - https://www.jfmed.uniba.sk/pracoviska/vedecko-pedagogicke-pracoviska/teoreticke-ustavy/ustav-lekarskej-biochemie/zamestnanci-ustavu/prof-rndr-jan-lehotsky-drsc-zastupca-veduceho/
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/SK/lehotsky1.uniba.sk.html
-  img: Jan_Lehotsky.jpg
+  img: Jan_Lehotsky_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: lekarska_biochemia
@@ -6965,7 +6965,7 @@
     - "https://sk.wikipedia.org/wiki/Pavol_\u0160ajgal\xEDk"
   - - "\u017Eivotopis"
     - files/cv_Pavol_Sajgalik_2020.pdf
-  img: Pavol_Sajgalik.jpeg
+  img: Pavol_Sajgalik_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: materialova_veda
@@ -7000,7 +7000,7 @@
     - http://labsoos.vscht.cz
   - - "\u017Eivotopis"
     - http://www.biotech2017.cz/domains/biotech2017.cz/data/uploads/CV_MSoos.pdf
-  img: Miroslav_Soos.jpeg
+  img: Miroslav_Soos_size_280px.jpeg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: chemicke_inzinierstvo
@@ -7033,7 +7033,7 @@
     - https://www.sfu.ac.at/en/person/sykora-marek/
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/LF_UK/Sykora/32_Priv_Doz_Sykora_zivotopis.pdf
-  img: Marek_Sykora.jpg
+  img: Marek_Sykora_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: neurologia
@@ -7060,7 +7060,7 @@
     - https://orcid.org/0000-0001-7771-2880
   - - web
     - https://about.unimelb.edu.au/leadership/senior-leadership/dean-foe
-  img: Marek_Tesar.jpg
+  img: Marek_Tesar_size_280px.jpg
   countryurl: Australia
   fieldurl: predskolska_pedagogika
   area: "spolo\u010Densk\xE9 vedy"
@@ -7092,7 +7092,7 @@
     - https://cemse.kaust.edu.sa/nanovis
   - - "\u017Eivotopis"
     - http://ii.uib.no/vis_old/team/viola/_pdfs/IvanViolaCV.pdf
-  img: Ivan_Viola.jpg
+  img: Ivan_Viola_size_280px.jpg
   update_status: UPDATED
   countryurl: Saudska_Arabia
   fieldurl: pocitacova_grafika_a_vizualizacia
@@ -7119,7 +7119,7 @@
     - https://www.researchgate.net/profile/Iveta_Bernatova/2
   - - "\u017Eivotopis"
     - files/cv_Iveta_Bernatova.docx
-  img: Iveta_Bernatova.jpg
+  img: Iveta_Bernatova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia
@@ -7162,7 +7162,7 @@
     - https://www.scopus.com/authid/detail.uri?authorId=6603891237
   - - "wikip\xE9dia"
     - "https://sk.wikipedia.org/wiki/M\xE1ria_Bielikov\xE1_(informati\u010Dka)"
-  img: Maria_Bielikova.jpg
+  img: Maria_Bielikova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: umela_inteligencia
@@ -7203,7 +7203,7 @@
     - https://www.scopus.com/authid/detail.uri?authorId=16401060100
   - - "\u017Eivotopis"
     - https://hfmr.meduniwien.ac.at/fileadmin/hfmr/files/CV/CV_Chmelik_PI.pdf
-  img: Marek_Chmelik.jpg
+  img: Marek_Chmelik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: magneticka_rezonancia
@@ -7232,7 +7232,7 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/danisovic1.uniba.sk.html
   - - "\u017Eivotopis"
     - files/cv_Lubos_Danisovic.pdf
-  img: Lubos_Danisovic.jpg
+  img: Lubos_Danisovic_size_280px.jpg
   countryurl: Slovensko
   fieldurl: tkanivove_inzinierstvo
   area: "medic\xEDna"
@@ -7268,7 +7268,7 @@
     - https://portal.fmed.uniba.sk/autori.php?tid=18
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/durackova2.uniba.sk.html
-  img: Zdenka_Durackova.jpg
+  img: Zdenka_Durackova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -7301,7 +7301,7 @@
     - http://www.gabrielfedorko.com/
   - - "\u017Eivotopis"
     - https://vslg.cz/sk/profil/prof-ing-gabriel-fedorko-phd/
-  img: Gabriel_Fedorko.jpg
+  img: Gabriel_Fedorko_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: logistika
@@ -7332,7 +7332,7 @@
     - https://www.zeppelin-university.com/chairs/international-economics/index.php
   - - "\u017Eivotopis"
     - https://henuecon.education/images/CV-Fidrmuc.pdf
-  img: Jarko_Fidrmuc.jpg
+  img: Jarko_Fidrmuc_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: medzinarodna_ekonomia
@@ -7359,7 +7359,7 @@
     - https://www.linkedin.com/in/frantisek-kacik-3967a136/?originalSubdomain=sk
   - - ResearchGate
     - https://www.researchgate.net/profile/Frantisek-Kacik
-  img: Frantisek_Kacik.jpg
+  img: Frantisek_Kacik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: chemia_dreva
@@ -7396,7 +7396,7 @@
     - https://cuni.cz/UK-4106.html
   - - "\u017Eivotopis"
     - https://www.learned.sk/wp-content/uploads/2019/10/CV_Krizanova.pdf
-  img: Olga_Krizanova.jpg
+  img: Olga_Krizanova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: lekarska_chemia_a_biochemia
@@ -7429,7 +7429,7 @@
     - http://www.kbt.upol.cz/
   - - "\u017Eivotopis"
     - files/cv_Miroslav_Ovecka.pdf
-  img: Miroslav_Ovecka.jpg
+  img: Miroslav_Ovecka_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: molekularna_a_bunkova_biologia
@@ -7454,7 +7454,7 @@
   links:
   - - web
     - http://kavt.fvt.tuke.sk/katedra/zamestnanci/4
-  img: Ladislav_Paule.jpg
+  img: Ladislav_Paule_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: genetika_drevin
@@ -7481,7 +7481,7 @@
     - https://eccr.org/dr-ludovit-paulis/
   - - "\u017Eivotopis"
     - files/cv_Ludovit_Paulis_2022.pdf
-  img: Ludovit_Paulis.jpg
+  img: Ludovit_Paulis_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: patofyziologia
@@ -7508,7 +7508,7 @@
     - https://fzsp.truni.sk/kontakty/martin-rusnak
   - - "\u017Eivotopis"
     - http://www.healthnet.sk/curricula/2021_01_21_CV%20Rusnak.html
-  img: Martin_Rusnak.jpg
+  img: Martin_Rusnak_size_280px.jpg
   countryurl: Slovensko
   fieldurl: verejne_zdravotnictvo
   area: "medic\xEDna"
@@ -7532,7 +7532,7 @@
   links:
   - - web
     - https://www.essex.ac.uk/people/SIROT78808/Miroslav-Sirota
-  img: Miroslav_Sirota.jpg
+  img: Miroslav_Sirota_size_280px.jpg
   countryurl: Velka_Britania
   fieldurl: kognitivna_psychologia
   area: "spolo\u010Densk\xE9 vedy"
@@ -7556,7 +7556,7 @@
   links:
   - - "\u017Eivotopis"
     - https://fns.uniba.sk/fileadmin/prif/chem/lam/CV_for_webpage_ms1.pdf
-  img: Milan_Sykora.png
+  img: Milan_Sykora_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: materialova_veda
@@ -7587,7 +7587,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=2393
   - - "\u017Eivotopis"
     - https://www.osobnosti.sk/osobnost/milan-timko-846
-  img: Milan_Timko.jpg
+  img: Milan_Timko_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_magnetizmu
@@ -7624,7 +7624,7 @@
     - https://www.upjs.sk/en/PF/employee/vladimir.zelenak/
   - - "\u017Eivotopis"
     - files/cv_Vladimir_Zelenak_2018.pdf
-  img: Vladimir_Zelenak.jpg
+  img: Vladimir_Zelenak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: anorganicka_chemia
@@ -7659,7 +7659,7 @@
     - https://www.researchgate.net/profile/Milan-Certik
   - - "\u017Eivotopis"
     - files/cv_Milan_Certik_2019.pdf
-  img: Milan_Certik.jpg
+  img: Milan_Certik_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biotechnologia
@@ -7690,7 +7690,7 @@
     - https://profiles.ucsd.edu/milan.gembicky
   - - web 2
     - https://crystals.ucsd.edu/personnel
-  img: Milan_Gembicky.jpg
+  img: Milan_Gembicky_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: krystalografia
@@ -7721,7 +7721,7 @@
     - https://ff.truni.sk/kontakty/peter-halama
   - - "\u017Eivotopis"
     - files/cv_Peter_Halama.pdf
-  img: Peter_Halama.jpg
+  img: Peter_Halama_size_280px.jpg
   countryurl: Slovensko
   fieldurl: psychologia
   area: "spolo\u010Densk\xE9 vedy"
@@ -7751,7 +7751,7 @@
     - "http://www.kch.fpv.ukf.sk/?q=en/content/prof-rndr-klaudia-jomov\xE1-phd"
   - - "\u017Eivotopis"
     - https://ais2.ukf.sk/repovsk/repository/default/ais/vsk/FPV/UPV/studijny_program/ucitelstvo_chemie_(v_kombinacii)_(I._st._denna_forma)_(AKCH22bu)/2022_11/VUPCHZO_prof_RNDr_Klaudia_Jomova_PhD_(SK).html
-  img: Klaudia_Jomova.jpg
+  img: Klaudia_Jomova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: toxikologia
@@ -7786,7 +7786,7 @@
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1943
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20160922192707_964_Kazimirova_%C5%BDivotopis_Angl.pdf
-  img: Maria_Kazimirova.jpg
+  img: Maria_Kazimirova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: parazitologia
@@ -7815,7 +7815,7 @@
     - https://fns.uniba.sk/vladimir-kelloe/
   - - "\u017Eivotopis"
     - https://fns.uniba.sk/fileadmin/prif/chem/kfz/profiles/CV_Kello_2020.pdf
-  img: Vladimir_Kello.jpg
+  img: Vladimir_Kello_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -7844,7 +7844,7 @@
     - https://www.researchgate.net/profile/Lubos-Kristak
   - - web
     - https://www.tuzvo.sk/sk/ludia-na-tuzvo/9595
-  img: Lubos_Kristak.jpg
+  img: Lubos_Kristak_size_280px.jpg
   countryurl: Slovensko
   fieldurl: fyzika_dreva
   area: "biol\xF3gia"
@@ -7878,7 +7878,7 @@
     - http://www.geo.sav.sk/en/staff/jozef-kristek-en/
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/kristek1.uniba.sk.html
-  img: Jozef_Kristek.jpg
+  img: Jozef_Kristek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: geofyzika
@@ -7911,7 +7911,7 @@
     - https://www.geo.uu.se/research/min-pet-tek-en/about-us/
   - - "wikip\xE9dia"
     - https://species.wikimedia.org/wiki/Peter_Lazor
-  img: Peter_Lazor.png
+  img: Peter_Lazor_size_280px.png
   update_status: UPDATED
   countryurl: Svedsko
   fieldurl: geologia
@@ -7940,7 +7940,7 @@
     - https://www.researchgate.net/scientific-contributions/P-Oblozinsky-81811255
   - - "\u017Eivotopis"
     - https://indico.cern.ch/event/675816/page/12195-pavel-oblozinsky
-  img: Pavel_Oblozinsky.png
+  img: Pavel_Oblozinsky_size_280px.png
   update_status: UPDATED
   countryurl: USA
   fieldurl: jadrova_fyzika
@@ -7969,7 +7969,7 @@
     - "https://sk.wikipedia.org/wiki/Karol_Ondria\u0161"
   - - "\u017Eivotopis"
     - files/cv_Karol_Ondrias_2020.pdf
-  img: Karol_Ondrias.png
+  img: Karol_Ondrias_size_280px.png
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biofyzika
@@ -8008,7 +8008,7 @@
     - https://uniba.sk/ludia/ostatnikova1/
   - - "wikip\xE9dia"
     - https://sk.wikipedia.org/wiki/Daniela_Ostatn%C3%ADkov%C3%A1
-  img: Daniela_Ostatnikova.jpg
+  img: Daniela_Ostatnikova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyziologia
@@ -8039,7 +8039,7 @@
     - https://faculty.chicagobooth.edu/lubos-pastor
   - - "\u017Eivotopis"
     - files/cv_Lubos_Pastor.pdf
-  img: Lubos_Pastor.png
+  img: Lubos_Pastor_size_280px.png
   update_status: UPDATED
   countryurl: USA
   fieldurl: ekonomia
@@ -8070,7 +8070,7 @@
     - https://www.unimedizin-mainz.de/pathologie/das-institut/mitarbeiter/aerzte/porubsky.html
   - - "\u017Eivotopis"
     - https://www.unimedizin-mainz.de/pathologie/das-institut/mitarbeiter/aerzte/porubsky.html
-  img: Stefan_Porubsky.jpg
+  img: Stefan_Porubsky_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: patologia
@@ -8097,7 +8097,7 @@
     - https://www.researchgate.net/profile/Tanya_Ravingerova
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20181126205307_445_CV_Ravingerova_15.11.2018.doc
-  img: Tanya_Ravingerova.jpg
+  img: Tanya_Ravingerova_size_280px.jpg
   update_status: ERROR
   countryurl: Slovensko
   fieldurl: fyziologia
@@ -8132,7 +8132,7 @@
     - http://www.quantum.physics.sk/people/stano/
   - - zivotopis
     - http://www.quantum.physics.sk/people/stano/cv_US.pdf
-  img: Peter_Stano_1000.jpg
+  img: Peter_Stano_1000_size_280px.jpg
   update_status: UPDATED
   countryurl: Japonsko
   fieldurl: teoreticka_fyzika
@@ -8161,7 +8161,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=en&user_no=8905
   - - "\u017Eivotopis"
     - files/cv_Matej_Balaz_2025.pdf
-  img: Matej_Balaz.jpg
+  img: Matej_Balaz_size_280px.jpg
   countryurl: Slovensko
   fieldurl: mechanochemia
   area: "ch\xE9mia"
@@ -8197,7 +8197,7 @@
     - http://imb.savba.sk/~barak/
   - - "\u017Eivotopis"
     - files/cv_Imrich_Barak_2023.pdf
-  img: Imrich_Barak.jpg
+  img: Imrich_Barak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: molekularna_biologia
@@ -8228,7 +8228,7 @@
     - https://www.researchgate.net/profile/Eva-Budinska
   - - web
     - https://www.muni.cz/lide/40822-eva-budinska
-  img: Eva_Budinska.jpg
+  img: Eva_Budinska_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: bioinformatika
@@ -8253,7 +8253,7 @@
   links:
   - - web
     - https://kdmt.uniza.sk/index.php/uvod/vseobecne-informacie/pracovnici-katedry
-  img: Juraj_Gerlici.jpg
+  img: Juraj_Gerlici_size_280px.jpg
   countryurl: Slovensko
   fieldurl: kolajove_vozidla
   area: "in\u017Einierstvo"
@@ -8293,7 +8293,7 @@
     - http://www.elu.sav.sk/pracovnici/zakladne-info/?user_no=87&publication_author_id=0000025
   - - "\u017Eivotopis"
     - files/cv_Fedor_Gomory_2019.pdf
-  img: Fedor_Gomory.jpg
+  img: Fedor_Gomory_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: supravodice
@@ -8320,7 +8320,7 @@
     - https://orcid.org/0000-0003-4385-0841
   - - ResearchGate
     - https://www.researchgate.net/profile/Juraj-Harmatha/10
-  img: Juraj_Harmatha.jpg
+  img: Juraj_Harmatha_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: organicka_chemia
@@ -8353,7 +8353,7 @@
     - https://www.youtube.com/watch?v=WRQcRqAqQQw
   - - "\u017Eivotopis"
     - files/cv_Viktor_Hraska.pdf
-  img: Viktor_Hraska.jpg
+  img: Viktor_Hraska_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: kardiologia
@@ -8384,7 +8384,7 @@
     - https://spominam.sk/parte/karol-kajo
   - - pluska
     - https://www1.pluska.sk/regiony/slovensko-prislo-o-vyznamnych-odbornikov-lekari-zomreli-len-par-hodin-po-sebe
-  img: Karol_Kajo.jpg
+  img: Karol_Kajo_size_280px.jpg
   countryurl: Slovensko
   fieldurl: patologia
   area: "medic\xEDna"
@@ -8418,7 +8418,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1384
   - - "\u017Eivotopis"
     - files/cv_Lubica_Lacinova_2020.pdf
-  img: Lubica_Lacinova.jpg
+  img: Lubica_Lacinova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biofyzika
@@ -8451,7 +8451,7 @@
     - https://dep.fmph.uniba.sk/cv-rm/
   - - "\u017Eivotopis"
     - https://dep.fmph.uniba.sk/cv-rm/
-  img: Roman_Martonak.jpg
+  img: Roman_Martonak_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_kondenzovanych_latok
@@ -8494,7 +8494,7 @@
     - https://www.researchgate.net/profile/Roman-Mezencev
   - - web
     - https://biosciences.gatech.edu/people/roman-mezencev
-  img: Roman_Mezencev.jpg
+  img: Roman_Mezencev_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: onkologia_a_epidemiologia
@@ -8523,7 +8523,7 @@
     - https://www.researchgate.net/profile/Peter-Molnar-16
   - - web
     - https://paraplyen.prototypes.no/paraplyen/arkiv/2011/september/disputas-p/
-  img: Peter_Molnar_2.jpg
+  img: Peter_Molnar_2_size_280px.jpg
   update_status: UPDATED
   countryurl: Norsko
   fieldurl: ekonomia
@@ -8554,7 +8554,7 @@
     - https://www.researchgate.net/lab/Jaroslav-Mosnacek-Lab
   - - web
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=2395
-  img: Jaroslav_Mosnacek.jpg
+  img: Jaroslav_Mosnacek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: makromolekularna_chemia
@@ -8583,7 +8583,7 @@
     - https://geopaleo.sk/plasienka-dusan/
   - - "\u017Eivotopis"
     - https://geopaleo.sk/plasienka-dusan/plasienka-dusan-cv/
-  img: Dusan_Plasienka.jpg
+  img: Dusan_Plasienka_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: geologia
@@ -8614,7 +8614,7 @@
     - https://www.linkedin.com/in/marcel-suri-15608621?originalSubdomain=sk
   - - ResearchGate
     - https://www.researchgate.net/profile/Marcel-Suri
-  img: Marcel_Suri.jpg
+  img: Marcel_Suri_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fotovoltaika
@@ -8647,7 +8647,7 @@
     - http://people.tuke.sk/martin.baca/
   - - web 2
     - https://www.sjf.tuke.sk/kamai/en/bacainfo
-  img: Martin_Baca.jpeg
+  img: Martin_Baca_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: teoria_grafov
@@ -8682,7 +8682,7 @@
     - https://niu.sav.sk/research-groups/regenerative-medicine/
   - - "\u017Eivotopis"
     - https://vaia.gov.sk/wp-content/uploads/2022/11/Dasa-Cizkova_BIO.pdf?csrt=10675498284171541661
-  img: Dasa_Cizkova.jpg
+  img: Dasa_Cizkova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: neuroimunologia
@@ -8709,7 +8709,7 @@
     - https://uniba.sk/ludia/devinsky1
   - - "wikip\xE9dia"
     - "https://sk.wikipedia.org/wiki/Ferdinand_Dev\xEDnsky"
-  img: Ferdinand_Devinsky.jpg
+  img: Ferdinand_Devinsky_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: farmaceuticka_chemia
@@ -8738,7 +8738,7 @@
     - https://www.teraz.sk/magazin/slovak-tomas-drgon-uspel-v-usa-nielen-ak/315698-clanok.html
   - - news 2
     - https://www.dobrenoviny.sk/c/128164/slovak-tomas-drgon-uspel-v-usa-nielen-ako-vedec-ale-aj-ako-hudobnik
-  img: Tomas_Drgon_1.jpg
+  img: Tomas_Drgon_1_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: molekularna_biologia
@@ -8776,7 +8776,7 @@
   - - "\u017Eivotopis"
     - "https://www.ku.sk/images/dokumenty/pf/dokumenty/veda_a_vyskum/projekty_a_granty/kega/1._\u017E\
       ivotopis_prof._dvure\u010Denskij14421.pdf"
-  img: Anatolij_Dvurecenskij.jpeg
+  img: Anatolij_Dvurecenskij_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: matematika
@@ -8811,7 +8811,7 @@
     - https://www.researchgate.net/profile/Marek-Fila
   - - web
     - http://www.iam.fmph.uniba.sk/institute/fila/
-  img: Marek_Fila.jpg
+  img: Marek_Fila_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: matematika
@@ -8838,7 +8838,7 @@
     - http://www.quantum.physics.sk/rcqi/index.php?x=home_for&for=grajcar
   - - "\u017Eivotopis"
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=9067&action=cv
-  img: Miroslav_Grajcar.jpg
+  img: Miroslav_Grajcar_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: kvantova_fyzika
@@ -8885,7 +8885,7 @@
     - https://sk.wikipedia.org/wiki/Martin_Kahanec
   - - "\u017Eivotopis"
     - https://www.celsi.sk/media/people/cv/Kahanec_CV_20190917_ONLINE.pdf
-  img: Martin_Kahanec.jpg
+  img: Martin_Kahanec_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: ekonomia
@@ -8918,7 +8918,7 @@
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=5626
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/kocifaj2.uniba.sk.html
-  img: Miroslav_Kocifaj.jpg
+  img: Miroslav_Kocifaj_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: optika
@@ -8947,7 +8947,7 @@
     - https://www.researchgate.net/profile/Zlatica-Kohajdova
   - - web
     - https://www.fchpt.stuba.sk/sk/ustavy-a-oddelenia/ustav-biotechnologie-a-potravinarstva/oddelenie-potravinarskej-technologie/zoznam/ing.-zlatica-kohajdova-phd..html?page_id=2438
-  img: Zlatica_Kohajdova.jpg
+  img: Zlatica_Kohajdova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: potravinarska_technologia
@@ -8978,7 +8978,7 @@
     - https://ke.uniza.sk/sk/component/contact/contact/23-ing-maria-kovacova-phd
   - - "\u017Eivotopis"
     - files/cv_Maria_Kovacova_2021.pdf
-  img: Maria_Kovacova.jpg
+  img: Maria_Kovacova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: ekonomia
@@ -9015,7 +9015,7 @@
     - https://cmp.felk.cvut.cz/~kukelova/
   - - "\u017Eivotopis"
     - files/cv_Zuzana_Kukelova.pdf
-  img: Zuzana_Kukelova.jpg
+  img: Zuzana_Kukelova_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: pocitacove_videnie
@@ -9040,7 +9040,7 @@
   links:
   - - web
     - http://www.math.sk/mikula/
-  img: Karol_Mikula.jpg
+  img: Karol_Mikula_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: aplikovana_matematika
@@ -9077,7 +9077,7 @@
     - http://www.biocenter.sk/jn.html
   - - "\u017Eivotopis"
     - http://www.biocenter.sk/jncv.html
-  img: Jozef_Nosek.jpg
+  img: Jozef_Nosek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -9104,7 +9104,7 @@
     - https://orcid.org/0000-0003-4348-3332
   - - web
     - https://www.kvhk.sk/sk/clenovia-katedry/ocenenia-szolgay
-  img: Jan_Szolgay.jpg
+  img: Jan_Szolgay_size_280px.jpg
   countryurl: Slovensko
   fieldurl: hydrologia
   area: geovedy
@@ -9134,7 +9134,7 @@
     - https://www.researchgate.net/profile/Jan-Titis
   - - sme.sk
     - https://mytrnava.sme.sk/c/22543407/chemia-je-jednoducho-uzasna.html
-  img: Jan_Titis.jpg
+  img: Jan_Titis_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: anorganicka_chemia
@@ -9167,7 +9167,7 @@
     - https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&menue_id_in=101&id_in=7969
   - - web 2
     - https://www.sav.sk/index.php?lang=en&doc=user-org-user&user_no=2990
-  img: Marcel_Zamocky.jpg
+  img: Marcel_Zamocky_size_280px.jpg
   update_status: UPDATED
   countryurl: Rakusko
   fieldurl: enzymologia
@@ -9200,7 +9200,7 @@
     - https://www.tuzvo.sk/ludia-na-tuzvo/6734
   - - "\u017Eivotopis"
     - files/cv_Michal_Bosela_2024.pdf
-  img: Michal_Bosela.jpg
+  img: Michal_Bosela_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: lesnictvo
@@ -9233,7 +9233,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=6429
   - - "\u017Eivotopis"
     - https://www.sav.sk/uploads/users_cv/20210319102833_120_RichardImrichCV03-2021.docx
-  img: Richard_Imrich.jpg
+  img: Richard_Imrich_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biomedicina
@@ -9260,7 +9260,7 @@
     - https://www.linkedin.com/in/tibor-macko-915b1912/?originalSubdomain=de
   - - ResearchGate
     - https://www.researchgate.net/profile/Tibor-Macko-2
-  img: Tibor_Macko.jpg
+  img: Tibor_Macko_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
   fieldurl: analyticka_chemia
@@ -9287,7 +9287,7 @@
     - https://orcid.org/0000-0002-9941-7855
   - - web
     - https://ki.se/en/people/jaromir-mikes
-  img: Jaromir_Mikes.jpg
+  img: Jaromir_Mikes_size_280px.jpg
   countryurl: Svedsko
   fieldurl: imunologia
   area: "medic\xEDna"
@@ -9313,7 +9313,7 @@
     - https://orcid.org/0000-0003-4182-4033
   - - web
     - https://kppvt.fvt.tuke.sk/elementor-popup/prof-ing-vieroslav-molnar-phd/
-  img: Vieroslav_Molnar.jpg
+  img: Vieroslav_Molnar_size_280px.jpg
   countryurl: Slovensko
   fieldurl: logistika_/_rurove_dopravniky
   area: "ekon\xF3mia a mana\u017Ement"
@@ -9341,7 +9341,7 @@
     - https://orcid.org/0000-0002-2453-8740
   - - web
     - https://of.euba.sk/katedry/katedra-cestovneho-ruchu/clenovia-katedry/mura-ladislav
-  img: Ladislav_Mura.jpg
+  img: Ladislav_Mura_size_280px.jpg
   countryurl: Slovensko
   fieldurl: ekonomia
   area: "ekon\xF3mia a mana\u017Ement"
@@ -9371,7 +9371,7 @@
     - https://orcid.org/0000-0002-7067-3222
   - - web
     - http://michalnemcok.sk/
-  img: Michal_Nemcok.jpg
+  img: Michal_Nemcok_size_280px.jpg
   countryurl: Cesko
   fieldurl: strukturalna_geologia_a_tektonika
   area: geovedy
@@ -9401,7 +9401,7 @@
     - https://research.google/people/author20/
   - - "\u017Eivotopis"
     - http://martin.palenica.com/cv2.pdf
-  img: Martin_Pal.jpg
+  img: Martin_Pal_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
   fieldurl: informatika
@@ -9438,7 +9438,7 @@
     - https://www.ufe.cz/cs/marek-piliarik
   - - web 2
     - https://www.ufe.cz/en/team/nano-optics
-  img: Marek_Piliarik.jpg
+  img: Marek_Piliarik_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: nanooptika
@@ -9471,7 +9471,7 @@
     - https://is.stuba.sk/lide/clovek.pl?id=3882;lang=sk
   - - "\u017Eivotopis"
     - files/cv_Milan_Polakovic_2012.pdf
-  img: Milan_Polakovic.jpg
+  img: Milan_Polakovic_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: chemicke_inzinierstvo
@@ -9502,7 +9502,7 @@
     - https://sk.wikipedia.org/wiki/Milan_Remko
   - - "\u017Eivotopis"
     - https://www.jmmc2022.sk/milan-remko/
-  img: Milan_Remko.jpg
+  img: Milan_Remko_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -9529,7 +9529,7 @@
     - https://orcid.org/0000-0003-0776-4137
   - - web
     - https://en.uit.no/ansatte/person?p_document_id=165784
-  img: Michal_Repisky.jpg
+  img: Michal_Repisky_size_280px.jpg
   countryurl: Norsko
   fieldurl: vypoctova_chemia
   area: "ch\xE9mia"
@@ -9563,7 +9563,7 @@
     - http://sschi.chtf.stuba.sk/MembraneLab/Contact.htm
   - - web 2
     - http://kchbi.chtf.stuba.sk/clenovia/detail.aspx?ID=26
-  img: Stefan_Schlosser.jpg
+  img: Stefan_Schlosser_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: membrany
@@ -9592,7 +9592,7 @@
     - https://www.upjs.sk/LF/zamestnanec/matej.skorvanek/
   - - "\u017Eivotopis"
     - files/cv_Matej_Skorvanek_2023.pdf
-  img: Matej_Skorvanek.jpg
+  img: Matej_Skorvanek_size_280px.jpg
   countryurl: Slovensko
   fieldurl: neurologia
   area: "medic\xEDna"
@@ -9632,7 +9632,7 @@
     - https://fns.uniba.sk/tomaska/
   - - "\u017Eivotopis"
     - http://www.biocenter.sk/ltcv.html
-  img: Lubomir_Tomaska_400.jpg
+  img: Lubomir_Tomaska_400_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: genetika_a_molekularna_biologia
@@ -9667,7 +9667,7 @@
     - https://vedanadosah.cvtisr.sk/priroda/fyzika/ocenenie-rektora-uk-patri-aj-doc-rndr-ivete-waczulikovej-phd-odbornicke-na-biomedicinsku-fyziku/
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repovsk/repository/default/ais/vsk/Fakulta_matematiky_fyziky_a_informatiky/fyzika/studijny_program/biofyzika_(III._st._denna_forma)_(dBIF)/UK_2022/VUPCHZO_doc_RNDr_Iveta_Waczulikova_PhD_(SK).pdf
-  img: Iveta_Waczulikova.jpg
+  img: Iveta_Waczulikova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biofyzika
@@ -9702,7 +9702,7 @@
     - https://kaa.ff.ukf.sk/en/stefan-benus/
   - - "\u017Eivotopis"
     - https://kaa.ff.ukf.sk/wp-content/uploads/2024/10/benus-cv-oct24-full.pdf
-  img: Stefan_Benus.jpg
+  img: Stefan_Benus_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fonetika
@@ -9735,7 +9735,7 @@
     - https://vbn.aau.dk/en/persons/114729
   - - web 2
     - https://peterdolog.wordpress.com
-  img: Peter_Dolog.jpg
+  img: Peter_Dolog_size_280px.jpg
   update_status: UPDATED
   countryurl: Dansko
   fieldurl: informatika
@@ -9760,7 +9760,7 @@
   links:
   - - web
     - https://www.wur.nl/en/persons/dr-d-dusan-drabik
-  img: Dusan_Drabik.jpg
+  img: Dusan_Drabik_size_280px.jpg
   countryurl: Holandsko
   fieldurl: polnohospodarska_ekonomia
   area: "ekon\xF3mia a mana\u017Ement"
@@ -9786,7 +9786,7 @@
     - https://orcid.org/0000-0002-6872-5695
   - - web
     - https://kmti.fei.tuke.sk/pedagog/prof-rndr-jozef-dzurina-csc
-  img: Jozef_Dzurina.jpg
+  img: Jozef_Dzurina_size_280px.jpg
   countryurl: Slovensko
   fieldurl: diferencialne_rovnice
   area: matematika
@@ -9816,7 +9816,7 @@
     - https://www.researchgate.net/profile/Milos-Hitka-2
   - - web
     - https://miloshitka.szm.com/index_e.html
-  img: Milos_Hitka.jpg
+  img: Milos_Hitka_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: manazment
@@ -9843,7 +9843,7 @@
     - https://orcid.org/0000-0003-0716-4553
   - - web
     - https://ibot.sav.sk/usr/Richard/
-  img: Richard_Hrivnak.jpg
+  img: Richard_Hrivnak_size_280px.jpg
   countryurl: Slovensko
   fieldurl: vegetacna_ekologia_mokradi
   area: "biol\xF3gia"
@@ -9871,7 +9871,7 @@
     - https://www.sav.sk/?lang=sk&charset=&doc=services-news&news_no=1527
   - - "\u017Eivotopis"
     - https://www.nvr.sk/wcrd-2025-cv-jkana-jakubikova/
-  img: Jana_Jakubikova_2.jpg
+  img: Jana_Jakubikova_2_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: hematologia
@@ -9908,7 +9908,7 @@
     - https://mrc.utu.fi/team/jambor_ivan
   - - web 2
     - https://www.utu.fi/en/people/ivan-jambor
-  img: Ivan_Jambor.jpg
+  img: Ivan_Jambor_size_280px.jpg
   update_status: UPDATED
   countryurl: Finsko
   fieldurl: radiologia
@@ -9943,7 +9943,7 @@
     - https://fns.uniba.sk/en/departments/chemistry/kbi/staff/?tx_unibausers_pi1%5Bperson%5D=kordulakova1
   - - "\u017Eivotopis"
     - https://fns.uniba.sk/fileadmin/prif/veda/Podklady/VUPCH/VUPCH_2021_Kordulakova.pdf
-  img: Jana_Kordulakova.jpg
+  img: Jana_Kordulakova_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biochemia
@@ -9970,7 +9970,7 @@
     - https://www.researchgate.net/profile/Marian_Krajci
   - - "\u017Eivotopis"
     - http://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2056-marian-krajci
-  img: Marian_Krajci.jpg
+  img: Marian_Krajci_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_kondenzovanych_latok
@@ -9999,7 +9999,7 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/kyselovic1.uniba.sk.html
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/LF/SK/kyselovic1.uniba.sk.html
-  img: Jan_Kyselovic.jpg
+  img: Jan_Kyselovic_size_280px.jpg
   countryurl: Slovensko
   fieldurl: farmakologia
   area: "medic\xEDna"
@@ -10031,7 +10031,7 @@
     - http://www.geo.sav.sk/en/staff/jaroslav-lexa-en/
   - - "\u017Eivotopis"
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=5443&action=cv
-  img: Jaroslav_Lexa.jpg
+  img: Jaroslav_Lexa_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: vulkanologia
@@ -10058,7 +10058,7 @@
     - https://orcid.org/0000-0001-6607-1213
   - - web
     - https://www.wistar.org/our-scientists/jozef-madzo/
-  img: Jozef_Madzo.jpg
+  img: Jozef_Madzo_size_280px.jpg
   countryurl: USA
   fieldurl: bioinformatika
   area: informatika
@@ -10086,7 +10086,7 @@
     - https://www.researchgate.net/profile/Igor_Novak
   - - web
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1660
-  img: Igor_Novak.jpg
+  img: Igor_Novak_size_280px.jpg
   countryurl: Slovensko
   fieldurl: polymerna_chemia
   area: "ch\xE9mia"
@@ -10118,7 +10118,7 @@
     - https://www.researchgate.net/profile/Veronika-Ostatna
   - - web
     - https://www.ibp.cz/cs/vyzkum/oddeleni/biofyzikalni-chemie-a-molekularni-onkologie/zamestnanci/129
-  img: Veronika_Ostatna.jpeg
+  img: Veronika_Ostatna_size_280px.jpeg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: biofyzika
@@ -10157,7 +10157,7 @@
     - https://sk.wikipedia.org/wiki/Pavol_Quittner
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/quittner1.uniba.sk.html
-  img: Pavol_Quittner.jpg
+  img: Pavol_Quittner_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: matematika
@@ -10202,7 +10202,7 @@
     - https://dai.fmph.uniba.sk/w/Tomas_Vinar/en
   - - "\u017Eivotopis"
     - https://uniba.sk/fileadmin/ruk/veda/docprof/FMFI_UK/Vinar/CV_profesijny_zivotopis_Vinar.pdf
-  img: Tomas_Vinar.jpg
+  img: Tomas_Vinar_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: bioinformatika
@@ -10243,7 +10243,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=10438
   - - "\u017Eivotopis"
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=3899&action=cv
-  img: Peter_Vrsansky.jpg
+  img: Peter_Vrsansky_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: paleobiologia
@@ -10275,7 +10275,7 @@
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=815&action=cv
   - - "\u017Eivotopis"
     - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=815&action=cv
-  img: Vladimir_Balaz.jpg
+  img: Vladimir_Balaz_size_280px.jpg
   last_update: '2026-08-25'
   update_status: UPDATED
   countryurl: Slovensko
@@ -10305,7 +10305,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=7920
   - - "\u017Eivotopis"
     - https://www.sav.sk/?doc=user-org-user&lang=en&user_no=7920&action=cv
-  img: Tomas_Bertok.jpg
+  img: Tomas_Bertok_size_280px.jpg
   countryurl: Slovensko
   fieldurl: biosenzory
   area: "biol\xF3gia"
@@ -10331,7 +10331,7 @@
     - https://orcid.org/0000-0002-0227-0296
   - - web
     - https://www.ilc.sk/en/vyskum/laboratoria/lasmicro/
-  img: Dusan_Chorvat.jpg
+  img: Dusan_Chorvat_size_280px.jpg
   countryurl: Slovensko
   fieldurl: biofotonika
   area: fyzika
@@ -10359,7 +10359,7 @@
     - https://www.nou.sk/prednostovia-klinik
   - - "\u017Eivotopis"
     - https://www.ecmm.info/fecmm/fellows/2489/
-  img: Lubos_Drgona.jpg
+  img: Lubos_Drgona_size_280px.jpg
   countryurl: Slovensko
   fieldurl: onkohematologia
   area: "medic\xEDna"
@@ -10389,7 +10389,7 @@
     - https://www.researchgate.net/profile/Jaroslav-Frnda
   - - web
     - https://fpedas.uniza.sk/~frnda/
-  img: Jaroslav_Frnda.jpg
+  img: Jaroslav_Frnda_size_280px.jpg
   countryurl: Slovensko
   fieldurl: informatika
   area: informatika
@@ -10421,7 +10421,7 @@
     - https://www.researchgate.net/profile/Milan-Hronec
   - - web
     - https://www.fchpt.stuba.sk/english/institutes-and-departments/institute-of-organic-chemistry-catalysis-and-petrochemistry/department-of-organic-technology/staff.html?page_id=3974
-  img: Milan_Hronec.gif
+  img: Milan_Hronec_size_280px.gif
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: organicka_technologia
@@ -10448,7 +10448,7 @@
     - https://www.researchgate.net/profile/Ctirad-Klimcik
   - - web
     - https://www.i2m.univ-amu.fr/user/ctirad.klimcik/
-  img: Ctirad_Klimcik.png
+  img: Ctirad_Klimcik_size_280px.png
   update_status: UPDATED
   countryurl: Francuzsko
   fieldurl: matematicka_fyzika
@@ -10477,7 +10477,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=10547
   - - "\u017Eivotopis"
     - https://www.respectprogram.org/stanislavkomorovsky.html
-  img: Stanislav_Komorovsky.jpg
+  img: Stanislav_Komorovsky_size_280px.jpg
   countryurl: Slovensko
   fieldurl: teoreticka_chemia
   area: "ch\xE9mia"
@@ -10509,7 +10509,7 @@
     - https://vedanadosah.cvtisr.sk/priroda/biologia/ekolog-snazime-sa-napravit-co-sa-v-minulosti-na-dunaji-pokazilo/
   - - web
     - https://www.ekologiauk.sk/tim-invaznej-biologie-a-ekomorfologie-ryb/
-  img: Vladimir_Kovac.jpg
+  img: Vladimir_Kovac_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biologia_ryb
@@ -10538,7 +10538,7 @@
     - https://www.rug.nl/staff/t.kudernac/
   - - "\u017Eivotopis"
     - https://www.kudernac.eu/tibor-kudernac/
-  img: Tibor_Kudernac.jpg
+  img: Tibor_Kudernac_size_280px.jpg
   countryurl: Holandsko
   fieldurl: nanotechnologia
   area: "materi\xE1ly"
@@ -10564,7 +10564,7 @@
     - https://www.numerik.mathematik.uni-mainz.de/prof-dr-maria-lukacova-medvidova/
   - - "\u017Eivotopis"
     - https://www.numerik.mathematik.uni-mainz.de/curriculum-vitae-prof-dr-maria-lukacova/
-  img: Maria_Lukacova_Medvidova.jpg
+  img: Maria_Lukacova_Medvidova_size_280px.jpg
   countryurl: Nemecko
   fieldurl: numericka_matematika
   area: matematika
@@ -10594,7 +10594,7 @@
     - https://sluzby.fmph.uniba.sk/ludia/roch1
   - - "\u017Eivotopis"
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/EN/roch1.uniba.sk.html
-  img: Tomas_Roch.jpg
+  img: Tomas_Roch_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_tuhych_latok
@@ -10621,7 +10621,7 @@
     - https://orcid.org/0000-0001-6121-7164
   - - web
     - https://www.prf.upol.cz/kbt/katedra/clenove-katedry/
-  img: Olga_Samajova.jpg
+  img: Olga_Samajova_size_280px.jpg
   countryurl: Cesko
   fieldurl: molekularna_a_bunkova_biologia
   area: "biol\xF3gia"
@@ -10649,7 +10649,7 @@
     - https://pharma.unibas.ch/en/persons/smiesko-martin/
   - - "\u017Eivotopis"
     - https://pharma.unibas.ch/en/persons/smiesko-martin/
-  img: Martin_Smiesko.jpg
+  img: Martin_Smiesko_size_280px.jpg
   countryurl: Svajciarsko
   fieldurl: pocitacom_podporovany_vyvoj_lieciv
   area: "medic\xEDna"
@@ -10675,7 +10675,7 @@
     - https://www.researchgate.net/profile/Eva-Spitalska
   - - web
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=3487
-  img: Eva_Spitalska.jpg
+  img: Eva_Spitalska_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: mikrobiologia
@@ -10706,7 +10706,7 @@
     - "https://www.semanticscholar.org/author/J.-\u0160vitel/5101737"
   - - "\u017Eivotopis"
     - https://www.signalhire.com/profiles/juraj-george-svitel%27s-email/133523625
-  img: Juraj_Svitel.jpg
+  img: Juraj_Svitel_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: biosenzory
@@ -10735,7 +10735,7 @@
     - https://orcid.org/0000-0002-5736-4679
   - - web
     - https://tomko.org
-  img: Martin_Tomko.jpg
+  img: Martin_Tomko_size_280px.jpg
   countryurl: Australia
   fieldurl: geograficke_informacne_vedy
   area: informatika
@@ -10767,7 +10767,7 @@
     - "https://www.semanticscholar.org/author/P.-Balgav\xFD/5140484"
   - - "wikip\xE9dia"
     - https://www.wikidata.org/wiki/Q12044403
-  img: Pavol_Balgavy.jpg
+  img: Pavol_Balgavy_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: biofyzika
@@ -10798,7 +10798,7 @@
     - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=10670
   - - "\u017Eivotopis"
     - files/cv_Tomas_Bleha_2016.pdf
-  img: Tomas_Bleha.jpg
+  img: Tomas_Bleha_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzikalna_chemia
@@ -10827,7 +10827,7 @@
     - https://www.fchpt.stuba.sk/sk/ustavy-a-oddelenia/ustav-chemickeho-a-environmentalneho-inzinierstva/oddelenie-environmentalneho-inzinierstva/ludia.html?page_id=2503
   - - "\u017Eivotopis"
     - files/cv_Igor_Bodik_2014.pdf
-  img: Igor_Bodik.jpg
+  img: Igor_Bodik_size_280px.jpg
   countryurl: Slovensko
   fieldurl: environmentalne_inzinierstvo
   area: "in\u017Einierstvo"
@@ -10855,7 +10855,7 @@
     - https://www.upjs.sk/PF/zamestnanec/eva.cellarova
   - - "\u017Eivotopis"
     - https://ais2.upjs.sk/repo2/repository/default/ais/zamestnanec/PF_UPJS/EN/eva.cellarova.upjs.sk.html
-  img: Eva_Cellarova.jpg
+  img: Eva_Cellarova_size_280px.jpg
   countryurl: Slovensko
   fieldurl: rastlinna_biotechnologia
   area: "biol\xF3gia"
@@ -10883,7 +10883,7 @@
     - http://www.fidrmuc.net/
   - - "\u017Eivotopis"
     - files/cv_Jan_Fidrmuc_2021.pdf
-  img: Jan_Fidrmuc.jpg
+  img: Jan_Fidrmuc_size_280px.jpg
   countryurl: Francuzsko
   fieldurl: ekonomia
   area: "ekon\xF3mia a mana\u017Ement"
@@ -10911,7 +10911,7 @@
     - https://www.researchgate.net/profile/Karol-Flachbart
   - - "\u017Eivotopis"
     - https://www.learned.sk/wp-content/uploads/2020/02/Zivotopis-Karol-Flachbart.pdf
-  img: Karol_Flachbart.jpg
+  img: Karol_Flachbart_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
   fieldurl: fyzika_tuhych_latok
@@ -10938,7 +10938,7 @@
     - https://orcid.org/0000-0002-0670-3431
   - - web
     - https://amyllab.saske.sk/zuzkag.html
-  img: Zuzana_Gazova.jpg
+  img: Zuzana_Gazova_size_280px.jpg
   countryurl: Slovensko
   fieldurl: biofyzika
   area: fyzika
@@ -10964,7 +10964,7 @@
     - https://orcid.org/0000-0002-5963-3748
   - - web
     - https://www.kvhk.sk/sk/clenovia-katedry/silvia-kohnova
-  img: Silvia_Kohnova.jpg
+  img: Silvia_Kohnova_size_280px.jpg
   countryurl: Slovensko
   fieldurl: hydrologia
   area: geovedy
@@ -10992,7 +10992,7 @@
     - http://www.uiam.sk/~kvasnica/
   - - "\u017Eivotopis"
     - https://www.uiam.sk/~kvasnica/cv.phtml
-  img: Michal_Kvasnica.jpg
+  img: Michal_Kvasnica_size_280px.jpg
   countryurl: Slovensko
   fieldurl: automatizacia
   area: "in\u017Einierstvo"
@@ -11016,7 +11016,7 @@
   links:
   - - web
     - https://science.dennikn.sk/kto-je-kto-v-slovenskej-vede/osobnosti/veda-a-vyskum/2088-lubomir-lichner
-  img: Lubomir_Lichner.jpg
+  img: Lubomir_Lichner_size_280px.jpg
   countryurl: Slovensko
   fieldurl: hydrologia_pody
   area: geovedy
@@ -11040,7 +11040,7 @@
   links:
   - - web
     - https://fns.uniba.sk/en/departments/chemistry/department-of-inorganic-chemistry/staff/prof-gustav-plesch/
-  img: Gustav_Plesch.jpg
+  img: Gustav_Plesch_size_280px.jpg
   countryurl: Slovensko
   fieldurl: anorganicka_chemia
   area: "ch\xE9mia"
@@ -11064,7 +11064,7 @@
   links:
   - - web
     - http://www.math.sk/siran/
-  img: Jozef_Siran.jpg
+  img: Jozef_Siran_size_280px.jpg
   countryurl: Slovensko
   fieldurl: algebraicka_teoria_grafov
   area: matematika
@@ -11094,7 +11094,7 @@
     - https://orcid.org/0000-0002-1569-1305
   - - web
     - https://www.prf.upol.cz/kbt/katedra/clenove-katedry/
-  img: Tomas_Takac.jpg
+  img: Tomas_Takac_size_280px.jpg
   countryurl: Cesko
   fieldurl: rastlinna_biochemia
   area: "biol\xF3gia"
@@ -11124,7 +11124,7 @@
     - https://gtr.ukri.org/person/4F8CB53C-C173-40A5-8831-B19670EA9A6C
   - - "\u017Eivotopis"
     - files/cv_Peter_Tomasec.pdf
-  img: Peter_Tomasec.jpg
+  img: Peter_Tomasec_size_280px.jpg
   update_status: ERROR
   countryurl: Velka_Britania
   fieldurl: virologia
@@ -11153,7 +11153,7 @@
     - http://quantum.physics.sk/people/ziman/
   - - "\u017Eivotopis"
     - files/cv_Mario_Ziman_2026.pdf
-  img: Mario_Ziman.jpg
+  img: Mario_Ziman_size_280px.jpg
   countryurl: Slovensko
   fieldurl: kvantova_informacia
   area: informatika
@@ -11181,7 +11181,7 @@
     - https://www.researchgate.net/scientific-contributions/Peter-Bodik-70178249
   - - web
     - https://www.microsoft.com/en-us/research/people/peterb/?from=https://research.microsoft.com/en-us/people/peterb/&type=exact
-  img: Peter_Bodik.jpg
+  img: Peter_Bodik_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
   fieldurl: distribuovane_systemy
@@ -11208,7 +11208,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1395
   - - "\u017Eivotopis"
     - files/cv_Albert_Breier_2023.pdf
-  img: Albert_Breier.jpg
+  img: Albert_Breier_size_280px.jpg
   countryurl: Slovensko
   fieldurl: biochemia
   area: "ch\xE9mia"
@@ -11234,7 +11234,7 @@
     - https://orcid.org/0000-0003-2075-4179
   - - web
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1614
-  img: Peter_Cifra.jpg
+  img: Peter_Cifra_size_280px.jpg
   countryurl: Slovensko
   fieldurl: fyzika_polymerov
   area: fyzika
@@ -11262,7 +11262,7 @@
     - https://www.lepageri.eu/members/demeter-krupka
   - - "\u017Eivotopis"
     - files/cv_Demeter_Krupka_2021.pdf
-  img: Demeter_Krupka.jpg
+  img: Demeter_Krupka_size_280px.jpg
   countryurl: Slovensko
   fieldurl: diferencialna_geometria
   area: "ostatn\xE9"
@@ -11288,7 +11288,7 @@
     - https://kyb.fei.tuke.sk/laben/ludia/papcun.php
   - - "\u017Eivotopis"
     - files/cv_Peter_Papcun.pdf
-  img: Peter_Papcun.jpg
+  img: Peter_Papcun_size_280px.jpg
   countryurl: Slovensko
   fieldurl: kybernetika
   area: "in\u017Einierstvo"
@@ -11314,7 +11314,7 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=2803
   - - "\u017Eivotopis"
     - files/cv_Peter_Samuely_2020.pdf
-  img: Peter_Samuely.jpg
+  img: Peter_Samuely_size_280px.jpg
   countryurl: Slovensko
   fieldurl: fyzika_tuhych_latok
   area: fyzika
@@ -11340,7 +11340,7 @@
     - https://medvik.cz/link/mzk2008473217
   - - web
     - https://www.kmv.sk/
-  img: Julius_Subik.jpg
+  img: Julius_Subik_size_280px.jpg
   countryurl: Slovensko
   fieldurl: mikrobiologia
   area: "medic\xEDna"
