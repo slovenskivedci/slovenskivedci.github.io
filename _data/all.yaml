@@ -11557,6 +11557,32 @@
   affiliationurl: Lepage_Research_Institute
   cityurl: Presov
   sexurl: muz
+- name: Peter Lichard
+  last: Lichard
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "teoretick\xE1 fyzika \u010Dast\xEDc"
+  affiliation: "Slezsk\xE1 univerzita v Opave"
+  city: Opava
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=oU4fEOUAAAAJ
+  last_update: '2026-08-29'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-1581-8545
+  - - web
+    - https://www.slu.cz/phys/cz/profil/34888
+  img: Peter_Lichard_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: teoreticka_fyzika_castic
+  area: fyzika
+  areaurl: fyzika
+  positionurl: profesor
+  affiliationurl: Slezska_univerzita_v_Opave
+  cityurl: Opava
+  sexurl: muz
 - name: Peter Papcun
   last: Papcun
   year: 1987
