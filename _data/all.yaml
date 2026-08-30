@@ -2119,8 +2119,8 @@
   city: San Diego
   country: USA
   hindex: 57
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=NTGtkq0AAAAJ
-  last_update: '2026-08-25'
+  scholar: https://scholar.google.com/citations?user=_2_U-MAAAAAJ
+  last_update: '2026-08-30'
   links:
   - - orcid
     - https://orcid.org/0000-0001-5048-6422
@@ -2129,7 +2129,7 @@
   - - web
     - http://www.marsala-lab.com/team/
   img: Martin_Marsala_size_280px.jpg
-  update_status: ERROR
+  update_status: UPDATED
   countryurl: USA
   fieldurl: neuroveda
   area: "medic\xEDna"
@@ -2229,6 +2229,36 @@
   affiliationurl: Slovenska_polnohospodarska_univerzita
   cityurl: Nitra
   sexurl: muz
+- name: "Be\xE1ta Gavurov\xE1"
+  last: Gavurova
+  year: 1972
+  sex: "\u017Eena"
+  position: profesorka
+  field: "mana\u017Ement"
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 56
+  scholar: https://scholar.google.com/citations?user=J72JyYYAAAAJ
+  last_update: '2026-08-30'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/1042453/network
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Beata-Gavurova
+  - - web
+    - https://buraniemytov.sk/author/beata-gavurova/
+  - - "\u017Eivotopis"
+    - https://www.ef.umb.sk/print.asp?uid=747&aid=0&zid=0&pid=0&tid=0&sid=0&zahr=0&vkid=0&hkid=25&projektid=0
+  img: Beata_Gavurova_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: manazment
+  area: "ekon\xF3mia a mana\u017Ement"
+  areaurl: ekonomia_a_manazment
+  positionurl: profesorka
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Kosice
 - name: Peter Hedera
   last: Hedera
   year: ''
@@ -3366,7 +3396,7 @@
   city: Bratislava
   country: Slovensko
   hindex: 52
-  scholar: https://scholar.google.com/citations?user=uA0tObYAAAAJ&amp;hl=en
+  scholar: https://scholar.google.com/citations?user=k9zILJAAAAAJ
   last_update: '2026-08-25'
   links:
   - - publons
@@ -4489,36 +4519,6 @@
   affiliationurl: Stanford_University
   cityurl: Menlo_Park
   sexurl: muz
-- name: "Be\xE1ta Gavurov\xE1"
-  last: Gavurova
-  year: 1972
-  sex: "\u017Eena"
-  position: profesorka
-  field: "mana\u017Ement"
-  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
-  city: "Ko\u0161ice"
-  country: Slovensko
-  hindex: 46
-  scholar: https://scholar.google.com/citations?user=HJtnSAkAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - loop
-    - https://loop.frontiersin.org/people/1042453/network
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Beata-Gavurova
-  - - web
-    - https://buraniemytov.sk/author/beata-gavurova/
-  - - "\u017Eivotopis"
-    - https://www.ef.umb.sk/print.asp?uid=747&aid=0&zid=0&pid=0&tid=0&sid=0&zahr=0&vkid=0&hkid=25&projektid=0
-  img: Beata_Gavurova_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: manazment
-  area: "ekon\xF3mia a mana\u017Ement"
-  areaurl: ekonomia_a_manazment
-  positionurl: profesorka
-  affiliationurl: Technicka_univerzita_v_Kosiciach
-  cityurl: Kosice
   sexurl: zena
 - name: Martin Gmitra
   last: Gmitra
@@ -5036,8 +5036,8 @@
   city: "Viede\u0148"
   country: "Rak\xFAsko"
   hindex: 45
-  scholar: https://scholar.google.com/citations?user=3PIAo10AAAAJ&amp;hl=en
-  last_update: '2026-08-25'
+  scholar: https://scholar.google.com/citations?user=OKliom8AAAAJ
+  last_update: '2026-08-30'
   links:
   - - orcid
     - https://orcid.org/0000-0002-7016-8584
@@ -5048,7 +5048,7 @@
   - - "\u017Eivotopis"
     - https://iea.u-cergy.fr/en/invited-researchers-cv/fellows-in-residence-2019-2020/viera-skakalova.html
   img: Viera_Skakalova_size_280px.jpeg
-  update_status: ERROR
+  update_status: UPDATED
   countryurl: Rakusko
   fieldurl: nanomaterialy
   area: "materi\xE1ly"
