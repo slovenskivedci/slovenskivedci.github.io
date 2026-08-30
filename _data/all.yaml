@@ -562,7 +562,7 @@
   year: 1933
   sex: "\u017Eena"
   position: profesorka
-  field: "robotika a umel\xE1 inteligencia"
+  field: "robotika a počítačové videnie"
   affiliation: University of California
   city: Berkeley
   country: USA
@@ -583,7 +583,7 @@
   img: Ruzena_Bajcsy_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: robotika_a_umela_inteligencia
+  fieldurl: robotika_a_pocitacove_videnie
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
   positionurl: profesorka
