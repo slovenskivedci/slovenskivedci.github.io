@@ -7,9 +7,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 269
+  hindex: 270
   scholar: https://scholar.google.com/citations?user=2HzXQEkAAAAJ
-  last_update: '2026-08-25'
+  last_update: '2026-08-30'
   links:
   - - LinkedIn
     - https://www.linkedin.com/in/stano-tokar-b0536844/?originalSubdomain=sk
@@ -46,9 +46,9 @@
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
   city: Praha
   country: "\u010Cesko"
-  hindex: 257
+  hindex: 258
   scholar: https://scholar.google.com/citations?user=jkguv3UAAAAJ
-  last_update: '2026-08-25'
+  last_update: '2026-08-30'
   links:
   - - orcid
     - https://www.fzu.cz/en/people/rndr-roman-lysak-phd
@@ -137,9 +137,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 175
+  hindex: 176
   scholar: https://scholar.google.com/citations?user=4ymEP0sAAAAJ
-  last_update: '2026-08-25'
+  last_update: '2026-08-30'
   links:
   - - publons
     - https://publons.com/researcher/3258206/brano-sitar/
@@ -562,7 +562,7 @@
   year: 1933
   sex: "\u017Eena"
   position: profesorka
-  field: "robotika a počítačové videnie"
+  field: "robotika a po\u010D\xEDta\u010Dov\xE9 videnie"
   affiliation: University of California
   city: Berkeley
   country: USA
@@ -2489,6 +2489,49 @@
   affiliationurl: University_of_Minnesota
   cityurl: Twin_Cities
   sexurl: muz
+- name: "Rastislav Bod\xEDk"
+  last: Bodik
+  year: 1968
+  sex: "mu\u017E"
+  position: profesor
+  field: programovacie jazyky
+  affiliation: University of Washington
+  city: Seattle
+  country: USA
+  hindex: 55
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=YrihYtsAAAAJ
+  last_update: '2026-08-30'
+  links:
+  - - ACM
+    - https://dl.acm.org/profile/81100033082
+  - - dblp
+    - https://dblp.org/pid/20/1858.html
+  - - IEEE Xplore
+    - https://ieeexplore.ieee.org/author/37332775000
+  - - LinkedIn
+    - https://www.linkedin.com/in/rastislav-bodik-64181a3/
+  - - Mathematics Genealogy
+    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=82262
+  - - Microsoft Academic
+    - https://academic.microsoft.com/author/1115548098/publication/search?q=Rastislav%20Bodik&qe=Composite(AA.AuId%253D1115548098)&f=&orderBy=0&paperId=2295399529
+  - - research.com
+    - https://research.com/u/rastislav-bodik
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Rastislav-Bodik
+  - - web
+    - https://homes.cs.washington.edu/~bodik/
+  - - "\u017Eivotopis"
+    - https://homes.cs.washington.edu/~bodik/cv.pdf
+  img: Rastislav_Bodik_size_280px.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: programovacie_jazyky
+  area: informatika
+  areaurl: informatika
+  positionurl: profesor
+  affiliationurl: University_of_Washington
+  cityurl: Seattle
+  sexurl: muz
 - name: Peter Celec
   last: Celec
   year: 1979
@@ -2712,49 +2755,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
-- name: "Rastislav Bod\xEDk"
-  last: Bodik
-  year: 1968
-  sex: "mu\u017E"
-  position: profesor
-  field: programovacie jazyky
-  affiliation: University of Washington
-  city: Seattle
-  country: USA
-  hindex: 54
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=YrihYtsAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - ACM
-    - https://dl.acm.org/profile/81100033082
-  - - dblp
-    - https://dblp.org/pid/20/1858.html
-  - - IEEE Xplore
-    - https://ieeexplore.ieee.org/author/37332775000
-  - - LinkedIn
-    - https://www.linkedin.com/in/rastislav-bodik-64181a3/
-  - - Mathematics Genealogy
-    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=82262
-  - - Microsoft Academic
-    - https://academic.microsoft.com/author/1115548098/publication/search?q=Rastislav%20Bodik&qe=Composite(AA.AuId%253D1115548098)&f=&orderBy=0&paperId=2295399529
-  - - research.com
-    - https://research.com/u/rastislav-bodik
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Rastislav-Bodik
-  - - web
-    - https://homes.cs.washington.edu/~bodik/
-  - - "\u017Eivotopis"
-    - https://homes.cs.washington.edu/~bodik/cv.pdf
-  img: Rastislav_Bodik_size_280px.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: programovacie_jazyky
-  area: informatika
-  areaurl: informatika
-  positionurl: profesor
-  affiliationurl: University_of_Washington
-  cityurl: Seattle
-  sexurl: muz
 - name: "J\xE1n Tk\xE1\u010D"
   last: Tkac
   year: 1972
@@ -3325,6 +3325,37 @@
   affiliationurl: Georga_Mason_University
   cityurl: Fairfax
   sexurl: zena
+- name: "Igor Lac\xEDk"
+  last: Lacik
+  year: 1962
+  sex: "mu\u017E"
+  position: vedec
+  field: "makromolekul\xE1rna ch\xE9mia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 52
+  scholar: https://scholar.google.com/citations?user=SB6Z-ScAAAAJ&amp;hl=en
+  last_update: '2026-08-30'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/igor-lacik
+  - - web
+    - http://www.polymer.sav.sk/OVB-Staff
+  - - "\u017Eivotopis 1"
+    - http://www.polymer.sav.sk/CVcka/cvlacik.pdf
+  - - "\u017Eivotopis 2"
+    - https://www.learned.sk/wp-content/uploads/2020/01/ZIVOTOPIS_Lacik_Europass-Jan-2020_pre-UcSS.pdf
+  img: Igor_Lacik_size_280px.jpeg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: makromolekularna_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: Karol Marhold
   last: Marhold
   year: ''
@@ -3623,37 +3654,6 @@
   positionurl: profesor
   affiliationurl: Hannover_Medical_School
   cityurl: Hannover
-  sexurl: muz
-- name: "Igor Lac\xEDk"
-  last: Lacik
-  year: 1962
-  sex: "mu\u017E"
-  position: vedec
-  field: "makromolekul\xE1rna ch\xE9mia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 51
-  scholar: https://scholar.google.com/citations?user=SB6Z-ScAAAAJ&amp;hl=en
-  last_update: '2026-08-25'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/archiv/finalisti/2019/igor-lacik
-  - - web
-    - http://www.polymer.sav.sk/OVB-Staff
-  - - "\u017Eivotopis 1"
-    - http://www.polymer.sav.sk/CVcka/cvlacik.pdf
-  - - "\u017Eivotopis 2"
-    - https://www.learned.sk/wp-content/uploads/2020/01/ZIVOTOPIS_Lacik_Europass-Jan-2020_pre-UcSS.pdf
-  img: Igor_Lacik_size_280px.jpeg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: makromolekularna_chemia
-  area: "ch\xE9mia"
-  areaurl: chemia
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
   sexurl: muz
 - name: Michal Mego
   last: Mego
@@ -5216,6 +5216,31 @@
   affiliationurl: University_of_Strathclyde
   cityurl: Glasgow
   sexurl: muz
+- name: Sergej Hloch
+  last: Hloch
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "v\xFDrobn\xE9 technol\xF3gie"
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 44
+  scholar: https://scholar.google.sk/citations?user=uZbRKFUAAAAJ&amp;hl=sk
+  last_update: '2026-08-30'
+  links:
+  - - web
+    - http://kavt.fvt.tuke.sk/katedra/zamestnanci/4
+  img: Sergej_Hloch_size_280px.jpeg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: vyrobne_technologie
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: profesor
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Kosice
+  sexurl: muz
 - name: "Juraj Kab\xE1t"
   last: Kabat
   year: ''
@@ -5407,31 +5432,6 @@
   positionurl: docent
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
-  sexurl: muz
-- name: Sergej Hloch
-  last: Hloch
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "v\xFDrobn\xE9 technol\xF3gie"
-  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
-  city: "Ko\u0161ice"
-  country: Slovensko
-  hindex: 43
-  scholar: https://scholar.google.sk/citations?user=uZbRKFUAAAAJ&amp;hl=sk
-  last_update: '2026-08-25'
-  links:
-  - - web
-    - http://kavt.fvt.tuke.sk/katedra/zamestnanci/4
-  img: Sergej_Hloch_size_280px.jpeg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: vyrobne_technologie
-  area: "in\u017Einierstvo"
-  areaurl: inzinierstvo
-  positionurl: profesor
-  affiliationurl: Technicka_univerzita_v_Kosiciach
-  cityurl: Kosice
   sexurl: muz
 - name: "Martin Luk\xE1\u010D"
   last: Lukac
@@ -6344,6 +6344,53 @@
   affiliationurl: MBZUAI
   cityurl: Abu_Dhabi
   sexurl: muz
+- name: "Adam Toma\u0161ov\xFDch"
+  last: Tomasovych
+  year: 1978
+  sex: "mu\u017E"
+  position: vedec
+  field: "paleobiol\xF3gia"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 41
+  scholar: https://scholar.google.com/citations?user=7Zkz-9MAAAAJ
+  last_update: '2026-08-30'
+  links:
+  - - facebook
+    - https://m.facebook.com/peter.kubatka
+  - - LinkedIn
+    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
+  - - loop
+    - https://loop.frontiersin.org/people/1386452/overview
+  - - Microsoft Academic
+    - https://academic.microsoft.com/author/1968439090/publication/search?q=Peter%20Kubatka&qe=Composite(AA.AuId%253D1968439090)&f=&orderBy=0&paperId=3048584869
+  - - "Na\u0161i a svetov\xED"
+    - https://slovensko.rtvs.sk/rubriky/nasi-a-svetovi/182332/nasi-a-svetovi-adam-tomasovych
+  - - orcid
+    - https://orcid.org/0000-0002-0471-9480
+  - - ResearchGate
+    - http://www.researchgate.net/profile/Adam_Tomasovych
+  - - twitter
+    - https://twitter.com/atomasovych
+  - - web
+    - http://www.geol.sav.sk/tomasovych/
+  - - web 1
+    - http://www.geol.sav.sk/tomasovych/
+  - - web 2
+    - http://www.geo.sav.sk/en/staff/adam-tomasovych-en/
+  - - "\u017Eivotopis"
+    - http://www.geol.sav.sk/tomasovych/curriculum%20vitae.pdf
+  img: Adam_Tomasovych_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: paleobiologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Igor Tvaro\u0161ka"
   last: Tvaroska
   year: 1944
@@ -6726,53 +6773,6 @@
   positionurl: vedec
   affiliationurl: U.S._Department_of_Agriculture
   cityurl: Salinas
-  sexurl: muz
-- name: "Adam Toma\u0161ov\xFDch"
-  last: Tomasovych
-  year: 1978
-  sex: "mu\u017E"
-  position: vedec
-  field: "paleobiol\xF3gia"
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 40
-  scholar: https://scholar.google.com/citations?user=7Zkz-9MAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - facebook
-    - https://m.facebook.com/peter.kubatka
-  - - LinkedIn
-    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
-  - - loop
-    - https://loop.frontiersin.org/people/1386452/overview
-  - - Microsoft Academic
-    - https://academic.microsoft.com/author/1968439090/publication/search?q=Peter%20Kubatka&qe=Composite(AA.AuId%253D1968439090)&f=&orderBy=0&paperId=3048584869
-  - - "Na\u0161i a svetov\xED"
-    - https://slovensko.rtvs.sk/rubriky/nasi-a-svetovi/182332/nasi-a-svetovi-adam-tomasovych
-  - - orcid
-    - https://orcid.org/0000-0002-0471-9480
-  - - ResearchGate
-    - http://www.researchgate.net/profile/Adam_Tomasovych
-  - - twitter
-    - https://twitter.com/atomasovych
-  - - web
-    - http://www.geol.sav.sk/tomasovych/
-  - - web 1
-    - http://www.geol.sav.sk/tomasovych/
-  - - web 2
-    - http://www.geo.sav.sk/en/staff/adam-tomasovych-en/
-  - - "\u017Eivotopis"
-    - http://www.geol.sav.sk/tomasovych/curriculum%20vitae.pdf
-  img: Adam_Tomasovych_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: paleobiologia
-  area: "biol\xF3gia"
-  areaurl: biologia
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
   sexurl: muz
 - name: "Vladim\xEDr Farka\u0161"
   last: Farkas
