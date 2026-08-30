@@ -43,7 +43,7 @@ def _js_num(v):
 # First match wins. More specific keywords first.
 FIELD_GROUPS = [
 	('umelá inteligencia', [
-		'umela inteligencia', 'optimalizac', 'strojove ucenie', 'pocitacove videnie',
+		'umela inteligencia', 'odporucacie system', 'optimalizac', 'strojove ucenie', 'pocitacove videnie',
 		'robotika', 'strojove videnie',
 	]),
 	('matematika', [
