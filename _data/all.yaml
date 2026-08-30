@@ -1552,6 +1552,44 @@
   affiliationurl: Oregon_Health_and_Science_University
   cityurl: Portland
   sexurl: muz
+- name: Peter Kubatka
+  last: Kubatka
+  year: 1973
+  sex: "mu\u017E"
+  position: profesor
+  field: "onkol\xF3gia"
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 65
+  scholar: https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ
+  last_update: '2026-08-30'
+  links:
+  - - facebook
+    - https://m.facebook.com/peter.kubatka
+  - - LinkedIn
+    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
+  - - loop
+    - https://loop.frontiersin.org/people/1386452/overview
+  - - Microsoft Academic
+    - https://academic.microsoft.com/author/1968439090/publication/search?q=Peter%20Kubatka&qe=Composite(AA.AuId%253D1968439090)&f=&orderBy=0&paperId=3048584869
+  - - orcid
+    - https://orcid.org/0000-0003-4312-5076
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Peter-Kubatka
+  - - web
+    - https://www.jfmed.uniba.sk/en/departments/scientific-and-teaching-workplaces/departments-of-basic-sciences/department-of-medical-biology/staff/
+  - - "\u017Eivotopis"
+    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/KUBATKA/CV_Kubatka.pdf
+  img: Peter_Kubatka_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "L\xEDvia Ludhov\xE1"
   last: Ludhova
   year: 1973
@@ -1633,45 +1671,6 @@
   positionurl: docent
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
-  sexurl: muz
-- name: Peter Kubatka
-  last: Kubatka
-  year: 1973
-  sex: "mu\u017E"
-  position: profesor
-  field: "onkol\xF3gia"
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 64
-  scholar: https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ
-  last_update: '2026-05-11'
-  links:
-  - - facebook
-    - https://m.facebook.com/peter.kubatka
-  - - LinkedIn
-    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
-  - - loop
-    - https://loop.frontiersin.org/people/1386452/overview
-  - - Microsoft Academic
-    - https://academic.microsoft.com/author/1968439090/publication/search?q=Peter%20Kubatka&qe=Composite(AA.AuId%253D1968439090)&f=&orderBy=0&paperId=3048584869
-  - - orcid
-    - https://orcid.org/0000-0003-4312-5076
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Peter-Kubatka
-  - - web
-    - https://www.jfmed.uniba.sk/en/departments/scientific-and-teaching-workplaces/departments-of-basic-sciences/department-of-medical-biology/staff/
-  - - "\u017Eivotopis"
-    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/KUBATKA/CV_Kubatka.pdf
-  img: Peter_Kubatka_size_280px.jpg
-  update_status: ERROR
-  countryurl: Slovensko
-  fieldurl: onkologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
 - name: "Alexandra Bra\u017Einov\xE1"
   last: Brazinova
@@ -2259,6 +2258,7 @@
   positionurl: profesorka
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
+  sexurl: zena
 - name: Peter Hedera
   last: Hedera
   year: ''
@@ -3397,7 +3397,7 @@
   country: Slovensko
   hindex: 52
   scholar: https://scholar.google.com/citations?user=k9zILJAAAAAJ
-  last_update: '2026-08-25'
+  last_update: '2026-08-30'
   links:
   - - publons
     - https://publons.com/researcher/1220455/karol-marhold/
@@ -3406,7 +3406,7 @@
   - - "\u017Eivotopis"
     - files/cv_Karol_Marhold.pdf
   img: Karol_Marhold_size_280px.jpg
-  update_status: ERROR
+  update_status: UPDATED
   countryurl: Slovensko
   fieldurl: botanika
   area: "biol\xF3gia"
@@ -4519,7 +4519,6 @@
   affiliationurl: Stanford_University
   cityurl: Menlo_Park
   sexurl: muz
-  sexurl: zena
 - name: Martin Gmitra
   last: Gmitra
   year: ''
@@ -11528,6 +11527,32 @@
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
+  sexurl: muz
+- name: "Karol Hricov\xEDni"
+  last: Hricovini
+  year: ''
+  sex: "mu\u017E"
+  position: "emeritn\xFD profesor"
+  field: fyzika povrchov
+  affiliation: "CY Cergy Paris Universit\xE9"
+  city: Cergy
+  country: "Franc\xFAzsko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=vqUs72gAAAAJ
+  last_update: '2026-08-30'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-7541-1942
+  - - web
+    - https://cytech.cyu.fr/recherche-cy-tech/laboratoires-cy-tech/lpms-laboratoire-de-physique-des-materiaux-et-de-surfaces
+  img: Karol_Hricovini_size_280px.jpg
+  countryurl: Francuzsko
+  fieldurl: fyzika_povrchov
+  area: fyzika
+  areaurl: fyzika
+  positionurl: emeritny_profesor
+  affiliationurl: CY_Cergy_Paris_Universite
+  cityurl: Cergy
   sexurl: muz
 - name: Demeter Krupka
   last: Krupka

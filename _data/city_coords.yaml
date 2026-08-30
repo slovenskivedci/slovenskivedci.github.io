@@ -769,3 +769,38 @@ Wageningen | Holandsko:
   lon: 6.1466014
   display: Geneva, Switzerland
   query: Geneva
+"Cergy | Franc\xFAzsko":
+  city: Cergy
+  country: "Franc\xFAzsko"
+  lat: 49.0527528
+  lon: 2.0388736
+  display: Cergy, Pontoise, Val-d'Oise, Ile-de-France, Metropolitan France, France
+  query: Cergy
+Dallas | USA:
+  city: Dallas
+  country: USA
+  lat: 32.7762719
+  lon: -96.7968559
+  display: Dallas, Dallas County, Texas, United States
+  query: Dallas
+Lowell | USA:
+  city: Lowell
+  country: USA
+  lat: 42.6414437
+  lon: -71.3085329
+  display: Lowell, Middlesex County, Massachusetts, United States
+  query: Lowell
+"Opava | \u010Cesko":
+  city: Opava
+  country: "\u010Cesko"
+  lat: 49.9389004
+  lon: 17.9024174
+  display: Opava, okres Opava, Moravian-Silesian Region, Czechia
+  query: Opava
+Syracuse | USA:
+  city: Syracuse
+  country: USA
+  lat: 43.0481221
+  lon: -76.1474244
+  display: City of Syracuse, Onondaga County, New York, United States
+  query: Syracuse
