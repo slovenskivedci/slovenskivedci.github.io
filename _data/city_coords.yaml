@@ -811,3 +811,10 @@ Syracuse | USA:
   lon: -3.7824148
   display: Port Talbot, Neath Port Talbot, Wales, United Kingdom
   query: Port Talbot
+"Wollongong | Austr\xE1lia":
+  city: Wollongong
+  country: "Austr\xE1lia"
+  lat: -34.4243941
+  lon: 150.89385
+  display: Wollongong, New South Wales, 2500, Australia
+  query: Wollongong

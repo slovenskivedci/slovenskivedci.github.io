@@ -9398,6 +9398,32 @@
   affiliationurl: Ekonomicka_univerzita_v_Bratislave
   cityurl: Bratislava
   sexurl: muz
+- name: "Jan Nem\u010D\xEDk"
+  last: Nemcik
+  year: ''
+  sex: "mu\u017E"
+  position: "\u010Destn\xFD vedeck\xFD pracovn\xEDk"
+  field: "geomechanika a aplikovan\xE1 mechanika"
+  affiliation: University of Wollongong
+  city: Wollongong
+  country: "Austr\xE1lia"
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=b8yMb6cAAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-0213-2985
+  - - web
+    - https://www.uow.edu.au/research/centre-for-infrastructure-and-mining-safety/academic/
+  img: Jan_Nemcik_size_280px.jpg
+  countryurl: Australia
+  fieldurl: geomechanika_a_aplikovana_mechanika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: cestny_vedecky_pracovnik
+  affiliationurl: University_of_Wollongong
+  cityurl: Wollongong
+  sexurl: muz
 - name: "Michal Nem\u010Dok"
   last: Nemcok
   year: ''
