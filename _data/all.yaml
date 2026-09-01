@@ -8236,6 +8236,30 @@
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: zena
+- name: "Daniela Ga\u0161per\xEDkov\xE1"
+  last: Gasperikova
+  year: ''
+  sex: "\u017Eena"
+  position: "riadite\u013Eka"
+  field: "genetika monog\xE9novej cukrovky"
+  affiliation: "\xDAstav experiment\xE1lnej endokrinol\xF3gie BMC SAV"
+  city: Bratislava
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?hl=sk&user=bKRCooEAAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1150
+  img: Daniela_Gasperikova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: genetika_monogenovej_cukrovky
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: riaditelka
+  affiliationurl: Ustav_experimentalnej_endokrinologie_BMC_SAV
+  cityurl: Bratislava
+  sexurl: zena
 - name: Juraj Gerlici
   last: Gerlici
   year: ''
@@ -9701,6 +9725,32 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: zena
+- name: "Michal Zaja\u010Dek"
+  last: Zajacek
+  year: 1988
+  sex: "mu\u017E"
+  position: docent
+  field: "astrofyzika galaktick\xFDch jadier a \u010Diernych dier"
+  affiliation: Masarykova univerzita
+  city: Brno
+  country: "\u010Cesko"
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=z3JOfd0AAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6450-1187
+  - - web
+    - https://hea.physics.muni.cz/team/michal_zajacek
+  img: Michal_Zajacek_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: astrofyzika_galaktickych_jadier_a_ciernych_dier
+  area: fyzika
+  areaurl: fyzika
+  positionurl: docent
+  affiliationurl: Masarykova_univerzita
+  cityurl: Brno
+  sexurl: muz
 - name: "\u0160tefan Be\u0148u\u0161"
   last: Benus
   year: '1972'
@@ -10273,6 +10323,34 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Ladislav Valkovi\u010D"
+  last: Valkovic
+  year: 1986
+  sex: "mu\u017E"
+  position: docent
+  field: "metabolick\xE9 MR zobrazovanie"
+  affiliation: University of Oxford
+  city: Oxford
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=4EkIA-MAAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2567-3642
+  - - SAV
+    - https://um.sav.sk/osobne-stranky/7357-os/
+  - - web
+    - https://www.rdm.ox.ac.uk/people/ladislav-valkovic
+  img: Ladislav_Valkovic_size_280px.jpg
+  countryurl: Velka_Britania
+  fieldurl: metabolicke_MR_zobrazovanie
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: docent
+  affiliationurl: University_of_Oxford
+  cityurl: Oxford
+  sexurl: muz
 - name: "Tom\xE1\u0161 Vina\u0159"
   last: Vinar
   year: 1976
@@ -10528,6 +10606,32 @@
   affiliationurl: Zilinska_univerzita
   cityurl: Zilina
   sexurl: muz
+- name: "Iveta Garaiov\xE1"
+  last: Garaiova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "probiotik\xE1 a klinick\xE1 bioch\xE9mia"
+  affiliation: Cultech Ltd.
+  city: Port Talbot
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=JmOCPugAAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-8830-1101
+  - - web
+    - https://cultech.co.uk/about-us
+  img: Iveta_Garaiova_size_280px.jpg
+  countryurl: Velka_Britania
+  fieldurl: probiotika_a_klinicka_biochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: vedkyna
+  affiliationurl: Cultech_Ltd.
+  cityurl: Port_Talbot
+  sexurl: zena
 - name: Milan Hronec
   last: Hronec
   year: ''
@@ -10862,6 +10966,34 @@
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
   sexurl: zena
+- name: "Peter \u0160iffalovi\u010D"
+  last: Siffalovic
+  year: 1975
+  sex: "mu\u017E"
+  position: "ved\xFAci vedeck\xFD pracovn\xEDk"
+  field: "r\xF6ntgenov\xFD rozptyl"
+  affiliation: "Fyzik\xE1lny \xFAstav SAV"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=_-KOEeQAAAAJ
+  last_update: '2026-09-01'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-9807-0810
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=3646
+  - - "\u017Eivotopis"
+    - files/cv_Peter_Siffalovic.pdf
+  img: Peter_Siffalovic_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: rontgenovy_rozptyl
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: veduci_vedecky_pracovnik
+  affiliationurl: Fyzikalny_ustav_SAV
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Martin Smie\u0161ko"
   last: Smiesko
   year: ''

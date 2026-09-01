@@ -804,3 +804,10 @@ Syracuse | USA:
   lon: -76.1474244
   display: City of Syracuse, Onondaga County, New York, United States
   query: Syracuse
+"Port Talbot | Ve\u013Ek\xE1 Brit\xE1nia":
+  city: Port Talbot
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  lat: 51.5952353
+  lon: -3.7824148
+  display: Port Talbot, Neath Port Talbot, Wales, United Kingdom
+  query: Port Talbot

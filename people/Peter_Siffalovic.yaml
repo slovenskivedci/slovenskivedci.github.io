@@ -1,0 +1,17 @@
+name: "Peter Šiffalovič"
+last: "Šiffalovič"
+year: 1975
+sex: "muž"
+position: vedúci vedecký pracovník
+field: "röntgenový rozptyl"
+affiliation: "Fyzikálny ústav SAV"
+city: Bratislava
+country: Slovensko
+hindex: 32
+scholar: https://scholar.google.com/citations?hl=sk&user=_-KOEeQAAAAJ
+last_update: '2026-09-01'
+links:
+ web: https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=3646
+ orcid: https://orcid.org/0000-0002-9807-0810
+ "životopis": files/cv_Peter_Siffalovic.pdf
+img: Peter_Siffalovic_size_280px.jpg
