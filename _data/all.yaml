@@ -327,7 +327,7 @@
   year: 1957
   sex: "\u017Eena"
   position: profesorka
-  field: informatika
+  field: "distribuovan\xE9 syst\xE9my"
   affiliation: University of Illinois
   city: Urbana-Champaign
   country: USA
@@ -346,7 +346,7 @@
   img: Klara_Nahrstedt_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: informatika
+  fieldurl: distribuovane_systemy
   area: informatika
   areaurl: informatika
   positionurl: profesorka
@@ -2819,7 +2819,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "umel\xE1 inteligencia"
+  field: "strojov\xE9 u\u010Denie"
   affiliation: DeepMind
   city: "Par\xED\u017E"
   country: "Franc\xFAzsko"
@@ -2854,7 +2854,7 @@
   img: Michal_Valko_size_280px.jpg
   update_status: UPDATED
   countryurl: Francuzsko
-  fieldurl: umela_inteligencia
+  fieldurl: strojove_ucenie
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
   positionurl: vedec
@@ -3518,7 +3518,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "ch\xE9mia"
+  field: "bioanorganick\xE1 ch\xE9mia"
   affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
@@ -3533,7 +3533,7 @@
   img: Marian_Valko_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: chemia
+  fieldurl: bioanorganicka_chemia
   area: "ch\xE9mia"
   areaurl: chemia
   positionurl: profesor
@@ -5149,7 +5149,7 @@
   year: 1960
   sex: "mu\u017E"
   position: profesor
-  field: matematika
+  field: "diferenci\xE1lne rovnice"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -5176,7 +5176,7 @@
   img: Michal_Feckan_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: matematika
+  fieldurl: diferencialne_rovnice
   area: matematika
   areaurl: matematika
   positionurl: profesor
@@ -5271,7 +5271,7 @@
   year: ''
   sex: "mu\u017E"
   position: "technick\xFD mana\u017E\xE9r"
-  field: "ch\xE9mia"
+  field: "polym\xE9rna ch\xE9mia"
   affiliation: Qatar University
   city: Doha
   country: Katar
@@ -5286,7 +5286,7 @@
   img: Peter_Kasak_size_280px.jpeg
   update_status: UPDATED
   countryurl: Katar
-  fieldurl: chemia
+  fieldurl: polymerna_chemia
   area: "ch\xE9mia"
   areaurl: chemia
   positionurl: technicky_manazer
@@ -5622,7 +5622,7 @@
   year: 1968
   sex: "mu\u017E"
   position: profesor
-  field: "materi\xE1ly"
+  field: "keramick\xE9 materi\xE1ly"
   affiliation: "Tren\u010Dianska univerzita Alexandra Dub\u010Deka"
   city: "Tren\u010D\xEDn"
   country: Slovensko
@@ -5638,7 +5638,7 @@
     - https://www.funglass.eu/personnel-portfolio/prof-ing-dusan-galusek-drsc/
   img: Dusan_Galusek_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: materialy
+  fieldurl: keramicke_materialy
   area: "materi\xE1ly"
   areaurl: materialy
   positionurl: profesor
@@ -6499,7 +6499,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: informatika
+  field: "strojov\xE9 u\u010Denie"
   affiliation: University of Pittsburgh
   city: Pittsburgh
   country: USA
@@ -6524,9 +6524,9 @@
   img: Milos_Hauskrecht_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: informatika
-  area: informatika
-  areaurl: informatika
+  fieldurl: strojove_ucenie
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
   positionurl: profesor
   affiliationurl: University_of_Pittsburgh
   cityurl: Pittsburgh
@@ -6536,7 +6536,7 @@
   year: 1958
   sex: "mu\u017E"
   position: profesor
-  field: informatika
+  field: "teoretick\xE1 informatika"
   affiliation: "ETH Z\xFCrich"
   city: "Z\xFCrich"
   country: "\u0160vaj\u010Diarsko"
@@ -6561,7 +6561,7 @@
   img: Juraj_Hromkovic_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
-  fieldurl: informatika
+  fieldurl: teoreticka_informatika
   area: informatika
   areaurl: informatika
   positionurl: profesor
@@ -8801,7 +8801,7 @@
   year: 1949
   sex: "mu\u017E"
   position: profesor
-  field: matematika
+  field: "matematick\xE1 logika"
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -8827,7 +8827,7 @@
   img: Anatolij_Dvurecenskij_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: matematika
+  fieldurl: matematicka_logika
   area: matematika
   areaurl: matematika
   positionurl: profesor
@@ -8839,7 +8839,7 @@
   year: 1959-2023
   sex: "mu\u017E"
   position: profesor
-  field: matematika
+  field: "diferenci\xE1lne rovnice"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -8862,7 +8862,7 @@
   img: Marek_Fila_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: matematika
+  fieldurl: diferencialne_rovnice
   area: matematika
   areaurl: matematika
   positionurl: profesor
@@ -9459,7 +9459,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: informatika
+  field: "teoretick\xE1 informatika"
   affiliation: Google
   city: "Z\xFCrich"
   country: "\u0160vaj\u010Diarsko"
@@ -9478,7 +9478,7 @@
   img: Martin_Pal_size_280px.jpg
   update_status: UPDATED
   countryurl: Svajciarsko
-  fieldurl: informatika
+  fieldurl: teoreticka_informatika
   area: informatika
   areaurl: informatika
   positionurl: vedec
@@ -9817,7 +9817,7 @@
   year: ''
   sex: "mu\u017E"
   position: docent
-  field: informatika
+  field: "web syst\xE9my"
   affiliation: Aalborg Universitet
   city: Aalborg
   country: "D\xE1nsko"
@@ -9838,7 +9838,7 @@
   img: Peter_Dolog_size_280px.jpg
   update_status: UPDATED
   countryurl: Dansko
-  fieldurl: informatika
+  fieldurl: web_systemy
   area: informatika
   areaurl: informatika
   positionurl: docent
@@ -10343,7 +10343,7 @@
   year: 1958
   sex: "mu\u017E"
   position: profesor
-  field: matematika
+  field: "diferenci\xE1lne rovnice"
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -10370,7 +10370,7 @@
   img: Pavol_Quittner_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: matematika
+  fieldurl: diferencialne_rovnice
   area: matematika
   areaurl: matematika
   positionurl: profesor
@@ -10635,7 +10635,7 @@
   year: 1989
   sex: "mu\u017E"
   position: docent
-  field: informatika
+  field: "d\xE1tov\xE1 veda"
   affiliation: "\u017Dilinsk\xE1 univerzita"
   city: "\u017Dilina"
   country: Slovensko
@@ -10653,7 +10653,7 @@
     - https://fpedas.uniza.sk/~frnda/
   img: Jaroslav_Frnda_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: informatika
+  fieldurl: datova_veda
   area: informatika
   areaurl: informatika
   positionurl: docent

@@ -1,406 +1,406 @@
 countries:
-  "\u010Cesko": 33
-  Slovensko: 198
-  "Austr\xE1lia": 12
-  USA: 44
-  Nemecko: 11
-  "Ve\u013Ek\xE1 Brit\xE1nia": 12
-  "Rak\xFAsko": 14
   "\u0160vaj\u010Diarsko": 8
-  "Rusk\xE1 feder\xE1cia": 1
-  Kanada: 12
-  "Saudsk\xE1 Ar\xE1bia": 2
+  "\xCDrsko": 1
+  USA: 44
+  Slovensko: 198
+  "N\xF3rsko": 4
   Holandsko: 5
+  "Ve\u013Ek\xE1 Brit\xE1nia": 12
+  Nemecko: 11
+  "Austr\xE1lia": 12
+  "\u010Cesko": 33
+  "Rak\xFAsko": 14
+  Belgium: 1
+  "F\xEDnsko": 1
   "\u0160v\xE9dsko": 3
   "Franc\xFAzsko": 4
-  "Spojen\xE9 arabsk\xE9 emir\xE1ty": 2
-  Katar: 2
+  Kanada: 12
   Belgicko: 2
+  "Saudsk\xE1 Ar\xE1bia": 2
+  Katar: 2
+  "Spojen\xE9 arabsk\xE9 emir\xE1ty": 2
+  "Rusk\xE1 feder\xE1cia": 1
   Japonsko: 1
-  "N\xF3rsko": 4
-  "\u0160panielsko": 1
-  Belgium: 1
-  "\xCDrsko": 1
   "D\xE1nsko": 1
-  "F\xEDnsko": 1
+  "\u0160panielsko": 1
 man: 309
 woman: 66
 hindex:
+- 40
+- 52
 - 41
-- 35
-- 38
-- 47
-- 60
-- 33
-- 31
-- 33
-- 35
-- 35
-- 44
-- 32
-- 45
-- 87
-- 42
-- 32
-- 47
-- 39
-- 31
-- 30
 - 40
-- 40
-- 45
-- 34
-- 44
-- 35
+- 37
+- 33
+- 47
+- 41
+- 37
+- 33
+- 32
 - 36
-- 79
+- 51
+- 46
+- 44
+- 35
+- 32
+- 53
 - 50
+- 30
+- 72
 - 47
-- 74
+- 35
+- 31
+- 35
+- 31
+- 31
+- 38
+- 45
+- 39
+- 53
+- 70
+- 33
+- 33
+- 46
+- 30
+- 30
+- 47
+- 34
+- 32
+- 46
+- 69
+- 36
+- 65
+- 53
+- 79
+- 55
+- 38
+- 33
+- 34
+- 32
+- 37
+- 37
+- 32
+- 52
+- 33
+- 46
+- 31
+- 79
 - 63
-- 90
-- 69
-- 79
-- 52
-- 34
-- 32
-- 37
-- 38
-- 258
-- 44
-- 53
-- 33
-- 37
-- 41
-- 70
-- 55
-- 55
-- 56
-- 76
+- 35
+- 45
 - 42
-- 35
-- 33
-- 61
-- 40
-- 65
-- 35
-- 41
-- 34
-- 57
 - 31
-- 36
-- 31
-- 32
-- 92
-- 37
-- 40
-- 47
-- 40
-- 53
-- 43
-- 45
-- 36
-- 38
-- 78
-- 46
-- 59
-- 36
-- 55
-- 68
-- 35
-- 34
-- 39
-- 60
-- 45
-- 32
-- 56
-- 48
-- 50
-- 50
-- 58
-- 65
-- 30
-- 46
-- 39
-- 56
-- 33
-- 36
-- 34
-- 61
-- 36
-- 33
-- 37
-- 52
-- 35
-- 67
-- 46
-- 45
-- 102
-- 65
-- 37
-- 30
-- 35
-- 73
-- 57
-- 39
-- 45
-- 34
-- 37
-- 44
-- 37
-- 52
-- 43
-- 51
-- 48
-- 78
-- 47
-- 47
-- 53
-- 39
-- 40
-- 44
-- 32
-- 70
-- 36
-- 39
-- 30
-- 53
-- 34
-- 62
-- 32
-- 41
-- 270
-- 73
-- 40
-- 50
-- 38
-- 34
-- 32
-- 55
-- 65
-- 36
-- 46
 - 95
-- 47
-- 31
-- 38
-- 77
-- 30
-- 38
-- 33
-- 49
-- 76
-- 33
-- 44
-- 33
-- 35
-- 42
-- 69
-- 52
-- 46
-- 42
-- 30
-- 59
 - 32
-- 42
-- 38
-- 56
+- 30
 - 41
-- 52
-- 32
-- 32
-- 94
-- 70
 - 33
-- 42
-- 31
-- 38
-- 37
-- 32
-- 39
-- 49
-- 31
-- 34
-- 37
-- 33
-- 42
 - 51
+- 48
+- 44
+- 54
 - 52
-- 31
-- 69
-- 71
-- 57
-- 30
-- 52
-- 35
-- 47
-- 64
+- 43
 - 56
+- 33
+- 31
+- 39
+- 97
+- 52
 - 55
 - 82
-- 46
-- 39
-- 54
-- 176
-- 47
-- 33
-- 33
-- 32
-- 45
-- 41
-- 63
-- 33
-- 56
-- 54
-- 32
-- 97
-- 68
 - 55
-- 38
-- 35
-- 32
-- 44
-- 56
-- 31
-- 93
-- 38
-- 110
-- 45
-- 37
-- 33
-- 40
-- 32
-- 34
-- 34
-- 38
-- 38
-- 41
-- 45
-- 36
-- 51
-- 35
-- 70
-- 40
-- 39
-- 52
-- 48
-- 30
+- 54
 - 42
-- 31
-- 32
-- 46
-- 38
-- 30
-- 35
-- 44
-- 34
 - 52
-- 79
-- 32
-- 37
-- 43
-- 32
-- 34
-- 33
-- 37
-- 42
-- 58
-- 57
-- 235
-- 32
-- 52
-- 55
-- 36
-- 35
-- 46
-- 52
+- 53
 - 76
-- 53
-- 36
-- 34
-- 32
-- 36
-- 38
-- 38
-- 33
-- 49
-- 42
 - 35
-- 52
-- 36
-- 31
-- 72
-- 37
-- 37
-- 47
-- 55
-- 41
-- 53
-- 42
-- 38
-- 41
-- 51
-- 42
-- 51
+- 33
+- 33
+- 235
 - 34
+- 176
+- 270
+- 39
+- 46
+- 56
+- 78
+- 42
+- 39
+- 38
+- 45
+- 42
+- 32
+- 62
+- 31
+- 67
+- 36
+- 50
+- 39
+- 32
+- 33
+- 32
+- 56
+- 53
+- 56
+- 38
+- 57
+- 110
+- 102
+- 35
+- 38
+- 35
+- 47
+- 73
+- 34
+- 51
+- 49
+- 92
+- 55
+- 52
+- 34
+- 33
+- 79
+- 77
+- 30
+- 32
+- 34
+- 36
+- 53
+- 31
+- 38
+- 78
+- 56
+- 45
+- 47
+- 56
+- 30
+- 37
+- 40
+- 41
+- 47
+- 34
+- 51
+- 51
+- 61
+- 68
+- 106
+- 60
+- 44
+- 35
+- 36
+- 60
+- 47
+- 45
+- 44
+- 33
+- 58
+- 31
+- 37
+- 40
+- 32
+- 53
+- 36
+- 65
+- 36
+- 57
+- 39
+- 37
+- 40
+- 37
+- 46
+- 30
 - 56
 - 65
-- 45
-- 104
-- 41
-- 53
-- 36
-- 49
-- 195
-- 56
-- 30
-- 42
-- 41
-- 53
-- 35
-- 46
-- 51
-- 44
-- 46
-- 57
-- 32
-- 30
-- 33
-- 37
-- 41
-- 36
-- 31
-- 33
-- 39
-- 31
-- 31
-- 42
-- 31
+- 40
 - 36
 - 38
+- 35
+- 93
+- 46
+- 48
+- 41
+- 37
+- 31
+- 34
+- 36
+- 38
+- 55
+- 49
+- 50
+- 55
+- 35
 - 44
+- 49
+- 40
+- 59
+- 33
+- 38
+- 70
+- 52
+- 94
+- 38
+- 33
+- 45
+- 31
+- 44
+- 36
+- 38
+- 42
+- 52
+- 57
+- 42
+- 33
+- 69
+- 35
+- 31
+- 42
+- 34
+- 64
+- 31
+- 47
+- 36
+- 52
+- 68
+- 44
+- 31
+- 41
+- 195
+- 41
+- 38
+- 55
+- 76
+- 41
+- 36
+- 70
+- 104
+- 36
+- 34
+- 60
+- 32
+- 53
+- 45
+- 34
+- 37
+- 34
+- 38
+- 41
+- 37
+- 71
+- 40
+- 43
+- 67
+- 46
+- 46
+- 33
+- 53
+- 33
+- 31
+- 37
+- 39
+- 32
+- 32
+- 57
+- 41
+- 40
+- 35
+- 52
+- 55
+- 32
+- 50
+- 33
+- 52
+- 39
+- 47
+- 32
+- 53
+- 38
+- 52
+- 34
+- 43
+- 69
+- 34
+- 36
+- 73
+- 33
+- 31
+- 38
+- 42
+- 32
+- 35
+- 47
+- 56
+- 58
+- 87
+- 42
+- 36
+- 56
+- 35
+- 74
+- 32
+- 70
+- 38
+- 35
+- 39
+- 30
+- 44
+- 72
+- 41
+- 59
+- 30
+- 258
+- 32
+- 42
+- 76
+- 32
+- 42
+- 35
+- 39
+- 30
+- 51
+- 34
+- 33
+- 33
+- 30
+- 32
+- 37
+- 34
+- 34
+- 38
+- 45
+- 43
+- 33
+- 44
+- 36
+- 61
+- 42
+- 37
+- 42
 - 37
 - 32
-- 33
-- 43
+- 65
+- 65
+- 45
+- 49
+- 35
+- 46
 - 32
-- 53
-- 60
-- 34
-- 41
-- 31
-- 106
-- 72
-- 34
-- 33
-- 34
-- 33
-- 53
-- 47
-- 33
-- 67
-- 57
+- 32
 - 36
+- 37
+- 47
+- 63
+- 34
+- 44
+- 48
+- 45
+- 90
+- 41
+- 57
+- 42
+- 57
+- 41
 affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slovensk\xE1\
   \ technick\xE1 univerzita','Technick\xE1 univerzita v Ko\u0161iciach','Univerzita\
   \ Pavla Jozefa \u0160af\xE1rika','Technick\xE1 univerzita vo Zvolene','\u010Cesk\xE1\
@@ -457,394 +457,394 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   en\xED technick\xE9 v Brn\u011B','Wageningen University','Z\xE1pado\u010Desk\xE1\
   \ univerzita v Plzni','Zeppelin University']"
 fields:
-  "ekon\xF3mia a mana\u017Ement":
-  - 41
+  informatika:
+  - 40
+  - 50
+  - 95
+  - 55
+  - 34
+  - 51
+  - 93
+  - 48
+  - 31
+  - 42
+  - 52
+  - 32
   - 33
+  - 32
+  - 39
+  - 36
+  - 30
+  - 33
+  - 33
+  "spolo\u010Densk\xE9 vedy":
+  - 52
+  - 47
+  - 55
+  - 52
+  - 38
+  - 33
+  - 39
+  - 37
+  geovedy:
+  - 41
+  - 47
   - 46
   - 31
-  - 30
-  - 38
-  - 35
-  - 46
-  - 45
-  - 32
-  - 38
-  - 35
-  - 34
-  - 33
-  - 52
+  - 92
   - 36
+  - 56
+  - 40
+  - 41
+  - 33
   - 34
   - 37
+  - 46
+  - 55
+  - 31
   - 42
-  - 56
+  - 35
+  - 37
   "ch\xE9mia":
-  - 35
-  - 38
-  - 42
-  - 47
-  - 52
-  - 34
-  - 42
-  - 35
-  - 61
   - 40
+  - 30
+  - 47
+  - 32
+  - 53
+  - 34
+  - 52
+  - 46
+  - 30
+  - 31
+  - 42
+  - 52
+  - 33
+  - 33
+  - 42
+  - 32
+  - 38
+  - 51
+  - 61
+  - 37
+  - 40
+  - 53
+  - 36
+  - 40
+  - 35
+  - 55
+  - 44
+  - 52
+  - 31
+  - 55
+  - 36
+  - 45
+  - 34
+  - 38
+  - 53
+  - 39
+  - 41
+  - 38
+  - 35
+  - 36
+  - 35
+  - 51
+  - 34
+  - 34
+  - 45
+  - 61
+  - 37
   - 65
+  - 35
+  - 46
+  - 32
+  - 36
+  - 47
   - 41
   - 57
-  - 31
-  - 32
-  - 45
-  - 32
-  - 30
+  - 41
+  fyzika:
+  - 37
+  - 36
   - 46
-  - 36
-  - 34
-  - 61
-  - 52
+  - 30
+  - 72
   - 35
-  - 39
-  - 53
-  - 40
-  - 36
-  - 40
+  - 31
+  - 33
   - 34
   - 38
-  - 44
-  - 33
-  - 30
-  - 41
-  - 32
-  - 33
-  - 55
-  - 31
-  - 38
-  - 45
-  - 51
-  - 52
-  - 37
-  - 53
-  - 36
-  - 35
-  - 37
-  - 47
-  - 55
-  - 34
-  - 41
-  - 36
-  - 53
-  - 51
-  - 46
-  geovedy:
-  - 47
-  - 35
-  - 55
-  - 92
-  - 46
-  - 37
-  - 36
-  - 37
-  - 31
-  - 56
-  - 41
-  - 40
   - 42
-  - 41
-  - 46
-  - 31
-  - 34
-  - 33
-  "in\u017Einierstvo":
-  - 60
+  - 43
+  - 235
+  - 176
+  - 270
   - 45
-  - 44
-  - 40
-  - 36
+  - 67
+  - 56
+  - 53
+  - 56
+  - 57
   - 33
-  - 35
-  - 73
-  - 48
-  - 39
+  - 77
   - 32
   - 34
-  - 59
-  - 31
+  - 41
+  - 68
+  - 35
+  - 36
+  - 65
+  - 65
   - 31
   - 34
+  - 36
+  - 50
+  - 44
+  - 59
+  - 70
+  - 38
+  - 42
+  - 44
+  - 195
+  - 41
+  - 70
+  - 104
+  - 37
+  - 43
+  - 67
+  - 46
+  - 31
+  - 37
+  - 32
+  - 52
+  - 47
+  - 58
+  - 72
+  - 41
+  - 30
+  - 258
+  - 32
+  - 42
+  - 30
+  - 30
+  - 44
+  - 36
+  - 63
+  - 90
+  "medic\xEDna":
+  - 33
+  - 51
+  - 44
+  - 53
+  - 35
+  - 31
+  - 39
+  - 53
+  - 33
+  - 65
+  - 37
+  - 79
+  - 63
+  - 51
+  - 44
+  - 52
+  - 76
+  - 39
+  - 56
+  - 39
+  - 62
+  - 36
+  - 50
+  - 110
+  - 102
+  - 38
+  - 73
+  - 55
+  - 34
+  - 79
+  - 53
+  - 78
+  - 47
+  - 56
+  - 30
+  - 34
+  - 51
+  - 44
+  - 47
+  - 44
+  - 57
+  - 39
+  - 37
+  - 37
+  - 40
+  - 36
+  - 38
+  - 38
+  - 55
+  - 49
+  - 52
+  - 94
+  - 36
+  - 57
+  - 34
+  - 64
+  - 68
+  - 76
+  - 36
+  - 53
+  - 71
+  - 40
+  - 57
+  - 32
+  - 50
+  - 33
+  - 47
+  - 53
+  - 38
+  - 56
+  - 87
+  - 74
+  - 76
+  - 32
+  - 37
+  - 43
+  - 42
+  - 65
+  - 32
+  - 42
+  "biol\xF3gia":
+  - 41
+  - 37
+  - 31
+  - 69
+  - 33
+  - 37
+  - 32
+  - 33
+  - 45
+  - 31
+  - 32
+  - 56
+  - 33
+  - 97
+  - 55
+  - 54
+  - 34
+  - 39
+  - 32
+  - 47
+  - 49
+  - 47
+  - 106
+  - 60
+  - 31
+  - 32
+  - 46
+  - 37
+  - 49
+  - 35
+  - 38
+  - 38
+  - 69
+  - 36
+  - 41
+  - 60
+  - 52
+  - 34
+  - 43
+  - 69
+  - 32
+  - 32
+  - 70
+  - 38
+  - 42
+  - 45
+  - 57
+  "in\u017Einierstvo":
+  - 33
   - 70
   - 48
-  - 30
-  matematika:
-  - 33
   - 35
+  - 31
+  - 60
+  - 45
+  - 36
+  - 30
+  - 40
+  - 31
+  - 34
   - 32
+  - 73
+  - 39
+  - 44
+  - 59
+  - 34
+  - 48
+  "ostatn\xE9":
+  - 32
+  - 30
+  - 32
+  - 33
+  - 33
+  matematika:
   - 35
   - 35
   - 82
   - 35
-  - 31
   - 46
-  - 32
-  - 42
-  - 44
   - 33
-  "biol\xF3gia":
   - 31
-  - 32
-  - 36
-  - 69
-  - 32
-  - 41
-  - 70
-  - 55
-  - 56
   - 33
-  - 37
-  - 45
-  - 38
-  - 60
-  - 33
-  - 57
-  - 45
-  - 37
-  - 41
-  - 46
-  - 69
-  - 52
   - 42
-  - 38
-  - 32
-  - 49
-  - 69
-  - 47
-  - 54
-  - 97
-  - 38
-  - 32
-  - 32
-  - 34
-  - 37
-  - 49
   - 35
-  - 39
-  - 31
-  - 31
-  - 43
   - 32
-  - 60
-  - 106
-  - 34
-  - 33
-  - 47
-  informatika:
-  - 33
-  - 40
-  - 36
-  - 55
-  - 48
-  - 50
-  - 30
-  - 39
   - 32
-  - 95
-  - 42
-  - 51
-  - 52
-  - 93
-  - 33
-  - 40
-  - 32
-  - 33
-  - 31
-  - 34
-  fyzika:
   - 44
-  - 31
-  - 30
-  - 34
-  - 44
-  - 50
-  - 90
-  - 37
-  - 38
-  - 258
-  - 34
-  - 31
-  - 47
-  - 43
-  - 36
-  - 59
-  - 68
-  - 58
-  - 56
-  - 36
-  - 37
-  - 67
-  - 52
-  - 70
-  - 30
-  - 270
-  - 38
-  - 65
-  - 77
-  - 33
-  - 46
-  - 32
-  - 70
-  - 42
-  - 37
-  - 57
-  - 30
-  - 176
-  - 63
-  - 35
-  - 56
-  - 34
-  - 42
-  - 30
-  - 43
-  - 42
-  - 235
-  - 35
-  - 46
-  - 36
-  - 32
-  - 36
-  - 31
-  - 72
-  - 41
-  - 53
-  - 41
-  - 65
-  - 45
-  - 104
-  - 195
-  - 41
-  - 44
-  - 32
-  - 33
-  - 72
-  - 67
-  "medic\xEDna":
-  - 87
-  - 47
-  - 39
-  - 40
-  - 74
-  - 63
-  - 79
-  - 53
-  - 37
-  - 76
-  - 35
-  - 40
-  - 34
-  - 56
-  - 50
-  - 65
-  - 39
-  - 102
-  - 65
-  - 34
-  - 44
-  - 43
-  - 51
-  - 78
-  - 47
-  - 44
-  - 53
-  - 62
-  - 32
-  - 73
-  - 50
-  - 55
-  - 47
-  - 49
-  - 76
-  - 42
-  - 32
-  - 38
-  - 52
-  - 94
-  - 39
-  - 34
-  - 71
-  - 64
-  - 39
-  - 33
-  - 33
-  - 32
-  - 56
-  - 68
-  - 44
-  - 110
-  - 37
-  - 38
-  - 36
-  - 30
-  - 44
-  - 79
-  - 57
-  - 55
-  - 76
-  - 52
-  - 38
-  - 51
-  - 51
-  - 56
-  - 53
-  - 42
-  - 57
-  - 37
-  - 36
-  - 31
-  - 33
-  - 36
-  - 38
-  - 37
-  - 53
-  - 53
-  - 57
-  - 36
   "materi\xE1ly":
-  - 45
-  - 53
+  - 32
+  - 33
   - 39
+  - 53
+  - 42
+  - 38
+  - 45
+  - 58
   - 56
   - 45
-  - 38
-  - 58
+  - 41
   - 49
-  - 32
-  - 42
-  - 41
-  - 33
-  "umel\xE1 inteligencia":
-  - 79
-  - 78
-  - 45
-  - 47
-  - 42
-  - 52
-  - 35
-  - 54
-  - 41
+  "ekon\xF3mia a mana\u017Ement":
   - 38
-  "spolo\u010Densk\xE9 vedy":
-  - 37
-  - 33
-  - 55
-  - 47
-  - 39
-  - 52
-  - 52
-  - 38
-  "ostatn\xE9":
-  - 33
-  - 33
+  - 46
+  - 36
   - 32
-  - 32
+  - 41
+  - 46
+  - 31
+  - 52
   - 30
+  - 37
+  - 35
+  - 33
+  - 35
+  - 34
+  - 56
+  - 42
+  - 33
+  - 34
+  - 38
+  - 45
+  "umel\xE1 inteligencia":
+  - 45
+  - 79
+  - 54
+  - 78
+  - 35
+  - 42
+  - 47
+  - 41
+  - 38
+  - 40
+  - 52
 hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''90-99'',''100-109'',''110-119'',''120-129'',''130-139'',''140-149'',''150-159'',''160-169'',''170-179'',''180-189'',''190-199'',''200-209'',''210-219'',''220-229'',''230-239'',''240-249'',''250-259'',''260-269'',''270-270'',]'
 hindex_hist_count: '[169,88,61,21,19,2,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
@@ -858,8 +858,8 @@ year_hindex_xy: "[{x:1952,y:270,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   na'},{x:1959,y:106,name:'Mari\xE1n Bresti\u010D',id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1933,y:102,name:'J\xE1n Vil\u010Dek',id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',field:'imunol\xF3\
   gia',area:'medic\xEDna'},{x:1957,y:97,name:'Franti\u0161ek Balu\u0161ka',id:'Baluska:Nemecko:University_of_Bonn:Bonn:profesor:neurobiologia_rastlin:muz',field:'neurobiol\xF3\
-  gia rastl\xEDn',area:'biol\xF3gia'},{x:1957,y:95,name:'Kl\xE1ra Nahrstedt',id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:informatika:zena',field:'informatika',area:'informatika'},{x:1963,y:94,name:'Jozef\
-  \ Bartunek',id:'Bartunek:Belgicko:Cardiovascular_Research_Center:Aalst:riaditel:kardiologia:muz',field:'kardiol\xF3\
+  gia rastl\xEDn',area:'biol\xF3gia'},{x:1957,y:95,name:'Kl\xE1ra Nahrstedt',id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:distribuovane_systemy:zena',field:'distribuovan\xE9\
+  \ syst\xE9my',area:'informatika'},{x:1963,y:94,name:'Jozef Bartunek',id:'Bartunek:Belgicko:Cardiovascular_Research_Center:Aalst:riaditel:kardiologia:muz',field:'kardiol\xF3\
   gia',area:'medic\xEDna'},{x:1967,y:93,name:'Igor Juri\u0161ica',id:'Jurisica:Kanada:Krembil_Research_Institute:Toronto:vedec:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1941,y:92,name:'J\xE1\
   n Veizer',id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',field:'geoch\xE9\
   mia',area:'geovedy'},{x:1979,y:87,name:'Peter Boor',id:'Boor:Nemecko:RWTH_Aachen:Aachen:docent:patologia:muz',field:'patol\xF3\
@@ -952,11 +952,11 @@ year_hindex_xy: "[{x:1952,y:270,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   n\xFD mana\u017Ement',area:'ekon\xF3mia a mana\u017Ement'},{x:1954,y:45,name:'Alexander\
   \ V. Sirotkin',id:'Sirotkin:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesor:biologia_reprodukcie:muz',field:'biol\xF3\
   gia reprodukcie',area:'biol\xF3gia'},{x:1961,y:45,name:'Daniel Tunega',id:'Tunega:Rakusko:University_of_Natural_Resources_and_Life_Sciences:Vieden:docent:fyzikalna_chemia:muz',field:'fyzik\xE1\
-  lna ch\xE9mia',area:'ch\xE9mia'},{x:1960,y:44,name:'Michal Fe\u010Dkan',id:'Feckan:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:matematika:muz',field:'matematika',area:'matematika'},{x:1973,y:44,name:'Norbert\
-  \ \u017Dilka',id:'Zilka:Slovensko:Slovenska_akademia_vied:Bratislava:docent:neuroimunologia:muz',field:'neuroimunol\xF3\
+  lna ch\xE9mia',area:'ch\xE9mia'},{x:1960,y:44,name:'Michal Fe\u010Dkan',id:'Feckan:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
+  lne rovnice',area:'matematika'},{x:1973,y:44,name:'Norbert \u017Dilka',id:'Zilka:Slovensko:Slovenska_akademia_vied:Bratislava:docent:neuroimunologia:muz',field:'neuroimunol\xF3\
   gia',area:'medic\xEDna'},{x:1966,y:43,name:'Pavol Szomol\xE1nyi',id:'Szomolanyi:Rakusko:Medical_University_of_Vienna:Vieden:vedec:magneticka_rezonancia:muz',field:'magnetick\xE1\
-  \ rezonancia',area:'fyzika'},{x:1968,y:42,name:'Du\u0161an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:materialy:muz',field:'materi\xE1\
-  ly',area:'materi\xE1ly'},{x:1978,y:42,name:'Roman Horv\xE1th',id:'Horvath:Cesko:Univerzita_Karlova:Praha:profesor:ekonomia:muz',field:'ekon\xF3\
+  \ rezonancia',area:'fyzika'},{x:1968,y:42,name:'Du\u0161an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz',field:'keramick\xE9\
+  \ materi\xE1ly',area:'materi\xE1ly'},{x:1978,y:42,name:'Roman Horv\xE1th',id:'Horvath:Cesko:Univerzita_Karlova:Praha:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1974,y:42,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
   \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1959,y:42,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1963,y:42,name:'Milan Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:komplexne_systemy:muz',field:'komplexn\xE9\
@@ -978,8 +978,9 @@ year_hindex_xy: "[{x:1952,y:270,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'biol\xF3gia'},{x:1944,y:41,name:'Igor Tvaro\u0161ka',id:'Tvaroska:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:vypoctova_chemia:muz',field:'v\xFD\
   po\u010Dtov\xE1 ch\xE9mia',area:'ch\xE9mia'},{x:1942,y:41,name:'Miroslav Urban',id:'Urban:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:teoreticka_chemia:muz',field:'teoretick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1965,y:40,name:'Juraj Bujd\xE1k',id:'Bujdak:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
-  lna ch\xE9mia',area:'ch\xE9mia'},{x:1958,y:40,name:'Juraj Hromkovi\u010D',id:'Hromkovic:Svajciarsko:ETH_Zurich:Zurich:profesor:informatika:muz',field:'informatika',area:'informatika'},{x:1965,y:40,name:'Katar\xED\
-  na Miku\u0161ov\xE1',id:'Mikusova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:biochemia:zena',field:'bioch\xE9\
+  lna ch\xE9mia',area:'ch\xE9mia'},{x:1958,y:40,name:'Juraj Hromkovi\u010D',id:'Hromkovic:Svajciarsko:ETH_Zurich:Zurich:profesor:teoreticka_informatika:muz',field:'teoretick\xE1\
+  \ informatika',area:'informatika'},{x:1965,y:40,name:'Katar\xEDna Miku\u0161ov\xE1\
+  ',id:'Mikusova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:biochemia:zena',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1991,y:40,name:'Marek Samec',id:'Samec:Slovensko:Univerzita_Komenskeho:Martin:odborny_asistent:onkologia:muz',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1941,y:39,name:'Vladim\xEDr Farka\u0161',id:'Farkas:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1959,y:39,name:'Zuzana Gdovinov\xE1',id:'Gdovinova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:neurologia:zena',field:'neurol\xF3\
@@ -1031,8 +1032,8 @@ year_hindex_xy: "[{x:1952,y:270,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ienka',id:'Plasienka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1964,y:35,name:'Da\u0161a \u010C\xED\u017Ekov\xE1',id:'Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena',field:'neuroimunol\xF3\
   gia',area:'medic\xEDna'},{x:1947,y:35,name:'Ferdinand Dev\xEDnsky',id:'Devinsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmaceuticka_chemia:muz',field:'farmaceutick\xE1\
-  \ ch\xE9mia',area:'ch\xE9mia'},{x:1949,y:35,name:'Anatolij Dvure\u010Denskij',id:'Dvurecenskij:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:matematika:muz',field:'matematika',area:'matematika'},{x:1966,y:35,name:'Miroslav\
-  \ Grajcar',id:'Grajcar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
+  \ ch\xE9mia',area:'ch\xE9mia'},{x:1949,y:35,name:'Anatolij Dvure\u010Denskij',id:'Dvurecenskij:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:matematicka_logika:muz',field:'matematick\xE1\
+  \ logika',area:'matematika'},{x:1966,y:35,name:'Miroslav Grajcar',id:'Grajcar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
   \ fyzika',area:'fyzika'},{x:1977,y:35,name:'Martin Kahanec',id:'Kahanec:Rakusko:Central_European_University:Vieden:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1968,y:35,name:'Miroslav Kocifaj',id:'Kocifaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:optika:muz',field:'optika',area:'fyzika'},{x:1963,y:35,name:'Karol\
   \ Mikula',id:'Mikula:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
@@ -1063,16 +1064,16 @@ year_hindex_xy: "[{x:1952,y:270,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'geovedy'},{x:1976,y:33,name:'Jozef Mad\u017Eo',id:'Madzo:USA:The_Wistar_Institute:Filadelfia:odborny_asistent:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1979,y:33,name:'Franti\u0161\
   ek M\xE1li\u0161',id:'Malis:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:ekologia_lesnej_vegetacie:muz',field:'ekol\xF3\
   gia lesnej veget\xE1cie',area:'biol\xF3gia'},{x:1951,y:33,name:'Igor Nov\xE1k',id:'Novak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:polymerna_chemia:muz',field:'polym\xE9\
-  rna ch\xE9mia',area:'ch\xE9mia'},{x:1958,y:33,name:'Pavol Quittner',id:'Quittner:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:matematika:muz',field:'matematika',area:'matematika'},{x:1986,y:33,name:'Ladislav\
-  \ Valkovi\u010D',id:'Valkovic:Velka_Britania:University_of_Oxford:Oxford:docent:metabolicke_MR_zobrazovanie:muz',field:'metabolick\xE9\
+  rna ch\xE9mia',area:'ch\xE9mia'},{x:1958,y:33,name:'Pavol Quittner',id:'Quittner:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
+  lne rovnice',area:'matematika'},{x:1986,y:33,name:'Ladislav Valkovi\u010D',id:'Valkovic:Velka_Britania:University_of_Oxford:Oxford:docent:metabolicke_MR_zobrazovanie:muz',field:'metabolick\xE9\
   \ MR zobrazovanie',area:'ostatn\xE9'},{x:1976,y:33,name:'Tom\xE1\u0161 Vina\u0159\
   ',id:'Vinar:Slovensko:Univerzita_Komenskeho:Bratislava:docent:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1961,y:32,name:'Vladim\xED\
   r Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Bratislava:docent:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1986,y:32,name:'Tom\xE1\u0161 Bert\xF3\
   k',id:'Bertok:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biosenzory:muz',field:'biosenzory',area:'biol\xF3\
   gia'},{x:1967,y:32,name:'\u013Dubo\u0161 Drgo\u0148a',id:'Drgona:Slovensko:Narodny_onkologicky_ustav:Bratislava:docent:onkohematologia:muz',field:'onkohematol\xF3\
-  gia',area:'medic\xEDna'},{x:1989,y:32,name:'Jaroslav Frnda',id:'Frnda:Slovensko:Zilinska_univerzita:Zilina:docent:informatika:muz',field:'informatika',area:'informatika'},{x:1961,y:32,name:'Ctirad\
-  \ Klim\u010D\xEDk',id:'Klimcik:Francuzsko:Universite_Aix-Marseille:Marseille:profesor:matematicka_fyzika:muz',field:'matematick\xE1\
+  gia',area:'medic\xEDna'},{x:1989,y:32,name:'Jaroslav Frnda',id:'Frnda:Slovensko:Zilinska_univerzita:Zilina:docent:datova_veda:muz',field:'d\xE1\
+  tov\xE1 veda',area:'informatika'},{x:1961,y:32,name:'Ctirad Klim\u010D\xEDk',id:'Klimcik:Francuzsko:Universite_Aix-Marseille:Marseille:profesor:matematicka_fyzika:muz',field:'matematick\xE1\
   \ fyzika',area:'matematika'},{x:1958,y:32,name:'Vladim\xEDr Kov\xE1\u010D',id:'Kovac:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:biologia_ryb:muz',field:'biol\xF3\
   gia r\xFDb',area:'biol\xF3gia'},{x:1975,y:32,name:'Peter \u0160iffalovi\u010D',id:'Siffalovic:Slovensko:Fyzikalny_ustav_SAV:Bratislava:veduci_vedecky_pracovnik:rontgenovy_rozptyl:muz',field:'r\xF6\
   ntgenov\xFD rozptyl',area:'ostatn\xE9'},{x:1979,y:32,name:'Martin Tomko',id:'Tomko:Australia:The_University_of_Melbourne:Melbourne:docent:geograficke_informacne_vedy:muz',field:'geografick\xE9\
@@ -1108,11 +1109,11 @@ affiliationCount: '[67,55,17,9,9,8,7,7,7,6,5,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','ekon\xF3mia a mana\u017E\
   ment','informatika','in\u017Einierstvo','geovedy','matematika','materi\xE1ly','umel\xE1\
   \ inteligencia','spolo\u010Densk\xE9 vedy','ostatn\xE9']"
-odborCount: '[80,67,56,47,20,20,19,18,13,12,10,8,5]'
+odborCount: '[80,67,56,47,20,19,19,18,13,12,11,8,5]'
 odborMin: '[30,30,30,31,30,30,30,31,31,32,35,33,30]'
-odborAvg: '[51.2,60.5,41.9,45.9,38.7,45.0,43.3,43.3,39.6,44.2,51.1,44.1,32.0]'
+odborAvg: '[51.2,60.5,41.9,45.9,38.7,45.2,43.3,43.3,39.6,44.2,50.1,44.1,32.0]'
 odborMax: '[110,270,65,106,56,95,73,92,82,58,79,55,33]'
-odborMedian: '[48.0,43.0,40.0,41.0,36.5,39.5,39.0,40.5,35.0,43.5,46.0,43.0,32.0]'
+odborMedian: '[48.0,43.0,40.0,41.0,36.5,39.0,39.0,40.5,35.0,43.5,45.0,43.0,32.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''informatika'',''inzinierstvo'',''geovedy'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'',''ostatne'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1190,9 +1191,9 @@ odbor_key:
   - "analytick\xE1 ch\xE9mia"
   - "anorganick\xE1 ch\xE9mia"
   - "aromatick\xE1 ch\xE9mia"
+  - "bioanorganick\xE1 ch\xE9mia"
   - "bioch\xE9mia"
   - "biopolym\xE9ry"
-  - "ch\xE9mia"
   - "chemoprevencia rakoviny prsn\xEDka"
   - "elektroch\xE9mia"
   - "environment\xE1lna ch\xE9mia"
@@ -1265,12 +1266,13 @@ odbor_key:
   - "geografick\xE9 informa\u010Dn\xE9 vedy"
   - "geovizualiz\xE1cia"
   - "grafov\xE9 algoritmy"
-  - informatika
   - "komplexn\xE9 a adapt\xEDvne syst\xE9my"
   - "komplexn\xE9 syst\xE9my"
   - "kvantov\xE1 inform\xE1cia"
   - "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia"
   - programovacie jazyky
+  - "teoretick\xE1 informatika"
+  - "web syst\xE9my"
 - area: "in\u017Einierstvo"
   fields:
   - "aplikovan\xE1 mechanika"
@@ -1306,14 +1308,13 @@ odbor_key:
   - "aplikovan\xE1 matematika"
   - "diferenci\xE1lne rovnice"
   - "matematick\xE1 fyzika"
-  - matematika
+  - "matematick\xE1 logika"
   - "numerick\xE1 matematika"
   - "te\xF3ria grafov"
 - area: "materi\xE1ly"
   fields:
   - "keramick\xE9 materi\xE1ly"
   - "materi\xE1lov\xE1 veda"
-  - "materi\xE1ly"
   - "nanomateri\xE1ly"
   - "nanotechnol\xF3gia"
   - "optick\xE9 materi\xE1ly"
@@ -1325,7 +1326,6 @@ odbor_key:
   - "robotika a po\u010D\xEDta\u010Dov\xE9 videnie"
   - "robotika a strojov\xE9 videnie"
   - "strojov\xE9 u\u010Denie"
-  - "umel\xE1 inteligencia"
 - area: "spolo\u010Densk\xE9 vedy"
   fields:
   - fonetika
@@ -1512,7 +1512,7 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
 record_area: "[{name:'Stanislav Tok\xE1r',h:270,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',area:'fyzika'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',area:'medic\xED\
   na'},{name:'Mari\xE1n Bresti\u010D',h:106,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
-  gia'},{name:'Kl\xE1ra Nahrstedt',h:95,id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:informatika:zena',area:'informatika'},{name:'J\xE1\
+  gia'},{name:'Kl\xE1ra Nahrstedt',h:95,id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:distribuovane_systemy:zena',area:'informatika'},{name:'J\xE1\
   n Veizer',h:92,id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',area:'geovedy'},{name:'Radko\
   \ Mesiar',h:82,id:'Mesiar:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',area:'matematika'},{name:'Ru\u017E\
   ena Bajcsy',h:79,id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',area:'umel\xE1\
