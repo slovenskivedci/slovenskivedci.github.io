@@ -10249,6 +10249,34 @@
   affiliationurl: The_Wistar_Institute
   cityurl: Filadelfia
   sexurl: muz
+- name: "Franti\u0161ek M\xE1li\u0161"
+  last: Malis
+  year: 1979
+  sex: "mu\u017E"
+  position: docent
+  field: "ekol\xF3gia lesnej veget\xE1cie"
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=jlfY3-EAAAAJ
+  last_update: '2026-09-02'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2760-6988
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Frantisek_Malis2
+  - - web
+    - https://kf.tuzvo.sk/sk/frantisek-malis-homepage-sk
+  img: Frantisek_Malis_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: ekologia_lesnej_vegetacie
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: docent
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: "Igor Nov\xE1k"
   last: Novak
   year: 1951
@@ -11462,6 +11490,34 @@
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
+  sexurl: muz
+- name: Marek Svitok
+  last: Svitok
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "ekol\xF3gia vodn\xFDch ekosyst\xE9mov"
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?hl=sk&user=6hBUaO8AAAAJ
+  last_update: '2026-09-02'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2710-8102
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Marek-Svitok
+  - - web
+    - https://www.tuzvo.sk/sk/ludia-na-tuzvo/703
+  img: Marek_Svitok_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: ekologia_vodnych_ekosystemov
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: docent
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
   sexurl: muz
 - name: "Tom\xE1\u0161 Tak\xE1\u010D"
   last: Takac
