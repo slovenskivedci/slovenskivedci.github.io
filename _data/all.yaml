@@ -10745,6 +10745,32 @@
   affiliationurl: University_of_Massachusetts_Lowell
   cityurl: Lowell
   sexurl: muz
+- name: "Peter Jedli\u010Dka"
+  last: Jedlicka
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "v\xFDpo\u010Dtov\xE1 neuroveda"
+  affiliation: "Justus-Liebig-Universit\xE4t Gie\xDFen"
+  city: "Gie\xDFen"
+  country: Nemecko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=tgIMVDsAAAAJ
+  last_update: '2026-09-05'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6571-5742
+  - - web
+    - https://www.uni-giessen.de/de/fbz/fb11/institute/computerbasiertes-modelling/dreir/team/jedlicka
+  img: Peter_Jedlicka_size_280px.jpg
+  countryurl: Nemecko
+  fieldurl: vypoctova_neuroveda
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Justus-Liebig-Universitat_Gieen
+  cityurl: Gieen
+  sexurl: muz
 - name: "Vladim\xEDr Jur\xE1\u0161"
   last: Juras
   year: ''
@@ -11712,6 +11738,32 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Michal Cifra
+  last: Cifra
+  year: 1983
+  sex: "mu\u017E"
+  position: "ved\xFAci t\xEDmu"
+  field: "bioelektrodynamika a biofot\xF3nika"
+  affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ
+  last_update: '2026-09-05'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-8853-9523
+  - - web
+    - https://www.ufe.cz/en/z/michal-cifra/
+  img: Michal_Cifra_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: bioelektrodynamika_a_biofotonika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: veduci_timu
+  affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
+  cityurl: Praha
   sexurl: muz
 - name: "Miroslav G\xE1l"
   last: Gal
