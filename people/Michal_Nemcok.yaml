@@ -1,18 +1,19 @@
-name: "Michal Nemčok"
-last: "Nemčok"
+name: "Michal Nem\u010Dok"
+last: "Nem\u010Dok"
 year: ''
-sex: "muž"
+sex: "mu\u017E"
 position: profesor
-field: "štrukturálna geológia a tektonika"
-affiliation: "VŠB – Technická univerzita Ostrava"
+field: "\u0161truktur\xE1lna geol\xF3gia a tektonika"
+affiliation: "V\u0160B \u2013 Technick\xE1 univerzita Ostrava"
 city: Ostrava
-country: Česko
-hindex: 34
+country: "\u010Cesko"
+hindex: 35
 scholar: https://scholar.google.com/citations?hl=sk&user=hwSYnhEAAAAJ
-last_update: '2026-08-25'
+last_update: '2026-09-06'
 links:
- web: http://michalnemcok.sk/
- CV: http://michalnemcok.sk/cv/
- orcid: https://orcid.org/0000-0002-7067-3222
- LAGEA: https://www.lagea.sk/
+  web: http://michalnemcok.sk/
+  CV: http://michalnemcok.sk/cv/
+  orcid: https://orcid.org/0000-0002-7067-3222
+  LAGEA: https://www.lagea.sk/
 img: Michal_Nemcok_size_280px.jpg
+update_status: UPDATED

@@ -1,17 +1,18 @@
-name: "Igor Novák"
-last: "Novák"
+name: "Igor Nov\xE1k"
+last: "Nov\xE1k"
 year: 1951
-sex: "muž"
+sex: "mu\u017E"
 position: vedec
-field: "polymérna chémia"
-affiliation: "Slovenská akadémia vied"
+field: "polym\xE9rna ch\xE9mia"
+affiliation: "Slovensk\xE1 akad\xE9mia vied"
 city: Bratislava
 country: Slovensko
-hindex: 33
+hindex: 34
 scholar: https://scholar.google.com/citations?hl=sk&user=raAZ8IQAAAAJ
-last_update: '2026-08-25'
+last_update: '2026-09-06'
 links:
- web: https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1660
- orcid: https://orcid.org/0000-0002-0568-7847
- ResearchGate: https://www.researchgate.net/profile/Igor_Novak
+  web: https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1660
+  orcid: https://orcid.org/0000-0002-0568-7847
+  ResearchGate: https://www.researchgate.net/profile/Igor_Novak
 img: Igor_Novak_size_280px.jpg
+update_status: UPDATED
