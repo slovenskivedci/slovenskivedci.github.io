@@ -8896,6 +8896,32 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Monika Jani\u0161ov\xE1"
+  last: Janisova
+  year: 1969
+  sex: "\u017Eena"
+  position: "samostatn\xE1 vedeck\xE1 pracovn\xED\u010Dka"
+  field: "geobotanika a ekol\xF3gia l\xFAk"
+  affiliation: "Botanick\xFD \xFAstav CBRB SAV"
+  city: Bratislava
+  country: Slovensko
+  hindex: 35
+  scholar: https://scholar.google.com/citations?hl=sk&user=bQ8o3uQAAAAJ
+  last_update: '2026-09-08'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-6445-0823
+  - - web
+    - http://ibot.sav.sk/usr/Monika/
+  img: Monika_Janisova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: geobotanika_a_ekologia_luk
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: samostatna_vedecka_pracovnicka
+  affiliationurl: Botanicky_ustav_CBRB_SAV
+  cityurl: Bratislava
+  sexurl: zena
 - name: Martin Kahanec
   last: Kahanec
   year: 1977
@@ -10941,6 +10967,32 @@
   affiliationurl: University_of_Groningen
   cityurl: Groningen
   sexurl: muz
+- name: "\u013Dubom\xEDr Lap\u010D\xEDk"
+  last: Lapcik
+  year: 1963
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzik\xE1lna ch\xE9mia polym\xE9rov"
+  affiliation: "UTB Zl\xEDn / UP Olomouc"
+  city: "Zl\xEDn"
+  country: "\u010Cesko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=sEA84lgAAAAJ
+  last_update: '2026-09-08'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-9917-7310
+  - - web
+    - https://www.kfc.upol.cz/katedra/zamestnanci/lapcik/
+  img: Lubomir_Lapcik_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: fyzikalna_chemia_polymerov
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: UTB_Zlin_/_UP_Olomouc
+  cityurl: Zlin
+  sexurl: muz
 - name: "M\xE1ria Luk\xE1\u010Dov\xE1-Medvi\u010Fov\xE1"
   last: Lukacova-Medvidova
   year: ''
@@ -11821,6 +11873,53 @@
   affiliationurl: CY_Cergy_Paris_Universite
   cityurl: Cergy
   sexurl: muz
+- name: "Ladislav Kov\xE1\u010D"
+  last: Kovac
+  year: 1932
+  sex: "mu\u017E"
+  position: profesor emeritus
+  field: "kognit\xEDvna biol\xF3gia"
+  affiliation: PriF UK Bratislava
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=C3X4aOkAAAAJ
+  last_update: '2026-09-08'
+  links:
+  - - web
+    - http://www.biocenter.sk/welcome1.html
+  img: Ladislav_Kovac_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: kognitivna_biologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: profesor_emeritus
+  affiliationurl: PriF_UK_Bratislava
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Juraj Krempask\xFD"
+  last: Krempasky
+  sex: "mu\u017E"
+  position: "vedeck\xFD pracovn\xEDk"
+  field: "rtg. optika a spinovo-rozl\xED\u0161en\xE1 fotoemisija"
+  affiliation: Paul Scherrer Institut
+  city: Villigen
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=QqG8VRIAAAAJ
+  last_update: '2026-09-08'
+  links:
+  - - web
+    - https://www.psi.ch/en/lno/people/juraj-krempasky
+  img: Juraj_Krempasky_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: rtg._optika_a_spinovo-rozlisena_fotoemisija
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedecky_pracovnik
+  affiliationurl: Paul_Scherrer_Institut
+  cityurl: Villigen
+  sexurl: muz
 - name: Demeter Krupka
   last: Krupka
   year: 1942
@@ -11875,6 +11974,30 @@
   affiliationurl: Slezska_univerzita_v_Opave
   cityurl: Opava
   sexurl: muz
+- name: "Eva Majkov\xE1"
+  last: Majkova
+  year: 1950
+  sex: "\u017Eena"
+  position: RNDr., DrSc.
+  field: "nanomateri\xE1ly a rtg. multilayers"
+  affiliation: "Fyzik\xE1lny \xFAstav SAV"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=hAajWA0AAAAJ
+  last_update: '2026-09-08'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=290
+  img: Eva_Majkova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: nanomaterialy_a_rtg._multilayers
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: RNDr.__DrSc.
+  affiliationurl: Fyzikalny_ustav_SAV
+  cityurl: Bratislava
+  sexurl: zena
 - name: Peter Papcun
   last: Papcun
   year: 1987
