@@ -47,6 +47,7 @@ FIELD_GROUPS = [
 		'robotika', 'strojove videnie',
 	]),
 	('matematika', [
+		'funkcionalna analy', 'diferencialna geometr', 'diferencialna geom',
 		'teoria grafov', 'diferencialne rovnice', 'numericka matemat',
 		'aplikovana matemat', 'matemat',
 	]),
@@ -63,6 +64,7 @@ FIELD_GROUPS = [
 	]),
 	('fyzika', ['termodynam', 'fyzika polymer']),
 	('medicína', [
+		'muskuloskeletal', 'mri', 'mr zobraz', 'metabolicke mr',
 		'mikrobiol', 'lekarska biol', 'genetika rakoviny',
 		'kardiovaskularna genetik', 'molekularna biomedicin',
 		'lekarska fyz', 'lekarska biochem', 'lakarska chem',
@@ -76,6 +78,7 @@ FIELD_GROUPS = [
 		'toxikol', 'hygien', 'fyziologia', 'imun', 'genetik',
 	]),
 	('biológia', [
+		'ochrana les', 'genomik', 'genomov', 'pre-mrna', 'splicing',
 		'fyziologia rastlin', 'fyziologia zivocich', 'fyziologia buniek',
 		'neurobiologia rastlin', 'biotechnolog', 'biosenzor',
 		'rastlinna', 'biologia rastlin', 'botanik', 'entomol', 'parazitol',
@@ -109,6 +112,7 @@ FIELD_GROUPS = [
 		'membran', 'chemick', 'chem',
 	]),
 	('fyzika', [
+		'rontgenov', 'rontgenovy rozptyl',
 		'fyzika polymer', 'termodynam', 'subjadr', 'tuhych latok',
 		'kondenzovanych', 'fyzika castic', 'fyzika neutr', 'fyzika plazm',
 		'elektronova a plazmov', 'fyzika magnet', 'fyzika makkych',

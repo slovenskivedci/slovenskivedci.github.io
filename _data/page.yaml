@@ -582,6 +582,7 @@ fields:
   - 41
   fyzika:
   - 37
+  - 32
   - 36
   - 46
   - 30
@@ -674,6 +675,7 @@ fields:
   - 62
   - 36
   - 50
+  - 32
   - 110
   - 102
   - 38
@@ -691,6 +693,7 @@ fields:
   - 44
   - 47
   - 44
+  - 33
   - 57
   - 39
   - 37
@@ -752,6 +755,7 @@ fields:
   - 55
   - 54
   - 34
+  - 30
   - 39
   - 32
   - 47
@@ -766,6 +770,7 @@ fields:
   - 50
   - 35
   - 38
+  - 33
   - 38
   - 70
   - 36
@@ -780,6 +785,7 @@ fields:
   - 32
   - 70
   - 38
+  - 30
   - 42
   - 45
   - 57
@@ -803,23 +809,16 @@ fields:
   - 59
   - 34
   - 48
-  "ostatn\xE9":
-  - 32
-  - 30
-  - 30
-  - 32
-  - 33
-  - 33
-  - 30
-  - 30
   matematika:
   - 35
+  - 30
   - 35
   - 82
   - 35
   - 46
   - 33
   - 31
+  - 30
   - 33
   - 42
   - 35
@@ -1101,7 +1100,7 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ek M\xE1li\u0161',id:'Malis:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:ekologia_lesnej_vegetacie:muz',field:'ekol\xF3\
   gia lesnej veget\xE1cie',area:'biol\xF3gia'},{x:1958,y:33,name:'Pavol Quittner',id:'Quittner:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
   lne rovnice',area:'matematika'},{x:1986,y:33,name:'Ladislav Valkovi\u010D',id:'Valkovic:Velka_Britania:University_of_Oxford:Oxford:docent:metabolicke_MR_zobrazovanie:muz',field:'metabolick\xE9\
-  \ MR zobrazovanie',area:'ostatn\xE9'},{x:1976,y:33,name:'Tom\xE1\u0161 Vina\u0159\
+  \ MR zobrazovanie',area:'medic\xEDna'},{x:1976,y:33,name:'Tom\xE1\u0161 Vina\u0159\
   ',id:'Vinar:Slovensko:Univerzita_Komenskeho:Bratislava:docent:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1961,y:32,name:'Vladim\xED\
   r Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Bratislava:docent:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1986,y:32,name:'Tom\xE1\u0161 Bert\xF3\
@@ -1113,7 +1112,7 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   k',id:'Lapcik:Cesko:UTB_Zlin_/_UP_Olomouc:Zlin:profesor:fyzikalna_chemia_polymerov:muz',field:'fyzik\xE1\
   lna ch\xE9mia polym\xE9rov',area:'ch\xE9mia'},{x:1975,y:32,name:'Peter \u0160iffalovi\u010D\
   ',id:'Siffalovic:Slovensko:Fyzikalny_ustav_SAV:Bratislava:veduci_vedecky_pracovnik:rontgenovy_rozptyl:muz',field:'r\xF6\
-  ntgenov\xFD rozptyl',area:'ostatn\xE9'},{x:1979,y:32,name:'Martin Tomko',id:'Tomko:Australia:The_University_of_Melbourne:Melbourne:docent:geograficke_informacne_vedy:muz',field:'geografick\xE9\
+  ntgenov\xFD rozptyl',area:'fyzika'},{x:1979,y:32,name:'Martin Tomko',id:'Tomko:Australia:The_University_of_Melbourne:Melbourne:docent:geograficke_informacne_vedy:muz',field:'geografick\xE9\
   \ informa\u010Dn\xE9 vedy',area:'informatika'},{x:1944,y:31,name:'Pavol Balgav\xFD\
   ',id:'Balgavy:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:biofyzika:muz',field:'biofyzika',area:'fyzika'},{x:1943,y:31,name:'Tom\xE1\
   \u0161 Bleha',id:'Bleha:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
@@ -1131,10 +1130,10 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   mia',area:'ch\xE9mia'},{x:1955,y:30,name:'Peter Cifra',id:'Cifra:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:fyzika_polymerov:muz',field:'fyzika\
   \ polym\xE9rov',area:'fyzika'},{x:1983,y:30,name:'Michal Cifra',id:'Cifra:Cesko:Ustav_fotoniky_a_elektroniky_AV_CR:Praha:veduci_timu:bioelektrodynamika_a_biofotonika:muz',field:'bioelektrodynamika\
   \ a biofot\xF3nika',area:'fyzika'},{x:1949,y:30,name:'Mari\xE1n Fabi\xE1n',id:'Fabian:Cesko:Matematicky_ustav_AV_CR:Praha:profesor:funkcionalna_analyza:muz',field:'funkcion\xE1\
-  lna anal\xFDza',area:'ostatn\xE9'},{x:1974,y:30,name:'Miroslav G\xE1l',id:'Gal:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:elektrochemia:muz',field:'elektroch\xE9\
+  lna anal\xFDza',area:'matematika'},{x:1974,y:30,name:'Miroslav G\xE1l',id:'Gal:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:elektrochemia:muz',field:'elektroch\xE9\
   mia',area:'ch\xE9mia'},{x:1932,y:30,name:'Ladislav Kov\xE1\u010D',id:'Kovac:Slovensko:PriF_UK_Bratislava:Bratislava:profesor_emeritus:kognitivna_biologia:muz',field:'kognit\xED\
   vna biol\xF3gia',area:'biol\xF3gia'},{x:1942,y:30,name:'Demeter Krupka',id:'Krupka:Slovensko:Lepage_Research_Institute:Presov:profesor:diferencialna_geometria:muz',field:'diferenci\xE1\
-  lna geometria',area:'ostatn\xE9'},{x:1950,y:30,name:'Eva Majkov\xE1',id:'Majkova:Slovensko:Fyzikalny_ustav_SAV:Bratislava:vedkyna:nanomaterialy_a_rtg._multilayers:zena',field:'nanomateri\xE1\
+  lna geometria',area:'matematika'},{x:1950,y:30,name:'Eva Majkov\xE1',id:'Majkova:Slovensko:Fyzikalny_ustav_SAV:Bratislava:vedkyna:nanomaterialy_a_rtg._multilayers:zena',field:'nanomateri\xE1\
   ly a rtg. multilayers',area:'materi\xE1ly'},{x:1987,y:30,name:'Peter Papcun',id:'Papcun:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:docent:kybernetika:muz',field:'kybernetika',area:'in\u017E\
   inierstvo'},{x:1956,y:30,name:'Peter Samuely',id:'Samuely:Slovensko:Slovenska_akademia_vied:Kosice:profesor:fyzika_tuhych_latok:muz',field:'fyzika\
   \ tuh\xFDch l\xE1tok',area:'fyzika'},{x:1944,y:30,name:'J\xFAlius \u0160ub\xEDk',id:'Subik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:mikrobiologia:muz',field:'mikrobiol\xF3\
@@ -1149,13 +1148,13 @@ countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Australia'',''Kanada
 affiliationCount: '[67,55,17,9,9,8,7,7,7,6,5,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','ekon\xF3mia a mana\u017E\
   ment','informatika','in\u017Einierstvo','geovedy','matematika','materi\xE1ly','umel\xE1\
-  \ inteligencia','ostatn\xE9','spolo\u010Densk\xE9 vedy']"
-odborCount: '[82,69,58,49,20,19,19,18,13,13,11,8,8]'
-odborMin: '[30,30,30,30,30,30,30,31,31,30,35,30,33]'
-odborAvg: '[50.9,59.9,41.6,45.4,38.9,45.3,43.3,43.4,39.6,43.4,50.2,31.2,44.1]'
-odborMax: '[110,272,65,107,56,95,73,92,82,58,80,33,55]'
-odborMedian: '[47.5,43.0,39.5,39.0,37.0,39.0,39.0,40.5,35.0,42.0,45.0,31.0,43.0]'
-odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''informatika'',''inzinierstvo'',''geovedy'',''matematika'',''materialy'',''umela_inteligencia'',''ostatne'',''spolocenske_vedy'']'
+  \ inteligencia','spolo\u010Densk\xE9 vedy']"
+odborCount: '[84,70,58,52,20,19,19,18,15,13,11,8]'
+odborMin: '[30,30,30,30,30,30,30,31,30,30,35,33]'
+odborAvg: '[50.4,59.5,41.6,44.6,38.9,45.3,43.3,43.4,38.3,43.4,50.2,44.1]'
+odborMax: '[110,272,65,107,56,95,73,92,82,58,80,55]'
+odborMedian: '[47.0,42.5,39.5,38.0,37.0,39.0,39.0,40.5,35.0,42.0,45.0,43.0]'
+odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''informatika'',''inzinierstvo'',''geovedy'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
 odbor_key:
 - area: "medic\xEDna"
   fields:
@@ -1172,9 +1171,11 @@ odbor_key:
   - "imunol\xF3gia"
   - "intern\xE1 medic\xEDna"
   - "kardiol\xF3gia"
+  - "kvantitat\xEDvne muskuloskelet\xE1lne MRI"
   - "lek\xE1rska bioch\xE9mia"
   - "lek\xE1rska fyzika"
   - "medic\xEDnske zobrazovanie"
+  - "metabolick\xE9 MR zobrazovanie"
   - "mikrobiol\xF3gia"
   - "molekul\xE1rna biomedic\xEDna"
   - neurogenetika
@@ -1225,6 +1226,7 @@ odbor_key:
   - "nukle\xE1rna magnetick\xE1 rezonancia"
   - optika
   - optika a fotonika
+  - "r\xF6ntgenov\xFD rozptyl"
   - "rtg. optika a spinovo-rozl\xED\u0161en\xE1 fotoemisija"
   - "subjadrov\xE1 fyzika"
   - "supravodi\u010De"
@@ -1280,6 +1282,8 @@ odbor_key:
   - "fyziol\xF3gia \u017Eivo\u010D\xEDchov"
   - "genetika a molekul\xE1rna biol\xF3gia"
   - "genetika drev\xEDn"
+  - genomika
+  - "genomov\xE1 stabilita a pre-mRNA splicing"
   - "g\xE9nov\xE1 expresia"
   - "geobotanika a ekol\xF3gia l\xFAk"
   - "kognit\xEDvna biol\xF3gia"
@@ -1288,6 +1292,7 @@ odbor_key:
   - "molekul\xE1rna a bunkov\xE1 biol\xF3gia"
   - "molekul\xE1rna biol\xF3gia"
   - "neurobiol\xF3gia rastl\xEDn"
+  - ochrana lesa
   - "paleobiol\xF3gia"
   - "parazitol\xF3gia"
   - "rastlinn\xE1 bioch\xE9mia"
@@ -1354,7 +1359,9 @@ odbor_key:
   fields:
   - "algebraick\xE1 te\xF3ria grafov"
   - "aplikovan\xE1 matematika"
+  - "diferenci\xE1lna geometria"
   - "diferenci\xE1lne rovnice"
+  - "funkcion\xE1lna anal\xFDza"
   - "matematick\xE1 fyzika"
   - "matematick\xE1 logika"
   - "numerick\xE1 matematika"
@@ -1375,16 +1382,6 @@ odbor_key:
   - "robotika a po\u010D\xEDta\u010Dov\xE9 videnie"
   - "robotika a strojov\xE9 videnie"
   - "strojov\xE9 u\u010Denie"
-- area: "ostatn\xE9"
-  fields:
-  - "diferenci\xE1lna geometria"
-  - "funkcion\xE1lna anal\xFDza"
-  - genomika
-  - "genomov\xE1 stabilita a pre-mRNA splicing"
-  - "kvantitat\xEDvne muskuloskelet\xE1lne MRI"
-  - "metabolick\xE9 MR zobrazovanie"
-  - ochrana lesa
-  - "r\xF6ntgenov\xFD rozptyl"
 - area: "spolo\u010Densk\xE9 vedy"
   fields:
   - fonetika
@@ -1581,8 +1578,7 @@ record_area: "[{name:'Stanislav Tok\xE1r',h:272,id:'Tokar:Slovensko:Univerzita_K
   mia'},{name:'Jozef Ke\u010Dk\xE9\u0161',h:58,id:'Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz',area:'materi\xE1\
   ly'},{name:'Be\xE1ta Gavurov\xE1',h:56,id:'Gavurova:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesorka:manazment:zena',area:'ekon\xF3\
   mia a mana\u017Ement'},{name:'Andrea Madarasov\xE1 Geckov\xE1',h:55,id:'Geckova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:socialna_psychologia:zena',area:'spolo\u010D\
-  ensk\xE9 vedy'},{name:'Rastislav Jaku\u0161',h:33,id:'Jakus:Slovensko:Slovenska_akademia_vied:Zvolen:samostatny_vedecky_pracovnik:ochrana_lesa:muz',area:'ostatn\xE9\
-  '}]"
+  ensk\xE9 vedy'}]"
 record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',decade:'1930s'},{name:'Branislav\
   \ Sit\xE1r',h:177,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
   \ Tok\xE1r',h:272,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1950s'},{name:'Jozef\
