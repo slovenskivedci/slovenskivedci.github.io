@@ -11823,6 +11823,54 @@
   affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
   cityurl: Praha
   sexurl: muz
+- name: "\u013Dubo\u0161 \u010Cip\xE1k"
+  last: Cipak
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "genomov\xE1 stabilita a pre-mRNA splicing"
+  affiliation: "Biomedic\xEDnske centrum SAV"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=b1Y-e0AAAAAJ
+  last_update: '2026-09-13'
+  links:
+  - - web
+    - https://bmc.sav.sk/en/science/research-groups-by-topic/oncology-nanobiology/genome-stability-and-pre-mrna-splicing/
+  img: Lubos_Cipak_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: genomova_stabilita_a_pre-mRNA_splicing
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: vedec
+  affiliationurl: Biomedicinske_centrum_SAV
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Mari\xE1n Fabi\xE1n"
+  last: Fabian
+  year: 1949
+  sex: "mu\u017E"
+  position: profesor
+  field: "funkcion\xE1lna anal\xFDza"
+  affiliation: "Matematick\xFD \xFAstav AV \u010CR"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=Di2JaCIAAAAJ
+  last_update: '2026-09-13'
+  links:
+  - - web
+    - https://www.math.cas.cz/index.php/department/detail/14
+  img: Marian_Fabian_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: funkcionalna_analyza
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: profesor
+  affiliationurl: Matematicky_ustav_AV_CR
+  cityurl: Praha
+  sexurl: muz
 - name: "Miroslav G\xE1l"
   last: Gal
   year: 1974
@@ -12002,6 +12050,30 @@
   affiliationurl: Fyzikalny_ustav_SAV
   cityurl: Bratislava
   sexurl: zena
+- name: "Tom\xE1\u0161 Majt\xE1n"
+  last: Majtan
+  year: ''
+  sex: "mu\u017E"
+  position: "odborn\xFD asistent"
+  field: "bioch\xE9mia"
+  affiliation: University of Fribourg
+  city: Fribourg
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=t2BkJrAAAAAJ
+  last_update: '2026-09-13'
+  links:
+  - - web
+    - https://tomasmajtan.byethost10.com/
+  img: Tomas_Majtan_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: biochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: odborny_asistent
+  affiliationurl: University_of_Fribourg
+  cityurl: Fribourg
+  sexurl: muz
 - name: Peter Papcun
   last: Papcun
   year: 1987
@@ -12078,5 +12150,53 @@
   areaurl: medicina
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Tom\xE1\u0161 Szemes"
+  last: Szemes
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: genomika
+  affiliation: "Geneton / Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=DrkNZcIAAAAJ
+  last_update: '2026-09-13'
+  links:
+  - - web
+    - https://geneton.sk/en/team/szemes/
+  img: Tomas_Szemes_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: genomika
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: docent
+  affiliationurl: Geneton_/_Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
+- name: "\u013Dubom\xEDr Val\xEDk"
+  last: Valik
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "potravin\xE1rska mikrobiol\xF3gia"
+  affiliation: FCHPT STU Bratislava
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=yPq9oHEAAAAJ
+  last_update: '2026-09-13'
+  links:
+  - - web
+    - https://www.fchpt.stuba.sk/sk/ustavy-a-pracoviska/fakultne-ustavy/ustav-potravinarstva-a-vyzivy
+  img: Lubomir_Valik_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: potravinarska_mikrobiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: FCHPT_STU_Bratislava
   cityurl: Bratislava
   sexurl: muz
