@@ -1,17 +1,18 @@
-name: "Matej Škorvánek"
-last: "Škorvánek"
+name: "Matej \u0160korv\xE1nek"
+last: "\u0160korv\xE1nek"
 year: 1984
-sex: "muž"
+sex: "mu\u017E"
 position: profesor
-field: "neurológia"
-affiliation: "Univerzita Pavla Jozefa Šafárika"
-city: "Košice"
+field: "neurol\xF3gia"
+affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+city: "Ko\u0161ice"
 country: Slovensko
-hindex: 34
+hindex: 35
 scholar: https://scholar.google.com/citations?hl=sk&user=bXFA1iIAAAAJ
-last_update: '2026-08-25'
+last_update: '2026-09-13'
 links:
- "životopis": files/cv_Matej_Skorvanek_2023.pdf
- web: https://www.upjs.sk/LF/zamestnanec/matej.skorvanek/
- orcid: https://orcid.org/0000-0001-5497-8715
+  "\u017Eivotopis": files/cv_Matej_Skorvanek_2023.pdf
+  web: https://www.upjs.sk/LF/zamestnanec/matej.skorvanek/
+  orcid: https://orcid.org/0000-0001-5497-8715
 img: Matej_Skorvanek_size_280px.jpg
+update_status: UPDATED

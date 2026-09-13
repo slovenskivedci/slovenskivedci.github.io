@@ -1,16 +1,17 @@
-name: "Michal Repiský"
-last: "Repiský"
+name: "Michal Repisk\xFD"
+last: "Repisk\xFD"
 year: ''
-sex: "muž"
+sex: "mu\u017E"
 position: vedec
-field: "výpočtová chémia"
-affiliation: "University of Tromsø"
-city: "Tromsø"
-country: Nórsko
-hindex: 34
+field: "v\xFDpo\u010Dtov\xE1 ch\xE9mia"
+affiliation: "University of Troms\xF8"
+city: "Troms\xF8"
+country: "N\xF3rsko"
+hindex: 35
 scholar: https://scholar.google.com/citations?hl=sk&user=fkfhy9EAAAAJ
-last_update: '2026-08-27'
+last_update: '2026-09-13'
 links:
- web: https://en.uit.no/ansatte/person?p_document_id=165784
- orcid: https://orcid.org/0000-0003-0776-4137
+  web: https://en.uit.no/ansatte/person?p_document_id=165784
+  orcid: https://orcid.org/0000-0003-0776-4137
 img: Michal_Repisky_size_280px.jpg
+update_status: UPDATED

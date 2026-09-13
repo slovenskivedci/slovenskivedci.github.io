@@ -1,18 +1,19 @@
-name: "Jaroslav Frnda"
-last: "Frnda"
+name: Jaroslav Frnda
+last: Frnda
 year: 1989
-sex: "muž"
+sex: "mu\u017E"
 position: docent
-field: "dátová veda"
-affiliation: "Žilinská univerzita"
-city: Žilina
+field: "d\xE1tov\xE1 veda"
+affiliation: "\u017Dilinsk\xE1 univerzita"
+city: "\u017Dilina"
 country: Slovensko
-hindex: 32
+hindex: 33
 scholar: https://scholar.google.com/citations?hl=sk&user=UBUvR_sAAAAJ
-last_update: '2026-08-25'
+last_update: '2026-09-13'
 links:
- web: https://fpedas.uniza.sk/~frnda/
- orcid: https://orcid.org/0000-0001-6065-3087
- ResearchGate: https://www.researchgate.net/profile/Jaroslav-Frnda
- LinkedIn: https://www.linkedin.com/in/jaroslav-frnda-44787981/
+  web: https://fpedas.uniza.sk/~frnda/
+  orcid: https://orcid.org/0000-0001-6065-3087
+  ResearchGate: https://www.researchgate.net/profile/Jaroslav-Frnda
+  LinkedIn: https://www.linkedin.com/in/jaroslav-frnda-44787981/
 img: Jaroslav_Frnda_size_280px.jpg
+update_status: UPDATED

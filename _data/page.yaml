@@ -40,7 +40,7 @@ hindex:
 - 36
 - 51
 - 46
-- 44
+- 45
 - 35
 - 32
 - 53
@@ -66,16 +66,16 @@ hindex:
 - 47
 - 34
 - 32
-- 47
+- 46
 - 69
-- 36
+- 37
 - 65
 - 53
-- 79
+- 80
 - 55
 - 38
 - 33
-- 34
+- 35
 - 32
 - 37
 - 37
@@ -96,7 +96,7 @@ hindex:
 - 32
 - 30
 - 41
-- 33
+- 34
 - 51
 - 47
 - 44
@@ -106,7 +106,7 @@ hindex:
 - 56
 - 33
 - 31
-- 39
+- 40
 - 97
 - 52
 - 55
@@ -120,7 +120,7 @@ hindex:
 - 35
 - 34
 - 33
-- 236
+- 237
 - 34
 - 177
 - 272
@@ -136,7 +136,7 @@ hindex:
 - 32
 - 62
 - 31
-- 67
+- 68
 - 36
 - 50
 - 39
@@ -147,7 +147,7 @@ hindex:
 - 53
 - 56
 - 38
-- 57
+- 58
 - 110
 - 102
 - 35
@@ -156,7 +156,7 @@ hindex:
 - 47
 - 73
 - 34
-- 51
+- 52
 - 49
 - 92
 - 55
@@ -164,7 +164,7 @@ hindex:
 - 34
 - 33
 - 79
-- 77
+- 78
 - 30
 - 32
 - 34
@@ -187,7 +187,7 @@ hindex:
 - 52
 - 61
 - 68
-- 106
+- 107
 - 61
 - 44
 - 35
@@ -210,7 +210,7 @@ hindex:
 - 39
 - 37
 - 40
-- 37
+- 38
 - 46
 - 30
 - 56
@@ -222,14 +222,14 @@ hindex:
 - 93
 - 46
 - 48
-- 41
+- 42
 - 37
 - 31
 - 34
 - 36
 - 38
 - 56
-- 49
+- 50
 - 50
 - 55
 - 35
@@ -255,10 +255,10 @@ hindex:
 - 42
 - 33
 - 70
-- 35
+- 36
 - 31
 - 42
-- 34
+- 35
 - 64
 - 31
 - 47
@@ -268,7 +268,7 @@ hindex:
 - 44
 - 31
 - 41
-- 196
+- 197
 - 41
 - 38
 - 55
@@ -276,11 +276,11 @@ hindex:
 - 41
 - 36
 - 70
-- 104
+- 105
 - 36
 - 35
 - 60
-- 32
+- 33
 - 53
 - 45
 - 34
@@ -318,7 +318,7 @@ hindex:
 - 33
 - 52
 - 39
-- 47
+- 48
 - 32
 - 53
 - 38
@@ -338,7 +338,7 @@ hindex:
 - 47
 - 56
 - 58
-- 87
+- 88
 - 42
 - 36
 - 56
@@ -355,7 +355,7 @@ hindex:
 - 41
 - 59
 - 30
-- 259
+- 260
 - 32
 - 42
 - 76
@@ -375,7 +375,7 @@ hindex:
 - 34
 - 38
 - 46
-- 43
+- 44
 - 33
 - 44
 - 36
@@ -472,13 +472,13 @@ fields:
   - 95
   - 55
   - 34
-  - 51
+  - 52
   - 93
   - 48
   - 31
   - 42
   - 52
-  - 32
+  - 33
   - 33
   - 32
   - 39
@@ -504,7 +504,7 @@ fields:
   - 36
   - 56
   - 40
-  - 41
+  - 42
   - 33
   - 35
   - 37
@@ -520,7 +520,7 @@ fields:
   - 47
   - 32
   - 53
-  - 34
+  - 35
   - 52
   - 47
   - 32
@@ -585,17 +585,17 @@ fields:
   - 38
   - 42
   - 43
-  - 236
+  - 237
   - 177
   - 272
   - 45
-  - 67
+  - 68
   - 56
   - 53
   - 56
-  - 57
+  - 58
   - 33
-  - 77
+  - 78
   - 32
   - 34
   - 42
@@ -614,10 +614,10 @@ fields:
   - 38
   - 42
   - 44
-  - 196
+  - 197
   - 41
   - 70
-  - 104
+  - 105
   - 30
   - 37
   - 43
@@ -633,7 +633,7 @@ fields:
   - 72
   - 41
   - 30
-  - 259
+  - 260
   - 32
   - 42
   - 30
@@ -645,7 +645,7 @@ fields:
   "medic\xEDna":
   - 33
   - 51
-  - 44
+  - 45
   - 53
   - 35
   - 31
@@ -686,7 +686,7 @@ fields:
   - 57
   - 39
   - 37
-  - 37
+  - 38
   - 41
   - 36
   - 38
@@ -697,7 +697,7 @@ fields:
   - 94
   - 36
   - 57
-  - 34
+  - 35
   - 64
   - 68
   - 76
@@ -709,16 +709,16 @@ fields:
   - 32
   - 50
   - 33
-  - 47
+  - 48
   - 53
   - 38
   - 56
-  - 87
+  - 88
   - 74
   - 76
   - 32
   - 37
-  - 43
+  - 44
   - 42
   - 65
   - 32
@@ -748,13 +748,13 @@ fields:
   - 47
   - 49
   - 47
-  - 106
+  - 107
   - 60
   - 31
   - 32
   - 46
   - 37
-  - 49
+  - 50
   - 35
   - 38
   - 38
@@ -816,8 +816,8 @@ fields:
   - 44
   "materi\xE1ly":
   - 32
-  - 33
-  - 39
+  - 34
+  - 40
   - 54
   - 42
   - 38
@@ -830,8 +830,8 @@ fields:
   - 49
   "ekon\xF3mia a mana\u017Ement":
   - 38
-  - 47
-  - 36
+  - 46
+  - 37
   - 32
   - 41
   - 46
@@ -839,7 +839,7 @@ fields:
   - 52
   - 30
   - 37
-  - 35
+  - 36
   - 33
   - 35
   - 34
@@ -851,7 +851,7 @@ fields:
   - 45
   "umel\xE1 inteligencia":
   - 45
-  - 79
+  - 80
   - 54
   - 78
   - 35
@@ -862,28 +862,28 @@ fields:
   - 40
   - 52
 hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''90-99'',''100-109'',''110-119'',''120-129'',''130-139'',''140-149'',''150-159'',''160-169'',''170-179'',''180-189'',''190-199'',''200-209'',''210-219'',''220-229'',''230-239'',''240-249'',''250-259'',''260-269'',''270-272'',]'
-hindex_hist_count: '[176,88,61,20,20,2,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1]'
+hindex_hist_count: '[175,88,62,20,19,3,6,3,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
   ',]"
 year_hist_count: '[7,26,54,59,48,21,3,164]'
 year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1979,y:259,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1983,y:236,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1979,y:260,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1983,y:237,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1946,y:177,name:'Branislav Sit\xE1r',id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1962,y:110,name:'Jozef G\xE9cz',id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',field:'neurogenetika',area:'medic\xED\
-  na'},{x:1959,y:106,name:'Mari\xE1n Bresti\u010D',id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
+  na'},{x:1959,y:107,name:'Mari\xE1n Bresti\u010D',id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1933,y:102,name:'J\xE1n Vil\u010Dek',id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',field:'imunol\xF3\
   gia',area:'medic\xEDna'},{x:1957,y:97,name:'Franti\u0161ek Balu\u0161ka',id:'Baluska:Nemecko:University_of_Bonn:Bonn:profesor:neurobiologia_rastlin:muz',field:'neurobiol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1957,y:95,name:'Kl\xE1ra Nahrstedt',id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:distribuovane_systemy:zena',field:'distribuovan\xE9\
   \ syst\xE9my',area:'informatika'},{x:1963,y:94,name:'Jozef Bartunek',id:'Bartunek:Belgicko:Cardiovascular_Research_Center:Aalst:riaditel:kardiologia:muz',field:'kardiol\xF3\
   gia',area:'medic\xEDna'},{x:1967,y:93,name:'Igor Juri\u0161ica',id:'Jurisica:Kanada:Krembil_Research_Institute:Toronto:vedec:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1941,y:92,name:'J\xE1\
   n Veizer',id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',field:'geoch\xE9\
-  mia',area:'geovedy'},{x:1979,y:87,name:'Peter Boor',id:'Boor:Nemecko:RWTH_Aachen:Aachen:docent:patologia:muz',field:'patol\xF3\
+  mia',area:'geovedy'},{x:1979,y:88,name:'Peter Boor',id:'Boor:Nemecko:RWTH_Aachen:Aachen:docent:patologia:muz',field:'patol\xF3\
   gia',area:'medic\xEDna'},{x:1951,y:82,name:'Radko Mesiar',id:'Mesiar:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
-  \ matematika',area:'matematika'},{x:1933,y:79,name:'Ru\u017Eena Bajcsy',id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',field:'robotika\
+  \ matematika',area:'matematika'},{x:1933,y:80,name:'Ru\u017Eena Bajcsy',id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',field:'robotika\
   \ a po\u010D\xEDta\u010Dov\xE9 videnie',area:'umel\xE1 inteligencia'},{x:1953,y:79,name:'Eleon\xF3\
   ra Fabi\xE1nov\xE1',id:'Fabianova:Slovensko:Regionalny_urad_verejneho_zdravotnictva:Banska_Bystrica:docentka:verejne_zdravotnictvo:zena',field:'verejn\xE9\
-  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1959,y:77,name:'Fedor \u0160imkovic',id:'Simkovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
+  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1959,y:78,name:'Fedor \u0160imkovic',id:'Simkovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1961,y:76,name:'Silvia Pastorekov\xE1',id:'Pastorekova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:onkologia:zena',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1938,y:74,name:'Vladim\xEDr Bencko',id:'Bencko:Cesko:Univerzita_Karlova:Praha:profesor:hygiena_a_epidemiologia:muz',field:'hygiena\
   \ a epidemiol\xF3gia',area:'medic\xEDna'},{x:1957,y:73,name:'Jarom\xEDr Pastorek',id:'Pastorek:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:onkologia:muz',field:'onkol\xF3\
@@ -945,29 +945,29 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'medic\xEDna'},{x:1971,y:52,name:'Ladislav Timu\u013E\xE1k',id:'Timulak:Irsko:Trinity_College_Dublin:Dublin:profesor:psychologia:muz',field:'psychol\xF3\
   gia',area:'spolo\u010Densk\xE9 vedy'},{x:1969,y:51,name:'Andrej Kr\xE1\u013E',id:'Kral:Nemecko:Hannover_Medical_School:Hannover:profesor:neuroveda:muz',field:'neuroveda',area:'medic\xED\
   na'},{x:1977,y:51,name:'Michal Mego',id:'Mego:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:onkologia:muz',field:'onkol\xF3\
-  gia',area:'medic\xEDna'},{x:1962,y:50,name:'O\u013Ega Pech\xE1\u0148ov\xE1',id:'Pechanova:Slovensko:Slovenska_akademia_vied:Bratislava:docentka:patofyziologia:zena',field:'patofyziol\xF3\
+  gia',area:'medic\xEDna'},{x:1968,y:50,name:'Peter Mass\xE1nyi',id:'Massanyi:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_zivocichov:muz',field:'fyziol\xF3\
+  gia \u017Eivo\u010D\xEDchov',area:'biol\xF3gia'},{x:1962,y:50,name:'O\u013Ega Pech\xE1\
+  \u0148ov\xE1',id:'Pechanova:Slovensko:Slovenska_akademia_vied:Bratislava:docentka:patofyziologia:zena',field:'patofyziol\xF3\
   gia',area:'medic\xEDna'},{x:1932,y:50,name:'Tom\xE1\u0161 Trnovec',id:'Trnovec:Slovensko:Slovenska_zdravotnicka_univerzita:Bratislava:profesor:toxikologia:muz',field:'toxikol\xF3\
   gia',area:'medic\xEDna'},{x:1973,y:49,name:'Tom\xE1\u0161 Grim',id:'Grim:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:docent:behavioralna_ekologia:muz',field:'behavior\xE1\
   lna ekol\xF3gia',area:'biol\xF3gia'},{x:1971,y:49,name:'Igor Koz\xE1k',id:'Kozak:Spojene_arabske_emiraty:Moorfields_Eye_Hospital:Abu_Dhabi:konzultant:oftalmologia:muz',field:'oftalmol\xF3\
-  gia',area:'medic\xEDna'},{x:1968,y:49,name:'Peter Mass\xE1nyi',id:'Massanyi:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_zivocichov:muz',field:'fyziol\xF3\
-  gia \u017Eivo\u010D\xEDchov',area:'biol\xF3gia'},{x:1970,y:47,name:'Martin Ba\u010D\
-  kor',id:'Backor:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
+  gia',area:'medic\xEDna'},{x:1970,y:47,name:'Martin Ba\u010Dkor',id:'Backor:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1946,y:47,name:'Peter Gemeiner',id:'Gemeiner:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biotechnologia:muz',field:'biotechnol\xF3\
   gia',area:'biol\xF3gia'},{x:1985,y:47,name:'Nat\xE1lia Ku\u010D\xEDrkov\xE1',id:'Kucirkova:Norsko:University_of_Stavanger:Stavanger:profesorka:rane_detstvo_a_vyvoj_deti:zena',field:'ran\xE9\
   \ detstvo a v\xFDvoj det\xED',area:'spolo\u010Densk\xE9 vedy'},{x:1955,y:47,name:'Jozef\
   \ Noga',id:'Noga:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:teoreticka_chemia:muz',field:'teoretick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1973,y:47,name:'Ivo Petr\xE1\u0161',id:'Petras:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:automatizacia:muz',field:'automatiz\xE1\
-  cia',area:'in\u017Einierstvo'},{x:1985,y:47,name:'Katar\xEDna Val\xE1\u0161kov\xE1\
-  ',id:'Valaskova:Slovensko:Zilinska_univerzita:Zilina:docentka:financny_manazment:zena',field:'finan\u010D\
-  n\xFD mana\u017Ement',area:'ekon\xF3mia a mana\u017Ement'},{x:1939,y:46,name:'Miroslav\
-  \ Grmela',id:'Grmela:Kanada:Polytechnique_Montreal:Montreal:vedec:termodynamika:muz',field:'termodynamika',area:'fyzika'},{x:1967,y:46,name:'Nat\xE1\
+  cia',area:'in\u017Einierstvo'},{x:1939,y:46,name:'Miroslav Grmela',id:'Grmela:Kanada:Polytechnique_Montreal:Montreal:vedec:termodynamika:muz',field:'termodynamika',area:'fyzika'},{x:1967,y:46,name:'Nat\xE1\
   lia Kryvinsk\xE1',id:'Kryvinska:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:manazment:zena',field:'mana\u017E\
   ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1972,y:46,name:'Ondrej Lexa',id:'Lexa:Cesko:Univerzita_Karlova:Praha:docent:strukturalna_geologia_a_tektonika:muz',field:'\u0161\
   truktur\xE1lna geol\xF3gia a tektonika',area:'geovedy'},{x:1948,y:46,name:'Stanislav\
   \ Miertu\u0161',id:'Miertus:Slovensko:Univerzita_svateho_Cyrila_a_Metoda_v_Trnave:Trnava:profesor:vypoctova_chemia:muz',field:'v\xFD\
   po\u010Dtov\xE1 ch\xE9mia',area:'ch\xE9mia'},{x:1952,y:46,name:'John Nabelek',id:'Nabelek:USA:Oregon_State_University:Corvallis:profesor:seizmologia:muz',field:'seizmol\xF3\
   gia',area:'geovedy'},{x:1937,y:46,name:'Alexander Rosa',id:'Rosa:Kanada:McMaster_University:Hamilton:profesor:teoria_grafov:muz',field:'te\xF3\
-  ria grafov',area:'matematika'},{x:1954,y:45,name:'Alexander V. Sirotkin',id:'Sirotkin:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesor:biologia_reprodukcie:muz',field:'biol\xF3\
+  ria grafov',area:'matematika'},{x:1985,y:46,name:'Katar\xEDna Val\xE1\u0161kov\xE1\
+  ',id:'Valaskova:Slovensko:Zilinska_univerzita:Zilina:docentka:financny_manazment:zena',field:'finan\u010D\
+  n\xFD mana\u017Ement',area:'ekon\xF3mia a mana\u017Ement'},{x:1954,y:45,name:'Alexander\
+  \ V. Sirotkin',id:'Sirotkin:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesor:biologia_reprodukcie:muz',field:'biol\xF3\
   gia reprodukcie',area:'biol\xF3gia'},{x:1961,y:45,name:'Daniel Tunega',id:'Tunega:Rakusko:University_of_Natural_Resources_and_Life_Sciences:Vieden:docent:fyzikalna_chemia:muz',field:'fyzik\xE1\
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1960,y:44,name:'Michal Fe\u010Dkan',id:'Feckan:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
   lne rovnice',area:'matematika'},{x:1973,y:44,name:'Norbert \u017Dilka',id:'Zilka:Slovensko:Slovenska_akademia_vied:Bratislava:docent:neuroimunologia:muz',field:'neuroimunol\xF3\
@@ -978,7 +978,8 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ',id:'Kopcansky:Slovensko:Slovenska_akademia_vied:Kosice:docent:fyzika_magnetizmu:muz',field:'fyzika\
   \ magnetizmu',area:'fyzika'},{x:1974,y:42,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
   \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1959,y:42,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1963,y:42,name:'Milan Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:komplexne_systemy:muz',field:'komplexn\xE9\
+  \ fyzika',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
+  \ Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:komplexne_systemy:muz',field:'komplexn\xE9\
   \ syst\xE9my',area:'informatika'},{x:1961,y:42,name:'Igor Podlubn\xFD',id:'Podlubny:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
   \ matematika',area:'matematika'},{x:1955,y:42,name:'Katar\xEDna \u0160ebekov\xE1\
   ',id:'Sebekova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:interna_medicina:zena',field:'intern\xE1\
@@ -987,8 +988,7 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'medic\xEDna'},{x:1943,y:41,name:'Ivan Chod\xE1k',id:'Chodak:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:modifikacia_polymerov:muz',field:'modifik\xE1\
   cia polym\xE9rov',area:'ch\xE9mia'},{x:1959,y:41,name:'J\xE1n Kormanec',id:'Kormanec:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:genova_expresia:muz',field:'g\xE9\
   nov\xE1 expresia',area:'biol\xF3gia'},{x:1980,y:41,name:'Andrej Liptaj',id:'Liptaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1956,y:41,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1955,y:41,name:'Peter\
-  \ I. Nabelek',id:'Nabelek:USA:University_of_Missouri:Columbia:profesor:geologia:muz',field:'geol\xF3\
+  \ fyzika',area:'fyzika'},{x:1955,y:41,name:'Peter I. Nabelek',id:'Nabelek:USA:University_of_Missouri:Columbia:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1960,y:41,name:'Juraj Nemec',id:'Nemec:Cesko:Masarykova_univerzita:Brno:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1986,y:41,name:'Martin Tak\xE1\u010D\
   ',id:'Takac:Spojene_arabske_emiraty:MBZUAI:Abu_Dhabi:docent:optimalizacia:muz',field:'optimaliz\xE1\
@@ -999,13 +999,12 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1958,y:40,name:'Juraj Hromkovi\u010D',id:'Hromkovic:Svajciarsko:ETH_Zurich:Zurich:profesor:teoreticka_informatika:muz',field:'teoretick\xE1\
   \ informatika',area:'informatika'},{x:1965,y:40,name:'Katar\xEDna Miku\u0161ov\xE1\
   ',id:'Mikusova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:biochemia:zena',field:'bioch\xE9\
-  mia',area:'ch\xE9mia'},{x:1991,y:40,name:'Marek Samec',id:'Samec:Slovensko:Univerzita_Komenskeho:Martin:odborny_asistent:onkologia:muz',field:'onkol\xF3\
+  mia',area:'ch\xE9mia'},{x:1955,y:40,name:'Pavol \u0160ajgal\xEDk',id:'Sajgalik:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:materialova_veda:muz',field:'materi\xE1\
+  lov\xE1 veda',area:'materi\xE1ly'},{x:1991,y:40,name:'Marek Samec',id:'Samec:Slovensko:Univerzita_Komenskeho:Martin:odborny_asistent:onkologia:muz',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1941,y:39,name:'Vladim\xEDr Farka\u0161',id:'Farkas:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1959,y:39,name:'Zuzana Gdovinov\xE1',id:'Gdovinova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:neurologia:zena',field:'neurol\xF3\
   gia',area:'medic\xEDna'},{x:1954,y:39,name:'J\xE1n Lehotsk\xFD',id:'Lehotsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:lekarska_biochemia:muz',field:'lek\xE1\
-  rska bioch\xE9mia',area:'medic\xEDna'},{x:1955,y:39,name:'Pavol \u0160ajgal\xED\
-  k',id:'Sajgalik:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:materialova_veda:muz',field:'materi\xE1\
-  lov\xE1 veda',area:'materi\xE1ly'},{x:1977,y:39,name:'Marek S\xFDkora',id:'Sykora:Rakusko:Sigmund_Freud_University:Vieden:profesor:neurologia:muz',field:'neurol\xF3\
+  rska bioch\xE9mia',area:'medic\xEDna'},{x:1977,y:39,name:'Marek S\xFDkora',id:'Sykora:Rakusko:Sigmund_Freud_University:Vieden:profesor:neurologia:muz',field:'neurol\xF3\
   gia',area:'medic\xEDna'},{x:1977,y:39,name:'Ivan Viola',id:'Viola:Saudska_Arabia:KAUST:Thuwal:profesor:pocitacova_grafika_a_vizualizacia:muz',field:'po\u010D\
   \xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia',area:'informatika'},{x:1966,y:38,name:'M\xE1\
   ria Bielikov\xE1',id:'Bielikova:Slovensko:Kempelen_Institute_of_Intelligent_Technologies:Bratislava:profesorka:odporucacie_systemy:zena',field:'odpor\xFA\
@@ -1014,8 +1013,9 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ rezonancia',area:'fyzika'},{x:1977,y:38,name:'\u013Dubo\u0161 Dani\u0161ovi\u010D\
   ',id:'Danisovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:tkanivove_inzinierstvo:muz',field:'tkanivov\xE9\
   \ in\u017Einierstvo',area:'medic\xEDna'},{x:1968,y:38,name:'Jarko Fidrmuc',id:'Fidrmuc:Nemecko:Zeppelin_University:Friedrichshafen:profesor:medzinarodna_ekonomia:muz',field:'medzin\xE1\
-  rodn\xE1 ekon\xF3mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1960,y:38,name:'O\u013E\
-  ga Kri\u017Eanov\xE1',id:'Krizanova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:lekarska_chemia_a_biochemia:zena',field:'lek\xE1\
+  rodn\xE1 ekon\xF3mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1966,y:38,name:'Klaudia\
+  \ Jomov\xE1',id:'Jomova:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesorka:toxikologia:zena',field:'toxikol\xF3\
+  gia',area:'medic\xEDna'},{x:1960,y:38,name:'O\u013Ega Kri\u017Eanov\xE1',id:'Krizanova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:lekarska_chemia_a_biochemia:zena',field:'lek\xE1\
   rska ch\xE9mia a bioch\xE9mia',area:'ch\xE9mia'},{x:1967,y:38,name:'Miroslav Ove\u010D\
   ka',id:'Ovecka:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:profesor:molekularna_a_bunkova_biologia:muz',field:'molekul\xE1\
   rna a bunkov\xE1 biol\xF3gia',area:'biol\xF3gia'},{x:1981,y:38,name:'\u013Dudov\xED\
@@ -1025,13 +1025,15 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ magnetizmu',area:'fyzika'},{x:1969,y:38,name:'Vladimir Zele\u0148\xE1k',id:'Zelenak:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:anorganicka_chemia:muz',field:'anorganick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1962,y:37,name:'Milan \u010Cert\xEDk',id:'Certik:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:biotechnologia:muz',field:'biotechnol\xF3\
   gia',area:'biol\xF3gia'},{x:1975,y:37,name:'Peter Halama',id:'Halama:Slovensko:Trnavska_univerzita:Trnava:profesor:psychologia:muz',field:'psychol\xF3\
-  gia',area:'spolo\u010Densk\xE9 vedy'},{x:1966,y:37,name:'Klaudia Jomov\xE1',id:'Jomova:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesorka:toxikologia:zena',field:'toxikol\xF3\
-  gia',area:'medic\xEDna'},{x:1957,y:37,name:'M\xE1ria Kazim\xEDrov\xE1',id:'Kazimirova:Slovensko:Slovenska_akademia_vied:Bratislava:vedkyna:parazitologia:zena',field:'parazitol\xF3\
+  gia',area:'spolo\u010Densk\xE9 vedy'},{x:1957,y:37,name:'M\xE1ria Kazim\xEDrov\xE1\
+  ',id:'Kazimirova:Slovensko:Slovenska_akademia_vied:Bratislava:vedkyna:parazitologia:zena',field:'parazitol\xF3\
   gia',area:'biol\xF3gia'},{x:1947,y:37,name:'Vladim\xEDr Kell\xF6',id:'Kello:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1980,y:37,name:'\u013Dubo\u0161 Kri\u0161\u0165\
   \xE1k',id:'Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:fyzika_dreva:muz',field:'fyzika\
-  \ dreva',area:'biol\xF3gia'},{x:1956,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1943,y:37,name:'Pavel\
-  \ Oblo\u017Einsk\xFD',id:'Oblozinsky:USA:Brookhaven_National_Laboratory:Upton:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
+  \ dreva',area:'biol\xF3gia'},{x:1956,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1981,y:37,name:'Peter\
+  \ Moln\xE1r',id:'Molnar:Norsko:University_of_Stavanger:Stavanger:profesor:ekonomia:muz',field:'ekon\xF3\
+  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1943,y:37,name:'Pavel Oblo\u017Einsk\xFD\
+  ',id:'Oblozinsky:USA:Brookhaven_National_Laboratory:Upton:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1952,y:37,name:'Karol Ondria\u0161',id:'Ondrias:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biofyzika:muz',field:'biofyzika',area:'fyzika'},{x:1957,y:37,name:'Daniela\
   \ Ostatn\xEDkov\xE1',id:'Ostatnikova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:fyziologia:zena',field:'fyziol\xF3\
   gia',area:'medic\xEDna'},{x:1974,y:37,name:'\u013Dubo\u0161 P\xE1stor',id:'Pastor:USA:University_of_Chicago:Chicago:profesor:ekonomia:muz',field:'ekon\xF3\
@@ -1041,30 +1043,32 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ fyzika',area:'fyzika'},{x:1988,y:36,name:'Matej Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Kosice:vedec:mechanochemia:muz',field:'mechanoch\xE9\
   mia',area:'ch\xE9mia'},{x:1961,y:36,name:'Imrich Bar\xE1k',id:'Barak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:molekularna_biologia:muz',field:'molekul\xE1\
   rna biol\xF3gia',area:'biol\xF3gia'},{x:1952,y:36,name:'Fedor G\xF6m\xF6ry',id:'Gomory:Slovensko:Slovenska_akademia_vied:Bratislava:docent:supravodice:muz',field:'supravodi\u010D\
-  e',area:'fyzika'},{x:1994,y:36,name:'Lenka Koklesov\xE1',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:chemoprevencia_rakoviny_prsnika:zena',field:'chemoprevencia\
+  e',area:'fyzika'},{x:1977,y:36,name:'Martin Kahanec',id:'Kahanec:Rakusko:Central_European_University:Vieden:profesor:ekonomia:muz',field:'ekon\xF3\
+  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1994,y:36,name:'Lenka Koklesov\xE1\
+  ',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:chemoprevencia_rakoviny_prsnika:zena',field:'chemoprevencia\
   \ rakoviny prsn\xEDka',area:'ch\xE9mia'},{x:1959,y:36,name:'\u013Dubica Lacinov\xE1\
   ',id:'Lacinova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1964,y:36,name:'Roman\
   \ Marto\u0148\xE1k',id:'Martonak:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzika_kondenzovanych_latok:muz',field:'fyzika\
-  \ kondenzovan\xFDch l\xE1tok',area:'fyzika'},{x:1981,y:36,name:'Peter Moln\xE1r',id:'Molnar:Norsko:University_of_Stavanger:Stavanger:profesor:ekonomia:muz',field:'ekon\xF3\
-  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1953,y:36,name:'Du\u0161an Pla\u0161\
+  \ kondenzovan\xFDch l\xE1tok',area:'fyzika'},{x:1953,y:36,name:'Du\u0161an Pla\u0161\
   ienka',id:'Plasienka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1964,y:35,name:'Da\u0161a \u010C\xED\u017Ekov\xE1',id:'Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena',field:'neuroimunol\xF3\
   gia',area:'medic\xEDna'},{x:1947,y:35,name:'Ferdinand Dev\xEDnsky',id:'Devinsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmaceuticka_chemia:muz',field:'farmaceutick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1949,y:35,name:'Anatolij Dvure\u010Denskij',id:'Dvurecenskij:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:matematicka_logika:muz',field:'matematick\xE1\
   \ logika',area:'matematika'},{x:1966,y:35,name:'Miroslav Grajcar',id:'Grajcar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
   \ fyzika',area:'fyzika'},{x:1969,y:35,name:'Monika Jani\u0161ov\xE1',id:'Janisova:Slovensko:Botanicky_ustav_CBRB_SAV:Bratislava:samostatna_vedecka_pracovnicka:geobotanika_a_ekologia_luk:zena',field:'geobotanika\
-  \ a ekol\xF3gia l\xFAk',area:'biol\xF3gia'},{x:1977,y:35,name:'Martin Kahanec',id:'Kahanec:Rakusko:Central_European_University:Vieden:profesor:ekonomia:muz',field:'ekon\xF3\
-  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1968,y:35,name:'Miroslav Kocifaj',id:'Kocifaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:optika:muz',field:'optika',area:'fyzika'},{x:1963,y:35,name:'Karol\
+  \ a ekol\xF3gia l\xFAk',area:'biol\xF3gia'},{x:1968,y:35,name:'Miroslav Kocifaj',id:'Kocifaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:optika:muz',field:'optika',area:'fyzika'},{x:1963,y:35,name:'Karol\
   \ Mikula',id:'Mikula:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
   \ matematika',area:'matematika'},{x:1967,y:35,name:'Jozef Nosek',id:'Nosek:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
-  mia',area:'ch\xE9mia'},{x:1953,y:35,name:'J\xE1n Szolgay',id:'Szolgay:Slovensko:Slovenska_technicka_univerzita:Bratislava:emeritny_profesor:hydrologia:muz',field:'hydrol\xF3\
+  mia',area:'ch\xE9mia'},{x:1984,y:35,name:'Matej \u0160korv\xE1nek',id:'Skorvanek:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:neurologia:muz',field:'neurol\xF3\
+  gia',area:'medic\xEDna'},{x:1953,y:35,name:'J\xE1n Szolgay',id:'Szolgay:Slovensko:Slovenska_technicka_univerzita:Bratislava:emeritny_profesor:hydrologia:muz',field:'hydrol\xF3\
   gia',area:'geovedy'},{x:1979,y:35,name:'J\xE1n Titi\u0161',id:'Titis:Slovensko:Univerzita_svateho_Cyrila_a_Metoda_v_Trnave:Trnava:docent:anorganicka_chemia:muz',field:'anorganick\xE1\
-  \ ch\xE9mia',area:'ch\xE9mia'},{x:1974,y:34,name:'Richard Imrich',id:'Imrich:Slovensko:Slovenska_akademia_vied:Bratislava:docent:biomedicina:muz',field:'biomedic\xED\
+  \ ch\xE9mia',area:'ch\xE9mia'},{x:1965,y:34,name:'Pavol Hvizdo\u0161',id:'Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz',field:'keramick\xE9\
+  \ materi\xE1ly',area:'materi\xE1ly'},{x:1974,y:34,name:'Richard Imrich',id:'Imrich:Slovensko:Slovenska_akademia_vied:Bratislava:docent:biomedicina:muz',field:'biomedic\xED\
   na',area:'medic\xEDna'},{x:1979,y:34,name:'Ladislav Mura',id:'Mura:Slovensko:Ekonomicka_univerzita_v_Bratislave:Bratislava:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1951,y:34,name:'Igor Nov\xE1k',id:'Novak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:polymerna_chemia:muz',field:'polym\xE9\
   rna ch\xE9mia',area:'ch\xE9mia'},{x:1948,y:34,name:'Milan Remko',id:'Remko:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
-  lna ch\xE9mia',area:'ch\xE9mia'},{x:1984,y:34,name:'Matej \u0160korv\xE1nek',id:'Skorvanek:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:neurologia:muz',field:'neurol\xF3\
-  gia',area:'medic\xEDna'},{x:1966,y:34,name:'\u013Dubom\xEDr Tom\xE1\u0161ka',id:'Tomaska:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:genetika_a_molekularna_biologia:muz',field:'genetika\
+  lna ch\xE9mia',area:'ch\xE9mia'},{x:1966,y:34,name:'\u013Dubom\xEDr Tom\xE1\u0161\
+  ka',id:'Tomaska:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:genetika_a_molekularna_biologia:muz',field:'genetika\
   \ a molekul\xE1rna biol\xF3gia',area:'biol\xF3gia'},{x:1966,y:34,name:'Iveta Waczul\xED\
   kov\xE1',id:'Waczulikova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1988,y:34,name:'Michal\
   \ Zaja\u010Dek',id:'Zajacek:Cesko:Masarykova_univerzita:Brno:docent:astrofyzika_galaktickych_jadier_a_ciernych_dier:muz',field:'astrofyzika\
@@ -1073,10 +1077,10 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ensk\xE9 vedy'},{x:1983,y:33,name:'Du\u0161an Dr\xE1bik',id:'Drabik:Holandsko:Wageningen_University:Wageningen:docent:polnohospodarska_ekonomia:muz',field:'po\u013E\
   nohospod\xE1rska ekon\xF3mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1958,y:33,name:'Jozef\
   \ D\u017Eurina',id:'Dzurina:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
-  lne rovnice',area:'matematika'},{x:1965,y:33,name:'Milo\u0161 Hitka',id:'Hitka:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:manazment:muz',field:'mana\u017E\
-  ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1965,y:33,name:'Pavol Hvizdo\u0161\
-  ',id:'Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz',field:'keramick\xE9\
-  \ materi\xE1ly',area:'materi\xE1ly'},{x:1977,y:33,name:'Jana Kordul\xE1kov\xE1',id:'Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena',field:'bioch\xE9\
+  lne rovnice',area:'matematika'},{x:1989,y:33,name:'Jaroslav Frnda',id:'Frnda:Slovensko:Zilinska_univerzita:Zilina:docent:datova_veda:muz',field:'d\xE1\
+  tov\xE1 veda',area:'informatika'},{x:1965,y:33,name:'Milo\u0161 Hitka',id:'Hitka:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:manazment:muz',field:'mana\u017E\
+  ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1977,y:33,name:'Jana Kordul\xE1kov\xE1\
+  ',id:'Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1964,y:33,name:'Ivan Kuric',id:'Kuric:Slovensko:Zilinska_univerzita:Zilina:profesor:automatizacia_vyrobnych_systemov:muz',field:'automatiz\xE1\
   cia v\xFDrobn\xFDch syst\xE9mov',area:'in\u017Einierstvo'},{x:1963,y:33,name:'J\xE1\
   n Kyselovi\u010D',id:'Kyselovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmakologia:muz',field:'farmakol\xF3\
@@ -1091,8 +1095,7 @@ year_hindex_xy: "[{x:1952,y:272,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1986,y:32,name:'Tom\xE1\u0161 Bert\xF3\
   k',id:'Bertok:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biosenzory:muz',field:'biosenzory',area:'biol\xF3\
   gia'},{x:1967,y:32,name:'\u013Dubo\u0161 Drgo\u0148a',id:'Drgona:Slovensko:Narodny_onkologicky_ustav:Bratislava:docent:onkohematologia:muz',field:'onkohematol\xF3\
-  gia',area:'medic\xEDna'},{x:1989,y:32,name:'Jaroslav Frnda',id:'Frnda:Slovensko:Zilinska_univerzita:Zilina:docent:datova_veda:muz',field:'d\xE1\
-  tov\xE1 veda',area:'informatika'},{x:1961,y:32,name:'Ctirad Klim\u010D\xEDk',id:'Klimcik:Francuzsko:Universite_Aix-Marseille:Marseille:profesor:matematicka_fyzika:muz',field:'matematick\xE1\
+  gia',area:'medic\xEDna'},{x:1961,y:32,name:'Ctirad Klim\u010D\xEDk',id:'Klimcik:Francuzsko:Universite_Aix-Marseille:Marseille:profesor:matematicka_fyzika:muz',field:'matematick\xE1\
   \ fyzika',area:'matematika'},{x:1958,y:32,name:'Vladim\xEDr Kov\xE1\u010D',id:'Kovac:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:biologia_ryb:muz',field:'biol\xF3\
   gia r\xFDb',area:'biol\xF3gia'},{x:1963,y:32,name:'\u013Dubom\xEDr Lap\u010D\xED\
   k',id:'Lapcik:Cesko:UTB_Zlin_/_UP_Olomouc:Zlin:profesor:fyzikalna_chemia_polymerov:muz',field:'fyzik\xE1\
@@ -1136,9 +1139,9 @@ odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','ekon\xF3mia a mana\u0
   \ inteligencia','spolo\u010Densk\xE9 vedy','ostatn\xE9']"
 odborCount: '[81,69,57,49,20,19,19,18,13,13,11,8,5]'
 odborMin: '[30,30,30,30,30,30,30,31,31,30,35,33,30]'
-odborAvg: '[51.0,59.8,41.8,45.3,38.8,45.2,43.3,43.4,39.6,43.2,50.1,44.1,32.0]'
-odborMax: '[110,272,65,106,56,95,73,92,82,58,79,55,33]'
-odborMedian: '[47.0,43.0,40.0,39.0,36.5,39.0,39.0,40.5,35.0,42.0,45.0,43.0,32.0]'
+odborAvg: '[51.1,59.9,41.8,45.4,38.9,45.3,43.3,43.4,39.6,43.4,50.2,44.1,32.0]'
+odborMax: '[110,272,65,107,56,95,73,92,82,58,80,55,33]'
+odborMedian: '[48.0,43.0,40.0,39.0,37.0,39.0,39.0,40.5,35.0,42.0,45.0,43.0,32.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''informatika'',''inzinierstvo'',''geovedy'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'',''ostatne'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1377,8 +1380,8 @@ odbor_key:
 place: "['Slovensko','zahrani\u010Die']"
 placeCount: '[201,181]'
 placeMin: '[30,30]'
-placeAvg: '[44.7,51.2]'
-placeMax: '[272,259]'
+placeAvg: '[44.7,51.3]'
+placeMax: '[272,260]'
 city_markers: "[{name:'Bratislava',country:'Slovensko',count:139,lat:48.1516988,lon:17.1093063,url:'Bratislava'},{name:'Ko\u0161\
   ice',country:'Slovensko',count:26,lat:48.7172272,lon:21.2496774,url:'Kosice'},{name:'Praha',country:'\u010C\
   esko',count:14,lat:50.0874654,lon:14.4212535,url:'Praha'},{name:'Viede\u0148',country:'Rak\xFA\
@@ -1448,7 +1451,7 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Klime\u0161',h:44},{name:'Norbert \u017Dilka',h:44},{name:'Jozef Ukropec',h:42},{name:'Adam\
   \ Toma\u0161ov\xFDch',h:41},{name:'Andrej Liptaj',h:41},{name:'Igor Tvaro\u0161\
   ka',h:41},{name:'Ivan Chod\xE1k',h:41},{name:'J\xE1n Kormanec',h:41},{name:'Zdenko\
-  \ \u0160pit\xE1lsky',h:41},{name:'Pavol \u0160ajgal\xEDk',h:39},{name:'Vladim\xED\
+  \ \u0160pit\xE1lsky',h:41},{name:'Pavol \u0160ajgal\xEDk',h:40},{name:'Vladim\xED\
   r Farka\u0161',h:39},{name:'Iveta Bern\xE1tov\xE1',h:38},{name:'O\u013Ega Kri\u017E\
   anov\xE1',h:38},{name:'Karol Ondria\u0161',h:37},{name:'M\xE1ria Kazim\xEDrov\xE1\
   ',h:37},{name:'Tanya Ravingerov\xE1',h:37},{name:'Fedor G\xF6m\xF6ry',h:36},{name:'Imrich\
@@ -1461,14 +1464,14 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \u0161 Bert\xF3k',h:32},{name:'Vladim\xEDr Bal\xE1\u017E',h:32},{name:'\u013Dubom\xED\
   r Lichner',h:31},{name:'M\xE1rio Ziman',h:31},{name:'Tom\xE1\u0161 Bleha',h:31},{name:'Peter\
   \ Cifra',h:30}]},{name:'Univerzita Komensk\xE9ho',city:'Bratislava',count:53,lat:48.267,lon:17.109,url:'Univerzita_Komenskeho',names:[{name:'Stanislav\
-  \ Tok\xE1r',h:272},{name:'Pavol Barto\u0161',h:236},{name:'Branislav Sit\xE1r',h:177},{name:'\u0160\
-  tefan Matej\u010D\xEDk',h:90},{name:'Fedor \u0160imkovic',h:77},{name:'Pavel Povinec',h:68},{name:'Peter\
+  \ Tok\xE1r',h:272},{name:'Pavol Barto\u0161',h:237},{name:'Branislav Sit\xE1r',h:177},{name:'\u0160\
+  tefan Matej\u010D\xEDk',h:90},{name:'Fedor \u0160imkovic',h:78},{name:'Pavel Povinec',h:68},{name:'Peter\
   \ Kubatka',h:65},{name:'Alexandra Bra\u017Einov\xE1',h:63},{name:'Vladim\xEDr \u010C\
   ern\xFD',h:63},{name:'Pavol Prokop',h:60},{name:'Josef Jamp\xEDlek',h:57},{name:'Peter\
   \ Celec',h:56},{name:'Michal Mego',h:51},{name:'Jozef Noga',h:47},{name:'Tibor Hianik',h:47},{name:'Tom\xE1\
   \u0161 Bu\u010Dko',h:47},{name:'Nat\xE1lia Kryvinsk\xE1',h:46},{name:'Michal Zeman',h:45},{name:'Michal\
   \ Fe\u010Dkan',h:44},{name:'Jozef Masarik',h:42},{name:'Katar\xEDna \u0160ebekov\xE1\
-  ',h:42},{name:'Zdenko Machala',h:42},{name:'Miroslav Urban',h:41},{name:'Peter Moczo',h:41},{name:'Stanislav\
+  ',h:42},{name:'Peter Moczo',h:42},{name:'Zdenko Machala',h:42},{name:'Miroslav Urban',h:41},{name:'Stanislav\
   \ Antalic',h:41},{name:'Juraj Bujd\xE1k',h:40},{name:'Katar\xEDna Miku\u0161ov\xE1\
   ',h:40},{name:'J\xE1n Lehotsk\xFD',h:39},{name:'\u013Dubo\u0161 Dani\u0161ovi\u010D\
   ',h:38},{name:'\u013Dudov\xEDt Paulis',h:38},{name:'Milan S\xFDkora',h:38},{name:'Zdenka\
@@ -1490,14 +1493,14 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   ',h:31},{name:'Albert Breier',h:30},{name:'Miroslav G\xE1l',h:30}]},{name:'Slovensk\xE1\
   \ akad\xE9mia vied',city:'Ko\u0161ice',count:9,lat:48.6875,lon:21.17255661457009,url:'Slovenska_akademia_vied',names:[{name:'J\xE1\
   n Dusza',h:54},{name:'Peter Kop\u010Dansk\xFD',h:42},{name:'Milan Timko',h:38},{name:'Matej\
-  \ Bal\xE1\u017E',h:36},{name:'Pavol Hvizdo\u0161',h:33},{name:'Dana Miklisov\xE1\
+  \ Bal\xE1\u017E',h:36},{name:'Pavol Hvizdo\u0161',h:34},{name:'Dana Miklisov\xE1\
   ',h:32},{name:'Karol Flachbart',h:31},{name:'Zuzana Ga\u017Eov\xE1',h:31},{name:'Peter\
   \ Samuely',h:30}]},{name:'Univerzita Pavla Jozefa \u0160af\xE1rika',city:'Ko\u0161\
   ice',count:9,lat:48.6875,lon:21.327443385429913,url:'Univerzita_Pavla_Jozefa_Safarika',names:[{name:'Andrea\
-  \ Madarasov\xE1 Geckov\xE1',h:55},{name:'Iveta Nagyov\xE1',h:47},{name:'Martin Ba\u010D\
-  kor',h:47},{name:'Martin Gmitra',h:46},{name:'J\xE1n Moj\u017Ei\u0161',h:44},{name:'Zuzana\
+  \ Madarasov\xE1 Geckov\xE1',h:55},{name:'Iveta Nagyov\xE1',h:48},{name:'Martin Ba\u010D\
+  kor',h:47},{name:'Martin Gmitra',h:46},{name:'J\xE1n Moj\u017Ei\u0161',h:45},{name:'Zuzana\
   \ Gdovinov\xE1',h:39},{name:'Vladimir Zele\u0148\xE1k',h:38},{name:'Matej \u0160\
-  korv\xE1nek',h:34},{name:'Eva \u010Cell\xE1rov\xE1',h:31}]},{name:'Technick\xE1\
+  korv\xE1nek',h:35},{name:'Eva \u010Cell\xE1rov\xE1',h:31}]},{name:'Technick\xE1\
   \ univerzita v Ko\u0161iciach',city:'Ko\u0161ice',count:8,lat:48.775999999999996,lon:21.25,url:'Technicka_univerzita_v_Kosiciach',names:[{name:'Be\xE1\
   ta Gavurov\xE1',h:56},{name:'Ivo Petr\xE1\u0161',h:47},{name:'Sergej Hloch',h:44},{name:'Igor\
   \ Podlubn\xFD',h:42},{name:'Gabriel Fedorko',h:38},{name:'Martin Ba\u010Da',h:35},{name:'Jozef\
@@ -1508,15 +1511,15 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Bo\u0161e\u013Ea',h:34},{name:'Franti\u0161ek M\xE1li\u0161',h:33},{name:'Milo\u0161\
   \ Hitka',h:33},{name:'Marek Svitok',h:31}]},{name:'\u017Dilinsk\xE1 univerzita',city:'\u017D\
   ilina',count:6,lat:49.2234674,lon:18.7393139,url:'Zilinska_univerzita',names:[{name:'Tom\xE1\
-  \u0161 Klie\u0161tik',h:52},{name:'Katar\xEDna Val\xE1\u0161kov\xE1',h:47},{name:'Juraj\
+  \u0161 Klie\u0161tik',h:52},{name:'Katar\xEDna Val\xE1\u0161kov\xE1',h:46},{name:'Juraj\
   \ Gerlici',h:36},{name:'M\xE1ria Kov\xE1\u010Dov\xE1',h:35},{name:'Ivan Kuric',h:33},{name:'Jaroslav\
-  \ Frnda',h:32}]},{name:'Slovensk\xE1 po\u013Enohospod\xE1rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:[{name:'Mari\xE1\
-  n Bresti\u010D',h:106},{name:'Marek \u017Div\u010D\xE1k',h:57},{name:'Miroslava\
-  \ Ka\u010D\xE1niov\xE1',h:54},{name:'Peter Mass\xE1nyi',h:49}]},{name:'Trnavsk\xE1\
+  \ Frnda',h:33}]},{name:'Slovensk\xE1 po\u013Enohospod\xE1rska univerzita',city:'Nitra',count:4,lat:48.364000000000004,lon:18.089,url:'Slovenska_polnohospodarska_univerzita',names:[{name:'Mari\xE1\
+  n Bresti\u010D',h:107},{name:'Marek \u017Div\u010D\xE1k',h:57},{name:'Miroslava\
+  \ Ka\u010D\xE1niov\xE1',h:54},{name:'Peter Mass\xE1nyi',h:50}]},{name:'Trnavsk\xE1\
   \ univerzita',city:'Trnava',count:3,lat:48.428000000000004,lon:17.586,url:'Trnavska_univerzita',names:[{name:'Marek\
   \ Majdan',h:76},{name:'Martin Rusn\xE1k',h:38},{name:'Peter Halama',h:37}]},{name:'Univerzita\
   \ Kon\u0161tant\xEDna Filozofa',city:'Nitra',count:3,lat:48.262,lon:18.089,url:'Univerzita_Konstantina_Filozofa',names:[{name:'Alexander\
-  \ V. Sirotkin',h:45},{name:'Klaudia Jomov\xE1',h:37},{name:'\u0160tefan Be\u0148\
+  \ V. Sirotkin',h:45},{name:'Klaudia Jomov\xE1',h:38},{name:'\u0160tefan Be\u0148\
   u\u0161',h:33}]},{name:'Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave',city:'Trnava',count:3,lat:48.326,lon:17.586,url:'Univerzita_svateho_Cyrila_a_Metoda_v_Trnave',names:[{name:'Roman\
   \ Bo\u010Da',h:53},{name:'Stanislav Miertu\u0161',h:46},{name:'J\xE1n Titi\u0161\
   ',h:35}]},{name:'Fyzik\xE1lny \xFAstav SAV',city:'Bratislava',count:2,lat:48.22370132721375,lon:16.974233142750087,url:'Fyzikalny_ustav_SAV',names:[{name:'Peter\
@@ -1548,11 +1551,11 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Ga\u0161per\xEDkov\xE1',h:36}]}]"
 record_area: "[{name:'Stanislav Tok\xE1r',h:272,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',area:'fyzika'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',area:'medic\xED\
-  na'},{name:'Mari\xE1n Bresti\u010D',h:106,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
+  na'},{name:'Mari\xE1n Bresti\u010D',h:107,id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',area:'biol\xF3\
   gia'},{name:'Kl\xE1ra Nahrstedt',h:95,id:'Nahrstedt:USA:University_of_Illinois:Urbana-Champaign:profesorka:distribuovane_systemy:zena',area:'informatika'},{name:'J\xE1\
   n Veizer',h:92,id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',area:'geovedy'},{name:'Radko\
   \ Mesiar',h:82,id:'Mesiar:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',area:'matematika'},{name:'Ru\u017E\
-  ena Bajcsy',h:79,id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',area:'umel\xE1\
+  ena Bajcsy',h:80,id:'Bajcsy:USA:University_of_California:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',area:'umel\xE1\
   \ inteligencia'},{name:'Pavol Bauer',h:73,id:'Bauer:Holandsko:Delft_University_of_Technology:Delft:profesor:elektronika:muz',area:'in\u017E\
   inierstvo'},{name:'Peter Biely',h:65,id:'Biely:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biochemia:muz',area:'ch\xE9\
   mia'},{name:'Jozef Ke\u010Dk\xE9\u0161',h:58,id:'Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz',area:'materi\xE1\
@@ -1564,6 +1567,6 @@ record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_Univer
   \ Sit\xE1r',h:177,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
   \ Tok\xE1r',h:272,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1950s'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:University_of_Adelaide:Adelaide:profesor:neurogenetika:muz',decade:'1960s'},{name:'Roman\
-  \ Lys\xE1k',h:259,id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',decade:'1970s'},{name:'Pavol\
-  \ Barto\u0161',h:236,id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',decade:'1980s'},{name:'Peter\
+  \ Lys\xE1k',h:260,id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',decade:'1970s'},{name:'Pavol\
+  \ Barto\u0161',h:237,id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',decade:'1980s'},{name:'Peter\
   \ \u0160vihra',h:71,id:'Svihra:Svajciarsko:CERN:Zeneva:vedec:subjadrova_fyzika:muz',decade:'1990s'}]"
