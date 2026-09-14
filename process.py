@@ -76,6 +76,7 @@ FIELD_GROUPS = [
 		'oftalm', 'pediatr', 'reumat', 'biomedicin',
 		'tkanivov',
 		'toxikol', 'hygien', 'fyziologia', 'imun', 'genetik',
+		'androlog',
 	]),
 	('biológia', [
 		'ochrana les', 'genomik', 'genomov', 'pre-mrna', 'splicing',
