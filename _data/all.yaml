@@ -7067,6 +7067,32 @@
   affiliationurl: The_University_of_Melbourne
   cityurl: Melbourne
   sexurl: muz
+- name: "Eva Tvrd\xE1"
+  last: Tvrda
+  year: ''
+  sex: "\u017Eena"
+  position: profesorka
+  field: "androl\xF3gia"
+  affiliation: Estonian University of Life Sciences
+  city: Tartu
+  country: "Est\xF3nsko"
+  hindex: 39
+  scholar: https://scholar.google.com/citations?hl=sk&user=kroyJioAAAAJ
+  last_update: '2026-09-14'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2895-1249
+  - - web
+    - https://www.emu.ee/en/contacts/eva-tvrda
+  img: Eva_Tvrda_size_280px.jpg
+  countryurl: Estonsko
+  fieldurl: andrologia
+  area: "ostatn\xE9"
+  areaurl: ostatne
+  positionurl: profesorka
+  affiliationurl: Estonian_University_of_Life_Sciences
+  cityurl: Tartu
+  sexurl: zena
 - name: Ivan Viola
   last: Viola
   year: 1977
