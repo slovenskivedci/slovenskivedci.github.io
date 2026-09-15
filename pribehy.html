@@ -13,9 +13,8 @@ title: Príbehy
         </p>
 
         <div class="pribehy-list" style="text-align:left;">
-          {% assign stories = site.data.all | where_exp: "p", "p.pribeh and p.pribeh != ''" %}
-          {% assign stories = stories | sort: "hindex" | reverse %}
-          {% for p in stories %}
+          {% for p in site.data.all %}
+          {% if p.pribeh %}
           <div class="pribeh-row">
             {% if p.img %}
             <a class="pribeh-thumb" href="/#{{ p.last }}:{{ p.countryurl }}:{{ p.affiliationurl }}:{{ p.cityurl }}:{{ p.positionurl }}:{{ p.fieldurl }}:{{ p.sexurl }}">
@@ -29,6 +28,7 @@ title: Príbehy
               <p class="pribeh-text">{{ p.pribeh }}</p>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
