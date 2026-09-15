@@ -1,5 +1,6 @@
 import oyaml as yaml
 import os
+import re
 import math
 
 import glob
@@ -183,7 +184,10 @@ for y in glob.glob("./people/*.yaml"):
 		dic["last"]=repl(dic["last"])
 		
 		links=dic['links']
-		links=[ [k, links[k]] for k in links]
+		def _link_label(k):
+			# "web 1" -> "web1" (glue trailing number to the word)
+			return re.sub(r'\s+(\d+)$', r'\1', str(k))
+		links=[ [_link_label(k), links[k]] for k in links]
 
 		links = sorted(links, key=lambda kv: kv[0].lower())
 
