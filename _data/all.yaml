@@ -740,9 +740,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "optimaliz\xE1cia"
-  pribeh: "Na KAUST u\u010D\xED n\xE1hodn\xFD gradient a federovan\xE9 u\u010Denie,\
-    \ aby sa ve\u013Ek\xE9 d\xE1ta vedeli dohodn\xFA\u0165, aj ke\u010F sa nikdy nestretn\xFA\
-    \ v jednej miestnosti."
+  pribeh: "Na KAUSTe u\u010D\xED stochastick\xE9 gradientov\xE9 met\xF3dy a federovan\xE9\
+    \ u\u010Denie."
   affiliation: KAUST
   city: Thuwal
   country: "Saudsk\xE1 Ar\xE1bia"
@@ -12586,34 +12585,6 @@
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
   sexurl: muz
-- name: Michal Cifra
-  last: Cifra
-  year: 1983
-  sex: "mu\u017E"
-  position: "ved\xFAci t\xEDmu"
-  field: "bioelektrodynamika a biofot\xF3nika"
-  pribeh: "Na AV \u010CR meria nano\u0161ibk\xE9 elektrick\xE9 a sveteln\xE9 sign\xE1\
-    ly buniek \u2014 bioelektrodynamika bez ezoterick\xE9ho oparu."
-  affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
-  city: Praha
-  country: "\u010Cesko"
-  hindex: 30
-  scholar: https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ
-  last_update: '2026-09-05'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0002-8853-9523
-  - - web
-    - https://www.ufe.cz/en/z/michal-cifra/
-  img: Michal_Cifra_size_280px.jpg
-  countryurl: Cesko
-  fieldurl: bioelektrodynamika_a_biofotonika
-  area: fyzika
-  areaurl: fyzika
-  positionurl: veduci_timu
-  affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
-  cityurl: Praha
-  sexurl: muz
 - name: Peter Cifra
   last: Cifra
   year: 1955
@@ -12641,6 +12612,34 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Michal Cifra
+  last: Cifra
+  year: 1983
+  sex: "mu\u017E"
+  position: "ved\xFAci t\xEDmu"
+  field: "bioelektrodynamika a biofot\xF3nika"
+  pribeh: "Na AV \u010CR meria nano\u0161ibk\xE9 elektrick\xE9 a sveteln\xE9 sign\xE1\
+    ly buniek \u2014 bioelektrodynamika bez ezoterick\xE9ho oparu."
+  affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ
+  last_update: '2026-09-05'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-8853-9523
+  - - web
+    - https://www.ufe.cz/en/z/michal-cifra/
+  img: Michal_Cifra_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: bioelektrodynamika_a_biofotonika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: veduci_timu
+  affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
+  cityurl: Praha
   sexurl: muz
 - name: "\u013Dubo\u0161 \u010Cip\xE1k"
   last: Cipak
