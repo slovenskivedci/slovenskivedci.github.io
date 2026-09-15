@@ -248,3 +248,10 @@ html {
     outline: 1px solid #1f4e79;
     outline-offset: 2px;
 }
+
+/* Laptop: wider content column; leave phone/tablet Webflow widths alone */
+@media screen and (min-width: 992px) {
+  .w-container {
+    max-width: 1200px;
+  }
+}
