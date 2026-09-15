@@ -10339,6 +10339,30 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Tom\xE1\u0161 Macku\u013Eak"
+  last: Mackulak
+  year: 1982
+  sex: "mu\u017E"
+  position: profesor
+  field: "epidemiol\xF3gia odpadov\xFDch v\xF4d"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita v Bratislave"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?hl=sk&user=k8wqONgAAAAJ
+  last_update: '2026-09-15'
+  links:
+  - - web
+    - https://tomasmackulak.sk
+  img: Tomas_Mackulak_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: epidemiologia_odpadovych_vod
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita_v_Bratislave
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Jozef Mad\u017Eo"
   last: Madzo
   year: 1976
