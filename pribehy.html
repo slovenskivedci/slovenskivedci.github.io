@@ -1,0 +1,70 @@
+---
+layout: lay-pribehy
+title: Príbehy
+---
+
+<div role="list" class="w-dyn-items">
+  <div role="listitem" class="w-dyn-item">
+    <div class="post-wrapper" style="opacity: 1;">
+      <div class="row" align="center" style="max-width: 920px; margin: 0 auto;">
+        <p class="sv-plot-title" style="margin-bottom: 8px;">Príbehy</p>
+        <p class="main-subheading" style="max-width: 640px; margin: 0 auto 22px; text-align: center;">
+          Jedna veta o tom, čím každý prispieva vede.
+        </p>
+
+        <div class="pribehy-list" style="text-align:left;">
+          {% assign stories = site.data.all | where_exp: "p", "p.pribeh and p.pribeh != ''" %}
+          {% assign stories = stories | sort: "hindex" | reverse %}
+          {% for p in stories %}
+          <div class="pribeh-row">
+            {% if p.img %}
+            <a class="pribeh-thumb" href="/#{{ p.last }}:{{ p.countryurl }}:{{ p.affiliationurl }}:{{ p.cityurl }}:{{ p.positionurl }}:{{ p.fieldurl }}:{{ p.sexurl }}">
+              <img src="/images/{{ p.img }}" alt="" width="56" height="31" loading="lazy">
+            </a>
+            {% endif %}
+            <div class="pribeh-body">
+              <a class="pribeh-name" href="/#{{ p.last }}:{{ p.countryurl }}:{{ p.affiliationurl }}:{{ p.cityurl }}:{{ p.positionurl }}:{{ p.fieldurl }}:{{ p.sexurl }}">{{ p.name }}</a>
+              <span class="pribeh-h">h&nbsp;{{ p.hindex }}</span>
+              <span class="pribeh-field">{{ p.field }}{% if p.area %} · {{ p.area }}{% endif %}</span>
+              <p class="pribeh-text">{{ p.pribeh }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.pribeh-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font: 14px/1.45 "Open Sans", Arial, sans-serif;
+}
+.pribeh-thumb img {
+  display: block;
+  width: 56px;
+  height: 31px;
+  object-fit: cover;
+  border-radius: 3px;
+  background: #f3f3f3;
+}
+.pribeh-body { flex: 1; min-width: 0; }
+.pribeh-name {
+  font-weight: 700;
+  color: #1f4e79;
+  margin-right: 8px;
+}
+.pribeh-h { color: #555; font-size: 13px; margin-right: 8px; }
+.pribeh-field { color: #888; font-size: 12px; }
+.pribeh-text {
+  margin: 4px 0 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+</style>

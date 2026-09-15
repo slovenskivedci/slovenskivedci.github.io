@@ -1,0 +1,173 @@
+---
+layout: lay-suvislosti
+title: Súvislosti
+---
+
+<div role="list" class="w-dyn-items">
+  <div role="listitem" class="w-dyn-item">
+    <div class="post-wrapper" style="opacity: 1;">
+      <div class="row" align="center" style="max-width: 920px; margin: 0 auto;">
+        <p class="sv-plot-title" style="margin-bottom: 8px;">Súvislosti</p>
+        <p class="main-subheading" style="max-width: 640px; margin: 0 auto 18px; text-align: center;">
+          Prehľadajte, kto zdieľa odbor, pracovisko, mesto alebo krajinu.
+        </p>
+
+        <div id="conn-chips" class="conn-chips" style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 20px;">
+          <button type="button" class="conn-chip selected" data-dim="areas">Odbor</button>
+          <button type="button" class="conn-chip" data-dim="affiliations">Pracovisko</button>
+          <button type="button" class="conn-chip" data-dim="cities">Mesto</button>
+          <button type="button" class="conn-chip" data-dim="countries">Krajina</button>
+        </div>
+
+        <div id="conn-panels" style="text-align:left;">
+          <div class="conn-panel" data-dim="areas">
+            {% for g in site.data.page.conn_areas %}
+            <details class="conn-group">
+              <summary><strong>{{ g.label }}</strong> <span class="conn-count">({{ g.count }})</span>
+                <a class="conn-filter" href="/?area={{ g.url }}">filter</a>
+              </summary>
+              <ul class="conn-members">
+                {% for m in g.members %}
+                <li>
+                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
+                  <span class="conn-meta">{{ m.field }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </details>
+            {% endfor %}
+          </div>
+
+          <div class="conn-panel" data-dim="affiliations" hidden>
+            {% for g in site.data.page.conn_affiliations %}
+            <details class="conn-group">
+              <summary><strong>{{ g.label }}</strong> <span class="conn-count">({{ g.count }})</span>
+                <a class="conn-filter" href="/?affiliation={{ g.url }}">filter</a>
+              </summary>
+              <ul class="conn-members">
+                {% for m in g.members %}
+                <li>
+                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
+                  <span class="conn-meta">{{ m.field }} · {{ m.city }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </details>
+            {% endfor %}
+          </div>
+
+          <div class="conn-panel" data-dim="cities" hidden>
+            {% for g in site.data.page.conn_cities %}
+            <details class="conn-group">
+              <summary><strong>{{ g.label }}</strong> <span class="conn-count">({{ g.count }})</span>
+                <a class="conn-filter" href="/?city={{ g.url }}">filter</a>
+              </summary>
+              <ul class="conn-members">
+                {% for m in g.members %}
+                <li>
+                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
+                  <span class="conn-meta">{{ m.affiliation }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </details>
+            {% endfor %}
+          </div>
+
+          <div class="conn-panel" data-dim="countries" hidden>
+            {% for g in site.data.page.conn_countries %}
+            <details class="conn-group">
+              <summary><strong>{{ g.label }}</strong> <span class="conn-count">({{ g.count }})</span>
+                <a class="conn-filter" href="/?country={{ g.url }}">filter</a>
+              </summary>
+              <ul class="conn-members">
+                {% for m in g.members %}
+                <li>
+                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
+                  <span class="conn-meta">{{ m.city }} · {{ m.affiliation }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </details>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.conn-chip {
+  border: 1px solid #d0d7de;
+  background: #fff;
+  color: #444;
+  font: 13px/1.2 "Open Sans", Arial, sans-serif;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.conn-chip:hover { background: #fff8d6; }
+.conn-chip.selected { background: #fff8d6; color: #1f4e79; border-color: #c9c09a; }
+.conn-group {
+  border-bottom: 1px solid #eee;
+  padding: 6px 0;
+  font: 14px/1.45 "Open Sans", Arial, sans-serif;
+}
+.conn-group summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+.conn-group summary::-webkit-details-marker { display: none; }
+.conn-group summary::before {
+  content: "▸";
+  color: #888;
+  display: inline-block;
+  width: 1em;
+}
+.conn-group[open] summary::before { content: "▾"; }
+.conn-count { color: #888; font-weight: 400; }
+.conn-filter {
+  margin-left: auto;
+  font-size: 12px;
+  color: #1f4e79;
+}
+.conn-members {
+  margin: 6px 0 10px 1.4em;
+  padding: 0;
+  list-style: none;
+}
+.conn-members li {
+  margin: 3px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+}
+.conn-h { color: #555; font-size: 13px; }
+.conn-meta { color: #888; font-size: 12px; }
+</style>
+
+<script>
+(function () {
+  var chips = document.querySelectorAll(".conn-chip");
+  var panels = document.querySelectorAll(".conn-panel");
+  chips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      var dim = chip.getAttribute("data-dim");
+      chips.forEach(function (c) { c.classList.toggle("selected", c === chip); });
+      panels.forEach(function (p) {
+        p.hidden = p.getAttribute("data-dim") !== dim;
+      });
+    });
+  });
+})();
+</script>

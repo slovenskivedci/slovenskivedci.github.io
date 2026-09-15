@@ -232,6 +232,12 @@ for y in glob.glob("./people/*.yaml"):
 
 
 alllst = sorted(alllst,key= lambda e: (-int(e['hindex']), e['last'] ))
+
+# Optional witty one-liner; omit empty from all.yaml cleanliness is fine — keep if present.
+pribeh_have = sum(1 for e in alllst if str(e.get('pribeh') or '').strip())
+pribeh_missing = len(alllst) - pribeh_have
+print('pribeh present', pribeh_have, 'missing', pribeh_missing)
+
 with open(r'_data/all.yaml', 'w') as file:
 	documents = yaml.dump(alllst, file)
 
@@ -609,6 +615,63 @@ for label in decade_order:
 		print("record decade", label, pname, person["hindex"])
 stats["record_decade"] = "[" + ",".join(decade_rec_js) + "]"
 
+
+# --- Connection indexes for Súvislosti page (data-driven) ---
+def _member_brief(person):
+	return {
+		"name": person.get("name") or person.get("last") or "",
+		"last": person.get("last") or "",
+		"hindex": int(person.get("hindex") or 0),
+		"field": person.get("field") or "",
+		"area": person.get("area") or "",
+		"affiliation": person.get("affiliation") or "",
+		"city": person.get("city") or "",
+		"country": person.get("country") or "",
+		"img": person.get("img") or "",
+		"card_id": person_card_id(person),
+		"areaurl": person.get("areaurl") or "",
+		"affiliationurl": person.get("affiliationurl") or "",
+		"cityurl": person.get("cityurl") or "",
+		"countryurl": person.get("countryurl") or "",
+	}
+
+def _build_conn(groups, label_key, url_key, min_count):
+	rows = []
+	for label, members in groups.items():
+		if len(members) < min_count:
+			continue
+		members_sorted = sorted(members, key=lambda e: (-int(e["hindex"]), repl(e["last"]).lower(), repl(e["name"]).lower()))
+		url = members_sorted[0].get(url_key) or repl(str(label).replace(" ", "_"))
+		rows.append({
+			"label": label,
+			"url": url,
+			"count": len(members_sorted),
+			"members": members_sorted,
+		})
+	rows.sort(key=lambda e: (-e["count"], repl(e["label"]).lower()))
+	return rows
+
+by_area, by_aff, by_city, by_country = {}, {}, {}, {}
+for person in alllst:
+	m = _member_brief(person)
+	area = (person.get("area") or "ostatné").strip() or "ostatné"
+	aff = (person.get("affiliation") or "").strip() or "neuvedené"
+	city = (person.get("city") or "").strip() or "neuvedené"
+	country = (person.get("country") or "").strip() or "neuvedené"
+	by_area.setdefault(area, []).append(m)
+	by_aff.setdefault(aff, []).append(m)
+	by_city.setdefault(city, []).append(m)
+	by_country.setdefault(country, []).append(m)
+
+# areas: always show; affiliation/city: count>=2; countries: count>=1
+stats["conn_areas"] = _build_conn(by_area, "area", "areaurl", 1)
+stats["conn_affiliations"] = _build_conn(by_aff, "affiliation", "affiliationurl", 2)
+stats["conn_cities"] = _build_conn(by_city, "city", "cityurl", 2)
+stats["conn_countries"] = _build_conn(by_country, "country", "countryurl", 1)
+print("conn areas", len(stats["conn_areas"]),
+	"affiliations", len(stats["conn_affiliations"]),
+	"cities", len(stats["conn_cities"]),
+	"countries", len(stats["conn_countries"]))
 
 with open(r'_data/page.yaml', 'w') as file:
 	documents = yaml.dump(stats, file)
