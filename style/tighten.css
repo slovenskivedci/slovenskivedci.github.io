@@ -159,7 +159,9 @@ a:hover {
     color: #1f4e79;
     text-decoration: none;
 }
-.hindex-link,
+.hindex-link {
+    color: #b44a4a;
+}
 .compact-h {
     color: #555;
 }
@@ -210,17 +212,24 @@ a:hover {
 }
 .ext-link,
 .card-links a,
-.hindex-link,
 .compact-h {
     color: #555;
     text-decoration: none;
     border: none;
 }
+.hindex-link {
+    color: #b44a4a;
+    text-decoration: none;
+    border: none;
+}
 .ext-link:hover,
 .card-links a:hover,
-.hindex-link:hover,
 .compact-h:hover {
     color: #222;
+    text-decoration: none;
+}
+.hindex-link:hover {
+    color: #8f3030;
     text-decoration: none;
 }
 

@@ -279,9 +279,27 @@
     <link href="./style/webflow.0fd7239fd.css" rel="stylesheet" type="text/css">
     <link href="./style/tighten.css" rel="stylesheet" type="text/css">
     <style>
-    .post-wrapper .blog-title {
+    .post-wrapper .card-title-row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0 0 4px;
+    }
+    .post-wrapper .card-title-row .blog-title {
         font-size: 18px;
         line-height: 22px;
+        margin: 0;
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .post-wrapper .card-title-row .hindex-link {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        margin-left: auto;
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
     }
     .post-wrapper p {
         margin-bottom: 4px;
@@ -363,14 +381,17 @@
     a { color: #444; text-decoration: none; }
     a:hover { color: #1f4e79; text-decoration: none; }
     .dropdown-menu a, .dropdown-menu a:hover, .button-round, .button-round:hover { color: #333; text-decoration: none; }
-    .hindex-link, .compact-h { color: #555; }
+    .hindex-link { color: #b44a4a; }
+    .compact-h { color: #555; }
     .nav-current, .nav-current a, .nav-current .menu-text { color: #1f4e79; }
     .filter-link { color: #444; text-decoration: none; border: none; background: transparent; padding: 1px 4px; border-radius: 3px; font-size: 13px; font-weight: 400; }
     .filter-link:hover { color: #444; background: #FFF4B8; text-decoration: none; }
     .filter-link.selected, .filter-link.selected:hover { color: #444; background: #FFF4B8; }
     .card-facts { font-size: 13px; line-height: 20px; color: #666; }
-    .card-links a, .hindex-link, .compact-h { color: #555; text-decoration: none; border: none; }
-    .card-links a:hover, .hindex-link:hover, .compact-h:hover { color: #222; text-decoration: none; }
+    .card-links a, .compact-h { color: #555; text-decoration: none; border: none; }
+    .hindex-link { color: #b44a4a; text-decoration: none; border: none; }
+    .card-links a:hover, .compact-h:hover { color: #222; text-decoration: none; }
+    .hindex-link:hover { color: #8f3030; text-decoration: none; }
 
 
     .post-wrapper .card-pribeh {

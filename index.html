@@ -22,18 +22,10 @@ title: Domov
 						</div>
 
 						<div class="w-col w-col-6">
-							<h1 class="blog-title">{{ item.name }}
-
-							{% if item.year.size > 0 %}
-							 ({{ item.year }})
-							{% endif %}
-
-							</h1>
-
-							<p>
-							<a class="hindex-link" href="{{ item.scholar }}" target="_blank">h-index: {{ item.hindex }}</a><br>
-						  </p>
-
+							<div class="card-title-row">
+								<h1 class="blog-title">{{ item.name }}{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</h1>
+								<a class="hindex-link" href="{{ item.scholar }}" target="_blank">h-index:&nbsp;{{ item.hindex }}</a>
+							</div>
 
 							<p class="post-summary card-facts">
         <a class="filter-link toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
