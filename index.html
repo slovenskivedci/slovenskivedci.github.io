@@ -40,15 +40,15 @@ title: Domov
 							</p>
 
 
+							{% if item.pribeh %}
+							<p class="card-pribeh">{{ item.pribeh }}</p>
+							{% endif %}
+
 							<p class="card-links">
 							{% for link in item.links %}
 								<a href="{{ link[1] }}">{{ link[0] }}</a>
 							{% endfor %}
 							</p>
-
-							{% if item.pribeh %}
-							<p class="card-pribeh">{{ item.pribeh }}</p>
-							{% endif %}
 
 						</div>
 
