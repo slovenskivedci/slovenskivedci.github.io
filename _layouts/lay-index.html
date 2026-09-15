@@ -329,7 +329,7 @@
     }
     .post-wrapper .flex-direction {
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 16px;
     }
     .post-wrapper .flex-direction .column {
@@ -337,9 +337,13 @@
         max-width: 280px;
         flex: 0 0 280px;
     }
-    .post-wrapper .flex-direction .w-col-6:not(.column) {
+    .post-wrapper .flex-direction .w-col-6:not(.column),
+    .post-wrapper .flex-direction .card-text {
         width: auto;
         flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
     }
     .post-wrapper img {
         max-width: 280px;
@@ -395,7 +399,7 @@
 
 
     .post-wrapper .card-pribeh {
-        margin: 10px 0 0;
+        margin: auto 0 0;
         padding: 0;
         font-family: "Cormorant Garamond", "Palatino Linotype", Palatino, Georgia, serif;
         font-style: italic;
