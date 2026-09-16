@@ -276,7 +276,7 @@ html {
 /* Laptop: wider content column; leave phone/tablet Webflow widths alone */
 @media screen and (min-width: 992px) {
   .w-container {
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
@@ -844,7 +844,7 @@ section.header-section {
 /* === scholar list endcaps 2026-09-16i === */
 /* Line above the first scholar and below the last (detailed + compact lists). */
 .w-dyn-list {
-  border-top: 1px solid #eee;
+  border-top: none;
 }
 .post-wrapper {
   border-bottom: 1px solid #eee;
@@ -1012,4 +1012,18 @@ header.header-section {
 /* On Štatistiky / Súvislosti the spacer keeps the same clearance. */
 .header-stack .sex-under-search-spacer {
   margin-bottom: 14px !important;
+}
+
+
+/* === align first divider with card dividers 2026-09-17c === */
+/* Top divider on first card so it shares post-wrapper horizontal margins
+   with the other card borders (not full-width .w-dyn-list). */
+.w-dyn-list {
+  border-top: none !important;
+}
+.w-dyn-item:first-child .post-wrapper {
+  border-top: 1px solid #eee !important;
+}
+.w-dyn-item:first-child .compact-row {
+  border-top: 1px solid #eee !important;
 }
