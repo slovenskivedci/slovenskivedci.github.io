@@ -403,7 +403,11 @@ html {
   line-height: 34px;
 }
 .header-search-col {
-  flex: 0 1 280px;
+  /* width, not flex-basis — flex-basis 280px becomes HEIGHT inside .header-stack column */
+  flex: 0 1 auto;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -958,5 +962,27 @@ header.header-section {
   }
   .content-wrapper {
     padding: 0 0 48px 0 !important;
+  }
+}
+
+
+/* === fix search-col flex-basis height 2026-09-16k === */
+/* .header-search-col had flex: 0 1 280px from the old row header.
+   Inside .header-stack (column), that 280px flex-basis became height → huge white gap. */
+.header-stack .header-search-col {
+  flex: 0 0 auto !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  flex-basis: auto !important;
+  width: 100% !important;
+  max-width: 320px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  align-self: center !important;
+}
+@media (max-width: 700px) {
+  .header-stack .header-search-col {
+    max-width: 100% !important;
   }
 }
