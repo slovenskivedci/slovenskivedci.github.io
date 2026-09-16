@@ -523,3 +523,84 @@ html {
   padding-right: 8px !important;
   padding-left: 6px !important;
 }
+
+/* === header mobile fix 2026-09-16c === */
+@media (max-width: 700px) {
+  .header-section {
+    padding-top: 28px !important;
+    padding-bottom: 12px !important;
+  }
+  .header-top {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+    margin: 0 0 8px !important;
+  }
+  .header-title-col {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  .header-title-col .main-title,
+  .header-top .main-title,
+  .main-title {
+    font-size: 20px !important;
+    line-height: 1.25 !important;
+    text-align: left !important;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+  .header-title-col .scientists-count-line,
+  .scientists-count-line {
+    font-size: 12px !important;
+    margin: 4px 0 0 !important;
+  }
+  .header-search-col {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .header-search-wrap,
+  .header-top .header-search-wrap {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .dropdown-wrapper,
+  .dropdown-wrapper.w-dropdown {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+    margin: 4px 0 0 !important;
+  }
+  .dropdown-menu,
+  .dropdown-menu.w-dropdown-toggle {
+    padding: 4px 7px !important;
+  }
+  .menu-text {
+    font-size: 11px !important;
+  }
+  /* cards: don't crush text beside photo on narrow phones */
+  .post-wrapper .flex-direction {
+    flex-wrap: wrap !important;
+  }
+  .post-wrapper .flex-direction .column {
+    width: 100% !important;
+    max-width: 280px !important;
+    flex: 0 0 auto !important;
+  }
+  .post-wrapper .flex-direction .w-col-6:not(.column),
+  .post-wrapper .flex-direction .card-text {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+  .post-wrapper img {
+    max-width: 100% !important;
+  }
+  .w-container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
