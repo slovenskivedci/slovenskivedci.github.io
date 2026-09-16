@@ -850,3 +850,113 @@ section.header-section {
 }
 /* When filters hide rows, last visible still needs a bottom line:
    keep border on every card/row; the list top covers the first. */
+
+/* === kill header content gap 2026-09-16j (nuclear) === */
+/* Webflow tablet uses padding: 60px 20px shorthand; longhand-only overrides
+   left a visible band. Zero the whole box and re-add only side/bottom padding. */
+.header-section,
+.header-section.wf-section,
+section.header-section,
+header.header-section {
+  padding: 16px 0 0 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+  border-bottom: none !important;
+  background: #fff !important;
+}
+.header-stack {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  gap: 0 !important;
+}
+.header-stack .dropdown-wrapper,
+.header-stack .dropdown-wrapper.w-dropdown {
+  margin: 0 auto 8px auto !important;
+}
+.header-stack .header-title-block {
+  margin: 0 auto 4px auto !important;
+}
+.header-stack .scientists-count-line {
+  margin: 4px 0 0 !important;
+}
+.header-stack .header-search-col {
+  margin: 8px auto 0 !important;
+  padding: 0 !important;
+}
+.header-stack .header-search-wrap {
+  margin: 0 auto !important;
+}
+.header-stack .sex-under-search {
+  margin: 4px 0 0 !important;
+  padding: 0 !important;
+  min-height: 18px;
+}
+/* Keep nav height stable on Štatistiky/Súvislosti without adding a blank band */
+.header-stack .sex-under-search-spacer {
+  margin: 4px 0 0 !important;
+  min-height: 18px;
+  line-height: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.content-wrapper {
+  padding: 0 0 48px 0 !important;
+  margin: 0 !important;
+  background: #fff !important;
+}
+.content-wrapper > .w-container {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+.w-dyn-list {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+/* Pull closed “O zozname” fully out of layout */
+.header-stack .about-list:not([open]) {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+}
+@media screen and (max-width: 991px) {
+  .header-section,
+  .header-section.wf-section,
+  section.header-section,
+  header.header-section {
+    padding: 12px 0 0 0 !important;
+  }
+  .content-wrapper {
+    padding: 0 20px 40px 20px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-section,
+  .header-section.wf-section,
+  section.header-section,
+  header.header-section {
+    padding: 12px 0 0 0 !important;
+  }
+  .content-wrapper {
+    padding: 0 12px 32px 12px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-section,
+  .header-section.wf-section,
+  section.header-section,
+  header.header-section {
+    padding: 16px 0 0 0 !important;
+  }
+  .content-wrapper {
+    padding: 0 0 48px 0 !important;
+  }
+}
