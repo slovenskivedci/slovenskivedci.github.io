@@ -617,3 +617,59 @@ html {
   pointer-events: none;
   user-select: none;
 }
+
+/* === header stack centered 2026-09-16e === */
+.header-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.header-stack .dropdown-wrapper,
+.header-stack .dropdown-wrapper.w-dropdown {
+  display: inline-flex !important;
+  justify-content: center !important;
+  margin: 0 auto 12px auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+  max-width: 100%;
+  float: none !important;
+}
+.header-title-block {
+  width: 100%;
+  max-width: 42em;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+.header-title-block .main-title,
+.header-stack .main-title {
+  display: block;
+  text-align: center !important;
+  margin: 0 auto;
+  float: none;
+}
+.header-title-block .scientists-count-line,
+.header-stack .scientists-count-line {
+  text-align: center !important;
+  margin: 8px 0 0 !important;
+  color: #888;
+}
+.header-stack .header-search-col {
+  width: 100%;
+  max-width: 320px;
+  margin: 12px auto 0;
+  align-items: center;
+}
+.header-stack .header-search-wrap {
+  width: 100%;
+}
+.header-stack .sex-under-search {
+  text-align: center;
+  margin-top: 6px;
+}
+/* kill old side-by-side top bar on this layout */
+.header-stack .header-top { display: contents; }
+@media (max-width: 700px) {
+  .header-stack .header-search-col { max-width: 100%; }
+  .header-stack .main-title { font-size: 20px !important; line-height: 1.25 !important; }
+}

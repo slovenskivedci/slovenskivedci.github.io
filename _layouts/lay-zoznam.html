@@ -417,25 +417,7 @@ width: 100%
 
 
 <header id="header" class="header-section wf-section">
-  <div class="w-container">
-    <div class="header-top">
-      <div class="header-title-col">
-        <a aria-current="page" class="main-title w--current">Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
-        <p class="scientists-count-line"><b><span id="scientists-count"></span></b></p>
-      </div>
-            <div class="header-search-col">
-        <div class="header-search-wrap">
-          <input type="search" id="header-search" class="header-search" placeholder="Hľadať" autocomplete="off" spellcheck="false" aria-label="Hľadať">
-          <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
-        </div>
-        <p class="sex-under-search">
-          <a href="#" class="filter-link sex-chip" data-sex="muz">muži</a>
-          <span class="compact-dot">·</span>
-          <a href="#" class="filter-link sex-chip" data-sex="zena">ženy</a>
-        </p>
-      </div>
-</div>
-
+  <div class="w-container header-stack">
 <div data-delay="200" data-hover="false" data-w-id="6584a19a-5691-0e50-f8da-d2bf173f6d2b" class="dropdown-wrapper w-dropdown">
 
   <div onclick="location.href='/';" style="cursor: pointer;" class="dropdown-menu  w-clearfix w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
@@ -456,7 +438,26 @@ width: 100%
 
 </div>
 
-  <div class="list-controls">
+    <div class="header-title-block">
+    <a aria-current="page" class="main-title w--current">
+		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
+    <p class="scientists-count-line">
+    <b><span id="scientists-count"></span></b>
+    </p>
+    </div>
+
+    <div class="header-search-col">
+      <div class="header-search-wrap">
+        <input type="search" id="header-search" class="header-search" placeholder="Hľadať" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+        <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+      </div>
+    <p class="sex-under-search">
+      <a href="#" class="filter-link sex-chip" data-sex="muz">muži</a>
+      <span class="compact-dot">·</span>
+      <a href="#" class="filter-link sex-chip" data-sex="zena">ženy</a>
+    </p>
+    </div>
+
     <div id="filter" style="display:none">
 		    <span id="filter-field"></span>
 		    <span id="filter-position"></span>
@@ -465,7 +466,7 @@ width: 100%
 		    <span id="filter-city"></span>
         <span id="filter-sex"></span>
 	  </div>
-  </div>
+
     <details class="about-list" id="o-zozname">
       <summary class="about-list-summary">O zozname</summary>
       <p class="main-subheading about-list-body">
