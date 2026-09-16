@@ -102,6 +102,7 @@ a:hover {
 .post-wrapper {
     margin-bottom: 12px;
     padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
 }
 @media screen and (max-width: 991px) {
     .post-wrapper {
@@ -835,3 +836,17 @@ section.header-section {
     padding-top: 4px !important;
   }
 }
+
+/* === scholar list endcaps 2026-09-16i === */
+/* Line above the first scholar and below the last (detailed + compact lists). */
+.w-dyn-list {
+  border-top: 1px solid #eee;
+}
+.post-wrapper {
+  border-bottom: 1px solid #eee;
+}
+.compact-row {
+  border-bottom: 1px solid #eee;
+}
+/* When filters hide rows, last visible still needs a bottom line:
+   keep border on every card/row; the list top covers the first. */
