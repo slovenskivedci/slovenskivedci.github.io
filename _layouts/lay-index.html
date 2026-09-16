@@ -15,6 +15,24 @@
 			//$(".toggle").css("background-color", "white");
 
 		}
+
+	  function normalizeDiacritics(s){
+		return (s || "").toString().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+	  }
+
+	  function entryMatchesSearch($el, qNorm){
+		if (!qNorm) return true;
+		var tokens = qNorm.split(/\s+/).filter(Boolean);
+		if (!tokens.length) return true;
+		var hay = normalizeDiacritics(
+		  $el.text() + " " + ($el.attr("class") || "") + " " + ($el.attr("id") || "")
+		);
+		for (var i = 0; i < tokens.length; i++){
+		  if (hay.indexOf(tokens[i]) === -1) return false;
+		}
+		return true;
+	  }
+
 	  function updateSelectedNumber(){
 		  var numItems = $('.showed').length;
 		  $("#scientists-count").html("POČET VEDCOV: " + numItems + " /  {{ site.data.all.size }} ");
@@ -30,6 +48,8 @@
 		 var affiliation = $("#filter-affiliation").html();
 		 var city = $("#filter-city").html();
      var sex = $("#filter-sex").html();
+
+        var qNorm = normalizeDiacritics($("#header-search").val() || "");
 
 		//  alert(field+" "+position);
 
@@ -59,6 +79,10 @@
 			  }
 
 
+
+			  if (!entryMatchesSearch($(this), qNorm)){
+				  keep=false;
+			  }
 			  return keep==false;
 			});
 
@@ -175,6 +199,34 @@
 
 
 
+
+	  var searchTimer = null;
+	  function syncSearchClear(){
+		var v = $("#header-search").val() || "";
+		$("#header-search-clear").prop("hidden", v.length === 0);
+	  }
+	  function runSearchFilter(){
+		filter();
+		var v = ($("#header-search").val() || "").trim();
+		try {
+		  var url = new URL(window.location.href);
+		  if (v) url.searchParams.set("q", v);
+		  else url.searchParams.delete("q");
+		  history.replaceState(null, "", url.pathname + url.search + url.hash);
+		} catch (e) {}
+	  }
+	  $("#header-search").on("input", function(){
+		syncSearchClear();
+		clearTimeout(searchTimer);
+		searchTimer = setTimeout(runSearchFilter, 150);
+	  });
+	  $("#header-search-clear").on("click", function(){
+		$("#header-search").val("");
+		syncSearchClear();
+		runSearchFilter();
+		$("#header-search").focus();
+	  });
+
 	  function scrollToHash(){
 		var h = window.location.hash;
 		if (!h || h.length < 2) return;
@@ -212,6 +264,13 @@
 		  $("#filter-affiliation").html(qAff);
 		  $(".toggle-affiliation").removeClass("selected");
 		  $(".toggle-affiliation-" + qAff).addClass("selected");
+		  changed = true;
+		}
+
+		var qText = params.get("q");
+		if (qText) {
+		  $("#header-search").val(qText);
+		  syncSearchClear();
 		  changed = true;
 		}
 		if (changed) filter();
@@ -488,7 +547,10 @@
 
 </div>
 
-
+  <div class="header-search-wrap">
+    <input type="search" id="header-search" class="header-search" placeholder="Hľadať meno, pracovisko, mesto…" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+    <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+  </div>
 
 	</div></header>
 

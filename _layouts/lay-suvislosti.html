@@ -128,6 +128,12 @@
 
 
 
+
+  <div class="header-search-wrap">
+    <input type="search" id="header-search" class="header-search" placeholder="Hľadať meno, pracovisko, mesto…" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+    <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+  </div>
+
 	</div></header>
 
 <div class="content-wrapper">
@@ -147,6 +153,29 @@
 
 
 
+
+
+    <script>
+    $(function(){
+      function syncSearchClear(){
+        var v = $("#header-search").val() || "";
+        $("#header-search-clear").prop("hidden", v.length === 0);
+      }
+      $("#header-search").on("input", syncSearchClear);
+      $("#header-search-clear").on("click", function(){
+        $("#header-search").val("");
+        syncSearchClear();
+        $("#header-search").focus();
+      });
+      $("#header-search").on("keydown", function(e){
+        if (e.key === "Enter") {
+          e.preventDefault();
+          var v = ($(this).val() || "").trim();
+          window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
+        }
+      });
+    });
+    </script>
 
 </body>
 
