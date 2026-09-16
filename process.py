@@ -86,6 +86,7 @@ FIELD_GROUPS = [
 		'rastlinna', 'biologia rastlin', 'botanik', 'entomol', 'parazitol',
 		'paleobiol', 'fytolog', 'biogeograf', 'fylogenom',
 		'vegetacna', 'behavioralna ekolog', 'ekolog',
+		'vyziva zvierat', 'vyziva', 'krmiv', 'mikroelement',
 		'biologia ryb', 'reprodukcna biol', 'reproduktivna',
 		'biologia reprodukcie', 'synteza protein', 'genova expres',
 		'genetika drevin', 'molekularna a bunkova', 'molekularna biol',
@@ -111,7 +112,7 @@ FIELD_GROUPS = [
 		'environmentalna chem', 'farmaceuticka chem', 'materialova chem',
 		'medicinalna chem', 'polymer', 'vypoctova chem', 'vypoctova katalyz',
 		'mechanochem', 'krystalograf', 'ilove mineral', 'biopolymer',
-		'membran', 'chemick', 'chem',
+		'membran', 'bunicin', 'lignoceluloz', 'celuloz', 'chemick', 'chem',
 	]),
 	('fyzika', [
 		'rontgenov', 'rontgenovy rozptyl',
@@ -132,6 +133,7 @@ FIELD_GROUPS = [
 	('ekonómia a manažment', [
 		'medzinarodna ekon', 'polnohospodarska ekon', 'ekon',
 		'financny manazment', 'manazment', 'logistik',
+		'risk management', 'rizik', 'podnikov',
 	]),
 	('spoločenské vedy', [
 		'kognitivna psycholog', 'socialna psycholog', 'psycholog',
