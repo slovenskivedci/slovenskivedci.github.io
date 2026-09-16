@@ -33,7 +33,8 @@ window.SV.listFiltersBound = true;
 
 	  function updateSelectedNumber(){
 		  var numItems = $('.showed').length;
-		  $("#scientists-count").html("POČET VEDCOV: " + numItems + " /  {{ site.data.all.size }} ");
+		  var total = (window.SV && SV.totalScholars) ? SV.totalScholars : $(".entry").length;
+		  $("#scientists-count").html("POČET VEDCOV: " + numItems + " /  " + total + " ");
       }
 
 
@@ -296,6 +297,9 @@ window.SV.listFiltersBound = true;
 		}
 	  });
 	  */
+	  window.SV.updateSelectedNumber = updateSelectedNumber;
+	  window.SV.runFilter = filter;
+
 
 
 	});

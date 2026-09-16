@@ -123,10 +123,14 @@ window.SV = window.SV || {};
     var go = function () {
       return runScripts(cur).then(function () {
         // refresh count if list filters present
-        if (typeof updateSelectedNumber === "function") {
+        if (window.SV && typeof SV.updateSelectedNumber === "function") {
+          try { SV.updateSelectedNumber(); } catch (e) {}
+        } else if (typeof updateSelectedNumber === "function") {
           try { updateSelectedNumber(); } catch (e) {}
         }
-        if (typeof filter === "function") {
+        if (window.SV && typeof SV.runFilter === "function") {
+          try { SV.runFilter(); } catch (e) {}
+        } else if (typeof filter === "function") {
           try { filter(); } catch (e) {}
         }
         window.scrollTo(0, 0);
