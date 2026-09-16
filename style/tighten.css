@@ -1002,3 +1002,14 @@ header.header-section {
 .w-dyn-list > .w-dyn-items > .w-dyn-item:first-child .compact-row {
   padding-top: 5px !important;
 }
+
+
+/* === space under muži/ženy before list divider 2026-09-17b === */
+/* Breathing room between muži · ženy and the list top border. */
+.header-stack .sex-under-search {
+  margin-bottom: 14px !important;
+}
+/* On Štatistiky / Súvislosti the spacer keeps the same clearance. */
+.header-stack .sex-under-search-spacer {
+  margin-bottom: 14px !important;
+}
