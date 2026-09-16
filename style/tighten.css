@@ -204,15 +204,20 @@ a:hover {
     font-weight: 400;
     line-height: inherit;
 }
-.filter-link:hover {
+.filter-link.selected {
+    color: #444;
+    background: #FFF4B8;
+}
+@media (hover: hover) and (pointer: fine) {
+  .filter-link:hover {
     color: #444;
     background: #FFF4B8;
     text-decoration: none;
-}
-.filter-link.selected,
-.filter-link.selected:hover {
+  }
+  .filter-link.selected:hover {
     color: #444;
     background: #FFF4B8;
+  }
 }
 .card-facts {
     color: #666;
@@ -424,10 +429,15 @@ html {
   padding: 1px 2px;
   border-radius: 3px;
 }
-.sex-under-search .sex-chip:hover,
 .sex-under-search .sex-chip.selected {
   color: #444;
   background: #FFF4B8;
+}
+@media (hover: hover) and (pointer: fine) {
+  .sex-under-search .sex-chip:hover {
+    color: #444;
+    background: #FFF4B8;
+  }
 }
 .sex-under-search .compact-dot {
   color: #bbb;
@@ -742,5 +752,21 @@ html, body {
     max-width: 100% !important;
     overflow-x: hidden;
     box-sizing: border-box;
+  }
+}
+
+/* === phone portrait photo center 2026-09-16g === */
+@media (max-width: 700px) {
+  .post-wrapper .flex-direction .column {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    float: none !important;
+  }
+  .post-wrapper .flex-direction .column img,
+  .post-wrapper img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }

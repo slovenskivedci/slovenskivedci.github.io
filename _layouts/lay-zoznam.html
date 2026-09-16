@@ -185,10 +185,11 @@
 		filter();
 	  });
 
-    $(".sex-chip").click(function(e){
+    $(".sex-chip").on("click", function(e){
       e.preventDefault();
       var sex = $(this).attr("data-sex");
-      if($(this).hasClass("selected")){
+      var cur = ($("#filter-sex").html() || "").trim();
+      if(cur === sex){
         $("#filter-sex").html("");
         $(".sex-chip").removeClass("selected");
       } else {
@@ -196,6 +197,8 @@
         $(".sex-chip").removeClass("selected");
         $(this).addClass("selected");
       }
+      // iOS can leave :hover sticky after tap; force style refresh
+      this.blur();
       filter();
     });
 
