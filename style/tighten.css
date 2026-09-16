@@ -415,7 +415,8 @@ html {
   font-size: 13px;
   line-height: 18px;
   color: #888;
-  text-align: left;
+  text-align: center;
+  min-height: 18px;
 }
 .sex-under-search .sex-chip {
   color: #888;
@@ -603,4 +604,16 @@ html {
     padding-left: 12px !important;
     padding-right: 12px !important;
   }
+}
+
+/* === sex filter center + spacer 2026-09-16d === */
+.sex-under-search {
+  text-align: center;
+  min-height: 18px;
+  line-height: 18px;
+}
+.sex-under-search-spacer {
+  visibility: hidden;
+  pointer-events: none;
+  user-select: none;
 }
