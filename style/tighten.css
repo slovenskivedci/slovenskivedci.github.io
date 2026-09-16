@@ -316,3 +316,57 @@ html {
     color: #444;
     background: #FFF4B8;
 }
+
+
+/* === header declutter 2026-09-16 === */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+.header-top .main-title {
+  flex: 1 1 auto;
+  margin: 0;
+}
+.header-top .header-search-wrap {
+  flex: 0 1 280px;
+  margin: 0;
+  max-width: 100%;
+}
+.list-controls {
+  margin: 10px 0 0;
+  text-align: center;
+}
+.list-controls .scientists-count-line {
+  margin: 0;
+}
+.about-list-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0,0,0,0.25);
+}
+.about-list-link:hover {
+  background: #fff7c2;
+}
+.about-list {
+  margin: 8px auto 0;
+  max-width: 42em;
+  text-align: left;
+}
+.about-list > summary {
+  display: none; /* opened via O zozname link */
+}
+.about-list[open] {
+  margin-top: 12px;
+}
+.about-list .main-subheading {
+  margin: 0;
+}
+.compact-hint { display: none !important; }
+@media (max-width: 700px) {
+  .header-top { flex-direction: column; align-items: stretch; }
+  .header-top .header-search-wrap { flex: 1 1 auto; }
+}
