@@ -1,14 +1,14 @@
 /* Site-wide type tightening */
 .main-title {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 34px;
 }
 .main-subheading {
     font-size: 13px;
     line-height: 18px;
 }
 .dropdown-menu {
-    padding: 4px 8px;
+    padding: 2px 6px;
 }
 .menu-text {
     font-size: 12px;
@@ -46,25 +46,30 @@
 }
 
 .scientists-count-line {
-    text-align: center;
+    text-align: left;
     font-size: 13px;
     line-height: 18px;
-    margin: 8px 0 0;
+    margin: 4px 0 0;
     font-weight: 400;
+    color: #888;
 }
 .scientists-count-line b {
     font-weight: 600;
 }
 
-.dropdown-wrapper {
-    position: static;
-    left: auto;
-    top: auto;
-    display: flex;
-    justify-content: flex-start;
+.dropdown-wrapper,
+.dropdown-wrapper.w-dropdown {
+    display: inline-flex !important;
+    width: auto !important;
+    max-width: 100%;
+    justify-content: flex-start !important;
+    align-items: center;
+    gap: 4px !important;
+    margin: 8px 0 0 0 !important;
+    position: static !important;
+    left: auto !important;
+    float: none !important;
     flex-wrap: wrap;
-    gap: 6px;
-    margin: 10px 0 0;
 }
 .dropdown-menu {
     float: none;
@@ -384,8 +389,8 @@ html {
   flex: 1 1 280px;
   margin: 0;
   text-align: left;
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 34px;
 }
 .header-search-col {
   flex: 0 1 280px;
@@ -431,12 +436,47 @@ html {
   margin: 0;
   text-align: left;
 }
-.dropdown-wrapper {
+.dropdown-wrapper,
+.dropdown-wrapper.w-dropdown {
+  display: inline-flex !important;
+  width: auto !important;
+  max-width: 100%;
   justify-content: flex-start !important;
+  align-items: center;
+  gap: 4px !important;
+  margin: 8px 0 0 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  gap: 6px !important;
+  position: static !important;
+  left: auto !important;
+  float: none !important;
 }
+.dropdown-menu {
+  padding: 2px 6px !important;
+}
+.header-title-col {
+  flex: 1 1 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+.header-title-col .main-title {
+  flex: none;
+  margin: 0;
+}
+.header-title-col .scientists-count-line {
+  margin: 4px 0 0;
+  text-align: left;
+  color: #888;
+  font-size: 13px;
+  line-height: 18px;
+}
+.list-controls {
+  margin: 0;
+  text-align: left;
+}
+.list-controls .scientists-count-line { display: none; }
 .about-list {
   display: none;
   margin: 12px 0 0;
@@ -464,11 +504,8 @@ html {
   .header-search-col { flex: 1 1 auto; max-width: none; }
 }
 
-
-/* === title bump 2026-09-16c === */
-.header-top .main-title,
-a.main-title {
-  font-size: 30px !important;
-  line-height: 34px !important;
-  text-align: left;
+.dropdown-menu.w-dropdown-toggle,
+.dropdown-wrapper .w-dropdown-toggle {
+  padding-right: 8px !important;
+  padding-left: 6px !important;
 }
