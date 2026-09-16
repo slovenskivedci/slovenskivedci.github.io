@@ -10615,6 +10615,32 @@
   affiliationurl: Wageningen_University
   cityurl: Wageningen
   sexurl: muz
+- name: "J\xE1n Dvorsk\xFD"
+  last: Dvorsky
+  sex: "mu\u017E"
+  position: docent
+  field: "risk management MSP / podnikov\xE1 ekonomika"
+  pribeh: "Rizik\xE1m mal\xFDch firiem v \u017Diline d\xE1va meno aj \u010D\xEDslo:\
+    \ ke\u010F MSP k\xFDchne, on u\u017E vie, \u010Di to je n\xE1dcha, alebo chr\xED\
+    pka trhu."
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=N-TQygcAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://ke.uniza.sk/
+  img: Jan_Dvorsky_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: risk_management_MSP_/_podnikova_ekonomika
+  area: "ekon\xF3mia a mana\u017Ement"
+  areaurl: ekonomia_a_manazment
+  positionurl: docent
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: muz
 - name: "Jozef D\u017Eurina"
   last: Dzurina
   year: 1958
@@ -11343,6 +11369,31 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Radovan Bure\u0161"
+  last: Bures
+  sex: "mu\u017E"
+  position: vedec
+  field: "pr\xE1\u0161kov\xE1 metalurgia / materi\xE1ly"
+  pribeh: "V Ko\u0161iciach spek\xE1 pr\xE1\u0161ky na pevn\xE9 kovy: pr\xE1\u0161\
+    kov\xE1 metalurgia, kde z prachu vznikne materi\xE1l s vlastn\xFDm n\xE1zorom."
+  affiliation: "\xDAstav materi\xE1lov\xE9ho v\xFDskumu SAV"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=uJ87KdQAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://www.imr.saske.sk/
+  img: Radovan_Bures_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: praskova_metalurgia_/_materialy
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: vedec
+  affiliationurl: Ustav_materialoveho_vyskumu_SAV
+  cityurl: Kosice
+  sexurl: muz
 - name: "Du\u0161an Chorv\xE1t"
   last: Chorvat
   year: ''
@@ -11371,6 +11422,31 @@
   affiliationurl: Centrum_vedecko-technickych_informacii_SR
   cityurl: Bratislava
   sexurl: muz
+- name: "Klaudia \u010Cobanov\xE1 (Boldi\u017E\xE1rov\xE1)"
+  last: Cobanova
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "v\xFD\u017Eiva zvierat / fyziol\xF3gia \u017Eivo\u010D\xEDchov"
+  pribeh: "Zinku a stopov\xFDm prvkom vo v\xFD\u017Eive zvierat na SAV d\xE1va zelen\xFA\
+    : aby aj hydina jedla chytrej\u0161ie ne\u017E marketing krm\xEDv."
+  affiliation: "\xDAFHZ / Centrum biovied SAV"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=Z13RmxUAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1036
+  img: Klaudia_Cobanova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vyziva_zvierat_/_fyziologia_zivocichov
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedkyna
+  affiliationurl: UFHZ_/_Centrum_biovied_SAV
+  cityurl: Kosice
+  sexurl: zena
 - name: "Martin Dov\u010Diak"
   last: Dovciak
   year: ''
@@ -11489,6 +11565,33 @@
   areaurl: inzinierstvo
   positionurl: emeritny_profesor
   affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Michal Jablonsk\xFD"
+  last: Jablonsky
+  year: 1978
+  sex: "mu\u017E"
+  position: profesor
+  field: "technol\xF3gia buni\u010D\xEDn / makromolekul\xE1rna ch\xE9mia"
+  pribeh: "Z Ru\u017Eomberka na FCHPT u\u010D\xED buni\u010Dinu, ako ob\xEDs\u0165\
+    \ lign\xEDn so c\u0165ou \u2014 technol\xF3gia dreva, kde aj celul\xF3za m\xE1\
+    \ kari\xE9rny pl\xE1n."
+  affiliation: FCHPT STU Bratislava
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=D_D4D6EAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://stuba.academia.edu/JablonskyMichal
+  img: Michal_Jablonsky_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: technologia_bunicin_/_makromolekularna_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: FCHPT_STU_Bratislava
   cityurl: Bratislava
   sexurl: muz
 - name: Marian Jandel
@@ -11809,6 +11912,33 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: zena
+- name: "Ondrej Mita\u0161"
+  last: Mitas
+  year: 1982
+  sex: "mu\u017E"
+  position: vedec
+  field: "psychol\xF3gia turizmu"
+  pribeh: "V Brede meria, \u010Di dovolenka naozaj prid\xE1 \u0161\u0165astie, alebo\
+    \ len filtre na Instagrame \u2014 psychol\xF3gia turizmu s \xFAsmevom a d\xE1\
+    tami."
+  affiliation: Breda University of Applied Sciences
+  city: Breda
+  country: Holandsko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=8acrEiQAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://pure.buas.nl/en/persons/ondrej-mitas
+  img: Ondrej_Mitas_size_280px.jpg
+  countryurl: Holandsko
+  fieldurl: psychologia_turizmu
+  area: "spolo\u010Densk\xE9 vedy"
+  areaurl: spolocenske_vedy
+  positionurl: vedec
+  affiliationurl: Breda_University_of_Applied_Sciences
+  cityurl: Breda
+  sexurl: muz
 - name: "Tom\xE1\u0161 Roch"
   last: Roch
   year: null
@@ -12268,6 +12398,57 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: zena
+- name: "Marta Harni\u010D\xE1rov\xE1"
+  last: Harnicarova
+  sex: "\u017Eena"
+  position: docentka
+  field: "v\xFDrobn\xE9 technol\xF3gie"
+  pribeh: "V\xFDrobn\xE9 technol\xF3gie v Nitre meria na mikrometre: ke\u010F stroj\
+    \ \u0161krabe povrch, ona vie, \u010Di to je umenie, alebo chyba."
+  affiliation: SPU Nitra
+  city: Nitra
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=J2FiTawAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://www.tf.uniag.sk/
+  img: Marta_Harnicarova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vyrobne_technologie
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: docentka
+  affiliationurl: SPU_Nitra
+  cityurl: Nitra
+  sexurl: zena
+- name: "Peter Jar\u010Du\u0161ka"
+  last: Jarcuska
+  sex: "mu\u017E"
+  position: profesor
+  field: "hepatol\xF3gia"
+  pribeh: "Pe\u010De\u0148 v Ko\u0161iciach po\u010D\xFAva pozorne: hepatol\xF3gia,\
+    \ kde aj \u017El\u010Dn\xEDk dostane druh\xFA \u0161ancu a sol\xEDdnu diagn\xF3\
+    zu."
+  affiliation: "Lek\xE1rska fakulta UPJ\u0160 / UNLP"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=b3RU-EQAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - web
+    - https://www.upjs.sk/
+  img: Peter_Jarcuska_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: hepatologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Lekarska_fakulta_UPJS_/_UNLP
+  cityurl: Kosice
+  sexurl: muz
 - name: "Silvia Kohnov\xE1"
   last: Kohnova
   year: 1960
