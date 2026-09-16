@@ -1,7 +1,7 @@
 /* Site-wide type tightening */
 .main-title {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 26px;
+    line-height: 30px;
 }
 .main-subheading {
     font-size: 13px;
@@ -61,10 +61,10 @@
     left: auto;
     top: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 12px auto 0;
+    gap: 6px;
+    margin: 10px 0 0;
 }
 .dropdown-menu {
     float: none;
@@ -369,4 +369,97 @@ html {
 @media (max-width: 700px) {
   .header-top { flex-direction: column; align-items: stretch; }
   .header-top .header-search-wrap { flex: 1 1 auto; }
+}
+
+/* === header refine 2026-09-16b === */
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0 0 4px;
+}
+.header-top .main-title {
+  flex: 1 1 280px;
+  margin: 0;
+  text-align: left;
+  font-size: 26px;
+  line-height: 30px;
+}
+.header-search-col {
+  flex: 0 1 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+}
+.header-top .header-search-wrap {
+  flex: none;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.sex-under-search {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #888;
+  text-align: left;
+}
+.sex-under-search .sex-chip {
+  color: #888;
+  font-size: 13px;
+  padding: 1px 2px;
+  border-radius: 3px;
+}
+.sex-under-search .sex-chip:hover,
+.sex-under-search .sex-chip.selected {
+  color: #444;
+  background: #FFF4B8;
+}
+.sex-under-search .compact-dot {
+  color: #bbb;
+  margin: 0 4px;
+}
+.list-controls {
+  margin: 10px 0 0;
+  text-align: left;
+}
+.list-controls .scientists-count-line {
+  margin: 0;
+  text-align: left;
+}
+.dropdown-wrapper {
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  gap: 6px !important;
+}
+.about-list {
+  display: none;
+  margin: 12px 0 0;
+  max-width: 42em;
+  text-align: left;
+}
+.about-list[open] {
+  display: block;
+}
+.about-list > summary {
+  display: none;
+}
+.footer-about-link {
+  color: #888;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0,0,0,0.2);
+  font-size: 13px;
+}
+.footer-about-link:hover {
+  background: #fff7c2;
+  color: #444;
+}
+@media (max-width: 700px) {
+  .header-top { flex-direction: column; align-items: stretch; }
+  .header-search-col { flex: 1 1 auto; max-width: none; }
 }

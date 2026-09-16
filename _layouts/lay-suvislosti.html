@@ -47,14 +47,14 @@
     <link href="https://uploads-ssl.webflow.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/img/webclip.png" rel="apple-touch-icon">
         <style>
-    .main-title { font-size: 22px; line-height: 26px; color: #1f4e79; }
+    .main-title { font-size: 26px; line-height: 30px; color: #1f4e79; }
     .main-subheading { font-size: 13px; line-height: 18px; }
     .dropdown-menu { padding: 4px 8px; }
     .menu-text { font-size: 12px; }
     .header-section { padding-top: 48px; padding-bottom: 16px; background: none; background-color: #fff; border-bottom: none; }
     .content-wrapper { padding-top: 20px; }
     .footer { font-size: 12px; line-height: 18px; color: #888; background: none; background-color: transparent; border-top: 1px solid #eee; padding-top: 20px; padding-bottom: 28px; }
-    .dropdown-wrapper { position: static; left: auto; top: auto; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 12px auto 0; }
+    .dropdown-wrapper { position: static; left: auto; top: auto; display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
     .dropdown-menu { float: none; display: inline-block; }
     .menu-text { float: none; }
     a { color: #444; text-decoration: none; }
@@ -87,12 +87,14 @@
 <header id="header" class="header-section wf-section">
   <div class="w-container">
     <div class="header-top">
-    <a aria-current="page" class="main-title w--current">
-		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom </a>
-  <div class="header-search-wrap">
-    <input type="search" id="header-search" class="header-search" placeholder="Hľadať meno, pracovisko… · na karte kliknite pozíciu alebo odbor" autocomplete="off" spellcheck="false" aria-label="Hľadať">
-    <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
-  </div>
+    <a aria-current="page" class="main-title w--current">Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
+      <div class="header-search-col">
+        <div class="header-search-wrap">
+          <input type="search" id="header-search" class="header-search" placeholder="Hľadať meno, pracovisko… · na karte kliknite pozíciu alebo odbor" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+          <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+        </div>
+        
+      </div>
     </div>
 
 <div data-delay="200" data-hover="false" data-w-id="6584a19a-5691-0e50-f8da-d2bf173f6d2b" class="dropdown-wrapper w-dropdown">
@@ -115,11 +117,7 @@
 
 </div>
 
-  <div class="list-controls list-controls-meta">
-  <p class="scientists-count-line">
-  <a href="#o-zozname" class="about-list-link" onclick="var d=document.getElementById('o-zozname'); if(d){d.open=!d.open;} return false;">O zozname</a>
-  </p>
-  </div>
+
     <details class="about-list" id="o-zozname">
       <summary class="about-list-summary">O zozname</summary>
       <p class="main-subheading about-list-body">
