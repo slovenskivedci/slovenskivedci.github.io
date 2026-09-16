@@ -8,7 +8,7 @@
     line-height: 18px;
 }
 .dropdown-menu {
-    padding: 2px 6px;
+    padding: 4px 8px;
 }
 .menu-text {
     font-size: 12px;
@@ -66,14 +66,18 @@
     align-items: center;
     gap: 4px !important;
     margin: 8px 0 0 0 !important;
+    margin-right: auto !important;
     position: static !important;
     left: auto !important;
     float: none !important;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
 }
 .dropdown-menu {
-    float: none;
-    display: inline-block;
+    float: none !important;
+    display: inline-block !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 4px 8px !important;
 }
 .menu-text {
     float: none;
@@ -446,13 +450,23 @@ html {
   gap: 4px !important;
   margin: 8px 0 0 0 !important;
   margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-right: auto !important;
   position: static !important;
   left: auto !important;
+  right: auto !important;
   float: none !important;
+  flex-wrap: wrap !important;
+}
+.dropdown-wrapper.w-dropdown {
+  /* kill Webflow absolute/full-width/space-between centering */
+  justify-content: flex-start !important;
 }
 .dropdown-menu {
-  padding: 2px 6px !important;
+  padding: 4px 8px !important;
+  margin: 0 !important;
+  float: none !important;
+  display: inline-block !important;
+  width: auto !important;
 }
 .header-title-col {
   flex: 1 1 280px;

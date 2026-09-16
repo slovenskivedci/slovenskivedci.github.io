@@ -10617,6 +10617,7 @@
   sexurl: muz
 - name: "J\xE1n Dvorsk\xFD"
   last: Dvorsky
+  year: ''
   sex: "mu\u017E"
   position: docent
   field: "risk management MSP / podnikov\xE1 ekonomika"
@@ -11371,9 +11372,10 @@
   sexurl: muz
 - name: "Radovan Bure\u0161"
   last: Bures
+  year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "pr\xE1\u0161kov\xE1 metalurgia / materi\xE1ly"
+  field: "pr\xE1\u0161kov\xE1 metalurgia"
   pribeh: "V Ko\u0161iciach spek\xE1 pr\xE1\u0161ky na pevn\xE9 kovy: pr\xE1\u0161\
     kov\xE1 metalurgia, kde z prachu vznikne materi\xE1l s vlastn\xFDm n\xE1zorom."
   affiliation: "\xDAstav materi\xE1lov\xE9ho v\xFDskumu SAV"
@@ -11387,9 +11389,9 @@
     - https://www.imr.saske.sk/
   img: Radovan_Bures_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: praskova_metalurgia_/_materialy
-  area: "materi\xE1ly"
-  areaurl: materialy
+  fieldurl: praskova_metalurgia
+  area: "ostatn\xE9"
+  areaurl: ostatne
   positionurl: vedec
   affiliationurl: Ustav_materialoveho_vyskumu_SAV
   cityurl: Kosice
@@ -11424,9 +11426,10 @@
   sexurl: muz
 - name: "Klaudia \u010Cobanov\xE1 (Boldi\u017E\xE1rov\xE1)"
   last: Cobanova
+  year: ''
   sex: "\u017Eena"
   position: "vedky\u0148a"
-  field: "v\xFD\u017Eiva zvierat / fyziol\xF3gia \u017Eivo\u010D\xEDchov"
+  field: "v\xFD\u017Eiva zvierat"
   pribeh: "Zinku a stopov\xFDm prvkom vo v\xFD\u017Eive zvierat na SAV d\xE1va zelen\xFA\
     : aby aj hydina jedla chytrej\u0161ie ne\u017E marketing krm\xEDv."
   affiliation: "\xDAFHZ / Centrum biovied SAV"
@@ -11440,9 +11443,9 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1036
   img: Klaudia_Cobanova_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: vyziva_zvierat_/_fyziologia_zivocichov
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: vyziva_zvierat
+  area: "ostatn\xE9"
+  areaurl: ostatne
   positionurl: vedkyna
   affiliationurl: UFHZ_/_Centrum_biovied_SAV
   cityurl: Kosice
@@ -11572,7 +11575,7 @@
   year: 1978
   sex: "mu\u017E"
   position: profesor
-  field: "technol\xF3gia buni\u010D\xEDn / makromolekul\xE1rna ch\xE9mia"
+  field: "technol\xF3gia buni\u010D\xEDn"
   pribeh: "Z Ru\u017Eomberka na FCHPT u\u010D\xED buni\u010Dinu, ako ob\xEDs\u0165\
     \ lign\xEDn so c\u0165ou \u2014 technol\xF3gia dreva, kde aj celul\xF3za m\xE1\
     \ kari\xE9rny pl\xE1n."
@@ -11587,9 +11590,9 @@
     - https://stuba.academia.edu/JablonskyMichal
   img: Michal_Jablonsky_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: technologia_bunicin_/_makromolekularna_chemia
-  area: "ch\xE9mia"
-  areaurl: chemia
+  fieldurl: technologia_bunicin
+  area: "ostatn\xE9"
+  areaurl: ostatne
   positionurl: profesor
   affiliationurl: FCHPT_STU_Bratislava
   cityurl: Bratislava
@@ -12400,6 +12403,7 @@
   sexurl: zena
 - name: "Marta Harni\u010D\xE1rov\xE1"
   last: Harnicarova
+  year: ''
   sex: "\u017Eena"
   position: docentka
   field: "v\xFDrobn\xE9 technol\xF3gie"
@@ -12425,6 +12429,7 @@
   sexurl: zena
 - name: "Peter Jar\u010Du\u0161ka"
   last: Jarcuska
+  year: ''
   sex: "mu\u017E"
   position: profesor
   field: "hepatol\xF3gia"
