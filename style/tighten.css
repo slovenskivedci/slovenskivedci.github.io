@@ -1138,3 +1138,26 @@ header.header-section {
 .footer {
   text-align: center;
 }
+
+
+/* === logo no-flicker 2026-09-17j === */
+.site-logo-link {
+  min-height: 94px; /* reserve space while image paints */
+}
+.site-logo {
+  content-visibility: auto;
+}
+/* Kill Webflow IX fade on the logo if present */
+.site-logo-link,
+.site-logo-link .site-logo,
+.header-stack .site-logo {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+@media (max-width: 700px) {
+  .site-logo-link {
+    min-height: 68px;
+  }
+}
