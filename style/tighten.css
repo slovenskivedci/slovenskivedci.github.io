@@ -1064,9 +1064,9 @@ header.header-section {
 
 /* === O zozname expands in footer 2026-09-17g === */
 .footer-about-details {
-  margin: 10px 0 0;
+  margin: 12px auto 0;
   max-width: 42em;
-  text-align: left;
+  text-align: center;
 }
 .footer-about-details:not([open]) {
   display: none !important;
@@ -1079,7 +1079,8 @@ header.header-section {
 }
 .footer-about-details .about-list-body,
 .footer-about-details .main-subheading {
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
   font-size: 13px;
   line-height: 1.45;
   color: #666;
@@ -1116,3 +1117,24 @@ header.header-section {
   }
 }
 
+
+
+/* === O zozname footer centered 2026-09-17i === */
+.footer-about-details {
+  margin: 12px auto 0 !important;
+  max-width: 42em;
+  text-align: center !important;
+}
+.footer-about-details .about-list-body,
+.footer-about-details .main-subheading {
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #666;
+  white-space: normal;
+}
+/* Keep the thank-you footer line centered-friendly too when open */
+.footer {
+  text-align: center;
+}
