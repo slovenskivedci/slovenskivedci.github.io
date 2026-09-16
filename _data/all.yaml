@@ -11870,6 +11870,34 @@
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
   sexurl: zena
+- name: "Jozef \u0160ib\xEDk"
+  last: Sibik
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "vegeta\u010Dn\xE1 ekol\xF3gia"
+  pribeh: "Alpsk\xFA veget\xE1ciu na SAV sklad\xE1 do m\xE1p tak, \u017Ee aj kosodrevina\
+    \ dostane adresu \u2014 vegeta\u010Dn\xE1 ekol\xF3gia s v\xFD\u0161komerom a humorom."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?hl=sk&user=ZjVs5VQAAAAJ
+  last_update: '2026-09-16'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5949-862X
+  - - web
+    - https://cbrb.sav.sk/usr/Jozef/
+  img: Jozef_Sibik_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vegetacna_ekologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Peter \u0160iffalovi\u010D"
   last: Siffalovic
   year: 1975
@@ -12586,34 +12614,6 @@
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
   sexurl: muz
-- name: Peter Cifra
-  last: Cifra
-  year: 1955
-  sex: "mu\u017E"
-  position: vedec
-  field: "fyzika polym\xE9rov"
-  pribeh: "Polym\xE9rne re\u0165azce v tavenine modeluje tak, aby sa z klubka stala\
-    \ predv\xEDdate\u013En\xE1 fyzika, nie v\xFAd\xFA."
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?hl=sk&user=0wKlnIgAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0003-2075-4179
-  - - web
-    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1614
-  img: Peter_Cifra_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: fyzika_polymerov
-  area: fyzika
-  areaurl: fyzika
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: muz
 - name: Michal Cifra
   last: Cifra
   year: 1983
@@ -12641,6 +12641,34 @@
   positionurl: veduci_timu
   affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
   cityurl: Praha
+  sexurl: muz
+- name: Peter Cifra
+  last: Cifra
+  year: 1955
+  sex: "mu\u017E"
+  position: vedec
+  field: "fyzika polym\xE9rov"
+  pribeh: "Polym\xE9rne re\u0165azce v tavenine modeluje tak, aby sa z klubka stala\
+    \ predv\xEDdate\u013En\xE1 fyzika, nie v\xFAd\xFA."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=0wKlnIgAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2075-4179
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1614
+  img: Peter_Cifra_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fyzika_polymerov
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: muz
 - name: "\u013Dubo\u0161 \u010Cip\xE1k"
   last: Cipak
