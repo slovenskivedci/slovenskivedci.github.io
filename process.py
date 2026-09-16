@@ -129,6 +129,7 @@ FIELD_GROUPS = [
 	('materiály', [
 		'nanomaterial', 'nanotechnol', 'antibakterialne material',
 		'opticke material', 'materialova veda', 'materialy', 'material',
+		'metalurg', 'praskov', 'kompozit',
 	]),
 	('ekonómia a manažment', [
 		'medzinarodna ekon', 'polnohospodarska ekon', 'ekon',
