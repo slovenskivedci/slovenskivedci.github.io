@@ -1197,3 +1197,16 @@ header.header-section {
   margin: 10px auto 0 !important;
   text-align: center !important;
 }
+
+
+/* === pribeh quotes readable black 2026-09-17n === */
+.post-wrapper .card-pribeh,
+.card-pribeh {
+  font-family: "Source Serif 4", "Source Serif Pro", "Libre Baskerville", Georgia, "Times New Roman", serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 1.45 !important;
+  color: #111 !important;
+  letter-spacing: 0 !important;
+}
