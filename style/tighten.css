@@ -673,3 +673,74 @@ html {
   .header-stack .header-search-col { max-width: 100%; }
   .header-stack .main-title { font-size: 20px !important; line-height: 1.25 !important; }
 }
+
+/* === header gap + search overflow 2026-09-16f === */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.header-section.wf-section,
+.header-section {
+  min-height: 0 !important;
+  padding-top: 28px !important;
+  padding-bottom: 8px !important;
+}
+.content-wrapper {
+  padding-top: 12px !important;
+}
+.header-stack {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.header-stack .header-search-col {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.header-stack .sex-under-search {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+/* Laptop: kill leftover Webflow header air */
+@media screen and (min-width: 992px) {
+  .header-section.wf-section,
+  .header-section {
+    padding-top: 24px !important;
+    padding-bottom: 4px !important;
+  }
+  .content-wrapper {
+    padding-top: 8px !important;
+    padding-bottom: 48px !important;
+  }
+  .header-stack .dropdown-wrapper,
+  .header-stack .dropdown-wrapper.w-dropdown {
+    margin-bottom: 8px !important;
+  }
+  .header-stack .header-search-col {
+    margin-top: 6px;
+  }
+}
+/* Phone: 16px search text avoids iOS focus-zoom that widens the page */
+@media (max-width: 700px) {
+  .header-search {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    max-width: 100%;
+  }
+  .header-search-wrap,
+  .header-stack .header-search-col {
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .header-search:focus,
+  .header-search:hover {
+    outline: none;
+    box-shadow: none;
+  }
+  .w-container,
+  .header-stack {
+    max-width: 100% !important;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+}
