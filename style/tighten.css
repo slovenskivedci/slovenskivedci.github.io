@@ -1171,3 +1171,29 @@ header.header-section {
 .sex-under-search-spacer .sex-dot {
   visibility: hidden;
 }
+
+
+/* === footer O zozname on own centered line 2026-09-17m === */
+.footer {
+  text-align: center;
+}
+.footer-thanks {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #888;
+  text-align: center;
+}
+.footer-about-line {
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.footer-about-line .footer-about-link {
+  color: #888;
+}
+.footer-about-details {
+  margin: 10px auto 0 !important;
+  text-align: center !important;
+}
