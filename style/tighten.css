@@ -1048,3 +1048,15 @@ header.header-section {
     max-width: 100% !important; /* keep full width on phone */
   }
 }
+
+
+/* === phone search ~10% narrower 2026-09-17f === */
+@media (max-width: 700px) {
+  .header-stack .header-search-col,
+  .header-search-wrap {
+    max-width: 90% !important;
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
