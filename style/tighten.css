@@ -1092,18 +1092,27 @@ header.header-section {
 /* === Kriváň site logo 2026-09-17h === */
 .site-logo-link {
   display: block;
-  margin: 4px auto 6px;
+  margin: 0 auto 14px; /* more space above the title */
+  padding-top: 0;
   line-height: 0;
   text-align: center;
+  position: relative;
+  top: -6px; /* nudge slightly up, away from title */
 }
 .site-logo {
   display: inline-block;
-  width: 88px;
+  width: 110px;
   height: auto;
-  max-width: 22vw;
+  max-width: 28vw;
+  image-rendering: auto;
 }
 @media (max-width: 700px) {
   .site-logo {
-    width: 64px;
+    width: 78px;
+  }
+  .site-logo-link {
+    margin-bottom: 12px;
+    top: -4px;
   }
 }
+
