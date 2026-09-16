@@ -1027,3 +1027,9 @@ header.header-section {
 .w-dyn-item:first-child .compact-row {
   border-top: 1px solid #eee !important;
 }
+
+
+/* === more space above POČET VEDCOV 2026-09-17d === */
+.header-stack .scientists-count-line {
+  margin-top: 12px !important;
+}
