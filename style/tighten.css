@@ -1161,3 +1161,13 @@ header.header-section {
     min-height: 68px;
   }
 }
+
+
+/* === sex row spacer when not on list pages 2026-09-17k === */
+.sex-under-search-spacer .sex-chip {
+  visibility: hidden;
+  pointer-events: none;
+}
+.sex-under-search-spacer .sex-dot {
+  visibility: hidden;
+}

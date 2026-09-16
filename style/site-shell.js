@@ -1,3 +1,4 @@
+window.SV = window.SV || {};
 /* Persistent header shell: keep Kriváň/title/nav/search; swap .content-wrapper only. */
 (function () {
   var ROUTES = {
@@ -193,6 +194,7 @@
     if (isAppPath(p)) navigate(p, false);
   });
 
+  window.SV.navigate = navigate;
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", bindNav);
   } else {

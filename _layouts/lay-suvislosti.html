@@ -177,7 +177,7 @@
         if (e.key === "Enter") {
           e.preventDefault();
           var v = ($(this).val() || "").trim();
-          window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
+          if (window.SV && SV.navigate) SV.navigate(v ? ("/?q=" + encodeURIComponent(v)) : "/"); else window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
         }
       });
     });
