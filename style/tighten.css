@@ -770,3 +770,68 @@ html, body {
     margin-right: auto !important;
   }
 }
+
+/* === kill header content gap 2026-09-16h === */
+/* Webflow still sets header-section 60–80px padding and content-wrapper 40px;
+   portrait-only overrides left laptop + phone landscape with a huge blank band. */
+.header-section,
+.header-section.wf-section,
+section.header-section {
+  position: relative !important;
+  min-height: 0 !important;
+  height: auto !important;
+  padding-top: 20px !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  border-bottom: none !important;
+  background: #fff !important;
+}
+.content-wrapper {
+  padding-top: 4px !important;
+  margin-top: 0 !important;
+}
+.header-stack {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.header-stack .main-title {
+  margin-bottom: 0 !important;
+}
+.header-stack .scientists-count-line {
+  margin-bottom: 0 !important;
+}
+.header-stack .header-search-col {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.header-stack .sex-under-search {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.header-stack .about-list:not([open]) {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+/* Also neutralize Webflow tablet media that used 60px header padding */
+@media screen and (max-width: 991px) {
+  .header-section,
+  .header-section.wf-section {
+    padding-top: 16px !important;
+    padding-bottom: 0 !important;
+  }
+  .content-wrapper {
+    padding-top: 4px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-section,
+  .header-section.wf-section {
+    padding-top: 20px !important;
+    padding-bottom: 0 !important;
+  }
+  .content-wrapper {
+    padding-top: 4px !important;
+  }
+}
