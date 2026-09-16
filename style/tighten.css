@@ -1033,3 +1033,18 @@ header.header-section {
 .header-stack .scientists-count-line {
   margin-top: 12px !important;
 }
+
+
+/* === search bar 10% narrower 2026-09-17e === */
+.header-stack .header-search-col {
+  max-width: 288px !important; /* was 320; ~10% narrower */
+}
+.header-search-wrap {
+  max-width: 288px !important;
+}
+@media (max-width: 700px) {
+  .header-stack .header-search-col,
+  .header-search-wrap {
+    max-width: 100% !important; /* keep full width on phone */
+  }
+}
