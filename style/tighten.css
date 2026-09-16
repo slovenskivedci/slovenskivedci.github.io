@@ -1060,3 +1060,30 @@ header.header-section {
     margin-right: auto !important;
   }
 }
+
+
+/* === O zozname expands in footer 2026-09-17g === */
+.footer-about-details {
+  margin: 10px 0 0;
+  max-width: 42em;
+  text-align: left;
+}
+.footer-about-details:not([open]) {
+  display: none !important;
+}
+.footer-about-details[open] {
+  display: block !important;
+}
+.footer-about-details > summary {
+  display: none;
+}
+.footer-about-details .about-list-body,
+.footer-about-details .main-subheading {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #666;
+}
+.header-stack .about-list {
+  display: none !important;
+}
