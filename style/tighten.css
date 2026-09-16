@@ -1199,14 +1199,79 @@ header.header-section {
 }
 
 
-/* === pribeh quotes readable black 2026-09-17n === */
+/* === pribeh quotes readable elegant 2026-09-17o === */
 .post-wrapper .card-pribeh,
 .card-pribeh {
   font-family: "Source Serif 4", "Source Serif Pro", "Libre Baskerville", Georgia, "Times New Roman", serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
-  font-size: 15px !important;
-  line-height: 1.45 !important;
-  color: #111 !important;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  color: #3c4553 !important;
   letter-spacing: 0 !important;
+}
+
+
+/* === compact list column align 2026-09-17p === */
+/* Desktop/laptop: fixed columns so position/field/area/employer/city/country line up */
+@media (min-width: 901px) {
+  .compact-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 10px 14px;
+  }
+  .compact-h {
+    flex: 0 0 40px;
+    text-align: right;
+  }
+  .compact-name {
+    flex: 0 0 200px;
+    min-width: 160px;
+    max-width: 220px;
+  }
+  .compact-meta {
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns:
+      minmax(88px, 0.9fr)   /* position */
+      minmax(110px, 1.2fr)  /* field */
+      minmax(100px, 1.1fr)  /* area */
+      minmax(140px, 1.6fr)  /* affiliation */
+      minmax(90px, 0.9fr)   /* city */
+      minmax(80px, 0.8fr);  /* country */
+    column-gap: 12px;
+    align-items: baseline;
+    min-width: 0;
+  }
+  .compact-col {
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .compact-col a,
+  .compact-col .area-quiet {
+    display: inline;
+  }
+  .compact-dot {
+    display: none; /* columns replace dots on wide screens */
+  }
+}
+@media (max-width: 900px) {
+  .compact-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 0;
+  }
+  .compact-col {
+    display: inline;
+  }
+  .compact-col:not(:last-child)::after {
+    content: " · ";
+    color: #bbb;
+  }
+  .compact-dot { display: none; }
 }
