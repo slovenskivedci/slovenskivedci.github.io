@@ -986,3 +986,19 @@ header.header-section {
     max-width: 100% !important;
   }
 }
+
+
+/* === first-card top spacing 2026-09-17a === */
+/* Later cards get space above the photo from the previous card's margin-bottom
+   (below its border). The first card had none under the list's top border —
+   match that gap with padding-top on every card. */
+.post-wrapper {
+  padding-top: 12px !important;
+}
+.w-dyn-item:first-child .post-wrapper {
+  padding-top: 12px !important;
+}
+/* Compact rows already use padding: 5px 0; keep first row consistent under the top line. */
+.w-dyn-list > .w-dyn-items > .w-dyn-item:first-child .compact-row {
+  padding-top: 5px !important;
+}
