@@ -1275,3 +1275,31 @@ header.header-section {
   }
   .compact-dot { display: none; }
 }
+
+
+/* === compact cols left-align workplace/city/country 2026-09-17r === */
+@media (min-width: 901px) {
+  .compact-meta {
+    justify-items: start;
+  }
+  .compact-col,
+  .compact-col-position,
+  .compact-col-field,
+  .compact-col-area,
+  .compact-col-affiliation,
+  .compact-col-city,
+  .compact-col-country {
+    text-align: left !important;
+    justify-self: start;
+  }
+  .compact-col a,
+  .compact-col .area-quiet {
+    text-align: left !important;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+  }
+}

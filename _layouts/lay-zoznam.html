@@ -9,7 +9,17 @@
     <script src="/style/site-shell.js?v=20260917m"></script>
 
 
-    <style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
+    <style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}
+    @media (min-width: 901px) {
+      .compact-col-affiliation,
+      .compact-col-city,
+      .compact-col-country,
+      .compact-col-position,
+      .compact-col-field,
+      .compact-col-area { text-align: left !important; }
+      .compact-meta { justify-items: start; }
+    }
+    </style>
         <style>
     {
         box-sizing: border-box;
