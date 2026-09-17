@@ -1337,3 +1337,97 @@ header.header-section {
   color: #666 !important;
 }
 
+
+/* === compact sort arrows 2026-09-17sort === */
+body.page-zoznam .compact-sort-row {
+  display: none;
+}
+@media (min-width: 901px) {
+  body.page-zoznam .compact-sort-row {
+    display: grid !important;
+    grid-template-columns:
+      2.6rem
+      13.5rem
+      7rem
+      12.5rem
+      7.5rem
+      minmax(11rem, 1.5fr)
+      8rem
+      7rem !important;
+    column-gap: 10px !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 2px 0 6px !important;
+    margin: 0 0 4px !important;
+    border-bottom: 1px solid #eee !important;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 5;
+  }
+  body.page-zoznam .compact-sort-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    padding: 2px 0;
+    margin: 0;
+    cursor: pointer;
+    line-height: 1;
+    text-align: left;
+    color: #bbb;
+    font-size: 11px;
+    box-shadow: none;
+  }
+  body.page-zoznam .compact-sort-btn[data-sort="h"] {
+    text-align: right;
+  }
+  body.page-zoznam .compact-sort-arrow {
+    display: inline-block;
+    transition: transform 0.15s ease, color 0.15s ease;
+    color: inherit;
+  }
+  body.page-zoznam .compact-sort-btn.is-asc {
+    color: #c0392b;
+  }
+  body.page-zoznam .compact-sort-btn.is-desc {
+    color: #2e7d32;
+  }
+  body.page-zoznam .compact-sort-btn.is-desc .compact-sort-arrow {
+    transform: rotate(180deg);
+  }
+  body.page-zoznam .compact-sort-btn:hover {
+    color: #888;
+  }
+  body.page-zoznam .compact-sort-btn.is-asc:hover {
+    color: #a93226;
+  }
+  body.page-zoznam .compact-sort-btn.is-desc:hover {
+    color: #1b5e20;
+  }
+}
+@media (max-width: 900px) {
+  body.page-zoznam .compact-sort-row {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    padding: 4px 0 8px;
+    border-bottom: 1px solid #eee;
+  }
+  body.page-zoznam .compact-sort-btn {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: #bbb;
+    font-size: 12px;
+    padding: 2px 4px;
+    cursor: pointer;
+  }
+  body.page-zoznam .compact-sort-btn.is-asc { color: #c0392b; }
+  body.page-zoznam .compact-sort-btn.is-desc { color: #2e7d32; }
+  body.page-zoznam .compact-sort-btn.is-desc .compact-sort-arrow {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+}
+

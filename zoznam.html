@@ -3,6 +3,18 @@ layout: lay-zoznam
 title: Zoznam
 ---
 
+
+<div class="compact-sort-row" role="row" aria-label="Zoradiť stĺpce">
+  <button type="button" class="compact-sort-btn" data-sort="h" aria-label="Zoradiť podľa h-indexu"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="name" aria-label="Zoradiť podľa mena"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="position" aria-label="Zoradiť podľa pozície"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="field" aria-label="Zoradiť podľa odboru"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="area" aria-label="Zoradiť podľa oblasti"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="affiliation" aria-label="Zoradiť podľa pracoviska"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="city" aria-label="Zoradiť podľa mesta"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="country" aria-label="Zoradiť podľa krajiny"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+</div>
+
 {% for item in site.data.all %}
 <div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }} area-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
   <div role="listitem" class="w-dyn-item">
