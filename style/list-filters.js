@@ -41,12 +41,13 @@ window.SV.listFiltersBound = true;
 	 function filter(){
 
 
-		 var field = $("#filter-field").html();
+		 var field = ($("#filter-field").html() || "").trim();
 		 var position = $("#filter-position").html();
 		 var country = $("#filter-country").html();
 		 var affiliation = $("#filter-affiliation").html();
 		 var city = $("#filter-city").html();
      var sex = $("#filter-sex").html();
+     var area = ($("#filter-area").html() || "").trim();
 
         var qNorm = normalizeDiacritics($("#header-search").val() || "");
 
@@ -74,6 +75,9 @@ window.SV.listFiltersBound = true;
 				  keep=false;
 			  }
         if (sex!="" &&   !$(this).hasClass("sex-"+sex)  ){
+				  keep=false;
+			  }
+			  if (area!="" &&   !$(this).hasClass("area-"+area)  ){
 				  keep=false;
 			  }
 
@@ -114,6 +118,21 @@ window.SV.listFiltersBound = true;
 			$("#filter-field").html(field);
 			$(".toggle-field").removeClass("selected");
 			$(".toggle-field-"+field).addClass("selected");
+		}
+		filter();
+	  });
+
+
+	  $(document).on("click", ".toggle-area", function(){
+		if($(this).hasClass("selected")){
+			$("#filter-area").html("");
+			$(".toggle-area").removeClass("selected");
+        }else{
+			var id = $(this).attr('id');
+			var areaVal = id.split(":")[6];
+			$("#filter-area").html(areaVal);
+			$(".toggle-area").removeClass("selected");
+			$(".toggle-area-"+areaVal).addClass("selected");
 		}
 		filter();
 	  });
@@ -257,9 +276,16 @@ window.SV.listFiltersBound = true;
 		  changed = true;
 		}
 		if (qArea) {
-		  $("#filter-field").html(qArea);
+		  $("#filter-area").html(qArea);
+		  $(".toggle-area").removeClass("selected");
+		  $(".toggle-area-" + qArea).addClass("selected");
+		  changed = true;
+		}
+		var qField = params.get("field");
+		if (qField) {
+		  $("#filter-field").html(qField);
 		  $(".toggle-field").removeClass("selected");
-		  $(".toggle-field-" + qArea).addClass("selected");
+		  $(".toggle-field-" + qField).addClass("selected");
 		  changed = true;
 		}
 		if (qAff) {
