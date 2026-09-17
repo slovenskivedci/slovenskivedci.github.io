@@ -72,14 +72,12 @@
     });
     var frag = document.createDocumentFragment();
     items.forEach(function (el) { frag.appendChild(el); });
-    // keep sort row first if it is a child of root
+    // Append sorted entries, then pin chrome: sort row on top, footer at bottom.
+    root.appendChild(frag);
     var sortRow = root.querySelector(":scope > .compact-sort-row");
-    if (sortRow && sortRow.parentNode === root) {
-      root.appendChild(frag);
-      root.insertBefore(sortRow, root.firstChild);
-    } else {
-      root.appendChild(frag);
-    }
+    if (sortRow) root.insertBefore(sortRow, root.firstChild);
+    var footer = root.querySelector(":scope > .footer");
+    if (footer) root.appendChild(footer);
   }
 
   function paintButtons(activeCol, dir) {
