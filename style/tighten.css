@@ -1240,8 +1240,8 @@ header.header-section {
 }
 
 
-/* === compact list dynamic width 2026-09-17v === */
-/* Compact list only: grow with the viewport so columns need not wrap. */
+/* === compact list dynamic width 2026-09-17w === */
+/* Compact list only: page grows with the viewport; columns stay one line. */
 @media screen and (min-width: 992px) {
   body.page-zoznam .w-container,
   body.page-zoznam .header-section .w-container,
@@ -1252,73 +1252,48 @@ header.header-section {
 }
 @media (min-width: 901px) {
   body.page-zoznam .compact-row {
-    display: table !important;
-    table-layout: auto !important;
+    display: grid !important;
+    grid-template-columns:
+      2.75rem
+      max-content
+      max-content
+      minmax(8rem, 1.1fr)
+      max-content
+      minmax(10rem, 1.4fr)
+      max-content
+      max-content !important;
+    column-gap: 14px !important;
+    align-items: baseline !important;
     width: 100% !important;
-    border-collapse: collapse !important;
-  }
-  body.page-zoznam .compact-h,
-  body.page-zoznam .compact-name,
-  body.page-zoznam .compact-meta {
-    display: table-cell !important;
-    vertical-align: top !important;
-    float: none !important;
   }
   body.page-zoznam .compact-h {
-    width: 2.5em !important;
     text-align: right !important;
-    padding-right: 12px !important;
     white-space: nowrap !important;
   }
-  body.page-zoznam .compact-name {
-    width: 1% !important; /* shrink-wrap name column */
-    text-align: left !important;
-    padding-right: 16px !important;
-    white-space: nowrap !important;
-  }
-  body.page-zoznam .compact-meta {
-    width: auto !important;
-    text-align: left !important;
-    font-size: 0 !important;
-  }
+  body.page-zoznam .compact-name,
   body.page-zoznam .compact-col {
-    display: table-cell !important;
-    font-size: 13px !important;
-    line-height: 1.35 !important;
-    vertical-align: top !important;
     text-align: left !important;
-    box-sizing: border-box !important;
-    padding-right: 14px !important;
     white-space: nowrap !important;
     overflow: visible !important;
+    text-overflow: clip !important;
+    min-width: 0 !important;
   }
-  body.page-zoznam .compact-col::after { content: none !important; }
-  body.page-zoznam .compact-col-country { padding-right: 0 !important; }
   body.page-zoznam .compact-col a,
   body.page-zoznam .compact-col .area-quiet {
-    display: inline !important;
     white-space: nowrap !important;
     overflow: visible !important;
     text-overflow: clip !important;
     max-width: none !important;
-    text-align: left !important;
   }
   body.page-zoznam .compact-dot { display: none !important; }
 }
-/* Nested table cells: compact-meta must itself be a table for col cells */
-@media (min-width: 901px) {
-  body.page-zoznam .compact-meta {
-    display: table !important;
-    width: 100% !important;
-    table-layout: auto !important;
-    border-collapse: collapse !important;
-  }
-}
 @media (max-width: 900px) {
-  body.page-zoznam .compact-meta { display: block !important; font-size: 13px !important; }
+  body.page-zoznam .compact-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4px 8px !important;
+  }
   body.page-zoznam .compact-col {
-    display: inline !important;
-    width: auto !important;
     white-space: normal !important;
   }
   body.page-zoznam .compact-col:not(:last-child)::after {
