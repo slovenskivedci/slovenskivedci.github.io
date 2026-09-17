@@ -1240,76 +1240,88 @@ header.header-section {
 }
 
 
-/* === compact list table columns 2026-09-17u === */
-/* Table-style columns: left-aligned, wrapping, no overlap. */
+/* === compact list dynamic width 2026-09-17v === */
+/* Compact list only: grow with the viewport so columns need not wrap. */
+@media screen and (min-width: 992px) {
+  body.page-zoznam .w-container,
+  body.page-zoznam .header-section .w-container,
+  body.page-zoznam .content-wrapper > .w-container {
+    max-width: min(96vw, 1800px) !important;
+    width: 100% !important;
+  }
+}
 @media (min-width: 901px) {
-  .compact-row {
+  body.page-zoznam .compact-row {
     display: table !important;
-    table-layout: fixed !important;
+    table-layout: auto !important;
     width: 100% !important;
     border-collapse: collapse !important;
   }
-  .compact-h,
-  .compact-name,
-  .compact-meta {
+  body.page-zoznam .compact-h,
+  body.page-zoznam .compact-name,
+  body.page-zoznam .compact-meta {
     display: table-cell !important;
     vertical-align: top !important;
     float: none !important;
   }
-  .compact-h {
-    width: 44px !important;
+  body.page-zoznam .compact-h {
+    width: 2.5em !important;
     text-align: right !important;
-    padding-right: 10px !important;
-  }
-  .compact-name {
-    width: 190px !important;
-    text-align: left !important;
     padding-right: 12px !important;
-    white-space: normal !important;
+    white-space: nowrap !important;
   }
-  .compact-meta {
+  body.page-zoznam .compact-name {
+    width: 1% !important; /* shrink-wrap name column */
+    text-align: left !important;
+    padding-right: 16px !important;
+    white-space: nowrap !important;
+  }
+  body.page-zoznam .compact-meta {
     width: auto !important;
     text-align: left !important;
-    font-size: 0 !important; /* kill whitespace between inline-blocks */
+    font-size: 0 !important;
   }
-  .compact-col {
-    display: inline-block !important;
+  body.page-zoznam .compact-col {
+    display: table-cell !important;
     font-size: 13px !important;
     line-height: 1.35 !important;
     vertical-align: top !important;
     text-align: left !important;
     box-sizing: border-box !important;
-    padding-right: 10px !important;
-    white-space: normal !important;
+    padding-right: 14px !important;
+    white-space: nowrap !important;
     overflow: visible !important;
-    word-break: break-word !important;
   }
-  .compact-col::after { content: none !important; }
-  .compact-col-position { width: 12% !important; }
-  .compact-col-field { width: 18% !important; }
-  .compact-col-area { width: 14% !important; }
-  .compact-col-affiliation { width: 28% !important; }
-  .compact-col-city { width: 14% !important; }
-  .compact-col-country { width: 14% !important; padding-right: 0 !important; }
-  .compact-col a,
-  .compact-col .area-quiet {
+  body.page-zoznam .compact-col::after { content: none !important; }
+  body.page-zoznam .compact-col-country { padding-right: 0 !important; }
+  body.page-zoznam .compact-col a,
+  body.page-zoznam .compact-col .area-quiet {
     display: inline !important;
-    white-space: normal !important;
+    white-space: nowrap !important;
     overflow: visible !important;
     text-overflow: clip !important;
     max-width: none !important;
     text-align: left !important;
   }
-  .compact-dot { display: none !important; }
+  body.page-zoznam .compact-dot { display: none !important; }
+}
+/* Nested table cells: compact-meta must itself be a table for col cells */
+@media (min-width: 901px) {
+  body.page-zoznam .compact-meta {
+    display: table !important;
+    width: 100% !important;
+    table-layout: auto !important;
+    border-collapse: collapse !important;
+  }
 }
 @media (max-width: 900px) {
-  .compact-meta { display: block !important; font-size: 13px !important; }
-  .compact-col {
+  body.page-zoznam .compact-meta { display: block !important; font-size: 13px !important; }
+  body.page-zoznam .compact-col {
     display: inline !important;
     width: auto !important;
     white-space: normal !important;
   }
-  .compact-col:not(:last-child)::after {
+  body.page-zoznam .compact-col:not(:last-child)::after {
     content: " · ";
     color: #bbb;
   }
