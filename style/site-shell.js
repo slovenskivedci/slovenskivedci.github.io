@@ -143,16 +143,27 @@ window.SV = window.SV || {};
     return go();
   }
 
+  function isZoznam(path) {
+    return !!(path && (path === "/zoznam.html" || path === "/zoznam" || path.indexOf("zoznam.html") !== -1));
+  }
+
   function navigate(path, push) {
     if (!isAppPath(path)) {
       window.location.href = path;
       return;
     }
-    if (path === pathOf(window.location.href) && push !== false) {
+    var cur = pathOf(window.location.href) || "/";
+    if (path === cur && push !== false) {
       // same page
       return;
     }
     var url = path === "/" ? "/" : path;
+    // Compact list has its own layout CSS in <head>. Soft-swapping content
+    // while keeping another page's stylesheet yields the "refresh vs click" mismatch.
+    if (isZoznam(path) !== isZoznam(cur)) {
+      window.location.href = url;
+      return;
+    }
     fetch(url, { credentials: "same-origin", headers: { "X-SV-Shell": "1" } })
       .then(function (res) {
         if (!res.ok) throw new Error("fetch " + res.status);
@@ -201,10 +212,28 @@ window.SV = window.SV || {};
     if (isAppPath(p)) navigate(p, false);
   });
 
+  function bindLogo() {
+    var logos = document.querySelectorAll("a.site-logo-link[href]");
+    logos.forEach(function (a) {
+      var p = pathOf(a.getAttribute("href"));
+      if (!isAppPath(p)) return;
+      a.addEventListener("click", function (e) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        navigate(p, true);
+      });
+    });
+  }
+
+  function bindAll() {
+    bindNav();
+    bindLogo();
+  }
+
   window.SV.navigate = navigate;
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", bindNav);
+    document.addEventListener("DOMContentLoaded", bindAll);
   } else {
-    bindNav();
+    bindAll();
   }
 })();
