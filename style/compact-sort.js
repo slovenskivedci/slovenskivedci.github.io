@@ -38,8 +38,22 @@
     return t;
   }
 
+  function lastNameOf(entry) {
+    var d = (entry.getAttribute("data-last") || "").trim();
+    if (d) return d;
+    // fallback: last token of displayed name (strip year)
+    var full = cellText(entry, "name").replace(/\s*\(\d{4}\)\s*$/, "").trim();
+    var parts = full.split(/\s+/);
+    return parts.length ? parts[parts.length - 1] : full;
+  }
+
   function sortKey(entry, key) {
-    var t = cellText(entry, key);
+    var t;
+    if (key === "name") {
+      t = lastNameOf(entry);
+    } else {
+      t = cellText(entry, key);
+    }
     if (key === "h") {
       var n = parseInt(t, 10);
       return isNaN(n) ? -Infinity : n;
@@ -62,8 +76,11 @@
       } else {
         cmp = String(ka).localeCompare(String(kb), "sk", { sensitivity: "base" });
       }
-      if (cmp === 0) {
-        // stable-ish tie-break by name then h
+      if (cmp === 0 && col === "name") {
+        var fa = cellText(a, "name");
+        var fb = cellText(b, "name");
+        cmp = String(fa).localeCompare(String(fb), "sk", { sensitivity: "base" });
+      } else if (cmp === 0) {
         var na = sortKey(a, "name");
         var nb = sortKey(b, "name");
         cmp = String(na).localeCompare(String(nb), "sk", { sensitivity: "base" });
