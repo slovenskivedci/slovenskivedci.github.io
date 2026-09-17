@@ -13080,10 +13080,11 @@
   year: 1950
   sex: "\u017Eena"
   position: "vedky\u0148a"
-  field: "nanomateri\xE1ly a rtg. multilayers"
-  pribeh: "R\xF6ntgenov\xE9 multilayers na F\xDA SAV: vrstvy, ktor\xE9 svetlo odr\xE1\
+  field: "nanomateri\xE1ly a rtg. multivrstvy"
+  pribeh: "R\xF6ntgenov\xE9 multivrstvy na F\xDA SAV: vrstvy, ktor\xE9 svetlo odr\xE1\
     \u017Eaj\xFA pod\u013Ea pl\xE1nu, nie pod\u013Ea n\xE1lady naparova\u010Da."
-  affiliation: "Fyzik\xE1lny \xFAstav SAV"
+  affiliation: "Fyzik\xE1lny \xFAstav SAV / Centrum pre vyu\u017Eitie pokro\u010D\
+    il\xFDch materi\xE1lov SAV"
   city: Bratislava
   country: Slovensko
   hindex: 30
@@ -13094,11 +13095,11 @@
     - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=290
   img: Eva_Majkova_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: nanomaterialy_a_rtg._multilayers
+  fieldurl: nanomaterialy_a_rtg._multivrstvy
   area: "materi\xE1ly"
   areaurl: materialy
   positionurl: vedkyna
-  affiliationurl: Fyzikalny_ustav_SAV
+  affiliationurl: Fyzikalny_ustav_SAV_/_Centrum_pre_vyuzitie_pokrocilych_materialov_SAV
   cityurl: Bratislava
   sexurl: zena
 - name: "Tom\xE1\u0161 Majt\xE1n"
