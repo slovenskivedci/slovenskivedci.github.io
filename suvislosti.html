@@ -11,7 +11,7 @@ title: Súvislosti
           Prehľadajte, kto zdieľa odbor, pracovisko, mesto alebo krajinu.
         </p>
 
-        <div id="conn-chips" class="conn-chips" style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 20px;">
+        <div id="conn-chips" class="conn-chips">
           <button type="button" class="conn-chip selected" data-dim="areas">Odbor</button>
           <button type="button" class="conn-chip" data-dim="affiliations">Pracovisko</button>
           <button type="button" class="conn-chip" data-dim="cities">Mesto</button>
@@ -101,17 +101,27 @@ title: Súvislosti
 </div>
 
 <style>
-.conn-chip {
-  border: 1px solid #d0d7de;
-  background: #fff;
-  color: #444;
-  font: 13px/1.2 "Open Sans", Arial, sans-serif;
-  padding: 6px 14px;
-  border-radius: 999px;
-  cursor: pointer;
+.conn-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 0 20px;
 }
-.conn-chip:hover { background: #fff8d6; }
-.conn-chip.selected { background: #fff8d6; color: #1f4e79; border-color: #c9c09a; }
+.conn-chip {
+  border: none;
+  background: transparent;
+  color: #666;
+  font: 13px/18px inherit;
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 0;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: none;
+}
+.conn-chip:hover { background: #fff4b8; color: #666; }
+.conn-chip.selected { background: #fff4b8; color: #666; }
 .conn-group {
   border-bottom: 1px solid #eee;
   padding: 6px 0;

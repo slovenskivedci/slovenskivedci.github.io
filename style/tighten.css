@@ -1318,3 +1318,22 @@ header.header-section {
   }
 }
 
+
+/* === suvislosti chips minimal 2026-09-17y === */
+.conn-chip {
+  border: none !important;
+  background: transparent !important;
+  color: #666 !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  padding: 4px 8px !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.conn-chip:hover,
+.conn-chip.selected {
+  background: #fff4b8 !important;
+  color: #666 !important;
+}
+
