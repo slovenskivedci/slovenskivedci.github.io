@@ -28,7 +28,7 @@ title: Súvislosti
               <ul class="conn-members">
                 {% for m in g.members %}
                 <li>
-                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <a href="/podrobny.html#{{ m.card_id | url_encode }}">{{ m.name }}</a>
                   <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
                   <span class="conn-meta">{{ m.field }}</span>
                 </li>
@@ -47,7 +47,7 @@ title: Súvislosti
               <ul class="conn-members">
                 {% for m in g.members %}
                 <li>
-                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <a href="/podrobny.html#{{ m.card_id | url_encode }}">{{ m.name }}</a>
                   <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
                   <span class="conn-meta">{{ m.field }} · {{ m.city }}</span>
                 </li>
@@ -66,7 +66,7 @@ title: Súvislosti
               <ul class="conn-members">
                 {% for m in g.members %}
                 <li>
-                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <a href="/podrobny.html#{{ m.card_id | url_encode }}">{{ m.name }}</a>
                   <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
                   <span class="conn-meta">{{ m.affiliation }}</span>
                 </li>
@@ -85,7 +85,7 @@ title: Súvislosti
               <ul class="conn-members">
                 {% for m in g.members %}
                 <li>
-                  <a href="/#{{ m.card_id | url_encode }}">{{ m.name }}</a>
+                  <a href="/podrobny.html#{{ m.card_id | url_encode }}">{{ m.name }}</a>
                   <span class="conn-h">h&nbsp;{{ m.hindex }}</span>
                   <span class="conn-meta">{{ m.city }} · {{ m.affiliation }}</span>
                 </li>

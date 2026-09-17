@@ -1,81 +1,36 @@
 ---
-layout: lay-index
+layout: lay-zoznam
 title: Domov
 ---
 
+
+<div class="compact-sort-row" role="row" aria-label="Zoradiť stĺpce">
+  <button type="button" class="compact-sort-btn" data-sort="h" aria-label="Zoradiť podľa h-indexu"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="name" aria-label="Zoradiť podľa priezviska"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="position" aria-label="Zoradiť podľa pozície"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="field" aria-label="Zoradiť podľa odboru"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="area" aria-label="Zoradiť podľa oblasti"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="affiliation" aria-label="Zoradiť podľa pracoviska"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="city" aria-label="Zoradiť podľa mesta"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+  <button type="button" class="compact-sort-btn" data-sort="country" aria-label="Zoradiť podľa krajiny"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
+</div>
+
 {% for item in site.data.all %}
-
-
-			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }} area-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }} " id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
-				<div role="listitem" class="w-dyn-item">
-					<div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-
-					<div class="row container flex-direction">
-						<div class="w-col w-col-6  column">
-
-
-							{% if forloop.index <= 8 %}
-							<img src="/images/{{ item.img }}" width="280" height="157" decoding="async" role="img">
-							{% else %}
-							<img src="/images/{{ item.img }}" width="280" height="157" loading="lazy" decoding="async" role="img">
-							{% endif %}
-						</div>
-
-						<div class="w-col w-col-6 card-text">
-							<div class="card-title-row">
-								<h1 class="blog-title">{{ item.name }}{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</h1>
-								<a class="hindex-link" href="{{ item.scholar }}" target="_blank">h-index:&nbsp;{{ item.hindex }}</a>
-							</div>
-
-							<p class="post-summary card-facts">
-        <a class="filter-link toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
-        <span class="compact-dot">·</span>
-        <a class="filter-link toggle toggle-field toggle-field-{{ item.fieldurl }}" id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a>
-        <span class="compact-dot">·</span>
-        <a class="filter-link toggle toggle-area toggle-area-{{ item.areaurl }}" id="area:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.area }}</a>
-        <span class="compact-dot">·</span>
-        <a class="filter-link toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }}" id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
-        <span class="compact-dot">·</span>
-        <a class="filter-link toggle toggle-city toggle-city-{{ item.cityurl }}" id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
-        <span class="compact-dot">·</span>
-        <a class="filter-link toggle toggle-country toggle-country-{{ item.countryurl }}" id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
-							</p>
-
-
-							{% if item.pribeh %}
-							<p class="card-pribeh">{{ item.pribeh }}</p>
-							{% endif %}
-
-							<p class="card-links">
-							{% for link in item.links %}
-								<a href="{{ link[1] }}">{{ link[0] }}</a>
-							{% endfor %}
-							</p>
-
-						</div>
-
-
-					</div>
-
-
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-
-
-      </div>
-
-
-
+<div role="list" data-last="{{ item.last }}" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }} area-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
+  <div role="listitem" class="w-dyn-item">
+    <div class="compact-row">
+      <a class="compact-h" href="{{ item.scholar }}" target="_blank">{{ item.hindex }}</a>
+      <span class="compact-name">{{ item.name }}{% if item.year.size > 0 %} <span class="compact-year">({{ item.year }})</span>{% endif %}</span>
+      <span class="compact-col compact-col-position"><a class="filter-link toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a></span>
+        <span class="compact-col compact-col-field"><a class="filter-link toggle toggle-field toggle-field-{{ item.fieldurl }}" id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a></span>
+        <span class="compact-col compact-col-area"><a class="filter-link toggle toggle-area toggle-area-{{ item.areaurl }}" id="area:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.area }}</a></span>
+        <span class="compact-col compact-col-affiliation"><a class="filter-link toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }}" id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a></span>
+        <span class="compact-col compact-col-city"><a class="filter-link toggle toggle-city toggle-city-{{ item.cityurl }}" id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a></span>
+        <span class="compact-col compact-col-country"><a class="filter-link toggle toggle-country toggle-country-{{ item.countryurl }}" id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a></span>
+    </div>
+  </div>
+</div>
 {% endfor %}
-
 
 <div class="footer">
 <p class="footer-thanks">Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).</p>

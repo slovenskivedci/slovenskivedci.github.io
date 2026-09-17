@@ -5,6 +5,7 @@ window.SV = window.SV || {};
     "/": true,
     "/index.html": true,
     "/zoznam.html": true,
+    "/podrobny.html": true,
     "/statistiky.html": true,
     "/suvislosti.html": true
   };
@@ -93,7 +94,7 @@ window.SV = window.SV || {};
     // list pages use real muži/ženy; others keep spacer height via CSS class
     var row = document.querySelector(".sex-under-search");
     if (!row) return;
-    var isList = (path === "/" || path === "/zoznam.html");
+    var isList = (path === "/" || path === "/index.html" || path === "/zoznam.html" || path === "/podrobny.html");
     row.classList.toggle("sex-under-search-spacer", !isList);
     if (!isList) {
       // keep height but don't look active
@@ -115,7 +116,7 @@ window.SV = window.SV || {};
     if (document.body) {
       document.body.classList.toggle(
         "page-zoznam",
-        /(?:^|\/)zoznam\.html(?:$|[?#])/.test(path) || path === "/zoznam" || path.indexOf("zoznam.html") !== -1
+        isCompactPage(path)
       );
     }
 
@@ -143,8 +144,9 @@ window.SV = window.SV || {};
     return go();
   }
 
-  function isZoznam(path) {
-    return !!(path && (path === "/zoznam.html" || path === "/zoznam" || path.indexOf("zoznam.html") !== -1));
+  function isCompactPage(path) {
+    if (!path) return false;
+    return path === "/" || path === "/index.html" || path === "/zoznam.html" || path === "/zoznam";
   }
 
   function navigate(path, push) {
@@ -160,7 +162,7 @@ window.SV = window.SV || {};
     var url = path === "/" ? "/" : path;
     // Compact list has its own layout CSS in <head>. Soft-swapping content
     // while keeping another page's stylesheet yields the "refresh vs click" mismatch.
-    if (isZoznam(path) !== isZoznam(cur)) {
+    if (isCompactPage(path) !== isCompactPage(cur)) {
       window.location.href = url;
       return;
     }

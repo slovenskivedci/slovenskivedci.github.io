@@ -1,44 +1,16 @@
 ---
-layout: lay-zoznam
-title: Zoznam
+layout: null
 ---
-
-
-<div class="compact-sort-row" role="row" aria-label="Zoradiť stĺpce">
-  <button type="button" class="compact-sort-btn" data-sort="h" aria-label="Zoradiť podľa h-indexu"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="name" aria-label="Zoradiť podľa priezviska"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="position" aria-label="Zoradiť podľa pozície"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="field" aria-label="Zoradiť podľa odboru"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="area" aria-label="Zoradiť podľa oblasti"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="affiliation" aria-label="Zoradiť podľa pracoviska"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="city" aria-label="Zoradiť podľa mesta"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-  <button type="button" class="compact-sort-btn" data-sort="country" aria-label="Zoradiť podľa krajiny"><span class="compact-sort-arrow" aria-hidden="true">▼</span></button>
-</div>
-
-{% for item in site.data.all %}
-<div role="list" data-last="{{ item.last }}" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }} area-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }}" id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
-  <div role="listitem" class="w-dyn-item">
-    <div class="compact-row">
-      <a class="compact-h" href="{{ item.scholar }}" target="_blank">{{ item.hindex }}</a>
-      <span class="compact-name">{{ item.name }}{% if item.year.size > 0 %} <span class="compact-year">({{ item.year }})</span>{% endif %}</span>
-      <span class="compact-col compact-col-position"><a class="filter-link toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a></span>
-        <span class="compact-col compact-col-field"><a class="filter-link toggle toggle-field toggle-field-{{ item.fieldurl }}" id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a></span>
-        <span class="compact-col compact-col-area"><a class="filter-link toggle toggle-area toggle-area-{{ item.areaurl }}" id="area:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.area }}</a></span>
-        <span class="compact-col compact-col-affiliation"><a class="filter-link toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }}" id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a></span>
-        <span class="compact-col compact-col-city"><a class="filter-link toggle toggle-city toggle-city-{{ item.cityurl }}" id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a></span>
-        <span class="compact-col compact-col-country"><a class="filter-link toggle toggle-country toggle-country-{{ item.countryurl }}" id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a></span>
-    </div>
-  </div>
-</div>
-{% endfor %}
-
-<div class="footer">
-<p class="footer-thanks">Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).</p>
-<p class="footer-about-line"><a href="#o-zozname" class="footer-about-link" onclick="var d=document.getElementById('o-zozname');if(d){d.open=!d.open;}return false;">O zozname</a></p>
-<details class="about-list footer-about-details" id="o-zozname">
-  <summary class="about-list-summary">O zozname</summary>
-  <p class="main-subheading about-list-body">Zoznam je zostavený podľa <a href="https://sk.wikipedia.org/wiki/Hirschov_index">Hirschovho indexu</a> tak, ako je vypočítaný v <a href="https://scholar.google.sk/?hl=sk">Študovni Google.</a> V zozname sú zahrnutí iba slovenskí vedci a vedkyne s kontom v Študovni Google a s h-indexom 30 alebo vyšším. Ak viete o niekom, kto v zozname chýba, alebo máte akékoľvek doplňujúce informácie, <a href="https://richtarik.org">napíšte mi email.</a></p>
-</details>
-
-<div class="back-to-top"><a href="#header">↑ na začiatok</a></div>
-</div>
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=/">
+  <link rel="canonical" href="/">
+  <title>Kompaktný zoznam</title>
+  <script>location.replace("/");</script>
+</head>
+<body>
+  <p><a href="/">Kompaktný zoznam</a></p>
+</body>
+</html>

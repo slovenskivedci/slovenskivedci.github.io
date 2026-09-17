@@ -1,0 +1,89 @@
+---
+layout: lay-index
+title: Podrobný zoznam
+---
+
+{% for item in site.data.all %}
+
+
+			<div role="list" class="w-dyn-items showed entry country-{{ item.countryurl }}  field-{{ item.fieldurl }} area-{{ item.areaurl }}  position-{{ item.positionurl }}  city-{{ item.cityurl }} affiliation-{{ item.affiliationurl }} sex-{{ item.sexurl }} " id="{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">
+				<div role="listitem" class="w-dyn-item">
+					<div class="post-wrapper" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+
+					<div class="row container flex-direction">
+						<div class="w-col w-col-6  column">
+
+
+							{% if forloop.index <= 8 %}
+							<img src="/images/{{ item.img }}" width="280" height="157" decoding="async" role="img">
+							{% else %}
+							<img src="/images/{{ item.img }}" width="280" height="157" loading="lazy" decoding="async" role="img">
+							{% endif %}
+						</div>
+
+						<div class="w-col w-col-6 card-text">
+							<div class="card-title-row">
+								<h1 class="blog-title">{{ item.name }}{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</h1>
+								<a class="hindex-link" href="{{ item.scholar }}" target="_blank">h-index:&nbsp;{{ item.hindex }}</a>
+							</div>
+
+							<p class="post-summary card-facts">
+        <a class="filter-link toggle toggle-position toggle-position-{{ item.positionurl }}" id="position:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.position }}</a>
+        <span class="compact-dot">·</span>
+        <a class="filter-link toggle toggle-field toggle-field-{{ item.fieldurl }}" id="field:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.field }}</a>
+        <span class="compact-dot">·</span>
+        <a class="filter-link toggle toggle-area toggle-area-{{ item.areaurl }}" id="area:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.areaurl }}:{{ item.sexurl }}">{{ item.area }}</a>
+        <span class="compact-dot">·</span>
+        <a class="filter-link toggle toggle-affiliation toggle-affiliation-{{ item.affiliationurl }}" id="affiliation:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.affiliation }}</a>
+        <span class="compact-dot">·</span>
+        <a class="filter-link toggle toggle-city toggle-city-{{ item.cityurl }}" id="city:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.city }}</a>
+        <span class="compact-dot">·</span>
+        <a class="filter-link toggle toggle-country toggle-country-{{ item.countryurl }}" id="country:{{ item.last }}:{{ item.countryurl }}:{{ item.affiliationurl }}:{{ item.cityurl }}:{{ item.positionurl }}:{{ item.fieldurl }}:{{ item.sexurl }}">{{ item.country }}</a>
+							</p>
+
+
+							{% if item.pribeh %}
+							<p class="card-pribeh">{{ item.pribeh }}</p>
+							{% endif %}
+
+							<p class="card-links">
+							{% for link in item.links %}
+								<a href="{{ link[1] }}">{{ link[0] }}</a>
+							{% endfor %}
+							</p>
+
+						</div>
+
+
+					</div>
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+
+      </div>
+
+
+
+{% endfor %}
+
+
+<div class="footer">
+<p class="footer-thanks">Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).</p>
+<p class="footer-about-line"><a href="#o-zozname" class="footer-about-link" onclick="var d=document.getElementById('o-zozname');if(d){d.open=!d.open;}return false;">O zozname</a></p>
+<details class="about-list footer-about-details" id="o-zozname">
+  <summary class="about-list-summary">O zozname</summary>
+  <p class="main-subheading about-list-body">Zoznam je zostavený podľa <a href="https://sk.wikipedia.org/wiki/Hirschov_index">Hirschovho indexu</a> tak, ako je vypočítaný v <a href="https://scholar.google.sk/?hl=sk">Študovni Google.</a> V zozname sú zahrnutí iba slovenskí vedci a vedkyne s kontom v Študovni Google a s h-indexom 30 alebo vyšším. Ak viete o niekom, kto v zozname chýba, alebo máte akékoľvek doplňujúce informácie, <a href="https://richtarik.org">napíšte mi email.</a></p>
+</details>
+
+<div class="back-to-top"><a href="#header">↑ na začiatok</a></div>
+</div>
