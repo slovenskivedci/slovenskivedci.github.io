@@ -1240,13 +1240,13 @@ header.header-section {
 }
 
 
-/* === compact list dynamic width 2026-09-17w === */
-/* Compact list only: page grows with the viewport; columns stay one line. */
+/* === compact list spreadsheet 2026-09-17x === */
+/* Spreadsheet columns: same track widths on every row so cells line up. */
 @media screen and (min-width: 992px) {
   body.page-zoznam .w-container,
   body.page-zoznam .header-section .w-container,
   body.page-zoznam .content-wrapper > .w-container {
-    max-width: min(96vw, 1800px) !important;
+    max-width: min(98vw, 1900px) !important;
     width: 100% !important;
   }
 }
@@ -1254,36 +1254,50 @@ header.header-section {
   body.page-zoznam .compact-row {
     display: grid !important;
     grid-template-columns:
-      2.75rem
-      max-content
-      max-content
-      minmax(8rem, 1.1fr)
-      max-content
-      minmax(10rem, 1.4fr)
-      max-content
-      max-content !important;
-    column-gap: 14px !important;
+      2.6rem
+      13.5rem
+      7rem
+      12.5rem
+      7.5rem
+      minmax(11rem, 1.5fr)
+      8rem
+      7rem !important;
+    column-gap: 10px !important;
     align-items: baseline !important;
     width: 100% !important;
+    font-size: 12px !important;
+    line-height: 1.35 !important;
+    flex-wrap: nowrap !important;
   }
   body.page-zoznam .compact-h {
     text-align: right !important;
     white-space: nowrap !important;
+    font-variant-numeric: tabular-nums !important;
   }
   body.page-zoznam .compact-name,
-  body.page-zoznam .compact-col {
+  body.page-zoznam .compact-col,
+  body.page-zoznam .compact-col-position,
+  body.page-zoznam .compact-col-field,
+  body.page-zoznam .compact-col-area,
+  body.page-zoznam .compact-col-affiliation,
+  body.page-zoznam .compact-col-city,
+  body.page-zoznam .compact-col-country {
     text-align: left !important;
+    justify-self: stretch !important;
     white-space: nowrap !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
     min-width: 0 !important;
   }
   body.page-zoznam .compact-col a,
-  body.page-zoznam .compact-col .area-quiet {
+  body.page-zoznam .compact-col .area-quiet,
+  body.page-zoznam .compact-name {
+    display: block !important;
+    text-align: left !important;
     white-space: nowrap !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
-    max-width: none !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 100% !important;
   }
   body.page-zoznam .compact-dot { display: none !important; }
 }
@@ -1292,9 +1306,11 @@ header.header-section {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 4px 8px !important;
+    font-size: 12px !important;
   }
   body.page-zoznam .compact-col {
     white-space: normal !important;
+    overflow: visible !important;
   }
   body.page-zoznam .compact-col:not(:last-child)::after {
     content: " · ";

@@ -46,7 +46,7 @@ width: 100%
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="./style/webflow.0fd7239fd.css" rel="stylesheet" type="text/css">
-    <link href="./style/tighten.css?v=20260917w" rel="stylesheet" type="text/css">
+    <link href="./style/tighten.css?v=20260917x" rel="stylesheet" type="text/css">
     <style>
     .main-subheading {
         font-size: 13px;
@@ -87,11 +87,28 @@ width: 100%
     .hindex-link, .compact-h { color: #555; }
     .nav-current, .nav-current a, .nav-current .menu-text { color: #1f4e79; }
 
-    .compact-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; padding: 5px 0; border-bottom: 1px solid #eee; font-size: 13px; line-height: 18px; }
+    .compact-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; padding: 5px 0; border-bottom: 1px solid #eee; font-size: 12px; line-height: 16px; }
     .compact-h { flex: 0 0 36px; text-align: right; font-weight: 600; }
-    .compact-name { flex: 0 1 220px; color: #222; }
+    .compact-name { flex: 0 1 220px; color: #222; text-align: left; }
     .compact-year { color: #888; }
-    .compact-meta { flex: 1 1 280px; color: #666; } /* legacy; cols are direct grid children now */
+    .compact-meta { flex: 1 1 280px; color: #666; } /* legacy */
+    .compact-col { text-align: left; }
+    /* Desktop spreadsheet alignment — same tracks on every row */
+    @media (min-width: 901px) {
+      .compact-row {
+        display: grid !important;
+        grid-template-columns: 2.6rem 13.5rem 7rem 12.5rem 7.5rem minmax(11rem, 1.5fr) 8rem 7rem !important;
+        column-gap: 10px !important;
+        align-items: baseline !important;
+        width: 100% !important;
+        flex-wrap: nowrap !important;
+        font-size: 12px !important;
+      }
+      .compact-h { text-align: right !important; white-space: nowrap !important; }
+      .compact-name, .compact-col { text-align: left !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; min-width: 0 !important; }
+      .compact-col a { display: block !important; text-align: left !important; overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
+      .compact-dot { display: none !important; }
+    }
     .compact-hint { text-align: center; color: #888; font-size: 12px; line-height: 16px; margin: 0 0 10px; }
     .filter-link { color: #444; text-decoration: none; border: none; background: transparent; padding: 1px 4px; border-radius: 3px; font-size: 13px; font-weight: 400; }
     .filter-link:hover { color: #444; background: #FFF4B8; text-decoration: none; }
