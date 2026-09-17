@@ -1303,3 +1303,29 @@ header.header-section {
     vertical-align: bottom;
   }
 }
+
+
+/* === O zozname body match footer-thanks 2026-09-17s === */
+.footer-about-details .about-list-body,
+.footer-about-details .main-subheading,
+.footer-about-details p {
+  font-family: inherit !important;
+  font-size: 13px !important;
+  line-height: 1.45 !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  color: #888 !important;
+  letter-spacing: normal !important;
+}
+.footer-about-details .about-list-body a,
+.footer-about-details .main-subheading a {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: #888 !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-about-details .about-list-body a:hover,
+.footer-about-details .main-subheading a:hover {
+  color: #1f4e79 !important;
+}
