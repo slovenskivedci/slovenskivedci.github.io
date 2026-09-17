@@ -111,9 +111,12 @@ window.SV = window.SV || {};
     cur.innerHTML = next.innerHTML;
     document.title = doc.title || document.title;
 
-    // page-specific body class if any
-    if (doc.body && doc.body.className) {
-      // keep w-mod-js etc from current; merge carefully — skip
+    // page-specific body class (e.g. page-zoznam wide layout)
+    if (document.body) {
+      document.body.classList.toggle(
+        "page-zoznam",
+        /(?:^|\/)zoznam\.html(?:$|[?#])/.test(path) || path === "/zoznam" || path.indexOf("zoznam.html") !== -1
+      );
     }
 
     setNavCurrent(path);
