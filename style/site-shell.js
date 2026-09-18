@@ -166,7 +166,7 @@ window.SV = window.SV || {};
       window.location.href = url;
       return;
     }
-    fetch(url, { credentials: "same-origin", headers: { "X-SV-Shell": "1" } })
+    fetch(url, { credentials: "same-origin", cache: "no-store", headers: { "X-SV-Shell": "1" } })
       .then(function (res) {
         if (!res.ok) throw new Error("fetch " + res.status);
         return res.text();
