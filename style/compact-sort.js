@@ -26,6 +26,33 @@
     return Array.prototype.slice.call(root.querySelectorAll(":scope > .entry, :scope > .w-dyn-items.entry"));
   }
 
+  function ensureOriginalOrder(root) {
+    var items = entries(root);
+    if (!items.length) return;
+    if (items[0].hasAttribute("data-sv-ord")) return;
+    items.forEach(function (el, i) {
+      el.setAttribute("data-sv-ord", String(i));
+    });
+  }
+
+  function restoreOriginalOrder() {
+    var root = listRoot();
+    if (!root) return;
+    ensureOriginalOrder(root);
+    var items = entries(root);
+    items.sort(function (a, b) {
+      return (parseInt(a.getAttribute("data-sv-ord"), 10) || 0) -
+        (parseInt(b.getAttribute("data-sv-ord"), 10) || 0);
+    });
+    var frag = document.createDocumentFragment();
+    items.forEach(function (el) { frag.appendChild(el); });
+    root.appendChild(frag);
+    var sortRow = root.querySelector(":scope > .compact-sort-row");
+    if (sortRow) root.insertBefore(sortRow, root.firstChild);
+    var footer = root.querySelector(":scope > .footer");
+    if (footer) root.appendChild(footer);
+  }
+
   function cellText(entry, key) {
     var sel = SELECTORS[key];
     if (!sel) return "";
@@ -64,6 +91,7 @@
   function applySort(col, dir) {
     var root = listRoot();
     if (!root) return;
+    ensureOriginalOrder(root);
     var items = entries(root);
     if (!items.length) return;
     var numeric = col === "h";
@@ -128,10 +156,24 @@
     }
   }
 
+
+  function resetSort() {
+    state.col = null;
+    state.dir = "asc";
+    paintButtons(null, "asc");
+    restoreOriginalOrder();
+    if (window.SV && typeof SV.updateSelectedNumber === "function") {
+      try { SV.updateSelectedNumber(); } catch (err) {}
+    }
+  }
+  window.SV.resetSort = resetSort;
+
   function bind() {
     var row = document.querySelector(".compact-sort-row");
     if (!row || row.dataset.bound === "1") return;
     row.dataset.bound = "1";
+    var root = listRoot();
+    if (root) ensureOriginalOrder(root);
     row.addEventListener("click", onClick);
   }
 

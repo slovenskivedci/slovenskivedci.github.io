@@ -214,6 +214,22 @@ window.SV = window.SV || {};
     if (isAppPath(p)) navigate(p, false);
   });
 
+  function resetListState() {
+    if (window.SV && typeof SV.resetFilters === "function") {
+      try { SV.resetFilters(); } catch (err) {}
+    }
+    if (window.SV && typeof SV.resetSort === "function") {
+      try { SV.resetSort(); } catch (err) {}
+    }
+    try {
+      var url = new URL(window.location.href);
+      if (url.search) {
+        history.replaceState(null, "", url.pathname + url.hash);
+      }
+    } catch (err) {}
+    window.scrollTo(0, 0);
+  }
+
   function bindLogo() {
     var logos = document.querySelectorAll("a.site-logo-link[href]");
     logos.forEach(function (a) {
@@ -222,6 +238,12 @@ window.SV = window.SV || {};
       a.addEventListener("click", function (e) {
         if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         e.preventDefault();
+        var cur = pathOf(window.location.href) || "/";
+        // Always clear search / filters / sort when returning via Kriváň.
+        resetListState();
+        if (p === cur || (p === "/" && (cur === "/" || cur === "/index.html"))) {
+          return;
+        }
         navigate(p, true);
       });
     });

@@ -323,8 +323,24 @@ window.SV.listFiltersBound = true;
 		}
 	  });
 	  */
+	  function resetFilters(){
+		$("#filter-field, #filter-area, #filter-position, #filter-affiliation, #filter-country, #filter-city, #filter-sex").html("");
+		$(".toggle-field, .toggle-area, .toggle-position, .toggle-affiliation, .toggle-country, .toggle-city, .sex-chip").removeClass("selected");
+		$("#header-search").val("");
+		if (typeof syncSearchClear === "function") syncSearchClear();
+		else $("#header-search-clear").prop("hidden", true);
+		try {
+		  var url = new URL(window.location.href);
+		  ["q","country","city","area","field","affiliation","position","sex"].forEach(function(k){
+			url.searchParams.delete(k);
+		  });
+		  history.replaceState(null, "", url.pathname + url.search + url.hash);
+		} catch (e) {}
+		filter();
+	  }
 	  window.SV.updateSelectedNumber = updateSelectedNumber;
 	  window.SV.runFilter = filter;
+	  window.SV.resetFilters = resetFilters;
 
 
 
