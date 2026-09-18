@@ -61,14 +61,24 @@ title: Statistiky
   padding-top: 28px;
 }
 @media (max-width: 700px) {
-  .sv-chart { height: 200px; }
-  .sv-chart-workplace { height: 420px; }
-  .sv-chart-lollipop-area { height: 340px; }
-  .sv-chart-lollipop-decade { height: 220px; }
+  .sv-chart { height: 200px; max-width: 100%; }
+  .sv-chart-workplace { height: 480px; }
+  .sv-chart-lollipop-area { height: 380px; }
+  .sv-chart-lollipop-decade { height: 240px; }
   .sv-chart-pair .sv-chart { height: 240px; }
   .sv-chart-col + .sv-chart-col { border-left: none; padding-left: 0; border-top: 1px solid #d3d3d3; padding-top: 20px; margin-top: 8px; }
   .sv-field-share-row { grid-template-columns: minmax(96px, 1fr) 1.4fr auto; gap: 8px; }
   #countryWorldMap { height: 220px !important; }
+  .sv-chart-lollipop-area,
+  .sv-chart-lollipop-decade,
+  .sv-chart-workplace {
+    overflow: visible;
+  }
+  /* Slightly tighter page gutters so axis labels get more room */
+  .w-dyn-item .post-wrapper {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
 }
 
 .country-map-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0 4px; font-size: 13px; color: #374151; }
@@ -326,6 +336,27 @@ title: Statistiky
 <div role="listitem" class="w-dyn-item">
       <div class="post-wrapper" style="opacity: 1;">
         <div class="row" align="center">
+
+<script>
+window.SV = window.SV || {};
+window.SV.chartNarrow = function () {
+  return window.matchMedia && window.matchMedia("(max-width: 700px)").matches;
+};
+window.SV.chartRightPad = function () {
+  return window.SV.chartNarrow() ? 14 : 220;
+};
+window.SV.fitYLabels = function (axis) {
+  if (!window.SV.chartNarrow()) return;
+  var w = (axis.chart && axis.chart.width) ? axis.chart.width : 320;
+  var want = Math.min(Math.max(Math.floor(w * 0.44), 120), Math.floor(w * 0.55));
+  if (axis.width < want) axis.width = want;
+};
+window.SV.lollipopLabelText = function (rec) {
+  if (!rec) return "";
+  if (window.SV.chartNarrow()) return String(rec.h);
+  return rec.name + "  " + rec.h;
+};
+</script>
           <p class="sv-plot-title">Najvyšší h-index v oblasti <a class="sv-area-key-link" href="#zlozenie-oblasti">zloženie oblastí</a></p>
           <div class="sv-chart sv-chart-lollipop-area"><canvas id="chartRecordArea"></canvas></div>
           <script>
@@ -350,7 +381,7 @@ title: Statistiky
                     c.font = "12px Open Sans, sans-serif";
                     c.textAlign = "left";
                     c.textBaseline = "middle";
-                    c.fillText(rec.name + "  " + rec.h, bar.x + 10, bar.y);
+                    c.fillText((window.SV && SV.lollipopLabelText ? SV.lollipopLabelText(rec) : (rec.name + "  " + rec.h)), bar.x + 10, bar.y);
                   });
                   c.restore();
                 }
@@ -373,7 +404,7 @@ title: Statistiky
                 indexAxis: "y",
                 responsive: true,
                 maintainAspectRatio: false,
-                layout: { padding: { right: 220 } },
+                layout: { padding: { right: (window.SV && SV.chartRightPad ? SV.chartRightPad() : 220) } },
                 interaction: { mode: "index", intersect: false, axis: "y" },
                 onHover: function(evt, _els, chart) {
                   var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
@@ -393,7 +424,7 @@ title: Statistiky
                 },
                 scales: {
                   x: { beginAtZero: true, title: { display: true, text: "h-index", color: "#666", font: { size: 12 } }, ticks: { color: "#666", font: { size: 11 } }, grid: { color: "rgba(0,0,0,0.06)" } },
-                  y: { ticks: { color: "#444", font: { size: 12 } }, grid: { display: false } }
+                  y: { ticks: { color: "#444", font: { size: (window.SV && SV.chartNarrow && SV.chartNarrow()) ? 10 : 12 } }, grid: { display: false }, afterFit: function(axis) { if (window.SV && SV.fitYLabels) SV.fitYLabels(axis); } }
                 }
               }
             });
@@ -446,7 +477,7 @@ title: Statistiky
                     c.font = "12px Open Sans, sans-serif";
                     c.textAlign = "left";
                     c.textBaseline = "middle";
-                    c.fillText(rec.name + "  " + rec.h, bar.x + 10, bar.y);
+                    c.fillText((window.SV && SV.lollipopLabelText ? SV.lollipopLabelText(rec) : (rec.name + "  " + rec.h)), bar.x + 10, bar.y);
                   });
                   c.restore();
                 }
@@ -469,7 +500,7 @@ title: Statistiky
                 indexAxis: "y",
                 responsive: true,
                 maintainAspectRatio: false,
-                layout: { padding: { right: 220 } },
+                layout: { padding: { right: (window.SV && SV.chartRightPad ? SV.chartRightPad() : 220) } },
                 interaction: { mode: "index", intersect: false, axis: "y" },
                 onHover: function(evt, _els, chart) {
                   var els = chart.getElementsAtEventForMode(evt, "index", { intersect: false, axis: "y" }, false);
@@ -489,7 +520,7 @@ title: Statistiky
                 },
                 scales: {
                   x: { beginAtZero: true, title: { display: true, text: "h-index", color: "#666", font: { size: 12 } }, ticks: { color: "#666", font: { size: 11 } }, grid: { color: "rgba(0,0,0,0.06)" } },
-                  y: { ticks: { color: "#444", font: { size: 12 } }, grid: { display: false } }
+                  y: { ticks: { color: "#444", font: { size: (window.SV && SV.chartNarrow && SV.chartNarrow()) ? 10 : 12 } }, grid: { display: false }, afterFit: function(axis) { if (window.SV && SV.fitYLabels) SV.fitYLabels(axis); } }
                 }
               }
             });
@@ -818,12 +849,36 @@ title: Statistiky
     indexAxis: 'y',
     responsive: true,
     maintainAspectRatio: false,
+    layout: {
+      padding: { left: 4, right: 8 }
+    },
     plugins: {
       legend: { display: false },
       title: { display: false }
     },
     scales: {
-      x: { beginAtZero: true }
+      x: { beginAtZero: true },
+      y: {
+        ticks: {
+          color: '#444',
+          font: { size: (window.SV && SV.chartNarrow && SV.chartNarrow()) ? 10 : 12 },
+          autoSkip: false,
+          callback: function(value) {
+            var label = this.getLabelForValue(value);
+            if (!label) return label;
+            // On phones, keep the start of the name (Chart.js would otherwise clip it).
+            if (window.SV && SV.chartNarrow && SV.chartNarrow()) {
+              var max = 34;
+              if (label.length > max) return label.slice(0, max - 1) + '\u2026';
+            }
+            return label;
+          }
+        },
+        grid: { display: false },
+        afterFit: function(axis) {
+          if (window.SV && SV.fitYLabels) SV.fitYLabels(axis);
+        }
+      }
     }
   },
 });
