@@ -1406,28 +1406,5 @@ body.page-zoznam .compact-sort-row {
     color: #1b5e20;
   }
 }
-@media (max-width: 900px) {
-  body.page-zoznam .compact-sort-row {
-    display: flex !important;
-    flex-wrap: wrap;
-    gap: 4px 10px;
-    padding: 4px 0 8px;
-    border-bottom: 1px solid #eee;
-  }
-  body.page-zoznam .compact-sort-btn {
-    appearance: none;
-    border: none;
-    background: transparent;
-    color: #bbb;
-    font-size: 12px;
-    padding: 2px 4px;
-    cursor: pointer;
-  }
-  body.page-zoznam .compact-sort-btn.is-asc { color: #c0392b; }
-  body.page-zoznam .compact-sort-btn.is-desc { color: #2e7d32; }
-  body.page-zoznam .compact-sort-btn.is-desc .compact-sort-arrow {
-    display: inline-block;
-    transform: rotate(180deg);
-  }
-}
+/* Phones: hide sort arrows — rows wrap, so column arrows cannot align. */
 
