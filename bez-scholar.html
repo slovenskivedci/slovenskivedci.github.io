@@ -33,7 +33,7 @@ title: Bez Google Scholar
         </div>
         <div class="w-col w-col-6 card-text">
           <div class="card-title-row">
-            <h1 class="blog-title">{{ item.name }}{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</h1>
+            <h1 class="blog-title">{{ item.name }}{% if item.year %} ({{ item.year }}){% endif %}</h1>
             {% if item.h_semantic %}
             {% if item.semantic_scholar %}
             <a class="hindex-link" href="{{ item.semantic_scholar }}" target="_blank" rel="noopener">h (Semantic Scholar):&nbsp;{{ item.h_semantic }}</a>
