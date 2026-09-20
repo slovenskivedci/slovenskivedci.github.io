@@ -10616,6 +10616,33 @@
   affiliationurl: Wageningen_University
   cityurl: Wageningen
   sexurl: muz
+- name: "Pavol \u010Eurana"
+  last: Durana
+  year: 1991
+  sex: "mu\u017E"
+  position: docent
+  field: "podnikov\xE1 ekonomika"
+  pribeh: "Bankrotn\xE9 modely v \u017Diline \u010D\xEDta tak, \u017Ee firma dostane\
+    \ predpove\u010F sk\xF4r, ne\u017E \xFA\u010Detn\xFD stihne zatvori\u0165 o\u010D\
+    i \u2014 podnikov\xE1 ekonomika s radarom na insolvenciu."
+  affiliation: "\u017Dilinsk\xE1 univerzita"
+  city: "\u017Dilina"
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=C_CcdQgAAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://ke.uniza.sk/sk/component/contact/contact/45-ing-pavol-durana-phd?Itemid=210&catid=36
+  img: Pavol_Durana_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: podnikova_ekonomika
+  area: "ekon\xF3mia a mana\u017Ement"
+  areaurl: ekonomia_a_manazment
+  positionurl: docent
+  affiliationurl: Zilinska_univerzita
+  cityurl: Zilina
+  sexurl: muz
 - name: "J\xE1n Dvorsk\xFD"
   last: Dvorsky
   year: ''
@@ -11146,6 +11173,33 @@
   affiliationurl: Ceska_akademia_vied
   cityurl: Brno
   sexurl: zena
+- name: "Franti\u0161ek Petrovi\u010D"
+  last: Petrovic
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "krajinn\xE1 ekol\xF3gia"
+  pribeh: "Krajinu na UKF sklad\xE1 do m\xE1p zmien a slu\u017Eieb tak, \u017Ee aj\
+    \ \xFAhor dostane adresu \u2014 krajinn\xE1 ekol\xF3gia s rektorsk\xFDm rozh\u013E\
+    adom."
+  affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
+  city: Nitra
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=yB3__CYAAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://www.ukf.sk/univerzita/organy-univerzity/rektor-ukf
+  img: Frantisek_Petrovic_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: krajinna_ekologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: profesor
+  affiliationurl: Univerzita_Konstantina_Filozofa
+  cityurl: Nitra
+  sexurl: muz
 - name: Pavol Quittner
   last: Quittner
   year: 1958
@@ -12158,6 +12212,32 @@
   affiliationurl: The_University_of_Melbourne
   cityurl: Melbourne
   sexurl: muz
+- name: "Milan Bal\xE1\u017E"
+  last: Balaz
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "organick\xE1 ch\xE9mia"
+  pribeh: "V Soule sklad\xE1 chir\xE1lne nano\u0161trukt\xFAry z DNA a porfyr\xED\
+    nov \u2014 organick\xE1 ch\xE9mia, \u010Do molekule d\xE1va aj zrkadlo, aj takt."
+  affiliation: Yonsei University
+  city: Seoul
+  country: "Ju\u017En\xE1 K\xF3rea"
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=IAjNA9MAAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://yonsei.elsevierpure.com/en/persons/milan-balaz/
+  img: Milan_Balaz_size_280px.jpg
+  countryurl: Juzna_Korea
+  fieldurl: organicka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: docent
+  affiliationurl: Yonsei_University
+  cityurl: Seoul
+  sexurl: muz
 - name: "Pavol Balgav\xFD"
   last: Balgavy
   year: 1944
@@ -12827,34 +12907,6 @@
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
   sexurl: muz
-- name: Peter Cifra
-  last: Cifra
-  year: 1955
-  sex: "mu\u017E"
-  position: vedec
-  field: "fyzika polym\xE9rov"
-  pribeh: "Polym\xE9rne re\u0165azce v tavenine modeluje tak, aby sa z klubka stala\
-    \ predv\xEDdate\u013En\xE1 fyzika, nie v\xFAd\xFA."
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?hl=sk&user=0wKlnIgAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0003-2075-4179
-  - - web
-    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1614
-  img: Peter_Cifra_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: fyzika_polymerov
-  area: fyzika
-  areaurl: fyzika
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: muz
 - name: Michal Cifra
   last: Cifra
   year: 1983
@@ -12882,6 +12934,34 @@
   positionurl: veduci_timu
   affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
   cityurl: Praha
+  sexurl: muz
+- name: Peter Cifra
+  last: Cifra
+  year: 1955
+  sex: "mu\u017E"
+  position: vedec
+  field: "fyzika polym\xE9rov"
+  pribeh: "Polym\xE9rne re\u0165azce v tavenine modeluje tak, aby sa z klubka stala\
+    \ predv\xEDdate\u013En\xE1 fyzika, nie v\xFAd\xFA."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=0wKlnIgAAAAJ
+  last_update: '2026-08-25'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2075-4179
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1614
+  img: Peter_Cifra_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fyzika_polymerov
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: muz
 - name: "\u013Dubo\u0161 \u010Cip\xE1k"
   last: Cipak
