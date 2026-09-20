@@ -1,0 +1,105 @@
+---
+layout: lay-bez-scholar
+title: Bez Google Scholar
+---
+
+<div role="list" class="w-dyn-items">
+  <div role="listitem" class="w-dyn-item">
+    <div class="post-wrapper" style="opacity: 1;">
+      <div class="row" align="center" style="max-width: 920px; margin: 0 auto 24px;">
+        <p class="sv-plot-title" style="margin-bottom: 8px;">Bez Google Scholar</p>
+        <p class="main-subheading" style="max-width: 720px; margin: 0 auto 8px; text-align: center;">
+          Hlavný zoznam (Kompaktný / Podrobný) zahŕňa ľudí s funkčným profilom v Študovni Google
+          a s h-indexom&nbsp;30 alebo vyšším. Táto stránka je pre ľudí, ktorých aj tak považujeme
+          za súčasť zoznamu, no ich Google Scholar profil nefunguje (napr.&nbsp;404) alebo chýba.
+          Uvedené metriky <strong>nie sú</strong> z Google Scholar.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% for item in site.data.no_scholar %}
+<div role="list" class="w-dyn-items showed entry" id="ns-{{ item.last }}">
+  <div role="listitem" class="w-dyn-item">
+    <div class="post-wrapper" style="opacity: 1;">
+      <div class="row container flex-direction">
+        <div class="w-col w-col-6 column">
+          {% if forloop.index <= 4 %}
+          <img src="/images/{{ item.img }}?v=20260920ns" width="280" height="157" decoding="async" role="img" alt="{{ item.name }}">
+          {% else %}
+          <img src="/images/{{ item.img }}?v=20260920ns" width="280" height="157" loading="lazy" decoding="async" role="img" alt="{{ item.name }}">
+          {% endif %}
+        </div>
+        <div class="w-col w-col-6 card-text">
+          <div class="card-title-row">
+            <h1 class="blog-title">{{ item.name }}{% if item.year.size > 0 %} ({{ item.year }}){% endif %}</h1>
+            {% if item.h_semantic %}
+            {% if item.semantic_scholar %}
+            <a class="hindex-link" href="{{ item.semantic_scholar }}" target="_blank" rel="noopener">h (Semantic Scholar):&nbsp;{{ item.h_semantic }}</a>
+            {% else %}
+            <span class="hindex-link">h (Semantic Scholar):&nbsp;{{ item.h_semantic }}</span>
+            {% endif %}
+            {% elsif item.h_openalex %}
+            {% if item.openalex %}
+            <a class="hindex-link" href="{{ item.openalex }}" target="_blank" rel="noopener">h (OpenAlex):&nbsp;{{ item.h_openalex }}</a>
+            {% else %}
+            <span class="hindex-link">h (OpenAlex):&nbsp;{{ item.h_openalex }}</span>
+            {% endif %}
+            {% elsif item.reason %}
+            <span class="hindex-link ns-reason">{{ item.reason }}</span>
+            {% endif %}
+          </div>
+
+          <p class="post-summary card-facts">
+            {% if item.position %}<span>{{ item.position }}</span><span class="compact-dot">·</span>{% endif %}
+            {% if item.field %}<span>{{ item.field }}</span><span class="compact-dot">·</span>{% endif %}
+            {% if item.affiliation %}<span>{{ item.affiliation }}</span><span class="compact-dot">·</span>{% endif %}
+            {% if item.city %}<span>{{ item.city }}</span><span class="compact-dot">·</span>{% endif %}
+            {% if item.country %}<span>{{ item.country }}</span>{% endif %}
+          </p>
+
+          {% if item.pribeh %}
+          <p class="card-pribeh">{{ item.pribeh }}</p>
+          {% endif %}
+
+          {% if item.reason and item.h_semantic %}
+          <p class="ns-note">{{ item.reason }}</p>
+          {% elsif item.reason and item.h_openalex %}
+          <p class="ns-note">{{ item.reason }}</p>
+          {% endif %}
+
+          {% if item.h_google_stale %}
+          <p class="ns-stale">Posledné známe h (Google Scholar, <em>nie aktuálne</em>): {{ item.h_google_stale }}</p>
+          {% endif %}
+
+          <p class="card-links">
+            {% if item.semantic_scholar %}<a href="{{ item.semantic_scholar }}" target="_blank" rel="noopener">Semantic Scholar</a>{% endif %}
+            {% if item.openalex %}<a href="{{ item.openalex }}" target="_blank" rel="noopener">OpenAlex</a>{% endif %}
+            {% for link in item.links %}
+              <a href="{{ link[1] }}">{{ link[0] }}</a>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+<style>
+.ns-reason { font-size: 13px; color: #888; font-weight: 400; max-width: 220px; text-align: right; }
+.ns-note { font-size: 13px; color: #666; margin: 6px 0; }
+.ns-stale { font-size: 12px; color: #999; margin: 4px 0 8px; }
+.card-links a { margin-right: 12px; }
+</style>
+
+<div class="footer">
+<p class="footer-thanks">Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).</p>
+<p class="footer-about-line"><a href="#o-zozname" class="footer-about-link" onclick="var d=document.getElementById('o-zozname');if(d){d.open=!d.open;}return false;">O zozname</a></p>
+<details class="about-list footer-about-details" id="o-zozname">
+  <summary class="about-list-summary">O zozname</summary>
+  <p class="main-subheading about-list-body">Hlavný zoznam je zostavený podľa <a href="https://sk.wikipedia.org/wiki/Hirschov_index">Hirschovho indexu</a> tak, ako je vypočítaný v <a href="https://scholar.google.sk/?hl=sk">Študovni Google</a> (h&nbsp;≥&nbsp;30). Táto stránka dopĺňa ľudí bez funkčného Scholar profilu; metriky tu nie sú z Google Scholar. Ak viete o niekom, kto chýba, alebo máte doplňujúce informácie, <a href="https://richtarik.org">napíšte mi email.</a></p>
+</details>
+<div class="back-to-top"><a href="#header">↑ na začiatok</a></div>
+</div>

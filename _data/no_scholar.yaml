@@ -1,0 +1,62 @@
+- name: "Tanya Ravingerov\xE1"
+  last: Ravingerova
+  year: 1951
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "fyziol\xF3gia"
+  pribeh: "Isch\xE9miu srdca na SAV u\u010D\xED srdce pre\u017Ei\u0165 tr\xE9ningom:\
+    \ fyziol\xF3gia s ochrann\xFDm vtipom vo\u010Di infarktu."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  last_update: '2026-05-09'
+  links:
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Tanya_Ravingerova
+  - - "\u017Eivotopis"
+    - https://www.sav.sk/uploads/users_cv/20181126205307_445_CV_Ravingerova_15.11.2018.doc
+  img: Tanya_Ravingerova_size_280px.jpg
+  reason: Scholar profil nefunguje (404)
+  h_google_stale: 37
+  semantic_scholar: https://www.semanticscholar.org/author/31759865
+  h_semantic: 18
+  countryurl: Slovensko
+  fieldurl: fyziologia
+  positionurl: vedkyna
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
+  area: "medic\xEDna"
+  areaurl: medicina
+- name: "Peter Toma\u0161ec"
+  last: Tomasec
+  year: 1970-2017
+  sex: "mu\u017E"
+  position: "odborn\xFD asistent"
+  field: "virol\xF3gia"
+  pribeh: "Herpesv\xEDrusy sk\xFAmal v Cardiffe s pokojnou presnos\u0165ou \u2014\
+    \ a virol\xF3gia si jeho stopu v gen\xF3me pam\xE4t\xE1."
+  affiliation: Cardiff University
+  city: Cardiff
+  country: "Ve\u013Ek\xE1 Brit\xE1nia"
+  last_update: '2026-05-07'
+  links:
+  - - news
+    - https://www.dailymail.co.uk/news/article-4584480/Scientist-killed-lethal-dose-chemicals.html
+  - - ResearchGate
+    - https://www.researchgate.net/scientific-contributions/Peter-Tomasec-38208495
+  - - UKRI
+    - https://gtr.ukri.org/person/4F8CB53C-C173-40A5-8831-B19670EA9A6C
+  - - "\u017Eivotopis"
+    - files/cv_Peter_Tomasec.pdf
+  img: Peter_Tomasec_size_280px.jpg
+  reason: "Scholar profil nefunguje (404); zosnul\xFD 2017"
+  h_google_stale: 31
+  countryurl: Velka_Britania
+  fieldurl: virologia
+  positionurl: odborny_asistent
+  affiliationurl: Cardiff_University
+  cityurl: Cardiff
+  sexurl: muz
+  area: "medic\xEDna"
+  areaurl: medicina
