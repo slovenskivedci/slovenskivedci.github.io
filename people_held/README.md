@@ -1,11 +1,10 @@
 # Held off live site
 
-YAML that belongs on the **Bez Google Scholar** page lives in `people_no_scholar/`
-(not here). `process.py` only globs `people/*.yaml` for the main Kompaktný/Podrobný lists.
+YAML here is **not** picked up by `process.py` (it only globs `people/*.yaml`).
 
-Historical note (2026-09-20): Peter Tomašec and Tanya Ravingerová were first moved
-here because their Google Scholar profiles returned 404, then into `people_no_scholar/`
-for the dedicated page.
+- `Peter_Tomasec.yaml` — Scholar 404; deceased 2017; do not invent a Google/Scholar account.
+- `Tanya_Ravingerova.yaml` — Scholar 404; emailed 2026-08-30 and 2026-09-13; no reply.
 
-To put someone back on the main list: move their YAML to `people/`, set a working
-`scholar:` URL and current `hindex`, run `python3 process.py`, push `gh-pages`.
+The short-lived “Bez Scholar” page idea was scratched 2026-09-20.
+
+To restore to the main list: move the file back to `people/`, set a working `scholar:` URL, run `python3 process.py`, push `gh-pages`.

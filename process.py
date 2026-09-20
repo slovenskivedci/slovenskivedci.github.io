@@ -683,55 +683,6 @@ with open(r'_data/page.yaml', 'w') as file:
 
 
 
-# --- Bez Google Scholar (people_no_scholar → _data/no_scholar.yaml) ---
-# Not part of main Kompaktný/Podrobný lists (those only use people/*.yaml).
-_no_scholar_out = os.path.join("_data", "no_scholar.yaml")
-if os.path.exists(_no_scholar_out):
-	os.remove(_no_scholar_out)
-
-no_scholar_lst = []
-for y in sorted(glob.glob("./people_no_scholar/*.yaml")):
-	print("no_scholar", y)
-	with open(y) as f:
-		dic = yaml.safe_load(f) or {}
-	if not isinstance(dic, dict) or not dic.get("name"):
-		print("skip empty", y)
-		continue
-	# URL helpers for consistency with main cards (optional filters unused on this page)
-	for key, src in (
-		("countryurl", "country"),
-		("fieldurl", "field"),
-		("positionurl", "position"),
-		("affiliationurl", "affiliation"),
-		("cityurl", "city"),
-		("sexurl", "sex"),
-	):
-		val = dic.get(src) or ""
-		dic[key] = repl(str(val).replace(" ", "_"))
-	dic["area"] = field_group(dic.get("field") or "")
-	dic["areaurl"] = repl(dic["area"].replace(" ", "_"))
-	if dic.get("last"):
-		dic["last"] = repl(str(dic["last"]))
-	links = dic.get("links") or {}
-	if isinstance(links, dict):
-		def _link_label_ns(k):
-			return re.sub(r'\s+(\d+)$', r'\1', str(k))
-		link_list = [[_link_label_ns(k), links[k]] for k in links]
-		link_list = sorted(link_list, key=lambda kv: kv[0].lower())
-		dic["links"] = link_list
-	elif not isinstance(links, list):
-		dic["links"] = []
-	# Extra profile links (SS / OA) shown separately on the page
-	no_scholar_lst.append(dic)
-
-def _ns_sort_key(e):
-	# Alphabetical by last name (do not rank stale Google h above verified SS/OA)
-	return repl(str(e.get("last") or e.get("name") or "")).lower()
-
-no_scholar_lst = sorted(no_scholar_lst, key=_ns_sort_key)
-with open(_no_scholar_out, "w") as file:
-	yaml.dump(no_scholar_lst, file)
-print("no_scholar count", len(no_scholar_lst))
 
 
 '''

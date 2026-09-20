@@ -19,6 +19,8 @@ img: Peter_Tomasec_size_280px.jpg
 reason: Scholar profil nefunguje (404); zosnulý 2017
 h_google_stale: 31
 
-# Bez Google Scholar page (people_no_scholar).
 # No verified Semantic Scholar / OpenAlex author URL found 2026-09-20.
 # Do NOT invent a Google Scholar user id.
+
+# Held off live site: Scholar 404. Restore to people/ when working Scholar URL exists.
+live: false
