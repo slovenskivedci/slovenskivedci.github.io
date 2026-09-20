@@ -18,3 +18,7 @@ links:
   news: https://www.dailymail.co.uk/news/article-4584480/Scientist-killed-lethal-dose-chemicals.html
 img: Peter_Tomasec_size_280px.jpg
 update_status: ERROR
+
+# Held off live site 2026-09-20: Scholar profile 404.
+# Restore to people/ when a working citations?user= URL exists.
+live: false

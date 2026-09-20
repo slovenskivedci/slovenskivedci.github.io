@@ -16,3 +16,7 @@ links:
   "\u017Eivotopis": https://www.sav.sk/uploads/users_cv/20181126205307_445_CV_Ravingerova_15.11.2018.doc
 img: Tanya_Ravingerova_size_280px.jpg
 update_status: ERROR
+
+# Held off live site 2026-09-20: Scholar profile 404.
+# Restore to people/ when a working citations?user= URL exists.
+live: false
