@@ -96,6 +96,7 @@ FIELD_GROUPS = [
 	('geovedy', [
 		'geofyz', 'geochem', 'strukturalna geol', 'geol', 'hydrol',
 		'geochronol', 'seizmol', 'vulkanol', 'oceanograf', 'klimatick',
+		'geograf', 'geomorf', 'geoekol',
 	]),
 	('inžinierstvo', [
 		'chemicke inzinier', 'elektrotechnik', 'elektronik',

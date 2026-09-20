@@ -12286,6 +12286,32 @@
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: zena
+- name: "Juraj Farka\u0161"
+  last: Farkas
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "geoch\xE9mia"
+  pribeh: "Izotopy v Adelaide \u010D\xEDta ako pe\u010Diatky \u010Dasu: geoch\xE9\
+    mia, \u010Do skale aj oce\xE1nu povie, kedy a odkia\u013E pri\u0161li."
+  affiliation: University of Adelaide
+  city: Adelaide
+  country: "Austr\xE1lia"
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=JRe8kNQAAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://researchers.adelaide.edu.au/profile/juraj.farkas
+  img: Juraj_Farkas_size_280px.jpg
+  countryurl: Australia
+  fieldurl: geochemia
+  area: geovedy
+  areaurl: geovedy
+  positionurl: docent
+  affiliationurl: University_of_Adelaide
+  cityurl: Adelaide
+  sexurl: muz
 - name: "J\xE1n Fidrmuc"
   last: Fidrmuc
   year: 1971
@@ -13046,6 +13072,32 @@
   affiliationurl: Slezska_univerzita_v_Opave
   cityurl: Opava
   sexurl: muz
+- name: "\u0160tefan Ly\xF3csa"
+  last: Lyocsa
+  year: 1982
+  sex: "mu\u017E"
+  position: profesor
+  field: ekonometria
+  pribeh: "Finan\u010Dn\xE9 trhy meria tak, \u017Ee aj panika dostane smerodajn\xFA\
+    \ odch\xFDlku \u2014 ekonometria s citom pre volatilitu."
+  affiliation: Masarykova univerzita
+  city: Brno
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=bi9LVAEAAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://www.muni.cz/en/people/239522-stefan-lyocsa
+  img: Stefan_Lyocsa_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: ekonometria
+  area: "ekon\xF3mia a mana\u017Ement"
+  areaurl: ekonomia_a_manazment
+  positionurl: profesor
+  affiliationurl: Masarykova_univerzita
+  cityurl: Brno
+  sexurl: muz
 - name: "Tom\xE1\u0161 Majt\xE1n"
   last: Majtan
   year: ''
@@ -13071,6 +13123,32 @@
   positionurl: odborny_asistent
   affiliationurl: University_of_Fribourg
   cityurl: Fribourg
+  sexurl: muz
+- name: "Jozef Min\xE1r"
+  last: Minar
+  year: 1962
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzick\xE1 geografia"
+  pribeh: "Reli\xE9f na UK sklad\xE1 do geoekologick\xFDch m\xE1p tak, \u017Ee aj\
+    \ svah vie, kam patr\xED \u2014 fyzick\xE1 geografia s v\xFD\u0161komerom."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=lKy1Jk0AAAAJ
+  last_update: '2026-09-20'
+  links:
+  - - web
+    - https://fyzgis.fns.uniba.sk/minar/
+  img: Jozef_Minar_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fyzicka_geografia
+  area: geovedy
+  areaurl: geovedy
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
   sexurl: muz
 - name: Peter Papcun
   last: Papcun
