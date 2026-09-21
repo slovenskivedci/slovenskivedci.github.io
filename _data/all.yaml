@@ -11562,6 +11562,33 @@
   affiliationurl: Narodny_onkologicky_ustav
   cityurl: Bratislava
   sexurl: muz
+- name: Viktor Fischer
+  last: Fischer
+  year: '1957'
+  sex: "mu\u017E"
+  position: profesor
+  field: elektronika
+  pribeh: "\u0160um v \u010Dipe u\u0148ho nie je chyba, ale k\u013E\xFA\u010D \u2014\
+    \ true random gener\xE1tory a hardv\xE9rov\xE1 kryptografia z laborat\xF3ria Hubert\
+    \ Curien v Saint-\xC9tienne."
+  affiliation: "Universit\xE9 Jean Monnet"
+  city: "Saint-\xC9tienne"
+  country: "Franc\xFAzsko"
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=Pqz_SIMAAAAJ
+  last_update: '2026-09-21'
+  links:
+  - - web
+    - https://perso.univ-st-etienne.fr/fischer/english/home.html
+  img: Viktor_Fischer_size_280px.jpg
+  countryurl: Francuzsko
+  fieldurl: elektronika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: profesor
+  affiliationurl: Universite_Jean_Monnet
+  cityurl: Saint-Etienne
+  sexurl: muz
 - name: "Iveta Garaiov\xE1"
   last: Garaiova
   year: ''
@@ -12907,34 +12934,6 @@
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
   sexurl: muz
-- name: Michal Cifra
-  last: Cifra
-  year: 1983
-  sex: "mu\u017E"
-  position: "ved\xFAci t\xEDmu"
-  field: "bioelektrodynamika a biofot\xF3nika"
-  pribeh: "Na AV \u010CR meria nano\u0161ibk\xE9 elektrick\xE9 a sveteln\xE9 sign\xE1\
-    ly buniek \u2014 bioelektrodynamika bez ezoterick\xE9ho oparu."
-  affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
-  city: Praha
-  country: "\u010Cesko"
-  hindex: 30
-  scholar: https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ
-  last_update: '2026-09-05'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0002-8853-9523
-  - - web
-    - https://www.ufe.cz/en/z/michal-cifra/
-  img: Michal_Cifra_size_280px.jpg
-  countryurl: Cesko
-  fieldurl: bioelektrodynamika_a_biofotonika
-  area: fyzika
-  areaurl: fyzika
-  positionurl: veduci_timu
-  affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
-  cityurl: Praha
-  sexurl: muz
 - name: Peter Cifra
   last: Cifra
   year: 1955
@@ -12962,6 +12961,34 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: Michal Cifra
+  last: Cifra
+  year: 1983
+  sex: "mu\u017E"
+  position: "ved\xFAci t\xEDmu"
+  field: "bioelektrodynamika a biofot\xF3nika"
+  pribeh: "Na AV \u010CR meria nano\u0161ibk\xE9 elektrick\xE9 a sveteln\xE9 sign\xE1\
+    ly buniek \u2014 bioelektrodynamika bez ezoterick\xE9ho oparu."
+  affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ
+  last_update: '2026-09-05'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-8853-9523
+  - - web
+    - https://www.ufe.cz/en/z/michal-cifra/
+  img: Michal_Cifra_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: bioelektrodynamika_a_biofotonika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: veduci_timu
+  affiliationurl: Ustav_fotoniky_a_elektroniky_AV_CR
+  cityurl: Praha
   sexurl: muz
 - name: "\u013Dubo\u0161 \u010Cip\xE1k"
   last: Cipak
