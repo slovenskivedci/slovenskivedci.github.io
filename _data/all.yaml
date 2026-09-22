@@ -13285,6 +13285,33 @@
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
   sexurl: muz
+- name: "Roman R\xE9h"
+  last: Reh
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
+  pribeh: "Vo Zvolene sklad\xE1 drevovl\xE1knit\xE9 dosky tak, aby formaldehyd stratil\
+    \ dych \u2014 kompozitn\xE9 drevn\xE9 materi\xE1ly s ekologick\xFDm lepidlom namiesto\
+    \ v\xFAd\xFA."
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=rxFhrMQAAAAJ
+  last_update: '2026-09-22'
+  links:
+  - - web
+    - https://www.tuzvo.sk/en/primary-wood-processing
+  img: Roman_Reh_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: kompozitne_drevne_materialy
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: profesor
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: Peter Samuely
   last: Samuely
   year: 1956
