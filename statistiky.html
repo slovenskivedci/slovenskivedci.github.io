@@ -270,13 +270,6 @@ title: Statistiky
                 return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
               });
             }
-            function vedciLabel(n) {
-              n = Number(n) || 0;
-              var mod10 = n % 10, mod100 = n % 100;
-              if (n === 1) return "1 vedec";
-              if (mod10 >= 2 && mod10 <= 4 && !(mod100 >= 12 && mod100 <= 14)) return n + " vedci";
-              return n + " vedcov";
-            }
             function instNameLabel(n) {
               if (n && typeof n === "object") {
                 var nm = n.name || "";
@@ -319,7 +312,7 @@ title: Statistiky
                 var nPeople = names.length || Number(m.count) || 0;
                 tip.innerHTML = "<strong>" + esc(m.name) + "</strong>" +
                   (m.city ? "<span class=\"sv-sk-tip-city\">" + esc(m.city) + "</span>" : "") +
-                  "<span class=\"sv-sk-tip-count\">" + esc(vedciLabel(nPeople)) + "</span>" +
+                  "<span class=\"sv-sk-tip-count\">" + "počet vedcov: " + nPeople + "</span>" +
                   (names.length ? names.map(instNameLabel).map(esc).join("<br>") : "");
                 tip.style.display = "block";
                 var box = root.getBoundingClientRect();
