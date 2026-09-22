@@ -17,11 +17,12 @@ title: Statistiky
 #slovakiaInstMap .sk-okresy path { fill: #d7e4ee; stroke: #fff; }
 #slovakiaInstMap .sk-okresy path:hover { fill: #c4d5e3; }
 #slovakiaInstMap #skInstDots circle { cursor: pointer; }
-.sv-sk-tip { display: none; position: absolute; z-index: 5; max-width: 280px; max-height: 260px; overflow: auto; padding: 8px 10px; background: #111827; color: #fff; font: 12px/1.35 "Open Sans", Arial, sans-serif; text-align: left; border-radius: 6px; pointer-events: none; }
+.sv-sk-tip { display: none; position: absolute; z-index: 5; max-width: 300px; max-height: min(70vh, 420px); overflow: auto; padding: 8px 10px; background: #111827; color: #fff; font: 12px/1.35 "Open Sans", Arial, sans-serif; text-align: left; border-radius: 6px; pointer-events: auto; }
 .sv-sk-tip strong { display: block; margin-bottom: 2px; }
+.sv-sk-tip-count { display: block; margin: 0 0 6px; color: #cbd5e1; font-size: 11px; }
 .sv-sk-tip-city {
   display: block;
-  margin: 0 0 6px;
+  margin: 0 0 2px;
   font-size: 11px;
   font-weight: 400;
   color: #9ca3af;
@@ -269,6 +270,13 @@ title: Statistiky
                 return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
               });
             }
+            function vedciLabel(n) {
+              n = Number(n) || 0;
+              var mod10 = n % 10, mod100 = n % 100;
+              if (n === 1) return "1 vedec";
+              if (mod10 >= 2 && mod10 <= 4 && !(mod100 >= 12 && mod100 <= 14)) return n + " vedci";
+              return n + " vedcov";
+            }
             function instNameLabel(n) {
               if (n && typeof n === "object") {
                 var nm = n.name || "";
@@ -290,6 +298,11 @@ title: Statistiky
             var tip = document.getElementById("slovakiaInstTip");
             var root = document.getElementById("slovakiaInstMap");
             if (!g || !root) return;
+            tip.addEventListener("mouseleave", function () {
+              tip.style.display = "none";
+              var dots = g.querySelectorAll("circle");
+              for (var i = 0; i < dots.length; i++) dots[i].setAttribute("fill", "#1f4e79");
+            });
             (inst || []).forEach(function (m) {
               var p = proj(m.lat, m.lon);
               var r = 4 + Math.sqrt(Number(m.count) || 1);
@@ -303,8 +316,10 @@ title: Statistiky
               c.setAttribute("fill-opacity", "0.92");
               c.addEventListener("mouseenter", function (ev) {
                 var names = (m.names || []).slice().sort(instNameSort);
+                var nPeople = names.length || Number(m.count) || 0;
                 tip.innerHTML = "<strong>" + esc(m.name) + "</strong>" +
                   (m.city ? "<span class=\"sv-sk-tip-city\">" + esc(m.city) + "</span>" : "") +
+                  "<span class=\"sv-sk-tip-count\">" + esc(vedciLabel(nPeople)) + "</span>" +
                   (names.length ? names.map(instNameLabel).map(esc).join("<br>") : "");
                 tip.style.display = "block";
                 var box = root.getBoundingClientRect();
@@ -317,7 +332,8 @@ title: Statistiky
                 tip.style.left = Math.min(ev.clientX - box.left + 12, box.width - 160) + "px";
                 tip.style.top = Math.max(8, ev.clientY - box.top - 12) + "px";
               });
-              c.addEventListener("mouseleave", function () {
+              c.addEventListener("mouseleave", function (ev) {
+                if (ev.relatedTarget && tip.contains(ev.relatedTarget)) return;
                 tip.style.display = "none";
                 c.setAttribute("fill", "#1f4e79");
               });
