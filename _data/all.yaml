@@ -8829,7 +8829,7 @@
   field: "genetika monog\xE9novej cukrovky"
   pribeh: "Monog\xE9nov\xFA cukrovku \u010D\xEDta v g\xE9noch tak, aby lie\u010Dba\
     \ prestala by\u0165 h\xE1dankou rodokme\u0148a."
-  affiliation: "\xDAstav experiment\xE1lnej endokrinol\xF3gie BMC SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
   hindex: 36
@@ -8844,7 +8844,7 @@
   area: "medic\xEDna"
   areaurl: medicina
   positionurl: riaditelka
-  affiliationurl: Ustav_experimentalnej_endokrinologie_BMC_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
 - name: Juraj Gerlici
@@ -9558,7 +9558,7 @@
   field: "geobotanika a ekol\xF3gia l\xFAk"
   pribeh: "L\xFAky Karp\xE1t mapuje ako vz\xE1cne partit\xFAry: geobotanika, ktor\xE1\
     \ kosu berie ako n\xE1stroj biodiverzity."
-  affiliation: "Botanick\xFD \xFAstav CBRB SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
   hindex: 35
@@ -9575,7 +9575,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: samostatna_vedecka_pracovnicka
-  affiliationurl: Botanicky_ustav_CBRB_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
 - name: Miroslav Kocifaj
@@ -11062,7 +11062,7 @@
   field: "epidemiol\xF3gia odpadov\xFDch v\xF4d"
   pribeh: "V odpadov\xFDch vod\xE1ch \u010D\xEDta, \u010Do mesto prehltlo: epidemiol\xF3\
     gia kanaliz\xE1cie s prekvapivo slu\u0161n\xFDmi d\xE1tami."
-  affiliation: "Slovensk\xE1 technick\xE1 univerzita v Bratislave"
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
   hindex: 33
@@ -11077,7 +11077,7 @@
   area: "medic\xEDna"
   areaurl: medicina
   positionurl: profesor
-  affiliationurl: Slovenska_technicka_univerzita_v_Bratislave
+  affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
 - name: "Jozef Mad\u017Eo"
@@ -11434,7 +11434,7 @@
   field: "pr\xE1\u0161kov\xE1 metalurgia"
   pribeh: "V Ko\u0161iciach spek\xE1 pr\xE1\u0161ky na pevn\xE9 kovy: pr\xE1\u0161\
     kov\xE1 metalurgia, kde z prachu vznikne materi\xE1l s vlastn\xFDm n\xE1zorom."
-  affiliation: "\xDAstav materi\xE1lov\xE9ho v\xFDskumu SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: "Ko\u0161ice"
   country: Slovensko
   hindex: 32
@@ -11449,7 +11449,7 @@
   area: "materi\xE1ly"
   areaurl: materialy
   positionurl: vedec
-  affiliationurl: Ustav_materialoveho_vyskumu_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: muz
 - name: "Du\u0161an Chorv\xE1t"
@@ -11488,7 +11488,7 @@
   field: "v\xFD\u017Eiva zvierat"
   pribeh: "Zinku a stopov\xFDm prvkom vo v\xFD\u017Eive zvierat na SAV d\xE1va zelen\xFA\
     : aby aj hydina jedla chytrej\u0161ie ne\u017E marketing krm\xEDv."
-  affiliation: "\xDAFHZ / Centrum biovied SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: "Ko\u0161ice"
   country: Slovensko
   hindex: 32
@@ -11503,7 +11503,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: vedkyna
-  affiliationurl: UFHZ_/_Centrum_biovied_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: zena
 - name: "Martin Dov\u010Diak"
@@ -11662,7 +11662,7 @@
   pribeh: "Z Ru\u017Eomberka na FCHPT u\u010D\xED buni\u010Dinu, ako ob\xEDs\u0165\
     \ lign\xEDn so c\u0165ou \u2014 technol\xF3gia dreva, kde aj celul\xF3za m\xE1\
     \ kari\xE9rny pl\xE1n."
-  affiliation: FCHPT STU Bratislava
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
   hindex: 32
@@ -11677,7 +11677,7 @@
   area: "ch\xE9mia"
   areaurl: chemia
   positionurl: profesor
-  affiliationurl: FCHPT_STU_Bratislava
+  affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
 - name: Marian Jandel
@@ -12094,7 +12094,7 @@
   field: "r\xF6ntgenov\xFD rozptyl"
   pribeh: "Na Fyzik\xE1lnom \xFAstave SAV svieti na nano\u0161trukt\xFAry r\xF6ntgenom:\
     \ vrstvy priznaj\xFA poriadok aj neporiadok."
-  affiliation: "Fyzik\xE1lny \xFAstav SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
   hindex: 32
@@ -12113,7 +12113,7 @@
   area: fyzika
   areaurl: fyzika
   positionurl: veduci_vedecky_pracovnik
-  affiliationurl: Fyzikalny_ustav_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
 - name: "Martin Smie\u0161ko"
@@ -12684,7 +12684,7 @@
   field: "nanomateri\xE1ly a rtg. multivrstvy"
   pribeh: "R\xF6ntgenov\xE9 multivrstvy na F\xDA SAV: vrstvy, ktor\xE9 svetlo odr\xE1\
     \u017Eaj\xFA pod\u013Ea pl\xE1nu, nie pod\u013Ea n\xE1lady naparova\u010Da."
-  affiliation: "Fyzik\xE1lny \xFAstav SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
   hindex: 31
@@ -12702,7 +12702,7 @@
   area: "materi\xE1ly"
   areaurl: materialy
   positionurl: vedkyna
-  affiliationurl: Fyzikalny_ustav_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
 - name: "Gust\xE1v Plesch"
@@ -12998,7 +12998,7 @@
   field: "genomov\xE1 stabilita a pre-mRNA splicing"
   pribeh: "Splicing a stabilita gen\xF3mu: RNA u\u0148ho nie je surovina, ale editor,\
     \ ktor\xFD vie urobi\u0165 chybu aj majstrovstvo."
-  affiliation: "Biomedic\xEDnske centrum SAV"
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
   hindex: 30
@@ -13013,7 +13013,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: vedec
-  affiliationurl: Biomedicinske_centrum_SAV
+  affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
 - name: "Mari\xE1n Fabi\xE1n"
@@ -13078,7 +13078,7 @@
   field: "kognit\xEDvna biol\xF3gia"
   pribeh: "Kognit\xEDvna biol\xF3gia na PriF UK: myse\u013E u\u0148ho nie je v\xFD\
     sada kancel\xE1rie, ale evolu\u010Dn\xFD vyn\xE1lez bunky."
-  affiliation: PriF UK Bratislava
+  affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
   hindex: 30
@@ -13093,7 +13093,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: profesor_emeritus
-  affiliationurl: PriF_UK_Bratislava
+  affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
 - name: "Juraj Krempask\xFD"
@@ -13376,7 +13376,7 @@
   field: genomika
   pribeh: "V Genetone \u010D\xEDta \u013Eudsk\xE9 gen\xF3my tak, aby diagn\xF3za pri\u0161\
     la ako spr\xE1va, nie ako z\xE1hada v rodokmeni."
-  affiliation: "Geneton / Univerzita Komensk\xE9ho"
+  affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
   hindex: 30
@@ -13391,7 +13391,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: docent
-  affiliationurl: Geneton_/_Univerzita_Komenskeho
+  affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
 - name: "\u013Dubom\xEDr Val\xEDk"
@@ -13402,7 +13402,7 @@
   field: "potravin\xE1rska mikrobiol\xF3gia"
   pribeh: "Na FCHPT u\u010D\xED potravin\xE1rske mikr\xF3by slu\u0161n\xE9mu spr\xE1\
     vaniu: ferment\xE1cia s bezpe\u010Dnostnou brzdou."
-  affiliation: FCHPT STU Bratislava
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
   hindex: 30
@@ -13417,6 +13417,6 @@
   area: "medic\xEDna"
   areaurl: medicina
   positionurl: profesor
-  affiliationurl: FCHPT_STU_Bratislava
+  affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
