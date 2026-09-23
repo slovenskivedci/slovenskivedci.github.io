@@ -90,7 +90,7 @@ FIELD_GROUPS = [
 		'biologia ryb', 'reprodukcna biol', 'reproduktivna',
 		'biologia reprodukcie', 'synteza protein', 'genova expres',
 		'genetika drevin', 'molekularna a bunkova', 'molekularna biol',
-		'genetika a molekular', 'lesnictvo', 'fyzika dreva', 'chemia dreva',
+		'genetika a molekular', 'lesnictvo', 'chemia dreva',
 		'biologia',
 	]),
 	('geovedy', [
@@ -114,6 +114,10 @@ FIELD_GROUPS = [
 		'medicinalna chem', 'polymer', 'vypoctova chem', 'vypoctova katalyz',
 		'mechanochem', 'krystalograf', 'ilove mineral', 'biopolymer',
 		'membran', 'bunicin', 'lignoceluloz', 'celuloz', 'chemick', 'chem',
+	]),
+	# Wood physics is materials science, not biology/physics bucket.
+	('materiály', [
+		'fyzika dreva',
 	]),
 	('fyzika', [
 		'rontgenov', 'rontgenovy rozptyl',

@@ -792,7 +792,6 @@ fields:
   - 31
   - 32
   - 46
-  - 37
   - 50
   - 35
   - 38
@@ -866,6 +865,7 @@ fields:
   - 45
   - 58
   - 56
+  - 37
   - 45
   - 31
   - 41
@@ -1087,8 +1087,8 @@ year_hindex_xy: "[{x:1952,y:273,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ',id:'Kazimirova:Slovensko:Slovenska_akademia_vied:Bratislava:vedkyna:parazitologia:zena',field:'parazitol\xF3\
   gia',area:'biol\xF3gia'},{x:1947,y:37,name:'Vladim\xEDr Kell\xF6',id:'Kello:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1980,y:37,name:'\u013Dubo\u0161 Kri\u0161\u0165\
-  \xE1k',id:'Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:fyzika_dreva:muz',field:'fyzika\
-  \ dreva',area:'biol\xF3gia'},{x:1956,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1981,y:37,name:'Peter\
+  \xE1k',id:'Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:kompozitne_drevne_materialy:muz',field:'kompozitn\xE9\
+  \ drevn\xE9 materi\xE1ly',area:'materi\xE1ly'},{x:1956,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1981,y:37,name:'Peter\
   \ Moln\xE1r',id:'Molnar:Norsko:University_of_Stavanger:Stavanger:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1943,y:37,name:'Pavel Oblo\u017Einsk\xFD\
   ',id:'Oblozinsky:USA:Brookhaven_National_Laboratory:Upton:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
@@ -1210,14 +1210,14 @@ countryCount: '[215,44,37,14,13,12,12,11,10,6,5,4,3,2,2,2,2,1,1,1,1,1,1,1,1,1]'
 countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Australia'',''Kanada'',''Nemecko'',''Velka_Britania'',''Svajciarsko'',''Holandsko'',''Francuzsko'',''Norsko'',''Svedsko'',''Belgicko'',''Katar'',''Saudska_Arabia'',''Spojene_arabske_emiraty'',''Belgium'',''Dansko'',''Estonsko'',''Finsko'',''Irsko'',''Japonsko'',''Juzna_Korea'',''Ruska_federacia'',''Spanielsko'']'
 affiliationCount: '[74,58,20,9,9,9,8,8,7,7,5,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','ekon\xF3mia a mana\u017E\
-  ment','in\u017Einierstvo','geovedy','informatika','matematika','materi\xE1ly','umel\xE1\
+  ment','in\u017Einierstvo','geovedy','informatika','materi\xE1ly','matematika','umel\xE1\
   \ inteligencia','spolo\u010Densk\xE9 vedy']"
-odborCount: '[85,70,60,55,23,21,20,19,15,15,11,9]'
+odborCount: '[85,70,60,54,23,21,20,19,16,15,11,9]'
 odborMin: '[30,30,30,30,30,30,30,30,30,30,36,32]'
-odborAvg: '[50.3,59.5,41.3,43.9,38.0,42.1,42.2,45.3,38.4,41.8,50.3,42.8]'
-odborMax: '[110,273,66,107,56,73,92,95,82,58,80,55]'
-odborMedian: '[47.0,42.5,38.5,38.0,36.0,36.0,38.5,39.0,35.0,41.0,45.0,39.0]'
-odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''inzinierstvo'',''geovedy'',''informatika'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
+odborAvg: '[50.3,59.5,41.3,44.0,38.0,42.1,42.2,45.3,41.5,38.4,50.3,42.8]'
+odborMax: '[110,273,66,107,56,73,92,95,58,82,80,55]'
+odborMedian: '[47.0,42.5,38.5,38.0,36.0,36.0,38.5,39.0,40.5,35.0,45.0,39.0]'
+odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''ekonomia_a_manazment'',''inzinierstvo'',''geovedy'',''informatika'',''materialy'',''matematika'',''umela_inteligencia'',''spolocenske_vedy'']'
 odbor_key:
 - area: "medic\xEDna"
   fields:
@@ -1344,7 +1344,6 @@ odbor_key:
   - "ekol\xF3gia"
   - "ekol\xF3gia lesnej veget\xE1cie"
   - "ekol\xF3gia vodn\xFDch ekosyst\xE9mov"
-  - fyzika dreva
   - "fyziol\xF3gia rastl\xEDn"
   - "fyziol\xF3gia \u017Eivo\u010D\xEDchov"
   - "genetika a molekul\xE1rna biol\xF3gia"
@@ -1427,6 +1426,16 @@ odbor_key:
   - programovacie jazyky
   - "teoretick\xE1 informatika"
   - "web syst\xE9my"
+- area: "materi\xE1ly"
+  fields:
+  - "keramick\xE9 materi\xE1ly"
+  - "kompozitn\xE9 drevn\xE9 materi\xE1ly"
+  - "materi\xE1lov\xE1 veda"
+  - "nanomateri\xE1ly"
+  - "nanomateri\xE1ly a rtg. multivrstvy"
+  - "nanotechnol\xF3gia"
+  - "optick\xE9 materi\xE1ly"
+  - "pr\xE1\u0161kov\xE1 metalurgia"
 - area: matematika
   fields:
   - "algebraick\xE1 te\xF3ria grafov"
@@ -1438,16 +1447,6 @@ odbor_key:
   - "matematick\xE1 logika"
   - "numerick\xE1 matematika"
   - "te\xF3ria grafov"
-- area: "materi\xE1ly"
-  fields:
-  - "keramick\xE9 materi\xE1ly"
-  - "kompozitn\xE9 drevn\xE9 materi\xE1ly"
-  - "materi\xE1lov\xE1 veda"
-  - "nanomateri\xE1ly"
-  - "nanomateri\xE1ly a rtg. multivrstvy"
-  - "nanotechnol\xF3gia"
-  - "optick\xE9 materi\xE1ly"
-  - "pr\xE1\u0161kov\xE1 metalurgia"
 - area: "umel\xE1 inteligencia"
   fields:
   - "odpor\xFA\u010Dacie syst\xE9my"
@@ -4899,7 +4898,7 @@ conn_areas:
     countryurl: Svajciarsko
 - label: "biol\xF3gia"
   url: biologia
-  count: 55
+  count: 54
   members:
   - &id215
     name: "Mari\xE1n Bresti\u010D"
@@ -5350,21 +5349,6 @@ conn_areas:
     areaurl: biologia
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
-    countryurl: Slovensko
-  - &id165
-    name: "\u013Dubo\u0161 Kri\u0161\u0165\xE1k"
-    last: Kristak
-    hindex: 37
-    field: fyzika dreva
-    area: "biol\xF3gia"
-    affiliation: "Technick\xE1 univerzita vo Zvolene"
-    city: Zvolen
-    country: Slovensko
-    img: Lubos_Kristak_size_280px.jpg
-    card_id: Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:fyzika_dreva:muz
-    areaurl: biologia
-    affiliationurl: Technicka_univerzita_vo_Zvolene
-    cityurl: Zvolen
     countryurl: Slovensko
   - &id039
     name: "Imrich Bar\xE1k"
@@ -6987,6 +6971,250 @@ conn_areas:
     affiliationurl: Microsoft_Research
     cityurl: Seattle
     countryurl: USA
+- label: "materi\xE1ly"
+  url: materialy
+  count: 16
+  members:
+  - &id352
+    name: "Jozef Ke\u010Dk\xE9\u0161"
+    last: Keckes
+    hindex: 58
+    field: "materi\xE1lov\xE1 veda"
+    area: "materi\xE1ly"
+    affiliation: "Montanuniversit\xE4t Leoben"
+    city: Leoben
+    country: "Rak\xFAsko"
+    img: Jozef_Keckes_size_280px.jpg
+    card_id: Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz
+    areaurl: materialy
+    affiliationurl: Montanuniversitat_Leoben
+    cityurl: Leoben
+    countryurl: Rakusko
+  - &id258
+    name: Igor Krupa
+    last: Krupa
+    hindex: 56
+    field: "materi\xE1lov\xE1 veda"
+    area: "materi\xE1ly"
+    affiliation: Qatar University
+    city: Doha
+    country: Katar
+    img: Igor_Krupa_size_280px.jpg
+    card_id: Krupa:Katar:Qatar_University:Doha:profesor:materialova_veda:muz
+    areaurl: materialy
+    affiliationurl: Qatar_University
+    cityurl: Doha
+    countryurl: Katar
+  - &id011
+    name: "J\xE1n Dusza"
+    last: Dusza
+    hindex: 54
+    field: "nanomateri\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: "Ko\u0161ice"
+    country: Slovensko
+    img: Jan_Dusza_size_280px.jpg
+    card_id: Dusza:Slovensko:Slovenska_akademia_vied:Kosice:profesor:nanomaterialy:muz
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Kosice
+    countryurl: Slovensko
+  - &id366
+    name: "Vladim\xEDr \u0160epel\xE1k"
+    last: Sepelak
+    hindex: 49
+    field: "nanotechnol\xF3gia"
+    area: "materi\xE1ly"
+    affiliation: Karlsruhe Institute of Technology
+    city: Karlsruhe
+    country: Nemecko
+    img: Vladimir_Sepelak_400_size_280px.png
+    card_id: Sepelak:Nemecko:Karlsruhe_Institute_of_Technology:Karlsruhe:vedec:nanotechnologia:muz
+    areaurl: materialy
+    affiliationurl: Karlsruhe_Institute_of_Technology
+    cityurl: Karlsruhe
+    countryurl: Nemecko
+  - &id198
+    name: Alexander Kromka
+    last: Kromka
+    hindex: 45
+    field: "optick\xE9 materi\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
+    city: Praha
+    country: "\u010Cesko"
+    img: Alexander_Kromka_size_280px.jpg
+    card_id: Kromka:Cesko:Ceska_akademia_vied:Praha:docent:opticke_materialy:muz
+    areaurl: materialy
+    affiliationurl: Ceska_akademia_vied
+    cityurl: Praha
+    countryurl: Cesko
+  - &id291
+    name: "Viera Sk\xE1kalov\xE1"
+    last: Skakalova
+    hindex: 45
+    field: "nanomateri\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: University of Vienna
+    city: "Viede\u0148"
+    country: "Rak\xFAsko"
+    img: Viera_Skakalova_size_280px.jpeg
+    card_id: Skakalova:Rakusko:University_of_Vienna:Vieden:vedkyna:nanomaterialy:zena
+    areaurl: materialy
+    affiliationurl: University_of_Vienna
+    cityurl: Vieden
+    countryurl: Rakusko
+  - &id322
+    name: "Du\u0161an Galusek"
+    last: Galusek
+    hindex: 42
+    field: "keramick\xE9 materi\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Tren\u010Dianska univerzita Alexandra Dub\u010Deka"
+    city: "Tren\u010D\xEDn"
+    country: Slovensko
+    img: Dusan_Galusek_size_280px.jpg
+    card_id: Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz
+    areaurl: materialy
+    affiliationurl: Trencianska_univerzita_Alexandra_Dubceka
+    cityurl: Trencin
+    countryurl: Slovensko
+  - &id028
+    name: "Zdenko \u0160pit\xE1lsky"
+    last: Spitalsky
+    hindex: 41
+    field: "nanomateri\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: Bratislava
+    country: Slovensko
+    img: Zdenko_Spitalsky_size_280px.jpg
+    card_id: Spitalsky:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:nanomaterialy:muz
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id031
+    name: "Pavol \u0160ajgal\xEDk"
+    last: Sajgalik
+    hindex: 40
+    field: "materi\xE1lov\xE1 veda"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: Bratislava
+    country: Slovensko
+    img: Pavol_Sajgalik_size_280px.jpeg
+    card_id: Sajgalik:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:materialova_veda:muz
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id107
+    name: "Milan S\xFDkora"
+    last: Sykora
+    hindex: 38
+    field: "materi\xE1lov\xE1 veda"
+    area: "materi\xE1ly"
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Milan_Sykora_size_280px.png
+    card_id: Sykora:Slovensko:Univerzita_Komenskeho:Bratislava:vedec:materialova_veda:muz
+    areaurl: materialy
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id165
+    name: "\u013Dubo\u0161 Kri\u0161\u0165\xE1k"
+    last: Kristak
+    hindex: 37
+    field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Technick\xE1 univerzita vo Zvolene"
+    city: Zvolen
+    country: Slovensko
+    img: Lubos_Kristak_size_280px.jpg
+    card_id: Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:kompozitne_drevne_materialy:muz
+    areaurl: materialy
+    affiliationurl: Technicka_univerzita_vo_Zvolene
+    cityurl: Zvolen
+    countryurl: Slovensko
+  - &id048
+    name: "Pavol Hvizdo\u0161"
+    last: Hvizdos
+    hindex: 34
+    field: "keramick\xE9 materi\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: "Ko\u0161ice"
+    country: Slovensko
+    img: Pavol_Hvizdos_size_280px.jpg
+    card_id: Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Kosice
+    countryurl: Slovensko
+  - &id059
+    name: "Radovan Bure\u0161"
+    last: Bures
+    hindex: 32
+    field: "pr\xE1\u0161kov\xE1 metalurgia"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: "Ko\u0161ice"
+    country: Slovensko
+    img: Radovan_Bures_size_280px.jpg
+    card_id: Bures:Slovensko:Slovenska_akademia_vied:Kosice:vedec:praskova_metalurgia:muz
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Kosice
+    countryurl: Slovensko
+  - &id383
+    name: "Tibor Kudern\xE1\u010D"
+    last: Kudernac
+    hindex: 32
+    field: "nanotechnol\xF3gia"
+    area: "materi\xE1ly"
+    affiliation: University of Groningen
+    city: Groningen
+    country: Holandsko
+    img: Tibor_Kudernac_size_280px.jpg
+    card_id: Kudernac:Holandsko:University_of_Groningen:Groningen:docent:nanotechnologia:muz
+    areaurl: materialy
+    affiliationurl: University_of_Groningen
+    cityurl: Groningen
+    countryurl: Holandsko
+  - &id070
+    name: "Eva Majkov\xE1"
+    last: Majkova
+    hindex: 31
+    field: "nanomateri\xE1ly a rtg. multivrstvy"
+    area: "materi\xE1ly"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: Bratislava
+    country: Slovensko
+    img: Eva_Majkova_size_280px.jpg
+    card_id: Majkova:Slovensko:Slovenska_akademia_vied:Bratislava:vedkyna:nanomaterialy_a_rtg._multivrstvy:zena
+    areaurl: materialy
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id170
+    name: "Roman R\xE9h"
+    last: Reh
+    hindex: 30
+    field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
+    area: "materi\xE1ly"
+    affiliation: "Technick\xE1 univerzita vo Zvolene"
+    city: Zvolen
+    country: Slovensko
+    img: Roman_Reh_size_280px.jpg
+    card_id: Reh:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:kompozitne_drevne_materialy:muz
+    areaurl: materialy
+    affiliationurl: Technicka_univerzita_vo_Zvolene
+    cityurl: Zvolen
+    countryurl: Slovensko
 - label: matematika
   url: matematika
   count: 15
@@ -7215,235 +7443,6 @@ conn_areas:
     areaurl: matematika
     affiliationurl: Lepage_Research_Institute
     cityurl: Presov
-    countryurl: Slovensko
-- label: "materi\xE1ly"
-  url: materialy
-  count: 15
-  members:
-  - &id352
-    name: "Jozef Ke\u010Dk\xE9\u0161"
-    last: Keckes
-    hindex: 58
-    field: "materi\xE1lov\xE1 veda"
-    area: "materi\xE1ly"
-    affiliation: "Montanuniversit\xE4t Leoben"
-    city: Leoben
-    country: "Rak\xFAsko"
-    img: Jozef_Keckes_size_280px.jpg
-    card_id: Keckes:Rakusko:Montanuniversitat_Leoben:Leoben:profesor:materialova_veda:muz
-    areaurl: materialy
-    affiliationurl: Montanuniversitat_Leoben
-    cityurl: Leoben
-    countryurl: Rakusko
-  - &id258
-    name: Igor Krupa
-    last: Krupa
-    hindex: 56
-    field: "materi\xE1lov\xE1 veda"
-    area: "materi\xE1ly"
-    affiliation: Qatar University
-    city: Doha
-    country: Katar
-    img: Igor_Krupa_size_280px.jpg
-    card_id: Krupa:Katar:Qatar_University:Doha:profesor:materialova_veda:muz
-    areaurl: materialy
-    affiliationurl: Qatar_University
-    cityurl: Doha
-    countryurl: Katar
-  - &id011
-    name: "J\xE1n Dusza"
-    last: Dusza
-    hindex: 54
-    field: "nanomateri\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: "Ko\u0161ice"
-    country: Slovensko
-    img: Jan_Dusza_size_280px.jpg
-    card_id: Dusza:Slovensko:Slovenska_akademia_vied:Kosice:profesor:nanomaterialy:muz
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Kosice
-    countryurl: Slovensko
-  - &id366
-    name: "Vladim\xEDr \u0160epel\xE1k"
-    last: Sepelak
-    hindex: 49
-    field: "nanotechnol\xF3gia"
-    area: "materi\xE1ly"
-    affiliation: Karlsruhe Institute of Technology
-    city: Karlsruhe
-    country: Nemecko
-    img: Vladimir_Sepelak_400_size_280px.png
-    card_id: Sepelak:Nemecko:Karlsruhe_Institute_of_Technology:Karlsruhe:vedec:nanotechnologia:muz
-    areaurl: materialy
-    affiliationurl: Karlsruhe_Institute_of_Technology
-    cityurl: Karlsruhe
-    countryurl: Nemecko
-  - &id198
-    name: Alexander Kromka
-    last: Kromka
-    hindex: 45
-    field: "optick\xE9 materi\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
-    city: Praha
-    country: "\u010Cesko"
-    img: Alexander_Kromka_size_280px.jpg
-    card_id: Kromka:Cesko:Ceska_akademia_vied:Praha:docent:opticke_materialy:muz
-    areaurl: materialy
-    affiliationurl: Ceska_akademia_vied
-    cityurl: Praha
-    countryurl: Cesko
-  - &id291
-    name: "Viera Sk\xE1kalov\xE1"
-    last: Skakalova
-    hindex: 45
-    field: "nanomateri\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: University of Vienna
-    city: "Viede\u0148"
-    country: "Rak\xFAsko"
-    img: Viera_Skakalova_size_280px.jpeg
-    card_id: Skakalova:Rakusko:University_of_Vienna:Vieden:vedkyna:nanomaterialy:zena
-    areaurl: materialy
-    affiliationurl: University_of_Vienna
-    cityurl: Vieden
-    countryurl: Rakusko
-  - &id322
-    name: "Du\u0161an Galusek"
-    last: Galusek
-    hindex: 42
-    field: "keramick\xE9 materi\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "Tren\u010Dianska univerzita Alexandra Dub\u010Deka"
-    city: "Tren\u010D\xEDn"
-    country: Slovensko
-    img: Dusan_Galusek_size_280px.jpg
-    card_id: Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz
-    areaurl: materialy
-    affiliationurl: Trencianska_univerzita_Alexandra_Dubceka
-    cityurl: Trencin
-    countryurl: Slovensko
-  - &id028
-    name: "Zdenko \u0160pit\xE1lsky"
-    last: Spitalsky
-    hindex: 41
-    field: "nanomateri\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: Bratislava
-    country: Slovensko
-    img: Zdenko_Spitalsky_size_280px.jpg
-    card_id: Spitalsky:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:nanomaterialy:muz
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Bratislava
-    countryurl: Slovensko
-  - &id031
-    name: "Pavol \u0160ajgal\xEDk"
-    last: Sajgalik
-    hindex: 40
-    field: "materi\xE1lov\xE1 veda"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: Bratislava
-    country: Slovensko
-    img: Pavol_Sajgalik_size_280px.jpeg
-    card_id: Sajgalik:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:materialova_veda:muz
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Bratislava
-    countryurl: Slovensko
-  - &id107
-    name: "Milan S\xFDkora"
-    last: Sykora
-    hindex: 38
-    field: "materi\xE1lov\xE1 veda"
-    area: "materi\xE1ly"
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
-    country: Slovensko
-    img: Milan_Sykora_size_280px.png
-    card_id: Sykora:Slovensko:Univerzita_Komenskeho:Bratislava:vedec:materialova_veda:muz
-    areaurl: materialy
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
-    countryurl: Slovensko
-  - &id048
-    name: "Pavol Hvizdo\u0161"
-    last: Hvizdos
-    hindex: 34
-    field: "keramick\xE9 materi\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: "Ko\u0161ice"
-    country: Slovensko
-    img: Pavol_Hvizdos_size_280px.jpg
-    card_id: Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Kosice
-    countryurl: Slovensko
-  - &id059
-    name: "Radovan Bure\u0161"
-    last: Bures
-    hindex: 32
-    field: "pr\xE1\u0161kov\xE1 metalurgia"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: "Ko\u0161ice"
-    country: Slovensko
-    img: Radovan_Bures_size_280px.jpg
-    card_id: Bures:Slovensko:Slovenska_akademia_vied:Kosice:vedec:praskova_metalurgia:muz
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Kosice
-    countryurl: Slovensko
-  - &id383
-    name: "Tibor Kudern\xE1\u010D"
-    last: Kudernac
-    hindex: 32
-    field: "nanotechnol\xF3gia"
-    area: "materi\xE1ly"
-    affiliation: University of Groningen
-    city: Groningen
-    country: Holandsko
-    img: Tibor_Kudernac_size_280px.jpg
-    card_id: Kudernac:Holandsko:University_of_Groningen:Groningen:docent:nanotechnologia:muz
-    areaurl: materialy
-    affiliationurl: University_of_Groningen
-    cityurl: Groningen
-    countryurl: Holandsko
-  - &id070
-    name: "Eva Majkov\xE1"
-    last: Majkova
-    hindex: 31
-    field: "nanomateri\xE1ly a rtg. multivrstvy"
-    area: "materi\xE1ly"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: Bratislava
-    country: Slovensko
-    img: Eva_Majkova_size_280px.jpg
-    card_id: Majkova:Slovensko:Slovenska_akademia_vied:Bratislava:vedkyna:nanomaterialy_a_rtg._multivrstvy:zena
-    areaurl: materialy
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Bratislava
-    countryurl: Slovensko
-  - &id170
-    name: "Roman R\xE9h"
-    last: Reh
-    hindex: 30
-    field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
-    area: "materi\xE1ly"
-    affiliation: "Technick\xE1 univerzita vo Zvolene"
-    city: Zvolen
-    country: Slovensko
-    img: Roman_Reh_size_280px.jpg
-    card_id: Reh:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:kompozitne_drevne_materialy:muz
-    areaurl: materialy
-    affiliationurl: Technicka_univerzita_vo_Zvolene
-    cityurl: Zvolen
     countryurl: Slovensko
 - label: "umel\xE1 inteligencia"
   url: umela_inteligencia

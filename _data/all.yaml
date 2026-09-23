@@ -8385,7 +8385,7 @@
   year: 1980
   sex: "mu\u017E"
   position: docent
-  field: fyzika dreva
+  field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
   pribeh: "Fyzika dreva vo Zvolene: vlhkos\u0165, teplo a akustika \u2014 tr\xE1m\
     \ u\u0148ho m\xE1 materi\xE1lov\xFD \u017Eivotopis."
   affiliation: "Technick\xE1 univerzita vo Zvolene"
@@ -8403,9 +8403,9 @@
     - https://www.tuzvo.sk/sk/ludia-na-tuzvo/9595
   img: Lubos_Kristak_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: fyzika_dreva
-  area: "biol\xF3gia"
-  areaurl: biologia
+  fieldurl: kompozitne_drevne_materialy
+  area: "materi\xE1ly"
+  areaurl: materialy
   positionurl: docent
   affiliationurl: Technicka_univerzita_vo_Zvolene
   cityurl: Zvolen
