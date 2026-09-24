@@ -13099,6 +13099,32 @@
   affiliationurl: CY_Cergy_Paris_Universite
   cityurl: Cergy
   sexurl: muz
+- name: Stanislav Katina
+  last: Katina
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "matematick\xE1 \u0161tatistika"
+  pribeh: "V Brne kresl\xED tv\xE1ram a leb\xE1m s\xFAradnice \u2014 matematick\xE1\
+    \ \u0161tatistika, ktor\xE1 tvarom meria pr\xEDbeh, nie iba priemer."
+  affiliation: Masarykova univerzita
+  city: Brno
+  country: "\u010Cesko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=LKG2mjcAAAAJ
+  last_update: '2026-09-24'
+  links:
+  - - web
+    - https://www.muni.cz/en/people/111465-stanislav-katina
+  img: Stanislav_Katina_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: matematicka_statistika
+  area: matematika
+  areaurl: matematika
+  positionurl: docent
+  affiliationurl: Masarykova_univerzita
+  cityurl: Brno
+  sexurl: muz
 - name: "Ladislav Kov\xE1\u010D"
   last: Kovac
   year: 1932
