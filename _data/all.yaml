@@ -11506,6 +11506,35 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: zena
+- name: "Mark\xE9ta Derd\xE1kov\xE1"
+  last: Derdakova
+  year: '1974'
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "parazitol\xF3gia"
+  pribeh: "Na SAV po\u010D\xFAva klie\u0161te ako rozhlas \u2014 boreli\xF3za, anaplazm\xF3\
+    za a ekol\xF3gia patog\xE9nov, ktor\xE9 sa radi pe\u010Diatkuj\xFA na ko\u017E\
+    u."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=gQvUITUAAAAJ
+  last_update: '2026-09-24'
+  links:
+  - - podcast
+    - https://otvorenaakademia.sav.sk/70-marketa-derdakova-existuju-klieste-ktore-dokazu-vyvolat-alergiu-na-maso/
+  - - web
+    - https://zoo.sav.sk/pracovnici/zakladne-info/?publication_author_id=0101794&user_no=5489
+  img: Marketa_Derdakova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: parazitologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedkyna
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Martin Dov\u010Diak"
   last: Dovciak
   year: ''
