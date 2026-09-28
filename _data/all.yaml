@@ -10097,6 +10097,30 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: Ivan Lefkovits
+  last: Lefkovits
+  year: 1937
+  sex: "mu\u017E"
+  position: profesor
+  field: "imunol\xF3gia"
+  affiliation: "Universit\xE4tsspital Basel"
+  city: Basel
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 34
+  scholar: https://scholar.google.com/citations?hl=sk&user=TBgq9WwAAAAJ
+  last_update: '2026-09-28'
+  links:
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Ivan_Lefkovits
+  img: Ivan_Lefkovits_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: imunologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Universitatsspital_Basel
+  cityurl: Basel
+  sexurl: muz
 - name: Tibor Macko
   last: Macko
   year: null
