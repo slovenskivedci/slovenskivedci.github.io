@@ -444,9 +444,11 @@ html {
     background: #FFF4B8;
   }
 }
-.sex-under-search .compact-dot {
+/* muži · ženy separator: own class so compact-list .compact-dot rules (hidden on desktop) never touch it */
+.sex-under-search .sex-dot {
   color: #bbb;
   margin: 0 4px;
+  pointer-events: none;
 }
 .list-controls {
   margin: 10px 0 0;
