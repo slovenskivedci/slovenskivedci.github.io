@@ -1,0 +1,4220 @@
+{
+  "count": 383,
+  "ids": [
+    "-5YGCCsAAAAJ",
+    "-WVHq38AAAAJ",
+    "-gLxHToAAAAJ",
+    "-jBJ1_gAAAAJ",
+    "-oTaCR8AAAAJ",
+    "-toxVLsAAAAJ",
+    "01msi28AAAAJ",
+    "0UbdxRMAAAAJ",
+    "0wKlnIgAAAAJ",
+    "14jeV0EAAAAJ",
+    "1bNNlZUAAAAJ",
+    "1eLoTdcAAAAJ",
+    "1st0ejAAAAAJ",
+    "1tCBM2kAAAAJ",
+    "2-SFmgwAAAAJ",
+    "2ADIWsMAAAAJ",
+    "2HzXQEkAAAAJ",
+    "2KzmeQUAAAAJ",
+    "2ZVSiB8AAAAJ",
+    "2f6Yg78AAAAJ",
+    "2lo3e7sAAAAJ",
+    "34jBH9oAAAAJ",
+    "3R-9xP4AAAAJ",
+    "3S5wnV8AAAAJ",
+    "3aL5CrwAAAAJ",
+    "3knjVQkAAAAJ",
+    "3rQF3wIAAAAJ",
+    "3xq6b60AAAAJ",
+    "4EkIA-MAAAAJ",
+    "4ZghBr8AAAAJ",
+    "4vq7eXQAAAAJ",
+    "4ymEP0sAAAAJ",
+    "50d9fJAAAAAJ",
+    "5180vHmRoYcC",
+    "57LSTCsAAAAJ",
+    "5akXP_8AAAAJ",
+    "5d0eNiEAAAAJ",
+    "5kRzTDMAAAAJ",
+    "5sAJJkgAAAAJ",
+    "5sPkPmEAAAAJ",
+    "6XPvlE8AAAAJ",
+    "6hBUaO8AAAAJ",
+    "76tWGcIAAAAJ",
+    "7AYmCSIAAAAJ",
+    "7Zkz-9MAAAAJ",
+    "7lVA1vkAAAAJ",
+    "7oMUpuwAAAAJ",
+    "8KDwlbEAAAAJ",
+    "8X3B8LAAAAAJ",
+    "96S9ctwAAAAJ",
+    "9EFobLUAAAAJ",
+    "9Ff2ZsoAAAAJ",
+    "9LXjvp8AAAAJ",
+    "9SBHxBAAAAAJ",
+    "9TGPGbYAAAAJ",
+    "9aaym_UAAAAJ",
+    "9dKlH9wAAAAJ",
+    "9uNi5IMAAAAJ",
+    "A0iacEUAAAAJ",
+    "A2l-bV8AAAAJ",
+    "AGsfdO8AAAAJ",
+    "AULzHfIAAAAJ",
+    "AZDDb3gAAAAJ",
+    "ApdHT0UAAAAJ",
+    "AudOPSIAAAAJ",
+    "B7vMXfEAAAAJ",
+    "BPId440AAAAJ",
+    "BSx7_CEAAAAJ",
+    "BZTPCTIAAAAJ",
+    "Bg2qAyoAAAAJ",
+    "BkW-VmAAAAAJ",
+    "BvXxXusAAAAJ",
+    "Bvdw6vIAAAAJ",
+    "ByfssdMAAAAJ",
+    "C3X4aOkAAAAJ",
+    "CEh_AqsAAAAJ",
+    "CMLcLlEAAAAJ",
+    "CZaDvPgAAAAJ",
+    "CgbiV4EAAAAJ",
+    "Csnoq7QAAAAJ",
+    "D5pfAK0AAAAJ",
+    "D93yu9MAAAAJ",
+    "DNCCZHYAAAAJ",
+    "DUYrlx0AAAAJ",
+    "DkqU0V4AAAAJ",
+    "Dwytj-UAAAAJ",
+    "DyciNCEAAAAJ",
+    "EI8VHcMAAAAJ",
+    "ELMPg_gAAAAJ",
+    "EZ8YetQAAAAJ",
+    "ElcuTkwAAAAJ",
+    "Ell1TQQAAAAJ",
+    "EuDw2JcAAAAJ",
+    "Ey9s5FcAAAAJ",
+    "FBfNaH0AAAAJ",
+    "FMHHfNAAAAAJ",
+    "FNaaPIwAAAAJ",
+    "FNfPewQAAAAJ",
+    "FP0fIkEAAAAJ",
+    "FSHRkJgAAAAJ",
+    "FTejMNwAAAAJ",
+    "G0MJo3UAAAAJ",
+    "G9w7WT4AAAAJ",
+    "GAUnRuwAAAAJ",
+    "GLiFrtgAAAAJ",
+    "Gb4-gwgAAAAJ",
+    "Ghikz7sAAAAJ",
+    "GweRIrQAAAAJ",
+    "HJtnSAkAAAAJ",
+    "HLFu2BgAAAAJ",
+    "HQl63YoAAAAJ",
+    "HRppEBIAAAAJ",
+    "HeZwAlsAAAAJ",
+    "HhcVYjYAAAAJ",
+    "Hi9ALnkAAAAJ",
+    "HicwXWIAAAAJ",
+    "Hvt2QdYAAAAJ",
+    "HxBEVzwAAAAJ",
+    "I5zYMOsAAAAJ",
+    "ICo_N5sAAAAJ",
+    "J2qs3RMAAAAJ",
+    "J72JyYYAAAAJ",
+    "JCOUk6EAAAAJ",
+    "JPCdl08AAAAJ",
+    "JmOCPugAAAAJ",
+    "K0dUsrwAAAAJ",
+    "KF4AYR4AAAAJ",
+    "KPgJyEAAAAAJ",
+    "Krtl-TsAAAAJ",
+    "KuJXbr4AAAAJ",
+    "L4arwc8AAAAJ",
+    "LQxDmrQAAAAJ",
+    "LSvxvEIAAAAJ",
+    "LgkWAqQAAAAJ",
+    "M4a3VyYAAAAJ",
+    "M_hgO24AAAAJ",
+    "Mf9iWOEAAAAJ",
+    "MhwlHXIAAAAJ",
+    "NDhlLv0AAAAJ",
+    "NgHGnt0AAAAJ",
+    "NoS4378AAAAJ",
+    "NvHY0EcAAAAJ",
+    "NvXlxjkAAAAJ",
+    "OCHIvToAAAAJ",
+    "OF5iXJQAAAAJ",
+    "OGYiJWwAAAAJ",
+    "OKliom8AAAAJ",
+    "OMBz3bIAAAAJ",
+    "OYXbmu0AAAAJ",
+    "OfwHRv8AAAAJ",
+    "Og4hTmUAAAAJ",
+    "PGBgF4QAAAAJ",
+    "PJfVCW0AAAAJ",
+    "PVRQZxcAAAAJ",
+    "Pz7_cpAAAAAJ",
+    "QB0X-6sAAAAJ",
+    "QCr9FugAAAAJ",
+    "QQkfeNkAAAAJ",
+    "QhrxwOcAAAAJ",
+    "QqG8VRIAAAAJ",
+    "RSuayLUAAAAJ",
+    "RllC3asAAAAJ",
+    "S2rPQ8MAAAAJ",
+    "S9nvaAkAAAAJ",
+    "SB6Z-ScAAAAJ",
+    "SZhtoTQAAAAJ",
+    "Sc7jlXwAAAAJ",
+    "ScPhEXIAAAAJ",
+    "SojnMuAAAAAJ",
+    "T0MNJGgAAAAJ",
+    "T1upvloAAAAJ",
+    "T8D7EJ8AAAAJ",
+    "TIVMwT4AAAAJ",
+    "TW0t25AAAAAJ",
+    "TjtaxQ8AAAAJ",
+    "Ttsxv0IAAAAJ",
+    "UBUvR_sAAAAJ",
+    "UHGYV8UAAAAJ",
+    "UKDrvpQAAAAJ",
+    "UTQ13_oAAAAJ",
+    "UVGb060AAAAJ",
+    "U_VSYdwAAAAJ",
+    "Ud3obX9UjLcC",
+    "Un79e18AAAAJ",
+    "VWKAu9EAAAAJ",
+    "VbZM3zYAAAAJ",
+    "VkLUxAoAAAAJ",
+    "VzDSjLcAAAAJ",
+    "W8akvAsAAAAJ",
+    "W9ls60kAAAAJ",
+    "WHTCo3IAAAAJ",
+    "WRNOtkMAAAAJ",
+    "WawpXZIAAAAJ",
+    "Wsc5TCsAAAAJ",
+    "Wt7wd3QAAAAJ",
+    "Ww8A0yAAAAAJ",
+    "X5-SX04AAAAJ",
+    "XDh-250AAAAJ",
+    "XOPkMEAAAAAJ",
+    "Xj3GtcMAAAAJ",
+    "Y4eCDocAAAAJ",
+    "YP4gwRsAAAAJ",
+    "Ynt9VvUAAAAJ",
+    "YrihYtsAAAAJ",
+    "Z5oQuUQAAAAJ",
+    "Z8DDt0kAAAAJ",
+    "ZCMAk9sAAAAJ",
+    "ZUBSQgEAAAAJ",
+    "ZezlLfEAAAAJ",
+    "_-KOEeQAAAAJ",
+    "_2_U-MAAAAAJ",
+    "_9liP44AAAAJ",
+    "_OzrvwkAAAAJ",
+    "_fONjMIAAAAJ",
+    "_kXpl5YAAAAJ",
+    "_l2tp6kAAAAJ",
+    "_tpva74AAAAJ",
+    "aC__pxUAAAAJ",
+    "b-gm8tgAAAAJ",
+    "b8yMb6cAAAAJ",
+    "bF_5KtYAAAAJ",
+    "bHMoRzIAAAAJ",
+    "bKRCooEAAAAJ",
+    "bLoHCS8AAAAJ",
+    "bM-HEmgAAAAJ",
+    "bNAGKuoAAAAJ",
+    "bNu69CcAAAAJ",
+    "bQ8o3uQAAAAJ",
+    "bSDwupIAAAAJ",
+    "bWqipasAAAAJ",
+    "bXFA1iIAAAAJ",
+    "ckojWlAAAAAJ",
+    "co9rdhQAAAAJ",
+    "cwsmFUUAAAAJ",
+    "d5G0NZsAAAAJ",
+    "dQjETlwAAAAJ",
+    "dWhSd2wAAAAJ",
+    "dX1z5OcAAAAJ",
+    "do4mcnYAAAAJ",
+    "eBoisLQAAAAJ",
+    "eZE5eZwAAAAJ",
+    "ez4j-iYAAAAJ",
+    "f59x6y4AAAAJ",
+    "f8595C4AAAAJ",
+    "fDCOJWcAAAAJ",
+    "fDMcW7wAAAAJ",
+    "fYLdTWQAAAAJ",
+    "fbrMtJsAAAAJ",
+    "fkfhy9EAAAAJ",
+    "frDz7fwAAAAJ",
+    "g-oaxV0AAAAJ",
+    "g44uW8gAAAAJ",
+    "gCafUI0AAAAJ",
+    "gCn04a0AAAAJ",
+    "gKofB3UAAAAJ",
+    "geK1ms0AAAAJ",
+    "gpGngJUAAAAJ",
+    "gqyz48YAAAAJ",
+    "h08MR_wAAAAJ",
+    "hAajWA0AAAAJ",
+    "hBjL4YYAAAAJ",
+    "hH3CJhcAAAAJ",
+    "hOuiMR8AAAAJ",
+    "hVqCXAcAAAAJ",
+    "hwSYnhEAAAAJ",
+    "i4J2z3sAAAAJ",
+    "iPch8vQAAAAJ",
+    "iQivvkcAAAAJ",
+    "ie2ZQ5wAAAAJ",
+    "iqeVgOAAAAAJ",
+    "jJQJcNYAAAAJ",
+    "jMfbEOQAAAAJ",
+    "jbe5QEAAAAAJ",
+    "jd7xbegAAAAJ",
+    "jfkqa18AAAAJ",
+    "jkguv3UAAAAJ",
+    "jlfY3-EAAAAJ",
+    "jntY1osAAAAJ",
+    "jrazNCQAAAAJ",
+    "jsJC9WgAAAAJ",
+    "k0m9c9kAAAAJ",
+    "k7jZL6kAAAAJ",
+    "k9zILJAAAAAJ",
+    "kKciUuQAAAAJ",
+    "kTzZpxgAAAAJ",
+    "kfUT_UgAAAAJ",
+    "kpVq-kIAAAAJ",
+    "lZvsE4EAAAAJ",
+    "lakc8cQAAAAJ",
+    "lo8ugg0AAAAJ",
+    "loVfHtIAAAAJ",
+    "lrz3brYAAAAJ",
+    "m-twF5IAAAAJ",
+    "m2hSZWQAAAAJ",
+    "n0aQzRcAAAAJ",
+    "n1zAfusAAAAJ",
+    "nBBrj5AAAAAJ",
+    "nM3oZ78AAAAJ",
+    "nhsfvLEAAAAJ",
+    "nluwC9EAAAAJ",
+    "o7qWfUAAAAAJ",
+    "o8DYjGMAAAAJ",
+    "oBUP4p4AAAAJ",
+    "oU4fEOUAAAAJ",
+    "ojrd884AAAAJ",
+    "ooffTIwAAAAJ",
+    "ovMJkzsAAAAJ",
+    "p40NFYwAAAAJ",
+    "pCW77HEAAAAJ",
+    "pE8c4hsAAAAJ",
+    "pGh242UAAAAJ",
+    "pT4T7F4AAAAJ",
+    "pXeemKMAAAAJ",
+    "phu5PwoAAAAJ",
+    "psbZKP4AAAAJ",
+    "q6uGy_4AAAAJ",
+    "q9915jIAAAAJ",
+    "q9CfoU0AAAAJ",
+    "qKQD-2cAAAAJ",
+    "qLF9WqcAAAAJ",
+    "qOmkOIAAAAAJ",
+    "qWOmZxQAAAAJ",
+    "qZt_50MAAAAJ",
+    "qtojUaIAAAAJ",
+    "r-_9v2UAAAAJ",
+    "r0qXcXcAAAAJ",
+    "r7j9ZoYAAAAJ",
+    "rHgfxxwAAAAJ",
+    "rX7GiUAAAAAJ",
+    "rXl9hY0AAAAJ",
+    "raAZ8IQAAAAJ",
+    "rg7MoCEAAAAJ",
+    "s9CJ03QAAAAJ",
+    "s9Ikf1EAAAAJ",
+    "sEA84lgAAAAJ",
+    "sHDD2hEAAAAJ",
+    "sQ6l4sMAAAAJ",
+    "sYVE8VIAAAAJ",
+    "s_AVnN0AAAAJ",
+    "t1W0brkAAAAJ",
+    "tF7f4yEAAAAJ",
+    "tFQBoAcAAAAJ",
+    "t_V_OnwAAAAJ",
+    "tgIMVDsAAAAJ",
+    "thQgjcsAAAAJ",
+    "tiDMmMYAAAAJ",
+    "tvt1qiQAAAAJ",
+    "u4WoWNcAAAAJ",
+    "uQGtqxoAAAAJ",
+    "uTmDnEsAAAAJ",
+    "uZbRKFUAAAAJ",
+    "ubIkrj4AAAAJ",
+    "udLGnu8AAAAJ",
+    "uoit0TEAAAAJ",
+    "v61ZVcoAAAAJ",
+    "v71jEjAAAAAJ",
+    "vPBEaHQAAAAJ",
+    "vcIizE8AAAAJ",
+    "vqUs72gAAAAJ",
+    "vt8wV08AAAAJ",
+    "wGB6dnEAAAAJ",
+    "wJYM_ywAAAAJ",
+    "wKAA2j8AAAAJ",
+    "wOi5anQAAAAJ",
+    "wOkUZGAAAAAJ",
+    "wYMTld8AAAAJ",
+    "wiwZl54AAAAJ",
+    "wlZ-PoQAAAAJ",
+    "wlqRYUcAAAAJ",
+    "wsJN2SMAAAAJ",
+    "wvefIYMAAAAJ",
+    "x3j3iy8AAAAJ",
+    "x9sZ1Q4AAAAJ",
+    "xwG1s8YAAAAJ",
+    "y0Fdk30AAAAJ",
+    "ySoDoW4AAAAJ",
+    "ylK19VUAAAAJ",
+    "yuz_CywAAAAJ",
+    "z3JOfd0AAAAJ",
+    "zG9xTAcAAAAJ",
+    "zOaoU8MAAAAJ",
+    "zakQyxMAAAAJ",
+    "zsFNpOgAAAAJ"
+  ],
+  "people": [
+    {
+      "file": "ALEXANDER_ROSA.yaml",
+      "stem": "ALEXANDER_ROSA",
+      "name": "Alexander Rosa",
+      "scholar_field": "https://scholar.google.com/citations?user=7lVA1vkAAAAJ&amp;hl=en&amp;oi=sra",
+      "ids_in_file": [
+        "7lVA1vkAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Adam_Tomasovych.yaml",
+      "stem": "Adam_Tomasovych",
+      "name": "Adam Toma\\u0161ov\\xFDch",
+      "scholar_field": "https://scholar.google.com/citations?user=7Zkz-9MAAAAJ",
+      "ids_in_file": [
+        "7Zkz-9MAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Adriana_Kovalcik.yaml",
+      "stem": "Adriana_Kovalcik",
+      "name": "Adriána Kovalčík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=jd7xbegAAAAJ",
+      "ids_in_file": [
+        "jd7xbegAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Albert_Breier.yaml",
+      "stem": "Albert_Breier",
+      "name": "Albert Breier",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=k0m9c9kAAAAJ",
+      "ids_in_file": [
+        "k0m9c9kAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Alexander_Chudik.yaml",
+      "stem": "Alexander_Chudik",
+      "name": "Alexander Chudík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=s9CJ03QAAAAJ",
+      "ids_in_file": [
+        "s9CJ03QAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Alexander_Kromka.yaml",
+      "stem": "Alexander_Kromka",
+      "name": "Alexander Kromka",
+      "scholar_field": "https://scholar.google.com/citations?user=3S5wnV8AAAAJ&hl=en",
+      "ids_in_file": [
+        "3S5wnV8AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Alexander_V._Sirotkin.yaml",
+      "stem": "Alexander_V._Sirotkin",
+      "name": "Alexander V. Sirotkin",
+      "scholar_field": "https://scholar.google.sk/citations?hl=en&amp;user=hVqCXAcAAAAJ",
+      "ids_in_file": [
+        "hVqCXAcAAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Alexandra_Brazinova.yaml",
+      "stem": "Alexandra_Brazinova",
+      "name": "Alexandra Bra\\u017Einov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=_tpva74AAAAJ",
+      "ids_in_file": [
+        "_tpva74AAAAJ"
+      ],
+      "h": "63"
+    },
+    {
+      "file": "Anatolij_Dvurecenskij.yaml",
+      "stem": "Anatolij_Dvurecenskij",
+      "name": "Anatolij Dvure\\u010Denskij",
+      "scholar_field": "https://scholar.google.com/citations?user=5180vHmRoYcC&hl=en",
+      "ids_in_file": [
+        "5180vHmRoYcC"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Andrea_Jurisicova.yaml",
+      "stem": "Andrea_Jurisicova",
+      "name": "Andrea Juri\\u0161icov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=JPCdl08AAAAJ",
+      "ids_in_file": [
+        "JPCdl08AAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Andrea_Madarasova_Geckova.yaml",
+      "stem": "Andrea_Madarasova_Geckova",
+      "name": "Andrea Madarasov\\xE1 Geckov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?hl=sk&amp;user=VbZM3zYAAAAJ",
+      "ids_in_file": [
+        "VbZM3zYAAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Andrej_Kral.yaml",
+      "stem": "Andrej_Kral",
+      "name": "Andrej Kr\\xE1\\u013E",
+      "scholar_field": "https://scholar.google.com/citations?user=y0Fdk30AAAAJ&amp",
+      "ids_in_file": [
+        "y0Fdk30AAAAJ"
+      ],
+      "h": "51"
+    },
+    {
+      "file": "Andrej_Liptaj.yaml",
+      "stem": "Andrej_Liptaj",
+      "name": "Andrej Liptaj",
+      "scholar_field": "https://scholar.google.com/citations?user=cwsmFUUAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "cwsmFUUAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Anna_Zajacova.yaml",
+      "stem": "Anna_Zajacova",
+      "name": "Anna Zajacov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=KuJXbr4AAAAJ",
+      "ids_in_file": [
+        "KuJXbr4AAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Barbora_Vozarova.yaml",
+      "stem": "Barbora_Vozarova",
+      "name": "Barbora (Voz\\xE1rov\\xE1) de Courten",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=gCn04a0AAAAJ",
+      "ids_in_file": [
+        "gCn04a0AAAAJ"
+      ],
+      "h": "79"
+    },
+    {
+      "file": "Beata_Gavurova.yaml",
+      "stem": "Beata_Gavurova",
+      "name": "Be\\xE1ta Gavurov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=J72JyYYAAAAJ",
+      "ids_in_file": [
+        "J72JyYYAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Bibiana_Bielekova.yaml",
+      "stem": "Bibiana_Bielekova",
+      "name": "Bibiana Bielekov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=vt8wV08AAAAJ&amp;hl=en&amp;oi=ao",
+      "ids_in_file": [
+        "vt8wV08AAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Boris_Klempa.yaml",
+      "stem": "Boris_Klempa",
+      "name": "Boris Klempa",
+      "scholar_field": "https://scholar.google.com/citations?user=FSHRkJgAAAAJ&hl=en",
+      "ids_in_file": [
+        "FSHRkJgAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Branislav_Hredzak.yaml",
+      "stem": "Branislav_Hredzak",
+      "name": "Branislav Hredz\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=LSvxvEIAAAAJ",
+      "ids_in_file": [
+        "LSvxvEIAAAAJ"
+      ],
+      "h": "48"
+    },
+    {
+      "file": "Branislav_Kusy.yaml",
+      "stem": "Branislav_Kusy",
+      "name": "Branislav Kus\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=G9w7WT4AAAAJ",
+      "ids_in_file": [
+        "G9w7WT4AAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Branislav_Kveton.yaml",
+      "stem": "Branislav_Kveton",
+      "name": "Branislav Kveto\\u0148",
+      "scholar_field": "https://scholar.google.com/citations?user=CZaDvPgAAAAJ&amp;hl=en&amp;oi=ao",
+      "ids_in_file": [
+        "CZaDvPgAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Branislav_Sitar.yaml",
+      "stem": "Branislav_Sitar",
+      "name": "Branislav Sit\\xE1r",
+      "scholar_field": "https://scholar.google.com/citations?user=4ymEP0sAAAAJ",
+      "ids_in_file": [
+        "4ymEP0sAAAAJ"
+      ],
+      "h": "177"
+    },
+    {
+      "file": "Branislav_Vrana.yaml",
+      "stem": "Branislav_Vrana",
+      "name": "Branislav Vrana",
+      "scholar_field": "https://scholar.google.com/citations?user=50d9fJAAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "50d9fJAAAAAJ"
+      ],
+      "h": "51"
+    },
+    {
+      "file": "Ctirad_Klimcik.yaml",
+      "stem": "Ctirad_Klimcik",
+      "name": "Ctirad Klim\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=gKofB3UAAAAJ",
+      "ids_in_file": [
+        "gKofB3UAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Dana_Miklisova.yaml",
+      "stem": "Dana_Miklisova",
+      "name": "Dana Miklisová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=PGBgF4QAAAAJ",
+      "ids_in_file": [
+        "PGBgF4QAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Daniel_Tunega.yaml",
+      "stem": "Daniel_Tunega",
+      "name": "Daniel Tunega",
+      "scholar_field": "https://scholar.google.sk/citations?user=6XPvlE8AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "6XPvlE8AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Daniela_Gasperikova.yaml",
+      "stem": "Daniela_Gasperikova",
+      "name": "Daniela Gašperíková",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=bKRCooEAAAAJ",
+      "ids_in_file": [
+        "bKRCooEAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Daniela_Jezova.yaml",
+      "stem": "Daniela_Jezova",
+      "name": "Daniela Je\\u017Eov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=FP0fIkEAAAAJ",
+      "ids_in_file": [
+        "FP0fIkEAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Daniela_Ostatnikova.yaml",
+      "stem": "Daniela_Ostatnikova",
+      "name": "Daniela Ostatn\\xEDkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=5sPkPmEAAAAJ",
+      "ids_in_file": [
+        "5sPkPmEAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Dasa_Cizkova.yaml",
+      "stem": "Dasa_Cizkova",
+      "name": "Da\\u0161a \\u010C\\xED\\u017Ekov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=34jBH9oAAAAJ",
+      "ids_in_file": [
+        "34jBH9oAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Demeter_Krupka.yaml",
+      "stem": "Demeter_Krupka",
+      "name": "Demeter Krupka",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=BkW-VmAAAAAJ",
+      "ids_in_file": [
+        "BkW-VmAAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Dusan_Chorvat.yaml",
+      "stem": "Dusan_Chorvat",
+      "name": "Dušan Chorvát",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=loVfHtIAAAAJ",
+      "ids_in_file": [
+        "loVfHtIAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Dusan_Drabik.yaml",
+      "stem": "Dusan_Drabik",
+      "name": "Dušan Drábik",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=nhsfvLEAAAAJ",
+      "ids_in_file": [
+        "nhsfvLEAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Dusan_Galusek.yaml",
+      "stem": "Dusan_Galusek",
+      "name": "Dušan Galusek",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=HhcVYjYAAAAJ",
+      "ids_in_file": [
+        "HhcVYjYAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Dusan_Gomory.yaml",
+      "stem": "Dusan_Gomory",
+      "name": "Du\\u0161an G\\xF6m\\xF6ry",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=RllC3asAAAAJ",
+      "ids_in_file": [
+        "RllC3asAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Dusan_Hesek.yaml",
+      "stem": "Dusan_Hesek",
+      "name": "Du\\u0161an Hesek",
+      "scholar_field": "https://scholar.google.com/citations?user=D5pfAK0AAAAJ&hl=en",
+      "ids_in_file": [
+        "D5pfAK0AAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Dusan_Plasienka.yaml",
+      "stem": "Dusan_Plasienka",
+      "name": "Du\\u0161an Pla\\u0161ienka",
+      "scholar_field": "https://scholar.google.com/citations?user=JCOUk6EAAAAJ&hl=en",
+      "ids_in_file": [
+        "JCOUk6EAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Dusan_Uhrin.yaml",
+      "stem": "Dusan_Uhrin",
+      "name": "Du\\u0161an Uhr\\xEDn",
+      "scholar_field": "https://scholar.google.com/citations?user=BSx7_CEAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "BSx7_CEAAAAJ"
+      ],
+      "h": "50"
+    },
+    {
+      "file": "Eleonora_Fabianova.yaml",
+      "stem": "Eleonora_Fabianova",
+      "name": "Eleon\\xF3ra Fabi\\xE1nov\\xE1",
+      "scholar_field": "https://scholar.google.co.uk/citations?user=Ey9s5FcAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "Ey9s5FcAAAAJ"
+      ],
+      "h": "79"
+    },
+    {
+      "file": "Ervin_Fodor.yaml",
+      "stem": "Ervin_Fodor",
+      "name": "Ervin Fodor",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=vcIizE8AAAAJ",
+      "ids_in_file": [
+        "vcIizE8AAAAJ"
+      ],
+      "h": "71"
+    },
+    {
+      "file": "Eva_Benkova.yaml",
+      "stem": "Eva_Benkova",
+      "name": "Eva Benkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=3knjVQkAAAAJ",
+      "ids_in_file": [
+        "3knjVQkAAAAJ"
+      ],
+      "h": "70"
+    },
+    {
+      "file": "Eva_Budinska.yaml",
+      "stem": "Eva_Budinska",
+      "name": "Eva Budinsk\\xE1",
+      "scholar_field": "https://scholar.google.cz/citations?hl=en&user=dX1z5OcAAAAJ",
+      "ids_in_file": [
+        "dX1z5OcAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Eva_Cellarova.yaml",
+      "stem": "Eva_Cellarova",
+      "name": "Eva Čellárová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=GAUnRuwAAAAJ",
+      "ids_in_file": [
+        "GAUnRuwAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Eva_Majkova.yaml",
+      "stem": "Eva_Majkova",
+      "name": "Eva Majková",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=hAajWA0AAAAJ",
+      "ids_in_file": [
+        "hAajWA0AAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Eva_Spitalska.yaml",
+      "stem": "Eva_Spitalska",
+      "name": "Eva \\u0160pitalsk\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=i4J2z3sAAAAJ&hl=en",
+      "ids_in_file": [
+        "i4J2z3sAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Fedor_Gomory.yaml",
+      "stem": "Fedor_Gomory",
+      "name": "Fedor G\\xF6m\\xF6ry",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=9aaym_UAAAAJ",
+      "ids_in_file": [
+        "9aaym_UAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Fedor_Simkovic.yaml",
+      "stem": "Fedor_Simkovic",
+      "name": "Fedor \\u0160imkovic",
+      "scholar_field": "https://scholar.google.com/citations?user=aC__pxUAAAAJ",
+      "ids_in_file": [
+        "aC__pxUAAAAJ"
+      ],
+      "h": "78"
+    },
+    {
+      "file": "Ferdinand_Devinsky.yaml",
+      "stem": "Ferdinand_Devinsky",
+      "name": "Ferdinand Dev\\xEDnsky",
+      "scholar_field": "https://scholar.google.com/citations?user=hBjL4YYAAAAJ",
+      "ids_in_file": [
+        "hBjL4YYAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Frantisek_Baluska.yaml",
+      "stem": "Frantisek_Baluska",
+      "name": "Franti\\u0161ek Balu\\u0161ka",
+      "scholar_field": "https://scholar.google.com/citations?user=KF4AYR4AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "KF4AYR4AAAAJ"
+      ],
+      "h": "97"
+    },
+    {
+      "file": "Frantisek_Kacik.yaml",
+      "stem": "Frantisek_Kacik",
+      "name": "Franti\\u0161ek Ka\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=Z5oQuUQAAAAJ",
+      "ids_in_file": [
+        "Z5oQuUQAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Frantisek_Malis.yaml",
+      "stem": "Frantisek_Malis",
+      "name": "František Máliš",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=jlfY3-EAAAAJ",
+      "ids_in_file": [
+        "jlfY3-EAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Gabriel_Fedorko.yaml",
+      "stem": "Gabriel_Fedorko",
+      "name": "Gabriel Fedorko",
+      "scholar_field": "https://scholar.google.com/citations?user=n0aQzRcAAAAJ",
+      "ids_in_file": [
+        "n0aQzRcAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Gustav_Plesch.yaml",
+      "stem": "Gustav_Plesch",
+      "name": "Gustáv Plesch",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=FBfNaH0AAAAJ",
+      "ids_in_file": [
+        "FBfNaH0AAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Helena_Mitasova.yaml",
+      "stem": "Helena_Mitasova",
+      "name": "Helena Mit\\xE1\\u0161ov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=TIVMwT4AAAAJ&hl=en",
+      "ids_in_file": [
+        "TIVMwT4AAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Henrietta_Dulai.yaml",
+      "stem": "Henrietta_Dulai",
+      "name": "Henrietta Dulai",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=WRNOtkMAAAAJ",
+      "ids_in_file": [
+        "WRNOtkMAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Igor_Bodik.yaml",
+      "stem": "Igor_Bodik",
+      "name": "Igor Bodík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=ez4j-iYAAAAJ",
+      "ids_in_file": [
+        "ez4j-iYAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Igor_Jurisica.yaml",
+      "stem": "Igor_Jurisica",
+      "name": "Igor Juri\\u0161ica",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=Hi9ALnkAAAAJ",
+      "ids_in_file": [
+        "Hi9ALnkAAAAJ"
+      ],
+      "h": "93"
+    },
+    {
+      "file": "Igor_Kozak.yaml",
+      "stem": "Igor_Kozak",
+      "name": "Igor Koz\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=uQGtqxoAAAAJ",
+      "ids_in_file": [
+        "uQGtqxoAAAAJ"
+      ],
+      "h": "49"
+    },
+    {
+      "file": "Igor_Krupa.yaml",
+      "stem": "Igor_Krupa",
+      "name": "Igor Krupa",
+      "scholar_field": "https://scholar.google.com/citations?user=Pz7_cpAAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "Pz7_cpAAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Igor_Lacik.yaml",
+      "stem": "Igor_Lacik",
+      "name": "Igor Lac\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=SB6Z-ScAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "SB6Z-ScAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Igor_Novak.yaml",
+      "stem": "Igor_Novak",
+      "name": "Igor Nov\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=raAZ8IQAAAAJ",
+      "ids_in_file": [
+        "raAZ8IQAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Igor_Podlubny.yaml",
+      "stem": "Igor_Podlubny",
+      "name": "Igor Podlubn\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=QQkfeNkAAAAJ&hl=en",
+      "ids_in_file": [
+        "QQkfeNkAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Igor_Tvaroska.yaml",
+      "stem": "Igor_Tvaroska",
+      "name": "Igor Tvaro\\u0161ka",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=v71jEjAAAAAJ",
+      "ids_in_file": [
+        "v71jEjAAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Imrich_Barak.yaml",
+      "stem": "Imrich_Barak",
+      "name": "Imrich Bar\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=BvXxXusAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "BvXxXusAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Imrich_Chlamtac.yaml",
+      "stem": "Imrich_Chlamtac",
+      "name": "Imrich Chlamt\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ",
+      "ids_in_file": [
+        "bWqipasAAAAJ"
+      ],
+      "h": "70"
+    },
+    {
+      "file": "Ivan_Chodak.yaml",
+      "stem": "Ivan_Chodak",
+      "name": "Ivan Chod\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=OGYiJWwAAAAJ",
+      "ids_in_file": [
+        "OGYiJWwAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Ivan_Glesk.yaml",
+      "stem": "Ivan_Glesk",
+      "name": "Ivan Glesk",
+      "scholar_field": "https://scholar.google.sk/citations?hl=en&amp;user=2f6Yg78AAAAJ",
+      "ids_in_file": [
+        "2f6Yg78AAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Ivan_Jambor.yaml",
+      "stem": "Ivan_Jambor",
+      "name": "Ivan Jambor",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=fDMcW7wAAAAJ",
+      "ids_in_file": [
+        "fDMcW7wAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Ivan_Kuric.yaml",
+      "stem": "Ivan_Kuric",
+      "name": "Ivan Kuric",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=bSDwupIAAAAJ",
+      "ids_in_file": [
+        "bSDwupIAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Ivan_Rektor.yaml",
+      "stem": "Ivan_Rektor",
+      "name": "Ivan Rektor",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=DUYrlx0AAAAJ",
+      "ids_in_file": [
+        "DUYrlx0AAAAJ"
+      ],
+      "h": "62"
+    },
+    {
+      "file": "Ivan_Simko.yaml",
+      "stem": "Ivan_Simko",
+      "name": "Ivan \\u0160imko",
+      "scholar_field": "https://scholar.google.com/citations?user=Ghikz7sAAAAJ&oi=ao",
+      "ids_in_file": [
+        "Ghikz7sAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Ivan_Tkac.yaml",
+      "stem": "Ivan_Tkac",
+      "name": "Ivan Tk\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=DNCCZHYAAAAJ",
+      "ids_in_file": [
+        "DNCCZHYAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Ivan_Viola.yaml",
+      "stem": "Ivan_Viola",
+      "name": "Ivan Viola",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=ELMPg_gAAAAJ",
+      "ids_in_file": [
+        "ELMPg_gAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Iveta_Bernatova.yaml",
+      "stem": "Iveta_Bernatova",
+      "name": "Iveta Bern\\xE1tov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=S9nvaAkAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "S9nvaAkAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Iveta_Garaiova.yaml",
+      "stem": "Iveta_Garaiova",
+      "name": "Iveta Garaiová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=JmOCPugAAAAJ",
+      "ids_in_file": [
+        "JmOCPugAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Iveta_Nagyova.yaml",
+      "stem": "Iveta_Nagyova",
+      "name": "Iveta Nagyov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=A2l-bV8AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "A2l-bV8AAAAJ"
+      ],
+      "h": "48"
+    },
+    {
+      "file": "Iveta_Waczulikova.yaml",
+      "stem": "Iveta_Waczulikova",
+      "name": "Iveta Waczul\\xEDkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=PJfVCW0AAAAJ",
+      "ids_in_file": [
+        "PJfVCW0AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Ivo_Petras.yaml",
+      "stem": "Ivo_Petras",
+      "name": "Ivo Petr\\xE1\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?user=01msi28AAAAJ&hl=en",
+      "ids_in_file": [
+        "01msi28AAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Iwar_Klimes.yaml",
+      "stem": "Iwar_Klimes",
+      "name": "Iwar Klime\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=2KzmeQUAAAAJ",
+      "ids_in_file": [
+        "2KzmeQUAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Jakub_Konecny.yaml",
+      "stem": "Jakub_Konecny",
+      "name": "Jakub Kone\\u010Dn\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=4vq7eXQAAAAJ&hl=en",
+      "ids_in_file": [
+        "4vq7eXQAAAAJ"
+      ],
+      "h": "29"
+    },
+    {
+      "file": "Jan_Dusza.yaml",
+      "stem": "Jan_Dusza",
+      "name": "J\\xE1n Dusza",
+      "scholar_field": "https://scholar.google.com/citations?user=FMHHfNAAAAAJ",
+      "ids_in_file": [
+        "FMHHfNAAAAAJ"
+      ],
+      "h": "54"
+    },
+    {
+      "file": "Jan_Fidrmuc.yaml",
+      "stem": "Jan_Fidrmuc",
+      "name": "Ján Fidrmuc",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Sc7jlXwAAAAJ",
+      "ids_in_file": [
+        "Sc7jlXwAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Jan_Kormanec.yaml",
+      "stem": "Jan_Kormanec",
+      "name": "J\\xE1n Kormanec",
+      "scholar_field": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=kTzZpxgAAAAJ",
+      "ids_in_file": [
+        "kTzZpxgAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Jan_Kyselovic.yaml",
+      "stem": "Jan_Kyselovic",
+      "name": "Ján Kyselovič",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=wJYM_ywAAAAJ",
+      "ids_in_file": [
+        "wJYM_ywAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jan_Lehotsky.yaml",
+      "stem": "Jan_Lehotsky",
+      "name": "J\\xE1n Lehotsk\\xFD",
+      "scholar_field": "https://scholar.google.sk/citations?user=rXl9hY0AAAAJ&amp;hl=sk&amp;oi=sra",
+      "ids_in_file": [
+        "rXl9hY0AAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Jan_Minar.yaml",
+      "stem": "Jan_Minar",
+      "name": "J\\xE1n Min\\xE1r",
+      "scholar_field": "https://scholar.google.com/citations?user=EZ8YetQAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "EZ8YetQAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Jan_Mojzis.yaml",
+      "stem": "Jan_Mojzis",
+      "name": "J\\xE1n Moj\\u017Ei\\u0161",
+      "scholar_field": "https://scholar.google.sk/citations?user=TjtaxQ8AAAAJ",
+      "ids_in_file": [
+        "TjtaxQ8AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Jan_Nemcik.yaml",
+      "stem": "Jan_Nemcik",
+      "name": "Jan Nemčík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=b8yMb6cAAAAJ",
+      "ids_in_file": [
+        "b8yMb6cAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Jan_Rusz.yaml",
+      "stem": "Jan_Rusz",
+      "name": "J\\xE1n Rusz",
+      "scholar_field": "https://scholar.google.com/citations?user=g-oaxV0AAAAJ&hl=en",
+      "ids_in_file": [
+        "g-oaxV0AAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Jan_Sefcik.yaml",
+      "stem": "Jan_Sefcik",
+      "name": "J\\xE1n \\u0160ef\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=5akXP_8AAAAJ",
+      "ids_in_file": [
+        "5akXP_8AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Jan_Sladek.yaml",
+      "stem": "Jan_Sladek",
+      "name": "J\\xE1n Sl\\xE1dek",
+      "scholar_field": "https://scholar.google.com/citations?user=EuDw2JcAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "EuDw2JcAAAAJ"
+      ],
+      "h": "61"
+    },
+    {
+      "file": "Jan_Szolgay.yaml",
+      "stem": "Jan_Szolgay",
+      "name": "Ján Szolgay",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=jbe5QEAAAAAJ",
+      "ids_in_file": [
+        "jbe5QEAAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Jan_Titis.yaml",
+      "stem": "Jan_Titis",
+      "name": "J\\xE1n Titi\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?user=9SBHxBAAAAAJ",
+      "ids_in_file": [
+        "9SBHxBAAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Jan_Tkac.yaml",
+      "stem": "Jan_Tkac",
+      "name": "J\\xE1n Tk\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?user=jfkqa18AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "jfkqa18AAAAJ"
+      ],
+      "h": "54"
+    },
+    {
+      "file": "Jan_Veizer.yaml",
+      "stem": "Jan_Veizer",
+      "name": "J\\xE1n Veizer",
+      "scholar_field": "https://scholar.google.com/citations?user=b-gm8tgAAAAJ&hl=en",
+      "ids_in_file": [
+        "b-gm8tgAAAAJ"
+      ],
+      "h": "92"
+    },
+    {
+      "file": "Jan_Vilcek.yaml",
+      "stem": "Jan_Vilcek",
+      "name": "J\\xE1n Vil\\u010Dek",
+      "scholar_field": "https://scholar.google.com/citations?user=zG9xTAcAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "zG9xTAcAAAAJ"
+      ],
+      "h": "102"
+    },
+    {
+      "file": "Jana_Jakubikova.yaml",
+      "stem": "Jana_Jakubikova",
+      "name": "Jana Jakub\\xEDkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=CEh_AqsAAAAJ",
+      "ids_in_file": [
+        "CEh_AqsAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jana_Kordulakova.yaml",
+      "stem": "Jana_Kordulakova",
+      "name": "Jana Kordul\\xE1kov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=Mf9iWOEAAAAJ&hl=sk",
+      "ids_in_file": [
+        "Mf9iWOEAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jana_Kosecka.yaml",
+      "stem": "Jana_Kosecka",
+      "name": "Jana Ko\\u0161eck\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=sQ6l4sMAAAAJ",
+      "ids_in_file": [
+        "sQ6l4sMAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Jana_Madejova.yaml",
+      "stem": "Jana_Madejova",
+      "name": "Jana Madejov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=x3j3iy8AAAAJ&hl=en",
+      "ids_in_file": [
+        "x3j3iy8AAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Jarko_Fidrmuc.yaml",
+      "stem": "Jarko_Fidrmuc",
+      "name": "Jarko Fidrmuc",
+      "scholar_field": "https://scholar.google.com/citations?user=wOi5anQAAAAJ",
+      "ids_in_file": [
+        "wOi5anQAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Jaromir_Mikes.yaml",
+      "stem": "Jaromir_Mikes",
+      "name": "Jaromír Mikeš",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=frDz7fwAAAAJ",
+      "ids_in_file": [
+        "frDz7fwAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Jaromir_Pastorek.yaml",
+      "stem": "Jaromir_Pastorek",
+      "name": "Jarom\\xEDr Pastorek",
+      "scholar_field": "https://scholar.google.com/citations?user=r7j9ZoYAAAAJ&hl=en&oi=sra",
+      "ids_in_file": [
+        "r7j9ZoYAAAAJ"
+      ],
+      "h": "73"
+    },
+    {
+      "file": "Jaroslav_Fabian.yaml",
+      "stem": "Jaroslav_Fabian",
+      "name": "Jaroslav Fabi\\xE1n",
+      "scholar_field": "https://scholar.google.de/citations?user=bNu69CcAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "bNu69CcAAAAJ"
+      ],
+      "h": "72"
+    },
+    {
+      "file": "Jaroslav_Frnda.yaml",
+      "stem": "Jaroslav_Frnda",
+      "name": "Jaroslav Frnda",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=UBUvR_sAAAAJ",
+      "ids_in_file": [
+        "UBUvR_sAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jaroslav_Lexa.yaml",
+      "stem": "Jaroslav_Lexa",
+      "name": "Jaroslav Lexa",
+      "scholar_field": "https://scholar.google.com/citations?user=rHgfxxwAAAAJ&hl=en",
+      "ids_in_file": [
+        "rHgfxxwAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jaroslav_Mosnacek.yaml",
+      "stem": "Jaroslav_Mosnacek",
+      "name": "Jaroslav Mosn\\xE1\\u010Dek",
+      "scholar_field": "https://scholar.google.sk/citations?user=-5YGCCsAAAAJ",
+      "ids_in_file": [
+        "-5YGCCsAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "John_Nabelek.yaml",
+      "stem": "John_Nabelek",
+      "name": "John Nabelek",
+      "scholar_field": "https://scholar.google.com/citations?user=G0MJo3UAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "G0MJo3UAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Josef_Jampilek.yaml",
+      "stem": "Josef_Jampilek",
+      "name": "Josef Jamp\\xEDlek",
+      "scholar_field": "https://scholar.google.sk/citations?user=co9rdhQAAAAJ&hl=en",
+      "ids_in_file": [
+        "co9rdhQAAAAJ"
+      ],
+      "h": "57"
+    },
+    {
+      "file": "Jozef_Adamcik.yaml",
+      "stem": "Jozef_Adamcik",
+      "name": "Jozef Adam\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=HQl63YoAAAAJ",
+      "ids_in_file": [
+        "HQl63YoAAAAJ"
+      ],
+      "h": "59"
+    },
+    {
+      "file": "Jozef_Bartunek.yaml",
+      "stem": "Jozef_Bartunek",
+      "name": "Jozef Bartunek",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ",
+      "ids_in_file": [
+        "ByfssdMAAAAJ"
+      ],
+      "h": "94"
+    },
+    {
+      "file": "Jozef_Dzurina.yaml",
+      "stem": "Jozef_Dzurina",
+      "name": "Jozef Džurina",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=g44uW8gAAAAJ",
+      "ids_in_file": [
+        "g44uW8gAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jozef_Gecz.yaml",
+      "stem": "Jozef_Gecz",
+      "name": "Jozef G\\xE9cz",
+      "scholar_field": "https://scholar.google.com/citations?user=FTejMNwAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "FTejMNwAAAAJ"
+      ],
+      "h": "110"
+    },
+    {
+      "file": "Jozef_Keckes.yaml",
+      "stem": "Jozef_Keckes",
+      "name": "Jozef Ke\\u010Dk\\xE9\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?user=vPBEaHQAAAAJ&hl=en",
+      "ids_in_file": [
+        "vPBEaHQAAAAJ"
+      ],
+      "h": "58"
+    },
+    {
+      "file": "Jozef_Kristek.yaml",
+      "stem": "Jozef_Kristek",
+      "name": "Jozef Kristek",
+      "scholar_field": "https://scholar.google.com/citations?user=CgbiV4EAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "CgbiV4EAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Jozef_Madzo.yaml",
+      "stem": "Jozef_Madzo",
+      "name": "Jozef Madžo",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=-WVHq38AAAAJ",
+      "ids_in_file": [
+        "-WVHq38AAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Jozef_Noga.yaml",
+      "stem": "Jozef_Noga",
+      "name": "Jozef Noga",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=lZvsE4EAAAAJ",
+      "ids_in_file": [
+        "lZvsE4EAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Jozef_Nosek.yaml",
+      "stem": "Jozef_Nosek",
+      "name": "Jozef Nosek",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=VzDSjLcAAAAJ",
+      "ids_in_file": [
+        "VzDSjLcAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Jozef_Rovensky.yaml",
+      "stem": "Jozef_Rovensky",
+      "name": "Jozef Rovensk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=fDCOJWcAAAAJ",
+      "ids_in_file": [
+        "fDCOJWcAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Jozef_Samaj.yaml",
+      "stem": "Jozef_Samaj",
+      "name": "Jozef \\u0160amaj",
+      "scholar_field": "https://scholar.google.com/citations?user=thQgjcsAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "thQgjcsAAAAJ"
+      ],
+      "h": "70"
+    },
+    {
+      "file": "Jozef_Siran.yaml",
+      "stem": "Jozef_Siran",
+      "name": "Jozef Širáň",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=gqyz48YAAAAJ",
+      "ids_in_file": [
+        "gqyz48YAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Jozef_Ukropec.yaml",
+      "stem": "Jozef_Ukropec",
+      "name": "Jozef Ukropec",
+      "scholar_field": "https://scholar.google.com/citations?user=geK1ms0AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "geK1ms0AAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Julius_Subik.yaml",
+      "stem": "Julius_Subik",
+      "name": "Július Šubík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=_OzrvwkAAAAJ",
+      "ids_in_file": [
+        "_OzrvwkAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Juraj_Bujdak.yaml",
+      "stem": "Juraj_Bujdak",
+      "name": "Juraj Bujd\\xE1k",
+      "scholar_field": "https://scholar.google.sk/citations?hl=en&user=WHTCo3IAAAAJ",
+      "ids_in_file": [
+        "WHTCo3IAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Juraj_Gerlici.yaml",
+      "stem": "Juraj_Gerlici",
+      "name": "Juraj Gerlici",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=76tWGcIAAAAJ",
+      "ids_in_file": [
+        "76tWGcIAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Juraj_Harmatha.yaml",
+      "stem": "Juraj_Harmatha",
+      "name": "Juraj Harmatha",
+      "scholar_field": "https://scholar.google.com/citations?user=AZDDb3gAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "AZDDb3gAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Juraj_Hromkovic.yaml",
+      "stem": "Juraj_Hromkovic",
+      "name": "Juraj Hromkovi\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?user=jJQJcNYAAAAJ&hl=en",
+      "ids_in_file": [
+        "jJQJcNYAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Juraj_Kabat.yaml",
+      "stem": "Juraj_Kabat",
+      "name": "Juraj Kab\\xE1t",
+      "scholar_field": "https://scholar.google.com/citations?user=tiDMmMYAAAAJ",
+      "ids_in_file": [
+        "tiDMmMYAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Juraj_Krempasky.yaml",
+      "stem": "Juraj_Krempasky",
+      "name": "Juraj Krempaský",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=QqG8VRIAAAAJ",
+      "ids_in_file": [
+        "QqG8VRIAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Juraj_Majtan.yaml",
+      "stem": "Juraj_Majtan",
+      "name": "Juraj Majt\\xE1n",
+      "scholar_field": "https://scholar.google.sk/citations?hl=en&amp;user=Wt7wd3QAAAAJ",
+      "ids_in_file": [
+        "Wt7wd3QAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Juraj_Nemec.yaml",
+      "stem": "Juraj_Nemec",
+      "name": "Juraj Nemec",
+      "scholar_field": "https://scholar.google.com/citations?user=7oMUpuwAAAAJ&hl=en",
+      "ids_in_file": [
+        "7oMUpuwAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Juraj_Parajka.yaml",
+      "stem": "Juraj_Parajka",
+      "name": "Juraj Parajka",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=EI8VHcMAAAAJ",
+      "ids_in_file": [
+        "EI8VHcMAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Juraj_Svitel.yaml",
+      "stem": "Juraj_Svitel",
+      "name": "Juraj \\u0160vitel",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=X5-SX04AAAAJ",
+      "ids_in_file": [
+        "X5-SX04AAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Karol_Flachbart.yaml",
+      "stem": "Karol_Flachbart",
+      "name": "Karol Flachbart",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=q9CfoU0AAAAJ",
+      "ids_in_file": [
+        "q9CfoU0AAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Karol_Hricovini.yaml",
+      "stem": "Karol_Hricovini",
+      "name": "Karol Hricovíni",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=vqUs72gAAAAJ",
+      "ids_in_file": [
+        "vqUs72gAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Karol_Kajo.yaml",
+      "stem": "Karol_Kajo",
+      "name": "Karol Kajo",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=0UbdxRMAAAAJ",
+      "ids_in_file": [
+        "0UbdxRMAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Karol_Marhold.yaml",
+      "stem": "Karol_Marhold",
+      "name": "Karol Marhold",
+      "scholar_field": "https://scholar.google.com/citations?user=k9zILJAAAAAJ",
+      "ids_in_file": [
+        "k9zILJAAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Karol_Mikula.yaml",
+      "stem": "Karol_Mikula",
+      "name": "Karol Mikula",
+      "scholar_field": "https://scholar.google.sk/citations?user=nM3oZ78AAAAJ&amp;hl=en&amp;oi=ao",
+      "ids_in_file": [
+        "nM3oZ78AAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Karol_Ondrias.yaml",
+      "stem": "Karol_Ondrias",
+      "name": "Karol Ondria\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?user=Gb4-gwgAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "Gb4-gwgAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Katarana_Krizkova_Gajdosova.yaml",
+      "stem": "Katarana_Krizkova_Gajdosova",
+      "name": "Katar\\xEDna K\\u0159\\xED\\u017Ekov\\xE1 Gajdo\\u0161ov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=n1zAfusAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "n1zAfusAAAAJ"
+      ],
+      "h": "105"
+    },
+    {
+      "file": "Katarina_Mikusova.yaml",
+      "stem": "Katarina_Mikusova",
+      "name": "Katar\\xEDna Miku\\u0161ov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=VkLUxAoAAAAJ",
+      "ids_in_file": [
+        "VkLUxAoAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Katarina_Sebekova.yaml",
+      "stem": "Katarina_Sebekova",
+      "name": "Katar\\xEDna \\u0160ebekov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=jsJC9WgAAAAJ&hl=en",
+      "ids_in_file": [
+        "jsJC9WgAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Katarina_Valaskova.yaml",
+      "stem": "Katarina_Valaskova",
+      "name": "Katar\\xEDna Val\\xE1\\u0161kov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=14jeV0EAAAAJ",
+      "ids_in_file": [
+        "14jeV0EAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Klara_Nahrstedt.yaml",
+      "stem": "Klara_Nahrstedt",
+      "name": "Kl\\xE1ra Nahrstedt",
+      "scholar_field": "https://scholar.google.com/citations?user=TW0t25AAAAAJ&hl=en",
+      "ids_in_file": [
+        "TW0t25AAAAAJ"
+      ],
+      "h": "95"
+    },
+    {
+      "file": "Klaudia_Jomova.yaml",
+      "stem": "Klaudia_Jomova",
+      "name": "Klaudia Jomov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=wlqRYUcAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "wlqRYUcAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Ladislav_Kovac.yaml",
+      "stem": "Ladislav_Kovac",
+      "name": "Ladislav Kováč",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=C3X4aOkAAAAJ",
+      "ids_in_file": [
+        "C3X4aOkAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Ladislav_Mucina.yaml",
+      "stem": "Ladislav_Mucina",
+      "name": "Ladislav Mucina",
+      "scholar_field": "https://scholar.google.com/citations?user=BPId440AAAAJ",
+      "ids_in_file": [
+        "BPId440AAAAJ"
+      ],
+      "h": "69"
+    },
+    {
+      "file": "Ladislav_Mura.yaml",
+      "stem": "Ladislav_Mura",
+      "name": "Ladislav Mura",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=wKAA2j8AAAAJ",
+      "ids_in_file": [
+        "wKAA2j8AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Ladislav_Paule.yaml",
+      "stem": "Ladislav_Paule",
+      "name": "Ladislav Paule",
+      "scholar_field": "https://scholar.google.com/citations?user=ojrd884AAAAJ",
+      "ids_in_file": [
+        "ojrd884AAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Ladislav_Timulak.yaml",
+      "stem": "Ladislav_Timulak",
+      "name": "Ladislav Timu\\u013E\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=NoS4378AAAAJ&hl=en&oi=sra",
+      "ids_in_file": [
+        "NoS4378AAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Ladislav_Valkovic.yaml",
+      "stem": "Ladislav_Valkovic",
+      "name": "Ladislav Valkovič",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=4EkIA-MAAAAJ",
+      "ids_in_file": [
+        "4EkIA-MAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Lenka_Benova.yaml",
+      "stem": "Lenka_Benova",
+      "name": "Lenka Be\\u0148ov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=BZTPCTIAAAAJ&hl=en",
+      "ids_in_file": [
+        "BZTPCTIAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Lenka_Koklesova.yaml",
+      "stem": "Lenka_Koklesova",
+      "name": "Lenka Koklesová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=fYLdTWQAAAAJ",
+      "ids_in_file": [
+        "fYLdTWQAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Livia_Ludhova.yaml",
+      "stem": "Livia_Ludhova",
+      "name": "L\\xEDvia Ludhov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=qZt_50MAAAAJ",
+      "ids_in_file": [
+        "qZt_50MAAAAJ"
+      ],
+      "h": "66"
+    },
+    {
+      "file": "Lubica_Lacinova.yaml",
+      "stem": "Lubica_Lacinova",
+      "name": "\\u013Dubica Lacinov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=GLiFrtgAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "GLiFrtgAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Lubica_Rauova.yaml",
+      "stem": "Lubica_Rauova",
+      "name": "\\u013Dubica Rauov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=u4WoWNcAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "u4WoWNcAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Lubomir_Lapcik.yaml",
+      "stem": "Lubomir_Lapcik",
+      "name": "Ľubomír Lapčík",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=sEA84lgAAAAJ",
+      "ids_in_file": [
+        "sEA84lgAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Lubomir_Lichner.yaml",
+      "stem": "Lubomir_Lichner",
+      "name": "Ľubomír Lichner",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=r0qXcXcAAAAJ",
+      "ids_in_file": [
+        "r0qXcXcAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Lubomir_Svorc.yaml",
+      "stem": "Lubomir_Svorc",
+      "name": "\\u013Dubom\\xEDr \\u0160vorc",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=AudOPSIAAAAJ",
+      "ids_in_file": [
+        "AudOPSIAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Lubomir_Tomaska.yaml",
+      "stem": "Lubomir_Tomaska",
+      "name": "\\u013Dubom\\xEDr Tom\\xE1\\u0161ka",
+      "scholar_field": "https://scholar.google.com/citations?user=Un79e18AAAAJ",
+      "ids_in_file": [
+        "Un79e18AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Lubor_Borsig.yaml",
+      "stem": "Lubor_Borsig",
+      "name": "Lubor Borsig",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=XOPkMEAAAAAJ",
+      "ids_in_file": [
+        "XOPkMEAAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Lubos_Danisovic.yaml",
+      "stem": "Lubos_Danisovic",
+      "name": "Ľuboš Danišovič",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=HLFu2BgAAAAJ",
+      "ids_in_file": [
+        "HLFu2BgAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Lubos_Drgona.yaml",
+      "stem": "Lubos_Drgona",
+      "name": "Ľuboš Drgoňa",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=sHDD2hEAAAAJ",
+      "ids_in_file": [
+        "sHDD2hEAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Lubos_Kristak.yaml",
+      "stem": "Lubos_Kristak",
+      "name": "Ľuboš Krišťák",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=bF_5KtYAAAAJ",
+      "ids_in_file": [
+        "bF_5KtYAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Lubos_Mitas.yaml",
+      "stem": "Lubos_Mitas",
+      "name": "Lubo\\u0161 Mit\\xE1\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=iqeVgOAAAAAJ",
+      "ids_in_file": [
+        "iqeVgOAAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Lubos_Pastor.yaml",
+      "stem": "Lubos_Pastor",
+      "name": "\\u013Dubo\\u0161 P\\xE1stor",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=Ttsxv0IAAAAJ",
+      "ids_in_file": [
+        "Ttsxv0IAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Ludovit_Paulis.yaml",
+      "stem": "Ludovit_Paulis",
+      "name": "\\u013Dudov\\xEDt Paulis",
+      "scholar_field": "https://scholar.google.sk/citations?user=eBoisLQAAAAJ&amp;hl=sk&amp;oi=ao",
+      "ids_in_file": [
+        "eBoisLQAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "MAREK_FILA.yaml",
+      "stem": "MAREK_FILA",
+      "name": "Marek Fila",
+      "scholar_field": "https://scholar.google.sk/citations?user=GweRIrQAAAAJ",
+      "ids_in_file": [
+        "GweRIrQAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "MICHAL_ZEMAN.yaml",
+      "stem": "MICHAL_ZEMAN",
+      "name": "Michal Zeman",
+      "scholar_field": "https://scholar.google.com/citations?user=dWhSd2wAAAAJ&amp;hl=en&amp;oi=sra",
+      "ids_in_file": [
+        "dWhSd2wAAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "MIROSLAV_GRAJCAR.yaml",
+      "stem": "MIROSLAV_GRAJCAR",
+      "name": "Miroslav Grajcar",
+      "scholar_field": "https://scholar.google.co.in/citations?user=KPgJyEAAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "KPgJyEAAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Marcel_Franz.yaml",
+      "stem": "Marcel_Franz",
+      "name": "Marcel Franz",
+      "scholar_field": "https://scholar.google.com/citations?user=qOmkOIAAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "qOmkOIAAAAAJ"
+      ],
+      "h": "68"
+    },
+    {
+      "file": "Marcel_Suri.yaml",
+      "stem": "Marcel_Suri",
+      "name": "Marcel \\u0160\\xFAri",
+      "scholar_field": "https://scholar.google.com/citations?user=T8D7EJ8AAAAJ",
+      "ids_in_file": [
+        "T8D7EJ8AAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Marcel_Zamocky.yaml",
+      "stem": "Marcel_Zamocky",
+      "name": "Marcel Z\\xE1mock\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=pT4T7F4AAAAJ&hl=sk",
+      "ids_in_file": [
+        "pT4T7F4AAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Marcela_Brissova.yaml",
+      "stem": "Marcela_Brissova",
+      "name": "Marcela Brissov\\xE1",
+      "scholar_field": "https://scholar.google.com.tr/citations?user=3rQF3wIAAAAJ&hl=en",
+      "ids_in_file": [
+        "3rQF3wIAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Marek_Chmelik.yaml",
+      "stem": "Marek_Chmelik",
+      "name": "Marek Chmel\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=uTmDnEsAAAAJ",
+      "ids_in_file": [
+        "uTmDnEsAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Marek_Majdan.yaml",
+      "stem": "Marek_Majdan",
+      "name": "Marek Majdan",
+      "scholar_field": "https://scholar.google.sk/citations?user=xwG1s8YAAAAJ",
+      "ids_in_file": [
+        "xwG1s8YAAAAJ"
+      ],
+      "h": "76"
+    },
+    {
+      "file": "Marek_Piliarik.yaml",
+      "stem": "Marek_Piliarik",
+      "name": "Marek Piliarik",
+      "scholar_field": "https://scholar.google.com/citations?user=1eLoTdcAAAAJ&hl=cs&oi=ao",
+      "ids_in_file": [
+        "1eLoTdcAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Marek_Samec.yaml",
+      "stem": "Marek_Samec",
+      "name": "Marek Samec",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Wsc5TCsAAAAJ",
+      "ids_in_file": [
+        "Wsc5TCsAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Marek_Svitok.yaml",
+      "stem": "Marek_Svitok",
+      "name": "Marek Svitok",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=6hBUaO8AAAAJ",
+      "ids_in_file": [
+        "6hBUaO8AAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Marek_Sykora.yaml",
+      "stem": "Marek_Sykora",
+      "name": "Marek S\\xFDkora",
+      "scholar_field": "https://scholar.google.com/citations?user=sYVE8VIAAAAJ",
+      "ids_in_file": [
+        "sYVE8VIAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Marek_Tesar.yaml",
+      "stem": "Marek_Tesar",
+      "name": "Marek Tesar",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=5kRzTDMAAAAJ",
+      "ids_in_file": [
+        "5kRzTDMAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Marek_Zivcak.yaml",
+      "stem": "Marek_Zivcak",
+      "name": "Marek \\u017Div\\u010D\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=fbrMtJsAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "fbrMtJsAAAAJ"
+      ],
+      "h": "57"
+    },
+    {
+      "file": "Maria_Bielikova.yaml",
+      "stem": "Maria_Bielikova",
+      "name": "M\\xE1ria Bielikov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=wGB6dnEAAAAJ",
+      "ids_in_file": [
+        "wGB6dnEAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Maria_Dusinska.yaml",
+      "stem": "Maria_Dusinska",
+      "name": "M\\xE1ria Du\\u0161insk\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=tF7f4yEAAAAJ&hl=en",
+      "ids_in_file": [
+        "tF7f4yEAAAAJ"
+      ],
+      "h": "76"
+    },
+    {
+      "file": "Maria_Hrmova.yaml",
+      "stem": "Maria_Hrmova",
+      "name": "M\\xE1ria Hrmov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=Hvt2QdYAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "Hvt2QdYAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Maria_Kazimirova.yaml",
+      "stem": "Maria_Kazimirova",
+      "name": "M\\xE1ria Kazim\\xEDrov\\xE1",
+      "scholar_field": "https://scholar.google.hu/citations?user=SZhtoTQAAAAJ",
+      "ids_in_file": [
+        "SZhtoTQAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Maria_Kovacova.yaml",
+      "stem": "Maria_Kovacova",
+      "name": "M\\xE1ria Kov\\xE1\\u010Dov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=T1upvloAAAAJ",
+      "ids_in_file": [
+        "T1upvloAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Maria_Kuklisova.yaml",
+      "stem": "Maria_Kuklisova",
+      "name": "Mária Kuklišová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=qtojUaIAAAAJ",
+      "ids_in_file": [
+        "qtojUaIAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Maria_Lukacova_Medvidova.yaml",
+      "stem": "Maria_Lukacova_Medvidova",
+      "name": "Mária Lukáčová-Medviďová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=r-_9v2UAAAAJ",
+      "ids_in_file": [
+        "r-_9v2UAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Maria_Omastova.yaml",
+      "stem": "Maria_Omastova",
+      "name": "M\\xE1ria Omastov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=8X3B8LAAAAAJ&amp;hl=en&amp;oi=ao",
+      "ids_in_file": [
+        "8X3B8LAAAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Marian_Brestic.yaml",
+      "stem": "Marian_Brestic",
+      "name": "Mari\\xE1n Bresti\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?user=9LXjvp8AAAAJ&amp;hl=en&amp;oi=sra",
+      "ids_in_file": [
+        "9LXjvp8AAAAJ"
+      ],
+      "h": "107"
+    },
+    {
+      "file": "Marian_Hajduch.yaml",
+      "stem": "Marian_Hajduch",
+      "name": "Mari\\xE1n Hajd\\xFAch",
+      "scholar_field": "https://scholar.google.com/citations?user=-jBJ1_gAAAAJ",
+      "ids_in_file": [
+        "-jBJ1_gAAAAJ"
+      ],
+      "h": "64"
+    },
+    {
+      "file": "Marian_Jandel.yaml",
+      "stem": "Marian_Jandel",
+      "name": "Marian Jandel",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=OCHIvToAAAAJ",
+      "ids_in_file": [
+        "OCHIvToAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Marian_Krajci.yaml",
+      "stem": "Marian_Krajci",
+      "name": "Mari\\xE1n Kraj\\u010D\\xED",
+      "scholar_field": "https://scholar.google.com/citations?user=WawpXZIAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "WawpXZIAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Marian_Valko.yaml",
+      "stem": "Marian_Valko",
+      "name": "Mari\\xE1n Valko",
+      "scholar_field": "https://scholar.google.sk/citations?user=Csnoq7QAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "Csnoq7QAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Mario_Ziman.yaml",
+      "stem": "Mario_Ziman",
+      "name": "Mário Ziman",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=96S9ctwAAAAJ",
+      "ids_in_file": [
+        "96S9ctwAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Maros_Ferencik.yaml",
+      "stem": "Maros_Ferencik",
+      "name": "Maro\\u0161 Feren\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=3R-9xP4AAAAJ",
+      "ids_in_file": [
+        "3R-9xP4AAAAJ"
+      ],
+      "h": "65"
+    },
+    {
+      "file": "Martin_Baca.yaml",
+      "stem": "Martin_Baca",
+      "name": "Martin Ba\\u010Da",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=wiwZl54AAAAJ",
+      "ids_in_file": [
+        "wiwZl54AAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Martin_Backor.yaml",
+      "stem": "Martin_Backor",
+      "name": "Martin Ba\\u010Dkor",
+      "scholar_field": "https://scholar.google.co.uk/citations?user=yuz_CywAAAAJ&hl=en&oi=sra",
+      "ids_in_file": [
+        "yuz_CywAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Martin_Danisik.yaml",
+      "stem": "Martin_Danisik",
+      "name": "Martin Dani\\u0161\\xEDk",
+      "scholar_field": "https://scholar.google.com.au/citations?user=bLoHCS8AAAAJ&hl=en",
+      "ids_in_file": [
+        "bLoHCS8AAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Martin_Dovciak.yaml",
+      "stem": "Martin_Dovciak",
+      "name": "Martin Dovčiak",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=VWKAu9EAAAAJ",
+      "ids_in_file": [
+        "VWKAu9EAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Martin_Gmitra.yaml",
+      "stem": "Martin_Gmitra",
+      "name": "Martin Gmitra",
+      "scholar_field": "https://scholar.google.sk/citations?user=LQxDmrQAAAAJ&hl=en",
+      "ids_in_file": [
+        "LQxDmrQAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Martin_Holcik.yaml",
+      "stem": "Martin_Holcik",
+      "name": "Martin Hol\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=nluwC9EAAAAJ&hl=en",
+      "ids_in_file": [
+        "nluwC9EAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Martin_Kahanec.yaml",
+      "stem": "Martin_Kahanec",
+      "name": "Martin Kahanec",
+      "scholar_field": "https://scholar.google.com/citations?user=2lo3e7sAAAAJ&hl=en",
+      "ids_in_file": [
+        "2lo3e7sAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Martin_Krssak.yaml",
+      "stem": "Martin_Krssak",
+      "name": "Martin Kr\\u0161\\u0161\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=Ynt9VvUAAAAJ",
+      "ids_in_file": [
+        "Ynt9VvUAAAAJ"
+      ],
+      "h": "57"
+    },
+    {
+      "file": "Martin_Lukac.yaml",
+      "stem": "Martin_Lukac",
+      "name": "Martin Luk\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?user=K0dUsrwAAAAJ&hl=en",
+      "ids_in_file": [
+        "K0dUsrwAAAAJ"
+      ],
+      "h": "43"
+    },
+    {
+      "file": "Martin_Marsala.yaml",
+      "stem": "Martin_Marsala",
+      "name": "Martin Mar\\u0161ala",
+      "scholar_field": "https://scholar.google.com/citations?user=_2_U-MAAAAAJ",
+      "ids_in_file": [
+        "_2_U-MAAAAAJ"
+      ],
+      "h": "57"
+    },
+    {
+      "file": "Martin_Pal.yaml",
+      "stem": "Martin_Pal",
+      "name": "Martin P\\xE1l",
+      "scholar_field": "https://scholar.google.com/citations?&user=NDhlLv0AAAAJ",
+      "ids_in_file": [
+        "NDhlLv0AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Martin_Pelikan.yaml",
+      "stem": "Martin_Pelikan",
+      "name": "Martin Pelik\\xE1n",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=f59x6y4AAAAJ",
+      "ids_in_file": [
+        "f59x6y4AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Martin_Rusnak.yaml",
+      "stem": "Martin_Rusnak",
+      "name": "Martin Rusnák",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Xj3GtcMAAAAJ",
+      "ids_in_file": [
+        "Xj3GtcMAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Martin_Smiesko.yaml",
+      "stem": "Martin_Smiesko",
+      "name": "Martin Smieško",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=oBUP4p4AAAAJ",
+      "ids_in_file": [
+        "oBUP4p4AAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Martin_Takac.yaml",
+      "stem": "Martin_Takac",
+      "name": "Martin Tak\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=qKQD-2cAAAAJ",
+      "ids_in_file": [
+        "qKQD-2cAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Martin_Tomko.yaml",
+      "stem": "Martin_Tomko",
+      "name": "Martin Tomko",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Ww8A0yAAAAAJ",
+      "ids_in_file": [
+        "Ww8A0yAAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Matej_Balaz.yaml",
+      "stem": "Matej_Balaz",
+      "name": "Matej Baláž",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=udLGnu8AAAAJ",
+      "ids_in_file": [
+        "udLGnu8AAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Matej_Skorvanek.yaml",
+      "stem": "Matej_Skorvanek",
+      "name": "Matej \\u0160korv\\xE1nek",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=bXFA1iIAAAAJ",
+      "ids_in_file": [
+        "bXFA1iIAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Michal_Bajdich.yaml",
+      "stem": "Michal_Bajdich",
+      "name": "Michal Bajdich",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=x9sZ1Q4AAAAJ",
+      "ids_in_file": [
+        "x9sZ1Q4AAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Michal_Bosela.yaml",
+      "stem": "Michal_Bosela",
+      "name": "Michal Bo\\u0161e\\u013Ea",
+      "scholar_field": "https://scholar.google.sk/citations?user=2-SFmgwAAAAJ&hl=sk",
+      "ids_in_file": [
+        "2-SFmgwAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Michal_Cifra.yaml",
+      "stem": "Michal_Cifra",
+      "name": "Michal Cifra",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=rg7MoCEAAAAJ",
+      "ids_in_file": [
+        "rg7MoCEAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Michal_Feckan.yaml",
+      "stem": "Michal_Feckan",
+      "name": "Michal Fe\\u010Dkan",
+      "scholar_field": "https://scholar.google.com/citations?user=HicwXWIAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "HicwXWIAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Michal_Hammel.yaml",
+      "stem": "Michal_Hammel",
+      "name": "Michal Hammel",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ElcuTkwAAAAJ",
+      "ids_in_file": [
+        "ElcuTkwAAAAJ"
+      ],
+      "h": "58"
+    },
+    {
+      "file": "Michal_Juricek.yaml",
+      "stem": "Michal_Juricek",
+      "name": "Michal Juríček",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=A0iacEUAAAAJ",
+      "ids_in_file": [
+        "A0iacEUAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Michal_Kvasnica.yaml",
+      "stem": "Michal_Kvasnica",
+      "name": "Michal Kvasnica",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=pE8c4hsAAAAJ",
+      "ids_in_file": [
+        "pE8c4hsAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Michal_Mego.yaml",
+      "stem": "Michal_Mego",
+      "name": "Michal Mego",
+      "scholar_field": "https://scholar.google.com/citations?user=NvHY0EcAAAAJ&hl=en",
+      "ids_in_file": [
+        "NvHY0EcAAAAJ"
+      ],
+      "h": "51"
+    },
+    {
+      "file": "Michal_Mokry.yaml",
+      "stem": "Michal_Mokry",
+      "name": "Michal Mokr\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=rX7GiUAAAAAJ",
+      "ids_in_file": [
+        "rX7GiUAAAAAJ"
+      ],
+      "h": "57"
+    },
+    {
+      "file": "Michal_Nemcok.yaml",
+      "stem": "Michal_Nemcok",
+      "name": "Michal Nem\\u010Dok",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=hwSYnhEAAAAJ",
+      "ids_in_file": [
+        "hwSYnhEAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Michal_Repisky.yaml",
+      "stem": "Michal_Repisky",
+      "name": "Michal Repisk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=fkfhy9EAAAAJ",
+      "ids_in_file": [
+        "fkfhy9EAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Michal_Valko.yaml",
+      "stem": "Michal_Valko",
+      "name": "Michal Valko",
+      "scholar_field": "https://scholar.google.com/citations?user=jrazNCQAAAAJ&hl=en",
+      "ids_in_file": [
+        "jrazNCQAAAAJ"
+      ],
+      "h": "54"
+    },
+    {
+      "file": "Michal_Zajacek.yaml",
+      "stem": "Michal_Zajacek",
+      "name": "Michal Zajaček",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=z3JOfd0AAAAJ",
+      "ids_in_file": [
+        "z3JOfd0AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Milan_Certik.yaml",
+      "stem": "Milan_Certik",
+      "name": "Milan \\u010Cert\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=UKDrvpQAAAAJ&amp",
+      "ids_in_file": [
+        "UKDrvpQAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Milan_Gembicky.yaml",
+      "stem": "Milan_Gembicky",
+      "name": "Milan Gembick\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=wlZ-PoQAAAAJ",
+      "ids_in_file": [
+        "wlZ-PoQAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Milan_Hronec.yaml",
+      "stem": "Milan_Hronec",
+      "name": "Milan Hronec",
+      "scholar_field": "https://scholar.google.com/citations?user=2ZVSiB8AAAAJ&hl=en",
+      "ids_in_file": [
+        "2ZVSiB8AAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Milan_Palus.yaml",
+      "stem": "Milan_Palus",
+      "name": "Milan Palu\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=ovMJkzsAAAAJ",
+      "ids_in_file": [
+        "ovMJkzsAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Milan_Polakovic.yaml",
+      "stem": "Milan_Polakovic",
+      "name": "Milan Polakovi\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=W8akvAsAAAAJ",
+      "ids_in_file": [
+        "W8akvAsAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Milan_Remko.yaml",
+      "stem": "Milan_Remko",
+      "name": "Milan Remko",
+      "scholar_field": "https://scholar.google.com/citations?user=CMLcLlEAAAAJ&hl=en",
+      "ids_in_file": [
+        "CMLcLlEAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Milan_Sykora.yaml",
+      "stem": "Milan_Sykora",
+      "name": "Milan S\\xFDkora",
+      "scholar_field": "https://scholar.google.com/citations?user=9TGPGbYAAAAJ&hl=en",
+      "ids_in_file": [
+        "9TGPGbYAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Milan_Timko.yaml",
+      "stem": "Milan_Timko",
+      "name": "Milan Timko",
+      "scholar_field": "https://scholar.google.sk/citations?user=ckojWlAAAAAJ&hl=en",
+      "ids_in_file": [
+        "ckojWlAAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Milos_Hauskrecht.yaml",
+      "stem": "Milos_Hauskrecht",
+      "name": "Milo\\u0161 Hauskrecht",
+      "scholar_field": "https://scholar.google.com/citations?user=ylK19VUAAAAJ&amp",
+      "ids_in_file": [
+        "ylK19VUAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Milos_Hitka.yaml",
+      "stem": "Milos_Hitka",
+      "name": "Milo\\u0161 Hitka",
+      "scholar_field": "https://scholar.google.com/citations?user=phu5PwoAAAAJ&hl=en",
+      "ids_in_file": [
+        "phu5PwoAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Milos_Toth.yaml",
+      "stem": "Milos_Toth",
+      "name": "Milo\\u0161 T\\xF3th",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=OMBz3bIAAAAJ",
+      "ids_in_file": [
+        "OMBz3bIAAAAJ"
+      ],
+      "h": "58"
+    },
+    {
+      "file": "Miro_Zeman.yaml",
+      "stem": "Miro_Zeman",
+      "name": "Miro Zeman",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=YP4gwRsAAAAJ",
+      "ids_in_file": [
+        "YP4gwRsAAAAJ"
+      ],
+      "h": "67"
+    },
+    {
+      "file": "Miroslav_Dudik.yaml",
+      "stem": "Miroslav_Dudik",
+      "name": "Miroslav Dud\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=wYMTld8AAAAJ&",
+      "ids_in_file": [
+        "wYMTld8AAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Miroslav_Gal.yaml",
+      "stem": "Miroslav_Gal",
+      "name": "Miroslav Gál",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=k7jZL6kAAAAJ",
+      "ids_in_file": [
+        "k7jZL6kAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Miroslav_Grmela.yaml",
+      "stem": "Miroslav_Grmela",
+      "name": "Miroslav Grmela",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=zOaoU8MAAAAJ",
+      "ids_in_file": [
+        "zOaoU8MAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Miroslav_Kocifaj.yaml",
+      "stem": "Miroslav_Kocifaj",
+      "name": "Miroslav Kocifaj",
+      "scholar_field": "https://scholar.google.sk/citations?user=XDh-250AAAAJ",
+      "ids_in_file": [
+        "XDh-250AAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Miroslav_Kolesik.yaml",
+      "stem": "Miroslav_Kolesik",
+      "name": "Miroslav Koles\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=1tCBM2kAAAAJ",
+      "ids_in_file": [
+        "1tCBM2kAAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Miroslav_Ovecka.yaml",
+      "stem": "Miroslav_Ovecka",
+      "name": "Miroslav Ove\\u010Dka",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=bM-HEmgAAAAJ",
+      "ids_in_file": [
+        "bM-HEmgAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Miroslav_Sirota.yaml",
+      "stem": "Miroslav_Sirota",
+      "name": "Miroslav Sirota",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=9dKlH9wAAAAJ",
+      "ids_in_file": [
+        "9dKlH9wAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Miroslav_Soos.yaml",
+      "stem": "Miroslav_Soos",
+      "name": "Miroslav \\u0160o\\xF3\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?user=5sAJJkgAAAAJ",
+      "ids_in_file": [
+        "5sAJJkgAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Miroslav_Urban.yaml",
+      "stem": "Miroslav_Urban",
+      "name": "Miroslav Urban",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=9Ff2ZsoAAAAJ",
+      "ids_in_file": [
+        "9Ff2ZsoAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Miroslava_Kacaniova.yaml",
+      "stem": "Miroslava_Kacaniova",
+      "name": "Miroslava Ka\\u010D\\xE1niov\\xE1",
+      "scholar_field": "https://scholar.google.sk/citations?user=1st0ejAAAAAJ&hl=en",
+      "ids_in_file": [
+        "1st0ejAAAAAJ"
+      ],
+      "h": "54"
+    },
+    {
+      "file": "Monika_Janisova.yaml",
+      "stem": "Monika_Janisova",
+      "name": "Monika Janišová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=bQ8o3uQAAAAJ",
+      "ids_in_file": [
+        "bQ8o3uQAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Natalia_Kryvinska.yaml",
+      "stem": "Natalia_Kryvinska",
+      "name": "Nat\\xE1lia Kryvinsk\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=HJtnSAkAAAAJ",
+      "ids_in_file": [
+        "HJtnSAkAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Natalia_Kucirkova.yaml",
+      "stem": "Natalia_Kucirkova",
+      "name": "Nat\\xE1lia Ku\\u010D\\xEDrkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=wOkUZGAAAAAJ&hl=en",
+      "ids_in_file": [
+        "wOkUZGAAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Norbert_Kucerka.yaml",
+      "stem": "Norbert_Kucerka",
+      "name": "Norbert Ku\\u010Derka",
+      "scholar_field": "https://scholar.google.com/citations?user=W9ls60kAAAAJ",
+      "ids_in_file": [
+        "W9ls60kAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Norbert_Werner.yaml",
+      "stem": "Norbert_Werner",
+      "name": "Norbert Werner",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=D93yu9MAAAAJ",
+      "ids_in_file": [
+        "D93yu9MAAAAJ"
+      ],
+      "h": "70"
+    },
+    {
+      "file": "Norbert_Zilka.yaml",
+      "stem": "Norbert_Zilka",
+      "name": "Norbert \\u017Dilka",
+      "scholar_field": "https://scholar.google.com/citations?user=p40NFYwAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "p40NFYwAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Olga_Krizanova.yaml",
+      "stem": "Olga_Krizanova",
+      "name": "O\\u013Ega Kri\\u017Eanov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ZUBSQgEAAAAJ",
+      "ids_in_file": [
+        "ZUBSQgEAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Olga_Pechanova.yaml",
+      "stem": "Olga_Pechanova",
+      "name": "O\\u013Ega Pech\\xE1\\u0148ov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=1bNNlZUAAAAJ",
+      "ids_in_file": [
+        "1bNNlZUAAAAJ"
+      ],
+      "h": "50"
+    },
+    {
+      "file": "Olga_Samajova.yaml",
+      "stem": "Olga_Samajova",
+      "name": "Oľga Šamajová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=do4mcnYAAAAJ",
+      "ids_in_file": [
+        "do4mcnYAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Ondrej_Lexa.yaml",
+      "stem": "Ondrej_Lexa",
+      "name": "Ondrej Lexa",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=lo8ugg0AAAAJ",
+      "ids_in_file": [
+        "lo8ugg0AAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Oskar_Vafek.yaml",
+      "stem": "Oskar_Vafek",
+      "name": "Oskar Vafek",
+      "scholar_field": "https://scholar.google.com/citations?user=-toxVLsAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "-toxVLsAAAAJ"
+      ],
+      "h": "43"
+    },
+    {
+      "file": "PAVEL_POVINEC.yaml",
+      "stem": "PAVEL_POVINEC",
+      "name": "Pavel Povinec",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=o8DYjGMAAAAJ",
+      "ids_in_file": [
+        "o8DYjGMAAAAJ"
+      ],
+      "h": "68"
+    },
+    {
+      "file": "PAvol_Hell.yaml",
+      "stem": "PAvol_Hell",
+      "name": "Pavol Hell",
+      "scholar_field": "https://scholar.google.sk/citations?hl=sk&amp;user=8KDwlbEAAAAJ",
+      "ids_in_file": [
+        "8KDwlbEAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "PETER_BOOR.yaml",
+      "stem": "PETER_BOOR",
+      "name": "Peter Boor",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=5d0eNiEAAAAJ",
+      "ids_in_file": [
+        "5d0eNiEAAAAJ"
+      ],
+      "h": "88"
+    },
+    {
+      "file": "PETER_MOCZO.yaml",
+      "stem": "PETER_MOCZO",
+      "name": "Peter Moczo",
+      "scholar_field": "https://scholar.google.sk/citations?user=OF5iXJQAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "OF5iXJQAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Pavel_Cheben.yaml",
+      "stem": "Pavel_Cheben",
+      "name": "Pavel Cheben",
+      "scholar_field": "https://scholar.google.sk/citations?user=Krtl-TsAAAAJ",
+      "ids_in_file": [
+        "Krtl-TsAAAAJ"
+      ],
+      "h": "72"
+    },
+    {
+      "file": "Pavel_Ciaian.yaml",
+      "stem": "Pavel_Ciaian",
+      "name": "Pavel Ciaian",
+      "scholar_field": "https://scholar.google.sk/citations?user=s_AVnN0AAAAJ&hl=en",
+      "ids_in_file": [
+        "s_AVnN0AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Pavel_Oblozinsky.yaml",
+      "stem": "Pavel_Oblozinsky",
+      "name": "Pavel Oblo\\u017Einsk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=lrz3brYAAAAJ&hl=en",
+      "ids_in_file": [
+        "lrz3brYAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Pavol_Balgavy.yaml",
+      "stem": "Pavol_Balgavy",
+      "name": "Pavol Balgav\\xFD",
+      "scholar_field": "https://scholar.google.co.uk/citations?user=kfUT_UgAAAAJ",
+      "ids_in_file": [
+        "kfUT_UgAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Pavol_Bartos.yaml",
+      "stem": "Pavol_Bartos",
+      "name": "Pavol Barto\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=pCW77HEAAAAJ",
+      "ids_in_file": [
+        "pCW77HEAAAAJ"
+      ],
+      "h": "237"
+    },
+    {
+      "file": "Pavol_Bauer.yaml",
+      "stem": "Pavol_Bauer",
+      "name": "Pavol Bauer",
+      "scholar_field": "https://scholar.google.com/citations?user=hH3CJhcAAAAJ&amp",
+      "ids_in_file": [
+        "hH3CJhcAAAAJ"
+      ],
+      "h": "73"
+    },
+    {
+      "file": "Pavol_Hvizdos.yaml",
+      "stem": "Pavol_Hvizdos",
+      "name": "Pavol Hvizdo\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=M_hgO24AAAAJ",
+      "ids_in_file": [
+        "M_hgO24AAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Pavol_Kovac.yaml",
+      "stem": "Pavol_Kovac",
+      "name": "Pavol Kov\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=qLF9WqcAAAAJ",
+      "ids_in_file": [
+        "qLF9WqcAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Pavol_Quittner.yaml",
+      "stem": "Pavol_Quittner",
+      "name": "Pavol Quittner",
+      "scholar_field": "https://scholar.google.com/citations?user=QhrxwOcAAAAJ&hl=en",
+      "ids_in_file": [
+        "QhrxwOcAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Pavol_Sajgalik.yaml",
+      "stem": "Pavol_Sajgalik",
+      "name": "Pavol \\u0160ajgal\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?user=AULzHfIAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "AULzHfIAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Pavol_Szomolanyi.yaml",
+      "stem": "Pavol_Szomolanyi",
+      "name": "Pavol Szomol\\xE1nyi",
+      "scholar_field": "https://scholar.google.co.uk/citations?user=tFQBoAcAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "tFQBoAcAAAAJ"
+      ],
+      "h": "43"
+    },
+    {
+      "file": "Peter_Biely.yaml",
+      "stem": "Peter_Biely",
+      "name": "Peter Biely",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=NvXlxjkAAAAJ",
+      "ids_in_file": [
+        "NvXlxjkAAAAJ"
+      ],
+      "h": "65"
+    },
+    {
+      "file": "Peter_Bodik.yaml",
+      "stem": "Peter_Bodik",
+      "name": "Peter Bod\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=9EFobLUAAAAJ",
+      "ids_in_file": [
+        "9EFobLUAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Peter_Cifra.yaml",
+      "stem": "Peter_Cifra",
+      "name": "Peter Cifra",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=0wKlnIgAAAAJ",
+      "ids_in_file": [
+        "0wKlnIgAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Peter_Dolog.yaml",
+      "stem": "Peter_Dolog",
+      "name": "Peter Dolog",
+      "scholar_field": "https://scholar.google.com/citations?user=gCafUI0AAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "gCafUI0AAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Peter_Gemeiner.yaml",
+      "stem": "Peter_Gemeiner",
+      "name": "Peter Gemeiner",
+      "scholar_field": "https://scholar.google.sk/citations?user=SojnMuAAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "SojnMuAAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Peter_Halama.yaml",
+      "stem": "Peter_Halama",
+      "name": "Peter Halama",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=AGsfdO8AAAAJ",
+      "ids_in_file": [
+        "AGsfdO8AAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Peter_Hedera.yaml",
+      "stem": "Peter_Hedera",
+      "name": "Peter Hedera",
+      "scholar_field": "https://scholar.google.com/citations?user=QB0X-6sAAAAJ",
+      "ids_in_file": [
+        "QB0X-6sAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Peter_Jedlicka.yaml",
+      "stem": "Peter_Jedlicka",
+      "name": "Peter Jedlička",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=tgIMVDsAAAAJ",
+      "ids_in_file": [
+        "tgIMVDsAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Peter_Kasak.yaml",
+      "stem": "Peter_Kasak",
+      "name": "Peter Kas\\xE1k",
+      "scholar_field": "https://scholar.google.sk/citations?user=9uNi5IMAAAAJ&amp",
+      "ids_in_file": [
+        "9uNi5IMAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Peter_Komadel.yaml",
+      "stem": "Peter_Komadel",
+      "name": "Peter Komadel",
+      "scholar_field": "https://scholar.google.com/citations?user=ubIkrj4AAAAJ",
+      "ids_in_file": [
+        "ubIkrj4AAAAJ"
+      ],
+      "h": "51"
+    },
+    {
+      "file": "Peter_Kopcansky.yaml",
+      "stem": "Peter_Kopcansky",
+      "name": "Peter Kop\\u010Dansk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=ZCMAk9sAAAAJ",
+      "ids_in_file": [
+        "ZCMAk9sAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Peter_Kruzliak.yaml",
+      "stem": "Peter_Kruzliak",
+      "name": "Peter Kru\\u017Eliak",
+      "scholar_field": "https://scholar.google.com/citations?user=ICo_N5sAAAAJ&hl=sk",
+      "ids_in_file": [
+        "ICo_N5sAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Peter_Kubatka.yaml",
+      "stem": "Peter_Kubatka",
+      "name": "Peter Kubatka",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ",
+      "ids_in_file": [
+        "Bg2qAyoAAAAJ"
+      ],
+      "h": "65"
+    },
+    {
+      "file": "Peter_Lazor.yaml",
+      "stem": "Peter_Lazor",
+      "name": "Peter Lazor",
+      "scholar_field": "https://scholar.google.se/citations?user=v61ZVcoAAAAJ&hl=sv",
+      "ids_in_file": [
+        "v61ZVcoAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Peter_Lichard.yaml",
+      "stem": "Peter_Lichard",
+      "name": "Peter Lichard",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=oU4fEOUAAAAJ",
+      "ids_in_file": [
+        "oU4fEOUAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Peter_Massanyi.yaml",
+      "stem": "Peter_Massanyi",
+      "name": "Peter Mass\\xE1nyi",
+      "scholar_field": "https://scholar.google.com/citations?user=pXeemKMAAAAJ&hl=sk",
+      "ids_in_file": [
+        "pXeemKMAAAAJ"
+      ],
+      "h": "50"
+    },
+    {
+      "file": "Peter_Molnar.yaml",
+      "stem": "Peter_Molnar",
+      "name": "Peter Moln\\xE1r",
+      "scholar_field": "https://scholar.google.de/citations?hl=en&amp;user=HRppEBIAAAAJ",
+      "ids_in_file": [
+        "HRppEBIAAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Peter_Molnar_new.yaml",
+      "stem": "Peter_Molnar_new",
+      "name": "Peter Moln\\xE1r",
+      "scholar_field": "https://scholar.google.com/citations?user=57LSTCsAAAAJ&hl=en",
+      "ids_in_file": [
+        "57LSTCsAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Peter_Nabelek.yaml",
+      "stem": "Peter_Nabelek",
+      "name": "Peter I. Nabelek",
+      "scholar_field": "https://scholar.google.com/citations?user=qWOmZxQAAAAJ",
+      "ids_in_file": [
+        "qWOmZxQAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Peter_Papcun.yaml",
+      "stem": "Peter_Papcun",
+      "name": "Peter Papcun",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Og4hTmUAAAAJ",
+      "ids_in_file": [
+        "Og4hTmUAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Peter_Rafaj.yaml",
+      "stem": "Peter_Rafaj",
+      "name": "Peter Rafaj",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ooffTIwAAAAJ",
+      "ids_in_file": [
+        "ooffTIwAAAAJ"
+      ],
+      "h": "40"
+    },
+    {
+      "file": "Peter_Richtarik.yaml",
+      "stem": "Peter_Richtarik",
+      "name": "Peter Richt\\xE1rik",
+      "scholar_field": "https://scholar.google.com/citations?user=pGh242UAAAAJ&hl=en",
+      "ids_in_file": [
+        "pGh242UAAAAJ"
+      ],
+      "h": "78"
+    },
+    {
+      "file": "Peter_Samuely.yaml",
+      "stem": "Peter_Samuely",
+      "name": "Peter Samuely",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=q9915jIAAAAJ",
+      "ids_in_file": [
+        "q9915jIAAAAJ"
+      ],
+      "h": "30"
+    },
+    {
+      "file": "Peter_Sebo.yaml",
+      "stem": "Peter_Sebo",
+      "name": "Peter \\u0160ebo",
+      "scholar_field": "https://scholar.google.com/citations?user=S2rPQ8MAAAAJ&amp",
+      "ids_in_file": [
+        "S2rPQ8MAAAAJ"
+      ],
+      "h": "56"
+    },
+    {
+      "file": "Peter_Siffalovic.yaml",
+      "stem": "Peter_Siffalovic",
+      "name": "Peter Šiffalovič",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=_-KOEeQAAAAJ",
+      "ids_in_file": [
+        "_-KOEeQAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Peter_Stano.yaml",
+      "stem": "Peter_Stano",
+      "name": "Peter Sta\\u0148o",
+      "scholar_field": "https://scholar.google.com/citations?user=-gLxHToAAAAJ&hl=en",
+      "ids_in_file": [
+        "-gLxHToAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Peter_Sutovsky.yaml",
+      "stem": "Peter_Sutovsky",
+      "name": "Peter \\u0160utovsk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=UVGb060AAAAJ&amp",
+      "ids_in_file": [
+        "UVGb060AAAAJ"
+      ],
+      "h": "69"
+    },
+    {
+      "file": "Peter_Svihra.yaml",
+      "stem": "Peter_Svihra",
+      "name": "Peter \\u0160vihra",
+      "scholar_field": "https://scholar.google.com/citations?user=Ud3obX9UjLcC",
+      "ids_in_file": [
+        "Ud3obX9UjLcC"
+      ],
+      "h": "71"
+    },
+    {
+      "file": "Peter_Tino.yaml",
+      "stem": "Peter_Tino",
+      "name": "Peter Ti\\u0148o",
+      "scholar_field": "https://scholar.google.sk/citations?user=jntY1osAAAAJ&hl=en",
+      "ids_in_file": [
+        "jntY1osAAAAJ"
+      ],
+      "h": "50"
+    },
+    {
+      "file": "Peter_Tomasec.yaml",
+      "stem": "Peter_Tomasec",
+      "name": "Peter Toma\\u0161ec",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=hOuiMR8AAAAJ",
+      "ids_in_file": [
+        "hOuiMR8AAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Peter_Vrsansky.yaml",
+      "stem": "Peter_Vrsansky",
+      "name": "Peter Vršanský",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=kpVq-kIAAAAJ",
+      "ids_in_file": [
+        "kpVq-kIAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Philipp_Kukura.yaml",
+      "stem": "Philipp_Kukura",
+      "name": "Philipp Kukura",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=NgHGnt0AAAAJ",
+      "ids_in_file": [
+        "NgHGnt0AAAAJ"
+      ],
+      "h": "61"
+    },
+    {
+      "file": "Radko_Mesiar.yaml",
+      "stem": "Radko_Mesiar",
+      "name": "Radko Mesiar",
+      "scholar_field": "https://scholar.google.com/citations?user=_kXpl5YAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "_kXpl5YAAAAJ"
+      ],
+      "h": "82"
+    },
+    {
+      "file": "Radovan_Dermisek.yaml",
+      "stem": "Radovan_Dermisek",
+      "name": "Radovan Derm\\xED\\u0161ek",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=Ell1TQQAAAAJ",
+      "ids_in_file": [
+        "Ell1TQQAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Radovan_Herchel.yaml",
+      "stem": "Radovan_Herchel",
+      "name": "Radovan Herchel",
+      "scholar_field": "https://scholar.google.com/citations?user=t_V_OnwAAAAJ",
+      "ids_in_file": [
+        "t_V_OnwAAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Rastislav_Bodik.yaml",
+      "stem": "Rastislav_Bodik",
+      "name": "Rastislav Bod\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=YrihYtsAAAAJ",
+      "ids_in_file": [
+        "YrihYtsAAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Rastislav_Jakus.yaml",
+      "stem": "Rastislav_Jakus",
+      "name": "Rastislav Jakuš",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=d5G0NZsAAAAJ",
+      "ids_in_file": [
+        "d5G0NZsAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Richard_Hrivnak.yaml",
+      "stem": "Richard_Hrivnak",
+      "name": "Richard Hrivnák",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=L4arwc8AAAAJ",
+      "ids_in_file": [
+        "L4arwc8AAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Richard_Imrich.yaml",
+      "stem": "Richard_Imrich",
+      "name": "Richard Imrich",
+      "scholar_field": "https://scholar.google.sk/citations?user=UTQ13_oAAAAJ&hl=en",
+      "ids_in_file": [
+        "UTQ13_oAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Richard_Kvetnansky.yaml",
+      "stem": "Richard_Kvetnansky",
+      "name": "Richard Kvet\\u0148ansk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=eZE5eZwAAAAJ",
+      "ids_in_file": [
+        "eZE5eZwAAAAJ"
+      ],
+      "h": "61"
+    },
+    {
+      "file": "Robert_Kralovics.yaml",
+      "stem": "Robert_Kralovics",
+      "name": "R\\xF3bert Kr\\xE1lovics",
+      "scholar_field": "https://scholar.google.com/citations?user=-oTaCR8AAAAJ&amp",
+      "ids_in_file": [
+        "-oTaCR8AAAAJ"
+      ],
+      "h": "68"
+    },
+    {
+      "file": "Roman_Boca.yaml",
+      "stem": "Roman_Boca",
+      "name": "Roman Bo\\u010Da",
+      "scholar_field": "https://scholar.google.sk/citations?user=I5zYMOsAAAAJ&hl=en",
+      "ids_in_file": [
+        "I5zYMOsAAAAJ"
+      ],
+      "h": "53"
+    },
+    {
+      "file": "Roman_Horvath.yaml",
+      "stem": "Roman_Horvath",
+      "name": "Roman Horv\\xE1th",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=QCr9FugAAAAJ",
+      "ids_in_file": [
+        "QCr9FugAAAAJ"
+      ],
+      "h": "43"
+    },
+    {
+      "file": "Roman_Lysak.yaml",
+      "stem": "Roman_Lysak",
+      "name": "Roman Lys\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=jkguv3UAAAAJ",
+      "ids_in_file": [
+        "jkguv3UAAAAJ"
+      ],
+      "h": "260"
+    },
+    {
+      "file": "Roman_Martonak.yaml",
+      "stem": "Roman_Martonak",
+      "name": "Roman Marto\\u0148\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=FNaaPIwAAAAJ&amp",
+      "ids_in_file": [
+        "FNaaPIwAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Roman_Mezencev.yaml",
+      "stem": "Roman_Mezencev",
+      "name": "Roman Mezencev",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=dQjETlwAAAAJ",
+      "ids_in_file": [
+        "dQjETlwAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Ruzena_Bajcsy.yaml",
+      "stem": "Ruzena_Bajcsy",
+      "name": "Ru\\u017Eena Bajcsy",
+      "scholar_field": "https://scholar.google.com/citations?user=s9Ikf1EAAAAJ&amp",
+      "ids_in_file": [
+        "s9Ikf1EAAAAJ"
+      ],
+      "h": "80"
+    },
+    {
+      "file": "Sergej_Hloch.yaml",
+      "stem": "Sergej_Hloch",
+      "name": "Sergej Hloch",
+      "scholar_field": "https://scholar.google.sk/citations?user=uZbRKFUAAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "uZbRKFUAAAAJ"
+      ],
+      "h": "44"
+    },
+    {
+      "file": "Silvia_Kohnova.yaml",
+      "stem": "Silvia_Kohnova",
+      "name": "Silvia Kohnová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=U_VSYdwAAAAJ",
+      "ids_in_file": [
+        "U_VSYdwAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Silvia_Pastorekova.yaml",
+      "stem": "Silvia_Pastorekova",
+      "name": "Silvia Pastorekov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=7AYmCSIAAAAJ",
+      "ids_in_file": [
+        "7AYmCSIAAAAJ"
+      ],
+      "h": "76"
+    },
+    {
+      "file": "Stanislav_Antalic.yaml",
+      "stem": "Stanislav_Antalic",
+      "name": "Stanislav Antalic",
+      "scholar_field": "https://scholar.google.com/citations?user=h08MR_wAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "h08MR_wAAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Stanislav_Komorovsky.yaml",
+      "stem": "Stanislav_Komorovsky",
+      "name": "Stanislav Komorovský",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=ScPhEXIAAAAJ",
+      "ids_in_file": [
+        "ScPhEXIAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Stanislav_Miertus.yaml",
+      "stem": "Stanislav_Miertus",
+      "name": "Stanislav Miertu\\u0161",
+      "scholar_field": "https://scholar.google.sk/citations?user=MhwlHXIAAAAJ&hl=en",
+      "ids_in_file": [
+        "MhwlHXIAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Stanislav_Tokar.yaml",
+      "stem": "Stanislav_Tokar",
+      "name": "Stanislav Tok\\xE1r",
+      "scholar_field": "https://scholar.google.com/citations?user=2HzXQEkAAAAJ",
+      "ids_in_file": [
+        "2HzXQEkAAAAJ"
+      ],
+      "h": "272"
+    },
+    {
+      "file": "Stano_Pekar.yaml",
+      "stem": "Stano_Pekar",
+      "name": "Stano Pek\\xE1r",
+      "scholar_field": "https://scholar.google.com/citations?user=o7qWfUAAAAAJ&hl=en",
+      "ids_in_file": [
+        "o7qWfUAAAAAJ"
+      ],
+      "h": "60"
+    },
+    {
+      "file": "Stefan_Benus.yaml",
+      "stem": "Stefan_Benus",
+      "name": "\\u0160tefan Be\\u0148u\\u0161",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=UHGYV8UAAAAJ",
+      "ids_in_file": [
+        "UHGYV8UAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Stefan_Janecek.yaml",
+      "stem": "Stefan_Janecek",
+      "name": "\\u0160tefan Jane\\u010Dek",
+      "scholar_field": "https://scholar.google.sk/citations?user=_l2tp6kAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "_l2tp6kAAAAJ"
+      ],
+      "h": "46"
+    },
+    {
+      "file": "Stefan_Matejcik.yaml",
+      "stem": "Stefan_Matejcik",
+      "name": "\\u0160tefan Matej\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.sk/citations?user=Bvdw6vIAAAAJ&hl=en",
+      "ids_in_file": [
+        "Bvdw6vIAAAAJ"
+      ],
+      "h": "90"
+    },
+    {
+      "file": "Stefan_Porubsky.yaml",
+      "stem": "Stefan_Porubsky",
+      "name": "\\u0160tefan Porubsk\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?user=t1W0brkAAAAJ&hl=en",
+      "ids_in_file": [
+        "t1W0brkAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Stefan_Schlosser.yaml",
+      "stem": "Stefan_Schlosser",
+      "name": "\\u0160tefan Schlosser",
+      "scholar_field": "https://scholar.google.com/citations?user=J2qs3RMAAAAJ&hl=en",
+      "ids_in_file": [
+        "J2qs3RMAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Tanya_Ravingerova.yaml",
+      "stem": "Tanya_Ravingerova",
+      "name": "Tanya Ravingerov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=_fONjMIAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "_fONjMIAAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Tibor_Hianik.yaml",
+      "stem": "Tibor_Hianik",
+      "name": "Tibor Hianik",
+      "scholar_field": "https://scholar.google.com/citations?user=FNfPewQAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "FNfPewQAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Tibor_Kudernac.yaml",
+      "stem": "Tibor_Kudernac",
+      "name": "Tibor Kudernáč",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=2ADIWsMAAAAJ",
+      "ids_in_file": [
+        "2ADIWsMAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Tibor_Macko.yaml",
+      "stem": "Tibor_Macko",
+      "name": "Tibor Macko",
+      "scholar_field": "https://scholar.google.com/citations?user=zakQyxMAAAAJ",
+      "ids_in_file": [
+        "zakQyxMAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Tomas_Bertok.yaml",
+      "stem": "Tomas_Bertok",
+      "name": "Tomáš Bertók",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=HeZwAlsAAAAJ",
+      "ids_in_file": [
+        "HeZwAlsAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Tomas_Bleha.yaml",
+      "stem": "Tomas_Bleha",
+      "name": "Tom\\xE1\\u0161 Bleha",
+      "scholar_field": "https://scholar.google.com/citations?user=HxBEVzwAAAAJ",
+      "ids_in_file": [
+        "HxBEVzwAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Tomas_Bucko.yaml",
+      "stem": "Tomas_Bucko",
+      "name": "Tom\\xE1\\u0161 Bu\\u010Dko",
+      "scholar_field": "https://scholar.google.de/citations?user=wsJN2SMAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "wsJN2SMAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Tomas_Dado.yaml",
+      "stem": "Tomas_Dado",
+      "name": "Tom\\xE1\\u0161 Dado",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=ySoDoW4AAAAJ",
+      "ids_in_file": [
+        "ySoDoW4AAAAJ"
+      ],
+      "h": "197"
+    },
+    {
+      "file": "Tomas_Drgon.yaml",
+      "stem": "Tomas_Drgon",
+      "name": "Tom\\xE1\\u0161 Drgo\\u0148",
+      "scholar_field": "https://scholar.google.com/citations?user=B7vMXfEAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "B7vMXfEAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Tomas_Grim.yaml",
+      "stem": "Tomas_Grim",
+      "name": "Tom\\xE1\\u0161 Grim",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=T0MNJGgAAAAJ",
+      "ids_in_file": [
+        "T0MNJGgAAAAJ"
+      ],
+      "h": "49"
+    },
+    {
+      "file": "Tomas_Hlasny.yaml",
+      "stem": "Tomas_Hlasny",
+      "name": "Tom\\xE1\\u0161 Hl\\xE1sny",
+      "scholar_field": "https://scholar.google.com/citations?user=LgkWAqQAAAAJ",
+      "ids_in_file": [
+        "LgkWAqQAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Tomas_Kalincik.yaml",
+      "stem": "Tomas_Kalincik",
+      "name": "Tom\\xE1\\u0161 Kalin\\u010D\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=uoit0TEAAAAJ",
+      "ids_in_file": [
+        "uoit0TEAAAAJ"
+      ],
+      "h": "55"
+    },
+    {
+      "file": "Tomas_Kirchoff.yaml",
+      "stem": "Tomas_Kirchoff",
+      "name": "Tom\\xE1\\u0161 Kirchhoff",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=RSuayLUAAAAJ",
+      "ids_in_file": [
+        "RSuayLUAAAAJ"
+      ],
+      "h": "47"
+    },
+    {
+      "file": "Tomas_Kliestik.yaml",
+      "stem": "Tomas_Kliestik",
+      "name": "Tom\\xE1\\u0161 Klie\\u0161tik",
+      "scholar_field": "https://scholar.google.com/citations?user=zsFNpOgAAAAJ&hl=en",
+      "ids_in_file": [
+        "zsFNpOgAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Tomas_Roch.yaml",
+      "stem": "Tomas_Roch",
+      "name": "Tom\\xE1\\u0161 Roch",
+      "scholar_field": "https://scholar.google.sk/citations?user=PVRQZxcAAAAJ",
+      "ids_in_file": [
+        "PVRQZxcAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Tomas_Takac.yaml",
+      "stem": "Tomas_Takac",
+      "name": "Tomáš Takáč",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=jMfbEOQAAAAJ",
+      "ids_in_file": [
+        "jMfbEOQAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Tomas_Trnovec.yaml",
+      "stem": "Tomas_Trnovec",
+      "name": "Tom\\xE1\\u0161 Trnovec",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=iQivvkcAAAAJ",
+      "ids_in_file": [
+        "iQivvkcAAAAJ"
+      ],
+      "h": "50"
+    },
+    {
+      "file": "Tomas_Vinar.yaml",
+      "stem": "Tomas_Vinar",
+      "name": "Tom\\xE1\\u0161 Vina\\u0159",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=nBBrj5AAAAAJ",
+      "ids_in_file": [
+        "nBBrj5AAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Veronika_Ostatna.yaml",
+      "stem": "Veronika_Ostatna",
+      "name": "Veronika Ostatn\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ZezlLfEAAAAJ",
+      "ids_in_file": [
+        "ZezlLfEAAAAJ"
+      ],
+      "h": "33"
+    },
+    {
+      "file": "Viera_Skakalova.yaml",
+      "stem": "Viera_Skakalova",
+      "name": "Viera Sk\\xE1kalov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=OKliom8AAAAJ",
+      "ids_in_file": [
+        "OKliom8AAAAJ"
+      ],
+      "h": "45"
+    },
+    {
+      "file": "Vieroslav_Molnar.yaml",
+      "stem": "Vieroslav_Molnar",
+      "name": "Vieroslav Molnár",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=3aL5CrwAAAAJ",
+      "ids_in_file": [
+        "3aL5CrwAAAAJ"
+      ],
+      "h": "34"
+    },
+    {
+      "file": "Viktor_Hraska.yaml",
+      "stem": "Viktor_Hraska",
+      "name": "Viktor Hra\\u0161ka",
+      "scholar_field": "https://scholar.google.com/citations?user=tvt1qiQAAAAJ&hl=sk",
+      "ids_in_file": [
+        "tvt1qiQAAAAJ"
+      ],
+      "h": "36"
+    },
+    {
+      "file": "Vladimir_Balaz.yaml",
+      "stem": "Vladimir_Balaz",
+      "name": "Vladim\\xEDr Bal\\xE1\\u017E",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=bNAGKuoAAAAJ",
+      "ids_in_file": [
+        "bNAGKuoAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Vladimir_Bencko.yaml",
+      "stem": "Vladimir_Bencko",
+      "name": "Vladim\\xEDr Bencko",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=ie2ZQ5wAAAAJ",
+      "ids_in_file": [
+        "ie2ZQ5wAAAAJ"
+      ],
+      "h": "74"
+    },
+    {
+      "file": "Vladimir_Buzek.yaml",
+      "stem": "Vladimir_Buzek",
+      "name": "Vladim\\xEDr Bu\\u017Eek",
+      "scholar_field": "https://scholar.google.com/citations?user=m2hSZWQAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "m2hSZWQAAAAJ"
+      ],
+      "h": "65"
+    },
+    {
+      "file": "Vladimir_Cerny.yaml",
+      "stem": "Vladimir_Cerny",
+      "name": "Vladim\\xEDr \\u010Cern\\xFD",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=m-twF5IAAAAJ",
+      "ids_in_file": [
+        "m-twF5IAAAAJ"
+      ],
+      "h": "63"
+    },
+    {
+      "file": "Vladimir_Dzavik.yaml",
+      "stem": "Vladimir_Dzavik",
+      "name": "Vladim\\xEDr D\\u017Eav\\xEDk",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=psbZKP4AAAAJ",
+      "ids_in_file": [
+        "psbZKP4AAAAJ"
+      ],
+      "h": "78"
+    },
+    {
+      "file": "Vladimir_Farkas.yaml",
+      "stem": "Vladimir_Farkas",
+      "name": "Vladim\\xEDr Farka\\u0161",
+      "scholar_field": "https://scholar.google.ro/citations?user=lakc8cQAAAAJ&hl=en",
+      "ids_in_file": [
+        "lakc8cQAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Vladimir_Juras.yaml",
+      "stem": "Vladimir_Juras",
+      "name": "Vladimír Juráš",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=Y4eCDocAAAAJ",
+      "ids_in_file": [
+        "Y4eCDocAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Vladimir_Kello.yaml",
+      "stem": "Vladimir_Kello",
+      "name": "Vladim\\xEDr Kell\\xF6",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=f8595C4AAAAJ",
+      "ids_in_file": [
+        "f8595C4AAAAJ"
+      ],
+      "h": "37"
+    },
+    {
+      "file": "Vladimir_Kovac.yaml",
+      "stem": "Vladimir_Kovac",
+      "name": "Vladim\\xEDr Kov\\xE1\\u010D",
+      "scholar_field": "https://scholar.google.com/citations?user=wvefIYMAAAAJ",
+      "ids_in_file": [
+        "wvefIYMAAAAJ"
+      ],
+      "h": "32"
+    },
+    {
+      "file": "Vladimir_Mlynarik.yaml",
+      "stem": "Vladimir_Mlynarik",
+      "name": "Vladim\\xEDr Mlyn\\xE1rik",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&amp;user=OYXbmu0AAAAJ",
+      "ids_in_file": [
+        "OYXbmu0AAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Vladimir_Sepelak.yaml",
+      "stem": "Vladimir_Sepelak",
+      "name": "Vladim\\xEDr \\u0160epel\\xE1k",
+      "scholar_field": "https://scholar.google.com/citations?user=gpGngJUAAAAJ&hl=en&oi=sra",
+      "ids_in_file": [
+        "gpGngJUAAAAJ"
+      ],
+      "h": "49"
+    },
+    {
+      "file": "Vladimir_Sladek.yaml",
+      "stem": "Vladimir_Sladek",
+      "name": "Vladim\\xEDr Sl\\xE1dek",
+      "scholar_field": "https://scholar.google.sk/citations?user=Z8DDt0kAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "Z8DDt0kAAAAJ"
+      ],
+      "h": "59"
+    },
+    {
+      "file": "Vladimir_Zelenak.yaml",
+      "stem": "Vladimir_Zelenak",
+      "name": "Vladimir Zele\\u0148\\xE1k",
+      "scholar_field": "https://scholar.google.com.au/citations?user=OfwHRv8AAAAJ",
+      "ids_in_file": [
+        "OfwHRv8AAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Vlasta_Brezova.yaml",
+      "stem": "Vlasta_Brezova",
+      "name": "Vlasta Brezov\\xE1",
+      "scholar_field": "https://scholar.google.co.uk/citations?user=kKciUuQAAAAJ&hl=en&oi=ao",
+      "ids_in_file": [
+        "kKciUuQAAAAJ"
+      ],
+      "h": "52"
+    },
+    {
+      "file": "Zdenka_Durackova.yaml",
+      "stem": "Zdenka_Durackova",
+      "name": "Zdenka \\u010Eura\\u010Dkov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=Dwytj-UAAAAJ",
+      "ids_in_file": [
+        "Dwytj-UAAAAJ"
+      ],
+      "h": "38"
+    },
+    {
+      "file": "Zdenko_Machala.yaml",
+      "stem": "Zdenko_Machala",
+      "name": "Zdenko Machala",
+      "scholar_field": "https://scholar.google.sk/citations?hl=en&user=3xq6b60AAAAJ",
+      "ids_in_file": [
+        "3xq6b60AAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "Zdenko_Spitalsky.yaml",
+      "stem": "Zdenko_Spitalsky",
+      "name": "Zdenko \\u0160pit\\xE1lsky",
+      "scholar_field": "https://scholar.google.sk/citations?user=4ZghBr8AAAAJ&hl=sk",
+      "ids_in_file": [
+        "4ZghBr8AAAAJ"
+      ],
+      "h": "41"
+    },
+    {
+      "file": "Zlatica_Kohajdova.yaml",
+      "stem": "Zlatica_Kohajdova",
+      "name": "Zlatica Kohajdov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?hl=en&user=_9liP44AAAAJ",
+      "ids_in_file": [
+        "_9liP44AAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "Zuzana_Gazova.yaml",
+      "stem": "Zuzana_Gazova",
+      "name": "Zuzana Gažová",
+      "scholar_field": "https://scholar.google.com/citations?hl=sk&user=DyciNCEAAAAJ",
+      "ids_in_file": [
+        "DyciNCEAAAAJ"
+      ],
+      "h": "31"
+    },
+    {
+      "file": "Zuzana_Gdovinova.yaml",
+      "stem": "Zuzana_Gdovinova",
+      "name": "Zuzana Gdovinov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=bHMoRzIAAAAJ",
+      "ids_in_file": [
+        "bHMoRzIAAAAJ"
+      ],
+      "h": "39"
+    },
+    {
+      "file": "Zuzana_Kukelova.yaml",
+      "stem": "Zuzana_Kukelova",
+      "name": "Zuzana K\\xFAkelov\\xE1",
+      "scholar_field": "https://scholar.google.com/citations?user=M4a3VyYAAAAJ&hl=en",
+      "ids_in_file": [
+        "M4a3VyYAAAAJ"
+      ],
+      "h": "35"
+    },
+    {
+      "file": "jozef_masarik.yaml",
+      "stem": "jozef_masarik",
+      "name": "Jozef Masarik",
+      "scholar_field": "https://scholar.google.com/citations?user=DkqU0V4AAAAJ",
+      "ids_in_file": [
+        "DkqU0V4AAAAJ"
+      ],
+      "h": "42"
+    },
+    {
+      "file": "marEK_HATALA.yaml",
+      "stem": "marEK_HATALA",
+      "name": "Marek Hatala",
+      "scholar_field": "https://scholar.google.com/citations?user=ApdHT0UAAAAJ&hl=en",
+      "ids_in_file": [
+        "ApdHT0UAAAAJ"
+      ],
+      "h": "48"
+    },
+    {
+      "file": "pavol_prokop.yaml",
+      "stem": "pavol_prokop",
+      "name": "Pavol Prokop",
+      "scholar_field": "https://scholar.google.sk/citations?user=q6uGy_4AAAAJ&amp;hl=sk",
+      "ids_in_file": [
+        "q6uGy_4AAAAJ"
+      ],
+      "h": "60"
+    },
+    {
+      "file": "peter_celec.yaml",
+      "stem": "peter_celec",
+      "name": "Peter Celec",
+      "scholar_field": "https://scholar.google.sk/citations?user=iPch8vQAAAAJ&amp;hl=en",
+      "ids_in_file": [
+        "iPch8vQAAAAJ"
+      ],
+      "h": "56"
+    }
+  ]
+}

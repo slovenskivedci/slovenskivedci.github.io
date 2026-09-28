@@ -1,0 +1,31 @@
+SHORTLIST — missing eligible / near-eligible (2026-09-24 live Scholar)
+
+CONFIRMED ADD (Peter named):
+- Markéta Derdáková | gQvUITUAAAAJ | live h=32 | sheet NIE stale h=27
+  Born 1974-08-01 Praha; raised Košice; SR citizenship; Ústav zoológie SAV, Bratislava
+  Field: tick-borne diseases / parasitology; position: samostatná vedecká pracovníčka / vedkyňa
+  Portrait: Otvorená akadémia studio (Bystriansky) — crops A–G under crops/
+  Samuely / Čipák / Takáč already on site (OK).
+
+ALSO LIVE h≥30, not in people/ or people_held/:
+- Stanislav Katina | LKG2mjcAAAAJ | live h=30 | sheet NIE stale 27
+  Strong Slovak ties (Comenius UK, SAV math); Professor mathematical statistics @ MUNI Brno
+  Crops already prepared: _research/tuesday_five_2026-09-22/Stanislav_Katina_crop_{A,B,C}_400x224.jpg
+- Peter Minárik | 8UTfnlYAAAAJ | live h=39 | sheet nat=???
+  Charles University magnesium alloys; UNIZA collaboration; Slovak eligibility NEEDS Peter confirm
+- Ján Medveď | jit64CMAAAAJ | live h=33 | sheet nat=??
+  Cisco SDN Distinguished Engineer; Slovak identity UNCLEAR — do not add without confirm
+- Alex Makarevič | xEC3mlMAAAAJ | live h=34 | sheet nat=RU
+  NPPC SR but Russian nationality on sheet — likely NOT "slovenský vedec"
+
+NOT recommended:
+- Stanislav Martinát | ZztBQNwAAAAJ | live h=34 | Czech-born Havířov; deceased 2023 — PhD UK Bratislava only
+- Čestmír Altaner | qVkcTWcAAAAJ | Scholar 404; born 1933
+- Štefan Kaluz | spPBTP4AAAAJ | Scholar 404
+
+Near-miss live h=27–29 (stale sheet h≈27–28 context Peter may have named):
+- Gabriela Czanner 29, Ján Moncoľ 29, Juraj Lapin 29, Marek Mihalkovič 29, Metod Saniga 29, Peter Bajcsy 29
+- Ľubor Ladický 28, Matúš Medo 28, Anton Krištín 29, Juraj Somorovsky 27
+  (Bajcsy/Medo previously verified below threshold)
+
+Focus: Derdáková ready; Katina second if Peter wants another tonight.

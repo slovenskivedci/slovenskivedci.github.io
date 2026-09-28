@@ -1,0 +1,355 @@
+[
+  {
+    "live_h": 30,
+    "citations": 5349,
+    "gs_name": "Marian Fabian",
+    "affiliation": "Matematicky ustav AV CR",
+    "html_len": 154706,
+    "n_cells": 6,
+    "cells": [
+      "5349",
+      "1320",
+      "30",
+      "10",
+      "71",
+      "11"
+    ],
+    "error": null,
+    "name": "Marian Fabián",
+    "scholar_id": "Di2JaCIAAAAJ",
+    "url": "https://scholar.google.com/citations?user=Di2JaCIAAAAJ"
+  },
+  {
+    "live_h": 28,
+    "citations": 7533,
+    "gs_name": "Lubor Ladicky",
+    "affiliation": "Verified email at inf.ethz.ch -",
+    "html_len": 151954,
+    "n_cells": 6,
+    "cells": [
+      "7533",
+      "2434",
+      "28",
+      "20",
+      "38",
+      "24"
+    ],
+    "error": null,
+    "name": "Ľubor Ladický",
+    "scholar_id": "URe1UuQAAAAJ",
+    "url": "https://scholar.google.com/citations?user=URe1UuQAAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 3702,
+    "gs_name": "Peter Bajcsy",
+    "affiliation": "Verified email at nist.gov -",
+    "html_len": 178032,
+    "n_cells": 6,
+    "cells": [
+      "3702",
+      "1428",
+      "29",
+      "19",
+      "73",
+      "27"
+    ],
+    "error": null,
+    "name": "Peter Bajcsy",
+    "scholar_id": "3IU_BuUAAAAJ",
+    "url": "https://scholar.google.com/citations?user=3IU_BuUAAAAJ"
+  },
+  {
+    "live_h": null,
+    "citations": null,
+    "gs_name": null,
+    "affiliation": null,
+    "html_len": 1594,
+    "n_cells": 0,
+    "cells": [],
+    "error": "parse_fail",
+    "name": "Štefan Kaluz",
+    "scholar_id": "spPBTP4AAAAJ",
+    "url": "https://scholar.google.com/citations?user=spPBTP4AAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 3019,
+    "gs_name": "Anton Krištín",
+    "affiliation": "ekológ na Institute of Forest Ecology SAS",
+    "html_len": 153249,
+    "n_cells": 6,
+    "cells": [
+      "3019",
+      "1266",
+      "29",
+      "15",
+      "79",
+      "35"
+    ],
+    "error": null,
+    "name": "Anton Krištín",
+    "scholar_id": "fSYw-ysAAAAJ",
+    "url": "https://scholar.google.com/citations?user=fSYw-ysAAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 2844,
+    "gs_name": "Juraj Lapin",
+    "affiliation": "Senior researcher, Institute of Materials and Machine Mechanics,",
+    "html_len": 153434,
+    "n_cells": 6,
+    "cells": [
+      "2844",
+      "973",
+      "29",
+      "18",
+      "70",
+      "28"
+    ],
+    "error": null,
+    "name": "Juraj Lapin",
+    "scholar_id": "t3HdNmsAAAAJ",
+    "url": "https://scholar.google.com/citations?user=t3HdNmsAAAAJ"
+  },
+  {
+    "live_h": 28,
+    "citations": 7393,
+    "gs_name": "Matus Medo",
+    "affiliation": "Inselspital, Bern",
+    "html_len": 177871,
+    "n_cells": 6,
+    "cells": [
+      "7393",
+      "2873",
+      "28",
+      "21",
+      "58",
+      "39"
+    ],
+    "error": null,
+    "name": "Matúš Medo",
+    "scholar_id": "ZRsx0AEAAAAJ",
+    "url": "https://scholar.google.com/citations?user=ZRsx0AEAAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 2936,
+    "gs_name": "Marek Mihalkovic",
+    "affiliation": "Independent researcher,",
+    "html_len": 186464,
+    "n_cells": 6,
+    "cells": [
+      "2936",
+      "775",
+      "29",
+      "14",
+      "65",
+      "23"
+    ],
+    "error": null,
+    "name": "Marek Mihalkovič",
+    "scholar_id": "DHnVDBIAAAAJ",
+    "url": "https://scholar.google.com/citations?user=DHnVDBIAAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 34582,
+    "gs_name": "Jan Moncol",
+    "affiliation": "Professor of Inorganic chemistry,",
+    "html_len": 154682,
+    "n_cells": 6,
+    "cells": [
+      "34582",
+      "10327",
+      "29",
+      "18",
+      "106",
+      "45"
+    ],
+    "error": null,
+    "name": "Ján Moncoľ",
+    "scholar_id": "YjmLS24AAAAJ",
+    "url": "https://scholar.google.com/citations?user=YjmLS24AAAAJ"
+  },
+  {
+    "live_h": 29,
+    "citations": 2819,
+    "gs_name": "Metod Saniga",
+    "affiliation": "Astronomical Institute, Slovak Academy of Sciences",
+    "html_len": 180082,
+    "n_cells": 6,
+    "cells": [
+      "2819",
+      "645",
+      "29",
+      "15",
+      "73",
+      "24"
+    ],
+    "error": null,
+    "name": "Metod Saniga",
+    "scholar_id": "Mpj-P74AAAAJ",
+    "url": "https://scholar.google.com/citations?user=Mpj-P74AAAAJ"
+  },
+  {
+    "live_h": 30,
+    "citations": 2949,
+    "gs_name": "Tomas Majtan",
+    "affiliation": "Department of Pharmacology,",
+    "html_len": 179415,
+    "n_cells": 6,
+    "cells": [
+      "2949",
+      "1565",
+      "30",
+      "21",
+      "55",
+      "39"
+    ],
+    "error": null,
+    "name": "Tomáš Majtán",
+    "scholar_id": "t2BkJrAAAAAJ",
+    "url": "https://scholar.google.com/citations?user=t2BkJrAAAAAJ"
+  },
+  {
+    "live_h": 30,
+    "citations": 2719,
+    "gs_name": "Lubos Cipak, PhD.",
+    "affiliation": "Scientist; Biomedical Research Center,",
+    "html_len": 154519,
+    "n_cells": 6,
+    "cells": [
+      "2719",
+      "740",
+      "30",
+      "15",
+      "52",
+      "24"
+    ],
+    "error": null,
+    "name": "Ľuboš Čipák",
+    "scholar_id": "b1Y-e0AAAAAJ",
+    "url": "https://scholar.google.com/citations?user=b1Y-e0AAAAAJ"
+  },
+  {
+    "live_h": 30,
+    "citations": 3806,
+    "gs_name": "Tomas Szemes",
+    "affiliation": "Verified email at fns.uniba.sk",
+    "html_len": 153621,
+    "n_cells": 6,
+    "cells": [
+      "3806",
+      "2719",
+      "30",
+      "24",
+      "81",
+      "64"
+    ],
+    "error": null,
+    "name": "Tomáš Szemes",
+    "scholar_id": "DrkNZcIAAAAJ",
+    "url": "https://scholar.google.com/citations?user=DrkNZcIAAAAJ"
+  },
+  {
+    "live_h": 30,
+    "citations": 3144,
+    "gs_name": "Ľubomír Valík",
+    "affiliation": "Faculty of Chemical and Food Technology STU Bratislava",
+    "html_len": 159786,
+    "n_cells": 6,
+    "cells": [
+      "3144",
+      "1454",
+      "30",
+      "20",
+      "76",
+      "50"
+    ],
+    "error": null,
+    "name": "Ľubomír Valík",
+    "scholar_id": "yPq9oHEAAAAJ",
+    "url": "https://scholar.google.com/citations?user=yPq9oHEAAAAJ"
+  },
+  {
+    "live_h": 33,
+    "citations": 5144,
+    "gs_name": "Jan Medved",
+    "affiliation": "Verified email at cisco.com",
+    "html_len": 151238,
+    "n_cells": 6,
+    "cells": [
+      "5144",
+      "1505",
+      "33",
+      "19",
+      "54",
+      "35"
+    ],
+    "error": null,
+    "name": "Ján Medveď",
+    "scholar_id": "jit64CMAAAAJ",
+    "url": "https://scholar.google.com/citations?user=jit64CMAAAAJ"
+  },
+  {
+    "live_h": 33,
+    "citations": 3985,
+    "gs_name": "Elena Marushiakova",
+    "affiliation": "Institute of Ethnology and Social Anthropology of the",
+    "html_len": 156376,
+    "n_cells": 6,
+    "cells": [
+      "3985",
+      "1136",
+      "33",
+      "18",
+      "73",
+      "37"
+    ],
+    "error": null,
+    "name": "Elena Marushiakova",
+    "scholar_id": "X1RRc98AAAAJ",
+    "url": "https://scholar.google.com/citations?user=X1RRc98AAAAJ"
+  },
+  {
+    "live_h": 35,
+    "citations": 3583,
+    "gs_name": "Jan Valíček",
+    "affiliation": "SPU Nitra",
+    "html_len": 152962,
+    "n_cells": 6,
+    "cells": [
+      "3583",
+      "1600",
+      "35",
+      "23",
+      "91",
+      "48"
+    ],
+    "error": null,
+    "name": "Jan Valíček",
+    "scholar_id": "fLkoaLsAAAAJ",
+    "url": "https://scholar.google.com/citations?user=fLkoaLsAAAAJ"
+  },
+  {
+    "live_h": 31,
+    "citations": 4391,
+    "gs_name": "Milan Balaz",
+    "affiliation": "Verified email at yonsei.ac.kr -",
+    "html_len": 154574,
+    "n_cells": 6,
+    "cells": [
+      "4391",
+      "1268",
+      "31",
+      "16",
+      "47",
+      "22"
+    ],
+    "error": null,
+    "name": "Milan Baláž",
+    "scholar_id": "IAjNA9MAAAAJ",
+    "url": "https://scholar.google.com/citations?user=IAjNA9MAAAAJ"
+  }
+]

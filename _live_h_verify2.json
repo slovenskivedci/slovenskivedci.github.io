@@ -1,0 +1,48 @@
+[
+  {
+    "live_h": null,
+    "citations": null,
+    "gs_name": null,
+    "affiliation": null,
+    "cells": [],
+    "error": "parse_fail",
+    "name": "Štefan Kaluz",
+    "scholar_id": "spPBTP4AAAAJ",
+    "status": "not-live"
+  },
+  {
+    "name": "Dušan Drábik",
+    "scholar_id": "nhsfvLEAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Ján Fidrmuc",
+    "scholar_id": "Sc7jlXwAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Michal Kvasnica",
+    "scholar_id": "pE8c4hsAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Peter Samuely",
+    "scholar_id": "q9915jIAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Tomáš Takáč",
+    "scholar_id": "jMfbEOQAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Ľubomír Lichner",
+    "scholar_id": "r0qXcXcAAAAJ",
+    "status": "already_live"
+  },
+  {
+    "name": "Stanislav Komorovský",
+    "scholar_id": "ScPhEXIAAAAJ",
+    "status": "already_live"
+  }
+]

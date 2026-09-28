@@ -1,0 +1,50 @@
+[
+  {
+    "sid": "QqG8VRIAAAAJ",
+    "name": "Juraj Krempasky",
+    "aff": "Physicist, Paul Scherrer Institut",
+    "citations": 5070,
+    "h": 2713,
+    "i10": 30,
+    "nvals": [
+      "5070",
+      "2713",
+      "30",
+      "21",
+      "45"
+    ],
+    "hlen": 175982
+  },
+  {
+    "sid": "hAajWA0AAAAJ",
+    "name": "Eva Majkova",
+    "aff": "Head of the DMN, Institute of Physics SAS",
+    "citations": 3582,
+    "h": 1467,
+    "i10": 30,
+    "nvals": [
+      "3582",
+      "1467",
+      "30",
+      "19",
+      "123"
+    ],
+    "hlen": 155826
+  },
+  {
+    "sid": "jit64CMAAAAJ",
+    "name": "Jan Medved",
+    "aff": "cisco systems",
+    "citations": 5142,
+    "h": 1503,
+    "i10": 33,
+    "nvals": [
+      "5142",
+      "1503",
+      "33",
+      "19",
+      "54"
+    ],
+    "hlen": 151239
+  }
+]
