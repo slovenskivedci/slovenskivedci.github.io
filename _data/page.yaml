@@ -1126,7 +1126,7 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ctvo',area:'biol\xF3gia'},{x:1958,y:34,name:'Jozef D\u017Eurina',id:'Dzurina:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
   lne rovnice',area:'matematika'},{x:1965,y:34,name:'Pavol Hvizdo\u0161',id:'Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz',field:'keramick\xE9\
   \ materi\xE1ly',area:'materi\xE1ly'},{x:1974,y:34,name:'Richard Imrich',id:'Imrich:Slovensko:Slovenska_akademia_vied:Bratislava:docent:biomedicina:muz',field:'biomedic\xED\
-  na',area:'medic\xEDna'},{x:1937,y:34,name:'Ivan Lefkovits',id:'Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:profesor:imunologia:muz',field:'imunol\xF3\
+  na',area:'medic\xEDna'},{x:1937,y:34,name:'Ivan Lefkovits',id:'Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:emeritny_profesor:imunologia:muz',field:'imunol\xF3\
   gia',area:'medic\xEDna'},{x:1979,y:34,name:'Ladislav Mura',id:'Mura:Slovensko:Ekonomicka_univerzita_v_Bratislave:Bratislava:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1951,y:34,name:'Igor Nov\xE1k',id:'Novak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:polymerna_chemia:muz',field:'polym\xE9\
   rna ch\xE9mia',area:'ch\xE9mia'},{x:1960,y:34,name:'Milan Polakovi\u010D',id:'Polakovic:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:chemicke_inzinierstvo:muz',field:'chemick\xE9\
@@ -2739,7 +2739,7 @@ conn_areas:
     city: Basel
     country: "\u0160vaj\u010Diarsko"
     img: Ivan_Lefkovits_size_280px.jpg
-    card_id: Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:profesor:imunologia:muz
+    card_id: Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:emeritny_profesor:imunologia:muz
     areaurl: medicina
     affiliationurl: Universitatsspital_Basel
     cityurl: Basel
