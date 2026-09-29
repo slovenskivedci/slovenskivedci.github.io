@@ -763,7 +763,7 @@ const Tree=(()=>{
 
   let dirty=true;
   function focus(id){ if(!people.has(id)) return; const prev=focusId; if(prev!==id){ expUp.clear(); expDown.clear(); } focusId=id; if(!inited||current!=='tree'){ dirty=true; return; } renderProfile(people.get(id)); render(prev!=null&&prev!==id); }
-  function ensure(){ if(!inited){ inited=true; if(mobile()){ up=1; down=1; } if(focusId==null) focusId=111470; syncSteppers(); dirty=true; } if(dirty){ dirty=false; renderProfile(people.get(focusId)); render(false); } else fit(false); }
+  function ensure(){ if(!inited){ inited=true; if(mobile()){ up=1; down=1; } if(focusId==null) focusId=114295; syncSteppers(); dirty=true; } if(dirty){ dirty=false; renderProfile(people.get(focusId)); render(false); } else fit(false); }
 
   function render(animate){
     const U=buildSide(focusId,'up'), Dn=buildSide(focusId,'down');
