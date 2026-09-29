@@ -155,6 +155,7 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .lineage button:hover{text-decoration:underline}
 .links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:22px;padding-top:14px;border-top:1px solid var(--rule);font-size:13px}
 .links a::after{content:" ↗";color:var(--ink-3)}
+.links a.fix::after{content:none}
 .textbtn{border:1px solid var(--rule);background:var(--surface);border-radius:9px;padding:7px 12px;cursor:pointer;font-weight:500}
 .textbtn:hover{border-color:var(--accent-edge);color:var(--accent-ink)}
 .more-note{font-size:12px;color:var(--ink-3);padding:8px 6px}
@@ -188,7 +189,7 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .fn.sk{fill:var(--accent)}
 .fh{fill:none;stroke:var(--accent-edge);stroke-width:1.2}
 .flbl{font:500 11px var(--font-ui);fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
-.flbl.root{font:italic 500 12.5px var(--font-display);fill:var(--ink-2)}
+.flbl.root{font:600 12.5px var(--font-display);fill:var(--root)}
 .trail{fill:none;stroke:var(--accent);stroke-width:2}
 .hov{fill:var(--surface);stroke:var(--accent);stroke-width:2}
 .cn-tag{font:500 9.5px var(--font-mono);letter-spacing:.09em;text-transform:uppercase;fill:var(--accent-ink)}
@@ -206,7 +207,7 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .legend{position:absolute;right:14px;bottom:14px;display:flex;gap:14px;font:11px var(--font-mono);color:var(--ink-3);background:color-mix(in srgb,var(--surface) 86%,transparent);padding:6px 10px;border-radius:8px}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .chip.imo{border-color:var(--accent-edge);color:var(--accent-ink)}
-.legend .lg-root{font:italic 500 12.5px var(--font-display);color:var(--ink-2)}
+.legend .lg-root{font:600 12.5px var(--font-display);font-style:normal;color:var(--root)}
 .caption{position:absolute;left:16px;top:14px;right:16px;font-size:12.5px;color:var(--ink-3);pointer-events:none;max-width:52ch}
 .tip{position:fixed;z-index:50;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:10px;box-shadow:var(--shadow);padding:9px 12px;max-width:300px;font-size:12.5px;line-height:1.45}
 .tip b{display:block;font:500 15px/1.25 var(--font-display)}
@@ -263,9 +264,9 @@ tbody tr:hover{background:var(--surface-2)}
 
 
 /* categories (alumni flows) */
-:root{--c-same:#1F4FD6;--c-sk:#1E9BC0;--c-cz:#8457CF;--c-ab:#E0752B;--c-unk:#9AA3B5}
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--c-same:#7EA3FF;--c-sk:#4FC3E4;--c-cz:#B592F0;--c-ab:#F29A55;--c-unk:#6E778D} }
-:root[data-theme="dark"]{--c-same:#7EA3FF;--c-sk:#4FC3E4;--c-cz:#B592F0;--c-ab:#F29A55;--c-unk:#6E778D}
+:root{--root:#B3412E;--c-same:#1F4FD6;--c-sk:#1E9BC0;--c-cz:#8457CF;--c-ab:#E0752B;--c-unk:#9AA3B5}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--root:#F08A70;--c-same:#7EA3FF;--c-sk:#4FC3E4;--c-cz:#B592F0;--c-ab:#F29A55;--c-unk:#6E778D} }
+:root[data-theme="dark"]{--root:#F08A70;--c-same:#7EA3FF;--c-sk:#4FC3E4;--c-cz:#B592F0;--c-ab:#F29A55;--c-unk:#6E778D}
 .c-same{--c:var(--c-same)} .c-sk{--c:var(--c-sk)} .c-cz{--c:var(--c-cz)} .c-ab{--c:var(--c-ab)} .c-unk{--c:var(--c-unk)}
 .tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:6px 0 18px}
 .tile{all:unset;box-sizing:border-box;display:block;background:var(--surface);border:1px solid var(--rule);border-top:3px solid var(--c,var(--ink-3));border-radius:12px;padding:12px 14px;cursor:pointer}
@@ -413,7 +414,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px">Mená kurzívou na hárku označujú zakladateľov línií, teda prvých slovenských matematikov v danej vetve, ktorých školiteľ je zo zahraničia alebo nie je známy: bez filtra deviatich najväčších, s filtrom tých, ktorí mu vyhovujú. Filter vyberá línie podľa štúdia zakladateľa (alma mater), krajiny a inštitúcie jeho doktorátu, obdobia a veľkosti línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
+        <p class="fine" style="margin-top:12px">Mená červenou farbou na hárku označujú zakladateľov línií, teda prvých slovenských matematikov v danej vetve, ktorých školiteľ je zo zahraničia alebo nie je známy: bez filtra deviatich najväčších, s filtrom tých, ktorí mu vyhovujú. Filter vyberá línie podľa štúdia zakladateľa (alma mater), krajiny a inštitúcie jeho doktorátu, obdobia a veľkosti línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
       </aside>
       <div class="stage" id="f-stage">
         <svg id="f-svg" role="img" aria-label="Kruhový graf slovenských matematických línií, kružnice označujú desaťročia"></svg>
@@ -561,6 +562,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         <h2>Ako čítať čísla</h2>
         <p>Počty doktorandov a potomkov sú údaje z MGP. Pri vzdialených predkoch, ako sú Gauss či Leibniz, sú nakreslení len tí doktorandi, ktorí ležia na ceste k slovenskému matematikovi. V ich profile je uvedené, koľko ďalších existuje.</p>
         <h2>Opravy a doplnenia</h2>
+        <p>Chýba vám tu niekto, alebo ste našli chybu? Napíšte na <a href="mailto:richtarik+rodokmen@gmail.com?subject=Rodokme%C5%88">richtarik+rodokmen@gmail.com</a>. Pri každej osobe je aj odkaz „Navrhnúť opravu“, ktorý do správy doplní jej meno.</p>
         <p>MGP prijíma opravy a nové záznamy cez svoj <a href="https://www.mathgenealogy.org/submit.php" target="_blank" rel="noopener">formulár</a>. Chýbajúceho školiteľa alebo doktoranda, ktorého tam doplníte, prevezme aj ďalšia aktualizácia tejto stránky.</p>
         <p class="fine" id="a-counts"></p>
       </div>
@@ -862,6 +864,7 @@ function renderProfile(p){
   if(f){ if(f.sch) links.push(`<a href="https://scholar.google.com/citations?user=${encodeURIComponent(f.sch)}" target="_blank" rel="noopener">Google Scholar</a>`); if(f.web) links.push(`<a href="${esc(f.web)}" target="_blank" rel="noopener">Webstránka</a>`); if(f.wiki) links.push(`<a href="${esc(f.wiki)}" target="_blank" rel="noopener">Wikipédia</a>`); links.push(`<a href="https://www.slovenskivedci.sk/" target="_blank" rel="noopener">slovenskivedci.sk</a>`); }
   if(p.src) links.push(`<a href="${esc(p.src)}" target="_blank" rel="noopener">Zdroj údajov</a>`);
   if(!f&&p.links){ const L=p.links; if(L.sch) links.push(`<a href="https://scholar.google.com/citations?user=${encodeURIComponent(L.sch)}" target="_blank" rel="noopener">Google Scholar</a>`); if(L.web) links.push(`<a href="${esc(L.web)}" target="_blank" rel="noopener">Webstránka</a>`); }
+  links.push(`<a class="fix" href="mailto:richtarik+rodokmen@gmail.com?subject=${encodeURIComponent('Rodokmeň: '+p.name+' (#p'+p.id+')')}">Navrhnúť opravu</a>`);
   el.innerHTML=`<div class="chips">${chips.join('')}</div>
     <h1 class="pname">${esc(p.name)}</h1>${role}
     <div class="stats"><div class="stat"><b>${nf.format(nStud)}</b><span>${pl(nStud,'doktorand','doktorandi','doktorandov')}</span></div><div class="stat"><b>${nf.format(nDesc)}</b><span>${pl(nDesc,'potomok','potomkovia','potomkov')}</span></div><div class="stat"><b>${dp.g}</b><span>${pl(dp.g,'generácia','generácie','generácií')} predkov</span></div></div>
@@ -927,7 +930,7 @@ const Forest=(()=>{
     const cand=pool.filter(n=>n.p.feat).sort((a,b)=>b.p.feat.h-a.p.feat.h).map(n=>({n,cls:'flbl',t:n.p.name}));
     const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).sort((a,b)=>b.d-a.d).slice(0,M?40:9).map(o=>({n:o.n,cls:'flbl root',t:o.n.p.name}));
     const placed=[];
-    for(const c of roots.concat(cand)){ const n=c.n; const f=c.cls.includes('root')?'italic 500 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14; const right=Math.cos(n.x-Math.PI/2)>=-0.15; const x=right?n.px+8:n.px-8-w, y=n.py+4; const box=[x-2,y-hgt+2,x+w+2,y+4]; if(placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))) continue; placed.push(box); gT.append('text').attr('class',c.cls).attr('x',right?n.px+8:n.px-8).attr('y',y).attr('text-anchor',right?'start':'end').text(c.t); }
+    for(const c of roots.concat(cand)){ const n=c.n; const f=c.cls.includes('root')?'600 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14; const right=Math.cos(n.x-Math.PI/2)>=-0.15; const x=right?n.px+8:n.px-8-w, y=n.py+4; const box=[x-2,y-hgt+2,x+w+2,y+4]; if(placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))) continue; placed.push(box); gT.append('text').attr('class',c.cls).attr('x',right?n.px+8:n.px-8).attr('y',y).attr('text-anchor',right?'start':'end').text(c.t); }
   }
   function applyFilter(){ if(!nodeSel) return; const M=hot?new Set([hot]):match; const off=n=>!!M&&!M.has(n.root);
     linkSel.classed('off',off); nodeSel.classed('off',off); fhSel.classed('off',off); labels(); }
