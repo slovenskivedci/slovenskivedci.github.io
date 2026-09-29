@@ -12786,6 +12786,33 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Daniela Reh\xE1kov\xE1"
+  last: Rehakova
+  year: 1955
+  sex: "\u017Eena"
+  position: profesorka
+  field: "mikropaleontol\xF3gia"
+  pribeh: "V Bratislave \u010D\xEDta hranicu jury a kriedy z mikroskopick\xFDch kalpionel:\
+    \ mikropaleontol\xF3gia, kde sa mili\xF3ny rokov zmestia pod krycie skl\xED\u010D\
+    ko."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=fiMoOVsAAAAJ
+  last_update: '2026-09-29'
+  links:
+  - - web
+    - https://geopaleo.sk/rehakova-daniela/
+  img: Daniela_Rehakova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: mikropaleontologia
+  area: geovedy
+  areaurl: geovedy
+  positionurl: profesorka
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Jozef \u0160ir\xE1\u0148"
   last: Siran
   year: 1954
@@ -13202,6 +13229,33 @@
   affiliationurl: Paul_Scherrer_Institut
   cityurl: Villigen
   sexurl: muz
+- name: "Anton Kri\u0161t\xEDn"
+  last: Kristin
+  year: 1956
+  sex: "mu\u017E"
+  position: vedec
+  field: "ekol\xF3gia \u017Eivo\u010D\xEDchov"
+  pribeh: "Vo Zvolene nazer\xE1 vt\xE1kom do zob\xE1ka a rovnokr\xEDdlovcom do tr\xE1\
+    vy: ekol\xF3gia \u017Eivo\u010D\xEDchov, kde sa jed\xE1lny l\xEDstok p\xED\u0161\
+    e kobylkami."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Zvolen
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=fSYw-ysAAAAJ
+  last_update: '2026-09-29'
+  links:
+  - - web
+    - https://www.learned.sk/rndr-anton-kristin-drsc/
+  img: Anton_Kristin_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: ekologia_zivocichov
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Zvolen
+  sexurl: muz
 - name: Demeter Krupka
   last: Krupka
   year: 1942
@@ -13312,6 +13366,33 @@
   affiliationurl: University_of_Fribourg
   cityurl: Fribourg
   sexurl: muz
+- name: "Mari\xE1n Mas\xE1r"
+  last: Masar
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "analytick\xE1 ch\xE9mia"
+  pribeh: "V Bratislave preh\xE1\u0148a i\xF3ny kan\xE1likmi na \u010Dipe: analytick\xE1\
+    \ ch\xE9mia, v ktorej sa cel\xE9 elektroforetick\xE9 laborat\xF3rium zmest\xED\
+    \ do dlane."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=ZM-iyocAAAAJ
+  last_update: '2026-09-29'
+  links:
+  - - web
+    - https://analytika.sk/o-nas/pracovnici/marian-masar/
+  img: Marian_Masar_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: analyticka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Jozef Min\xE1r"
   last: Minar
   year: 1962
@@ -13366,6 +13447,33 @@
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
   sexurl: muz
+- name: "Martin P\xE9\u010D"
+  last: Pec
+  year: 1963
+  sex: "mu\u017E"
+  position: profesor
+  field: "lek\xE1rska biol\xF3gia"
+  pribeh: "V Martine sype na experiment\xE1lne n\xE1dory prsn\xEDka tymian, klin\u010D\
+    eky aj \u0161koricu: lek\xE1rska biol\xF3gia, v ktorej sa z koreni\u010Dky st\xE1\
+    va chemoprevencia."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Martin
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=Pcaa08oAAAAJ
+  last_update: '2026-09-29'
+  links:
+  - - web
+    - https://www.jfmed.uniba.sk/pracoviska/vedecko-pedagogicke-pracoviska/teoreticke-ustavy/ustav-lekarskej-biologie/
+  img: Martin_Pec_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: lekarska_biologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Martin
+  sexurl: muz
 - name: "Roman R\xE9h"
   last: Reh
   year: ''
@@ -13419,6 +13527,33 @@
   areaurl: fyzika
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
+  sexurl: muz
+- name: "Pavol \u0160tekauer"
+  last: Stekauer
+  year: 1955
+  sex: "mu\u017E"
+  position: profesor
+  field: lingvistika
+  pribeh: "V Ko\u0161iciach sk\xFAma, ako \u013Eudia vym\xFD\u0161\u013Eaj\xFA a l\xFA\
+    \u0161tia nov\xE9 slov\xE1: onomaziologick\xE1 te\xF3ria anglickej slovotvorby,\
+    \ ktor\xFA dnes \u010D\xEDtaj\xFA aj v k\xF3rej\u010Dine."
+  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=z6qVSvkAAAAJ
+  last_update: '2026-09-29'
+  links:
+  - - web
+    - https://www.upjs.sk/aktualne-spravy/22296/
+  img: Pavol_Stekauer_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: lingvistika
+  area: "spolo\u010Densk\xE9 vedy"
+  areaurl: spolocenske_vedy
+  positionurl: profesor
+  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: muz
 - name: "J\xFAlius \u0160ub\xEDk"
