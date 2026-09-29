@@ -1,25 +1,128 @@
 ---
+layout: null
 permalink: /404.html
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Stránka sa nenašla · Slovenskí vedci</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="robots" content="noindex">
+    <!-- Absolute paths on purpose: GitHub Pages serves this page at any missing URL. -->
+    <link href="/style/webflow.0fd7239fd.css" rel="stylesheet" type="text/css">
+    <link href="/style/tighten.css?v=20260928sexdot" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans:wght@400;700&display=swap">
+    <link href="/images/favicon-krivan-32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/images/favicon-krivan-48.png" rel="icon" type="image/png" sizes="48x48">
+    <link href="/images/favicon-krivan-48.png" rel="apple-touch-icon" sizes="48x48">
+    <style>
+    .main-title { font-size: 30px; line-height: 34px; color: #1f4e79; }
+    @media (max-width: 700px) {
+      .main-title { font-size: 20px; line-height: 1.25; }
+    }
+    .main-subheading { font-size: 13px; line-height: 18px; }
+    .dropdown-menu { padding: 4px 8px; }
+    .menu-text { font-size: 12px; }
+    .header-section { padding-top: 16px; padding-bottom: 0; background: none; background-color: #fff; border-bottom: none; }
+    .content-wrapper { padding-top: 0; }
+    .dropdown-wrapper, .dropdown-wrapper.w-dropdown { display: inline-flex !important; width: auto !important; max-width: 100%; justify-content: flex-start !important; align-items: center; gap: 4px !important; margin: 8px 0 0 0 !important; position: static !important; left: auto !important; float: none !important; flex-wrap: wrap; }
+    .dropdown-menu { float: none; display: inline-block; }
+    .menu-text { float: none; }
+    a { color: #444; text-decoration: none; }
+    a:hover { color: #1f4e79; text-decoration: none; }
+    .dropdown-menu a, .dropdown-menu a:hover { color: #333; text-decoration: none; }
+    .sv-404 { max-width: 640px; margin: 48px auto 80px; text-align: center; color: #888; font-family: "Open Sans", Arial, sans-serif; }
+    .sv-404 h1 { font-size: 22px; line-height: 30px; font-weight: 400; color: #666; margin: 0 0 12px; }
+    .sv-404 p { font-size: 14px; line-height: 22px; color: #888; margin: 0; }
+    .sv-404 a { color: #444; border-bottom: 1px solid #ccc; }
+    .sv-404 a:hover { color: #1f4e79; border-bottom-color: #1f4e79; }
+    @media screen and (max-width: 991px) {
+        .header-section { padding-top: 20px; padding-bottom: 0; }
+        .content-wrapper { padding-top: 4px; padding-bottom: 40px; }
+    }
+    </style>
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEEPMXNRDP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FEEPMXNRDP');
+    </script>
+</head>
 
-<div class="container">
-  <h1>404</h1>
+<body>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<header id="header" class="header-section wf-section">
+  <div class="w-container header-stack">
+<div class="dropdown-wrapper w-dropdown">
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/"><div class="menu-text">Kompaktný zoznam</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/podrobny.html"><div class="menu-text">Podrobný zoznam</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/statistiky.html"><div class="menu-text">Štatistiky</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/suvislosti.html"><div class="menu-text">Súvislosti</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/rodokmen/"><div class="menu-text">Rodokmeň</div></a>
+  </div>
 </div>
+
+    <a href="/" class="site-logo-link" aria-label="Slovenskí vedci — Domov">
+      <img src="/images/krivan-display.png" srcset="/images/krivan-display.png 220w, /images/krivan-display@2x.png 330w" sizes="110px" alt="" class="site-logo" width="220" height="186" decoding="async">
+    </a>
+    <div class="header-title-block">
+    <a href="/" class="main-title">
+		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
+    <p class="scientists-count-line">
+    <b>POČET VEDCOV: {{ site.data.all.size }}</b>
+    </p>
+    </div>
+
+    <div class="header-search-col">
+      <div class="header-search-wrap">
+        <input type="search" id="header-search" class="header-search" placeholder="Hľadať" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+        <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+      </div>
+    <p class="sex-under-search sex-under-search-spacer" aria-hidden="true">&nbsp;</p>
+    </div>
+</div></header>
+
+<div class="content-wrapper">
+	<div class="w-container">
+		<div class="sv-404">
+			<h1>Stránka sa nenašla</h1>
+			<p>Hľadaná stránka neexistuje alebo bola presunutá. Pokračujte na <a href="/">zoznam vedcov a vedkýň</a>.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+(function(){
+  var input = document.getElementById("header-search");
+  var clear = document.getElementById("header-search-clear");
+  if (!input) return;
+  function sync(){ clear.hidden = !(input.value || "").length; }
+  input.addEventListener("input", sync);
+  clear.addEventListener("click", function(){ input.value = ""; sync(); input.focus(); });
+  input.addEventListener("keydown", function(e){
+    if (e.key === "Enter") {
+      e.preventDefault();
+      var v = (input.value || "").trim();
+      window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
