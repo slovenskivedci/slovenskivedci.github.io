@@ -244,6 +244,8 @@ window.SV = window.SV || {};
         if (p === cur || (p === "/" && (cur === "/" || cur === "/index.html"))) {
           return;
         }
+        // Kriváň = všetci: the home page must not pick a random oblasť on this load.
+        if (p === "/" || p === "/index.html") { try { sessionStorage.setItem("svNoRandomOnce", "1"); } catch (err) {} }
         navigate(p, true);
       });
     });

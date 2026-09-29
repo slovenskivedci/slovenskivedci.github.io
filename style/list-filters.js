@@ -307,8 +307,35 @@ window.SV.listFiltersBound = true;
 		  changed = true;
 		}
 		if (changed) filter();
+		else randomAreaOnBareHome(params);
 		scrollToHash();
 	  })();
+
+	  // Bare https://www.slovenskivedci.sk/ (no filter params, no #anchor): show a random
+	  // oblasť so visitors do not always land on the same field. Explicit ?area=/?q=/...
+	  // win; "všetci" still shows everyone; the Kriváň logo sets svNoRandomOnce so it lands
+	  // on všetci. The random pick is NOT written into the URL (SV.randomAreaPending), so
+	  // the bare URL keeps randomizing. Compact list (/) only.
+	  function randomAreaOnBareHome(params){
+		try {
+		  var path = window.location.pathname;
+		  if (path !== "/" && path !== "/index.html") return;
+		  if (window.location.hash && window.location.hash.length > 1) return;
+		  var keys = ["q","country","city","area","field","affiliation","position","sex"];
+		  for (var i = 0; i < keys.length; i++) { if (params.has(keys[i])) return; }
+		  try {
+			if (sessionStorage.getItem("svNoRandomOnce")) { sessionStorage.removeItem("svNoRandomOnce"); return; }
+		  } catch (e) {}
+		  var btns = $(".sv-area-menu .sv-area-btn").filter(function(){ return !!$(this).attr("data-area"); });
+		  if (!btns.length) return;
+		  var pick = $(btns[Math.floor(Math.random() * btns.length)]).attr("data-area");
+		  window.SV.randomAreaPending = pick;
+		  $("#filter-area").html(pick);
+		  $(".toggle-area").removeClass("selected");
+		  $(".toggle-area-" + pick).addClass("selected");
+		  filter();
+		} catch (e) {}
+	  }
 
 
 	  /*

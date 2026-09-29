@@ -73,11 +73,15 @@
     orderMenu();
     var area = currentArea();
     paint(area);
+    // Random oblasť on the bare home URL (list-filters.js) stays out of the URL until
+    // the visitor changes the oblasť; then ?area= is written as usual.
+    if (window.SV.randomAreaPending && area !== window.SV.randomAreaPending) window.SV.randomAreaPending = null;
     // On first paint list-filters has not read ?area= yet: leave the URL alone.
     if (initial === true) return;
     // Deferred: after a soft page swap site-shell.js pushes the new URL only after
     // the filter ran, so write ?area= once the address bar shows the list page.
     setTimeout(function () {
+      if (window.SV.randomAreaPending && currentArea() === window.SV.randomAreaPending) return;
       if (menu() && LIST_PATHS[window.location.pathname]) writeUrl(currentArea());
     }, 0);
   }
