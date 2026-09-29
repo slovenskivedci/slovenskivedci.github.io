@@ -97,6 +97,10 @@ window.SV.listFiltersBound = true;
 		  $(".showed").fadeIn();
 
 		  updateSelectedNumber();
+		  // grouped compact view: recount groups, re-rank, hide empty groups
+		  if (window.SV && typeof SV.afterFilter === "function") {
+			try { SV.afterFilter(); } catch (e) {}
+		  }
 
 		 //return common;
 	 }

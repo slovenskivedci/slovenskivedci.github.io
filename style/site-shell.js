@@ -215,6 +215,9 @@ window.SV = window.SV || {};
   });
 
   function resetListState() {
+    if (window.SV && typeof SV.resetGroup === "function") {
+      try { SV.resetGroup(); } catch (err) {}
+    }
     if (window.SV && typeof SV.resetFilters === "function") {
       try { SV.resetFilters(); } catch (err) {}
     }

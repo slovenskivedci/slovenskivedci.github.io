@@ -151,10 +151,22 @@
     }
     paintButtons(state.col, state.dir);
     applySort(state.col, state.dir);
+    afterSort();
     if (window.SV && typeof SV.updateSelectedNumber === "function") {
       try { SV.updateSelectedNumber(); } catch (err) {}
     }
   }
+
+  // grouped view (compact-group.js) re-splits the freshly sorted list
+  function afterSort() {
+    if (window.SV && typeof SV.afterSort === "function") {
+      try { SV.afterSort(); } catch (err) {}
+    }
+  }
+  // put the list back in the current sort order (or original order if none)
+  window.SV.reapplySort = function () {
+    if (state.col) applySort(state.col, state.dir); else restoreOriginalOrder();
+  };
 
 
   function resetSort() {
@@ -162,6 +174,7 @@
     state.dir = "asc";
     paintButtons(null, "asc");
     restoreOriginalOrder();
+    afterSort();
     if (window.SV && typeof SV.updateSelectedNumber === "function") {
       try { SV.updateSelectedNumber(); } catch (err) {}
     }
