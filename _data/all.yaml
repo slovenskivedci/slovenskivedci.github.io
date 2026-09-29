@@ -459,6 +459,8 @@
   fieldurl: bioinformatika
   area: informatika
   areaurl: informatika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedec
   affiliationurl: Krembil_Research_Institute
   cityurl: Toronto
@@ -557,6 +559,8 @@
   fieldurl: patologia
   area: "medic\xEDna"
   areaurl: medicina
+  area2: "umel\xE1 inteligencia"
+  area2url: umela_inteligencia
   positionurl: docent
   affiliationurl: RWTH_Aachen
   cityurl: Aachen
@@ -594,6 +598,8 @@
   fieldurl: aplikovana_matematika
   area: matematika
   areaurl: matematika
+  area2: "umel\xE1 inteligencia"
+  area2url: umela_inteligencia
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
@@ -629,6 +635,8 @@
   fieldurl: robotika_a_pocitacove_videnie
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
+  area2: "in\u017Einierstvo"
+  area2url: inzinierstvo
   positionurl: profesorka
   affiliationurl: University_of_California__Berkeley
   cityurl: Berkeley
@@ -822,6 +830,8 @@
   fieldurl: optimalizacia
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
+  area2: matematika
+  area2url: matematika
   positionurl: profesor
   affiliationurl: KAUST
   cityurl: Thuwal
@@ -1266,6 +1276,8 @@
   fieldurl: telekomunikacie
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: informatika
+  area2url: informatika
   positionurl: prezident
   affiliationurl: European_Alliance_for_Innovation
   cityurl: Gent
@@ -1525,6 +1537,8 @@
   fieldurl: jadrova_fyzika
   area: fyzika
   areaurl: fyzika
+  area2: geovedy
+  area2url: geovedy
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -1554,6 +1568,8 @@
   fieldurl: fotovoltaika
   area: fyzika
   areaurl: fyzika
+  area2: "in\u017Einierstvo"
+  area2url: inzinierstvo
   positionurl: profesor
   affiliationurl: Delft_University_of_Technology
   cityurl: Delft
@@ -1587,6 +1603,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -1937,6 +1955,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -1974,6 +1994,8 @@
   fieldurl: behavioralna_ekologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "spolo\u010Densk\xE9 vedy"
+  area2url: spolocenske_vedy
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -2075,6 +2097,8 @@
   fieldurl: fyzika_makkych_latok
   area: fyzika
   areaurl: fyzika
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedec
   affiliationurl: Adolphe_Merkle_Institute
   cityurl: Fribourg
@@ -2135,6 +2159,8 @@
   fieldurl: molekularna_biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: vedec
   affiliationurl: Lawrence_Berkeley_National_Laboratory
   cityurl: Berkeley
@@ -2210,6 +2236,8 @@
   fieldurl: nanooptika
   area: fyzika
   areaurl: fyzika
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: profesor
   affiliationurl: University_of_Technology_Sydney
   cityurl: Sydney
@@ -2246,6 +2274,8 @@
   fieldurl: medicinalna_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -2277,6 +2307,8 @@
   fieldurl: lekarska_fyzika
   area: "medic\xEDna"
   areaurl: medicina
+  area2: fyzika
+  area2url: fyzika
   positionurl: docent
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -2465,6 +2497,8 @@
   fieldurl: socialna_psychologia
   area: "spolo\u010Densk\xE9 vedy"
   areaurl: spolocenske_vedy
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesorka
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
@@ -2608,6 +2642,8 @@
   fieldurl: materialova_veda
   area: "materi\xE1ly"
   areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesor
   affiliationurl: Qatar_University
   cityurl: Doha
@@ -2775,6 +2811,8 @@
   fieldurl: nuklearna_magneticka_rezonancia
   area: fyzika
   areaurl: fyzika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: odborny_asistent
   affiliationurl: University_of_Minnesota
   cityurl: Minneapolis
@@ -2852,6 +2890,8 @@
   fieldurl: reproduktivna_biologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: docentka
   affiliationurl: University_of_Toronto
   cityurl: Toronto
@@ -2926,6 +2966,8 @@
   fieldurl: ilove_mineraly
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: geovedy
+  area2url: geovedy
   positionurl: vedkyna
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -2957,6 +2999,8 @@
   fieldurl: materialova_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedkyna
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -3073,6 +3117,8 @@
   fieldurl: biosenzory
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -3283,6 +3329,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: profesorka
   affiliationurl: University_of_Adelaide
   cityurl: Adelaide
@@ -3411,6 +3459,8 @@
   fieldurl: bioanorganicka_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
@@ -3558,6 +3608,8 @@
   fieldurl: grafove_algoritmy
   area: informatika
   areaurl: informatika
+  area2: matematika
+  area2url: matematika
   positionurl: profesor
   affiliationurl: Simon_Fraser_University
   cityurl: Burnaby
@@ -3663,6 +3715,8 @@
   fieldurl: makromolekularna_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -3725,6 +3779,8 @@
   fieldurl: geovizualizacia
   area: informatika
   areaurl: informatika
+  area2: geovedy
+  area2url: geovedy
   positionurl: profesorka
   affiliationurl: North_Carolina_State_University
   cityurl: Raleigh
@@ -3760,6 +3816,8 @@
   fieldurl: magneticka_rezonancia
   area: fyzika
   areaurl: fyzika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedec
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -3869,6 +3927,8 @@
   fieldurl: sociologia
   area: "spolo\u010Densk\xE9 vedy"
   areaurl: spolocenske_vedy
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: docentka
   affiliationurl: University_of_Western_Ontario
   cityurl: London
@@ -3908,6 +3968,8 @@
   fieldurl: anorganicka_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: geovedy
+  area2url: geovedy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -4109,6 +4171,8 @@
   fieldurl: komplexne_a_adaptivne_systemy
   area: informatika
   areaurl: informatika
+  area2: "umel\xE1 inteligencia"
+  area2url: umela_inteligencia
   positionurl: profesor
   affiliationurl: University_of_Birmingham
   cityurl: Birmingham
@@ -4171,6 +4235,8 @@
   fieldurl: nuklearna_magneticka_rezonancia
   area: fyzika
   areaurl: fyzika
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesor
   affiliationurl: University_of_Edinburgh
   cityurl: Edinburgh
@@ -4272,6 +4338,8 @@
   fieldurl: nanotechnologia
   area: "materi\xE1ly"
   areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedec
   affiliationurl: Karlsruhe_Institute_of_Technology
   cityurl: Karlsruhe
@@ -4307,6 +4375,8 @@
   fieldurl: datova_veda
   area: informatika
   areaurl: informatika
+  area2: "spolo\u010Densk\xE9 vedy"
+  area2url: spolocenske_vedy
   positionurl: profesor
   affiliationurl: Simon_Fraser_University
   cityurl: Surrey
@@ -4363,6 +4433,8 @@
   fieldurl: behavioralna_medicina
   area: "medic\xEDna"
   areaurl: medicina
+  area2: "spolo\u010Densk\xE9 vedy"
+  area2url: spolocenske_vedy
   positionurl: vedkyna
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
@@ -4540,6 +4612,8 @@
   fieldurl: biotechnologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -4569,6 +4643,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -4828,6 +4904,8 @@
   fieldurl: automatizacia
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: matematika
+  area2url: matematika
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
@@ -5031,6 +5109,8 @@
   fieldurl: manazment
   area: "ekon\xF3mia a mana\u017Ement"
   areaurl: ekonomia_a_manazment
+  area2: informatika
+  area2url: informatika
   positionurl: profesorka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -5173,6 +5253,8 @@
   fieldurl: nanomaterialy
   area: "materi\xE1ly"
   areaurl: materialy
+  area2: fyzika
+  area2url: fyzika
   positionurl: vedkyna
   affiliationurl: University_of_Vienna
   cityurl: Vieden
@@ -5575,6 +5657,8 @@
   fieldurl: optika_a_fotonika
   area: fyzika
   areaurl: fyzika
+  area2: "in\u017Einierstvo"
+  area2url: inzinierstvo
   positionurl: profesor
   affiliationurl: University_of_Strathclyde
   cityurl: Glasgow
@@ -5728,6 +5812,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: vedec
   affiliationurl: Joint_Institute_for_Nuclear_Research
   cityurl: Dubna
@@ -5796,6 +5882,8 @@
   fieldurl: magneticka_rezonancia
   area: fyzika
   areaurl: fyzika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedec
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -6169,6 +6257,8 @@
   fieldurl: jadrova_fyzika
   area: fyzika
   areaurl: fyzika
+  area2: geovedy
+  area2url: geovedy
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -6233,6 +6323,8 @@
   fieldurl: komplexne_systemy
   area: informatika
   areaurl: informatika
+  area2: fyzika
+  area2url: fyzika
   positionurl: vedec
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
@@ -6268,6 +6360,8 @@
   fieldurl: aplikovana_matematika
   area: matematika
   areaurl: matematika
+  area2: "in\u017Einierstvo"
+  area2url: inzinierstvo
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
@@ -6473,6 +6567,8 @@
   fieldurl: modifikacia_polymerov
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -6508,6 +6604,8 @@
   fieldurl: strojove_ucenie
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: vedec
   affiliationurl: Microsoft_Research
   cityurl: New_York
@@ -6618,6 +6716,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesorka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -6817,6 +6917,8 @@
   fieldurl: optimalizacia
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
+  area2: matematika
+  area2url: matematika
   positionurl: docent
   affiliationurl: MBZUAI
   cityurl: Abu_Dhabi
@@ -6857,6 +6959,8 @@
   fieldurl: paleobiologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: geovedy
+  area2url: geovedy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -7189,6 +7293,8 @@
   fieldurl: bezdrotove_siete_a_systemy
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: informatika
+  area2url: informatika
   positionurl: vedec
   affiliationurl: CSIRO
   cityurl: Brisbane
@@ -7229,6 +7335,8 @@
   fieldurl: klimaticka_zmena
   area: geovedy
   areaurl: geovedy
+  area2: "ekon\xF3mia a mana\u017Ement"
+  area2url: ekonomia_a_manazment
   positionurl: vedec
   affiliationurl: International_Institute_for_Applied_Systems_Analysis
   cityurl: Laxenburg
@@ -7364,6 +7472,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesorka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -7435,6 +7545,8 @@
   fieldurl: medicinske_zobrazovanie
   area: "medic\xEDna"
   areaurl: medicina
+  area2: informatika
+  area2url: informatika
   positionurl: docentka
   affiliationurl: King's_College_London
   cityurl: Londyn
@@ -7715,6 +7827,8 @@
   fieldurl: magneticka_rezonancia
   area: fyzika
   areaurl: fyzika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedec
   affiliationurl: Presovska_univerzita
   cityurl: Presov
@@ -7780,6 +7894,8 @@
   fieldurl: dopravnikova_technika_a_logistika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: "ekon\xF3mia a mana\u017Ement"
+  area2url: ekonomia_a_manazment
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
@@ -7846,6 +7962,8 @@
   fieldurl: toxikologia
   area: "medic\xEDna"
   areaurl: medicina
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesorka
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
@@ -7914,6 +8032,8 @@
   fieldurl: lekarska_chemia_a_biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesorka
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -8086,6 +8206,8 @@
   fieldurl: materialova_veda
   area: "materi\xE1ly"
   areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedec
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -8158,6 +8280,8 @@
   fieldurl: anorganicka_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: profesor
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
@@ -8188,6 +8312,8 @@
   fieldurl: mechanochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
@@ -8493,6 +8619,8 @@
   fieldurl: geologia
   area: geovedy
   areaurl: geovedy
+  area2: fyzika
+  area2url: fyzika
   positionurl: profesor
   affiliationurl: Uppsala_University
   cityurl: Uppsala
@@ -8621,6 +8749,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -8838,6 +8968,8 @@
   fieldurl: bioinformatika
   area: informatika
   areaurl: informatika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedkyna
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
@@ -9072,6 +9204,8 @@
   fieldurl: chemoprevencia_rakoviny_prsnika
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: odborna_asistentka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Martin
@@ -9148,6 +9282,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: profesorka
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -9290,6 +9426,8 @@
   fieldurl: fotovoltaika
   area: fyzika
   areaurl: fyzika
+  area2: geovedy
+  area2url: geovedy
   positionurl: CEO
   affiliationurl: Solargis
   cityurl: Bratislava
@@ -9913,6 +10051,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: docentka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -10187,6 +10327,8 @@
   fieldurl: rurove_dopravniky_a_logistika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: "ekon\xF3mia a mana\u017Ement"
+  area2url: ekonomia_a_manazment
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Presov
@@ -10245,6 +10387,8 @@
   fieldurl: geomechanika_a_aplikovana_mechanika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: geovedy
+  area2url: geovedy
   positionurl: cestny_vedecky_pracovnik
   affiliationurl: University_of_Wollongong
   cityurl: Wollongong
@@ -10276,6 +10420,8 @@
   fieldurl: polymerna_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -10561,6 +10707,8 @@
   fieldurl: fonetika
   area: "spolo\u010Densk\xE9 vedy"
   areaurl: spolocenske_vedy
+  area2: "umel\xE1 inteligencia"
+  area2url: umela_inteligencia
   positionurl: profesor
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
@@ -10708,6 +10856,8 @@
   fieldurl: datova_veda
   area: informatika
   areaurl: informatika
+  area2: "umel\xE1 inteligencia"
+  area2url: umela_inteligencia
   positionurl: docent
   affiliationurl: Zilinska_univerzita
   cityurl: Zilina
@@ -10935,6 +11085,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: docentka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -10964,6 +11116,8 @@
   fieldurl: fyzika_kondenzovanych_latok
   area: fyzika
   areaurl: fyzika
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -11085,6 +11239,8 @@
   fieldurl: epidemiologia_odpadovych_vod
   area: "medic\xEDna"
   areaurl: medicina
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
@@ -11113,6 +11269,8 @@
   fieldurl: epigenomika_rakoviny
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: odborny_asistent
   affiliationurl: The_Wistar_Institute
   cityurl: Filadelfia
@@ -11178,6 +11336,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedkyna
   affiliationurl: Ceska_akademia_vied
   cityurl: Brno
@@ -11205,6 +11365,8 @@
   fieldurl: krajinna_ekologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: geovedy
+  area2url: geovedy
   positionurl: profesor
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
@@ -11304,6 +11466,8 @@
   fieldurl: metabolicke_MR_zobrazovanie
   area: "medic\xEDna"
   areaurl: medicina
+  area2: fyzika
+  area2url: fyzika
   positionurl: docent
   affiliationurl: University_of_Oxford
   cityurl: Oxford
@@ -11351,6 +11515,8 @@
   fieldurl: bioinformatika
   area: informatika
   areaurl: informatika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: docent
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -11394,6 +11560,8 @@
   fieldurl: paleobiologia
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: geovedy
+  area2url: geovedy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -11459,6 +11627,8 @@
   fieldurl: biosenzory
   area: "biol\xF3gia"
   areaurl: biologia
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -11677,6 +11847,8 @@
   fieldurl: elektronika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: informatika
+  area2url: informatika
   positionurl: profesor
   affiliationurl: Universite_Jean_Monnet
   cityurl: Saint-Etienne
@@ -11705,6 +11877,8 @@
   fieldurl: probiotika_a_klinicka_biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: vedkyna
   affiliationurl: Cultech_Ltd.
   cityurl: Port_Talbot
@@ -11741,6 +11915,8 @@
   fieldurl: organicka_technologia
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: emeritny_profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
@@ -11826,6 +12002,8 @@
   fieldurl: kvantitativne_muskuloskeletalne_MRI
   area: "medic\xEDna"
   areaurl: medicina
+  area2: fyzika
+  area2url: fyzika
   positionurl: docent
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -11881,6 +12059,8 @@
   fieldurl: matematicka_fyzika
   area: matematika
   areaurl: matematika
+  area2: fyzika
+  area2url: fyzika
   positionurl: profesor
   affiliationurl: Universite_Aix-Marseille
   cityurl: Marseille
@@ -11976,6 +12156,8 @@
   fieldurl: nanotechnologia
   area: "materi\xE1ly"
   areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: docent
   affiliationurl: University_of_Groningen
   cityurl: Groningen
@@ -12176,6 +12358,8 @@
   fieldurl: rontgenovy_rozptyl
   area: fyzika
   areaurl: fyzika
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: veduci_vedecky_pracovnik
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -12207,6 +12391,8 @@
   fieldurl: pocitacom_podporovany_vyvoj_lieciv
   area: "medic\xEDna"
   areaurl: medicina
+  area2: "ch\xE9mia"
+  area2url: chemia
   positionurl: profesor
   affiliationurl: Universitat_Basel
   cityurl: Basel
@@ -12299,6 +12485,8 @@
   fieldurl: geograficke_informacne_vedy
   area: informatika
   areaurl: informatika
+  area2: geovedy
+  area2url: geovedy
   positionurl: docent
   affiliationurl: The_University_of_Melbourne
   cityurl: Melbourne
@@ -12573,6 +12761,8 @@
   fieldurl: biofyzika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: riaditelka
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
@@ -12766,6 +12956,8 @@
   fieldurl: anorganicka_chemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
   positionurl: emeritny_profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -12911,6 +13103,8 @@
   fieldurl: kvantova_informacia
   area: informatika
   areaurl: informatika
+  area2: fyzika
+  area2url: fyzika
   positionurl: docent
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -12970,6 +13164,8 @@
   fieldurl: biochemia
   area: "ch\xE9mia"
   areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
@@ -12996,6 +13192,8 @@
   fieldurl: ekonometria
   area: "ekon\xF3mia a mana\u017Ement"
   areaurl: ekonomia_a_manazment
+  area2: matematika
+  area2url: matematika
   positionurl: vedec
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
@@ -13052,6 +13250,8 @@
   fieldurl: bioelektrodynamika_a_biofotonika
   area: fyzika
   areaurl: fyzika
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: veduci_timu
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
@@ -13159,6 +13359,8 @@
   fieldurl: matematicka_statistika
   area: matematika
   areaurl: matematika
+  area2: "medic\xEDna"
+  area2url: medicina
   positionurl: docent
   affiliationurl: Masarykova_univerzita
   cityurl: Brno

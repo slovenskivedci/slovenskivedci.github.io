@@ -4,6 +4,7 @@ year: '1957'
 sex: muž
 position: profesor
 field: elektronika
+areas: ["inžinierstvo", "informatika"]
 pribeh: Šum v čipe uňho nie je chyba, ale kľúč — true random generátory a hardvérová
   kryptografia z laboratória Hubert Curien v Saint-Étienne.
 affiliation: Université Jean Monnet

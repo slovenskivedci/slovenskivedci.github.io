@@ -4,6 +4,7 @@ year: ''
 sex: "mu\u017E"
 position: profesor
 field: "optimalizácia"
+areas: ["umelá inteligencia", "matematika"]
 pribeh: "Na KAUSTe učí stochastické gradienty a federované učenie — aby sa veľké dáta dohodli, aj keď sa nikdy nestretnú v jednej miestnosti."
 affiliation: KAUST
 city: Thuwal

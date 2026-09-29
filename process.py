@@ -150,6 +150,8 @@ FIELD_GROUPS = [
 	]),
 ]
 
+AREA_LABELS = set(label for label, _keys in FIELD_GROUPS)
+
 def _has_ai_token(norm):
 	# whole-token 'ai' only; avoid substring false positives
 	padded = ' ' + norm.replace('/', ' ').replace('_', ' ').replace('-', ' ') + ' '
@@ -184,8 +186,19 @@ for y in glob.glob("./people/*.yaml"):
 
 		dic["countryurl"]=repl(dic["country"].replace(" ","_"))
 		dic["fieldurl"]=repl(dic["field"].replace(" ","_"))
-		dic["area"]=field_group(dic.get("field") or "")
+		# Oblasť: optional "areas:" list in the yaml (primary first, max 2) overrides
+		# the keyword mapping of "field". Only the primary area counts in statistics,
+		# the map and Súvislosti; the secondary one is an extra card tag/filter class.
+		_areas = [str(a).strip() for a in (dic.get("areas") or []) if str(a).strip()]
+		_bad = [a for a in _areas if a not in AREA_LABELS]
+		if _bad or len(_areas) > 2:
+			raise SystemExit("Bad 'areas' in %s: %r (allowed: max 2 of %s)" % (y, _areas, sorted(AREA_LABELS)))
+		dic["area"] = _areas[0] if _areas else field_group(dic.get("field") or "")
 		dic["areaurl"]=repl(dic["area"].replace(" ","_"))
+		dic.pop("areas", None)
+		if len(_areas) == 2 and _areas[1] != _areas[0]:
+			dic["area2"] = _areas[1]
+			dic["area2url"] = repl(_areas[1].replace(" ","_"))
 		dic["positionurl"]=repl(dic["position"].replace(" ","_"))
 		dic["affiliationurl"]=repl(dic["affiliation"].replace(" ","_"))
 		dic["cityurl"]=repl(dic["city"].replace(" ","_"))
@@ -221,7 +234,7 @@ for y in glob.glob("./people/*.yaml"):
 		stats["countries"][dic["country"]] += 1
 		stats["affiliation"][dic["affiliation"]] += 1
 		field = dic.get("field") or ""
-		group = field_group(field)
+		group = dic["area"]  # primary area only
 		if group not in stats["fields"]:
 			stats["fields"][group] = []
 		stats["fields"][group].append(int(dic['hindex']))

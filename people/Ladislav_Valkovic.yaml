@@ -4,6 +4,7 @@ year: 1986
 sex: "muž"
 position: docent
 field: "metabolické MR zobrazovanie"
+areas: ["medicína", "fyzika"]
 pribeh: "V Oxforde zobrazuje metabolizmus svalu magnetickou rezonanciou: energia bunky uňho vidno, nielen tušiť z laktátu."
 affiliation: "University of Oxford"
 city: Oxford

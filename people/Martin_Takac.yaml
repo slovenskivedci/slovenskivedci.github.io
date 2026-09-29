@@ -4,6 +4,7 @@ year: '1986'
 sex: "mu\u017E"
 position: docent
 field: "optimalizácia"
+areas: ["umelá inteligencia", "matematika"]
 pribeh: "V Abú Zabí zrýchľuje učenie modelov: optimalizácia, ktorá gradientu meria krok aj trpezlivosť."
 affiliation: MBZUAI
 city: Abu Dhabi

@@ -1260,8 +1260,8 @@ header.header-section {
       13.5rem
       7rem
       12.5rem
-      7.5rem
-      minmax(11rem, 1.5fr)
+      13.5rem
+      minmax(9rem, 1.5fr)
       8rem
       7rem !important;
     column-gap: 10px !important;
@@ -1352,8 +1352,8 @@ body.page-zoznam .compact-sort-row {
       13.5rem
       7rem
       12.5rem
-      7.5rem
-      minmax(11rem, 1.5fr)
+      13.5rem
+      minmax(9rem, 1.5fr)
       8rem
       7rem !important;
     column-gap: 10px !important;
@@ -1556,4 +1556,22 @@ button.filter-link:focus-visible {
 .sv-area-btn:focus-visible {
   outline: 1px dotted #888;
   outline-offset: 1px;
+}
+
+/* === multi-area 2026-09-29: second oblasť tag (primary / secondary) === */
+.area-sep { color: #bbb; }
+@media (min-width: 901px) {
+  /* Compact list: a two-area cell may wrap onto a second line instead of
+     truncating the secondary tag; each tag itself never breaks. */
+  body.page-zoznam .compact-col-area.has-area2 {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+  body.page-zoznam .compact-col-area.has-area2 button.filter-link {
+    display: inline !important;
+    width: auto !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+  }
 }

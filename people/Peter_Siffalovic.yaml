@@ -4,6 +4,7 @@ year: 1975
 sex: "muž"
 position: vedúci vedecký pracovník
 field: "röntgenový rozptyl"
+areas: ["fyzika", "materiály"]
 pribeh: "Na Fyzikálnom ústave SAV svieti na nanoštruktúry röntgenom: vrstvy priznajú poriadok aj neporiadok."
 affiliation: "Slovenská akadémia vied"
 city: Bratislava
