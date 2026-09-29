@@ -32,8 +32,9 @@ window.SV.listFiltersBound = true;
 	  }
 
 	  function updateSelectedNumber(){
-		  var numItems = $('.showed').length;
 		  var total = (window.SV && SV.totalScholars) ? SV.totalScholars : $(".entry").length;
+		  // Pages without a list (Štatistiky, Súvislosti) have no .entry: show the full count, not 0.
+		  var numItems = $(".entry").length ? $('.showed').length : total;
 		  $("#scientists-count").html("POČET VEDCOV: " + numItems + " /  " + total + " ");
       }
 

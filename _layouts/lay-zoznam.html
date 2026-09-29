@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <script src="/style/jquery-3.6.0.min.js"></script>
     <script src="/style/chart.min.js"></script>
     <script>window.SV=window.SV||{};window.SV.totalScholars={{ site.data.all.size }};</script>
-    <script src="/style/list-filters.js?v=20260918krivan"></script>
+    <script src="/style/list-filters.js?v=20260929count"></script>
     <script src="/style/compact-sort.js?v=20260918krivan"></script>
     <script src="/style/site-shell.js?v=20260918fila"></script>
 
@@ -43,11 +43,26 @@ width: 100%
     }
 
     </style>
-    <title>Slovenskí vedci a vedkyne s vysokým Hirschovým indexom </title>
+    <title>Slovenskí vedci</title>
+  <meta name="description" content="Zoznam slovenských vedcov a vedkýň s h-indexom 30 a viac v Google Scholar: pozícia, odbor, pracovisko, mesto a krajina pôsobenia.">
+  <link rel="canonical" href="https://www.slovenskivedci.sk{{ page.url | replace: '/index.html', '/' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Slovenskí vedci">
+  <meta property="og:locale" content="sk_SK">
+  <meta property="og:title" content="Slovenskí vedci">
+  <meta property="og:description" content="Zoznam slovenských vedcov a vedkýň s h-indexom 30 a viac v Google Scholar: pozícia, odbor, pracovisko, mesto a krajina pôsobenia.">
+  <meta property="og:url" content="https://www.slovenskivedci.sk{{ page.url | replace: '/index.html', '/' }}">
+  <meta property="og:image" content="https://www.slovenskivedci.sk/images/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Slovenskí vedci">
+  <meta name="twitter:description" content="Zoznam slovenských vedcov a vedkýň s h-indexom 30 a viac v Google Scholar: pozícia, odbor, pracovisko, mesto a krajina pôsobenia.">
+  <meta name="twitter:image" content="https://www.slovenskivedci.sk/images/og.png">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="./style/webflow.0fd7239fd.css" rel="stylesheet" type="text/css">
-    <link href="./style/tighten.css?v=20260928sexdot" rel="stylesheet" type="text/css">
+    <link href="./style/tighten.css?v=20260929a11y" rel="stylesheet" type="text/css">
     <style>
     .main-subheading {
         font-size: 13px;
@@ -169,11 +184,12 @@ width: 100%
             <img src="/images/krivan-display.png" srcset="/images/krivan-display.png 220w, /images/krivan-display@2x.png 330w" sizes="110px" alt="" class="site-logo" width="220" height="186" decoding="async" fetchpriority="high">
     </a>
     <div class="header-title-block">
-    <a aria-current="page" class="main-title w--current">
-		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
+    <h1 class="sv-site-title"><a aria-current="page" class="main-title w--current">
+		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a></h1>
     <p class="scientists-count-line">
     <b><span id="scientists-count">POČET VEDCOV: {{ site.data.all.size }} / {{ site.data.all.size }}</span></b>
     </p>
+    <p class="scientists-count-line scientists-hindex-line">h-index ≥ 30 v Google Scholar · aktualizované {{ site.data.page.h_updated }}</p>
     </div>
 
     <div class="header-search-col">

@@ -681,6 +681,41 @@ print("conn areas", len(stats["conn_areas"]),
 	"cities", len(stats["conn_cities"]),
 	"countries", len(stats["conn_countries"]))
 
+# Date of the latest weekly (Sunday) h-index refresh, shown in the header as
+# "h-index >= 30 v Google Scholar · aktualizované D. M. YYYY".
+# Two sources, take the later one:
+#  1) author date of the latest commit "cron: update H-values" (reliable history, but the
+#     Sunday routine commits AFTER running process.py, so on that run it is a week old);
+#  2) the newest people/*.yaml last_update that falls on a Sunday (the h-index updater
+#     stamps last_update=today on every refreshed person, so this is already today's
+#     date while the Sunday routine runs; weekday edits are ignored).
+import datetime as _dt
+import subprocess as _sp
+def _h_updated_date():
+	cands = []
+	try:
+		out = _sp.run(["git", "log", "-1", "--format=%ad", "--date=short",
+			"--grep=^cron: update H-values"], capture_output=True, text=True, timeout=20).stdout.strip()
+		if out:
+			cands.append(_dt.date.fromisoformat(out))
+	except Exception as _e:
+		print("h_updated: git log failed", _e)
+	for _y in glob.glob("./people/*.yaml"):
+		try:
+			with open(_y) as _f:
+				_lu = str((yaml.safe_load(_f) or {}).get("last_update") or "")
+			_d = _dt.date.fromisoformat(_lu[:10])
+			if _d.weekday() == 6:
+				cands.append(_d)
+		except Exception:
+			pass
+	return max(cands) if cands else None
+_hu = _h_updated_date()
+if _hu:
+	stats["h_updated"] = "%d. %d. %d" % (_hu.day, _hu.month, _hu.year)
+	stats["h_updated_iso"] = _hu.isoformat()
+print("h_updated", stats.get("h_updated"))
+
 with open(r'_data/page.yaml', 'w') as file:
 	documents = yaml.dump(stats, file)
  
