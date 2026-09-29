@@ -559,8 +559,6 @@
   fieldurl: patologia
   area: "medic\xEDna"
   areaurl: medicina
-  area2: "umel\xE1 inteligencia"
-  area2url: umela_inteligencia
   positionurl: docent
   affiliationurl: RWTH_Aachen
   cityurl: Aachen
@@ -598,8 +596,6 @@
   fieldurl: aplikovana_matematika
   area: matematika
   areaurl: matematika
-  area2: "umel\xE1 inteligencia"
-  area2url: umela_inteligencia
   positionurl: profesor
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
