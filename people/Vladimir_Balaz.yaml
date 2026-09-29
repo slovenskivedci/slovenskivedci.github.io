@@ -11,11 +11,11 @@ country: Slovensko
 hindex: 32
 scholar: https://scholar.google.com/citations?hl=en&user=bNAGKuoAAAAJ
 links:
-  "životopis": https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=815&action=cv
+  životopis: https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=815&action=cv
   web: https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=815&action=cv
   ResearchGate: https://www.prog.sav.sk/balaz-vladimir/
   orcid: https://orcid.org/0000-0002-8132-3789
-  pravda: https://spravy.pravda.sk/domace/clanok/315619-balaz-vszp-je-v-neriesitelnej-situacii/
+  pravda.sk: https://spravy.pravda.sk/domace/clanok/315619-balaz-vszp-je-v-neriesitelnej-situacii/
 img: Vladimir_Balaz_size_280px.jpg
 last_update: '2026-08-25'
 update_status: UPDATED

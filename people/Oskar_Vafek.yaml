@@ -3,7 +3,7 @@ last: Vafek
 year: ''
 sex: "mu\u017E"
 position: profesor
-field: "fyzika tuh\xFDch l\xE1tok"
+field: fyzika pevných látok
 pribeh: "Na Floride počíta, ako sa elektróny v rovinných mriežkach dohodnú na kvantovom tanci."
 affiliation: Florida State University
 city: Tallahassee
@@ -14,8 +14,8 @@ last_update: '2026-08-25'
 links:
   LinkedIn: https://www.linkedin.com/in/oskar-vafek-14a39b8/
   orcid: https://orcid.org/0000-0001-7561-9287
-  web1: https://physics.fsu.edu/person/oskar-vafek
-  web2: https://fs.magnet.fsu.edu/~vafek/
-  "\u017Eivotopis": https://fs.magnet.fsu.edu/~vafek/cv2015 Apr.pdf
+  Florida State University: https://physics.fsu.edu/person/oskar-vafek
+  MagLab: https://fs.magnet.fsu.edu/~vafek/
+  životopis: https://fs.magnet.fsu.edu/~vafek/cv2015 Apr.pdf
 img: Oskar_Vafek_size_280px.jpg
 update_status: UPDATED

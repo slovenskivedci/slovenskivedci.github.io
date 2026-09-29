@@ -4,7 +4,7 @@ year: 1959-2023
 sex: "mu\u017E"
 position: profesor
 field: "diferenciálne rovnice"
-pribeh: "Rovnice s nelineárnou difúziou: riešenia môžu explodovať v konečnom čase - a on im vtedy dáva matematické zrkadlo."
+pribeh: 'Rovnice s nelineárnou difúziou: riešenia môžu explodovať v konečnom čase - a on im vtedy dával matematické zrkadlo.'
 affiliation: "Univerzita Komensk\xE9ho"
 city: Bratislava
 country: Slovensko
@@ -17,6 +17,6 @@ links:
   dblp: https://dblp.org/pid/85/3264.html
   orcid: https://orcid.org/0000-0001-6623-2304
   web: http://www.iam.fmph.uniba.sk/institute/fila/
-  DennikN: https://dennikn.sk/3339263/za-marekom-filom/
+  Denník N: https://dennikn.sk/3339263/za-marekom-filom/
 img: Marek_Fila_size_280px_v2.jpg
 update_status: UPDATED

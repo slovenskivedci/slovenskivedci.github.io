@@ -3,7 +3,7 @@ last: "Hra\u0161ka"
 year: null
 sex: "mu\u017E"
 position: profesor
-field: "kardiol\xF3gia"
+field: detská kardiochirurgia
 pribeh: "V Milwaukee operuje srdcia detí: kardiológia, ktorá najmenším pumpám dáva najväčšiu šancu na dlhú pieseň."
 affiliation: Medical College of Wisconsin
 city: Milwaukee
@@ -15,7 +15,7 @@ links:
   web: https://www.mcw.edu/departments/surgery/divisions/congenital-heart-surgery/people/viktor-hraska-md-phd
   youtube: https://www.youtube.com/watch?v=WRQcRqAqQQw
   ctsnet: https://www.ctsnet.org/article/featured-profile-and-interview-viktor-hraska-md
-  web2: https://www.nusch.sk/sk/o-nas/predstavitelia/predstavenstvo
-  "\u017Eivotopis": files/cv_Viktor_Hraska.pdf
+  NÚSCH: https://www.nusch.sk/sk/o-nas/predstavitelia/predstavenstvo
+  životopis: files/cv_Viktor_Hraska.pdf
 img: Viktor_Hraska_size_280px.jpg
 update_status: UPDATED

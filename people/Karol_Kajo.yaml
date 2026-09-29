@@ -4,7 +4,7 @@ year: 1962-2026
 sex: "muž"
 position: docent
 field: "patológia"
-pribeh: "Gynekologická patológia: tkanivo uňho hovorí skôr, než klinika stihne hádať."
+pribeh: 'Gynekologická patológia: tkanivo uňho hovorilo skôr, než klinika stihla hádať.'
 affiliation: "Onkologický ústav sv. Alžbety"
 city: Bratislava
 country: Slovensko
@@ -12,9 +12,9 @@ hindex: 37
 scholar: https://scholar.google.com/citations?hl=sk&user=0UbdxRMAAAAJ
 last_update: '2026-09-20'
 links:
- in memoriam: https://www.ousa.sk/navzdy-nas-opustil/
- parte: https://spominam.sk/parte/karol-kajo
- pluska: https://www1.pluska.sk/regiony/slovensko-prislo-o-vyznamnych-odbornikov-lekari-zomreli-len-par-hodin-po-sebe
- orcid: https://orcid.org/0000-0002-8178-1093
+  in memoriam: https://www.ousa.sk/navzdy-nas-opustil/
+  parte: https://spominam.sk/parte/karol-kajo
+  pluska.sk: https://www1.pluska.sk/regiony/slovensko-prislo-o-vyznamnych-odbornikov-lekari-zomreli-len-par-hodin-po-sebe
+  orcid: https://orcid.org/0000-0002-8178-1093
 img: Karol_Kajo_size_280px.jpg
 update_status: UPDATED

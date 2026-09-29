@@ -314,13 +314,13 @@ Brisbane | Austrália:
   lon: 153.0235009
   display: Brisbane, Queensland, Australia
   query: Brisbane
-Britská Kolumbia | Kanada:
-  city: Britská Kolumbia
+Vancouver | Kanada:
+  city: Vancouver
   country: Kanada
-  lat: 55.001251
-  lon: -125.002441
-  display: British Columbia, Canada
-  query: Britská Kolumbia
+  lat: 49.2608724
+  lon: -123.113952
+  display: Vancouver, British Columbia, Canada
+  query: Vancouver
 Burnaby | Kanada:
   city: Burnaby
   country: Kanada
@@ -377,8 +377,8 @@ Dubna | Ruská federácia:
   lon: 37.1623696
   display: Dubna, Moscow Oblast, Central Federal District, 141980, Russia
   query: Dubna
-Edinburg | Veľká Británia:
-  city: Edinburg
+Edinburgh | Veľká Británia:
+  city: Edinburgh
   country: Veľká Británia
   lat: 55.9533456
   lon: -3.1883749
@@ -525,14 +525,13 @@ Mannheim | Nemecko:
   lon: 8.4673098
   display: Mannheim, Baden-Württemberg, Germany
   query: Mannheim
-Manoa | USA:
-  city: Manoa
+Honolulu | USA:
+  city: Honolulu
   country: USA
-  lat: 21.3093848
-  lon: -157.8118169
-  display: Mānoa, East Honolulu, Honolulu, Honolulu County, Hawaii, 96848, United
-    States
-  query: Manoa Hawaii
+  lat: 21.304547
+  lon: -157.855676
+  display: Honolulu, Honolulu County, Hawaii, United States
+  query: Honolulu
 Marseille | Francúzsko:
   city: Marseille
   country: Francúzsko
@@ -717,8 +716,8 @@ Turku | Fínsko:
   lon: 22.2669991
   display: Turku, Turku sub-region, Southwest Finland, Mainland Finland, Finland
   query: Turku
-Twin Cities | USA:
-  city: Twin Cities
+Minneapolis | USA:
+  city: Minneapolis
   country: USA
   lat: 44.9772995
   lon: -93.2654692
