@@ -3918,8 +3918,9 @@
   sex: "mu\u017E"
   position: profesor
   field: neuroveda
-  pribeh: "Kvantov\xE9 optick\xE9 siete: fot\xF3ny u\u0148ho nes\xFA spr\xE1vy, ktor\xE9\
-    \ sa nedaj\xFA potichu odpo\u010D\xFAva\u0165."
+  pribeh: "V Hannoveri sk\xFAma, ako sa mozog u\u010D\xED po\u010Du\u0165 cez kochle\xE1\
+    rny implant\xE1t: sluchov\xE1 k\xF4ra m\xE1 cestovn\xFD poriadok a kto zme\u0161\
+    k\xE1 spoj, dobieha ho pomal\u0161ie."
   affiliation: Hannover Medical School
   city: Hannover
   country: Nemecko
@@ -4617,8 +4618,9 @@
   sex: "\u017Eena"
   position: profesorka
   field: "ran\xE9 detstvo a v\xFDvoj det\xED"
-  pribeh: "Kognit\xEDvnu biol\xF3giu zvierat \u010D\xEDta ako dial\xF3g: myse\u013E\
-    \ nie je v\xFDsada kancel\xE1rie."
+  pribeh: "V Stavangeri sk\xFAma, ako mal\xE9 deti \u010D\xEDtaj\xFA na papieri aj\
+    \ na tablete: dobr\xE1 detsk\xE1 aplik\xE1cia m\xE1 by\u0165 knihou, nie v\xFD\
+    hern\xFDm automatom."
   affiliation: University of Stavanger
   city: Stavanger
   country: "N\xF3rsko"
@@ -6693,7 +6695,7 @@
   year: null
   sex: "mu\u017E"
   position: vedec
-  field: genetika
+  field: "genetika rastl\xEDn"
   pribeh: "Na americkom ministerstve po\u013Enohospod\xE1rstva \u0161\u013Eacht\xED\
     \ \u0161al\xE1t genetikou, aby odolnos\u0165 nebola folkl\xF3r, ale alela."
   affiliation: U.S. Department of Agriculture
@@ -6716,9 +6718,9 @@
   img: Ivan_Simko_size_280px.jpg
   update_status: UPDATED
   countryurl: USA
-  fieldurl: genetika
-  area: "medic\xEDna"
-  areaurl: medicina
+  fieldurl: genetika_rastlin
+  area: "biol\xF3gia"
+  areaurl: biologia
   positionurl: vedec
   affiliationurl: U.S._Department_of_Agriculture
   cityurl: Salinas
@@ -7752,7 +7754,7 @@
   year: null
   sex: "mu\u017E"
   position: profesor
-  field: logistika
+  field: "dopravn\xEDkov\xE1 technika a logistika"
   pribeh: "R\xFArov\xE9 dopravn\xEDky a logistika v Ko\u0161iciach: sypk\xFD materi\xE1\
     l u\u0148ho cestuje pod\u013Ea rovn\xEDc, nie pod\u013Ea n\xE1hody."
   affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
@@ -7775,9 +7777,9 @@
   img: Gabriel_Fedorko_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: logistika
-  area: "ekon\xF3mia a mana\u017Ement"
-  areaurl: ekonomia_a_manazment
+  fieldurl: dopravnikova_technika_a_logistika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
@@ -9723,7 +9725,7 @@
   year: 1967
   sex: "mu\u017E"
   position: profesor
-  field: "bioch\xE9mia"
+  field: "molekul\xE1rna biol\xF3gia"
   pribeh: "Telom\xE9ry a kvasinky: genetika, ktor\xE1 meria, ako chromoz\xF3m kon\u010D\
     \xED \u2014 a pre\u010Do to bunku zauj\xEDma."
   affiliation: "Univerzita Komensk\xE9ho"
@@ -9750,9 +9752,9 @@
   img: Jozef_Nosek_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: biochemia
-  area: "ch\xE9mia"
-  areaurl: chemia
+  fieldurl: molekularna_biologia
+  area: "biol\xF3gia"
+  areaurl: biologia
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
@@ -10166,7 +10168,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "logistika / r\xFArov\xE9 dopravn\xEDky"
+  field: "r\xFArov\xE9 dopravn\xEDky a logistika"
   pribeh: "R\xFArov\xE9 dopravn\xEDky v Pre\u0161ove: sypk\xFD materi\xE1l cestuje\
     \ pod\u013Ea rovn\xEDc, nie pod\u013Ea n\xE1hody na svahu."
   affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
@@ -10182,9 +10184,9 @@
     - https://kppvt.fvt.tuke.sk/elementor-popup/prof-ing-vieroslav-molnar-phd/
   img: Vieroslav_Molnar_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: logistika_/_rurove_dopravniky
-  area: "ekon\xF3mia a mana\u017Ement"
-  areaurl: ekonomia_a_manazment
+  fieldurl: rurove_dopravniky_a_logistika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Presov
@@ -10838,8 +10840,8 @@
   sex: "mu\u017E"
   position: docent
   field: "r\xE1diol\xF3gia"
-  pribeh: "Environment\xE1lna mineral\xF3gia: vie, ktor\xE9 odpady sa tv\xE1ria nevinne,\
-    \ k\xFDm ich voda nepre\u010D\xEDta."
+  pribeh: "R\xE1diol\xF3gia v Turku: magnetick\xE1 rezonancia u\u0148ho vyspoved\xE1\
+    \ prostatu sk\xF4r, ne\u017E mus\xED prehovori\u0165 bioptick\xE1 ihla."
   affiliation: University of Turku
   city: Turku
   country: "F\xEDnsko"
@@ -11092,7 +11094,7 @@
   year: 1976
   sex: "mu\u017E"
   position: "odborn\xFD asistent"
-  field: bioinformatika
+  field: "epigen\xF3mika rakoviny"
   pribeh: "Vo Wistare \u010D\xEDta rakovinov\xFD gen\xF3m tak, aby bioinformatika\
     \ prestala by\u0165 pr\xEDlohou a stala sa mapou lie\u010Dby."
   affiliation: The Wistar Institute
@@ -11108,9 +11110,9 @@
     - https://www.wistar.org/our-scientists/jozef-madzo/
   img: Jozef_Madzo_size_280px.jpg
   countryurl: USA
-  fieldurl: bioinformatika
-  area: informatika
-  areaurl: informatika
+  fieldurl: epigenomika_rakoviny
+  area: "biol\xF3gia"
+  areaurl: biologia
   positionurl: odborny_asistent
   affiliationurl: The_Wistar_Institute
   cityurl: Filadelfia

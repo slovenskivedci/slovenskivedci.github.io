@@ -62,6 +62,7 @@ FIELD_GROUPS = [
 	('biológia', [
 		'fyziologia rastlin', 'fyziologia zivocich', 'fyziologia buniek',
 		'neurobiologia rastlin', 'genetika drevin', 'genetika a molekular',
+		'genetika rastlin',  # plant genetics is biology, not medical 'genetik'
 	]),
 	('fyzika', ['termodynam', 'fyzika polymer']),
 	('medicína', [
@@ -104,6 +105,7 @@ FIELD_GROUPS = [
 		'kolajove vozidl', 'aplikovana mechanik', 'telekomunik',
 		'potravinarska technolog', 'organicka technolog',
 		'automatizac', 'kybernet', 'bezdrotove siete',
+		'dopravnik',  # conveyor engineering; must beat 'logistik' (ekonómia)
 	]),
 	('fyzika', ['fyzika polymer', 'termodynam']),
 	('chémia', [
