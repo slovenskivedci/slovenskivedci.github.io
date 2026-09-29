@@ -157,7 +157,7 @@
     }
   }
 
-  // grouped view (compact-group.js) re-splits the freshly sorted list
+  // optional hook for other list scripts (currently unused)
   function afterSort() {
     if (window.SV && typeof SV.afterSort === "function") {
       try { SV.afterSort(); } catch (err) {}

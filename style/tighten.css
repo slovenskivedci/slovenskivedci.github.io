@@ -1511,91 +1511,49 @@ button.filter-link:focus-visible {
 }
 
 
-/* === compact list: group by oblasť 2026-09-29 === */
-.sv-group-toggle {
+/* === compact list: oblasť menu (všetci + oblasti) 2026-09-29 === */
+.sv-area-menu {
+  margin: 6px auto 0;
+  padding: 0;
+  max-width: 900px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #888;
+  text-align: center;
+  text-wrap: balance;
+}
+.sv-area-menu .sex-dot {
+  color: #bbb;
+  margin: 0 2px;
+}
+.sv-area-btn {
   -webkit-appearance: none;
   appearance: none;
   font: inherit;
   font-size: 13px;
-  line-height: inherit;
+  line-height: 18px;
   color: #888;
   background: transparent;
   border: none;
   border-radius: 3px;
-  padding: 1px 2px;
+  padding: 1px 3px;
   margin: 0;
   cursor: pointer;
+  white-space: nowrap;
   vertical-align: baseline;
 }
-.sv-group-toggle.selected {
+.sv-area-btn.selected {
   color: #444;
   background: #FFF4B8;
 }
 @media (hover: hover) and (pointer: fine) {
-  .sv-group-toggle:hover {
+  .sv-area-btn:hover {
     color: #444;
     background: #FFF4B8;
   }
 }
-.sv-group-toggle:focus { outline: none; }
-.sv-group-toggle:focus-visible {
+.sv-area-btn:focus { outline: none; }
+.sv-area-btn:focus-visible {
   outline: 1px dotted #888;
   outline-offset: 1px;
-}
-.sv-grank { display: none; }
-h2.sv-group-head {
-  font-family: inherit;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #1f4e79;
-  text-align: left;
-  margin: 18px 0 4px;
-  padding: 0 0 4px;
-  border-bottom: 1px solid #eee;
-}
-h2.sv-group-head[hidden] { display: none; }
-.sv-group-count {
-  font-weight: 400;
-  font-size: 13px;
-  color: #888;
-  margin-left: 4px;
-}
-body.sv-grouped .sv-grank {
-  display: block;
-  color: #888;
-  font-size: 12px;
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-@media (min-width: 901px) {
-  /* extra narrow rank column in front; sort row keeps its columns aligned */
-  body.page-zoznam.sv-grouped .compact-row,
-  body.page-zoznam.sv-grouped .compact-sort-row {
-    grid-template-columns:
-      2rem
-      2.6rem
-      13.5rem
-      7rem
-      12.5rem
-      7.5rem
-      minmax(11rem, 1.5fr)
-      8rem
-      7rem !important;
-  }
-  body.page-zoznam.sv-grouped .compact-sort-btn[data-sort="h"] {
-    grid-column-start: 2;
-  }
-}
-@media (max-width: 900px) {
-  body.page-zoznam.sv-grouped .sv-grank {
-    display: inline-block;
-    flex: 0 0 auto !important;
-    min-width: 1.6em;
-  }
-  body.page-zoznam.sv-grouped .compact-name {
-    flex: 1 1 calc(100% - 100px) !important;
-    min-width: 0 !important;
-  }
 }
