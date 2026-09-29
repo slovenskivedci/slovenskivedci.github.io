@@ -10,12 +10,11 @@ countries:
   "Austr\xE1lia": 13
   "\u010Cesko": 38
   "Rak\xFAsko": 14
-  Belgium: 1
+  Belgicko: 3
   "F\xEDnsko": 1
   "\u0160v\xE9dsko": 3
   "Franc\xFAzsko": 5
   Kanada: 12
-  Belgicko: 2
   "Saudsk\xE1 Ar\xE1bia": 2
   "Est\xF3nsko": 1
   Katar: 2
@@ -954,7 +953,7 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ a fotonika',area:'fyzika'},{x:1993,y:72,name:'Peter \u0160vihra',id:'Svihra:Svajciarsko:CERN:Zeneva:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1965,y:71,name:'Ervin Fodor',id:'Fodor:Velka_Britania:University_of_Oxford:Oxford:profesor:virologia:muz',field:'virol\xF3\
   gia',area:'medic\xEDna'},{x:1969,y:70,name:'Eva Benkov\xE1',id:'Benkova:Rakusko:IST_Austria:Klosterneuburg:profesorka:biologia_rastlin:zena',field:'biol\xF3\
-  gia rastl\xEDn',area:'biol\xF3gia'},{x:1949,y:70,name:'Imrich Chlamt\xE1\u010D',id:'Chlamtac:Belgium:European_Alliance_for_Innovation:Gent:prezident:telekomunikacie:muz',field:'telekomunik\xE1\
+  gia rastl\xEDn',area:'biol\xF3gia'},{x:1949,y:70,name:'Imrich Chlamt\xE1\u010D',id:'Chlamtac:Belgicko:European_Alliance_for_Innovation:Gent:prezident:telekomunikacie:muz',field:'telekomunik\xE1\
   cie',area:'in\u017Einierstvo'},{x:1964,y:70,name:'Jozef \u0160amaj',id:'Samaj:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:profesor:botanika:muz',field:'botanika',area:'biol\xF3\
   gia'},{x:1981,y:70,name:'Norbert Werner',id:'Werner:Cesko:Masarykova_univerzita:Brno:docent:astronomia:muz',field:'astron\xF3\
   mia',area:'fyzika'},{x:1970,y:69,name:'R\xF3bert Kr\xE1lovics',id:'Kralovics:Rakusko:Medical_University_of_Vienna:Vieden:vedec:hematologia:muz',field:'hematol\xF3\
@@ -1218,11 +1217,11 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia'}]"
 country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Austr\xE1lia','Kanada','Nemecko','\u0160\
   vaj\u010Diarsko','Ve\u013Ek\xE1 Brit\xE1nia','Holandsko','Franc\xFAzsko','N\xF3\
-  rsko','\u0160v\xE9dsko','Belgicko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9\
-  \ emir\xE1ty','Belgium','D\xE1nsko','Est\xF3nsko','F\xEDnsko','\xCDrsko','Japonsko','Ju\u017E\
+  rsko','Belgicko','\u0160v\xE9dsko','Katar','Saudsk\xE1 Ar\xE1bia','Spojen\xE9 arabsk\xE9\
+  \ emir\xE1ty','D\xE1nsko','Est\xF3nsko','F\xEDnsko','\xCDrsko','Japonsko','Ju\u017E\
   n\xE1 K\xF3rea','Rusk\xE1 feder\xE1cia','\u0160panielsko']"
-countryCount: '[221,44,38,14,13,12,12,11,11,6,5,4,3,2,2,2,2,1,1,1,1,1,1,1,1,1]'
-countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Australia'',''Kanada'',''Nemecko'',''Svajciarsko'',''Velka_Britania'',''Holandsko'',''Francuzsko'',''Norsko'',''Svedsko'',''Belgicko'',''Katar'',''Saudska_Arabia'',''Spojene_arabske_emiraty'',''Belgium'',''Dansko'',''Estonsko'',''Finsko'',''Irsko'',''Japonsko'',''Juzna_Korea'',''Ruska_federacia'',''Spanielsko'']'
+countryCount: '[221,44,38,14,13,12,12,11,11,6,5,4,3,3,2,2,2,1,1,1,1,1,1,1,1]'
+countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Australia'',''Kanada'',''Nemecko'',''Svajciarsko'',''Velka_Britania'',''Holandsko'',''Francuzsko'',''Norsko'',''Belgicko'',''Svedsko'',''Katar'',''Saudska_Arabia'',''Spojene_arabske_emiraty'',''Dansko'',''Estonsko'',''Finsko'',''Irsko'',''Japonsko'',''Juzna_Korea'',''Ruska_federacia'',''Spanielsko'']'
 affiliationCount: '[76,61,20,11,9,9,9,8,7,7,5,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','ekon\xF3mia a mana\u017E\
   ment','geovedy','in\u017Einierstvo','informatika','matematika','materi\xE1ly','umel\xE1\
@@ -1521,7 +1520,7 @@ city_markers: "[{name:'Bratislava',country:'Slovensko',count:148,lat:48.1516988,
   rsko',count:1,lat:53.3493795,lon:-6.2605593,url:'Dublin'},{name:'Dubna',country:'Rusk\xE1\
   \ feder\xE1cia',count:1,lat:56.7362705,lon:37.1623696,url:'Dubna'},{name:'Edinburg',country:'Ve\u013E\
   k\xE1 Brit\xE1nia',count:1,lat:55.9533456,lon:-3.1883749,url:'Edinburg'},{name:'Essex/Colchester',country:'Ve\u013E\
-  k\xE1 Brit\xE1nia',count:1,lat:51.8896903,lon:0.8994651,url:'Essex/Colchester'},{name:'Fairfax',country:'USA',count:1,lat:38.8462236,lon:-77.3063733,url:'Fairfax'},{name:'Friedrichshafen',country:'Nemecko',count:1,lat:47.6500279,lon:9.4800858,url:'Friedrichshafen'},{name:'Gent',country:'Belgium',count:1,lat:51.0538286,lon:3.7250121,url:'Gent'},{name:'Gie\xDF\
+  k\xE1 Brit\xE1nia',count:1,lat:51.8896903,lon:0.8994651,url:'Essex/Colchester'},{name:'Fairfax',country:'USA',count:1,lat:38.8462236,lon:-77.3063733,url:'Fairfax'},{name:'Friedrichshafen',country:'Nemecko',count:1,lat:47.6500279,lon:9.4800858,url:'Friedrichshafen'},{name:'Gent',country:'Belgicko',count:1,lat:51.0538286,lon:3.7250121,url:'Gent'},{name:'Gie\xDF\
   en',country:'Nemecko',count:1,lat:50.5862066,lon:8.6742306,url:'Gieen'},{name:'Groningen',country:'Holandsko',count:1,lat:53.2190652,lon:6.5680077,url:'Groningen'},{name:'Hamilton',country:'Kanada',count:1,lat:43.2560802,lon:-79.8728583,url:'Hamilton'},{name:'Hannover',country:'Nemecko',count:1,lat:52.3744779,lon:9.7385532,url:'Hannover'},{name:'J\xFC\
   lich',country:'Nemecko',count:1,lat:50.9220931,lon:6.3611015,url:'Julich'},{name:'Karlsruhe',country:'Nemecko',count:1,lat:49.0068705,lon:8.4034195,url:'Karlsruhe'},{name:'Kjeller',country:'N\xF3\
   rsko',count:1,lat:59.9738693,lon:11.0475937,url:'Kjeller'},{name:'Klosterneuburg',country:'Rak\xFA\
@@ -1715,7 +1714,7 @@ conn_areas:
     affiliationurl: New_York_University
     cityurl: New_York
     countryurl: USA
-  - &id401
+  - &id400
     name: Jozef Bartunek
     last: Bartunek
     hindex: 95
@@ -2765,7 +2764,7 @@ conn_areas:
     affiliationurl: Universitatsspital_Basel
     cityurl: Basel
     countryurl: Svajciarsko
-  - &id400
+  - &id403
     name: "Jarom\xEDr Mike\u0161"
     last: Mikes
     hindex: 34
@@ -6494,7 +6493,7 @@ conn_areas:
     affiliationurl: Delft_University_of_Technology
     cityurl: Delft
     countryurl: Holandsko
-  - &id403
+  - &id401
     name: "Imrich Chlamt\xE1\u010D"
     last: Chlamtac
     hindex: 70
@@ -6502,13 +6501,13 @@ conn_areas:
     area: "in\u017Einierstvo"
     affiliation: European Alliance for Innovation
     city: Gent
-    country: Belgium
+    country: Belgicko
     img: Imrich_Chlamtac_size_280px.jpg
-    card_id: Chlamtac:Belgium:European_Alliance_for_Innovation:Gent:prezident:telekomunikacie:muz
+    card_id: Chlamtac:Belgicko:European_Alliance_for_Innovation:Gent:prezident:telekomunikacie:muz
     areaurl: inzinierstvo
     affiliationurl: European_Alliance_for_Innovation
     cityurl: Gent
-    countryurl: Belgium
+    countryurl: Belgicko
   - &id006
     name: "J\xE1n Sl\xE1dek"
     last: Sladek
@@ -9237,19 +9236,20 @@ conn_countries:
   - *id274
   - *id275
   - *id399
+- label: Belgicko
+  url: Belgicko
+  count: 3
+  members:
+  - *id400
+  - *id401
+  - *id402
 - label: "\u0160v\xE9dsko"
   url: Svedsko
   count: 3
   members:
   - *id282
   - *id283
-  - *id400
-- label: Belgicko
-  url: Belgicko
-  count: 2
-  members:
-  - *id401
-  - *id402
+  - *id403
 - label: Katar
   url: Katar
   count: 2
@@ -9268,11 +9268,6 @@ conn_countries:
   members:
   - *id317
   - *id318
-- label: Belgium
-  url: Belgium
-  count: 1
-  members:
-  - *id403
 - label: "D\xE1nsko"
   url: Dansko
   count: 1
