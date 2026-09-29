@@ -5,7 +5,7 @@
   position: profesor
   field: "subjadrov\xE1 fyzika"
   pribeh: "Na ATLASe v CERN-e pomohol zmera\u0165 n\xE1boj top-kvarku a h\u013Eada\u0165\
-    \ Higgsov boz\xF3n \u2014 a zr\xE1\u017Eky \u010Dast\xEDc pritom rozpr\xE1va tak\
+    \ Higgsov boz\xF3n, a o zr\xE1\u017Ekach \u010Dast\xEDc pritom rozpr\xE1va tak\
     \ pokojne, ako keby i\u0161lo o rann\xFA k\xE1vu."
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
@@ -46,8 +46,9 @@
   sex: "mu\u017E"
   position: vedec
   field: "subjadrov\xE1 fyzika"
-  pribeh: "Z pra\u017Esk\xE9ho FZU posiela do ATLASu anal\xFDzy, v ktor\xFDch sa z\
-    \ mili\xE1rd zr\xE1\u017Eok vyberie t\xE1 jedna, \u010Do d\xE1va zmysel."
+  pribeh: "Z pra\u017Esk\xE9ho Fyzik\xE1lneho \xFAstavu posiela do ATLASu anal\xFD\
+    zy, v ktor\xFDch sa z mili\xE1rd zr\xE1\u017Eok vyberie t\xE1 jedna, ktor\xE1\
+    \ d\xE1va zmysel."
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
   city: Praha
   country: "\u010Cesko"
@@ -79,8 +80,9 @@
   sex: "mu\u017E"
   position: docent
   field: "subjadrov\xE1 fyzika"
-  pribeh: "Na UK v Bratislave lad\xED ATLAS tak, aby z hluku LHC ostala \u010Dist\xE1\
-    \ stopa novej fyziky."
+  pribeh: "Na Univerzite Komensk\xE9ho v Bratislave lad\xED detektor ATLAS tak, aby\
+    \ z hluku Ve\u013Ek\xE9ho hadr\xF3nov\xE9ho ur\xFDch\u013Eova\u010Da ostala \u010D\
+    ist\xE1 stopa novej fyziky."
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
@@ -424,7 +426,7 @@
   position: vedec
   field: bioinformatika
   pribeh: "V Toronte sp\xE1ja rakovinov\xE9 d\xE1ta do siet\xED, v ktor\xFDch prote\xED\
-    ny prest\xE1vaj\xFA by\u0165 anonymn\xFDmi extrasmi."
+    ny prest\xE1vaj\xFA by\u0165 anonymn\xFDmi komparzistami."
   affiliation: Krembil Research Institute
   city: Toronto
   country: Kanada
@@ -534,9 +536,9 @@
   sex: "mu\u017E"
   position: docent
   field: "patol\xF3gia"
-  pribeh: "V C\xE1chach \u010D\xEDta obli\u010Dkov\xE9 tkanivo ako mapu fibr\xF3zy\
-    \ \u2014 a patol\xF3gia u\u0148ho nie je koniec pr\xEDbehu, ale za\u010Diatok\
-    \ lie\u010Dby."
+  pribeh: "V Aachene \u010D\xEDta obli\u010Dkov\xE9 tkanivo ako mapu fibr\xF3zy, a\
+    \ patol\xF3gia u\u0148ho nie je koniec pr\xEDbehu, ale za\u010Diatok lie\u010D\
+    by."
   affiliation: RWTH Aachen
   city: Aachen
   country: Nemecko
@@ -7623,7 +7625,7 @@
   sex: "\u017Eena"
   position: "vedky\u0148a"
   field: "fyziol\xF3gia"
-  pribeh: "Krvn\xFD tlak, oxid dusnat\xFD a cievy: fyziol\xF3gia, ktor\xE1 hypertenzii\
+  pribeh: "Krvn\xFD tlak, oxid dusnat\xFD a cievy: fyziol\xF3gia, ktor\xE1 hypertenziu\
     \ meria nielen man\u017Eetou, ale aj mechanizmom."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
