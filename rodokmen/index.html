@@ -316,16 +316,22 @@ td .yr,td .lv{font:12px var(--font-mono);color:var(--ink-3)}
 .linkbtn{all:unset;cursor:pointer;color:var(--accent-ink);font:inherit;letter-spacing:normal;text-transform:none}
 .linkbtn:hover{text-decoration:underline}
 .linkbtn:focus-visible{outline:2px solid var(--accent)}
-/* forest filter */
-.ffilter{display:flex;flex-direction:column;gap:9px}
-.ffilter label{display:flex;flex-direction:column;gap:4px;min-width:0}
-.ffilter label>span{font:500 10px var(--font-mono);letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3)}
-.ffilter select{height:36px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);padding:0 8px;width:100%;min-width:0}
-.ffilter .ff2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.ffilter label.chk{flex-direction:row;align-items:flex-start;gap:8px;font-size:12.5px;color:var(--ink-2);cursor:pointer}
-.ffilter label.chk>span{font:inherit;letter-spacing:normal;text-transform:none;color:inherit}
-.ffilter label.chk input{margin:2px 0 0;accent-color:var(--accent)}
-.ffilter .fine{margin:2px 0 0}
+/* forest filter: a row of pill selects */
+h2.sec.ffh{align-items:baseline}
+h2.sec.ffh>span:last-child{letter-spacing:.04em;text-transform:none;display:inline-flex;gap:8px;align-items:baseline}
+h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
+.fpills{display:flex;flex-wrap:wrap;gap:6px}
+.fpill{position:relative;display:inline-flex;align-items:center;min-width:0;max-width:100%}
+.fpill select{-webkit-appearance:none;appearance:none;height:30px;max-width:100%;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink-2);font:500 12.5px var(--font-ui);padding:0 27px 0 12px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:border-color .15s,background-color .15s}
+.fpill::after{content:"";position:absolute;right:12px;top:50%;width:5px;height:5px;border-right:1.5px solid var(--ink-3);border-bottom:1.5px solid var(--ink-3);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.fpill select:hover{border-color:var(--edge);color:var(--ink)}
+.fpill select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.fpill.on select{background:var(--accent-soft);border-color:var(--accent-edge);color:var(--accent-ink)}
+.fpill.on::after{border-color:var(--accent-ink)}
+.fpill.chk{height:30px;gap:6px;padding:0 12px 0 9px;border:1px dashed var(--accent-edge);border-radius:999px;font-size:12.5px;color:var(--ink-2);cursor:pointer}
+.fpill.chk::after{display:none}
+.fpill.chk input{margin:0;accent-color:var(--accent)}
+.fpill.chk[hidden]{display:none}
 .fl.off,.fn.off,.fh.off{opacity:.07}
 .fchip{position:absolute;left:12px;top:12px;display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--accent-edge);border-radius:999px;padding:5px 6px 5px 12px;box-shadow:var(--shadow);font-size:12.5px;color:var(--ink-2)}
 .fchip-l{font:500 10px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink)}
@@ -396,21 +402,18 @@ td .yr,td .lv{font:12px var(--font-mono);color:var(--ink-3)}
         <h1 class="display">Kto koho vychoval v slovenskej matematike</h1>
         <p class="lede">Každá bodka na hárku je jeden doktorát. Čiary vedú od školiteľa k doktorandovi a vzdialenosť bodky od stredu zodpovedá roku, keď bol titul udelený. Modré bodky sú slovenskí matematici, sivé ich doktorandi a akademickí potomkovia v zahraničí.</p>
         <div class="stats" id="f-stats"></div>
-        <h2 class="sec"><span>Filter zakladateľov línií</span><button type="button" class="linkbtn" id="ff-reset" hidden>Zrušiť filter</button></h2>
-        <div class="ffilter" role="group" aria-label="Filter zakladateľov línií">
-          <label><span>Vysokoškolské štúdium (alma mater)</span><select id="ff-alma"></select></label>
-          <label><span>Krajina doktorátu</span><select id="ff-ctry"></select></label>
-          <label><span>Inštitúcia doktorátu</span><select id="ff-inst"></select></label>
-          <div class="ff2">
-            <label><span>Obdobie doktorátu</span><select id="ff-era"></select></label>
-            <label><span>Veľkosť línie</span><select id="ff-size"></select></label>
-          </div>
-          <label class="chk"><input type="checkbox" id="ff-est"> <span>Pri chýbajúcich údajoch o štúdiu použiť odhad podľa miesta doktorátu</span></label>
-          <p class="fine" id="ff-sum"></p>
+        <h2 class="sec ffh"><span>Filter línií</span><span><span id="ff-sum"></span><button type="button" class="linkbtn" id="ff-reset" hidden>zrušiť</button></span></h2>
+        <div class="fpills" role="group" aria-label="Filter zakladateľov línií">
+          <span class="fpill"><select id="ff-alma" aria-label="Vysokoškolské štúdium zakladateľa (alma mater)"></select></span>
+          <span class="fpill"><select id="ff-ctry" aria-label="Krajina doktorátu zakladateľa"></select></span>
+          <span class="fpill"><select id="ff-inst" aria-label="Inštitúcia doktorátu zakladateľa"></select></span>
+          <span class="fpill"><select id="ff-era" aria-label="Obdobie doktorátu zakladateľa"></select></span>
+          <span class="fpill"><select id="ff-size" aria-label="Veľkosť línie"></select></span>
+          <label class="fpill chk" id="ff-est-w" hidden title="Ak údaje o štúdiu chýbajú, predpokladá sa štúdium na univerzite, kde zakladateľ získal slovenský doktorát."><input type="checkbox" id="ff-est"><span>aj odhad štúdia</span></label>
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px">Mená kurzívou na hárku označujú zakladateľov línií, teda prvých slovenských matematikov, od ktorých línia pokračuje: bez filtra deviatich najväčších, s filtrom tých, ktorí mu vyhovujú. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
+        <p class="fine" style="margin-top:12px">Mená kurzívou na hárku označujú zakladateľov línií, teda prvých slovenských matematikov v danej vetve, ktorých školiteľ je zo zahraničia alebo nie je známy: bez filtra deviatich najväčších, s filtrom tých, ktorí mu vyhovujú. Filter vyberá línie podľa štúdia zakladateľa (alma mater), krajiny a inštitúcie jeho doktorátu, obdobia a veľkosti línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
       </aside>
       <div class="stage" id="f-stage">
         <svg id="f-svg" role="img" aria-label="Kruhový graf slovenských matematických línií, kružnice označujú desaťročia"></svg>
@@ -943,31 +946,39 @@ const Forest=(()=>{
     return true; }
   function fillSelects(){ const R=rootInfo();
     const sub=k=>R.filter(r=>rootOk(r,k)).map(r=>r.p);
-    $('#ff-alma').innerHTML=`<option value="">Všetky (${sub('alma').length})</option>`+optionsHtml(almaOptions(sub('alma'),FF.est,false),FF.alma);
+    const lab0=(txt)=>`<option value="">${txt}</option>`;
+    $('#ff-alma').innerHTML=lab0('Alma mater')+optionsHtml(almaOptions(sub('alma'),FF.est,false),FF.alma);
     const cc=d3.rollup(R.filter(r=>rootOk(r,'ctry')),v=>v.length,r=>r.ph&&r.ph.c||'?');
-    $('#ff-ctry').innerHTML=`<option value="">Všetky krajiny</option>`+[...cc].sort((a,b)=>b[1]-a[1]).map(([c,n])=>`<option value="${esc(c)}"${c===FF.ctry?' selected':''}>${esc(c==='?'?'neznáma':prettyCountry(c))} (${n})</option>`).join('');
+    $('#ff-ctry').innerHTML=lab0('Krajina doktorátu')+[...cc].sort((a,b)=>b[1]-a[1]).map(([c,n])=>`<option value="${esc(c)}"${c===FF.ctry?' selected':''}>${esc(c==='?'?'neznáma':prettyCountry(c))} (${n})</option>`).join('');
     const ic=new Map(); for(const r of R.filter(r=>rootOk(r,'inst'))){ const k=instKeyOf(r.ph); const o=ic.get(k)||{n:0,c:r.ph?prettyCountry(r.ph.c)||'neznáma':'neznáma',l:k==='?'?'neznáma':r.ph.u?instLabel(r.ph.u):r.ph.school}; o.n++; ic.set(k,o); }
     const byC=d3.groups([...ic],([k,o])=>o.c).sort((a,b)=>d3.sum(b[1],x=>x[1].n)-d3.sum(a[1],x=>x[1].n));
-    $('#ff-inst').innerHTML=`<option value="">Všetky inštitúcie</option>`+byC.map(([c,arr])=>`<optgroup label="${esc(c)}">`+arr.sort((a,b)=>b[1].n-a[1].n||cmp(a[1].l,b[1].l)).map(([k,o])=>`<option value="${esc(k)}"${k===FF.inst?' selected':''}>${esc(fitText(o.l,'14px Geist',260))} (${o.n})</option>`).join('')+'</optgroup>').join('');
+    $('#ff-inst').innerHTML=lab0('Inštitúcia')+byC.map(([c,arr])=>`<optgroup label="${esc(c)}">`+arr.sort((a,b)=>b[1].n-a[1].n||cmp(a[1].l,b[1].l)).map(([k,o])=>`<option value="${esc(k)}"${k===FF.inst?' selected':''}>${esc(fitText(o.l,'14px Geist',260))} (${o.n})</option>`).join('')+'</optgroup>').join('');
     const ec=d3.rollup(R.filter(r=>rootOk(r,'era')),v=>v.length,r=>eraOf(r.ph?r.ph.year:0));
     const eras=['<1950','1950','1960','1970','1980','1990','2000','2010','2020','?'].filter(e=>ec.get(e));
-    $('#ff-era').innerHTML=`<option value="">Všetky obdobia</option>`+eras.map(e=>`<option value="${e}"${e===FF.era?' selected':''}>${e==='<1950'?'pred rokom 1950':e==='?'?'rok neznámy':e+' – '+(+e+9)} (${ec.get(e)})</option>`).join('');
+    const eraTxt=e=>e==='<1950'?'pred rokom 1950':e==='?'?'rok neznámy':e+' – '+(+e+9);
+    $('#ff-era').innerHTML=lab0('Obdobie')+eras.map(e=>`<option value="${e}"${e===FF.era?' selected':''}>${eraTxt(e)} (${ec.get(e)})</option>`).join('');
     const sc=R.filter(r=>rootOk(r,'size'));
-    $('#ff-size').innerHTML=[['',`Všetky línie (${sc.length})`]].concat([2,5,10,25,50].map(k=>[String(k),`aspoň ${k} potomkov (${sc.filter(r=>r.d>=k).length})`])).map(([v,l])=>`<option value="${v}"${v===FF.size?' selected':''}>${l}</option>`).join('');
+    $('#ff-size').innerHTML=lab0('Veľkosť línie')+[2,5,10,25,50].map(k=>`<option value="${k}"${String(k)===FF.size?' selected':''}>aspoň ${k} potomkov (${sc.filter(r=>r.d>=k).length})</option>`).join('');
+    // a chosen value reads as a short label on its pill
+    const short={alma:v=>v==='?'?'štúdium neznáme':selShort(v),ctry:v=>v==='?'?'krajina neznáma':prettyCountry(v),inst:v=>v==='?'?'inštitúcia neznáma':v.startsWith('S:')?shortSchool(v.slice(2)):instMid(v),era:v=>eraTxt(v),size:v=>`≥ ${v} potomkov`};
+    for(const k of ['alma','ctry','inst','era','size']){ const el=$('#ff-'+k); el.parentElement.classList.toggle('on',!!FF[k]); const o=el.selectedOptions[0]; if(FF[k]&&o&&o.value) o.textContent=short[k](FF[k]);
+      // a native select is as wide as its longest option; size the pill to the text it shows
+      el.style.width=Math.ceil(tw(o?o.textContent:'','500 12.5px Geist, sans-serif')+48)+'px'; }
   }
   function runFilter(){
     const R=rootInfo(); const active=FF.alma||FF.ctry||FF.inst||FF.era||FF.size;
     const ok=active?R.filter(r=>rootOk(r)):[]; match=active?new Set(ok.map(r=>r.p.id)):null; hot=null;
     fillSelects(); applyFilter();
-    $('#ff-reset').hidden=!active; $('#f-chip').hidden=!active;
+    $('#ff-reset').hidden=!active; $('#f-chip').hidden=!active; $('#ff-est-w').hidden=!FF.alma&&!FF.est;
     const nP=d3.sum(ok,r=>r.n+1);
+    $('#ff-sum').textContent=active?`${ok.length} z ${R.length} · `:`${R.length} ${pl(R.length,'línia','línie','línií')}`;
     if(active){ $('#f-chip-t').textContent=`${ok.length} ${pl(ok.length,'línia','línie','línií')} · ${nf.format(nP)} ${pl(nP,'osoba','osoby','osôb')}`;
-      $('#ff-sum').innerHTML=ok.length?`Filtru vyhovuje <b>${ok.length}</b> z ${R.length} ${pl(R.length,'línie','línií','línií')} a ${pl(ok.length,'jej','ich','ich')} <b>${nf.format(nP)}</b> ${pl(nP,'osoba','osoby','osôb')}. Ostatné línie sú na hárku stlmené.`:'Filtru nevyhovuje žiadna línia. Uvoľnite niektorú z podmienok.';
-      $('#f-feat-h').innerHTML=`<span>Zakladatelia línií podľa filtra</span><span>potomkovia</span>`; renderRows(ok.sort((a,b)=>b.d-a.d||cmp(a.p.name,b.p.name)).map(r=>({p:r.p,d:r.d})),true); }
-    else { $('#ff-sum').textContent=`Zakladateľ línie je prvý slovenský matematik v danej vetve (jeho školiteľ je zo zahraničia alebo nie je známy). Na hárku je ${R.length} takých línií.`; $('#f-feat-h').innerHTML=`<span>Najviac akademických potomkov</span><span>potomkovia</span>`; renderRows(null,false); }
+      $('#f-feat-h').innerHTML=`<span>Zakladatelia vybraných línií</span><span>potomkovia</span>`; renderRows(ok.sort((a,b)=>b.d-a.d||cmp(a.p.name,b.p.name)).map(r=>({p:r.p,d:r.d})),true); }
+    else { $('#f-feat-h').innerHTML=`<span>Najviac akademických potomkov</span><span>potomkovia</span>`; renderRows(null,false); }
   }
   function renderRows(list,roots){
     if(!list){ const sk=[...people.values()].filter(p=>p.sk); list=sk.map(p=>({p,d:nDescOf(p)})).filter(o=>o.d>0).sort((a,b)=>b.d-a.d||cmp(a.p.name,b.p.name)).slice(0,25); }
+    if(!list.length){ $('#f-feat').innerHTML=`<li class="more-note">Filtru nevyhovuje žiadna línia. Uvoľnite niektorú z podmienok.</li>`; return; }
     const mx=list.length?Math.max(1,list[0].d):1;
     $('#f-feat').innerHTML=list.slice(0,300).map(({p,d})=>{ const ns=nStudOf(p); const es=roots?eduEntries(p,FF.est):[]; const sub=[p.year||'',p.school?shortSchool(p.school):'',roots&&es.length?'štúdium: '+instMid(es[0].k)+(es[0].est?' (odhad)':''):'',!roots&&ns?`${nf.format(ns)} ${pl(ns,'doktorand','doktorandi','doktorandov')}`:''].filter(Boolean).join(' · '); return `<li><button type="button" class="row hrow" data-go="${p.id}"${roots?` data-root="${p.id}"`:''}><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}</span><span class="hbar" aria-hidden="true"><i style="width:${(d/mx*100).toFixed(1)}%"></i></span><span class="h">${nf.format(d)}</span><span class="sub">${esc(String(sub))}</span></button></li>`; }).join('');
   }
