@@ -283,6 +283,11 @@
 
 	<div class="w-container">
 
+		<!-- oblasť menu (shared with the compact list); inside .content-wrapper so the
+		     persistent header shell swaps it in/out with the page -->
+		{% include sv-area-menu.html %}
+		<script src="/style/compact-areamenu.js?v=20260929pod"></script>
+
 		<div class="w-dyn-list">
 
 			{{ content }}

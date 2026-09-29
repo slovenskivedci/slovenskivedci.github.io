@@ -1,0 +1,6 @@
+<p class="sv-area-menu" role="group" aria-label="Oblasť">
+      <button type="button" class="sv-area-btn selected" data-area="" aria-pressed="true">všetci</button>
+      {% assign sv_areas = site.data.all | group_by: "area" | sort: "name" %}{% for g in sv_areas %}<span class="sex-dot" aria-hidden="true">·</span>
+      <button type="button" class="sv-area-btn" data-area="{{ g.items[0].areaurl }}" aria-pressed="false">{{ g.name }}</button>
+      {% endfor %}
+    </p>

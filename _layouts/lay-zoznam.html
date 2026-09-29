@@ -7,7 +7,7 @@
     <script>window.SV=window.SV||{};window.SV.totalScholars={{ site.data.all.size }};</script>
     <script src="/style/list-filters.js?v=20260929area"></script>
     <script src="/style/compact-sort.js?v=20260929area"></script>
-    <script src="/style/compact-areamenu.js?v=20260929area"></script>
+    <script src="/style/compact-areamenu.js?v=20260929pod"></script>
     <script src="/style/site-shell.js?v=20260929area"></script>
 
 
@@ -205,12 +205,7 @@ width: 100%
     </p>
     </div>
 
-    <p class="sv-area-menu" role="group" aria-label="Oblasť">
-      <button type="button" class="sv-area-btn selected" data-area="" aria-pressed="true">všetci</button>
-      {% assign sv_areas = site.data.all | group_by: "area" | sort: "name" %}{% for g in sv_areas %}<span class="sex-dot" aria-hidden="true">·</span>
-      <button type="button" class="sv-area-btn" data-area="{{ g.items[0].areaurl }}" aria-pressed="false">{{ g.name }}</button>
-      {% endfor %}
-    </p>
+    {% include sv-area-menu.html %}
 
     <div id="filter" style="display:none">
 		    <span id="filter-field"></span>
