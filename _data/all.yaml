@@ -114,8 +114,9 @@
   sex: "mu\u017E"
   position: postdoc
   field: "subjadrov\xE1 fyzika"
-  pribeh: "Z Dortmundu \u010D\xEDta LHC d\xE1ta ako detekt\xEDvku, v ktorej je vrahom\
-    \ vz\xE1cny rozpad a alibi m\xE1 \u0160tandardn\xFD model."
+  pribeh: "Z Dortmundu \u010D\xEDta d\xE1ta z Ve\u013Ek\xE9ho hadr\xF3nov\xE9ho ur\xFD\
+    ch\u013Eova\u010Da ako detekt\xEDvku, v ktorej je vrahom vz\xE1cny rozpad a alibi\
+    \ m\xE1 \u0160tandardn\xFD model."
   affiliation: Technical University Dortmund
   city: Dortmund
   country: Nemecko
@@ -284,9 +285,9 @@
   sex: "mu\u017E"
   position: profesor
   field: "imunol\xF3gia"
-  pribeh: "Z interfer\xF3nu a protil\xE1tky proti TNF-\u03B1 (Remicade) spravil lieky,\
-    \ ktor\xE9 tlmia z\xE1pal \u2014 a z v\u010Faky e\u0161te aj filantropiu v New\
-    \ Yorku."
+  pribeh: "Z interfer\xF3nu a protil\xE1tky proti z\xE1palov\xE9mu faktoru TNF-\u03B1\
+    \ (Remicade) spravil lieky, ktor\xE9 tlmia z\xE1pal, a z v\u010Faky e\u0161te\
+    \ aj filantropiu v New Yorku."
   affiliation: New York University
   city: New York
   country: USA
@@ -868,8 +869,9 @@
   sex: "\u017Eena"
   position: profesorka
   field: "onkol\xF3gia"
-  pribeh: "Spoluobjavila n\xE1dorov\xFD marker CA IX, pod\u013Ea ktor\xE9ho sa hypoxia\
-    \ v n\xE1dore u\u017E neskryje za slu\u0161n\xE9 sfarbenie tkaniva."
+  pribeh: "Spoluobjavila n\xE1dorov\xFD marker karbonick\xFA anhydr\xE1zu IX, pod\u013E\
+    a ktor\xE9ho sa hypoxia v n\xE1dore u\u017E neskryje za slu\u0161n\xE9 sfarbenie\
+    \ tkaniva."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -1047,8 +1049,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "onkol\xF3gia"
-  pribeh: "Objavil g\xE9n CA IX, ktor\xFD n\xE1dorom prezr\xE1dza dychtiacu hypoxiu\
-    \ \u2014 a onkol\xF3gii dal prekvapivo spo\u013Eahliv\xFD kompas."
+  pribeh: "Objavil g\xE9n karbonickej anhydr\xE1zy IX, ktor\xFD n\xE1dorom prezr\xE1\
+    dza dychtiacu hypoxiu, a onkol\xF3gii dal prekvapivo spo\u013Eahliv\xFD kompas."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -1088,8 +1090,9 @@
   sex: "mu\u017E"
   position: principal research officer
   field: optika a fotonika
-  pribeh: "V NRC v Ottawe ryje do krem\xEDka subvlnov\xE9 mrie\u017Eky, k\xFDm sa\
-    \ z fotoniky nestane \u010Dip, ktor\xFD svetlo posl\xFAcha."
+  pribeh: "V kanadskej N\xE1rodnej v\xFDskumnej rade v Ottawe ryje do krem\xEDka subvlnov\xE9\
+    \ mrie\u017Eky, k\xFDm sa z fotoniky nestane \u010Dip, ktor\xFD svetlo posl\xFA\
+    cha."
   affiliation: National Research Council
   city: Ottawa
   country: Kanada
@@ -1205,8 +1208,8 @@
   sex: "\u017Eena"
   position: profesorka
   field: "biol\xF3gia rastl\xEDn"
-  pribeh: "Na IST Austria kresl\xED aux\xEDnov\xE9 mapy rastl\xEDn: horm\xF3n u nej\
-    \ nie je n\xE1lada, ale GPS v\xFDhonku."
+  pribeh: "Na In\u0161tit\xFAte vedy a techniky v Rak\xFAsku kresl\xED aux\xEDnov\xE9\
+    \ mapy rastl\xEDn: horm\xF3n u nej nie je n\xE1lada, ale GPS v\xFDhonku."
   affiliation: IST Austria
   city: Klosterneuburg
   country: "Rak\xFAsko"
@@ -2257,8 +2260,8 @@
   sex: "mu\u017E"
   position: docent
   field: "lek\xE1rska fyzika"
-  pribeh: "Vo Viedni meria pe\u010De\u0148 a sval MR spektroskopiou: metabolizmus\
-    \ u\u0148ho vidno sk\xF4r, ne\u017E ho uc\xEDti sk\xFAmavka."
+  pribeh: "Vo Viedni meria pe\u010De\u0148 a sval spektroskopiou magnetickej rezonancie:\
+    \ metabolizmus u\u0148ho vidno sk\xF4r, ne\u017E ho uc\xEDti sk\xFAmavka."
   affiliation: Medical University of Vienna
   city: "Viede\u0148"
   country: "Rak\xFAsko"
@@ -2442,7 +2445,7 @@
   position: profesorka
   field: "soci\xE1lna psychol\xF3gia"
   pribeh: "Adolescentov meria ako spolo\u010Densk\xFD barometer: zdravie u nej za\u010D\
-    \xEDna v \u0161kole, nielen na JIS."
+    \xEDna v \u0161kole, nielen na jednotke intenz\xEDvnej starostlivosti."
   affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
   city: "Ko\u0161ice"
   country: Slovensko
@@ -2507,8 +2510,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "synt\xE9za prote\xEDnov"
-  pribeh: "V Ottawe str\xE1\u017Ei preklad RNA do prote\xEDnu: IRES u\u0148ho nie\
-    \ je \xFAradn\xE1 skratka, ale trik v\xEDrusu aj bunky."
+  pribeh: "V Ottawe str\xE1\u017Ei preklad RNA do prote\xEDnu: pozn\xE1 zadn\xE9 dvierka,\
+    \ ktor\xFDmi v\xEDrus aj bunka pustia riboz\xF3m k pr\xE1ci."
   affiliation: Carleton University
   city: Ottawa
   country: Kanada
@@ -2755,8 +2758,9 @@
   sex: "mu\u017E"
   position: "odborn\xFD asistent"
   field: "nukle\xE1rna magnetick\xE1 rezonancia"
-  pribeh: "V Minnesote \u010D\xEDta mozog NMR spektroskopiou: metabolity rozpr\xE1\
-    vaj\xFA, \u010Do neur\xF3ny pr\xE1ve varia na obed."
+  pribeh: "V Minnesote \u010D\xEDta mozog spektroskopiou nukle\xE1rnej magnetickej\
+    \ rezonancie: metabolity rozpr\xE1vaj\xFA, \u010Do neur\xF3ny pr\xE1ve varia na\
+    \ obed."
   affiliation: University of Minnesota
   city: Twin Cities
   country: USA
@@ -3463,8 +3467,9 @@
   sex: "\u017Eena"
   position: "vedky\u0148a"
   field: "neuroimunol\xF3gia"
-  pribeh: "V NIH lad\xED imunitu pri sclerosis multiplex tak, aby si T-bunky prestali\
-    \ m\xFDli\u0165 mozog s nepriate\u013Eom."
+  pribeh: "V americk\xFDch N\xE1rodn\xFDch \xFAstavoch zdravia lad\xED imunitu pri\
+    \ sclerosis multiplex tak, aby si T-bunky prestali m\xFDli\u0165 mozog s nepriate\u013E\
+    om."
   affiliation: National Institute of Allergy and Infectious Diseases
   city: Bethesda
   country: USA
@@ -3502,8 +3507,9 @@
   sex: "\u017Eena"
   position: profesorka
   field: "fyzik\xE1lna ch\xE9mia"
-  pribeh: "Voln\xE9 radik\xE1ly chyt\xE1 do EPR siete: fyzik\xE1lna ch\xE9mia s detekt\xED\
-    vnou lampou na nesp\xE1ren\xFD elektr\xF3n."
+  pribeh: "Vo\u013En\xE9 radik\xE1ly chyt\xE1 do siete elektr\xF3novej paramagnetickej\
+    \ rezonancie: fyzik\xE1lna ch\xE9mia s detekt\xEDvnou lampou na nesp\xE1ren\xFD\
+    \ elektr\xF3n."
   affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
@@ -3708,8 +3714,8 @@
   sex: "\u017Eena"
   position: profesorka
   field: "geovizualiz\xE1cia"
-  pribeh: "Krajinu v GIS-e kresl\xED ako pr\xEDbeh svahov a vody \u2014 mapa u nej\
-    \ mysl\xED spolu s nami."
+  pribeh: "Krajinu v geografick\xFDch informa\u010Dn\xFDch syst\xE9moch kresl\xED\
+    \ ako pr\xEDbeh svahov a vody, mapa u nej mysl\xED spolu s nami."
   affiliation: North Carolina State University
   city: Raleigh
   country: USA
@@ -3739,8 +3745,8 @@
   sex: "mu\u017E"
   position: vedec
   field: "magnetick\xE1 rezonancia"
-  pribeh: "Vo Viedni lad\xED MR spektr\xE1 tkan\xEDv: voda, tuk a metabolity dostan\xFA\
-    \ noty namiesto dohadov."
+  pribeh: "Vo Viedni lad\xED spektr\xE1 magnetickej rezonancie tkan\xEDv: voda, tuk\
+    \ a metabolity dostan\xFA noty namiesto dohadov."
   affiliation: Medical University of Vienna
   city: "Viede\u0148"
   country: "Rak\xFAsko"
@@ -4153,8 +4159,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "nukle\xE1rna magnetick\xE1 rezonancia"
-  pribeh: "V Edinburghu sklad\xE1 NMR ako partit\xFAru: molekula mus\xED spieva\u0165\
-    \ v\u0161etky v\xE4zby, nielen refr\xE9n."
+  pribeh: "V Edinburghu sklad\xE1 nukle\xE1rnu magnetick\xFA rezonanciu ako partit\xFA\
+    ru: molekula mus\xED spieva\u0165 v\u0161etky v\xE4zby, nielen refr\xE9n."
   affiliation: University of Edinburgh
   city: Edinburg
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
@@ -4285,8 +4291,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "d\xE1tov\xE1 veda"
-  pribeh: "D\xE1ta a u\u010Denie na SFU: vzdel\xE1vacie technol\xF3gie, ktor\xE9 vedia,\
-    \ \u010Do \u0161tudent e\u0161te nevie \u2014 slu\u0161ne."
+  pribeh: "D\xE1ta a u\u010Denie na Univerzite Simona Frasera: vzdel\xE1vacie technol\xF3\
+    gie, ktor\xE9 vedia, \u010Do \u0161tudent e\u0161te nevie, slu\u0161ne."
   affiliation: Simon Fraser University
   city: Surrey
   country: Kanada
@@ -4806,7 +4812,7 @@
   field: "automatiz\xE1cia"
   pribeh: "Zlomkov\xE9 deriv\xE1cie v riaden\xED berie v\xE1\u017Ene: automatiz\xE1\
     cia, ktor\xE1 si pam\xE4t\xE1 minulos\u0165 lep\u0161ie ne\u017E be\u017En\xFD\
-    \ PID."
+    \ regul\xE1tor."
   affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
   city: "Ko\u0161ice"
   country: Slovensko
@@ -5223,8 +5229,8 @@
   position: profesor
   field: "fyzika \u010Dast\xEDc"
   pribeh: "Te\xF3ria \u010Dast\xEDc v Indiane: Higgs, naturalness a ot\xE1zky, ktor\xE9\
-    \ LHC e\u0161te nesmie odlo\u017Ei\u0165 do prie\u010Dinka \u201Evyrie\u0161en\xE9\
-    \u201C."
+    \ Ve\u013Ek\xFD hadr\xF3nov\xFD ur\xFDch\u013Eova\u010D e\u0161te nesmie odlo\u017E\
+    i\u0165 do prie\u010Dinka \u201Evyrie\u0161en\xE9\u201C."
   affiliation: Indiana University Bloomington
   city: Bloomington
   country: USA
@@ -6700,8 +6706,8 @@
   sex: "mu\u017E"
   position: vedec
   field: genetika
-  pribeh: "V USDA \u0161\u013Eacht\xED \u0161al\xE1t genetikou, aby odolnos\u0165\
-    \ nebola folkl\xF3r, ale alela."
+  pribeh: "Na americkom ministerstve po\u013Enohospod\xE1rstva \u0161\u013Eacht\xED\
+    \ \u0161al\xE1t genetikou, aby odolnos\u0165 nebola folkl\xF3r, ale alela."
   affiliation: U.S. Department of Agriculture
   city: Salinas
   country: USA
@@ -7109,8 +7115,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "teoretick\xE1 informatika"
-  pribeh: "Na ETH u\u010D\xED algoritmy aj u\u010Dite\u013Eov: zlo\u017Eitos\u0165\
-    \ u\u0148ho nie je stra\u0161iak, ale pr\xEDbeh s d\xF4kazom."
+  pribeh: "Na ETH v Z\xFCrichu u\u010D\xED algoritmy aj u\u010Dite\u013Eov: zlo\u017E\
+    itos\u0165 u\u0148ho nie je stra\u0161iak, ale pr\xEDbeh s d\xF4kazom."
   affiliation: "ETH Z\xFCrich"
   city: "Z\xFCrich"
   country: "\u0160vaj\u010Diarsko"
@@ -7217,7 +7223,8 @@
   sex: "mu\u017E"
   position: vedec
   field: "klimatick\xE1 zmena"
-  pribeh: "V IIASA modeluje, ako dym, energia a kl\xEDma s\xFAvisia \u2014 scen\xE1\
+  pribeh: "V Medzin\xE1rodnom in\u0161tit\xFAte pre aplikovan\xFA syst\xE9mov\xFA\
+    \ anal\xFDzu pri Viedni modeluje, ako dym, energia a kl\xEDma s\xFAvisia: scen\xE1\
     re, ktor\xE9 politikom ber\xFA v\xFDhovorku \u201Enevedeli sme\u201C."
   affiliation: International Institute for Applied Systems Analysis
   city: Laxenburg
@@ -7590,8 +7597,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia"
-  pribeh: "Na KAUST kresl\xED vedu tak, aby ju oko pochopilo sk\xF4r ne\u017E odsek:\
-    \ vizualiz\xE1cia s laborat\xF3rnym svedom\xEDm."
+  pribeh: "Na saudskoarabskej univerzite KAUST kresl\xED vedu tak, aby ju oko pochopilo\
+    \ sk\xF4r ne\u017E odsek: vizualiz\xE1cia s laborat\xF3rnym svedom\xEDm."
   affiliation: KAUST
   city: Thuwal
   country: "Saudsk\xE1 Ar\xE1bia"
@@ -8755,8 +8762,9 @@
   sex: "mu\u017E"
   position: vedec
   field: "teoretick\xE1 fyzika"
-  pribeh: "V RIKEN-e po\u010D\xEDta kvantov\xE9 javy v nano\u0161trukt\xFArach: te\xF3\
-    ria, ktor\xE1 elektr\xF3nu meria n\xE1ladu v tesnej uli\u010Dke."
+  pribeh: "V japonskom in\u0161tit\xFAte RIKEN po\u010D\xEDta kvantov\xE9 javy v nano\u0161\
+    trukt\xFArach: te\xF3ria, ktor\xE1 elektr\xF3nu meria n\xE1ladu v tesnej uli\u010D\
+    ke."
   affiliation: RIKEN
   city: "Wak\u014D"
   country: Japonsko
@@ -9421,8 +9429,9 @@
   sex: "mu\u017E"
   position: vedec a analytik
   field: "molekul\xE1rna biol\xF3gia"
-  pribeh: "Na FDA \u010D\xEDta molekul\xE1rnu biol\xF3giu liekov tak, aby bezpe\u010D\
-    nos\u0165 nebola pr\xEDloha, ale hlavn\xFD text."
+  pribeh: "Na americkom \xDArade pre potraviny a lie\u010Div\xE1 \u010D\xEDta molekul\xE1\
+    rnu biol\xF3giu liekov tak, aby bezpe\u010Dnos\u0165 nebola pr\xEDloha, ale hlavn\xFD\
+    \ text."
   affiliation: US Food and Drug Administration
   city: Bethesda
   country: USA
@@ -9452,8 +9461,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "matematick\xE1 logika"
-  pribeh: "Kvantov\xE9 logiky a MV-algebry: matematika, v ktorej \u201E\xE1no a nie\u201C\
-    \ sm\xFA sedie\u0165 za jedn\xFDm stolom."
+  pribeh: "Kvantov\xE9 logiky a mnohohodnotov\xE9 algebry: matematika, v ktorej \u201E\
+    \xE1no a nie\u201C sm\xFA sedie\u0165 za jedn\xFDm stolom."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -10678,8 +10687,8 @@
   position: docent
   field: "podnikov\xE1 ekonomika"
   pribeh: "Rizik\xE1m mal\xFDch firiem v \u017Diline d\xE1va meno aj \u010D\xEDslo:\
-    \ ke\u010F MSP k\xFDchne, on u\u017E vie, \u010Di to je n\xE1dcha, alebo chr\xED\
-    pka trhu."
+    \ ke\u010F mal\xFD \u010Di stredn\xFD podnik k\xFDchne, on u\u017E vie, \u010D\
+    i to je n\xE1dcha, alebo chr\xEDpka trhu."
   affiliation: "\u017Dilinsk\xE1 univerzita"
   city: "\u017Dilina"
   country: Slovensko
@@ -11207,9 +11216,9 @@
   sex: "mu\u017E"
   position: profesor
   field: "krajinn\xE1 ekol\xF3gia"
-  pribeh: "Krajinu na UKF sklad\xE1 do m\xE1p zmien a slu\u017Eieb tak, \u017Ee aj\
-    \ \xFAhor dostane adresu \u2014 krajinn\xE1 ekol\xF3gia s rektorsk\xFDm rozh\u013E\
-    adom."
+  pribeh: "Krajinu na Univerzite Kon\u0161tant\xEDna Filozofa v Nitre sklad\xE1 do\
+    \ m\xE1p zmien a slu\u017Eieb tak, \u017Ee aj \xFAhor dostane adresu: krajinn\xE1\
+    \ ekol\xF3gia s rektorsk\xFDm rozh\u013Eadom."
   affiliation: "Univerzita Kon\u0161tant\xEDna Filozofa"
   city: Nitra
   country: Slovensko
@@ -11303,8 +11312,8 @@
   sex: "mu\u017E"
   position: docent
   field: "metabolick\xE9 MR zobrazovanie"
-  pribeh: "V Oxforde zobrazuje metabolizmus svalu MR: energia bunky u\u0148ho vidno,\
-    \ nielen tu\u0161i\u0165 z lakt\xE1tu."
+  pribeh: "V Oxforde zobrazuje metabolizmus svalu magnetickou rezonanciou: energia\
+    \ bunky u\u0148ho vidno, nielen tu\u0161i\u0165 z lakt\xE1tu."
   affiliation: University of Oxford
   city: Oxford
   country: "Ve\u013Ek\xE1 Brit\xE1nia"
@@ -11623,8 +11632,8 @@
   sex: "mu\u017E"
   position: docent
   field: "onkohematol\xF3gia"
-  pribeh: "Onkohematol\xF3gia v NO\xDA: leuk\xE9mie lie\u010Di s pokojom, ktor\xFD\
-    \ pacientovi vr\xE1ti kalend\xE1r."
+  pribeh: "Onkohematol\xF3gia v N\xE1rodnom onkologickom \xFAstave: leuk\xE9mie lie\u010D\
+    i s pokojom, ktor\xFD pacientovi vr\xE1ti kalend\xE1r."
   affiliation: "N\xE1rodn\xFD onkologick\xFD \xFAstav"
   city: Bratislava
   country: Slovensko
@@ -11770,9 +11779,9 @@
   sex: "mu\u017E"
   position: profesor
   field: "technol\xF3gia buni\u010D\xEDn a lignocelul\xF3zy"
-  pribeh: "Z Ru\u017Eomberka na FCHPT u\u010D\xED buni\u010Dinu, ako ob\xEDs\u0165\
-    \ lign\xEDn so c\u0165ou \u2014 technol\xF3gia dreva, kde aj celul\xF3za m\xE1\
-    \ kari\xE9rny pl\xE1n."
+  pribeh: "Z Ru\u017Eomberka na chemick\xFA fakultu STU u\u010D\xED buni\u010Dinu,\
+    \ ako ob\xEDs\u0165 lign\xEDn so c\u0165ou: technol\xF3gia dreva, kde aj celul\xF3\
+    za m\xE1 kari\xE9rny pl\xE1n."
   affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
@@ -11825,8 +11834,8 @@
   sex: "mu\u017E"
   position: docent
   field: "kvantitat\xEDvne muskuloskelet\xE1lne MRI"
-  pribeh: "Vo Viedni meria k\u013Aby a chrupavky MRI tak, aby pohybov\xFD apar\xE1\
-    t prezradil \xFAnavu sk\xF4r ne\u017E \u0161portovec."
+  pribeh: "Vo Viedni meria k\u013Aby a chrupavky magnetickou rezonanciou tak, aby\
+    \ pohybov\xFD apar\xE1t prezradil \xFAnavu sk\xF4r ne\u017E \u0161portovec."
   affiliation: Medical University of Vienna
   city: "Viede\u0148"
   country: "Rak\xFAsko"
@@ -12739,8 +12748,9 @@
   sex: "\u017Eena"
   position: "vedky\u0148a"
   field: "nanomateri\xE1ly a rtg. multivrstvy"
-  pribeh: "R\xF6ntgenov\xE9 multivrstvy na F\xDA SAV: vrstvy, ktor\xE9 svetlo odr\xE1\
-    \u017Eaj\xFA pod\u013Ea pl\xE1nu, nie pod\u013Ea n\xE1lady naparova\u010Da."
+  pribeh: "R\xF6ntgenov\xE9 multivrstvy na Fyzik\xE1lnom \xFAstave SAV: vrstvy, ktor\xE9\
+    \ svetlo odr\xE1\u017Eaj\xFA pod\u013Ea pl\xE1nu, nie pod\u013Ea n\xE1lady naparova\u010D\
+    a."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
   city: Bratislava
   country: Slovensko
@@ -13052,8 +13062,8 @@
   sex: "mu\u017E"
   position: "ved\xFAci t\xEDmu"
   field: "bioelektrodynamika a biofot\xF3nika"
-  pribeh: "Na AV \u010CR meria nano\u0161ibk\xE9 elektrick\xE9 a sveteln\xE9 sign\xE1\
-    ly buniek \u2014 bioelektrodynamika bez ezoterick\xE9ho oparu."
+  pribeh: "Na Akad\xE9mii vied \u010Ceskej republiky meria nano\u0161ibk\xE9 elektrick\xE9\
+    \ a sveteln\xE9 sign\xE1ly buniek: bioelektrodynamika bez ezoterick\xE9ho oparu."
   affiliation: "\xDAstav fotoniky a elektroniky AV \u010CR"
   city: Praha
   country: "\u010Cesko"
@@ -13132,8 +13142,9 @@
   sex: "mu\u017E"
   position: "emeritn\xFD profesor"
   field: fyzika povrchov
-  pribeh: "Povrchy a NMR sacharidov: cukor u\u0148ho prezrad\xED tvar, e\u0161te k\xFD\
-    m ho jazyk stihne pomenova\u0165 sladk\xFDm."
+  pribeh: "Povrchy a nukle\xE1rna magnetick\xE1 rezonancia sacharidov: cukor u\u0148\
+    ho prezrad\xED tvar, e\u0161te k\xFDm ho jazyk stihne pomenova\u0165 sladk\xFD\
+    m."
   affiliation: "CY Cergy Paris Universit\xE9"
   city: Cergy
   country: "Franc\xFAzsko"
@@ -13618,8 +13629,8 @@
   sex: "mu\u017E"
   position: profesor
   field: "potravin\xE1rska mikrobiol\xF3gia"
-  pribeh: "Na FCHPT u\u010D\xED potravin\xE1rske mikr\xF3by slu\u0161n\xE9mu spr\xE1\
-    vaniu: ferment\xE1cia s bezpe\u010Dnostnou brzdou."
+  pribeh: "Na chemickej fakulte STU u\u010D\xED potravin\xE1rske mikr\xF3by slu\u0161\
+    n\xE9mu spr\xE1vaniu: ferment\xE1cia s bezpe\u010Dnostnou brzdou."
   affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
