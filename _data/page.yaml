@@ -563,11 +563,9 @@ fields:
   - 33
   - 93
   - 34
-  - 31
   - 52
   - 36
   - 33
-  - 42
   - 30
   - 33
   - 50
@@ -625,11 +623,11 @@ fields:
   - 65
   - 79
   - 44
+  - 31
   - 44
   - 46
   - 261
   - 30
-  - 50
   - 73
   - 30
   - 46
@@ -639,6 +637,7 @@ fields:
   - 240
   - 42
   - 30
+  - 42
   - 37
   - 200
   - 35
@@ -651,7 +650,6 @@ fields:
   - 63
   - 68
   - 42
-  - 33
   - 37
   - 41
   - 36
@@ -750,6 +748,7 @@ fields:
   - 41
   - 53
   - 32
+  - 50
   - 46
   - 45
   - 36
@@ -759,7 +758,6 @@ fields:
   - 35
   - 30
   - 47
-  - 32
   - 34
   - 32
   - 61
@@ -768,6 +766,7 @@ fields:
   - 41
   - 44
   - 32
+  - 33
   - 52
   - 46
   - 53
@@ -786,7 +785,6 @@ fields:
   - 40
   - 62
   - 53
-  - 36
   - 37
   - 39
   - 30
@@ -833,6 +831,7 @@ fields:
   - 66
   - 49
   - 32
+  - 32
   - 77
   - 33
   - 51
@@ -867,6 +866,7 @@ fields:
   - 76
   - 52
   - 34
+  - 36
   - 37
   - 50
   - 36
@@ -1044,8 +1044,9 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ magnetizmu',area:'fyzika'},{x:1974,y:42,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
   \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1959,y:42,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
-  \ Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:komplexne_systemy:muz',field:'komplexn\xE9\
-  \ syst\xE9my',area:'informatika'},{x:1961,y:42,name:'Igor Podlubn\xFD',id:'Podlubny:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
+  \ Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:fyzika_komplexnych_systemov:muz',field:'fyzika\
+  \ komplexn\xFDch syst\xE9mov',area:'fyzika'},{x:1961,y:42,name:'Igor Podlubn\xFD\
+  ',id:'Podlubny:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
   \ matematika',area:'matematika'},{x:1955,y:42,name:'Katar\xEDna \u0160ebekov\xE1\
   ',id:'Sebekova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:interna_medicina:zena',field:'intern\xE1\
   \ medic\xEDna',area:'medic\xEDna'},{x:1983,y:42,name:'\u013Dubom\xEDr \u0160vorc',id:'Svorc:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:analyticka_chemia:muz',field:'analytick\xE1\
@@ -1112,8 +1113,8 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ry',id:'Gomory:Slovensko:Slovenska_akademia_vied:Bratislava:docent:supravodice:muz',field:'supravodi\u010D\
   e',area:'fyzika'},{x:1977,y:36,name:'Martin Kahanec',id:'Kahanec:Rakusko:Central_European_University:Vieden:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1994,y:36,name:'Lenka Koklesov\xE1\
-  ',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:chemoprevencia_rakoviny_prsnika:zena',field:'chemoprevencia\
-  \ rakoviny prsn\xEDka',area:'ch\xE9mia'},{x:1959,y:36,name:'\u013Dubica Lacinov\xE1\
+  ',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:preventivna_onkologia:zena',field:'prevent\xED\
+  vna onkol\xF3gia',area:'medic\xEDna'},{x:1959,y:36,name:'\u013Dubica Lacinov\xE1\
   ',id:'Lacinova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1953,y:36,name:'Du\u0161\
   an Pla\u0161ienka',id:'Plasienka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1964,y:35,name:'Da\u0161a \u010C\xED\u017Ekov\xE1',id:'Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena',field:'neuroimunol\xF3\
@@ -1197,8 +1198,8 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'geovedy'},{x:1954,y:31,name:'Jozef \u0160ir\xE1\u0148',id:'Siran:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:algebraicka_teoria_grafov:muz',field:'algebraick\xE1\
   \ te\xF3ria grafov',area:'matematika'},{x:1976,y:31,name:'Tom\xE1\u0161 Tak\xE1\u010D\
   ',id:'Takac:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:profesor:rastlinna_biochemia:muz',field:'rastlinn\xE1\
-  \ bioch\xE9mia',area:'biol\xF3gia'},{x:1977,y:31,name:'M\xE1rio Ziman',id:'Ziman:Slovensko:Slovenska_akademia_vied:Bratislava:docent:kvantova_informacia:muz',field:'kvantov\xE1\
-  \ inform\xE1cia',area:'informatika'},{x:1957,y:30,name:'Albert Breier',id:'Breier:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
+  \ bioch\xE9mia',area:'biol\xF3gia'},{x:1977,y:31,name:'M\xE1rio Ziman',id:'Ziman:Slovensko:Slovenska_akademia_vied:Bratislava:docent:kvantova_fyzika:muz',field:'kvantov\xE1\
+  \ fyzika',area:'fyzika'},{x:1957,y:30,name:'Albert Breier',id:'Breier:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:biochemia:muz',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1955,y:30,name:'Peter Cifra',id:'Cifra:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:fyzika_polymerov:muz',field:'fyzika\
   \ polym\xE9rov',area:'fyzika'},{x:1983,y:30,name:'Michal Cifra',id:'Cifra:Cesko:Ceska_akademia_vied:Praha:veduci_timu:bioelektrodynamika_a_biofotonika:muz',field:'bioelektrodynamika\
   \ a biofot\xF3nika',area:'fyzika'},{x:1949,y:30,name:'Mari\xE1n Fabi\xE1n',id:'Fabian:Cesko:Ceska_akademia_vied:Praha:profesor:funkcionalna_analyza:muz',field:'funkcion\xE1\
@@ -1225,11 +1226,11 @@ affiliationCount: '[76,61,20,11,9,9,9,9,8,7,5,5,4,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','in\u017Einierstvo','ekon\xF3\
   mia a mana\u017Ement','geovedy','informatika','matematika','materi\xE1ly','umel\xE1\
   \ inteligencia','spolo\u010Densk\xE9 vedy']"
-odborCount: '[86,70,60,59,23,21,21,18,16,16,11,10]'
+odborCount: '[88,70,60,59,23,21,21,16,16,16,11,10]'
 odborMin: '[30,30,30,30,30,30,30,30,30,30,36,30]'
-odborAvg: '[50.0,59.7,41.3,43.3,41.7,38.2,41.8,46.0,37.9,41.6,50.2,41.6]'
+odborAvg: '[49.6,59.6,41.6,43.3,41.7,38.2,41.8,47.2,37.9,41.6,50.2,41.6]'
 odborMax: '[110,274,66,107,74,56,92,95,82,58,80,56]'
-odborMedian: '[46.0,42.5,39.0,37.0,36.0,36.0,37.0,39.5,34.5,40.5,45.0,38.5]'
+odborMedian: '[44.5,42.0,39.5,37.0,36.0,36.0,37.0,39.5,34.5,40.5,45.0,38.5]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''inzinierstvo'',''ekonomia_a_manazment'',''geovedy'',''informatika'',''matematika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1270,6 +1271,8 @@ odbor_key:
   - "patol\xF3gia"
   - "po\u010D\xEDta\u010Dom podporovan\xFD v\xFDvoj lie\u010Div"
   - "potravin\xE1rska mikrobiol\xF3gia"
+  - "prevent\xEDvna onkol\xF3gia"
+  - "probiotik\xE1 a klinick\xE1 v\xFD\u017Eiva"
   - "r\xE1diol\xF3gia"
   - "reproduk\u010Dn\xE9 zdravie"
   - "reumatol\xF3gia"
@@ -1288,6 +1291,7 @@ odbor_key:
   - "elektr\xF3nov\xE1 a plazmov\xE1 fyzika"
   - fotovoltaika
   - "fyzika \u010Dast\xEDc"
+  - "fyzika komplexn\xFDch syst\xE9mov"
   - "fyzika kondenzovan\xFDch l\xE1tok"
   - fyzika magnetizmu
   - "fyzika m\xE4kk\xFDch l\xE1tok"
@@ -1318,8 +1322,8 @@ odbor_key:
   - "aromatick\xE1 ch\xE9mia"
   - "bioanorganick\xE1 ch\xE9mia"
   - "bioch\xE9mia"
+  - "bioelektroch\xE9mia"
   - "biopolym\xE9ry"
-  - "chemoprevencia rakoviny prsn\xEDka"
   - "elektroch\xE9mia"
   - "environment\xE1lna ch\xE9mia"
   - "enzymol\xF3gia"
@@ -1335,9 +1339,9 @@ odbor_key:
   - "medicin\xE1lna ch\xE9mia"
   - "membr\xE1ny"
   - "modifik\xE1cia polym\xE9rov"
+  - "NMR spektroskopia v ch\xE9mii a biol\xF3gii"
   - "organick\xE1 ch\xE9mia"
   - "polym\xE9rna ch\xE9mia"
-  - "probiotik\xE1 a klinick\xE1 bioch\xE9mia"
   - "technol\xF3gia buni\u010D\xEDn a lignocelul\xF3zy"
   - "teoretick\xE1 ch\xE9mia"
   - "v\xFDpo\u010Dtov\xE1 ch\xE9mia"
@@ -1436,8 +1440,6 @@ odbor_key:
   - "geovizualiz\xE1cia"
   - "grafov\xE9 algoritmy"
   - "komplexn\xE9 a adapt\xEDvne syst\xE9my"
-  - "komplexn\xE9 syst\xE9my"
-  - "kvantov\xE1 inform\xE1cia"
   - "po\u010D\xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia"
   - programovacie jazyky
   - "teoretick\xE1 informatika"
@@ -1680,7 +1682,7 @@ record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_Univer
 conn_areas:
 - label: "medic\xEDna"
   url: medicina
-  count: 86
+  count: 88
   members:
   - &id243
     name: "Jozef G\xE9cz"
@@ -2672,6 +2674,21 @@ conn_areas:
     affiliationurl: Medical_College_of_Wisconsin
     cityurl: Milwaukee
     countryurl: USA
+  - &id114
+    name: "Lenka Koklesov\xE1"
+    last: Koklesova
+    hindex: 36
+    field: "prevent\xEDvna onkol\xF3gia"
+    area: "medic\xEDna"
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Martin
+    country: Slovensko
+    img: Lenka_Koklesova_size_280px.jpg
+    card_id: Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:preventivna_onkologia:zena
+    areaurl: medicina
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Martin
+    countryurl: Slovensko
   - &id351
     name: Roman Mezencev
     last: Mezencev
@@ -2867,6 +2884,21 @@ conn_areas:
     affiliationurl: Narodny_onkologicky_ustav
     cityurl: Bratislava
     countryurl: Slovensko
+  - &id388
+    name: "Iveta Garaiov\xE1"
+    last: Garaiova
+    hindex: 32
+    field: "probiotik\xE1 a klinick\xE1 v\xFD\u017Eiva"
+    area: "medic\xEDna"
+    affiliation: Cultech Ltd.
+    city: Port Talbot
+    country: "Ve\u013Ek\xE1 Brit\xE1nia"
+    img: Iveta_Garaiova_size_280px.jpg
+    card_id: Garaiova:Velka_Britania:Cultech_Ltd.:Port_Talbot:vedkyna:probiotika_a_klinicka_vyziva:zena
+    areaurl: medicina
+    affiliationurl: Cultech_Ltd.
+    cityurl: Port_Talbot
+    countryurl: Velka_Britania
   - &id224
     name: "Vladim\xEDr Jur\xE1\u0161"
     last: Juras
@@ -3351,21 +3383,6 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
-  - &id384
-    name: "Du\u0161an Uhr\xEDn"
-    last: Uhrin
-    hindex: 50
-    field: "nukle\xE1rna magnetick\xE1 rezonancia"
-    area: fyzika
-    affiliation: University of Edinburgh
-    city: Edinburgh
-    country: "Ve\u013Ek\xE1 Brit\xE1nia"
-    img: Dusan_Uhrin_size_280px.jpg
-    card_id: Uhrin:Velka_Britania:University_of_Edinburgh:Edinburgh:profesor:nuklearna_magneticka_rezonancia:muz
-    areaurl: fyzika
-    affiliationurl: University_of_Edinburgh
-    cityurl: Edinburgh
-    countryurl: Velka_Britania
   - &id091
     name: Tibor Hianik
     last: Hianik
@@ -3546,6 +3563,21 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
+  - &id172
+    name: "Milan Palu\u0161"
+    last: Palus
+    hindex: 42
+    field: "fyzika komplexn\xFDch syst\xE9mov"
+    area: fyzika
+    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
+    city: Praha
+    country: "\u010Cesko"
+    img: Milan_Palus_size_280px.jpg
+    card_id: Palus:Cesko:Ceska_akademia_vied:Praha:vedec:fyzika_komplexnych_systemov:muz
+    areaurl: fyzika
+    affiliationurl: Ceska_akademia_vied
+    cityurl: Praha
+    countryurl: Cesko
   - &id287
     name: "J\xE1n Rusz"
     last: Rusz
@@ -3816,21 +3848,6 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id175
-    name: "Veronika Ostatn\xE1"
-    last: Ostatna
-    hindex: 33
-    field: biofyzika
-    area: fyzika
-    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
-    city: Brno
-    country: "\u010Cesko"
-    img: Veronika_Ostatna_size_280px.jpeg
-    card_id: Ostatna:Cesko:Ceska_akademia_vied:Brno:vedkyna:biofyzika:zena
-    areaurl: fyzika
-    affiliationurl: Ceska_akademia_vied
-    cityurl: Brno
-    countryurl: Cesko
   - &id294
     name: "Du\u0161an Chorv\xE1t"
     last: Chorvat
@@ -3935,6 +3952,21 @@ conn_areas:
     areaurl: fyzika
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
+    countryurl: Slovensko
+  - &id072
+    name: "M\xE1rio Ziman"
+    last: Ziman
+    hindex: 31
+    field: "kvantov\xE1 fyzika"
+    area: fyzika
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: Bratislava
+    country: Slovensko
+    img: Mario_Ziman_size_280px.jpg
+    card_id: Ziman:Slovensko:Slovenska_akademia_vied:Bratislava:docent:kvantova_fyzika:muz
+    areaurl: fyzika
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
     countryurl: Slovensko
   - &id176
     name: Michal Cifra
@@ -4240,6 +4272,21 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
+  - &id384
+    name: "Du\u0161an Uhr\xEDn"
+    last: Uhrin
+    hindex: 50
+    field: "NMR spektroskopia v ch\xE9mii a biol\xF3gii"
+    area: "ch\xE9mia"
+    affiliation: University of Edinburgh
+    city: Edinburgh
+    country: "Ve\u013Ek\xE1 Brit\xE1nia"
+    img: Dusan_Uhrin_size_280px.jpg
+    card_id: Uhrin:Velka_Britania:University_of_Edinburgh:Edinburgh:profesor:NMR_spektroskopia_v_chemii_a_biologii:muz
+    areaurl: chemia
+    affiliationurl: University_of_Edinburgh
+    cityurl: Edinburgh
+    countryurl: Velka_Britania
   - &id340
     name: Michal Bajdich
     last: Bajdich
@@ -4585,21 +4632,6 @@ conn_areas:
     affiliationurl: Ceska_akademia_vied
     cityurl: Praha
     countryurl: Cesko
-  - &id114
-    name: "Lenka Koklesov\xE1"
-    last: Koklesova
-    hindex: 36
-    field: "chemoprevencia rakoviny prsn\xEDka"
-    area: "ch\xE9mia"
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Martin
-    country: Slovensko
-    img: Lenka_Koklesova_size_280px.jpg
-    card_id: Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:chemoprevencia_rakoviny_prsnika:zena
-    areaurl: chemia
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Martin
-    countryurl: Slovensko
   - &id043
     name: "Jaroslav Mosn\xE1\u010Dek"
     last: Mosnacek
@@ -4750,21 +4782,21 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id388
-    name: "Iveta Garaiov\xE1"
-    last: Garaiova
-    hindex: 32
-    field: "probiotik\xE1 a klinick\xE1 bioch\xE9mia"
+  - &id175
+    name: "Veronika Ostatn\xE1"
+    last: Ostatna
+    hindex: 33
+    field: "bioelektroch\xE9mia"
     area: "ch\xE9mia"
-    affiliation: Cultech Ltd.
-    city: Port Talbot
-    country: "Ve\u013Ek\xE1 Brit\xE1nia"
-    img: Iveta_Garaiova_size_280px.jpg
-    card_id: Garaiova:Velka_Britania:Cultech_Ltd.:Port_Talbot:vedkyna:probiotika_a_klinicka_biochemia:zena
+    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
+    city: Brno
+    country: "\u010Cesko"
+    img: Veronika_Ostatna_size_280px.jpeg
+    card_id: Ostatna:Cesko:Ceska_akademia_vied:Brno:vedkyna:bioelektrochemia:zena
     areaurl: chemia
-    affiliationurl: Cultech_Ltd.
-    cityurl: Port_Talbot
-    countryurl: Velka_Britania
+    affiliationurl: Ceska_akademia_vied
+    cityurl: Brno
+    countryurl: Cesko
   - &id150
     name: "Michal Jablonsk\xFD"
     last: Jablonsky
@@ -6808,7 +6840,7 @@ conn_areas:
     countryurl: Slovensko
 - label: informatika
   url: informatika
-  count: 18
+  count: 16
   members:
   - &id333
     name: "Kl\xE1ra Nahrstedt"
@@ -6915,21 +6947,6 @@ conn_areas:
     affiliationurl: Simon_Fraser_University
     cityurl: Surrey
     countryurl: Kanada
-  - &id172
-    name: "Milan Palu\u0161"
-    last: Palus
-    hindex: 42
-    field: "komplexn\xE9 syst\xE9my"
-    area: informatika
-    affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
-    city: Praha
-    country: "\u010Cesko"
-    img: Milan_Palus_size_280px.jpg
-    card_id: Palus:Cesko:Ceska_akademia_vied:Praha:vedec:komplexne_systemy:muz
-    areaurl: informatika
-    affiliationurl: Ceska_akademia_vied
-    cityurl: Praha
-    countryurl: Cesko
   - &id260
     name: "Juraj Hromkovi\u010D"
     last: Hromkovic
@@ -7050,21 +7067,6 @@ conn_areas:
     affiliationurl: The_University_of_Melbourne
     cityurl: Melbourne
     countryurl: Australia
-  - &id072
-    name: "M\xE1rio Ziman"
-    last: Ziman
-    hindex: 31
-    field: "kvantov\xE1 inform\xE1cia"
-    area: informatika
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: Bratislava
-    country: Slovensko
-    img: Mario_Ziman_size_280px.jpg
-    card_id: Ziman:Slovensko:Slovenska_akademia_vied:Bratislava:docent:kvantova_informacia:muz
-    areaurl: informatika
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id264
     name: "Peter Bod\xEDk"
     last: Bodik

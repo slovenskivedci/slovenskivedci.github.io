@@ -79,6 +79,7 @@ FIELD_GROUPS = [
 		'tkanivov',
 		'toxikol', 'hygien', 'fyziologia', 'imun', 'genetik',
 		'androlog',
+		'probiot',  # probiotic clinical trials; must beat 'vyziva' (biológia)
 	]),
 	('biológia', [
 		'ochrana les', 'genomik', 'genomov', 'pre-mrna', 'splicing',

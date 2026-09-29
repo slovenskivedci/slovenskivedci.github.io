@@ -2303,8 +2303,6 @@
   fieldurl: lekarska_fyzika
   area: "medic\xEDna"
   areaurl: medicina
-  area2: fyzika
-  area2url: fyzika
   positionurl: docent
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
@@ -4209,7 +4207,7 @@
   year: ''
   sex: "mu\u017E"
   position: profesor
-  field: "nukle\xE1rna magnetick\xE1 rezonancia"
+  field: "NMR spektroskopia v ch\xE9mii a biol\xF3gii"
   pribeh: "V Edinburghu sklad\xE1 nukle\xE1rnu magnetick\xFA rezonanciu ako partit\xFA\
     ru: molekula mus\xED spieva\u0165 v\u0161etky v\xE4zby, nielen refr\xE9n."
   affiliation: University of Edinburgh
@@ -4228,11 +4226,11 @@
   img: Dusan_Uhrin_size_280px.jpg
   update_status: UPDATED
   countryurl: Velka_Britania
-  fieldurl: nuklearna_magneticka_rezonancia
-  area: fyzika
-  areaurl: fyzika
-  area2: "ch\xE9mia"
-  area2url: chemia
+  fieldurl: NMR_spektroskopia_v_chemii_a_biologii
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: "biol\xF3gia"
+  area2url: biologia
   positionurl: profesor
   affiliationurl: University_of_Edinburgh
   cityurl: Edinburgh
@@ -6295,7 +6293,7 @@
   year: 1963
   sex: "mu\u017E"
   position: vedec
-  field: "komplexn\xE9 syst\xE9my"
+  field: "fyzika komplexn\xFDch syst\xE9mov"
   pribeh: "V Prahe h\u013Ead\xE1 poriadok v chaose \u010Dasov\xFDch radov: komplexita,\
     \ ktor\xE1 vie, kedy je srdce aj kl\xEDma nespojit\xE1 piese\u0148."
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
@@ -6316,11 +6314,9 @@
   img: Milan_Palus_size_280px.jpg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: komplexne_systemy
-  area: informatika
-  areaurl: informatika
-  area2: fyzika
-  area2url: fyzika
+  fieldurl: fyzika_komplexnych_systemov
+  area: fyzika
+  areaurl: fyzika
   positionurl: vedec
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
@@ -7890,8 +7886,6 @@
   fieldurl: dopravnikova_technika_a_logistika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
-  area2: "ekon\xF3mia a mana\u017Ement"
-  area2url: ekonomia_a_manazment
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Kosice
@@ -9181,7 +9175,7 @@
   year: 1994
   sex: "\u017Eena"
   position: "odborn\xE1 asistentka"
-  field: "chemoprevencia rakoviny prsn\xEDka"
+  field: "prevent\xEDvna onkol\xF3gia"
   pribeh: "V Martine h\u013Ead\xE1, ako jedlo a molekuly chr\xE1nia prsn\xEDk: chemoprevencia\
     \ s laborat\xF3riom namiesto m\xFDtu."
   affiliation: "Univerzita Komensk\xE9ho"
@@ -9197,11 +9191,9 @@
     - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/SK/koklesova5.uniba.sk.html
   img: Lenka_Koklesova_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: chemoprevencia_rakoviny_prsnika
-  area: "ch\xE9mia"
-  areaurl: chemia
-  area2: "medic\xEDna"
-  area2url: medicina
+  fieldurl: preventivna_onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
   positionurl: odborna_asistentka
   affiliationurl: Univerzita_Komenskeho
   cityurl: Martin
@@ -10323,8 +10315,6 @@
   fieldurl: rurove_dopravniky_a_logistika
   area: "in\u017Einierstvo"
   areaurl: inzinierstvo
-  area2: "ekon\xF3mia a mana\u017Ement"
-  area2url: ekonomia_a_manazment
   positionurl: profesor
   affiliationurl: Technicka_univerzita_v_Kosiciach
   cityurl: Presov
@@ -11112,8 +11102,6 @@
   fieldurl: fyzika_kondenzovanych_latok
   area: fyzika
   areaurl: fyzika
-  area2: "materi\xE1ly"
-  area2url: materialy
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -11306,7 +11294,7 @@
   year: ''
   sex: "\u017Eena"
   position: "vedky\u0148a"
-  field: biofyzika
+  field: "bioelektroch\xE9mia"
   pribeh: "V Brne meria prote\xEDny na elektr\xF3de: biofyzika, ktor\xE1 denatur\xE1\
     cii d\xE1va voltamp\xE9rov\xFD podpis."
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
@@ -11329,11 +11317,9 @@
   img: Veronika_Ostatna_size_280px.jpeg
   update_status: UPDATED
   countryurl: Cesko
-  fieldurl: biofyzika
-  area: fyzika
-  areaurl: fyzika
-  area2: "ch\xE9mia"
-  area2url: chemia
+  fieldurl: bioelektrochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
   positionurl: vedkyna
   affiliationurl: Ceska_akademia_vied
   cityurl: Brno
@@ -11854,7 +11840,7 @@
   year: ''
   sex: "\u017Eena"
   position: "vedky\u0148a"
-  field: "probiotik\xE1 a klinick\xE1 bioch\xE9mia"
+  field: "probiotik\xE1 a klinick\xE1 v\xFD\u017Eiva"
   pribeh: "Probiotik\xE1 berie v\xE1\u017Ene ako liek: bakt\xE9rie u nej nie s\xFA\
     \ m\xF3da, ale klinick\xE1 biochemia v jogurtovom prestrojen\xED."
   affiliation: Cultech Ltd.
@@ -11870,11 +11856,9 @@
     - https://cultech.co.uk/about-us
   img: Iveta_Garaiova_size_280px.jpg
   countryurl: Velka_Britania
-  fieldurl: probiotika_a_klinicka_biochemia
-  area: "ch\xE9mia"
-  areaurl: chemia
-  area2: "medic\xEDna"
-  area2url: medicina
+  fieldurl: probiotika_a_klinicka_vyziva
+  area: "medic\xEDna"
+  areaurl: medicina
   positionurl: vedkyna
   affiliationurl: Cultech_Ltd.
   cityurl: Port_Talbot
@@ -13078,7 +13062,7 @@
   year: 1977
   sex: "mu\u017E"
   position: docent
-  field: "kvantov\xE1 inform\xE1cia"
+  field: "kvantov\xE1 fyzika"
   pribeh: "Kvantov\xFA inform\xE1ciu na SAV preklad\xE1 do protokolov, v ktor\xFD\
     ch sa bit aj qubit musia spr\xE1va\u0165 slu\u0161ne."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
@@ -13096,11 +13080,9 @@
     - files/cv_Mario_Ziman_2026.pdf
   img: Mario_Ziman_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: kvantova_informacia
-  area: informatika
-  areaurl: informatika
-  area2: fyzika
-  area2url: fyzika
+  fieldurl: kvantova_fyzika
+  area: fyzika
+  areaurl: fyzika
   positionurl: docent
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
@@ -13188,8 +13170,6 @@
   fieldurl: ekonometria
   area: "ekon\xF3mia a mana\u017Ement"
   areaurl: ekonomia_a_manazment
-  area2: matematika
-  area2url: matematika
   positionurl: vedec
   affiliationurl: Federal_Reserve_Bank_of_Dallas
   cityurl: Dallas
