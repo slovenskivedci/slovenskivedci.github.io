@@ -6,3 +6,11 @@ _site
 vendor
 config/conf.yaml
 .ipynb_checkpoints
+
+# Internal / private: keep local, never commit (untracked 2026-09-29)
+_people_held/
+_tmp_photos/
+_h30*.csv
+P.Richtarik-ChatGPT-*.zip
+/Untitled.ipynb
+/Tomas_Dado.yaml
