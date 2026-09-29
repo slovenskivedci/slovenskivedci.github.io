@@ -414,13 +414,13 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px">Mená červenou farbou na hárku označujú zakladateľov línií, teda prvých slovenských matematikov v danej vetve, ktorých školiteľ je zo zahraničia alebo nie je známy: bez filtra deviatich najväčších, s filtrom tých, ktorí mu vyhovujú. Filter vyberá línie podľa štúdia zakladateľa (alma mater), krajiny a inštitúcie jeho doktorátu, obdobia a veľkosti línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
+        <p class="fine" style="margin-top:12px">Mená červenou farbou na hárku označujú zakladateľov línií s aspoň 10 akademickými potomkami. Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. S filtrom sa popíšu aj menší zakladatelia, ktorí mu vyhovujú. Filter vyberá línie podľa štúdia zakladateľa (alma mater), krajiny a inštitúcie jeho doktorátu, obdobia a veľkosti línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Kliknite na meno alebo na ľubovoľnú bodku a otvorí sa rodokmeň danej osoby.</p>
       </aside>
       <div class="stage" id="f-stage">
         <svg id="f-svg" role="img" aria-label="Kruhový graf slovenských matematických línií, kružnice označujú desaťročia"></svg>
         <div class="fchip" id="f-chip" hidden><span class="fchip-l">Filter</span><span id="f-chip-t"></span><button type="button">Zrušiť</button></div>
         <div class="legend" aria-hidden="true">
-          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie</span>
+          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (10+ potomkov)</span>
         </div>
       </div>
     </section>
@@ -927,10 +927,16 @@ const Forest=(()=>{
   function labels(){ // featured first (by h-index), then big founders; greedy collision avoidance
     gT.selectAll('*').remove(); const M=hot?new Set([hot]):match;
     const pool=M?nodes.filter(n=>M.has(n.root)):nodes;
-    const cand=pool.filter(n=>n.p.feat).sort((a,b)=>b.p.feat.h-a.p.feat.h).map(n=>({n,cls:n.depth===1?'flbl root':'flbl',t:n.p.name})); // a featured founder keeps the founder colour even outside the top roots
-    const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).sort((a,b)=>b.d-a.d).slice(0,M?40:9).map(o=>({n:o.n,cls:'flbl root',t:o.n.p.name}));
+    const big=n=>n.depth===1&&nDescOf(n.p)>=10; // red = founder of a lineage with at least 10 descendants
+    const cand=pool.filter(n=>n.p.feat).sort((a,b)=>b.p.feat.h-a.p.feat.h).map(n=>({n,cls:big(n)?'flbl root':'flbl',t:n.p.name}));
+    const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).filter(o=>o.d>=10||M).sort((a,b)=>b.d-a.d).slice(0,M?40:999).map(o=>({n:o.n,cls:o.d>=10?'flbl root':'flbl',t:o.n.p.name}));
     const placed=[];
-    for(const c of roots.concat(cand)){ const n=c.n; const f=c.cls.includes('root')?'600 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14; const right=Math.cos(n.x-Math.PI/2)>=-0.15; const x=right?n.px+8:n.px-8-w, y=n.py+4; const box=[x-2,y-hgt+2,x+w+2,y+4]; if(placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))) continue; placed.push(box); gT.append('text').attr('class',c.cls).attr('x',right?n.px+8:n.px-8).attr('y',y).attr('text-anchor',right?'start':'end').text(c.t); }
+    const done=new Set(), narrow=(svg.node().clientWidth||800)<600; // on phones keep labels outside the rings
+    for(const c of roots.concat(cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14; const side=Math.cos(n.x-Math.PI/2)>=-0.15;
+      // preferred side first, then nudged up/down, then the other side
+      const tries=[[side,0],[side,-10],[side,10]].concat(narrow?[]:[[!side,0],[!side,-10],[!side,10]]); let ok=null;
+      for(const [right,dy] of tries){ const x=right?n.px+8:n.px-8-w, y=n.py+4+dy; const box=[x-2,y-hgt+2,x+w+2,y+4]; if(!placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))){ ok={right,y,box}; break; } }
+      if(!ok) continue; placed.push(ok.box); done.add(n); gT.append('text').attr('class',c.cls).attr('x',ok.right?n.px+8:n.px-8).attr('y',ok.y).attr('text-anchor',ok.right?'start':'end').text(c.t); }
   }
   function applyFilter(){ if(!nodeSel) return; const M=hot?new Set([hot]):match; const off=n=>!!M&&!M.has(n.root);
     linkSel.classed('off',off); nodeSel.classed('off',off); fhSel.classed('off',off); labels(); }
