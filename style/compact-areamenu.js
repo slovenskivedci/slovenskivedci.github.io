@@ -72,6 +72,9 @@
     if (!menu()) return;
     orderMenu();
     var area = currentArea();
+    // First paint already shows the pre-selected oblasť (inline script in the menu
+    // include); don't flip it back to "všetci" before list-filters.js applies it.
+    if (initial === true && !area && window.SV.preArea) return;
     paint(area);
     // Random oblasť on the bare home URL (list-filters.js) stays out of the URL until
     // the visitor changes the oblasť; then ?area= is written as usual.

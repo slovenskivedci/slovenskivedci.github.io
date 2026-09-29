@@ -1,6 +1,53 @@
-<p class="sv-area-menu" role="group" aria-label="Oblasť">
-      <button type="button" class="sv-area-btn selected" data-area="" aria-pressed="true">všetci</button>
-      {% assign sv_areas = site.data.all | group_by: "area" | sort: "name" %}{% for g in sv_areas %}<span class="sex-dot" aria-hidden="true">·</span>
-      <button type="button" class="sv-area-btn" data-area="{{ g.items[0].areaurl }}" aria-pressed="false">{{ g.name }}</button>
+<p class="sv-area-menu" role="group" aria-label="Oblasť" data-sv-ordered="1">
+      <button type="button" class="sv-area-btn selected" data-area="" data-n="{{ site.data.all.size }}" aria-pressed="true">všetci</button>
+      {% for m in site.data.page.area_menu %}<span class="sex-dot" aria-hidden="true">·</span>
+      <button type="button" class="sv-area-btn" data-area="{{ m.url }}" data-n="{{ m.n }}" aria-pressed="false">{{ m.name }}</button>
       {% endfor %}
     </p>
+<script>
+/* Runs while the page is still parsing, before the first paint: pick the initial oblasť
+   (?area= or, on the bare home URL, a random one), highlight it, set the count and
+   pre-hide non-matching rows, so nothing jumps once list-filters.js runs. Order and
+   counts come pre-rendered from process.py (area_menu), so no JS re-build either. */
+(function () {
+  if (document.readyState !== "loading") return; // soft page swap: normal JS path
+  var SV = window.SV = window.SV || {};
+  var s = document.currentScript, m = s && s.previousElementSibling;
+  if (!m || !m.classList || !m.classList.contains("sv-area-menu")) return;
+  var params;
+  try { params = new URLSearchParams(window.location.search); } catch (e) { return; }
+  var keys = ["q", "country", "city", "field", "affiliation", "position", "sex"];
+  var others = false;
+  for (var i = 0; i < keys.length; i++) { if (params.has(keys[i])) others = true; }
+  var area = params.get("area") || "";
+  var path = window.location.pathname;
+  if (!area && !others && (path === "/" || path === "/index.html") && !(window.location.hash.length > 1)) {
+    var skip = false;
+    try { if (sessionStorage.getItem("svNoRandomOnce")) { sessionStorage.removeItem("svNoRandomOnce"); skip = true; } } catch (e) {}
+    if (!skip) {
+      var cand = m.querySelectorAll(".sv-area-btn[data-area]");
+      var list = [];
+      for (var j = 0; j < cand.length; j++) { if (cand[j].getAttribute("data-area")) list.push(cand[j].getAttribute("data-area")); }
+      if (list.length) { area = list[Math.floor(Math.random() * list.length)]; SV.preRandomArea = area; }
+    }
+  }
+  SV.preAreaDone = true;
+  if (!area || !/^[a-z0-9_]+$/.test(area)) return;
+  var btn = m.querySelector('.sv-area-btn[data-area="' + area + '"]');
+  if (!btn) return;
+  SV.preArea = area;
+  var bs = m.querySelectorAll(".sv-area-btn");
+  for (var k = 0; k < bs.length; k++) {
+    var on = bs[k] === btn;
+    bs[k].classList.toggle("selected", on);
+    bs[k].setAttribute("aria-pressed", on ? "true" : "false");
+  }
+  var c = document.getElementById("scientists-count");
+  if (c && !others && SV.totalScholars) c.innerHTML = "POČET VEDCOV: " + btn.getAttribute("data-n") + " /  " + SV.totalScholars + " ";
+  var st = document.createElement("style");
+  st.id = "sv-pre-area";
+  st.textContent = ".entry:not(.area-" + area + "){display:none!important}" +
+    "button.toggle-area-" + area + "{color:#444;background:#FFF4B8}"; // = .selected look
+  document.head.appendChild(st);
+})();
+</script>

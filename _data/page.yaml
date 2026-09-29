@@ -9319,3 +9319,40 @@ conn_countries:
   - *id411
 h_updated: 27. 9. 2026
 h_updated_iso: '2026-09-27'
+area_menu:
+- name: "biol\xF3gia"
+  url: biologia
+  n: 70
+- name: "ekon\xF3mia a mana\u017Ement"
+  url: ekonomia_a_manazment
+  n: 22
+- name: fyzika
+  url: fyzika
+  n: 75
+- name: geovedy
+  url: geovedy
+  n: 32
+- name: "ch\xE9mia"
+  url: chemia
+  n: 72
+- name: informatika
+  url: informatika
+  n: 21
+- name: "in\u017Einierstvo"
+  url: inzinierstvo
+  n: 27
+- name: matematika
+  url: matematika
+  n: 20
+- name: "materi\xE1ly"
+  url: materialy
+  n: 26
+- name: "medic\xEDna"
+  url: medicina
+  n: 108
+- name: "spolo\u010Densk\xE9 vedy"
+  url: spolocenske_vedy
+  n: 13
+- name: "umel\xE1 inteligencia"
+  url: umela_inteligencia
+  n: 14

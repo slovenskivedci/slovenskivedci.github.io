@@ -732,6 +732,22 @@ if _hu:
 	stats["h_updated_iso"] = _hu.isoformat()
 print("h_updated", stats.get("h_updated"))
 
+# Oblasť menu, rendered server-side in its final Slovak alphabetical order ("ch" after
+# "h") with per-area counts (primary or secondary area), so the menu never gets
+# re-built or re-counted by JS after the first paint (no visible blink).
+def _sk_key(s):
+	s = unicodedata.normalize('NFD', s.lower()).encode('ascii', 'ignore').decode()
+	return s.replace('ch', 'h\x7f')
+_menu = {}
+for person in alllst:
+	_menu.setdefault(person["area"], [person["area"], person["areaurl"], 0])
+for person in alllst:
+	for _a in (person["area"], person.get("area2")):
+		if _a and _a in _menu:
+			_menu[_a][2] += 1
+stats["area_menu"] = [{"name": n, "url": u, "n": c} for n, u, c in sorted(_menu.values(), key=lambda v: _sk_key(v[0]))]
+print("area_menu", [(m["name"], m["n"]) for m in stats["area_menu"]])
+
 with open(r'_data/page.yaml', 'w') as file:
 	documents = yaml.dump(stats, file)
  

@@ -308,6 +308,9 @@ window.SV.listFiltersBound = true;
 		}
 		if (changed) filter();
 		else randomAreaOnBareHome(params);
+		// Pre-paint row hiding from the inline menu script (sv-area-menu.html) is no
+		// longer needed once filter() has set the real visibility.
+		$("#sv-pre-area").remove();
 		scrollToHash();
 	  })();
 
@@ -318,6 +321,17 @@ window.SV.listFiltersBound = true;
 	  // the bare URL keeps randomizing. Compact list (/) only.
 	  function randomAreaOnBareHome(params){
 		try {
+		  if (window.SV.preAreaDone) {
+			// The inline script under the menu already decided (and painted) before first paint.
+			var pre = window.SV.preRandomArea;
+			if (!pre) return;
+			window.SV.randomAreaPending = pre;
+			$("#filter-area").html(pre);
+			$(".toggle-area").removeClass("selected");
+			$(".toggle-area-" + pre).addClass("selected");
+			filter();
+			return;
+		  }
 		  var path = window.location.pathname;
 		  if (path !== "/" && path !== "/index.html") return;
 		  if (window.location.hash && window.location.hash.length > 1) return;
