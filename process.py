@@ -697,8 +697,8 @@ print("conn areas", len(stats["conn_areas"]),
 	"cities", len(stats["conn_cities"]),
 	"countries", len(stats["conn_countries"]))
 
-# Date of the latest weekly (Sunday) h-index refresh, shown in the header as
-# "h-index >= 30 v Google Scholar · aktualizované D. M. YYYY".
+# Date of the latest weekly (Sunday) h-index refresh, shown in the footer as
+# "Aktualizované D. M. YYYY." (appended to the footer-maintainer line).
 # Two sources, take the later one:
 #  1) author date of the latest commit "cron: update H-values" (reliable history, but the
 #     Sunday routine commits AFTER running process.py, so on that run it is a week old);

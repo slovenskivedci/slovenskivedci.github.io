@@ -1513,7 +1513,7 @@ button.filter-link:focus-visible {
 
 /* === compact list: oblasť menu (všetci + oblasti) 2026-09-29 === */
 .sv-area-menu {
-  margin: 6px auto 0;
+  margin: 6px auto 14px;  /* breathing room above the list (/ and Podrobný) */
   padding: 0;
   max-width: 900px;
   font-size: 13px;
@@ -1575,3 +1575,10 @@ button.filter-link:focus-visible {
     white-space: nowrap !important;
   }
 }
+
+@media (max-width: 767px) {
+  .sv-area-menu { margin-bottom: 12px; }
+}
+
+/* Auto-dated weekly h-index refresh, moved from the header into the footer line. */
+.footer-updated { white-space: nowrap; color: #999; }
