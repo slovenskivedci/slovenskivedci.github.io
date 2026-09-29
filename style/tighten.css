@@ -1489,3 +1489,23 @@ button.filter-link:focus-visible {
 .footer-about-details .about-list-body + .about-list-body {
   margin-top: 6px !important;
 }
+
+
+
+/* === footer maintainer + contact line 2026-09-29 === */
+.footer-maintainer {
+  margin: 8px auto 0;
+  max-width: 42em;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #888;
+  text-align: center;
+}
+.footer-maintainer a {
+  color: #888;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-maintainer a:hover {
+  color: #1f4e79;
+}
