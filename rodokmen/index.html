@@ -158,6 +158,12 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .links a.fix::after{content:none}
 .textbtn{border:1px solid var(--rule);background:var(--surface);border-radius:9px;padding:7px 12px;cursor:pointer;font-weight:500}
 .textbtn:hover{border-color:var(--accent-edge);color:var(--accent-ink)}
+.printrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:14px 0 0;font-size:12.5px;color:var(--ink-3)}
+.printrow label{display:inline-flex;align-items:center;gap:6px}
+.printrow .popt{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.printrow select{font:inherit;color:var(--ink-2);background:var(--surface);border:1px solid var(--rule);border-radius:7px;padding:3px 4px}
+.printrow .textbtn[disabled]{opacity:.6;cursor:progress}
+.printrow .pst:empty{display:none}
 .more-note{font-size:12px;color:var(--ink-3);padding:8px 6px}
 
 /* svg */
@@ -939,6 +945,8 @@ function renderProfile(p){
   const nStud=Math.max(nStudOf(p),st.length), nDesc=nDescOf(p);
   const dp=deepest(p.id); const root=people.get(dp.root);
   const lineage=dp.g>0?`<p class="lineage">Najstarší zaznamenaný predok: <button type="button" data-go="${root.id}">${esc(root.name)}</button>${root.year?` (${root.year}${root.school?', '+esc(shortSchool(root.school)):''})`:''}, o <b>${dp.g}</b> ${pl(dp.g,'generáciu','generácie','generácií')} vyššie.</p>`:'';
+  const pCap=Math.max(1,dp.g), pDef=Math.min(14,pCap);
+  const printHtml=adv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}">Vytlačiť rodokmeň predkov</button><span class="popt"><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select></span><span class="pst" role="status"></span></div>`:'';
   const advHtml=adv.length||p.advText.length||missingAdv?`<h2 class="sec"><span>${adv.length+p.advText.length+missingAdv===1?'Školiteľ':'Školitelia'}</span><span>${adv.length+p.advText.length+missingAdv}</span></h2><ul class="rows">${adv.map(a=>personRow(a,undefined,edgeSrc(p.id,a))).join('')}${p.advText.map(t=>`<li><div class="row" style="cursor:default"><i class="dot"></i><span class="nm">${esc(t)}</span><span class="yr"></span><span class="sub">Uvedený na domovskej stránke, v databáze zatiaľ nie je.</span></div></li>`).join('')}</ul>${missingAdv?`<p class="more-note">Ďalší na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>, mimo tejto databázy: ${missingAdv}.</p>`:''}`:'';
   const stHtml=st.length?`<h2 class="sec"><span>Doktorandi</span><span>${st.length}${nStud>st.length?' z '+nf.format(nStud):''}</span></h2><ul class="rows">${st.map(s=>personRow(s,undefined,edgeSrc(s,p.id))).join('')}</ul>${nStud>st.length?`<p class="more-note">Zobrazení sú len doktorandi na ceste k slovenskému matematikovi. Všetkých ${nf.format(nStud)} nájdete na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>.</p>`:''}`:'';
   const links=[]; if(p.id>0) links.push(`<a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">Mathematics Genealogy Project</a>`);
@@ -954,11 +962,21 @@ function renderProfile(p){
     ${degs}
     ${eduHtml}
     ${lineage}
+    ${printHtml}
     ${advHtml}${stHtml}
     <div class="links">${links.join('')}<button type="button" class="textbtn" data-connect="${p.id}" style="margin-left:auto">Porovnať s…</button></div>`;
   el.scrollTop=0;
 }
-document.addEventListener('click',e=>{ const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
+/* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
+const PRINT_CTX={people,advisorsOf,deepest,isFemale,generated:DATA.generated};
+let printP=null;
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=1'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2';
+  btn.disabled=true; st.textContent='Pripravujem PDF…';
+  try{ const M=await loadPrint(); await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper}); st.textContent=''; }
+  catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; }
+  finally{ btn.disabled=false; } }
+document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]'); if(pr){ if(!pr.disabled) printTree(pr); return; } const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
 
 /* =========================================================
    LÍNIE (an expandable outline of all Slovak lineages: founders first, largest first;
