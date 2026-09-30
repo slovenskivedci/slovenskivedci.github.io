@@ -845,7 +845,7 @@ const Tree=(()=>{
   function layoutSide(side,sign){ const h=d3.hierarchy(side.root); d3.tree().nodeSize([ROWH,1]).separation((a,b)=>a.parent===b.parent?1:1.35)(h); const out=[]; h.each(n=>{ if(!n.depth) return; out.push({id:n.data.id,g:sign*n.depth,x:colX(sign*n.depth),y:n.x,parent:n.parent.data.id,side:sign<0?'up':'down'}); }); return out; }
 
   let dirty=true;
-  function focus(id){ if(!people.has(id)) return; const prev=focusId; if(prev!==id){ expUp.clear(); expDown.clear(); } focusId=id; if(!inited||current!=='tree'){ dirty=true; return; } renderProfile(people.get(id)); render(prev!=null&&prev!==id); }
+  function focus(id){ if(!people.has(id)) return; const prev=focusId; if(prev!==id){ expUp.clear(); expDown.clear(); } focusId=id; if(inited) syncSteppers(); if(!inited||current!=='tree'){ dirty=true; return; } renderProfile(people.get(id)); render(prev!=null&&prev!==id); }
   function ensure(){ if(!inited){ inited=true; if(mobile()){ up=1; down=1; } if(focusId==null) focusId=114295; syncSteppers(); dirty=true; } if(dirty){ dirty=false; renderProfile(people.get(focusId)); render(false); } else fit(false); }
 
   function render(animate){
@@ -912,8 +912,9 @@ const Tree=(()=>{
     const tr=d3.zoomIdentity.translate(vw/2-s*cx,vh/2-s*cy+4).scale(s);
     (animate&&!RM?svg.transition().duration(600).ease(d3.easeCubicInOut):svg).call(zoom.transform,tr);
   }
-  function syncSteppers(){ $('#upN').value=up; $('#downN').value=down; $('#upN').textContent=up; $('#downN').textContent=down; $('[data-act="up-"]').disabled=up<=0; $('[data-act="down-"]').disabled=down<=0; $('[data-act="up+"]').disabled=up>=12; $('[data-act="down+"]').disabled=down>=8; }
-  $('#t-stage .controls').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; const a=b.dataset.act; if(a==='fit'){ fit(true); return; } if(a==='up-') up=Math.max(0,up-1); if(a==='up+') up=Math.min(12,up+1); if(a==='down-') down=Math.max(0,down-1); if(a==='down+') down=Math.min(8,down+1); expUp.clear(); expDown.clear(); syncSteppers(); render(true); });
+  const upCap=()=>Math.max(12,focusId==null?0:deepest(focusId).g);
+  function syncSteppers(){ $('#upN').value=up; $('#downN').value=down; $('#upN').textContent=up; $('#downN').textContent=down; $('[data-act="up-"]').disabled=up<=0; $('[data-act="down-"]').disabled=down<=0; $('[data-act="up+"]').disabled=up>=upCap(); $('[data-act="down+"]').disabled=down>=8; }
+  $('#t-stage .controls').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; const a=b.dataset.act; if(a==='fit'){ fit(true); return; } if(a==='up-') up=Math.max(0,up-1); if(a==='up+') up=Math.min(upCap(),up+1); if(a==='down-') down=Math.max(0,down-1); if(a==='down+') down=Math.min(8,down+1); expUp.clear(); expDown.clear(); syncSteppers(); render(true); });
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current==='tree') fit(false); },150); });
   return {focus,ensure,current:()=>focusId};
 })();
