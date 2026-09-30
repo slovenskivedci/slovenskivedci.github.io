@@ -50,7 +50,7 @@ FIELD_GROUPS = [
 	('matematika', [
 		'funkcionalna analy', 'diferencialna geometr', 'diferencialna geom',
 		'teoria grafov', 'diferencialne rovnice', 'numericka matemat',
-		'aplikovana matemat', 'matemat',
+		'aplikovana matemat', 'teoria pravdepodobnosti', 'matemat',
 	]),
 	('informatika', [
 		'kvantova informac', 'distribuovane', 'bioinformatik',

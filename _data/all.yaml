@@ -9558,7 +9558,7 @@
   year: 1949
   sex: "mu\u017E"
   position: profesor
-  field: "matematick\xE1 logika"
+  field: "te\xF3ria pravdepodobnosti"
   pribeh: "Kvantov\xE9 logiky a mnohohodnotov\xE9 algebry: matematika, v ktorej \u201E\
     \xE1no a nie\u201C sm\xFA sedie\u0165 za jedn\xFDm stolom."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
@@ -9586,7 +9586,7 @@
   img: Anatolij_Dvurecenskij_size_280px.jpeg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: matematicka_logika
+  fieldurl: teoria_pravdepodobnosti
   area: matematika
   areaurl: matematika
   positionurl: profesor
