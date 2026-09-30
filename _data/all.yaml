@@ -10006,6 +10006,34 @@
   affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
   cityurl: Trnava
   sexurl: muz
+- name: "Jan Val\xED\u010Dek"
+  last: Valicek
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "v\xFDrobn\xE9 technol\xF3gie"
+  pribeh: "Vodn\xFDm l\xFA\u010Dom s pieskom re\u017Ee oce\u013E a z drsnosti rezu\
+    \ vy\u010D\xEDta, ak\xE9 nap\xE4tie v materi\xE1li ostalo."
+  affiliation: "Slovensk\xE1 po\u013Enohospod\xE1rska univerzita"
+  city: Nitra
+  country: Slovensko
+  hindex: 35
+  scholar: https://scholar.google.com/citations?user=fLkoaLsAAAAJ
+  last_update: '2026-09-30'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-9522-7974
+  - - web
+    - https://www.portalvs.sk/regzam/detail/27451
+  img: Jan_Valicek_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vyrobne_technologie
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: profesor
+  affiliationurl: Slovenska_polnohospodarska_univerzita
+  cityurl: Nitra
+  sexurl: muz
 - name: "Iveta Waczul\xEDkov\xE1"
   last: Waczulikova
   year: '1966'
