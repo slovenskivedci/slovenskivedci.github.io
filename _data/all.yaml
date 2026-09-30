@@ -4274,13 +4274,13 @@
   last: Kozak
   year: '1971'
   sex: "mu\u017E"
-  position: konzultant
+  position: profesor
   field: "oftalmol\xF3gia"
-  pribeh: "Sietnicu operuje aj sk\xFAma od Lond\xFDna po Ab\xFA Zab\xED: svetlo vracia\
-    \ tam, kde patr\xED \u2014 do oka."
-  affiliation: Moorfields Eye Hospital
-  city: Abu Dhabi
-  country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
+  pribeh: "Sietnicu operuje aj sk\xFAma od Lond\xFDna cez Ab\xFA Zab\xED a\u017E po\
+    \ Tucson: svetlo vracia tam, kde patr\xED \u2014 do oka."
+  affiliation: University of Arizona
+  city: Tucson
+  country: USA
   hindex: 49
   scholar: https://scholar.google.com/citations?hl=en&amp;user=uQGtqxoAAAAJ
   last_update: '2026-08-25'
@@ -4290,16 +4290,16 @@
   - - ResearchGate
     - https://www.researchgate.net/profile/Igor-Kozak/5
   - - web
-    - https://moorfields.ae/medical-team/ophthalmologists/dr-igor-kozak/
+    - https://eyes.arizona.edu/profile/igor-kozak-md-phd
   img: Igor_Kozak_size_280px.jpeg
   update_status: UPDATED
-  countryurl: Spojene_arabske_emiraty
+  countryurl: USA
   fieldurl: oftalmologia
   area: "medic\xEDna"
   areaurl: medicina
-  positionurl: konzultant
-  affiliationurl: Moorfields_Eye_Hospital
-  cityurl: Abu_Dhabi
+  positionurl: profesor
+  affiliationurl: University_of_Arizona
+  cityurl: Tucson
   sexurl: muz
 - name: "Vladim\xEDr \u0160epel\xE1k"
   last: Sepelak
