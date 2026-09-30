@@ -4239,12 +4239,12 @@
   last: Grim
   year: 1973
   sex: "mu\u017E"
-  position: docent
+  position: profesor
   field: "behavior\xE1lna ekol\xF3gia"
   pribeh: "Kukul\xEDky a podvod v hniezde: behavior\xE1lna ekol\xF3gia, ktor\xE1 vie,\
     \ \u017Ee vt\xE1ky s\xFA taktick\xE9 aj bez PowerPointu."
-  affiliation: "Univerzita Palack\xE9ho v Olomouci"
-  city: Olomouc
+  affiliation: "Ostravsk\xE1 univerzita"
+  city: Ostrava
   country: "\u010Cesko"
   hindex: 49
   scholar: https://scholar.google.com/citations?hl=en&amp;user=T0MNJGgAAAAJ
@@ -4266,9 +4266,9 @@
   fieldurl: behavioralna_ekologia
   area: "biol\xF3gia"
   areaurl: biologia
-  positionurl: docent
-  affiliationurl: Univerzita_Palackeho_v_Olomouci
-  cityurl: Olomouc
+  positionurl: profesor
+  affiliationurl: Ostravska_univerzita
+  cityurl: Ostrava
   sexurl: muz
 - name: "Igor Koz\xE1k"
   last: Kozak
