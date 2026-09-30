@@ -12111,9 +12111,9 @@
   sex: "mu\u017E"
   position: profesor
   field: "biol\xF3gia r\xFDb"
-  pribeh: "Ryby na UK: inv\xE1zne druhy aj spr\xE1vanie, v\u010Faka ktor\xFDm akv\xE1\
-    rium prest\xE1va by\u0165 rozpr\xE1vkou a st\xE1va sa ekol\xF3giou."
-  affiliation: "Univerzita Komensk\xE9ho"
+  pribeh: "Ryby: inv\xE1zne druhy aj spr\xE1vanie, v\u010Faka ktor\xFDm akv\xE1rium\
+    \ prest\xE1va by\u0165 rozpr\xE1vkou a st\xE1va sa ekol\xF3giou."
+  affiliation: AQ-BIOS, s.r.o.
   city: Bratislava
   country: Slovensko
   hindex: 32
@@ -12137,7 +12137,7 @@
   area: "biol\xF3gia"
   areaurl: biologia
   positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
+  affiliationurl: AQ-BIOS__s.r.o.
   cityurl: Bratislava
   sexurl: muz
 - name: "Tibor Kudern\xE1\u010D"
