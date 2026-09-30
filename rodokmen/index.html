@@ -623,11 +623,11 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
             Doktoráty, ktoré v MGP chýbajú, sú doplnené aj so školiteľmi a pri každom je odkaz na zdroj.</li>
           <li>Vedecko-pedagogické charakteristiky učiteľov v akademických informačných systémoch UK, UPJŠ a UKF: doktorát (rok, inštitúcia a študijný program) aj pri tých, ktorí v MGP chýbajú. Školitelia, o ktorých doktoráte zatiaľ údaje nemáme, sú v databáze bez údajov o titule.</li>
           <li>Osobné a univerzitné stránky, životopisy (napríklad na stránke Matematického ústavu SAV) a zoznamy doktorandov, ktoré zverejňujú samotní školitelia.</li>
-          <li><a href="https://www.imo-official.org/" target="_blank" rel="noopener">Medzinárodná matematická olympiáda</a>: účastníci za Československo (1959 – 1992) a Slovensko (od 1993), ktorí neskôr získali doktorát, majú v profile označenie IMO s rokmi a medailami. V registri Matematici ich zobrazí filter Olympionici.</li>
+          <li><a href="https://www.imo-official.org/" target="_blank" rel="noopener">Medzinárodná matematická olympiáda</a>: účastníci za Československo (1959 – 1992) a Slovensko (od 1993), ktorí neskôr získali doktorát, majú v profile označenie IMO s rokmi a medailami. Slovenských matematikov medzi nimi zobrazí v registri Matematici filter Olympionici.</li>
           <li>Vysokoškolské štúdium: vedecko-pedagogické charakteristiky učiteľov v akademických informačných systémoch UK, UPJŠ a UKF, životopisy na stránke Matematického ústavu SAV, magisterské tituly v MGP a osobné stránky a životopisy. Záložka Absolventi ukazuje, kde absolventi jednotlivých fakúlt získali doktorát.</li>
         </ul>
         <h2>Didaktika matematiky</h2>
-        <p>Rodokmeň zahŕňa aj didaktiku matematiky, ak ide o doktorát v matematike: záznam v MGP s klasifikáciou MSC 97 (matematické vzdelávanie) alebo doktorát v programe teória vyučovania matematiky (didaktika matematiky) v študijnom odbore matematika. Takéto osoby majú v profile označenie Didaktika matematiky a v registri Matematici ich zobrazí filter Didaktika. Doktoráty z teórie vyučovania informatiky a z pedagogických vied označenie nemajú.</p>
+        <p>Rodokmeň zahŕňa aj didaktiku matematiky, ak ide o doktorát v matematike: záznam v MGP s klasifikáciou MSC 97 (matematické vzdelávanie) alebo doktorát v programe teória vyučovania matematiky (didaktika matematiky) v študijnom odbore matematika. Takéto osoby majú v profile označenie Didaktika matematiky; slovenských matematikov medzi nimi zobrazí v registri Matematici filter Didaktika. Doktoráty z teórie vyučovania informatiky a z pedagogických vied označenie nemajú.</p>
         <h2>Koho považujeme za slovenského matematika</h2>
         <p>Osoba je označená ako slovenská, ak jej doktorát udelila slovenská inštitúcia, alebo ak ide o slovenského matematika či matematičku s doktorátom zo zahraničia (napríklad z Prahy, Cornellu, Edinburghu či KAUST). Ostatné osoby sú v databáze preto, že slovenských matematikov školili alebo sú ich akademickými potomkami.</p>
         <h2>Ako čítať čísla</h2>
@@ -1239,7 +1239,7 @@ const People=(()=>{
       .on('pointerenter pointermove',(e,d)=>{ bars.classed('hover',b=>b===d); showTip(`<b>${d.d}–${d.d+9}</b><span class="m">${d.n} ${pl(d.n,'doktorát','doktoráty','doktorátov')}</span>`,e.clientX,e.clientY); }).on('pointerleave',()=>{ bars.classed('hover',false); hideTip(); });
   }
   function render(){
-    const f=fold(q.trim()); let list=rows.filter(r=>scope==='all'?true:scope==='ft'?r.p.feat:scope==='imo'?r.p.imo:scope==='did'?r.p.did:r.p.sk);
+    const f=fold(q.trim()); let list=rows.filter(r=>scope==='all'?true:!r.p.sk?false:scope==='ft'?!!r.p.feat:scope==='imo'?!!r.p.imo:scope==='did'?r.p.did:true);
     if(inst) list=list.filter(r=>r.grp===inst||r.p.degs.some(d=>instGroup(d.school)===inst));
     if(f) list=list.filter(r=>f.split(/\s+/).every(t=>r.p.key.includes(t)||r.p.akey.includes(t)||r.thesis.includes(t)));
     const k=sortK; list.sort((a,b)=>{ let va=a[k],vb=b[k]; if(k==='year'){ va=va||9999; vb=vb||9999; } if(typeof va==='string') return sortDir*cmp(va,vb); return sortDir*(va-vb)||cmp(a.name,b.name); });
