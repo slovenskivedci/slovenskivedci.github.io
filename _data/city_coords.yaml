@@ -822,3 +822,10 @@ Gießen | Nemecko:
   lon: 8.6742306
   display: Gießen, Landkreis Gießen, Hessen, Deutschland
   query: Gießen
+Frankfurt | Nemecko:
+  city: Frankfurt
+  country: Nemecko
+  lat: 50.1106444
+  lon: 8.6820917
+  display: Frankfurt am Main, Hessen, Deutschland
+  query: Frankfurt am Main

@@ -3304,7 +3304,7 @@
   field: "bioch\xE9mia"
   pribeh: "V Adelaide rozober\xE1 rastlinn\xE9 enz\xFDmy l\xE1maj\xFAce cukry: glykozidov\xE1\
     \ v\xE4zba u nej m\xE1 mechanizmus aj eleganciu."
-  affiliation: University of Adelaide
+  affiliation: Adelaide University
   city: Adelaide
   country: "Austr\xE1lia"
   hindex: 53
@@ -3326,7 +3326,7 @@
   area2: "biol\xF3gia"
   area2url: biologia
   positionurl: profesorka
-  affiliationurl: University_of_Adelaide
+  affiliationurl: Adelaide_University
   cityurl: Adelaide
   sexurl: zena
 - name: Boris Klempa
@@ -6360,9 +6360,9 @@
   sexurl: muz
 - name: "J\xE1n Rusz"
   last: Rusz
-  year: null
+  year: '1979'
   sex: "mu\u017E"
-  position: docent
+  position: profesor
   field: "fyzika pevn\xFDch l\xE1tok"
   pribeh: "V Uppsale \u010D\xEDta magnetizmus elektr\xF3novou mikroskopiou: spin u\u0148\
     ho vidno, nielen tu\u0161i\u0165."
@@ -6385,7 +6385,7 @@
   fieldurl: fyzika_pevnych_latok
   area: fyzika
   areaurl: fyzika
-  positionurl: docent
+  positionurl: profesor
   affiliationurl: Uppsala_University
   cityurl: Uppsala
   sexurl: muz
@@ -11015,10 +11015,11 @@
   sex: "mu\u017E"
   position: profesor
   field: "v\xFDpo\u010Dtov\xE1 neuroveda"
-  pribeh: "V Giessene modeluje synapsie: v\xFDpo\u010Dtov\xE1 neuroveda, ktor\xE1\
-    \ pam\xE4ti h\u013Ead\xE1 rovnicu namiesto m\xFDtu."
-  affiliation: "Justus-Liebig-Universit\xE4t Gie\xDFen"
-  city: "Gie\xDFen"
+  pribeh: "Vo Frankfurte vedie Anatomick\xFD \xFAstav II a modeluje synapsie: v\xFD\
+    po\u010Dtov\xE1 neuroveda, ktor\xE1 pam\xE4ti h\u013Ead\xE1 rovnicu namiesto m\xFD\
+    tu."
+  affiliation: Goethe University Frankfurt
+  city: Frankfurt
   country: Nemecko
   hindex: 33
   scholar: https://scholar.google.com/citations?hl=sk&user=tgIMVDsAAAAJ
@@ -11027,7 +11028,7 @@
   - - orcid
     - https://orcid.org/0000-0001-6571-5742
   - - web
-    - https://www.uni-giessen.de/de/fbz/fb11/institute/computerbasiertes-modelling/dreir/team/jedlicka
+    - https://www.med.uni-frankfurt.de/41078215/Anatomie_II
   img: Peter_Jedlicka_size_280px.jpg
   update_status: UPDATED
   countryurl: Nemecko
@@ -11035,8 +11036,8 @@
   area: "medic\xEDna"
   areaurl: medicina
   positionurl: profesor
-  affiliationurl: Justus-Liebig-Universitat_Gieen
-  cityurl: Gieen
+  affiliationurl: Goethe_University_Frankfurt
+  cityurl: Frankfurt
   sexurl: muz
 - name: "Jana Kordul\xE1kov\xE1"
   last: Kordulakova
@@ -11782,13 +11783,14 @@
   sexurl: muz
 - name: "Juraj Farka\u0161"
   last: Farkas
-  year: ''
+  year: '1977'
   sex: "mu\u017E"
   position: docent
   field: "geoch\xE9mia"
-  pribeh: "Izotopy v Adelaide \u010D\xEDta ako pe\u010Diatky \u010Dasu: geoch\xE9\
-    mia, \u010Do skale aj oce\xE1nu povie, kedy a odkia\u013E pri\u0161li."
-  affiliation: University of Adelaide
+  pribeh: "Izotopy a citliv\xE9 hmo\u0165\xE1ky v Adelaide pou\u017E\xEDva na pochopenie\
+    \ v\xFDvoja Zeme a sveta okolo n\xE1s \u2013 od miner\xE1lov a horn\xEDn a\u017E\
+    \ po oce\xE1ny."
+  affiliation: Adelaide University
   city: Adelaide
   country: "Austr\xE1lia"
   hindex: 32
@@ -11803,7 +11805,7 @@
   area: geovedy
   areaurl: geovedy
   positionurl: docent
-  affiliationurl: University_of_Adelaide
+  affiliationurl: Adelaide_University
   cityurl: Adelaide
   sexurl: muz
 - name: Viktor Fischer
