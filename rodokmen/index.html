@@ -1268,19 +1268,20 @@ const People=(()=>{
    ========================================================= */
 const Alumni=(()=>{
   let inited=false, sel='MATFYZ', est=false, dest='', q='', cur=null;
+  const alPool=p=>!p.stub&&p.sk&&p.sk!=='rod'; // Slovak mathematicians only (no foreign ancestors f:3, no historical 'Rodák zo Slovenska')
   function set(v){ let x=v; try{ x=decodeURIComponent(v); }catch(e){} sel=x; dest=''; if(inited){ syncSel(); render(); } }
   function compute(){
     const rows=[];
     if(sel==='ALL'){
-      for(const p of people.values()){ if(p.stub) continue; const es=eduEntries(p,est); if(!es.length) continue; const e=es.find(x=>x.lvl==='mgr')||es[0]; const u=instUniv(e.k); if(instCtry(u)!=='SK') continue; const ph=phdOf(p); rows.push({p,e,est:!!e.est,ph,src:u,cat:catOf(ph,u)}); }
+      for(const p of people.values()){ if(!alPool(p)) continue; const es=eduEntries(p,est); if(!es.length) continue; const e=es.find(x=>x.lvl==='mgr')||es[0]; const u=instUniv(e.k); if(instCtry(u)!=='SK') continue; const ph=phdOf(p); rows.push({p,e,est:!!e.est,ph,src:u,cat:catOf(ph,u)}); }
     } else {
       const univ=selUniv(sel);
-      for(const p of people.values()){ if(p.stub) continue; let best=null,bm=0; for(const e of eduEntries(p,est)){ const m=selMatch(e,sel,est); if(m&&(!bm||m<bm||(m===bm&&e.lvl==='mgr'&&best.lvl!=='mgr'))){ bm=m; best=e; } } if(!best) continue; const ph=phdOf(p); rows.push({p,e:best,est:bm===2,ph,src:sel,cat:catOf(ph,univ)}); }
+      for(const p of people.values()){ if(!alPool(p)) continue; let best=null,bm=0; for(const e of eduEntries(p,est)){ const m=selMatch(e,sel,est); if(m&&(!bm||m<bm||(m===bm&&e.lvl==='mgr'&&best.lvl!=='mgr'))){ bm=m; best=e; } } if(!best) continue; const ph=phdOf(p); rows.push({p,e:best,est:bm===2,ph,src:sel,cat:catOf(ph,univ)}); }
     }
     for(const r of rows) r.dk=r.cat==='unk'?'?':r.cat==='same'&&sel!=='ALL'?r.ph.u:r.ph.key;
     return rows;
   }
-  function syncSel(){ const all=[...people.values()].filter(p=>!p.stub&&eduEntries(p,est).length); const opts=almaOptions(all,est,true).filter(o=>o.v!=='?'); if(!opts.some(o=>o.v===sel)) sel=opts.some(o=>o.v==='MATFYZ')?'MATFYZ':'ALL'; $('#al-sel').innerHTML=optionsHtml(opts,sel); $$('#al-est button').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.est==='1')===est))); }
+  function syncSel(){ const all=[...people.values()].filter(p=>alPool(p)&&eduEntries(p,est).length); const opts=almaOptions(all,est,true).filter(o=>o.v!=='?'); if(!opts.some(o=>o.v===sel)) sel=opts.some(o=>o.v==='MATFYZ')?'MATFYZ':'ALL'; $('#al-sel').innerHTML=optionsHtml(opts,sel); $$('#al-est button').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.est==='1')===est))); }
   function tiles(rows){
     const n=rows.length, c=k=>rows.filter(r=>r.cat===k).length, ce=k=>rows.filter(r=>r.cat===k&&r.est).length;
     const univ=sel==='ALL'?'':selUniv(sel);
@@ -1364,7 +1365,7 @@ const Alumni=(()=>{
     $('#al-tbody').innerHTML=list.map(r=>{ const e=r.e; const ph=r.ph; return `<tr><td><button type="button" class="pn" data-go="${r.p.id}"><i class="dot ${klass(r.p)}"></i>${esc(r.p.name)}</button></td><td class="muted">${e.est?'<span class="est-tag">odhad</span> ':''}${esc(instMid(e.k))} <span class="lv nw">${[e.y||'',e.est?'':e.lvl==='bc'?'Bc.':'Mgr.'].filter(Boolean).join(' · ')}</span></td><td class="num">${ph&&ph.year||'—'}</td><td class="muted">${ph?esc(ph.school||'—')+(ph.c&&ph.cat==='ab'?` <span class="lv">· ${esc(prettyCountry(ph.c))}</span>`:''):'—'}</td><td><span class="cat c-${r.cat}"><i></i>${esc(({same:sel==='ALL'?'tá istá univerzita':'tá istá univerzita',sk:'Slovensko',cz:'Česko',ab:'zahraničie',unk:'neznáme'})[r.cat])}</span></td></tr>`; }).join('')||`<tr><td colspan="5" class="muted">Nikto nevyhovuje.</td></tr>`;
   }
   function render(full=true){ const rows=compute(); cur=rows; tiles(rows); sankey(rows); if(full) trend(rows); table(rows);
-    const known=[...people.values()].filter(p=>p.sk&&p.edu.length).length, skn=[...people.values()].filter(p=>p.sk).length;
+    const known=[...people.values()].filter(p=>alPool(p)&&p.edu.length).length, skn=[...people.values()].filter(alPool).length;
     $('#al-note').innerHTML=`Údaje o vysokoškolskom štúdiu máme pri ${known} z ${skn} slovenských matematikov. ${est?'Pri ostatných so slovenským doktorátom sa štúdium odhaduje na tej istej univerzite (pri UK podľa roku doktorátu Matfyz alebo PriF UK). Takéto záznamy sú označené ako odhad a v diagrame sú svetlejšie. Odhad nemusí sedieť napríklad pri zahraničných doktorandoch, ktorí predtým študovali inde.':'Zobrazené sú len overené údaje zo zdrojov uvedených v profile každej osoby. Prepínač „Vrátane odhadov“ doplní aj ľudí so slovenským doktorátom, pri ktorých údaje o štúdiu chýbajú.'} Údaje o štúdiu pochádzajú najmä z charakteristík učiteľov v AIS, preto sú lepšie pokrytí tí, ktorí na slovenských univerzitách učia.`; }
   function ensure(){ if(!inited){ inited=true; syncSel();
       $('#al-sel').addEventListener('change',e=>{ sel=e.target.value; dest=''; render(); history.replaceState(null,'','#alumni='+encodeURIComponent(sel)); });
