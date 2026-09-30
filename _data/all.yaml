@@ -668,6 +668,62 @@
   affiliationurl: Regionalny_urad_verejneho_zdravotnictva
   cityurl: Banska_Bystrica
   sexurl: zena
+- name: "Peter Richt\xE1rik"
+  last: Richtarik
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "optimaliz\xE1cia"
+  pribeh: "Na KAUSTe u\u010D\xED stochastick\xE9 gradienty a federovan\xE9 u\u010D\
+    enie \u2014 aby sa ve\u013Ek\xE9 d\xE1ta dohodli, aj ke\u010F sa nikdy nestretn\xFA\
+    \ v jednej miestnosti."
+  affiliation: KAUST
+  city: Thuwal
+  country: "Saudsk\xE1 Ar\xE1bia"
+  hindex: 79
+  scholar: https://scholar.google.com/citations?user=pGh242UAAAAJ&hl=en
+  last_update: '2026-08-25'
+  links:
+  - - dblp
+    - https://dblp.org/pid/62/8001.html
+  - - KAUST
+    - https://cemse.kaust.edu.sa/vcc/people/person/peter-richtarik
+  - - KAUST AI
+    - https://cemse.kaust.edu.sa/ai
+  - - KInIT
+    - https://kinit.sk/meet-peter-richtarik-kinit-external-mentor/
+  - - LinkedIn
+    - https://sa.linkedin.com/in/richtarik
+  - - Mathematics Genealogy
+    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=111470
+  - - openreview
+    - "https://openreview.net/profile?id=~Peter_Richt\xE1rik1"
+  - - orcid
+    - https://orcid.org/0000-0003-4380-5848
+  - - "osobn\xFD web"
+    - https://richtarik.org
+  - - research.com
+    - https://research.com/u/peter-richtarik
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Peter-Richtarik-2
+  - - twitter
+    - https://twitter.com/peter_richtarik?lang=en
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Peter_Richtarik
+  - - "\u017Eivotopis"
+    - https://richtarik.org/docs/richtarik-cv-2026-08.pdf
+  img: Peter_Richtarik_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Saudska_Arabia
+  fieldurl: optimalizacia
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
+  area2: matematika
+  area2url: matematika
+  positionurl: profesor
+  affiliationurl: KAUST
+  cityurl: Thuwal
+  sexurl: muz
 - name: "Fedor \u0160imkovic"
   last: Simkovic
   year: 1959
@@ -775,62 +831,6 @@
   positionurl: profesor
   affiliationurl: University_of_Toronto
   cityurl: Toronto
-  sexurl: muz
-- name: "Peter Richt\xE1rik"
-  last: Richtarik
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "optimaliz\xE1cia"
-  pribeh: "Na KAUSTe u\u010D\xED stochastick\xE9 gradienty a federovan\xE9 u\u010D\
-    enie \u2014 aby sa ve\u013Ek\xE9 d\xE1ta dohodli, aj ke\u010F sa nikdy nestretn\xFA\
-    \ v jednej miestnosti."
-  affiliation: KAUST
-  city: Thuwal
-  country: "Saudsk\xE1 Ar\xE1bia"
-  hindex: 78
-  scholar: https://scholar.google.com/citations?user=pGh242UAAAAJ&hl=en
-  last_update: '2026-08-25'
-  links:
-  - - dblp
-    - https://dblp.org/pid/62/8001.html
-  - - KAUST
-    - https://cemse.kaust.edu.sa/vcc/people/person/peter-richtarik
-  - - KAUST AI
-    - https://cemse.kaust.edu.sa/ai
-  - - KInIT
-    - https://kinit.sk/meet-peter-richtarik-kinit-external-mentor/
-  - - LinkedIn
-    - https://sa.linkedin.com/in/richtarik
-  - - Mathematics Genealogy
-    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=111470
-  - - openreview
-    - "https://openreview.net/profile?id=~Peter_Richt\xE1rik1"
-  - - orcid
-    - https://orcid.org/0000-0003-4380-5848
-  - - "osobn\xFD web"
-    - https://richtarik.org
-  - - research.com
-    - https://research.com/u/peter-richtarik
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Peter-Richtarik-2
-  - - twitter
-    - https://twitter.com/peter_richtarik?lang=en
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Peter_Richtarik
-  - - "\u017Eivotopis"
-    - https://richtarik.org/docs/richtarik-cv-2026-08.pdf
-  img: Peter_Richtarik_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Saudska_Arabia
-  fieldurl: optimalizacia
-  area: "umel\xE1 inteligencia"
-  areaurl: umela_inteligencia
-  area2: matematika
-  area2url: matematika
-  positionurl: profesor
-  affiliationurl: KAUST
-  cityurl: Thuwal
   sexurl: muz
 - name: "M\xE1ria Du\u0161insk\xE1"
   last: Dusinska
