@@ -2,9 +2,10 @@
    Loaded on demand from rodokmen/index.html when "Vytlačiť rodokmeň predkov" is clicked.
    One style, an organic tree (see ORGANIC TREE POSTER below); rendered as SVG and converted to PDF
    with jsPDF + svg2pdf.js, EB Garamond embedded. Postdoc advisor links (ctx.pdAdvisorsOf) are included
-   unless opts.postdoc===false and drawn in teal.
+   unless opts.postdoc===false and drawn in teal. opts.lang: 'sk' (default) or 'en' (poster language; names
+   and thesis titles are never translated).
    opts.dir==='down' draws the academic descendants instead (students hang below the person, same layout mirrored).
-   RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Košatý strom" view
+   RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Strom" view
    (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup). */
 (function(){
 'use strict';
@@ -111,8 +112,21 @@ const SCH={
  'Universidad Nacional Autónoma de México (UNAM)':'UNAM','l\'Institut National de Recherche en Informatique et en Automatique (INRIA)':'INRIA',
  'California Institute of Technology':'Caltech','Handelsakademie Hamburg':'Handelsakademie Hamburg'
 };
-function schoolShort(raw){
+const SCH_EN={
+ 'Slovenská univerzita (dnes Univerzita Komenského)':'Slovak University','University of Prague':'University of Prague','Karl-Ferdinand-Universität Prag':'University of Prague',
+ 'Universitas Carolina Prague':'Charles University','Deutsche Technische Hochschule in Prague':'German Technical University in Prague','Eötvös Loránd University':'University of Pest',
+ 'Lyceum of Ljubljana':'Lyceum of Ljubljana','Univerzita Pavla Jozefa Šafárika v Košiciach':'P. J. Šafárik University, Košice','Univerzita Konštantína Filozofa v Nitre':'Constantine the Philosopher University, Nitra',
+ 'Univerzita Mateja Bela':'Matej Bel University','University of Economics in Bratislava':'University of Economics in Bratislava',
+ 'Ostravská univerzita v Ostravě':'University of Ostrava','Ostravská univerzita v Ostrave':'University of Ostrava','Ostravská univerzita, Pedagogická fakulta':'University of Ostrava',
+ 'Mendelova univerzita v Brně':'Mendel University in Brno','Univerzita Pardubice, Česká republika':'University of Pardubice','Trnavská univerzita (1635 - 1777)':'University of Trnava',
+ 'Vojenská akadémia, Liptovský Mikuláš':'Military Academy, Liptovský Mikuláš','Military Academy, Liptovský Mikuláš':'Military Academy, Liptovský Mikuláš',
+ 'Výskumný ústav symbolických výpočtov, Keplerova univerzita, Linz, Rakúsko':'RISC Linz','Lomonosov Moscow State University':'Moscow State University',
+ 'Institute of Mathematics, Slovak Academy of Sciences':'Mathematical Institute SAS','Institute of Measurement Theory, Slovak Academy of Sciences':'Institute of Measurement SAS',
+ 'Institute of Measurement, Slovak Academy of Sciences':'Institute of Measurement SAS','Matej Bel University, Banska Bystrica':'Matej Bel University','The Ohio State University':'Ohio State University'
+};
+function schoolShort(raw,lang){
   let s=clean(raw); if(!s) return '';
+  if(lang==='en'){ const parts=s.split(/ a (?=\p{Lu})| and (?=\p{Lu})/u); if(SCH_EN[s]) return SCH_EN[s]; if(SCH_EN[parts[0]]) return SCH_EN[parts[0]]; }
   if(SCH[s]) return SCH[s];
   s=s.split(/ a (?=\p{Lu})| and (?=\p{Lu})/u)[0];
   if(SCH[s]) return SCH[s];
@@ -149,7 +163,63 @@ const mixc=(a,b,t)=>rgbHex(a.map((v,i)=>v+(b[i]-v)*t));
 const over=(h,op)=>mixc(hex2(TP.PAGE),hex2(h),op);   // opaque colour = h at opacity op over the page (no PDF transparency needed)
 const LEAFG=['#8f9d62','#a3ad74','#7f8f57','#b2b98a'];
 const UNV_TREE=/^[iu]/;   // drawn as unconfirmed on the poster: link only derived from a list of students, or without any source
-const nfmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'\u00a0');
+const nfmt=(n,lang)=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,lang==='en'?',':'\u00a0');
+/* ---------- poster language: every printed string except names, thesis titles and data-given degree abbreviations ---------- */
+const MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const L10N={
+ sk:{
+  noDeg:'údaje o titule neuvedené', tagRod:'RODÁK ZO SLOVENSKA', tagSkF:'SLOVENSKÁ MATEMATIČKA', tagSk:'SLOVENSKÝ MATEMATIK', more:n=>'ďalší predkovia: '+n,
+  title:(name,gen)=>gen?'Akademický rodokmeň '+gen:'Akademický rodokmeň: '+name,
+  sub:'Rodokmeň slovenskej matematiky · zdroj: slovenskivedci.sk/rodokmen (čerpá z viacerých zdrojov, najmä z Mathematics Genealogy Project)',
+  f0:name=>`${name}: v databáze zatiaľ nie sú známi školitelia.`,
+  f1one:(name,cut)=>`Zobrazené sú 2 osoby: ${name} a ${cut?'jeho alebo jej školiteľ':'jediný známy predok'}.`,
+  f1:(n,name,kk,cut,G,pd)=>`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk>=5?'všetkých':'všetci'} ${kk} ${pl(kk,'predok','predkovia','predkov')}`+
+    (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; čím vyššie, tým staršia generácia.'+(pd?' Zahrnutí sú aj predkovia cez postdoktorandských školiteľov (zelená vetva).':''),
+  f2cut:(tot,dg,oldest,om)=>`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dg} ${pl(dg,'generáciu','generácie','generácií')} do minulosti, k osobe ${oldest}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `,
+  f2all:'Zobrazený je celý známy rodokmeň. ',
+  date:(y,m,d)=>`${d}. ${m}. ${y}`, f3:ds=>`Údaje: slovenskivedci.sk/rodokmen${ds?', stav k '+ds:''}.`,
+  hl:chain=>'Zvýraznená vetva: '+chain, hlWhy:(who,d)=>`vedie k predkovi s najviac akademickými potomkami: ${who} (${d})`, hlLong:'najdlhšia línia (údaje o potomkoch chýbajú)',
+  lBranch:'Vetva: školiteľ (vyššie) a doktorand', lPd:'Postdoktorandský školiteľ a postdoktorand', lPd2:'',
+  lDash:'Ďalší školiteľ už nakreslenej osoby', lDash2:'(druhá cesta k tej istej osobe)',
+  lUnv:'Neoverený vzťah', lUnv2:'(odvodený zo zoznamu žiakov alebo bez zdroja)', lSk:'Slovenský matematik alebo rodák zo Slovenska',
+  lMore:'ďalší predkovia: n', lMore2:'= počet starších predkov mimo výrezu', legend:'LEGENDA', pdTag:'postdoktorand',
+  subject:'Rodokmeň slovenskej matematiky', file:'rodokmen',
+  // descendants poster (opts.dir==='down')
+  dTitle:(name,gen)=>gen?'Akademickí potomkovia '+gen:'Akademickí potomkovia: '+name, dMore:n=>'ďalší potomkovia: '+n,
+  dF0:name=>`${name}: v databáze zatiaľ nie sú známi doktorandi.`,
+  dF1:(n,name,kk,cut,G,pd)=>`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk} ${pl(kk,'akademický potomok','akademickí potomkovia','akademických potomkov')}${cut?` do ${G}. generácie`:''}.`+' Každá osoba je nakreslená raz; čím nižšie, tým mladšia generácia.'+(pd?' Zahrnutí sú aj postdoktorandi (zelená vetva).':''),
+  dF2cut:(tot,om)=>`Rodokmeň eviduje ${tot} ${pl(tot,'akademického potomka','akademických potomkov','akademických potomkov')} tejto osoby; ${om} ${pl(om,'ďalší tu nie je zobrazený','ďalší tu nie sú zobrazení','ďalších tu nie je zobrazených')}. `,
+  dF2all:'Zobrazení sú všetci akademickí potomkovia evidovaní v Rodokmeni. ',
+  dHlWhy:(who,d)=>`vedie cez potomka s najviac akademickými potomkami: ${who} (${d})`,
+  dLMore:'ďalší potomkovia: n', dLMore2:'= počet ďalších potomkov mimo výrezu', dFile:'potomkovia'
+ },
+ en:{
+  noDeg:'degree details not recorded', tagRod:'BORN IN SLOVAKIA', tagSkF:'SLOVAK MATHEMATICIAN', tagSk:'SLOVAK MATHEMATICIAN', more:n=>'more ancestors: '+n,
+  title:name=>'Academic family tree of '+name,
+  sub:'Slovak Mathematics Genealogy · source: slovenskivedci.sk/rodokmen (drawing on several sources, mainly the Mathematics Genealogy Project)',
+  f0:name=>`${name}: no advisors are known in the database yet.`,
+  f1one:(name,cut)=>`2 people: ${name} and ${cut?'his or her advisor':'the only known academic ancestor'}.`,
+  f1:(n,name,kk,cut,G,pd)=>`${n} people: ${name} and all ${kk} known academic ancestors`+(cut?` within ${G} ${G===1?'generation':'generations'}.`:'.')+
+    ' Each person appears once; the higher a person sits, the further back the generation.'+(pd?' Ancestors through postdoc advisors are included (teal branches).':''),
+  f2cut:(tot,dg,oldest,om)=>`The full tree has ${tot} ${tot===1?'ancestor':'ancestors'} (the longest line goes back ${dg} ${dg===1?'generation':'generations'}, to ${oldest}); ${om} older ${om===1?'ancestor is':'ancestors are'} not shown here. `,
+  f2all:'The whole known tree is shown. ',
+  date:(y,m,d)=>`${d} ${MONTHS_EN[m-1]} ${y}`, f3:ds=>`Data: slovenskivedci.sk/rodokmen${ds?', as of '+ds:''}.`,
+  hl:chain=>'Highlighted branch: '+chain, hlWhy:(who,d)=>`leads to the ancestor with the most academic descendants: ${who} (${d})`, hlLong:'the longest line (descendant counts missing)',
+  lBranch:'Branch: PhD advisor (above) of a student', lPd:'Postdoc link', lPd2:'(postdoc advisor above)',
+  lDash:'Also an advisor', lDash2:'(second path to a person)',
+  lUnv:'Unconfirmed link', lUnv2:'(derived from a list of students, or without a source)', lSk:'Slovak mathematician or born in Slovakia',
+  lMore:'more ancestors: n', lMore2:'= older ancestors not shown here', legend:'LEGEND', pdTag:'postdoc',
+  subject:'Slovak Mathematics Genealogy', file:'family_tree',
+  dTitle:name=>'Academic descendants of '+name, dMore:n=>'more descendants: '+n,
+  dF0:name=>`${name}: no doctoral students are known in the database yet.`,
+  dF1:(n,name,kk,cut,G,pd)=>`${n} people: ${name} and ${kk} academic ${kk===1?'descendant':'descendants'}${cut?` up to generation ${G}`:''}.`+' Each person appears once; the lower a person sits, the younger the generation.'+(pd?' Postdocs are included (teal branches).':''),
+  dF2cut:(tot,om)=>`The database records ${tot} academic ${tot===1?'descendant':'descendants'} of this person; ${om} ${om===1?'is':'are'} not shown here. `,
+  dF2all:'All academic descendants recorded in the database are shown. ',
+  dHlWhy:(who,d)=>`leads through the descendant with the most academic descendants: ${who} (${d})`,
+  dLMore:'more descendants: n', dLMore2:'= further descendants not shown here', dFile:'descendants'
+ }
+};
+const LANGS=Object.keys(L10N);
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
@@ -189,7 +259,7 @@ function famousPath(ctx,g,rootId){
 
 function treeLayout(ctx,tw,g,fp,rootId,cfg){
   const P=ctx.people, S=g.S, kids=g.kids, size=g.size, hlSet=new Set(fp.path);
-  const NS=cfg.ns, MS=cfg.ms;
+  const NS=cfg.ns, MS=cfg.ms, TX=L10N[cfg.lang]||L10N.sk;
   const Wd=s=>Math.min(cfg.wmax,2+3.4*Math.sqrt(s));
   // trunk: follow the dominant advisor
   const trunk=[rootId];
@@ -203,12 +273,12 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     const p=P.get(x), root=x===rootId; const ns=root?NS*2.1:NS, ms=root?MS*1.45:MS;
     const lines=[];
     for(const t of wrapText(tw,clean(p.name),ns,'normal',root?1e4:cfg.nameW)) lines.push({t,size:ns,style:'normal',fill:TP.INK,lh:ns*1.12});
-    const pr=p.primary; const yr=pr&&pr.year?String(pr.year):''; const sch=pr?schoolShort(pr.school):'';
-    let meta=yr&&sch?yr+' · '+sch:(yr||sch||'údaje o titule neuvedené');
+    const pr=p.primary; const yr=pr&&pr.year?String(pr.year):''; const sch=pr?schoolShort(cfg.lang==='en'&&pr.schoolEn?pr.schoolEn:pr.school,cfg.lang):'';
+    let meta=yr&&sch?yr+' · '+sch:(yr||sch||TX.noDeg);
     if(root&&pr&&pr.deg&&clean(pr.deg).length<=14&&(yr||sch)) meta=clean(pr.deg)+' '+meta;
     wrapText(tw,meta,ms,'italic',root?1e4:cfg.nameW+14).forEach((t,i)=>lines.push({t,size:ms,style:'italic',fill:TP.INK2,lh:ms*1.25,gap:i?0:-1}));
-    if(p.sk){ const tag=p.sk==='rod'?'RODÁK ZO SLOVENSKA':ctx.isFemale(p)?'SLOVENSKÁ MATEMATIČKA':'SLOVENSKÝ MATEMATIK'; lines.push({t:tag,size:ms*0.84,style:'normal',fill:TP.SK,lh:ms*1.2,gap:0.5}); }
-    if(g.more.has(x)) lines.push({t:(g.dir==='down'?'ďalší potomkovia: ':'ďalší predkovia: ')+g.more.get(x),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
+    if(p.sk){ const tag=p.sk==='rod'?TX.tagRod:ctx.isFemale(p)?TX.tagSkF:TX.tagSk; lines.push({t:tag,size:ms*0.84,style:'normal',fill:TP.SK,lh:ms*1.2,gap:0.5}); }
+    if(g.more.has(x)) lines.push({t:(g.dir==='down'?TX.dMore:TX.more)(g.more.get(x)),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
     const padX=root?14:8, padY=root?6:4;
     let w=0; for(const l of lines){ l.w=tw(l.t,l.size,l.style); w=Math.max(w,l.w); }
     let h=2*padY; for(const l of lines) h+=l.lh+(l.gap||0);
@@ -301,29 +371,27 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
 }
 
 function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
-  const P=ctx.people, rootP=P.get(rootId), cfg=lay.cfg;
+  const P=ctx.people, rootP=P.get(rootId), cfg=lay.cfg, lang=cfg.lang, TX=L10N[lang]||L10N.sk;
   const W=1190.55,H=opts.pageH||1683.78,M=46, down=g.dir==='down', scr=!!opts.screen;
   const out=[]; const T=(x,y,t,size,style,fill,anchor,extra)=>{ const w=tw(t,size,style); const x0=anchor==='middle'?x-w/2:anchor==='end'?x-w:x; out.push(`<text x="${n2(x0)}" y="${n2(y)}" font-family="${FONT}" font-size="${n2(size)}"${style==='italic'?' font-style="italic"':''}${style==='bold'?' font-weight="bold"':''} fill="${fill}"${extra||''}>${xesc(t)}</text>`); return w; };
   const name=clean(rootP.name);
   // ----- title block
-  const gen=genitive(rootP.name,ctx.isFemale(rootP));
-  const title=down?(gen?'Akademickí potomkovia '+gen:'Akademickí potomkovia: '+name):gen?'Akademický rodokmeň '+gen:'Akademický rodokmeň: '+name;
+  const gen=lang==='sk'?genitive(rootP.name,ctx.isFemale(rootP)):null;
+  const title=(down?TX.dTitle:TX.title)(name,gen);
   const maxTW=W-2*M-40; let ts=50; { const w0=tw(title,ts,'normal'); if(w0>maxTW) ts*=maxTW/w0; }
-  const sub='Rodokmeň slovenskej matematiky · zdroj: slovenskivedci.sk/rodokmen (čerpá z viacerých zdrojov, najmä z Mathematics Genealogy Project)';
+  const sub=TX.sub;
   let ss=16; { const w1=tw(sub,ss,'italic'); if(w1>maxTW) ss*=maxTW/w1; }
   // ----- footer
   const n=g.S.size, kk=n-1, tot=g.ALL.size-1, om=g.ALL.size-g.S.size, G=opts.gens, cut=om>0;
   let f1;
-  if(down){ if(kk===0) f1=`${name}: v databáze zatiaľ nie sú známi doktorandi.`;
-    else f1=`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk} ${pl(kk,'akademický potomok','akademickí potomkovia','akademických potomkov')}${cut?` do ${G}. generácie`:''}.`+' Každá osoba je nakreslená raz; čím nižšie, tým mladšia generácia.'+(g.pdEdges?' Zahrnutí sú aj postdoktorandi (zelená vetva).':''); }
-  else if(kk===0) f1=`${name}: v databáze zatiaľ nie sú známi školitelia.`;
-  else if(kk===1) f1=`Zobrazené sú 2 osoby: ${name} a ${cut?'jeho alebo jej školiteľ':'jediný známy predok'}.`;
-  else f1=`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk>=5?'všetkých':'všetci'} ${kk} ${pl(kk,'predok','predkovia','predkov')}`+
-    (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; čím vyššie, tým staršia generácia.'+(g.pdEdges?' Zahrnutí sú aj predkovia cez postdoktorandských školiteľov (zelená vetva).':'');
+  if(down){ f1=kk===0?TX.dF0(name):TX.dF1(n,name,kk,cut,G,!!g.pdEdges); }
+  else if(kk===0) f1=TX.f0(name);
+  else if(kk===1) f1=TX.f1one(name,cut);
+  else f1=TX.f1(n,name,kk,cut,G,!!g.pdEdges);
   const dp=down?null:(g.usePd&&ctx.deepestAll?ctx.deepestAll:ctx.deepest)(rootId); const oldest=down?null:P.get(dp.root);
-  const dt=(ctx.generated||'').split('-'); const dstr=dt.length===3?`${+dt[2]}. ${+dt[1]}. ${dt[0]}`:'';
-  const f2=down?(cut?`Rodokmeň eviduje ${tot} ${pl(tot,'akademického potomka','akademických potomkov','akademických potomkov')} tejto osoby; ${om} ${pl(om,'ďalší tu nie je zobrazený','ďalší tu nie sú zobrazení','ďalších tu nie je zobrazených')}. `:(kk?'Zobrazení sú všetci akademickí potomkovia evidovaní v Rodokmeni. ':'')):cut?`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dp.g} ${pl(dp.g,'generáciu','generácie','generácií')} do minulosti, k osobe ${clean(oldest.name)}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `:(kk?'Zobrazený je celý známy rodokmeň. ':'');
-  const f3=`Údaje: slovenskivedci.sk/rodokmen${dstr?', stav k '+dstr:''}.`;
+  const dt=(ctx.generated||'').split('-'); const dstr=dt.length===3?TX.date(+dt[0],+dt[1],+dt[2]):'';
+  const f2=down?(cut?TX.dF2cut(tot,om):(kk?TX.dF2all:'')):cut?TX.f2cut(tot,dp.g,clean(oldest.name),om):(kk?TX.f2all:'');
+  const f3=TX.f3(dstr);
   const fs=12.5, flh=18, fmax=W-2*M-30;
   const w23=wrapText(tw,clean(f2+f3),fs,'normal',fmax);
   const flines=scr?[]:wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3]));
@@ -337,17 +405,17 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     if(!mids.length&&fp.target!=null&&fp.target!==last&&fp.target!==rootId) mids=[fp.target];
     const ids=[rootId].concat(mids,[last]); const sn=ids.map(x=>surname(P.get(x).name));
     const chain=ids.map((x,i)=>sn.indexOf(sn[i])!==sn.lastIndexOf(sn[i])?baseName(P.get(x).name):sn[i]);   // full name when a surname repeats (Bernoulli)
-    const why=down?(fp.mode==='desc'?`vedie cez potomka s najviac akademickými potomkami: ${baseName(P.get(fp.target).name)} (${nfmt(fp.d)})`:'najdlhšia línia (údaje o potomkoch chýbajú)'):fp.mode==='desc'?`vedie k predkovi s najviac akademickými potomkami: ${baseName(P.get(fp.target).name)} (${nfmt(fp.d)})`:'najdlhšia línia (údaje o potomkoch chýbajú)';
-    LI.push({sw:'hl',t1:'Zvýraznená vetva: '+chain.join(' → '),t2:why});
+    const why=fp.mode==='desc'?(down?TX.dHlWhy:TX.hlWhy)(baseName(P.get(fp.target).name),nfmt(fp.d,lang)):TX.hlLong;
+    LI.push({sw:'hl',t1:TX.hl(chain.join(' → ')),t2:why});
   }
-  if(kk) LI.push({sw:'branch',t1:'Vetva: školiteľ (vyššie) a doktorand'});
+  if(kk) LI.push({sw:'branch',t1:TX.lBranch});
   const hasPd=[...g.edge.values()].some(e=>e.pd)||g.extra.some(e=>e.pd);
-  if(hasPd) LI.push({sw:'pd',t1:'Postdoktorandský školiteľ a postdoktorand'});
-  if(g.extra.some(e=>!e.pd)) LI.push({sw:'dash',t1:'Ďalší školiteľ už nakreslenej osoby',t2:'(druhá cesta k tej istej osobe)'});
+  if(hasPd) LI.push({sw:'pd',t1:TX.lPd,t2:TX.lPd2});
+  if(g.extra.some(e=>!e.pd)) LI.push({sw:'dash',t1:TX.lDash,t2:TX.lDash2});
   const hasUnv=[...g.edge.values()].some(e=>e.unv)||g.extra.some(e=>e.unv);
-  if(hasUnv) LI.push({sw:'unv',t1:'Neoverený vzťah',t2:'(odvodený zo zoznamu žiakov alebo bez zdroja)'});
-  if([...g.S].some(x=>P.get(x).sk)) LI.push({sw:'sk',t1:'Slovenský matematik alebo rodák zo Slovenska'});
-  if(g.more.size) LI.push(down?{sw:'more',t1:'ďalší potomkovia: n',t2:'= počet ďalších potomkov mimo výrezu'}:{sw:'more',t1:'ďalší predkovia: n',t2:'= počet starších predkov mimo výrezu'});
+  if(hasUnv) LI.push({sw:'unv',t1:TX.lUnv,t2:TX.lUnv2});
+  if([...g.S].some(x=>P.get(x).sk)) LI.push({sw:'sk',t1:TX.lSk});
+  if(g.more.size) LI.push(down?{sw:'more',t1:TX.dLMore,t2:TX.dLMore2}:{sw:'more',t1:TX.lMore,t2:TX.lMore2});
   const L1=11, L2=9.6, lpad=14, lsw=36, ltx=lpad+lsw+10, LWmax=270;
   for(const it of LI){ it.l1=wrapText(tw,it.t1,L1,'normal',LWmax); it.l2=it.t2?wrapText(tw,it.t2,L2,'italic',LWmax):[]; it.h=Math.max(18,it.l1.length*13.4+it.l2.length*12)+6; }
   let lw=0; for(const it of LI){ for(const t of it.l1) lw=Math.max(lw,tw(t,L1,'normal')); for(const t of it.l2) lw=Math.max(lw,tw(t,L2,'italic')); }
@@ -476,11 +544,11 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   // postdoc tags
   const G3=[];
   for(const t of pdTags){
-    if(t.trunk){ const len=t.y0-t.y1; let fz=Math.min(8,0.8*len/Math.max(1,tw('postdoktorand',1,'italic'))); const ym=(t.y0+t.y1)/2;
-      if(fz>=4.6&&t.w>=fz+3){ const wv=tw('postdoktorand',fz,'italic'); G3.push(`<text transform="translate(${n2(fz*0.34)} ${n2(fy(ym)+wv/2)}) rotate(-90)" x="0" y="0" font-family="${FONT}" font-size="${n2(fz)}" font-style="italic" fill="${TP.CREAM}">postdoktorand</text>`); }
-      else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); let best=null; for(const sd of [-1,1]){ const x0=sd>0?t.w/2+4:-t.w/2-4-wv; const bx=[x0,fy(ym)-fz2*0.7,wv,fz2]; const hit=[...boxes.values()].some(b=>b[0]<bx[0]+bx[2]+2&&bx[0]<b[0]+b[2]+2&&b[1]<bx[1]+bx[3]+2&&bx[1]<b[1]+b[3]+2); if(!hit){ best=x0; break; } }
-        if(best!=null) G3.push(`<text x="${n2(best)}" y="${n2(fy(ym)+fz2*0.3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); } }
-    else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); const x0=t.dir>0?t.x+6:t.x-6-wv; G3.push(`<text x="${n2(x0)}" y="${n2(fy(t.y)+3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); boxes.set('pd'+t.x,[x0,fy(t.y)-5,wv,9]); } }
+    if(t.trunk){ const len=t.y0-t.y1; let fz=Math.min(8,0.8*len/Math.max(1,tw(TX.pdTag,1,'italic'))); const ym=(t.y0+t.y1)/2;
+      if(fz>=4.6&&t.w>=fz+3){ const wv=tw(TX.pdTag,fz,'italic'); G3.push(`<text transform="translate(${n2(fz*0.34)} ${n2(fy(ym)+wv/2)}) rotate(-90)" x="0" y="0" font-family="${FONT}" font-size="${n2(fz)}" font-style="italic" fill="${TP.CREAM}">${xesc(TX.pdTag)}</text>`); }
+      else { const fz2=7.5, wv=tw(TX.pdTag,fz2,'italic'); let best=null; for(const sd of [-1,1]){ const x0=sd>0?t.w/2+4:-t.w/2-4-wv; const bx=[x0,fy(ym)-fz2*0.7,wv,fz2]; const hit=[...boxes.values()].some(b=>b[0]<bx[0]+bx[2]+2&&bx[0]<b[0]+b[2]+2&&b[1]<bx[1]+bx[3]+2&&bx[1]<b[1]+b[3]+2); if(!hit){ best=x0; break; } }
+        if(best!=null) G3.push(`<text x="${n2(best)}" y="${n2(fy(ym)+fz2*0.3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">${xesc(TX.pdTag)}</text>`); } }
+    else { const fz2=7.5, wv=tw(TX.pdTag,fz2,'italic'); const x0=t.dir>0?t.x+6:t.x-6-wv; G3.push(`<text x="${n2(x0)}" y="${n2(fy(t.y)+3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">${xesc(TX.pdTag)}</text>`); boxes.set('pd'+t.x,[x0,fy(t.y)-5,wv,9]); } }
   // pills
   for(const x of S){ const b=lab.get(x), bx=boxes.get(x); const [x0,y0,w,h]=bx; const r=Math.min(10,h/2);
     const fill=b.sk?TP.SKF:TP.CREAM, stroke=b.hl?TP.OCHRE:b.sk?TP.SKE:TP.EDGE, sw=b.hl?(b.root?1.8:1.3):b.sk?0.9:0.6;
@@ -499,7 +567,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   out.push(`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">${treeSvg}</g>`);
   // legend
   if(LI.length&&!scr){ out.push(`<rect x="${n2(Lx)}" y="${n2(Ly)}" width="${n2(Lw)}" height="${n2(Lh)}" rx="8" ry="8" fill="${TP.CREAM}" stroke="${TP.FRAME}" stroke-width="0.7"/>`);
-    { let xx=Lx+lpad; for(const ch of 'LEGENDA'){ xx+=T(xx,Ly+26,ch,12.5,'normal',TP.INK)+2.4; } }
+    { let xx=Lx+lpad; for(const ch of TX.legend){ xx+=T(xx,Ly+26,ch,12.5,'normal',TP.INK)+2.4; } }
     let yy=Ly+40; const tp2=(x,y,w0,w1,col)=>polyTaper(curvePts([[x,y+3],[x+14,y+1],[x+28,y],[x+lsw,y-2]],16),Array.from({length:17},(_,i)=>w0+(w1-w0)*i/16));
     for(const it of LI){ const sx=Lx+lpad, cy=yy+7;
       if(it.sw==='branch') out.push(`<path d="${tp2(sx,cy,6,2)}" fill="${mixc(T_BROWN,T_OLIVE,0.3)}"/>`);
@@ -534,7 +602,7 @@ async function buildTree(ctx,rootId,opts){
   const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir);
   const fp=famousPath(ctx,g,rootId);
   let best=null; const tries=[];
-  for(const c of TREE_CFGS(opts)){ const cfg=Object.assign({},TREE_BASE,opts.treeCfg||{},c); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,opts);
+  for(const c of TREE_CFGS(opts)){ const cfg=Object.assign({},TREE_BASE,opts.treeCfg||{},c,{lang:opts.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,opts);
     const hard=comp.issues.filter(t=>!/^branch /.test(t)).length, soft=comp.issues.length-hard;
     const score=Math.min(comp.s,1)*(cfg.stagger?0.96:1)*(cfg.nameW>=150?1:cfg.nameW>=120?0.9:0.82)*(hard?0.8:1)*Math.pow(0.985,Math.min(soft,10))*(/^free/.test(comp.legendMode)||comp.legendMode==='none'?1:0.95); tries.push([cfg.nameW,cfg.stagger,cfg.availW,+comp.s.toFixed(3),comp.issues.length,comp.legendMode,+score.toFixed(3)]);
     if(!best||score>best.score) best={lay,comp,cfg,score}; if(comp.s>=0.999&&!comp.issues.length) break; }
@@ -547,9 +615,9 @@ async function buildTree(ctx,rootId,opts){
   doc.setFont(FONT,'normal'); doc.setFontSize(12);
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:PW,height:PH}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
-  doc.setProperties({title:comp.title,subject:'Rodokmeň slovenskej matematiky',creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
-  const filename=`${fileSlug(p.name)}_${g.dir==='down'?'potomkovia':'rodokmen'}_${opts.paper}.pdf`;
-  const report={style:'strom',tries,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
+  const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
+  const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}.pdf`;
+  const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
     staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
@@ -558,10 +626,10 @@ async function buildTree(ctx,rootId,opts){
 
 /* ---------- public ---------- */
 async function build(ctx,rootId,opts){
-  opts=Object.assign({gens:14,paper:'A2'},opts||{}); if(!PAPER[opts.paper]) opts.paper='A2';
+  opts=Object.assign({gens:14,paper:'A2',lang:'sk'},opts||{}); if(!PAPER[opts.paper]) opts.paper='A2'; if(!L10N[opts.lang]) opts.lang='sk';
   return buildTree(ctx,rootId,opts);
 }
 async function download(ctx,rootId,opts){ const r=await build(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.last={report:r.report,svg:r.svg}; return r.report; }
-async function scene(ctx,rootId,opts){ return buildTree(ctx,rootId,Object.assign({gens:6,paper:'A2'},opts||{},{screen:true})); }
-window.RodokmenPrint={build,download,scene,preload:loadLibs,_t:{genitive,schoolShort,surname,fileSlug,treeGraph,famousPath}};
+async function scene(ctx,rootId,opts){ return buildTree(ctx,rootId,Object.assign({gens:6,paper:'A2',lang:'sk'},opts||{},{screen:true})); }
+window.RodokmenPrint={build,download,scene,preload:loadLibs,langs:LANGS,_t:{L10N,genitive,schoolShort,surname,fileSlug,treeGraph,famousPath}};
 })();
