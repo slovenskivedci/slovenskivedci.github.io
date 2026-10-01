@@ -1399,8 +1399,14 @@ const Alumni=(()=>{
 
 $('#a-date').textContent=new Date(DATA.generated+'T12:00:00').toLocaleDateString('sk-SK',{day:'numeric',month:'long',year:'numeric'});
 Forest.stats();
-const boot=()=>route();
-if(document.fonts&&document.fonts.ready) document.fonts.ready.then(boot,boot); else boot();
+/* live h-index: /data/h.json is rendered by Jekyll from _data/all.yaml, the same data as the main slovenskivedci.sk list
+   (Scholar id -> h); it overrides the embedded F.h, which stays as the fallback if the fetch fails. */
+const hLive=fetch('/data/h.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(j=>{ const H=j&&j.h; if(!H) return 0; let n=0;
+  for(const p of people.values()){ const f=p.feat; if(!f||!f.sch) continue; const h=H[f.sch]; if(!Number.isInteger(h)){ console.warn('h-index: not on slovenskivedci.sk list',p.name,f.sch); continue; } if(h!==f.h){ f.h=h; n++; } }
+  return n; }).catch(()=>0);
+let booted=false; const boot=()=>{ if(booted) return; booted=true; route(); };
+Promise.all([document.fonts&&document.fonts.ready||0,Promise.race([hLive,new Promise(r=>setTimeout(r,1500))])]).then(boot,boot);
+hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').childElementCount) renderProfile(people.get(Tree.current())); Grove.sync(); }); // late arrival: refresh chip and labels
 })();
 
 </script>

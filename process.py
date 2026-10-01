@@ -750,6 +750,47 @@ print("area_menu", [(m["name"], m["n"]) for m in stats["area_menu"]])
 
 with open(r'_data/page.yaml', 'w') as file:
 	documents = yaml.dump(stats, file)
+
+
+# --- Rodokmeň (/rodokmen/) h-index ---
+# Rodokmeň loads /data/h.json at runtime; that file is a Jekyll template rendered from
+# _data/all.yaml (the same data as the main list), so it cannot diverge from the list.
+# Rodokmeň matches its people by Scholar id (F.sch in its embedded data).
+import html as _html
+def _scholar_id(url):
+	_m = re.search(r'[?&]user=([A-Za-z0-9_-]+)', _html.unescape(str(url or '')))
+	return _m.group(1) if _m else None
+_h_by_sch = {}
+for person in alllst:
+	_sid = _scholar_id(person.get("scholar"))
+	if not _sid:
+		print("rodokmen: no Scholar id for", person.get("name"))
+		continue
+	if _sid in _h_by_sch and _h_by_sch[_sid] != int(person["hindex"]):
+		print("rodokmen: WARNING duplicate Scholar id", _sid, person.get("name"))
+	_h_by_sch[_sid] = int(person["hindex"])
+
+# Belt and braces: also refresh the h-index embedded in rodokmen/index.html (the
+# fallback Rodokmeň shows if /data/h.json cannot be fetched). Only the digits of
+# "F":{"h":NN,...,"sch":"ID"...} change; the rest of the file stays byte-identical.
+_rk = os.path.join("rodokmen", "index.html")
+if os.path.exists(_rk):
+	with open(_rk, encoding="utf-8") as _f:
+		_rk_old = _f.read()
+	_rk_changes = []
+	def _rk_sub(m):
+		_new = _h_by_sch.get(m.group(4))
+		if _new is None:
+			print("rodokmen: Scholar id not on the main list:", m.group(4), "(keeping h=%s)" % m.group(2))
+			return m.group(0)
+		if int(m.group(2)) != _new:
+			_rk_changes.append((m.group(4), int(m.group(2)), _new))
+		return m.group(1) + str(_new) + m.group(3) + m.group(4) + m.group(5)
+	_rk_new = re.sub(r'("F":\{"h":)(\d+)(,[^{}]*?"sch":")([^"]+)(")', _rk_sub, _rk_old)
+	if _rk_new != _rk_old:
+		with open(_rk, "w", encoding="utf-8") as _f:
+			_f.write(_rk_new)
+	print("rodokmen embedded h updated", _rk_changes)
  
 
 
