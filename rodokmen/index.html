@@ -975,7 +975,7 @@ function personRow(id,sub,src,cls){ const p=people.get(id); const u=src&&isUnv(s
 function renderProfile(p){
   const el=$('#profile'); const f=p.feat; const chips=[];
   if(p.sk==='rod') chips.push(`<span class="chip sk" title="Narodil sa na území dnešného Slovenska a doktorát získal pred rokom 1918"><i class="dot sk"></i>Rodák zo Slovenska</span>`); else if(p.sk) chips.push(`<span class="chip sk" title="${p.sk==='inst'?'Doktorát udelila slovenská inštitúcia':p.sk==='unk'?'Miesto doktorátu nie je známe':'Doktorát získaný v zahraničí'}"><i class="dot sk"></i>${isFemale(p)?'Slovenská matematička':'Slovenský matematik'}</span>`);
-  if(f) chips.push(`<span class="chip" title="h-index z Google Scholar podľa slovenskivedci.sk">slovenskivedci.sk · h-index ${f.h}</span>`);
+  if(f&&f.h!=null) chips.push(`<span class="chip" title="h-index z Google Scholar podľa slovenskivedci.sk">slovenskivedci.sk · h-index ${f.h}</span>`);
   if(!p.sk&&!f) chips.push(`<span class="chip">${p.stub?'Školiteľ':p.f===4?(pdStudentsOf(p.id).length?'Postdoktorandský školiteľ':'Predok cez postdoktorandského školiteľa'):p.f===3?'Akademický predok':p.f===2?'Potomok slovenskej línie':'Spoluškoliteľ'}</span>`);
   if(p.did) chips.push(`<span class="chip did" title="Doktorát z didaktiky matematiky (MSC 97 v MGP alebo program teória vyučovania matematiky)">Didaktika matematiky</span>`);
   if(p.imo) chips.push(`<span class="chip imo" title="Medzinárodná matematická olympiáda za ${p.imo.some(x=>x[2]==='SVK')?(p.imo.some(x=>x[2]==='CZS')?'Československo a Slovensko':'Slovensko'):'Československo'}">IMO ${p.imo.map(x=>x[0]+(x[1]?' '+IMOAW[x[1]]:'')).join(', ')}</span>`);
@@ -1194,7 +1194,7 @@ const Grove=(()=>{
     gT.selectAll('*').remove();
     const pool=hot!=null?nodes.filter(n=>n.root===hot):nodes;
     const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).sort((a,b)=>b.d-a.d).map(o=>({n:o.n,cls:o.d>=RED?'flbl root':'flbl',t:o.n.p.name}));
-    const cand=pool.filter(n=>n.p.feat).sort((a,b)=>b.p.feat.h-a.p.feat.h).map(n=>({n,cls:'flbl',t:n.p.name}));
+    const cand=pool.filter(n=>n.p.feat).sort((a,b)=>(b.p.feat.h||0)-(a.p.feat.h||0)).map(n=>({n,cls:'flbl',t:n.p.name}));
     const placed=[], done=new Set(), narrow=(svg.node().clientWidth||800)<600;
     for(const c of roots.concat(cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14, side=Math.cos(n.x-Math.PI/2)>=-0.15;
       const tries=[[side,0],[side,-10],[side,10]].concat(narrow?[]:[[!side,0],[!side,-10],[!side,10]]); let ok=null;
@@ -1452,9 +1452,9 @@ const Alumni=(()=>{
 $('#a-date').textContent=new Date(DATA.generated+'T12:00:00').toLocaleDateString('sk-SK',{day:'numeric',month:'long',year:'numeric'});
 Forest.stats();
 /* live h-index: /data/h.json is rendered by Jekyll from _data/all.yaml, the same data as the main slovenskivedci.sk list
-   (Scholar id -> h); it overrides the embedded F.h, which stays as the fallback if the fetch fails. */
+   (Scholar id -> h); it overrides the embedded F.h, which stays as the fallback only if the fetch fails. */
 const hLive=fetch('/data/h.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(j=>{ const H=j&&j.h; if(!H) return 0; let n=0;
-  for(const p of people.values()){ const f=p.feat; if(!f||!f.sch) continue; const h=H[f.sch]; if(!Number.isInteger(h)){ console.warn('h-index: not on slovenskivedci.sk list',p.name,f.sch); continue; } if(h!==f.h){ f.h=h; n++; } }
+  for(const p of people.values()){ const f=p.feat; if(!f||!f.sch) continue; const h=H[f.sch]; if(!Number.isInteger(h)){ if(f.h!=null){ f.h=null; n++; } continue; } /* not on the main list any more: hide the chip */ if(h!==f.h){ f.h=h; n++; } }
   return n; }).catch(()=>0);
 let booted=false; const boot=()=>{ if(booted) return; booted=true; route(); };
 Promise.all([document.fonts&&document.fonts.ready||0,Promise.race([hLive,new Promise(r=>setTimeout(r,1500))])]).then(boot,boot);
