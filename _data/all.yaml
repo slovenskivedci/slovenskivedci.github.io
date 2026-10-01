@@ -4766,7 +4766,7 @@
   year: ''
   sex: "mu\u017E"
   position: vedec
-  field: "imunol\xF3gia"
+  field: "mikrobiol\xF3gia"
   pribeh: "V\u010Del\xED med a imunita: na SAV dokazuje, \u017Ee sladk\xE9 vie by\u0165\
     \ aj antimikrobi\xE1lne \u2014 s laborat\xF3rnym raz\xEDtkom."
   affiliation: "Slovensk\xE1 akad\xE9mia vied"
@@ -4785,7 +4785,7 @@
   img: Juraj_Majtan_size_280px.jpg
   update_status: UPDATED
   countryurl: Slovensko
-  fieldurl: imunologia
+  fieldurl: mikrobiologia
   area: "medic\xEDna"
   areaurl: medicina
   positionurl: vedec

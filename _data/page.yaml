@@ -2323,13 +2323,13 @@ conn_areas:
     name: "Juraj Majt\xE1n"
     last: Majtan
     hindex: 47
-    field: "imunol\xF3gia"
+    field: "mikrobiol\xF3gia"
     area: "medic\xEDna"
     affiliation: "Slovensk\xE1 akad\xE9mia vied"
     city: Bratislava
     country: Slovensko
     img: Juraj_Majtan_size_280px.jpg
-    card_id: Majtan:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:imunologia:muz
+    card_id: Majtan:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:mikrobiologia:muz
     areaurl: medicina
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
