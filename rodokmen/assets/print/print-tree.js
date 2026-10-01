@@ -181,7 +181,8 @@ const L10N={
     (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; čím vyššie, tým staršia generácia.'+(pd?' Zahrnutí sú aj predkovia cez postdoktorandských školiteľov (zelená vetva).':''),
   f2cut:(tot,dg,oldest,om)=>`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dg} ${pl(dg,'generáciu','generácie','generácií')} do minulosti, k osobe ${oldest}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `,
   f2all:'Zobrazený je celý známy rodokmeň. ',
-  date:(y,m,d)=>`${d}. ${m}. ${y}`, f3:ds=>`Údaje: slovenskivedci.sk/rodokmen${ds?', stav k '+ds:''}.`,
+  date:(y,m,d)=>`${d}. ${m}. ${y}`, f3:ds=>ds?`Stav údajov k ${ds}.`:'',
+  credit:'Rodokmeň slovenských matematikov · autor a tvorca: Peter Richtárik · www.slovenskivedci.sk/rodokmen',
   hl:chain=>'Zvýraznená vetva: '+chain, hlWhy:(who,d)=>`vedie k predkovi s najviac akademickými potomkami: ${who} (${d})`, hlLong:'najdlhšia línia (údaje o potomkoch chýbajú)',
   lBranch:'Vetva: školiteľ (vyššie) a doktorand', lPd:'Postdoktorandský školiteľ a postdoktorand', lPd2:'',
   lDash:'Ďalší školiteľ už nakreslenej osoby', lDash2:'(druhá cesta k tej istej osobe)',
@@ -207,7 +208,8 @@ const L10N={
     ' Each person appears once; the higher a person sits, the further back the generation.'+(pd?' Ancestors through postdoc advisors are included (teal branches).':''),
   f2cut:(tot,dg,oldest,om)=>`The full tree has ${tot} ${tot===1?'ancestor':'ancestors'} (the longest line goes back ${dg} ${dg===1?'generation':'generations'}, to ${oldest}); ${om} older ${om===1?'ancestor is':'ancestors are'} not shown here. `,
   f2all:'The whole known tree is shown. ',
-  date:(y,m,d)=>`${d} ${MONTHS_EN[m-1]} ${y}`, f3:ds=>`Data: slovenskivedci.sk/rodokmen${ds?', as of '+ds:''}.`,
+  date:(y,m,d)=>`${d} ${MONTHS_EN[m-1]} ${y}`, f3:ds=>ds?`Data as of ${ds}.`:'',
+  credit:'Slovak Mathematical Genealogy · created by Peter Richtárik · www.slovenskivedci.sk/rodokmen',
   hl:chain=>'Highlighted branch: '+chain, hlWhy:(who,d)=>`leads to the ancestor with the most academic descendants: ${who} (${d})`, hlLong:'the longest line (descendant counts missing)',
   lBranch:'Branch: PhD advisor (above) of a student', lPd:'Postdoc link', lPd2:'(postdoc advisor above)',
   lDash:'Also an advisor', lDash2:'(second path to a person)',
@@ -224,6 +226,8 @@ const L10N={
  }
 };
 const LANGS=Object.keys(L10N);
+/* credit on every poster (TX.credit): small and grey at the foot of the page; 8.5 pt on A3, scaled with the paper (12 pt on A2, 24 pt on A0) */
+const CREDIT_COL='#857b6f', creditSize=(W,H)=>8.5*Math.min(W,H)/841.89, CREDIT_URL='https://www.slovenskivedci.sk/rodokmen/';
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
@@ -398,7 +402,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const f3=TX.f3(dstr);
   const fs=12.5, flh=18, fmax=W-2*M-30;
   const w23=wrapText(tw,clean(f2+f3),fs,'normal',fmax);
-  const flines=scr?[]:wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3]));
+  const flines=scr?[]:wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3])).filter(Boolean);
   const footTop=H-M-12-(flines.length-1)*flh-fs;
   // ----- legend content
   const LI=[];
@@ -584,6 +588,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
       let ty=yy+11; for(const t of it.l1){ T(Lx+ltx,ty,t,L1,it.sw==='more'?'italic':'normal',it.sw==='more'?TP.INK3:TP.INK); ty+=13.4; } for(const t of it.l2){ T(Lx+ltx,ty-1,t,L2,'italic',TP.INK2); ty+=12; }
       yy+=it.h; } }
   flines.forEach((t,i)=>T(W/2,footTop+fs+i*flh,t,fs,'normal',TP.INK2,'middle'));
+  let credit=null; if(!scr){ const cs=creditSize(W,H), cy=H-36; const cw=T(W/2,cy,TX.credit,cs,'normal',CREDIT_COL,'middle'); credit=[W/2-cw/2,cy-cs,cw,cs*1.3]; }   // below the footer, above the inner frame
   // ----- self check
   const issues=[]; const P2=(b)=>[GX+b[0]*s,GY+b[1]*s,b[2]*s,b[3]*s];
   const all=[...boxes.entries()];
@@ -593,7 +598,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   for(const [x,c] of curveOf){ const p=g.par.get(x); const pts=curvePts(c,24).slice(2,-2).map(q=>[q[0],fy(q[1])]); for(const [y,b] of boxes){ if(y===x||y===p||typeof y!=='number') continue; if(pts.some(q=>q[0]>b[0]+2&&q[0]<b[0]+b[2]-2&&q[1]>b[1]+2&&q[1]<b[1]+b[3]-2)){ issues.push('branch '+p+'>'+x+' under '+y); } } }
   const svgInner=out.join('');
   if(/[\u2013\u2014]/.test(svgInner)) issues.push('dash in text');
-  return {svgInner,W,H,s,issues,legendMode,title,flines,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra,treeSvg,legendItems:LI.map(it=>({sw:it.sw,t1:it.t1,t2:it.t2||''})),boxes:scr?boxes:null};
+  return {svgInner,W,H,s,issues,legendMode,title,flines,credit,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra,treeSvg,legendItems:LI.map(it=>({sw:it.sw,t1:it.t1,t2:it.t2||''})),boxes:scr?boxes:null};
 }
 
 const TREE_FAMOUS=new Set([10480,55185]);  // with FAMOUS: also Kolmogorov and Liouville may be named in the legend when on the highlighted branch
@@ -619,7 +624,8 @@ async function buildTree(ctx,rootId,opts){
   doc.setFont(FONT,'normal'); doc.setFontSize(12);
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:PW,height:PH}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
-  const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
+  if(comp.credit&&!opts.svgOnly) try{ const c=comp.credit; doc.link(c[0]*k,c[1]*k,c[2]*k,c[3]*k,{url:CREDIT_URL}); }catch(e){}
+  const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}.pdf`;
   const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
@@ -699,7 +705,7 @@ function partsSvg(parts,win){
 /* page frame: header, legend and footer for a W x H page (pt); returns the tree area */
 function vFrame(tw,TX,W,H,legend,mapW){
   const k=Math.min(W,H)/1190.55, m=40*k;
-  const ts=34*k, ss=15*k, ls=11*k, ls2=9.6*k, fs=11*k, sw=36*k, gapX=26*k;
+  const ts=34*k, ss=15*k, ls=11*k, ls2=9.6*k, fs=creditSize(W,H), sw=36*k, gapX=26*k;
   const yTitle=m+ts*0.8, ySub=yTitle+ss*1.75, yRule=ySub+ss*0.9;
   const maxT=W-2*m-(mapW?mapW+12*k:0);
   // legend items flow left to right in rows
@@ -731,7 +737,7 @@ function vPageSvg(tw,TX,F,W,H,o){
   // footer
   const yF=H-m;
   out.push(`<path d="M${n2(m)},${n2(yF-fs*1.5)} L${n2(W-m)},${n2(yF-fs*1.5)}" stroke="${TP.FRAME}" stroke-width="${n2(0.5*k)}" fill="none"/>`);
-  const wl=T(m,yF,o.footL,fs,'normal',TP.INK2); T(W-m,yF,o.footR,fs,'normal',TP.INK2,'end');
+  const wl=T(m,yF,o.footL,fs,'normal',CREDIT_COL); T(W-m,yF,o.footR,fs,'normal',CREDIT_COL,'end');
   return {svg:out.join(''),link:{x:m,y:yF-fs,w:wl,h:fs*1.3}};
 }
 async function buildView(ctx,rootId,opts){
@@ -793,7 +799,7 @@ async function buildView(ctx,rootId,opts){
   [['EBG-R.ttf','normal'],['EBG-B.ttf','bold'],['EBG-I.ttf','italic']].forEach(([f,st2],i)=>{ doc.addFileToVFS(f,fonts[i]); doc.addFont(f,FONT,st2); });
   doc.setFont(FONT,'normal');
   const W=pick.W, H=pick.H;
-  const footL=`${TX.subject} · ${url}`;
+  const footL=TX.credit;   // the credit (the link opens this view)
   const footR=i=>TX.vMade(dToday,dData)+(nPages>1?' · '+TX.vPage(i,nPages):'');
   const render=async(svgInner,link,i)=>{
     if(i>1) doc.addPage([Math.min(W,H),Math.max(W,H)],pick.land?'landscape':'portrait');
@@ -828,7 +834,7 @@ async function buildView(ctx,rootId,opts){
     map+=`<rect x="${n2(mx0+(x0-bx)*ms)}" y="${n2(my0+(y0-by)*ms)}" width="${n2((x1-x0)*ms)}" height="${n2((y1-y0)*ms)}" fill="none" stroke="${TP.OCHRE}" stroke-width="${n2(0.9*F.k)}"/>`;
     svgs.push(vPageSvg(tw,TX,F,W,H,{title,sub:TX.vPart(i+1,tiles.length,t.r,t.c)+' · '+sub,tree:tree+map,footL,footR:footR(i+2)})); });
   for(let i=0;i<svgs.length;i++){ say(nPages>1?i+1+'/'+nPages:''); await render(svgs[i].svg,svgs[i].link,i+1); }
-  doc.setProperties({title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
+  doc.setProperties({title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const paperName=pick.paper+(pick.land?(lang==='en'?'_landscape':'_na_sirku'):(lang==='en'?'_portrait':'_na_vysku'));
   const filename=[fileSlug(rootP.name),dir==='down'?TX.dFile:TX.file,TX.vStrom,'g'+G,so.postdoc===false?(lang==='en'?'no_postdoc':'bez_postdoc'):'',paperName].filter(Boolean).join('_')+'.pdf';
   const report={lang,dir,gens:G,maxGen:MX,postdoc:so.postdoc!==false,people:n,paper:pick.paper,landscape:pick.land,pageW:W,pageH:H,scale:+pick.s.toFixed(4),nameSizePt:+pick.name.toFixed(2),
