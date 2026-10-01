@@ -522,7 +522,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
 
   <main>
     <!-- FOREST -->
-    <section id="v-forest" class="view split" aria-label="Slovenské matematické línie">
+    <section id="v-forest" class="view split" aria-label="Slovenské matematické línie" hidden>
       <aside class="panel">
         <div class="eyebrow">Akademický rodokmeň</div>
         <h1 class="display">Kto koho vychoval v slovenskej matematike</h1>
@@ -576,7 +576,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
     </section>
 
     <!-- STROM (rodokmeň ako strom, podľa plagátu) -->
-    <section id="v-strom" class="view kview" aria-label="Strom: rodokmeň ako strom" hidden>
+    <section id="v-strom" class="view kview" aria-label="Strom: rodokmeň ako strom">
       <div class="kbar">
         <div class="field">
           <svg class="ico" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -932,7 +932,7 @@ const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], se
 let current='';
 function show(view){ if(current===view) return; current=view; const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } Strom.set(null,'up',0); show('strom'); }   // default view: Strom rooted at DEF_ID (Pavol Brunovský)
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
 $$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
@@ -1119,7 +1119,7 @@ document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]')
    from assets/print/print-tree.js, loaded on first use; zoom and pan with d3.zoom)
    ========================================================= */
 const Strom=(()=>{
-  const GDEF=6, DEF_ID=114295;
+  const GDEF=6, DEF_ID=114295;   // default person: Pavol Brunovský
   const svg=d3.select('#k-svg'), world=svg.append('g');
   const zoom=d3.zoom().scaleExtent([.04,6]).on('zoom',e=>world.attr('transform',e.transform));
   svg.call(zoom).on('dblclick.zoom',null);
