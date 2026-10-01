@@ -172,6 +172,7 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .link.unv{stroke-dasharray:1 3.5;stroke-linecap:round;stroke-opacity:.75}
 .link.pd{stroke:var(--pd);stroke-width:1.8;stroke-dasharray:none;stroke-opacity:1}
 .link.pd.hl{stroke:var(--pd);stroke-width:2.4}
+.pdtag{pointer-events:none}.pdtag rect{fill:var(--surface);fill-opacity:.94;stroke:var(--pd-soft);stroke-width:1}.pdtag text{font:500 8.5px var(--font-mono);fill:var(--pd);letter-spacing:.02em}
 .legend svg.lg-ln line.pd{stroke:var(--pd);stroke-width:2}
 .rows li.pdrow .row{box-shadow:inset 3px 0 0 var(--pd)}
 .rows li.pdrow .sub .pdt{color:var(--pd);font-weight:500}
@@ -860,8 +861,10 @@ document.addEventListener('keydown',e=>{ if(e.key==='/'&&!/INPUT|SELECT|TEXTAREA
    ========================================================= */
 const Tree=(()=>{
   const ROWH=44,W=190,GAP=52,COLW=W+GAP,WF=260;
-  const colX=g=>g<0?g*COLW:g===0?0:WF+GAP+(g-1)*COLW;
-  const svg=d3.select('#t-svg'), world=svg.append('g'), gH=world.append('g'), gL=world.append('g'), gN=world.append('g');
+  const PDX=78; let pdB=new Set();  // gaps (between column g and its neighbour towards the focus) crossed by a postdoc link
+  const pdShift=g=>{ let s=0; if(g<0){ for(let k=g;k<=-1;k++) if(pdB.has(k)) s-=PDX; } else for(let k=1;k<=g;k++) if(pdB.has(k)) s+=PDX; return s; };
+  const colX=g=>(g<0?g*COLW:g===0?0:WF+GAP+(g-1)*COLW)+pdShift(g);
+  const svg=d3.select('#t-svg'), world=svg.append('g'), gH=world.append('g'), gL=world.append('g'), gT=world.append('g'), gN=world.append('g');
   const zoom=d3.zoom().scaleExtent([.2,2.5]).on('zoom',e=>world.attr('transform',e.transform));
   svg.call(zoom).on('dblclick.zoom',null);
   let focusId=null,up=3,down=2,inited=false,timer=null,layout=null;
@@ -887,6 +890,7 @@ const Tree=(()=>{
 
   function render(animate){
     const U=buildSide(focusId,'up'), Dn=buildSide(focusId,'down');
+    pdB=new Set(); const walk=(n,d,sign)=>{ for(const c of n.children){ if(sign<0?isPdEdge(n.id,c.id):isPdEdge(c.id,n.id)) pdB.add(sign*(d+1)); walk(c,d+1,sign); } }; walk(U.root,0,-1); walk(Dn.root,0,1);
     const nodes=[{id:focusId,g:0,x:0,y:0,parent:null,side:'f'}].concat(layoutSide(U,-1),layoutSide(Dn,1));
     for(const n of nodes){ const p=people.get(n.id), isF=n.g===0; const max=isF?WF:W; n.name=fitText(p.name,isF?F_FN:F_NM,max); n.meta=fitText(metaLine(p),isF?F_FM:F_MT,max); n.w=Math.max(tw(n.name,isF?F_FN:F_NM),tw(n.meta,isF?F_FM:F_MT)); n.hidden=n.side==='up'?(U.hidden.get(n.id)||0):n.side==='down'?(Dn.hidden.get(n.id)||0):0; n.full=p.name; n.p=p; }
     const byId=new Map(nodes.map(n=>[n.id,n]));
@@ -908,6 +912,13 @@ const Tree=(()=>{
     const lall=lent.merge(lsel).attr('class',l=>{ const pd=isPdEdge(l.t.id,l.s.id); return 'link'+(l.extra?' extra':'')+(pd?' pd':isUnv(edgeSrc(l.t.id,l.s.id))?' unv':''); });
     lall.each(function(l){ const s=d3.select(this); let t=s.select('title'); if(t.empty()) t=s.append('title'); const x=isPdEdge(l.t.id,l.s.id)?pdLink(l.t.id,l.s.id):null; t.text((x?`Postdoktorandský pobyt${x.y?' '+x.y:''}${x.in?', '+x.in:''}. `:'')+'Zdroj vzťahu: '+srcLabel(edgeSrc(l.t.id,l.s.id))); });
     lall.transition().duration(D).style('opacity',1);
+    const TAG='postdoktorand', TAGW=tw(TAG,'500 8.5px "Geist Mono", monospace')+9;
+    const tsel=gT.selectAll('g.pdtag').data(links.filter(l=>!l.extra&&isPdEdge(l.t.id,l.s.id)),l=>l.key);
+    tsel.exit().remove();
+    const tent=tsel.enter().append('g').attr('class','pdtag').attr('aria-hidden','true').style('opacity',0); tent.append('rect'); tent.append('text');
+    const tall=tent.merge(tsel); tall.select('rect').attr('x',-TAGW/2).attr('y',-7).attr('width',TAGW).attr('height',13).attr('rx',3);
+    tall.select('text').attr('x',0).attr('y',3).attr('text-anchor','middle').text(TAG);
+    tall.transition().duration(D).style('opacity',1);
     // nodes
     const sel=gN.selectAll('g.node').data(nodes,d=>d.id);
     sel.exit().transition().duration(D*.5).style('opacity',0).remove();
@@ -931,11 +942,12 @@ const Tree=(()=>{
     // animate
     if(timer) timer.stop();
     const ease=d3.easeCubicInOut;
-    const step=k=>{ const e=ease(k); for(const n of nodes){ n.cx=n.sx+(n.x-n.sx)*e; n.cy=n.sy+(n.y-n.sy)*e; } all.attr('transform',d=>`translate(${d.cx},${d.cy})`); lall.attr('d',linkPath); };
+    const step=k=>{ const e=ease(k); for(const n of nodes){ n.cx=n.sx+(n.x-n.sx)*e; n.cy=n.sy+(n.y-n.sy)*e; } all.attr('transform',d=>`translate(${d.cx},${d.cy})`); lall.attr('d',linkPath); tall.attr('transform',l=>{ const m=linkMid(l); return `translate(${m[0]},${m[1]})`; }); };
     if(D){ step(0); timer=d3.timer(t=>{ const k=Math.min(1,t/D); step(k); if(k>=1){ timer.stop(); timer=null; } }); } else step(1);
     pos.clear(); for(const n of nodes) pos.set(n.id,{x:n.x,y:n.y});
     fit(animate);
   }
+  function linkMid(l){ const s=l.s,t=l.t; const x1=s.cx+s.w+(s.g===0?34:18), x2=t.cx-(t.g===0?16:8); return [(x1+x2)/2,(s.cy+t.cy)/2]; }
   function linkPath(l){ const s=l.s,t=l.t; if(Math.abs(s.x-t.x)<1){ const x=s.cx-9; return `M${x},${s.cy}C${x-46},${s.cy} ${x-46},${t.cy} ${x},${t.cy}`; } const x1=s.cx+s.w+(s.g===0?34:18), y1=s.cy, x2=t.cx-(t.g===0?16:8), y2=t.cy, mx=(x1+x2)/2; return `M${x1},${y1}C${mx},${y1} ${mx},${y2} ${x2},${y2}`; }
   function hl(id){ if(!layout) return; const on=new Set(); let k=id; while(k!=null){ on.add(k); const n=layout.byId.get(k); k=n?n.parent:null; } gL.selectAll('path').classed('hl',l=>id!=null&&!l.extra&&on.has(l.s.id)&&on.has(l.t.id)); gN.selectAll('g.node').classed('hl',d=>id!=null&&on.has(d.id)&&d.g!==0); }
   function fit(animate){
