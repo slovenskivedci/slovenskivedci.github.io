@@ -640,7 +640,7 @@ async function buildTree(ctx,rootId,opts){
 const V_XMAX=220;   // rows may spread further apart than on screen (TREE_BASE.xmax) so that the tree fills the sheet
 const PAPER_ALL={A2:[1190.55,1683.78],A0:[2383.94,3370.39]};
 const V_NAME=13;               // design size of a name in the tree (TREE_BASE.ns)
-const V_GOOD=7, V_MIN=4, V_TILE=5, V_MAX=24;   // printed name size in pt on A2 (A0: x2 for V_MAX): readable on A2, smallest accepted on A0, in detail sections, largest
+const V_GOOD=7, V_MIN=4, V_TILE=5, V_MAX=24;   // printed name size in pt on A2 (A0: V_MAX x2, so 48 pt at most): readable on A2, smallest accepted on A0, in detail sections, largest
 Object.assign(L10N.sk,{
   vDir:{up:'predkovia',down:'potomkovia'},
   vGen:(g,mx)=>g>=mx?(g===1?'1 generácia':`všetky ${g} ${pl(g,'generácia','generácie','generácií')}`):`${g} ${pl(g,'generácia','generácie','generácií')} z ${mx}`,
@@ -762,7 +762,7 @@ async function buildView(ctx,rootId,opts){
     const sc=await scene(ctx,rootId,Object.assign({},so,{lang,pageH:130.5+1078.55*r,treeCfg:{xmax:V_XMAX}}));
     lay[land]=Object.assign({sc},sceneParts(sc.treeSvg)); }
   const fitOn=(paper,land)=>{ const f=frameOf(paper,land), L=lay[land], [,,bw,bh]=L.bb, A=f.F.area, k=f.F.k;
-    const s=Math.min((A[2]-A[0])/bw,(A[3]-A[1])/bh,V_MAX*k/V_NAME); return Object.assign(f,{L,s,name:s*V_NAME}); };
+    const s=Math.min((A[2]-A[0])/bw,(A[3]-A[1])/bh,V_MAX*(paper==="A0"?2:1)/V_NAME); /* names at most 24 pt on A2, 48 pt on A0 */ return Object.assign(f,{L,s,name:s*V_NAME}); };
   // orientation: the larger scale (ties: less empty paper)
   const orient=paper=>{ const a=fitOn(paper,false), b=fitOn(paper,true); if(Math.abs(b.s-a.s)>0.002*a.s) return b.s>a.s?b:a;
     const fill=c=>{ const A=c.F.area; return c.L.bb[2]*c.L.bb[3]*c.s*c.s/((A[2]-A[0])*(A[3]-A[1])); }; return fill(b)>fill(a)?b:a; };
