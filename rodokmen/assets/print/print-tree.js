@@ -276,7 +276,7 @@ function compose(ctx,tw,g,lay,rootId,opts){
   let title=gen?'Akademickí predkovia '+gen:'Akademickí predkovia: '+clean(rootP.name);
   let ts=50*k; const maxTW=W-2*M-40*k; const w0=tw(title,ts,'normal'); if(w0>maxTW) ts*=maxTW/w0;
   T(W/2,M+60*k,title,ts,'normal',INK,'middle');
-  let sub='Rodokmeň slovenskej matematiky · slovenskivedci.sk/rodokmen · zdroj: Mathematics Genealogy Project';
+  let sub='Rodokmeň slovenskej matematiky · zdroj: slovenskivedci.sk/rodokmen (čerpá z viacerých zdrojov, najmä z Mathematics Genealogy Project)';
   let ss=19*k; const ws=tw(sub,ss,'italic'); if(ws>maxTW) ss*=maxTW/ws;
   T(W/2,M+96*k,sub,ss,'italic',INK2,'middle');
   const cy=M+118*k;
