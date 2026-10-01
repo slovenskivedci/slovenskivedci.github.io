@@ -72,12 +72,15 @@ function genWord(w,female,last){
   return null;
 }
 function genitive(name,female){
-  const n=clean(name); if(/[(),]/.test(n)||/\b(Jr|Sr)\.?$/.test(n)) return null;
+  let n=clean(name), suf='';
+  const sm=n.match(/^(.*\S)\s+(Jr\.?|Sr\.?|ml\.|st\.|junior|senior)$/i);
+  if(sm){ n=sm[1]; suf=' '+(/^(jr|ml|junior)/i.test(sm[2])?'ml.':'st.'); }
+  if(/[(),]/.test(n)) return null;
   const parts=n.split(' '), out=[];
   for(let i=0;i<parts.length;i++){ const last=i===parts.length-1; const hy=parts[i].split('-');
     const sub=hy.map((x,j)=>{ const g=genWord(x,female,last); return g==null&&female&&j<hy.length-1?x:g; });
     if(sub.some(x=>x==null)) return null; out.push(sub.join('-')); }
-  return out.join(' ');
+  return out.join(' ')+suf;
 }
 
 /* ---------- schools: short names, Slovak for CZ/SK schools, native otherwise ---------- */
@@ -400,6 +403,8 @@ async function build(ctx,rootId,opts){
   const {comp,lay}=best;
   const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
   holder.innerHTML=comp.svg; document.body.appendChild(holder);
+  /* svg2pdf only switches fonts when the SVG style differs from its inherited state, so reset the font the text measurer left behind */
+  doc.setFont(FONT,'normal'); doc.setFontSize(12);
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:comp.W,height:comp.H}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
   doc.setProperties({title:comp.title,subject:'Rodokmeň slovenskej matematiky',creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
