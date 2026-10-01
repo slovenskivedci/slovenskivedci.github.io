@@ -1,0 +1,13 @@
+---
+layout: null
+# h-index per Google Scholar id, rendered by Jekyll from _data/all.yaml (the same data as
+# the main list on /), so it is always identical to the list. Loaded by /rodokmen/.
+---
+{%- assign people = site.data.all -%}
+{"updated":{{ site.data.page.h_updated_iso | jsonify }},"count":{{ people.size }},"h":{
+{%- for item in people -%}
+{%- assign sid = item.scholar | replace: "&amp;", "&" | split: "user=" | last | split: "&" | first | split: "#" | first -%}
+{{ sid | jsonify }}:{{ item.hindex | plus: 0 }}{% unless forloop.last %},
+{% endunless %}
+{%- endfor -%}
+}}
