@@ -163,6 +163,24 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .printrow .popt{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
 .printrow select{font:inherit;color:var(--ink-2);background:var(--surface);border:1px solid var(--rule);border-radius:7px;padding:3px 4px}
 .printrow .textbtn[disabled]{opacity:.6;cursor:progress}
+/* print button: subtle gold treatment + small tree icon; variant via data-pv (a outline, b light fill, c link) */
+.printrow{--pg-edge:#C9A227;--pg-deep:#9A7412;--pg-ink:#5C4409;--pg-soft:#FBF6E6;--pg-soft-2:#F5EBC8;--pg-leaf:#3E7D4F;--pg-trunk:#B8891B}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .printrow{--pg-edge:#B8932E;--pg-deep:#E2C063;--pg-ink:#F0DDA0;--pg-soft:rgba(201,162,39,.10);--pg-soft-2:rgba(201,162,39,.18);--pg-leaf:#6DB27F;--pg-trunk:#D9B24A} }
+:root[data-theme="dark"] .printrow{--pg-edge:#B8932E;--pg-deep:#E2C063;--pg-ink:#F0DDA0;--pg-soft:rgba(201,162,39,.10);--pg-soft-2:rgba(201,162,39,.18);--pg-leaf:#6DB27F;--pg-trunk:#D9B24A}
+.printrow:has(.printbtn){column-gap:8px}
+.printbtn{display:inline-flex;align-items:center;gap:6px;padding:7px 10px 7px 9px;font-weight:500;color:var(--ink);transition:background-color .15s,border-color .15s,color .15s}
+.printbtn .ptree{flex:none;width:15px;height:15px;display:block}
+.printbtn .ptree .leaf{fill:var(--pg-leaf)} .printbtn .ptree .trunk{stroke:var(--pg-trunk)}
+.printbtn:focus-visible{outline:2px solid var(--pg-deep);outline-offset:2px;border-radius:9px}
+.printrow[data-pv="a"] .printbtn{border-color:var(--pg-edge);background:var(--surface)}
+.printrow[data-pv="a"] .printbtn:hover{border-color:var(--pg-deep);background:var(--pg-soft);color:var(--pg-ink)}
+.printrow[data-pv="b"] .printbtn{border-color:color-mix(in srgb,var(--pg-edge) 55%,transparent);background:var(--pg-soft);color:var(--pg-ink)}
+.printrow[data-pv="b"] .printbtn:hover{border-color:var(--pg-edge);background:var(--pg-soft-2);color:var(--pg-ink)}
+.printrow[data-pv="c"] .printbtn{border-color:transparent;background:none;padding:5px 2px;color:var(--ink-2)}
+.printrow[data-pv="c"] .printbtn .ptree .leaf{fill:var(--pg-edge)} .printrow[data-pv="c"] .printbtn .ptree .trunk{stroke:var(--pg-deep)}
+.printrow[data-pv="c"] .printbtn span{text-decoration:underline;text-decoration-color:var(--pg-edge);text-decoration-thickness:1px;text-underline-offset:3px}
+.printrow[data-pv="c"] .printbtn:hover{color:var(--pg-ink)} .printrow[data-pv="c"] .printbtn:hover span{text-decoration-color:var(--pg-deep);text-decoration-thickness:2px}
+@media (max-width:480px){.printbtn{font-size:14px;padding:9px 12px 9px 11px}.printbtn .ptree{width:16px;height:16px}.printrow[data-pv="c"] .printbtn{padding:9px 2px}}
 .printrow .pst:empty{display:none}
 .more-note{font-size:12px;color:var(--ink-3);padding:8px 6px}
 
@@ -946,7 +964,7 @@ function renderProfile(p){
   const dp=deepest(p.id); const root=people.get(dp.root);
   const lineage=dp.g>0?`<p class="lineage">Najstarší zaznamenaný predok: <button type="button" data-go="${root.id}">${esc(root.name)}</button>${root.year?` (${root.year}${root.school?', '+esc(shortSchool(root.school)):''})`:''}, o <b>${dp.g}</b> ${pl(dp.g,'generáciu','generácie','generácií')} vyššie.</p>`:'';
   const pCap=Math.max(1,dp.g), pDef=Math.min(14,pCap);
-  const printHtml=adv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}">Vytlačiť rodokmeň predkov</button><span class="popt"><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select></span><span class="pst" role="status"></span></div>`:'';
+  const printHtml=adv.length?`<div class="printrow" data-pv="${(/[?&]pv=([abc])/.exec(location.search)||[])[1]||'b'}"><button type="button" class="textbtn printbtn" data-print="${p.id}"><svg class="ptree" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle class="leaf" cx="8" cy="5" r="3.6"/><circle class="leaf" cx="4.4" cy="7.6" r="2.6"/><circle class="leaf" cx="11.6" cy="7.6" r="2.6"/><path class="trunk" d="M8 15V7.4M8 11.3 5.3 8.9M8 10.1l2.5-2.1" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg><span>Vytlačiť rodokmeň predkov</span></button><span class="popt"><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select></span><span class="pst" role="status"></span></div>`:'';
   const advHtml=adv.length||p.advText.length||missingAdv?`<h2 class="sec"><span>${adv.length+p.advText.length+missingAdv===1?'Školiteľ':'Školitelia'}</span><span>${adv.length+p.advText.length+missingAdv}</span></h2><ul class="rows">${adv.map(a=>personRow(a,undefined,edgeSrc(p.id,a))).join('')}${p.advText.map(t=>`<li><div class="row" style="cursor:default"><i class="dot"></i><span class="nm">${esc(t)}</span><span class="yr"></span><span class="sub">Uvedený na domovskej stránke, v databáze zatiaľ nie je.</span></div></li>`).join('')}</ul>${missingAdv?`<p class="more-note">Ďalší na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>, mimo tejto databázy: ${missingAdv}.</p>`:''}`:'';
   const stHtml=st.length?`<h2 class="sec"><span>Doktorandi</span><span>${st.length}${nStud>st.length?' z '+nf.format(nStud):''}</span></h2><ul class="rows">${st.map(s=>personRow(s,undefined,edgeSrc(s,p.id))).join('')}</ul>${nStud>st.length?`<p class="more-note">Zobrazení sú len doktorandi na ceste k slovenskému matematikovi. Všetkých ${nf.format(nStud)} nájdete na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>.</p>`:''}`:'';
   const links=[]; if(p.id>0) links.push(`<a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">Mathematics Genealogy Project</a>`);
