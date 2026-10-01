@@ -437,6 +437,9 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
 .kbar-r select{height:34px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);padding:0 6px;color:var(--ink-2)}
 .kbar-r .textbtn[disabled]{opacity:.6;cursor:progress}
 .kbar-r .kpst:empty{display:none}
+.kpd{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-2);white-space:nowrap;cursor:pointer}
+.kpd input{accent-color:#3d8c84;margin:0}
+.ksep{width:1px;height:20px;background:var(--rule);margin:0 2px}
 .kline{display:flex;align-items:center;gap:6px 12px;min-height:34px}
 .kcrumbs{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-size:13px;color:var(--ink-3);min-height:22px}
 .kcrumbs .kcur{font:500 16px/1.2 var(--font-display);color:var(--ink)}
@@ -477,6 +480,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
   .kgen{flex:1;gap:6px;font-size:12px}.kgl{display:none}.kgs{display:inline}.kgen input{width:auto;flex:1;min-width:60px}.kgen output{min-width:0}
   .kline{align-items:flex-start}
   .kbar-r .textbtn{padding:6px 10px}
+  .kline{flex-wrap:wrap}.kcrumbs{min-width:min(100%,190px)}.kbar-r{flex-wrap:wrap;justify-content:flex-end}.ksep,#k-pfmt{display:none}
   .kcrumbs{font-size:12.5px}.kcrumbs .kcur{font-size:15px}.kcrumbs .ksum{display:none}
   .kcard{left:8px;right:8px;bottom:8px;width:auto;max-width:none}
   .klegend{left:8px;right:8px;bottom:8px;width:auto;max-height:70%;overflow:auto}
@@ -585,8 +589,9 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         </div>
         <div class="seg" id="k-dir" role="group" aria-label="Smer stromu"><button type="button" data-dir="up" aria-pressed="true">predkovia</button><button type="button" data-dir="down" aria-pressed="false">potomkovia</button></div>
         <label class="kgen"><span class="kgl">generácie</span><span class="kgs">gen.</span><input type="range" id="k-gen" min="1" max="6" value="6" step="1"><output id="k-genN" for="k-gen"></output></label>
+        <label class="kpd" title="Zahrnúť aj postdoktorandských školiteľov a postdoktorandov (zelené vetvy)"><input type="checkbox" id="k-pd" checked> postdoktorandské väzby</label>
       </div>
-      <div class="kline"><nav class="kcrumbs" id="k-crumbs" aria-label="Cesta stromom"></nav><span class="kbar-r"><span class="kpst" id="k-pst" aria-live="polite"></span><button type="button" class="textbtn" id="k-print" title="PDF plagát zobrazeného stromu">Vytlačiť</button><select id="k-paper" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select><select id="k-lang" aria-label="Jazyk plagátu" title="Jazyk plagátu"><option value="sk" selected>Slovenčina</option><option value="en">English</option></select></span></div>
+      <div class="kline"><nav class="kcrumbs" id="k-crumbs" aria-label="Cesta stromom"></nav><span class="kbar-r"><span class="kpst" id="k-pst" aria-live="polite"></span><button type="button" class="textbtn" id="k-pdf" title="Stiahnuť zobrazený strom ako veľký plagát vo formáte PDF (A2 alebo A0, celý strom vo vektoroch)">Stiahnuť PDF</button><select id="k-pfmt" aria-label="Veľkosť plagátu PDF" title="Veľkosť plagátu PDF"><option value="auto" selected>A2/A0 automaticky</option><option value="A2">A2</option><option value="A0">A0</option></select><span class="ksep" aria-hidden="true"></span><button type="button" class="textbtn" id="k-print" title="PDF plagát zobrazeného stromu">Vytlačiť</button><select id="k-paper" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select><select id="k-lang" aria-label="Jazyk plagátu" title="Jazyk plagátu"><option value="sk" selected>Slovenčina</option><option value="en">English</option></select></span></div>
       <div class="stage ksheet" id="k-stage">
         <svg id="k-svg" role="img" aria-label="Strom: osoba pri koreni, predkovia vo vetvách nad ňou alebo potomkovia pod ňou"></svg>
         <div class="kzoom" role="group" aria-label="Priblíženie"><button type="button" class="tool" data-kz="in" aria-label="Priblížiť">+</button><button type="button" class="tool" data-kz="out" aria-label="Oddialiť">−</button><button type="button" class="tool wide" data-kz="fit">Zobraziť celé</button><button type="button" class="tool wide" data-kz="leg" aria-expanded="true">Legenda</button></div>
@@ -932,7 +937,7 @@ const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], se
 let current='';
 function show(view){ if(current===view) return; current=view; const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/bezpd)?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[4]); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
 $$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
@@ -1105,7 +1110,7 @@ function renderProfile(p){
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
 const PRINT_CTX={people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf};
 let printP=null;   // window.rodokmenPrintLang: poster language, Slovak by default; the last choice is kept while the page is open
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=9'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=10'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
 async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2', pdBox=row.querySelector('[name=ppd]'), postdoc=pdBox?pdBox.checked:false, langSel=row.querySelector('[name=plang]'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
   btn.disabled=true; st.textContent='Pripravujem PDF…';
   try{ const M=await loadPrint(); await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper,postdoc,lang}); st.textContent=''; }
@@ -1123,32 +1128,32 @@ const Strom=(()=>{
   const svg=d3.select('#k-svg'), world=svg.append('g');
   const zoom=d3.zoom().scaleExtent([.04,6]).on('zoom',e=>world.attr('transform',e.transform));
   svg.call(zoom).on('dblclick.zoom',null);
-  let root=null, dir='up', gPref=GDEF, drawnKey='', drawnAspect=0, scene=null, trail=[], sel=null, busy=0, lastPtr='mouse', legendOpen=innerWidth>=900, legendTouched=false;
+  let root=null, dir='up', gPref=GDEF, pd=true, drawnKey='', drawnAspect=0, scene=null, trail=[], sel=null, busy=0, lastPtr='mouse', legendOpen=innerWidth>=900, legendTouched=false;
   const mobile=()=>innerWidth<900;
   const maxMemo=new Map();
-  function maxGen(id,d){ const k=id+':'+d; if(maxMemo.has(k)) return maxMemo.get(k); const nb=d==='down'?studAllOf:advAllOf; const dist=new Map([[id,0]]), q=[id]; let m=0;
+  function maxGen(id,d,p=pd){ const k=id+':'+d+':'+(p?1:0); if(maxMemo.has(k)) return maxMemo.get(k); const nb=d==='down'?(p?studAllOf:studentsOf):(p?advAllOf:advisorsOf); const dist=new Map([[id,0]]), q=[id]; let m=0;
     for(let i=0;i<q.length;i++){ const x=q[i]; for(const y of nb(x)) if(!dist.has(y)){ dist.set(y,dist.get(x)+1); m=Math.max(m,dist.get(y)); q.push(y); } } maxMemo.set(k,m); return m; }
   const gens=()=>Math.max(1,Math.min(gPref,maxGen(root,dir)||1));
-  const hashFor=(id,d=dir,g=gPref)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'');
+  const hashFor=(id,d=dir,g=gPref,p=pd)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'')+(p?'':'/bezpd');
   const hash=()=>hashFor(root??Tree.current()??DEF_ID);
-  function set(id,d,g){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF;
+  function set(id,d,g,p){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF; pd=p!==false;
     const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else { trail.push(id); if(trail.length>12) trail=trail.slice(-12); }
     if(current==='strom') draw(); }
   function ensure(){ if(root==null) set(null,'up',0); $('#k-lang').value=window.rodokmenPrintLang==='en'?'en':'sk'; draw(); }
   const status=t=>{ $('#k-status').textContent=t; };
   function syncUi(){
     const mx=Math.max(1,maxGen(root,dir)), g=gens(), r=$('#k-gen');
-    $$('#k-dir button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.dir===dir?'true':'false'));
+    $$('#k-dir button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.dir===dir?'true':'false')); $('#k-pd').checked=pd;
     r.max=mx; r.value=g; r.disabled=mx<=1; $('#k-genN').textContent=`${g} z ${mx}`;
     r.setAttribute('aria-valuetext',`${g} ${pl(g,'generácia','generácie','generácií')} z ${mx}`);
     crumbs(); }
   async function draw(){
     syncUi();
-    const g=gens(), key=root+'|'+dir+'|'+g, el=svg.node(), w=el.clientWidth||800, h=el.clientHeight||600, asp=h/w;
+    const g=gens(), key=root+'|'+dir+'|'+g+'|'+(pd?1:0), el=svg.node(), w=el.clientWidth||800, h=el.clientHeight||600, asp=h/w;
     if(key===drawnKey&&Math.abs(Math.log(asp/drawnAspect))<.4){ fit(false); return; }
     const my=++busy; if(!scene||drawnKey.split('|')[0]!==String(root)) world.attr('opacity',.35); status('Kreslím strom…');
     let sc;
-    try{ const M=await loadPrint(); sc=await M.scene(PRINT_CTX,root,{gens:g,dir,postdoc:true,pageH:1190.55*clamp(asp,.5,2.2)}); }
+    try{ const M=await loadPrint(); sc=await M.scene(PRINT_CTX,root,{gens:g,dir,postdoc:pd,pageH:1190.55*clamp(asp,.5,2.2)}); }
     catch(err){ console.error(err); if(my===busy){ status('Strom sa nepodarilo nakresliť.'); world.attr('opacity',1); } return; }
     if(my!==busy) return;
     scene=sc; drawnKey=key; drawnAspect=asp; sel=null;
@@ -1235,10 +1240,20 @@ const Strom=(()=>{
   combo($('#kq'),$('#kq-list'),p=>{ $('#kq').value=''; $('#kq').blur(); go(hashFor(p.id)); });
   $('#k-print').addEventListener('click',async()=>{ const b=$('#k-print'), st=$('#k-pst'); if(b.disabled||root==null) return; b.disabled=true; st.textContent='Pripravujem PDF…';
     const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
-    try{ const M=await loadPrint(); await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-paper').value,postdoc:true,dir,lang}); st.textContent=''; }
+    try{ const M=await loadPrint(); await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-paper').value,postdoc:pd,dir,lang}); st.textContent=''; }
+    catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
+  $('#k-pd').addEventListener('change',e=>{ if(root!=null) go(hashFor(root,dir,gPref,e.target.checked)); });
+  /* "Stiahnuť PDF": the tree of the view (person, direction, generations, postdoc links) as a poster PDF, A2 or A0,
+     laid out again for the sheet (RodokmenPrint.downloadView in assets/print/print-tree.js) */
+  $('#k-pdf').addEventListener('click',async()=>{ const b=$('#k-pdf'), st=$('#k-pst'); if(b.disabled||root==null) return;
+    const key=root+'|'+dir+'|'+gens()+'|'+(pd?1:0); if(!scene||drawnKey!==key){ st.textContent='Strom sa ešte kreslí…'; return; }
+    b.disabled=true; st.textContent='Pripravujem PDF…';
+    const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
+    try{ const M=await loadPrint(); await M.downloadView(PRINT_CTX,root,{scene,sceneOpts:{gens:gens(),dir,postdoc:pd},gens:gens(),maxGen:maxGen(root,dir),lang,paper:$('#k-pfmt').value,hash:hashFor(root),
+        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); st.textContent=''; }
     catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current!=='strom') return; if(!legendTouched) legendOpen=!mobile(); $('#k-legend').classList.toggle('open',legendOpen); draw(); },200); });
-  return {set,ensure,hash,_state:()=>({root,dir,gens:gens(),trail:trail.slice(),n:scene?scene.g.S.size:0,issues:scene?scene.issues:null})};
+  return {set,ensure,hash,_state:()=>({root,dir,pd,gens:gens(),trail:trail.slice(),n:scene?scene.g.S.size:0,issues:scene?scene.issues:null})};
 })();
 
 /* =========================================================

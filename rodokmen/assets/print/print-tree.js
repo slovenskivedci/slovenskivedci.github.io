@@ -6,7 +6,8 @@
    and thesis titles are never translated).
    opts.dir==='down' draws the academic descendants instead (students hang below the person, same layout mirrored).
    RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Strom" view
-   (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup). */
+   (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup).
+   RodokmenPrint.downloadView() prints the tree of the "Strom" view as a poster PDF ("Stiahnuť PDF", see VIEW EXPORT). */
 (function(){
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
@@ -627,6 +628,215 @@ async function buildTree(ctx,rootId,opts){
   return {doc,filename,svg,report};
 }
 
+/* =====================================================================
+   VIEW EXPORT ("Stiahnuť PDF" in the Strom view): a poster of the tree shown in the view
+   The same tree as on screen (person, direction, generations, postdoc links; the same graph, drawing and labels),
+   laid out again for the sheet: the scene is re-flowed for the aspect of the poster's tree area in portrait and in
+   landscape, and the orientation with the larger scale wins. Paper: A2 when the names stay readable there, else A0
+   (or the size chosen by the user). Vectors via svg2pdf, with a title, the legend and a footer. A tree too large even
+   for A0 gets an overview page followed by detail sections in reading order (overlapping a little, empty ones left
+   out), each with a locator map.
+   ===================================================================== */
+const V_XMAX=220;   // rows may spread further apart than on screen (TREE_BASE.xmax) so that the tree fills the sheet
+const PAPER_ALL={A2:[1190.55,1683.78],A0:[2383.94,3370.39]};
+const V_NAME=13;               // design size of a name in the tree (TREE_BASE.ns)
+const V_GOOD=7, V_MIN=4, V_TILE=5, V_MAX=24;   // printed name size in pt on A2 (A0: x2 for V_MAX): readable on A2, smallest accepted on A0, in detail sections, largest
+Object.assign(L10N.sk,{
+  vDir:{up:'predkovia',down:'potomkovia'},
+  vGen:(g,mx)=>g>=mx?(g===1?'1 generácia':`všetky ${g} ${pl(g,'generácia','generácie','generácií')}`):`${g} ${pl(g,'generácia','generácie','generácií')} z ${mx}`,
+  vPeople:n=>`${nfmt(n,'sk')} ${pl(n,'osoba','osoby','osôb')}`,
+  vPd:{up:'vrátane postdoktorandských školiteľov',down:'vrátane postdoktorandov'}, vNoPd:'bez postdoktorandských väzieb',
+  vHl:t=>t.replace(/^Zvýraznená vetva:/,'Zvýraznená hlavná línia:'),
+  vMade:(d,data)=>`vytvorené ${d}`+(data?` · údaje k ${data}`:''), vPage:(i,n)=>`strana ${i} z ${n}`,
+  vOverview:n=>`Celý strom na jednej strane; na ďalších stranách ${n===1?'nasleduje 1 podrobný výrez':`nasleduje ${n} ${pl(n,'podrobný výrez','podrobné výrezy','podrobných výrezov')}`} (čísla v rámčekoch).`,
+  vPart:(i,n,r,c)=>`výrez ${i} z ${n} (riadok ${r}, stĺpec ${c})`, vStrom:'strom', vNone:{up:'školitelia zatiaľ nie sú známi',down:'doktorandi zatiaľ nie sú známi'}
+});
+Object.assign(L10N.en,{
+  vDir:{up:'ancestors',down:'descendants'},
+  vGen:(g,mx)=>g>=mx?(g===1?'1 generation':`all ${g} generations`):`${g} of ${mx} generations`,
+  vPeople:n=>`${nfmt(n,'en')} ${n===1?'person':'people'}`,
+  vPd:{up:'including postdoc advisors',down:'including postdocs'}, vNoPd:'without postdoc links',
+  vHl:t=>t.replace(/^Highlighted branch:/,'Highlighted main line:'),
+  vMade:(d,data)=>`created ${d}`+(data?` · data as of ${data}`:''), vPage:(i,n)=>`page ${i} of ${n}`,
+  vOverview:n=>`The whole tree on one page; ${n===1?'1 detailed section follows':`${n} detailed sections follow`} (numbered frames).`,
+  vPart:(i,n,r,c)=>`section ${i} of ${n} (row ${r}, column ${c})`, vStrom:'', vNone:{up:'no advisors known yet',down:'no doctoral students known yet'}
+});
+/* legend swatches: the same drawings as the legend of the screen view (36 x 14 units) */
+const V_BR='#726143';
+const vTaper=c=>`<path d="M1,9.5 C12,8 24,6 35,5 L35,7.5 C24,8.5 12,11.5 1,13 Z" fill="${c}"/>`;
+const V_SW={hl:`<path d="M1,8H35" stroke="${TP.OCHRE}" stroke-width="2.2" stroke-linecap="round"/><rect x="9" y="1.5" width="18" height="12" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="1.2"/>`,
+  branch:vTaper(V_BR), pd:vTaper(TP.TEAL), dash:`<path d="M1,10 Q18,0 35,10" fill="none" stroke="${TP.DASH}" stroke-width="1" stroke-dasharray="3 3"/>`,
+  unv:vTaper(V_BR)+[5,12.5,20,27.5].map((x,i)=>`<circle cx="${x}" cy="${10.6-i*1}" r="1" fill="${TP.CREAM}"/>`).join(''),
+  sk:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.SKF}" stroke="${TP.SKE}" stroke-width="0.9"/>`,
+  more:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.EDGE}" stroke-width="0.7"/>`};
+
+/* the scene off screen: its bounding box and every top-level piece with its box (tree coordinates, y down) */
+function sceneParts(treeSvg){
+  const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:800px;height:800px;overflow:hidden;visibility:hidden';
+  holder.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800"><g>${treeSvg}</g></svg>`;
+  document.body.appendChild(holder);
+  try{
+    const g=holder.querySelector('svg > g'), parts=[];
+    let x0=Infinity,y0=Infinity,x1=-Infinity,y1=-Infinity;
+    const add=(el,mir)=>{ const b=el.getBBox(); const box=mir?[b.x,-(b.y+b.height),b.x+b.width,-b.y]:[b.x,b.y,b.x+b.width,b.y+b.height];
+      parts.push({html:el.outerHTML,box,mir,pill:!mir&&el.classList.contains('sp')});
+      if(b.width||b.height){ x0=Math.min(x0,box[0]); y0=Math.min(y0,box[1]); x1=Math.max(x1,box[2]); y1=Math.max(y1,box[3]); } };
+    for(const el of [...g.children]){
+      if(el.tagName.toLowerCase()==='g'&&/scale\(1,\s*-1\)/.test(el.getAttribute('transform')||'')) for(const c of [...el.children]) add(c,true);
+      else add(el,false); }
+    const pad=6; return {parts,bb:[x0-pad,y0-pad,x1-x0+2*pad,y1-y0+2*pad]};
+  } finally { holder.remove(); }
+}
+/* tree markup for a window of the tree (null: all of it); consecutive mirrored pieces go back into one mirrored group */
+function partsSvg(parts,win){
+  const out=[]; let inMir=false;
+  for(const p of parts){ if(win&&(p.box[2]<win[0]||p.box[0]>win[2]||p.box[3]<win[1]||p.box[1]>win[3])) continue;
+    if(p.mir!==inMir){ out.push(p.mir?'<g transform="scale(1,-1)">':'</g>'); inMir=p.mir; }
+    out.push(p.html); }
+  if(inMir) out.push('</g>');
+  return out.join('');
+}
+/* page frame: header, legend and footer for a W x H page (pt); returns the tree area */
+function vFrame(tw,TX,W,H,legend,mapW){
+  const k=Math.min(W,H)/1190.55, m=40*k;
+  const ts=34*k, ss=15*k, ls=11*k, ls2=9.6*k, fs=11*k, sw=36*k, gapX=26*k;
+  const yTitle=m+ts*0.8, ySub=yTitle+ss*1.75, yRule=ySub+ss*0.9;
+  const maxT=W-2*m-(mapW?mapW+12*k:0);
+  // legend items flow left to right in rows
+  const items=legend.map(it=>{ const t1w=Math.min(W-2*m-sw-6*k,it.sw==='hl'?760*k:300*k);
+    const l1=wrapText(tw,it.t1,ls,'normal',t1w), l2=it.t2?wrapText(tw,it.t2,ls2,'italic',t1w):[];
+    let w=0; for(const t of l1) w=Math.max(w,tw(t,ls,'normal')); for(const t of l2) w=Math.max(w,tw(t,ls2,'italic'));
+    return {sw:it.sw,l1,l2,w:sw+6*k+w,h:l1.length*ls*1.25+l2.length*ls2*1.25}; });
+  let x=m, y=yRule+9*k, rowH=0; const placed=[];
+  for(const it of items){ if(x>m&&x+it.w>W-m){ x=m; y+=rowH+5*k; rowH=0; } placed.push(Object.assign(it,{x,y})); x+=it.w+gapX; rowH=Math.max(rowH,it.h); }
+  const legBottom=items.length?y+rowH:yRule;
+  const area=[m,legBottom+12*k,W-m,H-m-fs*2.4];
+  return {k,m,ts,ss,ls,ls2,fs,sw,yTitle,ySub,yRule,maxT,placed,area};
+}
+function vPageSvg(tw,TX,F,W,H,o){
+  const {k,m,ts,ss,ls,ls2,fs,sw}=F, out=[];
+  const T=(x,y,t,size,style,fill,anchor)=>{ const w=tw(t,size,style); const x0=anchor==='middle'?x-w/2:anchor==='end'?x-w:x; out.push(`<text x="${n2(x0)}" y="${n2(y)}" font-family="${FONT}" font-size="${n2(size)}"${style==='italic'?' font-style="italic"':''} fill="${fill||TP.INK}">${xesc(t)}</text>`); return w; };
+  out.push(`<rect x="0" y="0" width="${n2(W)}" height="${n2(H)}" fill="${TP.PAGE}"/>`);
+  // title and subtitle (shrunk to fit)
+  let t1=ts; { const w=tw(o.title,t1,'normal'); if(w>F.maxT) t1*=F.maxT/w; }
+  let s1=ss; { const w=tw(o.sub,s1,'italic'); if(w>F.maxT) s1*=F.maxT/w; }
+  T(m,F.yTitle,o.title,t1,'normal',TP.INK); T(m,F.ySub,o.sub,s1,'italic',TP.INK2);
+  out.push(`<path d="M${n2(m)},${n2(F.yRule)} L${n2(W-m)},${n2(F.yRule)}" stroke="${TP.FRAME}" stroke-width="${n2(0.7*k)}" fill="none"/>`);
+  // legend
+  for(const it of F.placed){ const sc=sw/36; out.push(`<g transform="translate(${n2(it.x)} ${n2(it.y+ls*0.55-7*sc)}) scale(${n2(sc)})">${V_SW[it.sw]||''}</g>`);
+    let yy=it.y+ls*0.95; for(const t of it.l1){ T(it.x+sw+6*k,yy,t,ls,it.sw==='more'?'italic':'normal',it.sw==='more'?TP.INK3:TP.INK); yy+=ls*1.25; }
+    for(const t of it.l2){ T(it.x+sw+6*k,yy,t,ls2,'italic',TP.INK2); yy+=ls2*1.25; } }
+  // tree
+  out.push(o.tree);
+  // footer
+  const yF=H-m;
+  out.push(`<path d="M${n2(m)},${n2(yF-fs*1.5)} L${n2(W-m)},${n2(yF-fs*1.5)}" stroke="${TP.FRAME}" stroke-width="${n2(0.5*k)}" fill="none"/>`);
+  const wl=T(m,yF,o.footL,fs,'normal',TP.INK2); T(W-m,yF,o.footR,fs,'normal',TP.INK2,'end');
+  return {svg:out.join(''),link:{x:m,y:yF-fs,w:wl,h:fs*1.3}};
+}
+async function buildView(ctx,rootId,opts){
+  opts=Object.assign({lang:'sk',paper:'auto'},opts||{}); const lang=L10N[opts.lang]?opts.lang:'sk', TX=L10N[lang];
+  const so=Object.assign({gens:6,dir:'up',postdoc:true},opts.sceneOpts||{}); delete so.pageH;
+  const say=t=>{ if(opts.progress) try{ opts.progress(t); }catch(e){} };
+  await loadFaces();
+  const fonts=await loadLibs();
+  // measuring with the PDF's own fonts
+  const probe=(()=>{ const {jsPDF}=window.jspdf; const d=new jsPDF({unit:'pt',format:'a4',compress:true}); [['EBG-R.ttf','normal'],['EBG-B.ttf','bold'],['EBG-I.ttf','italic']].forEach(([f,st],i)=>{ d.addFileToVFS(f,fonts[i]); d.addFont(f,FONT,st); }); return d; })();
+  const tw=makeMeasure(probe);
+  // the graph and its legend do not depend on the layout: taken from the screen's scene (or an English one), then one layout per orientation
+  const sc0=opts.scene&&lang==='sk'?opts.scene:await scene(ctx,rootId,Object.assign({},so,{lang}));
+  const dir=sc0.g.dir, P=ctx.people, rootP=P.get(rootId), name=clean(rootP.name), n=sc0.g.S.size;
+  const gen=lang==='sk'?genitive(rootP.name,ctx.isFemale(rootP)):null;
+  const title=(dir==='down'?TX.dTitle:TX.title)(name,gen);
+  const G=opts.gens||so.gens, MX=Math.max(G,opts.maxGen||G);
+  const sub=(n>1?[TX.vDir[dir],TX.vGen(G,MX),TX.vPeople(n)]:[TX.vDir[dir],TX.vNone[dir]]).concat([so.postdoc!==false?TX.vPd[dir]:TX.vNoPd]).join(' · ');
+  const legend=sc0.legend.map(it=>({sw:it.sw,t1:it.sw==='hl'?TX.vHl(it.t1):it.t1,t2:it.t2||''}));
+  const today=opts.today||new Date(); const dt=(ctx.generated||'').split('-');
+  const dToday=TX.date(today.getFullYear(),today.getMonth()+1,today.getDate()), dData=dt.length===3?TX.date(+dt[0],+dt[1],+dt[2]):'';
+  const url='slovenskivedci.sk/rodokmen/'+(opts.hash?'#'+opts.hash:'');
+  // re-flow: the scene laid out for the aspect of the tree area of the sheet (screen-mode page of width 1190.55:
+  // its tree area is 1078.55 wide and pageH-130.5 high), in portrait and in landscape
+  const frameOf=(paper,land)=>{ const [a,b]=PAPER_ALL[paper]; const W=land?b:a, H=land?a:b; return {paper,land,W,H,F:vFrame(tw,TX,W,H,legend,0)}; };
+  const lay={};
+  for(const land of [false,true]){ const f=frameOf('A2',land), A=f.F.area, r=(A[3]-A[1])/(A[2]-A[0]);
+    const sc=await scene(ctx,rootId,Object.assign({},so,{lang,pageH:130.5+1078.55*r,treeCfg:{xmax:V_XMAX}}));
+    lay[land]=Object.assign({sc},sceneParts(sc.treeSvg)); }
+  const fitOn=(paper,land)=>{ const f=frameOf(paper,land), L=lay[land], [,,bw,bh]=L.bb, A=f.F.area, k=f.F.k;
+    const s=Math.min((A[2]-A[0])/bw,(A[3]-A[1])/bh,V_MAX*k/V_NAME); return Object.assign(f,{L,s,name:s*V_NAME}); };
+  // orientation: the larger scale (ties: less empty paper)
+  const orient=paper=>{ const a=fitOn(paper,false), b=fitOn(paper,true); if(Math.abs(b.s-a.s)>0.002*a.s) return b.s>a.s?b:a;
+    const fill=c=>{ const A=c.F.area; return c.L.bb[2]*c.L.bb[3]*c.s*c.s/((A[2]-A[0])*(A[3]-A[1])); }; return fill(b)>fill(a)?b:a; };
+  let pick;
+  if(PAPER_ALL[opts.paper]) pick=orient(opts.paper);
+  else { pick=orient('A2'); if(pick.name<V_GOOD) pick=orient('A0'); }
+  const {parts,bb}=pick.L, pills=parts.filter(p=>p.pill).map(p=>p.box);
+  const [bx,by,bw,bh]=bb;
+  const tiled=pick.name<V_MIN;
+  // detail sections: same paper and orientation, names at V_TILE pt
+  let tiles=[], st=V_TILE/V_NAME, tileF=null, mapW=0;
+  if(tiled){
+    const W=pick.W, H=pick.H, k=pick.F.k;
+    mapW=Math.max(60*k,Math.min(260*k,(pick.F.yRule-pick.F.m)*Math.max(1,bw/bh)));
+    tileF=vFrame(tw,TX,W,H,legend,mapW);
+    const aw=tileF.area[2]-tileF.area[0], ah=tileF.area[3]-tileF.area[1];
+    const tW=aw/st, tH=ah/st, ov=0.06, sx=tW*(1-ov), sy=tH*(1-ov);
+    const cols=bw<=tW?1:Math.ceil((bw-tW)/sx)+1, rows=bh<=tH?1:Math.ceil((bh-tH)/sy)+1;
+    const ox=bx-((tW+(cols-1)*sx)-bw)/2, oy=by-((tH+(rows-1)*sy)-bh)/2;
+    for(let r=0;r<rows;r++) for(let c=0;c<cols;c++){ const win=[ox+c*sx,oy+r*sy,ox+c*sx+tW,oy+r*sy+tH];
+      // only sections that hold the middle of at least one name (a name cut at the edge is whole in the neighbouring section)
+      if(pills.some(b=>{ const cx=(b[0]+b[2])/2, cy=(b[1]+b[3])/2; return cx>=win[0]&&cx<win[2]&&cy>=win[1]&&cy<win[3]; })) tiles.push({r:r+1,c:c+1,win}); }
+  }
+  const nPages=1+tiles.length;
+  // document
+  const {jsPDF}=window.jspdf;
+  const doc=new jsPDF({unit:'pt',format:[Math.min(pick.W,pick.H),Math.max(pick.W,pick.H)],orientation:pick.land?'landscape':'portrait',compress:true});
+  [['EBG-R.ttf','normal'],['EBG-B.ttf','bold'],['EBG-I.ttf','italic']].forEach(([f,st2],i)=>{ doc.addFileToVFS(f,fonts[i]); doc.addFont(f,FONT,st2); });
+  doc.setFont(FONT,'normal');
+  const W=pick.W, H=pick.H;
+  const footL=`${TX.subject} · ${url}`;
+  const footR=i=>TX.vMade(dToday,dData)+(nPages>1?' · '+TX.vPage(i,nPages):'');
+  const render=async(svgInner,link,i)=>{
+    if(i>1) doc.addPage([Math.min(W,H),Math.max(W,H)],pick.land?'landscape':'portrait');
+    const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(W)}pt" height="${n2(H)}pt" viewBox="0 0 ${n2(W)} ${n2(H)}">${svgInner}</svg>`;
+    const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
+    holder.innerHTML=svg; document.body.appendChild(holder);
+    doc.setFont(FONT,'normal'); doc.setFontSize(12);
+    try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:W,height:H}); } finally { holder.remove(); }
+    try{ doc.link(link.x,link.y,link.w,link.h,{url:'https://www.'+url}); }catch(e){}
+  };
+  const svgs=[];
+  // page 1: the whole tree
+  { const F=pick.F, A=F.area, s=pick.s; const aw=A[2]-A[0], ah=A[3]-A[1];
+    const GX=A[0]+(aw-bw*s)/2-bx*s, GY=A[1]+(ah-bh*s)/2-by*s;
+    let tree=`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">${partsSvg(parts,null)}</g>`;
+    if(tiled){ const kk=F.k; tiles.forEach((t,i)=>{ const [x0,y0,x1,y1]=t.win; const X0=GX+x0*s, Y0=GY+y0*s, w=(x1-x0)*s, h=(y1-y0)*s;
+      tree+=`<rect x="${n2(X0)}" y="${n2(Y0)}" width="${n2(w)}" height="${n2(h)}" fill="none" stroke="${TP.OCHRE}" stroke-width="${n2(1.2*kk)}" stroke-dasharray="${n2(6*kk)} ${n2(4*kk)}"/>`;
+      const lb=String(i+1), fz=16*kk, lw=tw(lb,fz,'normal')+8*kk;
+      tree+=`<rect x="${n2(X0+2*kk)}" y="${n2(Y0+2*kk)}" width="${n2(lw)}" height="${n2(fz*1.3)}" rx="${n2(3*kk)}" ry="${n2(3*kk)}" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="${n2(0.8*kk)}"/><text x="${n2(X0+2*kk+4*kk)}" y="${n2(Y0+2*kk+fz*1.0)}" font-family="${FONT}" font-size="${n2(fz)}" fill="${TP.INK}">${lb}</text>`; }); }
+    const sub1=tiled?sub+' · '+TX.vOverview(tiles.length):sub;
+    svgs.push(vPageSvg(tw,TX,F,W,H,{title,sub:sub1,tree,footL,footR:footR(1)})); }
+  // detail sections
+  tiles.forEach((t,i)=>{ const F=tileF, A=F.area, [x0,y0,x1,y1]=t.win;
+    const GX=A[0]-x0*st, GY=A[1]-y0*st, cid='vc'+i;
+    const tree=`<defs><clipPath id="${cid}"><rect x="${n2(A[0])}" y="${n2(A[1])}" width="${n2(A[2]-A[0])}" height="${n2(A[3]-A[1])}"/></clipPath></defs>`+
+      `<g clip-path="url(#${cid})"><g transform="translate(${n2(GX)} ${n2(GY)}) scale(${st.toFixed(5)})">${partsSvg(parts,[x0-2,y0-2,x1+2,y1+2])}</g></g>`;
+    // locator map in the header: every name as a dot, the sections as frames, this one filled
+    const mh=F.yRule-F.m-4*F.k, ms=Math.min(mapW/bw,mh/bh), mw=bw*ms, mx0=W-F.m-mw, my0=F.m;
+    let map=`<rect x="${n2(mx0)}" y="${n2(my0)}" width="${n2(mw)}" height="${n2(bh*ms)}" fill="${TP.CREAM}" stroke="${TP.FRAME}" stroke-width="${n2(0.5*F.k)}"/>`;
+    map+=`<rect x="${n2(mx0+(x0-bx)*ms)}" y="${n2(my0+(y0-by)*ms)}" width="${n2((x1-x0)*ms)}" height="${n2((y1-y0)*ms)}" fill="${over(TP.OCHRE,0.28)}"/>`;
+    for(const b of pills) map+=`<rect x="${n2(mx0+(b[0]-bx)*ms)}" y="${n2(my0+(b[1]-by)*ms)}" width="${n2(Math.max(0.6,(b[2]-b[0])*ms))}" height="${n2(Math.max(0.6,(b[3]-b[1])*ms))}" fill="${TP.INK2}"/>`;
+    map+=`<rect x="${n2(mx0+(x0-bx)*ms)}" y="${n2(my0+(y0-by)*ms)}" width="${n2((x1-x0)*ms)}" height="${n2((y1-y0)*ms)}" fill="none" stroke="${TP.OCHRE}" stroke-width="${n2(0.9*F.k)}"/>`;
+    svgs.push(vPageSvg(tw,TX,F,W,H,{title,sub:TX.vPart(i+1,tiles.length,t.r,t.c)+' · '+sub,tree:tree+map,footL,footR:footR(i+2)})); });
+  for(let i=0;i<svgs.length;i++){ say(nPages>1?i+1+'/'+nPages:''); await render(svgs[i].svg,svgs[i].link,i+1); }
+  doc.setProperties({title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
+  const paperName=pick.paper+(pick.land?(lang==='en'?'_landscape':'_na_sirku'):(lang==='en'?'_portrait':'_na_vysku'));
+  const filename=[fileSlug(rootP.name),dir==='down'?TX.dFile:TX.file,TX.vStrom,'g'+G,so.postdoc===false?(lang==='en'?'no_postdoc':'bez_postdoc'):'',paperName].filter(Boolean).join('_')+'.pdf';
+  const report={lang,dir,gens:G,maxGen:MX,postdoc:so.postdoc!==false,people:n,paper:pick.paper,landscape:pick.land,pageW:W,pageH:H,scale:+pick.s.toFixed(4),nameSizePt:+pick.name.toFixed(2),
+    pages:nPages,issues:pick.L.sc.issues,tiles:tiles.map(t=>[t.r,t.c]),tileNameSizePt:tiled?V_TILE:null,bbox:bb.map(v=>Math.round(v)),title,sub,legend:legend.map(l=>l.sw),filename};
+  return {doc,filename,report,svgs:svgs.map(x=>x.svg)};
+}
+async function downloadView(ctx,rootId,opts){ const r=await buildView(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.lastView={report:r.report}; return r.report; }
+
 /* ---------- public ---------- */
 async function build(ctx,rootId,opts){
   opts=Object.assign({gens:14,paper:'A2',lang:'sk'},opts||{}); if(!PAPER[opts.paper]) opts.paper='A2'; if(!L10N[opts.lang]) opts.lang='sk';
@@ -634,5 +844,5 @@ async function build(ctx,rootId,opts){
 }
 async function download(ctx,rootId,opts){ const r=await build(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.last={report:r.report,svg:r.svg}; return r.report; }
 async function scene(ctx,rootId,opts){ return buildTree(ctx,rootId,Object.assign({gens:6,paper:'A2',lang:'sk'},opts||{},{screen:true})); }
-window.RodokmenPrint={build,download,scene,preload:loadLibs,langs:LANGS,_t:{L10N,genitive,schoolShort,surname,fileSlug,treeGraph,famousPath}};
+window.RodokmenPrint={build,download,scene,buildView,downloadView,preload:loadLibs,langs:LANGS,_t:{L10N,genitive,schoolShort,surname,fileSlug,treeGraph,famousPath,sceneParts}};
 })();
