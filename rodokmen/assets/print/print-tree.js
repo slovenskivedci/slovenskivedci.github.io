@@ -2,13 +2,14 @@
    Loaded on demand from rodokmen/index.html when "Vytlačiť rodokmeň predkov" is clicked.
    Layout: generations as rows (longest line from the person), layered DAG with dummy nodes,
    barycentric crossing reduction and priority placement; rendered as SVG and converted to PDF
-   with jsPDF + svg2pdf.js, EB Garamond embedded. */
+   with jsPDF + svg2pdf.js, EB Garamond embedded. Postdoc advisor links (ctx.pdAdvisorsOf) are included unless
+   opts.postdoc===false and drawn in teal; the gold main line follows PhD links only. */
 (function(){
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
 const FONT='EBGaramond';
 const PAPER={A2:[1190.55,1683.78],A3:[841.89,1190.55]};
-const GOLD='#b8891f',GOLD_FILL='#fbf1d6',SK='#2f5d8a',SK_FILL='#eaf1f8',SK_EDGE='#8fb0cf',INK='#2b2622',INK2='#6b625a',INK3='#9a8f82',LINE='#b7ad9f',CARD='#fffdf8',CARD_EDGE='#cdbfa9',PAGE='#fdfbf6';
+const GOLD='#b8891f',GOLD_FILL='#fbf1d6',SK='#2f5d8a',SK_FILL='#eaf1f8',SK_EDGE='#8fb0cf',INK='#2b2622',INK2='#6b625a',INK3='#9a8f82',LINE='#b7ad9f',PD='#2a8f80',CARD='#fffdf8',CARD_EDGE='#cdbfa9',PAGE='#fdfbf6';
 // famous ancestors that may be named in the legend of the main line (MGP ids)
 const FAMOUS=new Set([18231,38586,60985,74313,134975,108295,17864,17865,17981,15635,7298,53410,54440,7401,17946,7486,18232,125561,126177,126109]);
 
@@ -120,9 +121,12 @@ function schoolShort(raw){
 }
 
 /* ---------- graph ---------- */
-function buildGraph(ctx,rootId,G){
+function buildGraph(ctx,rootId,G,usePd){
   const P=ctx.people;
-  const advOrd=id=>{ const p=P.get(id); return p?p.adv.filter(a=>P.has(a)&&a!==id):[]; };  // MGP order (first = main advisor)
+  const advPhd=id=>{ const p=P.get(id); return p?p.adv.filter(a=>P.has(a)&&a!==id):[]; };  // MGP order (first = main advisor)
+  // with postdoc links: PhD advisors first, then postdoc advisors (a second kind of advisor link)
+  const advOrd=usePd&&ctx.pdAdvisorsOf?id=>{ const a=advPhd(id); return a.concat(ctx.pdAdvisorsOf(id).filter(x=>x!==id&&!a.includes(x))); }:advPhd;
+  const isPd=(x,a)=>usePd&&!advPhd(x).includes(a);
   const gmin=new Map([[rootId,0]]); const q=[rootId];
   for(let i=0;i<q.length;i++){ const x=q[i]; for(const a of advOrd(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); q.push(a); } }
   const ALL=new Set(gmin.keys()); const S=new Set([...ALL].filter(x=>gmin.get(x)<=G));
@@ -130,30 +134,32 @@ function buildGraph(ctx,rootId,G){
   const state=new Map(), post=[], edges=[]; const drop=new Set();
   const dfs=x=>{ state.set(x,1); for(const a of advOrd(x)){ if(!S.has(a)) continue; const st=state.get(a); if(st===1){ drop.add(x+'>'+a); continue; } if(!st) dfs(a); } state.set(x,2); post.push(x); };
   dfs(rootId);
-  for(const x of S) for(const a of advOrd(x)) if(S.has(a)&&!drop.has(x+'>'+a)) edges.push([x,a]);
+  for(const x of S) for(const a of advOrd(x)) if(S.has(a)&&!drop.has(x+'>'+a)) edges.push([x,a,isPd(x,a)]);
   const topo=post.slice().reverse();
   const rank=new Map([[rootId,0]]);
   for(const x of topo){ const r=rank.get(x)||0; for(const a of advOrd(x)) if(S.has(a)&&!drop.has(x+'>'+a)) rank.set(a,Math.max(rank.get(a)||0,r+1)); }
   // main (gold) line: longest line to the oldest "Rodák zo Slovenska" in view, else to the top row
-  const cand=[...S].filter(x=>x!==rootId);
+  // the main (gold) line follows PhD links only, also when postdoc ancestors are drawn
+  const phdReach=new Set([rootId]); { const st=[rootId]; while(st.length){ const y=st.pop(); for(const a of advPhd(y)) if(S.has(a)&&!phdReach.has(a)){ phdReach.add(a); st.push(a); } } }
+  const cand=[...S].filter(x=>x!==rootId&&phdReach.has(x));
   const yr=x=>{ const p=P.get(x); return p.year||9999; };
   let target=null;
   const rod=cand.filter(x=>P.get(x).sk==='rod');
   const pickBest=arr=>arr.sort((a,b)=>rank.get(b)-rank.get(a)||yr(a)-yr(b))[0];
-  if(rod.length) target=pickBest(rod); else if(cand.length){ const dl=new Set(); let k=rootId; const seen=new Set(); while(k!=null&&!seen.has(k)){ seen.add(k); dl.add(k); const d=ctx.deepest(k); const nx=d&&d.g>0?advOrd(k).find(a=>{ const e=ctx.deepest(a); return e&&e.g===d.g-1&&e.root===d.root; }):null; k=nx==null?null:nx; }
+  if(rod.length) target=pickBest(rod); else if(cand.length){ const dl=new Set(); let k=rootId; const seen=new Set(); while(k!=null&&!seen.has(k)){ seen.add(k); dl.add(k); const d=ctx.deepest(k); const nx=d&&d.g>0?advPhd(k).find(a=>{ const e=ctx.deepest(a); return e&&e.g===d.g-1&&e.root===d.root; }):null; k=nx==null?null:nx; }
     const maxR=Math.max(...cand.map(x=>rank.get(x))); const top=cand.filter(x=>rank.get(x)===maxR); target=top.find(x=>dl.has(x))||pickBest(top); }
   const main=[];
   if(target!=null){
     // L(x): longest distance from x up to target inside S
     const L=new Map([[target,0]]);
-    for(const x of post){ if(x===target) continue; let b=-1; for(const a of advOrd(x)){ if(!S.has(a)||drop.has(x+'>'+a)) continue; const la=L.get(a); if(la!=null&&la>=0&&la+1>b) b=la+1; } L.set(x,b); }
+    for(const x of post){ if(x===target) continue; let b=-1; for(const a of advPhd(x)){ if(!S.has(a)||drop.has(x+'>'+a)) continue; const la=L.get(a); if(la!=null&&la>=0&&la+1>b) b=la+1; } L.set(x,b); }
     let x=rootId; main.push(x);
-    while(x!==target){ const lx=L.get(x); const nx=advOrd(x).find(a=>S.has(a)&&!drop.has(x+'>'+a)&&L.get(a)===lx-1); if(nx==null) break; main.push(nx); x=nx; }
+    while(x!==target){ const lx=L.get(x); const nx=advPhd(x).find(a=>S.has(a)&&!drop.has(x+'>'+a)&&L.get(a)===lx-1); if(nx==null) break; main.push(nx); x=nx; }
   }
   const ancestors=x=>{ const out=new Set(); const st=[x]; while(st.length){ const y=st.pop(); for(const a of advOrd(y)) if(!out.has(a)){ out.add(a); st.push(a); } } return out; };
   const more=new Map();
   for(const x of S){ if(advOrd(x).some(a=>!S.has(a))){ let n=0; for(const a of ancestors(x)) if(!S.has(a)) n++; more.set(x,n); } }
-  return {S,ALL,gmin,rank,edges,main,more,target};
+  return {S,ALL,gmin,rank,edges,main,more,target,usePd:!!usePd,pdEdges:edges.filter(e=>e[2]).length};
 }
 
 /* ---------- node boxes ---------- */
@@ -182,9 +188,9 @@ function layout(ctx,tw,g,cfg){
   const items=new Map();
   for(const x of S){ const b=nodeBox(ctx,tw,x,g,cfg); b.r=rank.get(x); b.up=[]; b.down=[]; items.set(x,b); }
   const chains=[]; let did=0;
-  for(const [x,a] of edges){ const lo=items.get(x), hi=items.get(a); const ch=[lo]; for(let r=lo.r+1;r<hi.r;r++){ const d={id:'d'+(did++),dummy:true,w:0,h:0,r,up:[],down:[]}; ch.push(d); } ch.push(hi);
+  for(const [x,a,pd] of edges){ const lo=items.get(x), hi=items.get(a); const ch=[lo]; for(let r=lo.r+1;r<hi.r;r++){ const d={id:'d'+(did++),dummy:true,w:0,h:0,r,up:[],down:[]}; ch.push(d); } ch.push(hi);
     for(let i=0;i+1<ch.length;i++){ ch[i].up.push(ch[i+1]); ch[i+1].down.push(ch[i]); }
-    chains.push({ch,main:g.mainSet.has(x)&&g.mainSet.has(a)&&main.indexOf(a)===main.indexOf(x)+1}); }
+    chains.push({ch,pd:!!pd,main:!pd&&g.mainSet.has(x)&&g.mainSet.has(a)&&main.indexOf(a)===main.indexOf(x)+1}); }
   const all=[...items.values()]; for(const c of chains) for(const n of c.ch) if(n.dummy) all.push(n);
   // initial order: DFS from the root, advisors in MGP order
   const placed=new Set(); const visit=n=>{ if(placed.has(n)) return; placed.add(n); layers[n.r].push(n); for(const u of n.up) visit(u); };
@@ -289,8 +295,8 @@ function compose(ctx,tw,g,lay,rootId,opts){
   const G=opts.gens; const cut=om>0;
   const f1=kk===1?`Zobrazené sú 2 osoby: ${name} a ${cut?'jeho alebo jej školiteľ':'jediný známy predok'}.`:
     `Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk>=5?'všetkých':'všetci'} ${kk} ${pl(kk,'predok','predkovia','predkov')}`+
-    (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; riadok zodpovedá jej najdlhšej línii.';
-  const dp=ctx.deepest(rootId); const oldest=P.get(dp.root);
+    (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; riadok zodpovedá jej najdlhšej línii.'+(g.pdEdges?' Zahrnutí sú aj predkovia cez postdoktorandských školiteľov (zelené spojnice).':'');
+  const dp=(g.usePd&&ctx.deepestAll?ctx.deepestAll:ctx.deepest)(rootId); const oldest=P.get(dp.root);
   const dt=(ctx.generated||'').split('-'); const dstr=dt.length===3?`${+dt[2]}. ${+dt[1]}. ${dt[0]}`:'';
   const f2=(cut?`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dp.g} ${pl(dp.g,'generáciu','generácie','generácií')} do minulosti, k osobe ${clean(oldest.name)}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `:'Zobrazený je celý známy rodokmeň. ');
   const fs=13.5*k, flh=20*k, fmax=W-2*M-20*k;
@@ -307,6 +313,7 @@ function compose(ctx,tw,g,lay,rootId,opts){
   if([...g.S].some(x=>P.get(x).sk)) legendItems.push({sw:'sk',t1:'Slovenský matematik alebo',t2:'rodák zo Slovenska'});
   legendItems.push({sw:'card',t1:'Predok: meno, rok titulu · univerzita',t2:''});
   legendItems.push({sw:'line',t1:'Školiteľ a doktorand; kto mal viac',t2:'školiteľov, je spojený s každým',t2n:true});
+  if(lay.chains.some(c=>c.pd)) legendItems.push({sw:'pd',t1:'Postdoktorandský školiteľ',t2:'a postdoktorand',t2n:true});
   const hasMore=g.more.size>0;
   const lk=k; const lpad=18*lk, lsw=40*lk, ltx=lpad+lsw+12*lk, lstep=42*lk;
   let lw=0; for(const it of legendItems){ lw=Math.max(lw,tw(it.t1,14*lk,'normal'),it.t2?tw(it.t2,it.t2n?14*lk:13*lk,it.t2n?'normal':'italic'):0); }
@@ -345,7 +352,8 @@ function compose(ctx,tw,g,lay,rootId,opts){
   for(let r=0;r<=lay.maxR;r++) T(lx,GY+lay.rowY[r]*s+rs*0.34,String(r),rs,'normal',r<=mainLen?GOLD:'#a99d8f','end');
   // graph
   out.push(`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">`);
-  lay.chains.forEach((c,i)=>{ if(!c.main) out.push(`<path d="${paths[i].d}" fill="none" stroke="${LINE}" stroke-width="1.3"/>`); });
+  lay.chains.forEach((c,i)=>{ if(!c.main&&!c.pd) out.push(`<path d="${paths[i].d}" fill="none" stroke="${LINE}" stroke-width="1.3"/>`); });
+  lay.chains.forEach((c,i)=>{ if(c.pd) out.push(`<path d="${paths[i].d}" fill="none" stroke="${PD}" stroke-width="2.2"/>`); });
   lay.chains.forEach((c,i)=>{ if(c.main) out.push(`<path d="${paths[i].d}" fill="none" stroke="${GOLD}" stroke-width="5"/>`); });
   const G2=[]; const TT=(x,y,l)=>{ G2.push(`<text x="${n2(x)}" y="${n2(y)}" font-family="${FONT}" font-size="${l.size}"${l.style==='italic'?' font-style="italic"':''}${l.style==='bold'?' font-weight="bold"':''} fill="${l.fill}">${xesc(l.t)}</text>`); };
   for(const b of lay.items.values()){
@@ -367,6 +375,7 @@ function compose(ctx,tw,g,lay,rootId,opts){
     if(it.sw==='main') L.push(`<rect x="${n2(sx)}" y="${n2(y0)}" width="${n2(sw)}" height="${n2(sh)}" rx="${n2(5*lk)}" ry="${n2(5*lk)}" fill="${GOLD_FILL}" stroke="${GOLD}" stroke-width="${n2(2.2*lk)}"/>`);
     else if(it.sw==='sk') L.push(`<rect x="${n2(sx)}" y="${n2(y0)}" width="${n2(sw)}" height="${n2(sh)}" rx="${n2(5*lk)}" ry="${n2(5*lk)}" fill="${SK_FILL}" stroke="${SK_EDGE}" stroke-width="${n2(1.1*lk)}"/><rect x="${n2(sx+2*lk)}" y="${n2(y0+2*lk)}" width="${n2(5*lk)}" height="${n2(sh-4*lk)}" rx="${n2(2*lk)}" ry="${n2(2*lk)}" fill="${SK}"/>`);
     else if(it.sw==='card') L.push(`<rect x="${n2(sx)}" y="${n2(y0)}" width="${n2(sw)}" height="${n2(sh)}" rx="${n2(5*lk)}" ry="${n2(5*lk)}" fill="${CARD}" stroke="${CARD_EDGE}" stroke-width="${n2(0.9*lk)}"/>`);
+    else if(it.sw==='pd') L.push(`<line x1="${n2(sx)}" y1="${n2(y0+11*lk)}" x2="${n2(sx+sw)}" y2="${n2(y0+11*lk)}" stroke="${PD}" stroke-width="${n2(2.4*lk)}"/>`);
     else L.push(`<line x1="${n2(sx)}" y1="${n2(y0+11*lk)}" x2="${n2(sx+sw)}" y2="${n2(y0+11*lk)}" stroke="${LINE}" stroke-width="${n2(1.3*lk)}"/>`);
     LT(Lx+ltx,y0+10*lk,it.t1,14*lk,'normal',INK);
     if(it.t2) LT(Lx+ltx,y0+26*lk,it.t2,it.t2n?14*lk:13*lk,it.t2n?'normal':'italic',it.t2n?INK:INK2); });
@@ -389,7 +398,7 @@ async function build(ctx,rootId,opts){
   opts=Object.assign({gens:14,paper:'A2'},opts||{}); if(!PAPER[opts.paper]) opts.paper='A2';
   const fonts=await loadLibs();
   const doc=newDoc(fonts,opts.paper); const tw=makeMeasure(doc);
-  const g=buildGraph(ctx,rootId,opts.gens);
+  const g=buildGraph(ctx,rootId,opts.gens,opts.postdoc!==false);
   // try a few box widths; keep the one that prints largest
   let best=null; const tries=[];
   for(const cfg of [{nameW:150,metaW:175,nodeSep:22,rankSep:34,qpIter:90,huber:12},{nameW:118,metaW:140,nodeSep:18,rankSep:34,qpIter:90,huber:12},{nameW:96,metaW:118,nodeSep:14,rankSep:32,qpIter:90,huber:12}]){
@@ -409,7 +418,7 @@ async function build(ctx,rootId,opts){
   const p=ctx.people.get(rootId);
   doc.setProperties({title:comp.title,subject:'Rodokmeň slovenskej matematiky',creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
   const filename=`${fileSlug(p.name)}_predkovia_${opts.paper}.pdf`;
-  const report={tries,rowMode:best.rowMode,rankSep:best.rankSep,gw:lay.gw,gh:lay.gh,packW:lay.packW,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,rows:lay.maxR+1,mainLine:g.main.map(x=>ctx.people.get(x).name),crossings:lay.crossings,scale:comp.s,nameSizePt:comp.nameSize,legend:comp.legendMode,issues:comp.issues,cfg:best.cfg,footer:comp.flines,title:comp.title};
+  const report={tries,rowMode:best.rowMode,rankSep:best.rankSep,gw:lay.gw,gh:lay.gh,packW:lay.packW,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,rows:lay.maxR+1,mainLine:g.main.map(x=>ctx.people.get(x).name),crossings:lay.crossings,postdoc:g.usePd,pdEdges:g.pdEdges,scale:comp.s,nameSizePt:comp.nameSize,legend:comp.legendMode,issues:comp.issues,cfg:best.cfg,footer:comp.flines,title:comp.title};
   return {doc,filename,svg:comp.svg,report};
 }
 async function download(ctx,rootId,opts){ const r=await build(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.last={report:r.report,svg:r.svg}; return r.report; }
