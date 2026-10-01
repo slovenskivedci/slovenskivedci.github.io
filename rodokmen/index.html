@@ -423,7 +423,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
 #g-stage .fchip{left:auto;right:12px;top:8px}
 .fl.dim,.fn.dim,.fh.dim{opacity:.1}
 @media (max-width:899px){ #g-stage .fchip{top:auto;bottom:10px;right:auto;left:12px} .gbar-n{display:none} }
-/* košatý strom: the tree poster as an interactive view (layout and drawing from assets/print/print-tree.js) */
+/* strom: the tree poster as an interactive view (layout and drawing from assets/print/print-tree.js) */
 .kview{display:flex;flex-direction:column;gap:8px;min-height:0}
 .kbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
 .kbar .field{margin:0;flex:0 1 300px;min-width:220px}
@@ -510,8 +510,8 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
     <nav class="tabs" aria-label="Zobrazenia">
       <button type="button" data-view="les">Les</button>
       <button type="button" data-view="linie">Línie</button>
-      <button type="button" data-view="tree">Strom</button>
-      <button type="button" data-view="strom">Košatý strom</button>
+      <button type="button" data-view="tree">Profil</button>
+      <button type="button" data-view="strom">Strom</button>
       <button type="button" data-view="connect">Prepojenia</button>
       <button type="button" data-view="people">Matematici</button>
       <button type="button" data-view="alumni">Absolventi</button>
@@ -567,7 +567,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
           <div class="stepper"><span class="lbl">Školitelia</span><button type="button" data-act="up-" aria-label="Menej generácií školiteľov">−</button><output id="upN">3</output><button type="button" data-act="up+" aria-label="Viac generácií školiteľov">+</button></div>
           <div class="stepper"><span class="lbl">Doktorandi</span><button type="button" data-act="down-" aria-label="Menej generácií doktorandov">−</button><output id="downN">2</output><button type="button" data-act="down+" aria-label="Viac generácií doktorandov">+</button></div>
           <button type="button" class="tool" data-act="fit">Zobraziť celé</button>
-          <button type="button" class="tool" data-act="kstrom" title="Rodokmeň ako strom: predkovia alebo potomkovia">Košatý strom</button>
+          <button type="button" class="tool" data-act="kstrom" title="Rodokmeň ako strom: predkovia alebo potomkovia">Strom</button>
         </div>
         <div class="legend" aria-hidden="true">
           <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span title="záznam práce, životopis, článok alebo e-mail"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>vzťah so zdrojom</span><span title="len Mathematics Genealogy Project, odvodené zo zoznamu žiakov alebo bez zdroja"><svg class="lg-ln" viewBox="0 0 22 6"><line class="u" x1="1" y1="3" x2="21" y2="3"/></svg>neoverený vzťah</span><span title="postdoktorandský pobyt u školiteľa (so zdrojom)"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorandský školiteľ</span>
@@ -575,8 +575,8 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
       </div>
     </section>
 
-    <!-- KOŠATÝ STROM -->
-    <section id="v-strom" class="view kview" aria-label="Košatý strom: rodokmeň ako strom" hidden>
+    <!-- STROM (rodokmeň ako strom, podľa plagátu) -->
+    <section id="v-strom" class="view kview" aria-label="Strom: rodokmeň ako strom" hidden>
       <div class="kbar">
         <div class="field">
           <svg class="ico" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -588,7 +588,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
       </div>
       <div class="kline"><nav class="kcrumbs" id="k-crumbs" aria-label="Cesta stromom"></nav><span class="kbar-r"><span class="kpst" id="k-pst" aria-live="polite"></span><button type="button" class="textbtn" id="k-print" title="PDF plagát zobrazeného stromu">Vytlačiť</button><select id="k-paper" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select></span></div>
       <div class="stage ksheet" id="k-stage">
-        <svg id="k-svg" role="img" aria-label="Košatý strom: osoba pri koreni, predkovia vo vetvách nad ňou alebo potomkovia pod ňou"></svg>
+        <svg id="k-svg" role="img" aria-label="Strom: osoba pri koreni, predkovia vo vetvách nad ňou alebo potomkovia pod ňou"></svg>
         <div class="kzoom" role="group" aria-label="Priblíženie"><button type="button" class="tool" data-kz="in" aria-label="Priblížiť">+</button><button type="button" class="tool" data-kz="out" aria-label="Oddialiť">−</button><button type="button" class="tool wide" data-kz="fit">Zobraziť celé</button><button type="button" class="tool wide" data-kz="leg" aria-expanded="true">Legenda</button></div>
         <div class="kpanel kcard" id="k-card" hidden></div>
         <div class="kpanel klegend open" id="k-legend"></div>
@@ -931,7 +931,7 @@ const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], se
 let current='';
 function show(view){ if(current===view) return; current=view; const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
 $$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
@@ -1098,7 +1098,7 @@ function renderProfile(p){
     ${lineage}${lineagePd}
     ${printHtml}
     ${advHtml}${pdAdvHtml}${stHtml}${pdStHtml}
-    <div class="links">${links.join('')}<button type="button" class="textbtn" data-kstrom="${p.id}" style="margin-left:auto" title="Rodokmeň ako strom: predkovia alebo potomkovia">Košatý strom</button><button type="button" class="textbtn" data-connect="${p.id}">Porovnať s…</button></div>`;
+    <div class="links">${links.join('')}<button type="button" class="textbtn" data-kstrom="${p.id}" style="margin-left:auto" title="Rodokmeň ako strom: predkovia alebo potomkovia">Strom</button><button type="button" class="textbtn" data-connect="${p.id}">Porovnať s…</button></div>`;
   el.scrollTop=0;
 }
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
@@ -1113,7 +1113,7 @@ async function printTree(btn){ const row=btn.closest('.printrow'), st=row.queryS
 document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]'); if(pr){ if(!pr.disabled) printTree(pr); return; } const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const ks=e.target.closest('[data-kstrom]'); if(ks){ go('strom='+ks.dataset.kstrom); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
 
 /* =========================================================
-   KOŠATÝ STROM (the tree poster as an interactive view: the person at the base of the trunk, ancestors branching
+   STROM (tab "Strom", hash #strom=ID: the tree poster as an interactive view: the person at the base of the trunk, ancestors branching
    upward, or students and their students hanging below; graph, layout and drawing are the poster's own,
    from assets/print/print-tree.js, loaded on first use; zoom and pan with d3.zoom)
    ========================================================= */
