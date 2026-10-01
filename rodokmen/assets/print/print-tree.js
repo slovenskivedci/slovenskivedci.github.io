@@ -165,6 +165,9 @@ const LEAFG=['#8f9d62','#a3ad74','#7f8f57','#b2b98a'];
 const UNV_TREE=/^[iu]/;   // drawn as unconfirmed on the poster: link only derived from a list of students, or without any source
 const nfmt=(n,lang)=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,lang==='en'?',':'\u00a0');
 /* ---------- poster language: every printed string except names, thesis titles and data-given degree abbreviations ---------- */
+/* displayed degree names, same mapping as the site (index.html DEG); the stored default 'Ph.D.' reads 'PhD.' in Slovak and 'PhD' in English (as in the English legend) */
+const DEG_DISP={sk:{'Ph.D.':'PhD.','no degree':'bez titulu','unknown':'neznámy titul','Honorary':'čestný doktorát','Ordained':'vysvätenie','Polymath':'polyhistor'},en:{'Ph.D.':'PhD','PhD.':'PhD'}};
+const degDisp=(d,lang)=>{ const c=clean(d); const m=DEG_DISP[lang]||DEG_DISP.sk; return m[c]||c; };
 const MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const L10N={
  sk:{
@@ -275,7 +278,7 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     for(const t of wrapText(tw,clean(p.name),ns,'normal',root?1e4:cfg.nameW)) lines.push({t,size:ns,style:'normal',fill:TP.INK,lh:ns*1.12});
     const pr=p.primary; const yr=pr&&pr.year?String(pr.year):''; const sch=pr?schoolShort(cfg.lang==='en'&&pr.schoolEn?pr.schoolEn:pr.school,cfg.lang):'';
     let meta=yr&&sch?yr+' · '+sch:(yr||sch||TX.noDeg);
-    if(root&&pr&&pr.deg&&clean(pr.deg).length<=14&&(yr||sch)) meta=clean(pr.deg)+' '+meta;
+    if(root&&pr&&pr.deg&&degDisp(pr.deg,cfg.lang).length<=14&&(yr||sch)) meta=degDisp(pr.deg,cfg.lang)+' '+meta;
     wrapText(tw,meta,ms,'italic',root?1e4:cfg.nameW+14).forEach((t,i)=>lines.push({t,size:ms,style:'italic',fill:TP.INK2,lh:ms*1.25,gap:i?0:-1}));
     if(p.sk){ const tag=p.sk==='rod'?TX.tagRod:ctx.isFemale(p)?TX.tagSkF:TX.tagSk; lines.push({t:tag,size:ms*0.84,style:'normal',fill:TP.SK,lh:ms*1.2,gap:0.5}); }
     if(g.more.has(x)) lines.push({t:(g.dir==='down'?TX.dMore:TX.more)(g.more.get(x)),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
