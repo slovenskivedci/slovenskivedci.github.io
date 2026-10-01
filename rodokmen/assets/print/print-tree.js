@@ -2,7 +2,10 @@
    Loaded on demand from rodokmen/index.html when "Vytlačiť rodokmeň predkov" is clicked.
    One style, an organic tree (see ORGANIC TREE POSTER below); rendered as SVG and converted to PDF
    with jsPDF + svg2pdf.js, EB Garamond embedded. Postdoc advisor links (ctx.pdAdvisorsOf) are included
-   unless opts.postdoc===false and drawn in teal. */
+   unless opts.postdoc===false and drawn in teal.
+   opts.dir==='down' draws the academic descendants instead (students hang below the person, same layout mirrored).
+   RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Košatý strom" view
+   (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup). */
 (function(){
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
@@ -24,6 +27,12 @@ function loadLibs(){
   })(); libsP.catch(()=>{ libsP=null; }); }
   return libsP;
 }
+let faceP=null;   // screen view: the same three EB Garamond files as FontFaces (for the SVG text and for measuring)
+function loadFaces(){
+  if(!faceP){ faceP=Promise.all([['EBGaramond-Regular.ttf','400','normal'],['EBGaramond-SemiBold.ttf','700','normal'],['EBGaramond-Italic.ttf','400','italic']].map(async([f,w,st])=>{ const ff=new FontFace(FONT,`url(${BASE}${f})`,{weight:w,style:st}); await ff.load(); document.fonts.add(ff); })); faceP.catch(()=>{ faceP=null; }); }
+  return faceP;
+}
+function canvasMeasure(){ const c=document.createElement('canvas').getContext('2d'), cache=new Map(); return (t,size,style)=>{ const k=style+'|'+t; let w=cache.get(k); if(w==null){ c.font=(style==='italic'?'italic 400 ':style==='bold'?'700 ':'400 ')+'100px '+FONT; w=c.measureText(t).width/100; cache.set(k,w); } return w*size; }; }
 function newDoc(fonts,paper){
   const {jsPDF}=window.jspdf; const [W,H]=PAPER[paper];
   const doc=new jsPDF({unit:'pt',format:[W,H],orientation:'portrait',compress:true});
@@ -144,12 +153,13 @@ const nfmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'\u00a0');
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
-function treeGraph(ctx,rootId,G,usePd){
-  const P=ctx.people;
-  const advPhd=id=>{ const p=P.get(id); return p?p.adv.filter(a=>P.has(a)&&a!==id):[]; };
-  const advOrd=usePd&&ctx.pdAdvisorsOf?id=>{ const a=advPhd(id); return a.concat(ctx.pdAdvisorsOf(id).filter(x=>x!==id&&!a.includes(x))); }:advPhd;
+function treeGraph(ctx,rootId,G,usePd,dir){
+  const P=ctx.people, down=dir==='down';   // down: the "advisors" of the layout are the students (descendants tree)
+  const advPhd=down?id=>(ctx.studentsOf?ctx.studentsOf(id):[]).filter(s=>s!==id&&P.has(s)):id=>{ const p=P.get(id); return p?p.adv.filter(a=>P.has(a)&&a!==id):[]; };
+  const pdOf=down?ctx.pdStudentsOf:ctx.pdAdvisorsOf;
+  const advOrd=usePd&&pdOf?id=>{ const a=advPhd(id); return a.concat(pdOf(id).filter(x=>x!==id&&!a.includes(x))); }:advPhd;
   const isPd=(x,a)=>usePd&&!advPhd(x).includes(a);
-  const src=(x,a)=>ctx.edgeSrc?(ctx.edgeSrc(x,a)||''):'';
+  const src=(x,a)=>ctx.edgeSrc?((down?ctx.edgeSrc(a,x):ctx.edgeSrc(x,a))||''):'';
   const gmin=new Map([[rootId,0]]), par=new Map(); const q=[rootId];
   for(let i=0;i<q.length;i++){ const x=q[i]; for(const a of advOrd(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); } }
   const ALL=new Set(gmin.keys()); const order=q.filter(x=>gmin.get(x)<=G); const S=new Set(order);
@@ -162,7 +172,7 @@ function treeGraph(ctx,rootId,G,usePd){
   const ancestors=x=>{ const out=new Set(); const st=[x]; while(st.length){ const y=st.pop(); for(const a of advOrd(y)) if(!out.has(a)){ out.add(a); st.push(a); } } return out; };
   const more=new Map(); for(const x of order){ if(advOrd(x).some(a=>!S.has(a))){ let n=0; for(const a of ancestors(x)) if(!S.has(a)) n++; if(n) more.set(x,n); } }
   const pdEdges=[...edge.values()].filter(e=>e.pd).length+extra.filter(e=>e.pd).length;
-  return {S,ALL,order,gmin,par,kids,edge,extra,size,leaves,height,more,usePd:!!usePd,pdEdges};
+  return {S,ALL,order,gmin,par,kids,edge,extra,size,leaves,height,more,usePd:!!usePd,pdEdges,dir:down?'down':'up'};
 }
 
 function famousPath(ctx,g,rootId){
@@ -198,7 +208,7 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     if(root&&pr&&pr.deg&&clean(pr.deg).length<=14&&(yr||sch)) meta=clean(pr.deg)+' '+meta;
     wrapText(tw,meta,ms,'italic',root?1e4:cfg.nameW+14).forEach((t,i)=>lines.push({t,size:ms,style:'italic',fill:TP.INK2,lh:ms*1.25,gap:i?0:-1}));
     if(p.sk){ const tag=p.sk==='rod'?'RODÁK ZO SLOVENSKA':ctx.isFemale(p)?'SLOVENSKÁ MATEMATIČKA':'SLOVENSKÝ MATEMATIK'; lines.push({t:tag,size:ms*0.84,style:'normal',fill:TP.SK,lh:ms*1.2,gap:0.5}); }
-    if(g.more.has(x)) lines.push({t:'ďalší predkovia: '+g.more.get(x),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
+    if(g.more.has(x)) lines.push({t:(g.dir==='down'?'ďalší potomkovia: ':'ďalší predkovia: ')+g.more.get(x),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
     const padX=root?14:8, padY=root?6:4;
     let w=0; for(const l of lines){ l.w=tw(l.t,l.size,l.style); w=Math.max(w,l.w); }
     let h=2*padY; for(const l of lines) h+=l.lh+(l.gap||0);
@@ -292,29 +302,31 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
 
 function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const P=ctx.people, rootP=P.get(rootId), cfg=lay.cfg;
-  const W=1190.55,H=1683.78,M=46;
+  const W=1190.55,H=opts.pageH||1683.78,M=46, down=g.dir==='down', scr=!!opts.screen;
   const out=[]; const T=(x,y,t,size,style,fill,anchor,extra)=>{ const w=tw(t,size,style); const x0=anchor==='middle'?x-w/2:anchor==='end'?x-w:x; out.push(`<text x="${n2(x0)}" y="${n2(y)}" font-family="${FONT}" font-size="${n2(size)}"${style==='italic'?' font-style="italic"':''}${style==='bold'?' font-weight="bold"':''} fill="${fill}"${extra||''}>${xesc(t)}</text>`); return w; };
   const name=clean(rootP.name);
   // ----- title block
   const gen=genitive(rootP.name,ctx.isFemale(rootP));
-  const title=gen?'Akademický rodokmeň '+gen:'Akademický rodokmeň: '+name;
+  const title=down?(gen?'Akademickí potomkovia '+gen:'Akademickí potomkovia: '+name):gen?'Akademický rodokmeň '+gen:'Akademický rodokmeň: '+name;
   const maxTW=W-2*M-40; let ts=50; { const w0=tw(title,ts,'normal'); if(w0>maxTW) ts*=maxTW/w0; }
   const sub='Rodokmeň slovenskej matematiky · zdroj: slovenskivedci.sk/rodokmen (čerpá z viacerých zdrojov, najmä z Mathematics Genealogy Project)';
   let ss=16; { const w1=tw(sub,ss,'italic'); if(w1>maxTW) ss*=maxTW/w1; }
   // ----- footer
   const n=g.S.size, kk=n-1, tot=g.ALL.size-1, om=g.ALL.size-g.S.size, G=opts.gens, cut=om>0;
   let f1;
-  if(kk===0) f1=`${name}: v databáze zatiaľ nie sú známi školitelia.`;
+  if(down){ if(kk===0) f1=`${name}: v databáze zatiaľ nie sú známi doktorandi.`;
+    else f1=`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk} ${pl(kk,'akademický potomok','akademickí potomkovia','akademických potomkov')}${cut?` do ${G}. generácie`:''}.`+' Každá osoba je nakreslená raz; čím nižšie, tým mladšia generácia.'+(g.pdEdges?' Zahrnutí sú aj postdoktorandi (zelená vetva).':''); }
+  else if(kk===0) f1=`${name}: v databáze zatiaľ nie sú známi školitelia.`;
   else if(kk===1) f1=`Zobrazené sú 2 osoby: ${name} a ${cut?'jeho alebo jej školiteľ':'jediný známy predok'}.`;
   else f1=`Zobrazen${n>=5?'ých':'é sú'} ${n} ${pl(n,'osoba','osoby','osôb')}: ${name} a ${kk>=5?'všetkých':'všetci'} ${kk} ${pl(kk,'predok','predkovia','predkov')}`+
     (cut?`, ku ktorým vedie aspoň jedna línia dlhá najviac ${G} ${pl(G,'generácia','generácie','generácií')}.`:'.')+' Každá osoba je nakreslená raz; čím vyššie, tým staršia generácia.'+(g.pdEdges?' Zahrnutí sú aj predkovia cez postdoktorandských školiteľov (zelená vetva).':'');
-  const dp=(g.usePd&&ctx.deepestAll?ctx.deepestAll:ctx.deepest)(rootId); const oldest=P.get(dp.root);
+  const dp=down?null:(g.usePd&&ctx.deepestAll?ctx.deepestAll:ctx.deepest)(rootId); const oldest=down?null:P.get(dp.root);
   const dt=(ctx.generated||'').split('-'); const dstr=dt.length===3?`${+dt[2]}. ${+dt[1]}. ${dt[0]}`:'';
-  const f2=cut?`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dp.g} ${pl(dp.g,'generáciu','generácie','generácií')} do minulosti, k osobe ${clean(oldest.name)}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `:(kk?'Zobrazený je celý známy rodokmeň. ':'');
+  const f2=down?(cut?`Rodokmeň eviduje ${tot} ${pl(tot,'akademického potomka','akademických potomkov','akademických potomkov')} tejto osoby; ${om} ${pl(om,'ďalší tu nie je zobrazený','ďalší tu nie sú zobrazení','ďalších tu nie je zobrazených')}. `:(kk?'Zobrazení sú všetci akademickí potomkovia evidovaní v Rodokmeni. ':'')):cut?`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dp.g} ${pl(dp.g,'generáciu','generácie','generácií')} do minulosti, k osobe ${clean(oldest.name)}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `:(kk?'Zobrazený je celý známy rodokmeň. ':'');
   const f3=`Údaje: slovenskivedci.sk/rodokmen${dstr?', stav k '+dstr:''}.`;
   const fs=12.5, flh=18, fmax=W-2*M-30;
   const w23=wrapText(tw,clean(f2+f3),fs,'normal',fmax);
-  const flines=wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3]));
+  const flines=scr?[]:wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3]));
   const footTop=H-M-12-(flines.length-1)*flh-fs;
   // ----- legend content
   const LI=[];
@@ -325,7 +337,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     if(!mids.length&&fp.target!=null&&fp.target!==last&&fp.target!==rootId) mids=[fp.target];
     const ids=[rootId].concat(mids,[last]); const sn=ids.map(x=>surname(P.get(x).name));
     const chain=ids.map((x,i)=>sn.indexOf(sn[i])!==sn.lastIndexOf(sn[i])?baseName(P.get(x).name):sn[i]);   // full name when a surname repeats (Bernoulli)
-    const why=fp.mode==='desc'?`vedie k predkovi s najviac akademickými potomkami: ${baseName(P.get(fp.target).name)} (${nfmt(fp.d)})`:'najdlhšia línia (údaje o potomkoch chýbajú)';
+    const why=down?(fp.mode==='desc'?`vedie cez potomka s najviac akademickými potomkami: ${baseName(P.get(fp.target).name)} (${nfmt(fp.d)})`:'najdlhšia línia (údaje o potomkoch chýbajú)'):fp.mode==='desc'?`vedie k predkovi s najviac akademickými potomkami: ${baseName(P.get(fp.target).name)} (${nfmt(fp.d)})`:'najdlhšia línia (údaje o potomkoch chýbajú)';
     LI.push({sw:'hl',t1:'Zvýraznená vetva: '+chain.join(' → '),t2:why});
   }
   if(kk) LI.push({sw:'branch',t1:'Vetva: školiteľ (vyššie) a doktorand'});
@@ -335,22 +347,24 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const hasUnv=[...g.edge.values()].some(e=>e.unv)||g.extra.some(e=>e.unv);
   if(hasUnv) LI.push({sw:'unv',t1:'Neoverený vzťah',t2:'(odvodený zo zoznamu žiakov alebo bez zdroja)'});
   if([...g.S].some(x=>P.get(x).sk)) LI.push({sw:'sk',t1:'Slovenský matematik alebo rodák zo Slovenska'});
-  if(g.more.size) LI.push({sw:'more',t1:'ďalší predkovia: n',t2:'= počet starších predkov mimo výrezu'});
+  if(g.more.size) LI.push(down?{sw:'more',t1:'ďalší potomkovia: n',t2:'= počet ďalších potomkov mimo výrezu'}:{sw:'more',t1:'ďalší predkovia: n',t2:'= počet starších predkov mimo výrezu'});
   const L1=11, L2=9.6, lpad=14, lsw=36, ltx=lpad+lsw+10, LWmax=270;
   for(const it of LI){ it.l1=wrapText(tw,it.t1,L1,'normal',LWmax); it.l2=it.t2?wrapText(tw,it.t2,L2,'italic',LWmax):[]; it.h=Math.max(18,it.l1.length*13.4+it.l2.length*12)+6; }
   let lw=0; for(const it of LI){ for(const t of it.l1) lw=Math.max(lw,tw(t,L1,'normal')); for(const t of it.l2) lw=Math.max(lw,tw(t,L2,'italic')); }
   const Lw=ltx+lw+lpad, Lh=LI.length?40+LI.reduce((a,it)=>a+it.h,0)+2:0;
   // ----- geometry of the tree in design units
   const {X,lab,lvl,isT,side,Wd,B,trunk}=lay; const S=g.S, size=g.size;
-  const boxOf=(x,Y)=>{ const b=lab.get(x), y=Y[lvl(x)]+lay.dome(x), xx=X.get(x);
+  const fy=v=>down?-v:v;   // descendants: the geometry is drawn mirrored (scale(1,-1)), labels and boxes in mirrored coordinates
+  const boxOf=(x,Y)=>{ const b=boxRaw(x,Y); return down?[b[0],-b[1]-b[3],b[2],b[3]]:b; };
+  const boxRaw=(x,Y)=>{ const b=lab.get(x), y=Y[lvl(x)]+lay.dome(x), xx=X.get(x);
     if(x===rootId) return [xx-b.w/2,y+5,b.w,b.h];
     if(isT(x)){ const w=Wd(size.get(x)); return [side.get(x)>0?xx+w/2+cfg.twig:xx-w/2-cfg.twig-b.w,y-b.h/2,b.w,b.h]; }
     return [xx-b.w/2,y-b.h/2,b.w,b.h]; };
   const rootLab=lab.get(rootId);
   const groundHalf=Math.max(rootLab.w/2+90,230);
   const ext=Y=>{ let x0=-groundHalf,x1=groundHalf,y0=Infinity,y1=-Infinity; for(const x of S){ const b=boxOf(x,Y); const fx=isT(x)||x===rootId?0:22; x0=Math.min(x0,b[0]-fx); x1=Math.max(x1,b[0]+b[2]+fx); y0=Math.min(y0,b[1]-(isT(x)||x===rootId?4:18)); y1=Math.max(y1,b[1]+b[3]); }
-    y1=Math.max(y1,5+rootLab.h+8); return {x0,x1,y0,y1}; };
-  const areaT=M+150, areaB0=footTop-22, areaL=M+10, areaR0=W-M-10;
+    if(down){ y1+=18; y0=Math.min(y0,-(5+rootLab.h+8)); } else y1=Math.max(y1,5+rootLab.h+8); return {x0,x1,y0,y1}; };
+  const areaT=scr?M+10:M+150, areaB0=footTop-22, areaL=M+10, areaR0=W-M-10;
   const smax=n<=3?2.3:n<=8?1.8:n<=16?1.5:cfg.smax, xmax=n<=8?170:n<=16?110:cfg.xmax;   // small trees print larger
   function fit(areaR,areaB){
     const aw=areaR-areaL, ah=areaB-areaT;
@@ -367,11 +381,11 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   }
   // obstacles for the legend (page coordinates)
   const obst=f=>{ const R=[]; for(const x of S){ const b=boxOf(x,f.Y); const m=isT(x)||x===rootId?6:24; R.push([f.GX+(b[0]-m)*f.s,f.GY+(b[1]-m)*f.s,(b[2]+2*m)*f.s,(b[3]+2*m)*f.s]); }
-    for(const x of S) if(x!==rootId){ const p=g.par.get(x); const a=[X.get(p),f.Y[lvl(p)]+lay.dome(p)], c=[X.get(x),f.Y[lvl(x)]+lay.dome(x)]; for(let t=0;t<=1.001;t+=0.1){ const px=a[0]+(c[0]-a[0])*t, py=a[1]+(c[1]-a[1])*t; R.push([f.GX+px*f.s-6,f.GY+py*f.s-6,12,12]); } }
-    const yG=f.GY+(5+rootLab.h*0.7)*f.s; R.push([f.GX-groundHalf*f.s,yG-50*f.s,2*groundHalf*f.s,54*f.s]); return R; };
+    for(const x of S) if(x!==rootId){ const p=g.par.get(x); const a=[X.get(p),f.Y[lvl(p)]+lay.dome(p)], c=[X.get(x),f.Y[lvl(x)]+lay.dome(x)]; for(let t=0;t<=1.001;t+=0.1){ const px=a[0]+(c[0]-a[0])*t, py=fy(a[1]+(c[1]-a[1])*t); R.push([f.GX+px*f.s-6,f.GY+py*f.s-6,12,12]); } }
+    if(!down){ const yG=f.GY+(5+rootLab.h*0.7)*f.s; R.push([f.GX-groundHalf*f.s,yG-50*f.s,2*groundHalf*f.s,54*f.s]); } return R; };
   const freeAt=(R,x,y)=>!R.some(r=>r[0]<x+Lw+8&&r[0]+r[2]>x-8&&r[1]<y+Lh+8&&r[1]+r[3]>y-8);
   let F=fit(areaR0,areaB0), Lx=null, Ly=null, legendMode='none';
-  if(LI.length){
+  if(LI.length&&!scr){
     const tryPlace=f=>{ const R=obst(f); const st=10, c=[];
       for(let y=f.areaB-Lh;y>=areaT;y-=st){ c.push([areaR0-Lw,y]); c.push([areaL,y]); }
       for(let x=areaR0-Lw;x>=areaL;x-=st) c.push([x,areaT]);
@@ -404,11 +418,11 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const G2=[];  // tree group content
   // ground, foliage, roots
   const yG=5+rootLab.h*0.7;
-  G2.push(`<path d="M${n2(-groundHalf)},${n2(yG)} Q0,${n2(yG-22)} ${n2(groundHalf)},${n2(yG)}" fill="none" stroke="${TP.GROUND}" stroke-width="1"/>`);
-  for(const x of S){ if(isT(x)&&(x!==B||g.kids.get(x).length)||x===rootId) continue; const b=boxOf(x,Y); G2.push(`<ellipse cx="${n2(b[0]+b[2]/2)}" cy="${n2(b[1]+b[3]/2)}" rx="${n2(b[2]/2+34)}" ry="${n2(b[3]/2+30)}" fill="${TP.FOL}"/>`); }
+  if(!down) G2.push(`<path d="M${n2(-groundHalf)},${n2(yG)} Q0,${n2(yG-22)} ${n2(groundHalf)},${n2(yG)}" fill="none" stroke="${TP.GROUND}" stroke-width="1"/>`);
+  for(const x of S){ if(isT(x)&&(x!==B||g.kids.get(x).length)||x===rootId) continue; const b=boxRaw(x,Y); G2.push(`<ellipse cx="${n2(b[0]+b[2]/2)}" cy="${n2(b[1]+b[3]/2)}" rx="${n2(b[2]/2+34)}" ry="${n2(b[3]/2+30)}" fill="${TP.FOL}"/>`); }
   const rootsCol=mixc(T_BROWN,T_OLIVE,0.1); const fl=Math.min(1,tW[0]/24);
   // roots: from the trunk base outward and down to the ground line, mostly behind the pill
-  for(const sg of [-1,1]) for(const [ex,w] of [[22,8],[58,5.5],[100,4]]){ const x3=sg*(rootLab.w/2+ex*Math.max(0.6,fl)), p0=[sg*tW[0]*0.25,0], p3=[x3,yG-1];
+  if(!down) for(const sg of [-1,1]) for(const [ex,w] of [[22,8],[58,5.5],[100,4]]){ const x3=sg*(rootLab.w/2+ex*Math.max(0.6,fl)), p0=[sg*tW[0]*0.25,0], p3=[x3,yG-1];
     G2.push(`<path d="${polyTaper(curvePts([p0,[sg*tW[0]*0.6,yG*0.35],[x3*0.55,yG-4],p3],24),Array.from({length:25},(_,i)=>w*1.5*fl*(1-i/24)+0.5*i/24))}" fill="${rootsCol}"/>`); }
   G2.push(`<path d="${polyTaper(tp,tws)}" fill="${brCol(size.get(rootId))}"/>`);
   // trunk sections: postdoc (teal) and unconfirmed (dots)
@@ -436,14 +450,14 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     if(e.pd){ const m=bz(c[0],c[1],c[2],c[3],0.5); pdTags.push({trunk:false,x:m[0],y:m[1],dir:Math.sign(E[0]-S0[0])||1}); }
     if(hlEdge(x)) veins.push(cpath(c)); }
   // twigs to trunk labels
-  for(const x of trunk){ if(x===rootId) continue; const b=boxOf(x,Y), sd=side.get(x), y=Yl(x); const ex=sd>0?b[0]:b[0]+b[2], ey=b[1]+b[3]/2; const sx=sd*(trunkW(y)/2-2);
+  for(const x of trunk){ if(x===rootId) continue; const b=boxRaw(x,Y), sd=side.get(x), y=Yl(x); const ex=sd>0?b[0]:b[0]+b[2], ey=b[1]+b[3]/2; const sx=sd*(trunkW(y)/2-2);
     G2.push(`<path d="${polyTaper(curvePts([[sx,y+5],[sx+sd*10,y+1],[ex-sd*12,ey+3],[ex+sd*2,ey]],16),Array.from({length:17},(_,i)=>4.2-2.6*i/16))}" fill="${mixc(T_BROWN,T_OLIVE,0.3)}"/>`); }
   for(const d of veins) G2.push(`<path d="${d}" fill="none" stroke="${TP.OCHRE}" stroke-width="2" stroke-linecap="round"/>`);
   // leaves
   const rnd=rng(Math.abs(rootId)*2654435761);
   const leaf=(x,y,ang,Ln,col)=>{ const a=ang*Math.PI/180, ux=Math.cos(a), uy=Math.sin(a), nx=-uy, ny=ux, w=Ln*0.36; const tip=[x+ux*Ln,y+uy*Ln], m1=[x+ux*Ln*0.5+nx*w,y+uy*Ln*0.5+ny*w], m2=[x+ux*Ln*0.5-nx*w,y+uy*Ln*0.5-ny*w];
     return `<path d="M${n2(x)},${n2(y)} Q${n2(m1[0])},${n2(m1[1])} ${n2(tip[0])},${n2(tip[1])} Q${n2(m2[0])},${n2(m2[1])} ${n2(x)},${n2(y)}Z" fill="${col}"/>`; };
-  for(const x of g.order){ if(x===rootId) continue; const leafy=!g.kids.get(x).length; if(isT(x)&&!(x===B&&leafy)) continue; const nL=leafy?7:3; const b=boxOf(x,Y), cxx=b[0]+b[2]/2, cyy=b[1]+b[3]/2;
+  for(const x of g.order){ if(x===rootId) continue; const leafy=!g.kids.get(x).length; if(isT(x)&&!(x===B&&leafy)) continue; const nL=leafy?7:3; const b=boxRaw(x,Y), cxx=b[0]+b[2]/2, cyy=b[1]+b[3]/2;
     for(let j=0;j<nL;j++){ const t=rnd()*2*Math.PI, rr=0.55+rnd()*0.2; G2.push(leaf(cxx+Math.cos(t)*(b[2]/2*rr+10),cyy+Math.sin(t)*(b[3]/2*rr+12),t*180/Math.PI-35+rnd()*70,11+rnd()*8,over(LEAFG[Math.floor(rnd()*4)],0.35+rnd()*0.25))); } }
   if(kk===0){ for(let j=0;j<9;j++){ const t=-Math.PI*(0.1+0.8*j/8); G2.push(leaf(Math.cos(t)*6,forkY+Math.sin(t)*4,t*180/Math.PI+rnd()*30-15,13+rnd()*7,over(LEAFG[j%4],0.55+rnd()*0.3))); } }
   // secondary links
@@ -460,17 +474,19 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
       if(ox>0&&oy>0){ moved=true; const dir=(A[0]+A[2]/2)>=(Bb[0]+Bb[2]/2)?1:-1; const fa=fixed(a)?0:fixed(b)?1:0.5, fb=1-fa; A[0]+=dir*ox*fa*0.6; Bb[0]-=dir*ox*fb*0.6; } }
     if(!moved) break; }
   // postdoc tags
+  const G3=[];
   for(const t of pdTags){
     if(t.trunk){ const len=t.y0-t.y1; let fz=Math.min(8,0.8*len/Math.max(1,tw('postdoktorand',1,'italic'))); const ym=(t.y0+t.y1)/2;
-      if(fz>=4.6&&t.w>=fz+3){ const wv=tw('postdoktorand',fz,'italic'); G2.push(`<text transform="translate(${n2(fz*0.34)} ${n2(ym+wv/2)}) rotate(-90)" x="0" y="0" font-family="${FONT}" font-size="${n2(fz)}" font-style="italic" fill="${TP.CREAM}">postdoktorand</text>`); }
-      else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); let best=null; for(const sd of [-1,1]){ const x0=sd>0?t.w/2+4:-t.w/2-4-wv; const bx=[x0,ym-fz2*0.7,wv,fz2]; const hit=[...boxes.values()].some(b=>b[0]<bx[0]+bx[2]+2&&bx[0]<b[0]+b[2]+2&&b[1]<bx[1]+bx[3]+2&&bx[1]<b[1]+b[3]+2); if(!hit){ best=x0; break; } }
-        if(best!=null) G2.push(`<text x="${n2(best)}" y="${n2(ym+fz2*0.3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); } }
-    else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); const x0=t.dir>0?t.x+6:t.x-6-wv; G2.push(`<text x="${n2(x0)}" y="${n2(t.y+3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); boxes.set('pd'+t.x,[x0,t.y-5,wv,9]); } }
+      if(fz>=4.6&&t.w>=fz+3){ const wv=tw('postdoktorand',fz,'italic'); G3.push(`<text transform="translate(${n2(fz*0.34)} ${n2(fy(ym)+wv/2)}) rotate(-90)" x="0" y="0" font-family="${FONT}" font-size="${n2(fz)}" font-style="italic" fill="${TP.CREAM}">postdoktorand</text>`); }
+      else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); let best=null; for(const sd of [-1,1]){ const x0=sd>0?t.w/2+4:-t.w/2-4-wv; const bx=[x0,fy(ym)-fz2*0.7,wv,fz2]; const hit=[...boxes.values()].some(b=>b[0]<bx[0]+bx[2]+2&&bx[0]<b[0]+b[2]+2&&b[1]<bx[1]+bx[3]+2&&bx[1]<b[1]+b[3]+2); if(!hit){ best=x0; break; } }
+        if(best!=null) G3.push(`<text x="${n2(best)}" y="${n2(fy(ym)+fz2*0.3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); } }
+    else { const fz2=7.5, wv=tw('postdoktorand',fz2,'italic'); const x0=t.dir>0?t.x+6:t.x-6-wv; G3.push(`<text x="${n2(x0)}" y="${n2(fy(t.y)+3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">postdoktorand</text>`); boxes.set('pd'+t.x,[x0,fy(t.y)-5,wv,9]); } }
   // pills
   for(const x of S){ const b=lab.get(x), bx=boxes.get(x); const [x0,y0,w,h]=bx; const r=Math.min(10,h/2);
     const fill=b.sk?TP.SKF:TP.CREAM, stroke=b.hl?TP.OCHRE:b.sk?TP.SKE:TP.EDGE, sw=b.hl?(b.root?1.8:1.3):b.sk?0.9:0.6;
-    G2.push(`<rect x="${n2(x0)}" y="${n2(y0)}" width="${n2(w)}" height="${n2(h)}" rx="${n2(r)}" ry="${n2(r)}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`);
-    let yy=y0+b.padY; for(const l of b.lines){ yy+=(l.gap||0); G2.push(`<text x="${n2(x0+(w-l.w)/2)}" y="${n2(yy+l.size*0.86+(l.lh-l.size*1.12)*0.5)}" font-family="${FONT}" font-size="${n2(l.size)}"${l.style==='italic'?' font-style="italic"':''} fill="${l.fill}">${xesc(l.t)}</text>`); yy+=l.lh; } }
+    if(scr) G3.push(`<g class="sp${b.root?' sp-root':''}" data-id="${x}" tabindex="0" role="button" aria-label="${xesc(clean(P.get(x).name))}">`);
+    G3.push(`<rect x="${n2(x0)}" y="${n2(y0)}" width="${n2(w)}" height="${n2(h)}" rx="${n2(r)}" ry="${n2(r)}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`);
+    let yy=y0+b.padY; for(const l of b.lines){ yy+=(l.gap||0); G3.push(`<text x="${n2(x0+(w-l.w)/2)}" y="${n2(yy+l.size*0.86+(l.lh-l.size*1.12)*0.5)}" font-family="${FONT}" font-size="${n2(l.size)}"${l.style==='italic'?' font-style="italic"':''} fill="${l.fill}">${xesc(l.t)}</text>`); yy+=l.lh; } if(scr) G3.push('</g>'); }
   // ----- page
   out.push(`<rect x="0" y="0" width="${W}" height="${H}" fill="${TP.PAGE}"/>`);
   out.push(`<rect x="22" y="22" width="${n2(W-44)}" height="${n2(H-44)}" fill="none" stroke="${TP.FRAME}" stroke-width="0.8"/>`);
@@ -479,9 +495,10 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   T(W/2,M+96,sub,ss,'italic',TP.INK2,'middle');
   const dy0=M+118; out.push(`<path d="M${n2(W/2-210)},${dy0} L${n2(W/2-14)},${dy0} M${n2(W/2+14)},${dy0} L${n2(W/2+210)},${dy0}" stroke="${TP.OCHRE}" stroke-width="0.8" fill="none"/>`);
   out.push(leaf(W/2-9,dy0,0,18,over('#8f9d62',0.85)));
-  out.push(`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">${G2.join('')}</g>`);
+  const treeSvg=(down?`<g transform="scale(1,-1)">${G2.join('')}</g>`:G2.join(''))+G3.join('');
+  out.push(`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">${treeSvg}</g>`);
   // legend
-  if(LI.length){ out.push(`<rect x="${n2(Lx)}" y="${n2(Ly)}" width="${n2(Lw)}" height="${n2(Lh)}" rx="8" ry="8" fill="${TP.CREAM}" stroke="${TP.FRAME}" stroke-width="0.7"/>`);
+  if(LI.length&&!scr){ out.push(`<rect x="${n2(Lx)}" y="${n2(Ly)}" width="${n2(Lw)}" height="${n2(Lh)}" rx="8" ry="8" fill="${TP.CREAM}" stroke="${TP.FRAME}" stroke-width="0.7"/>`);
     { let xx=Lx+lpad; for(const ch of 'LEGENDA'){ xx+=T(xx,Ly+26,ch,12.5,'normal',TP.INK)+2.4; } }
     let yy=Ly+40; const tp2=(x,y,w0,w1,col)=>polyTaper(curvePts([[x,y+3],[x+14,y+1],[x+28,y],[x+lsw,y-2]],16),Array.from({length:17},(_,i)=>w0+(w1-w0)*i/16));
     for(const it of LI){ const sx=Lx+lpad, cy=yy+7;
@@ -499,28 +516,31 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const issues=[]; const P2=(b)=>[GX+b[0]*s,GY+b[1]*s,b[2]*s,b[3]*s];
   const all=[...boxes.entries()];
   for(let i=0;i<all.length;i++) for(let j=i+1;j<all.length;j++){ const A=all[i][1], Bb=all[j][1]; if(A[0]<Bb[0]+Bb[2]-0.5&&Bb[0]<A[0]+A[2]-0.5&&A[1]<Bb[1]+Bb[3]-0.5&&Bb[1]<A[1]+A[3]-0.5) issues.push('overlap '+all[i][0]+' '+all[j][0]); }
-  for(const [x,b] of all){ const q=P2(b); if(q[0]<M-14||q[0]+q[2]>W-M+14||q[1]<areaT-6||q[1]+q[3]>footTop) issues.push('outside '+x); if(LI.length&&q[0]<Lx+Lw&&q[0]+q[2]>Lx&&q[1]<Ly+Lh&&q[1]+q[3]>Ly) issues.push('legend overlaps '+x); }
+  for(const [x,b] of all){ const q=P2(b); if(q[0]<M-14||q[0]+q[2]>W-M+14||q[1]<areaT-6||q[1]+q[3]>footTop) issues.push('outside '+x); if(LI.length&&!scr&&q[0]<Lx+Lw&&q[0]+q[2]>Lx&&q[1]<Ly+Lh&&q[1]+q[3]>Ly) issues.push('legend overlaps '+x); }
   // branches running under a label that is not their own end
-  for(const [x,c] of curveOf){ const p=g.par.get(x); const pts=curvePts(c,24).slice(2,-2); for(const [y,b] of boxes){ if(y===x||y===p||typeof y!=='number') continue; if(pts.some(q=>q[0]>b[0]+2&&q[0]<b[0]+b[2]-2&&q[1]>b[1]+2&&q[1]<b[1]+b[3]-2)){ issues.push('branch '+p+'>'+x+' under '+y); } } }
+  for(const [x,c] of curveOf){ const p=g.par.get(x); const pts=curvePts(c,24).slice(2,-2).map(q=>[q[0],fy(q[1])]); for(const [y,b] of boxes){ if(y===x||y===p||typeof y!=='number') continue; if(pts.some(q=>q[0]>b[0]+2&&q[0]<b[0]+b[2]-2&&q[1]>b[1]+2&&q[1]<b[1]+b[3]-2)){ issues.push('branch '+p+'>'+x+' under '+y); } } }
   const svgInner=out.join('');
   if(/[\u2013\u2014]/.test(svgInner)) issues.push('dash in text');
-  return {svgInner,W,H,s,issues,legendMode,title,flines,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra};
+  return {svgInner,W,H,s,issues,legendMode,title,flines,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra,treeSvg,legendItems:LI.map(it=>({sw:it.sw,t1:it.t1,t2:it.t2||''})),boxes:scr?boxes:null};
 }
 
 const TREE_FAMOUS=new Set([10480,55185]);  // with FAMOUS: also Kolmogorov and Liouville may be named in the legend when on the highlighted branch
 const TREE_BASE={c1:0.3,c2:0.7,maxTiers:3,lean:16,dome:46,ns:13,ms:8.6,wmax:34,dom:0.5,affW:0.5,hgap:12,twig:20,stem:5,availW:1050,tgap:8,gmin:12,g0:14,gk:0.22,gmax:110,xmax:70,smax:1.3,nameW:150,stagger:false};
 const TREE_CFGS=opts=>opts.treeCfgs||[{},{stagger:true},{stagger:true,availW:600},{stagger:true,availW:300},{nameW:120,stagger:true},{nameW:120,stagger:true,availW:400},{nameW:96,stagger:true,availW:400}];
 async function buildTree(ctx,rootId,opts){
-  const fonts=await loadLibs();
-  const doc=newDoc(fonts,opts.paper); const tw=makeMeasure(doc);
-  const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false);
+  const scr=!!opts.screen; let doc=null, tw;
+  if(scr){ await loadFaces(); tw=canvasMeasure(); }
+  else { const fonts=await loadLibs(); doc=newDoc(fonts,opts.paper); tw=makeMeasure(doc); }
+  const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir);
   const fp=famousPath(ctx,g,rootId);
   let best=null; const tries=[];
   for(const c of TREE_CFGS(opts)){ const cfg=Object.assign({},TREE_BASE,opts.treeCfg||{},c); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,opts);
     const hard=comp.issues.filter(t=>!/^branch /.test(t)).length, soft=comp.issues.length-hard;
     const score=Math.min(comp.s,1)*(cfg.stagger?0.96:1)*(cfg.nameW>=150?1:cfg.nameW>=120?0.9:0.82)*(hard?0.8:1)*Math.pow(0.985,Math.min(soft,10))*(/^free/.test(comp.legendMode)||comp.legendMode==='none'?1:0.95); tries.push([cfg.nameW,cfg.stagger,cfg.availW,+comp.s.toFixed(3),comp.issues.length,comp.legendMode,+score.toFixed(3)]);
     if(!best||score>best.score) best={lay,comp,cfg,score}; if(comp.s>=0.999&&!comp.issues.length) break; }
-  const {comp,lay}=best; const [PW,PH]=PAPER[opts.paper]; const k=PW/comp.W;
+  const {comp,lay}=best;
+  if(scr) return {treeSvg:comp.treeSvg,legend:comp.legendItems,boxes:comp.boxes,g,fp,trunk:lay.trunk,title:comp.title,issues:comp.issues};
+  const [PW,PH]=PAPER[opts.paper]; const k=PW/comp.W;
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(PW)}pt" height="${n2(PH)}pt" viewBox="0 0 ${n2(PW)} ${n2(PH)}"><g transform="scale(${k.toFixed(6)})">${comp.svgInner}</g></svg>`;
   const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
   holder.innerHTML=svg; document.body.appendChild(holder);
@@ -528,7 +548,7 @@ async function buildTree(ctx,rootId,opts){
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:PW,height:PH}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
   doc.setProperties({title:comp.title,subject:'Rodokmeň slovenskej matematiky',creator:'slovenskivedci.sk/rodokmen',author:'slovenskivedci.sk'});
-  const filename=`${fileSlug(p.name)}_rodokmen_${opts.paper}.pdf`;
+  const filename=`${fileSlug(p.name)}_${g.dir==='down'?'potomkovia':'rodokmen'}_${opts.paper}.pdf`;
   const report={style:'strom',tries,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
@@ -542,5 +562,6 @@ async function build(ctx,rootId,opts){
   return buildTree(ctx,rootId,opts);
 }
 async function download(ctx,rootId,opts){ const r=await build(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.last={report:r.report,svg:r.svg}; return r.report; }
-window.RodokmenPrint={build,download,preload:loadLibs,_t:{genitive,schoolShort,surname,fileSlug,treeGraph,famousPath}};
+async function scene(ctx,rootId,opts){ return buildTree(ctx,rootId,Object.assign({gens:6,paper:'A2'},opts||{},{screen:true})); }
+window.RodokmenPrint={build,download,scene,preload:loadLibs,_t:{genitive,schoolShort,surname,fileSlug,treeGraph,famousPath}};
 })();

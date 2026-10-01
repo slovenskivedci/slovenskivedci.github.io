@@ -423,6 +423,65 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
 #g-stage .fchip{left:auto;right:12px;top:8px}
 .fl.dim,.fn.dim,.fh.dim{opacity:.1}
 @media (max-width:899px){ #g-stage .fchip{top:auto;bottom:10px;right:auto;left:12px} .gbar-n{display:none} }
+/* košatý strom: the tree poster as an interactive view (layout and drawing from assets/print/print-tree.js) */
+.kview{display:flex;flex-direction:column;gap:8px;min-height:0}
+.kbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.kbar .field{margin:0;flex:0 1 300px;min-width:220px}
+.kbar .field .ico{top:11px}
+.kbar .seg button{padding:5px 11px}
+.kgen{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink-2);white-space:nowrap}
+.kgen input{width:150px;accent-color:var(--accent)}
+.kgs{display:none}
+.kgen output{font:500 12px var(--font-mono);color:var(--ink-2);min-width:5.5em;font-variant-numeric:tabular-nums}
+.kbar-r{margin-left:auto;display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink-3)}
+.kbar-r select{height:34px;border:1px solid var(--rule);border-radius:9px;background:var(--surface);padding:0 6px;color:var(--ink-2)}
+.kbar-r .textbtn[disabled]{opacity:.6;cursor:progress}
+.kbar-r .kpst:empty{display:none}
+.kline{display:flex;align-items:center;gap:6px 12px;min-height:34px}
+.kcrumbs{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-size:13px;color:var(--ink-3);min-height:22px}
+.kcrumbs .kcur{font:500 16px/1.2 var(--font-display);color:var(--ink)}
+.kcrumbs .kback{margin-right:8px;font-weight:500}
+.kcrumbs .ksum{margin-left:auto;font:11.5px var(--font-mono);color:var(--ink-3)}
+.ksheet{flex:1;min-height:0;background:#fcfaf3;border-color:#e2d8c3}
+#k-svg{position:absolute;inset:0;width:100%;height:100%}
+.sp{cursor:pointer}.sp:hover>rect,.sp.sel>rect{stroke:#c08f2a;stroke-width:1.8px}.sp:focus{outline:none}.sp:focus-visible>rect{stroke:#1F4FD6;stroke-width:2px}
+.sp-root{cursor:default}
+.kzoom{position:absolute;left:12px;top:12px;display:flex;gap:6px;z-index:2}
+.kzoom .tool{width:34px;padding:0;font-size:17px;background:#fffdf7;color:#5a4c3d;border-color:#e2d8c3}
+.kzoom .tool.wide{width:auto;padding:0 12px;font-size:13px}
+.kpanel{position:absolute;z-index:3;background:#fffdf7;color:#3b3026;border:1px solid #d8ccb4;border-radius:12px;box-shadow:0 8px 24px rgba(59,48,38,.12);font-size:12.5px;line-height:1.45}
+.kcard{left:12px;bottom:12px;width:330px;max-width:calc(100% - 24px);padding:12px 14px}
+.kcard .kn{display:block;font:500 18px/1.2 "EBGaramond",var(--font-display);padding-right:22px;color:#3b3026}
+.kcard .m{color:#7a6c5b}
+.kcard .ksk{font:500 10px var(--font-mono);letter-spacing:.07em;color:#2f5d8a;text-transform:uppercase}
+.kcard .krel{margin-top:6px}
+.kcard .krel.pd{border-left:3px solid #3d8c84;padding-left:8px}
+.kcard .ksrc{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}
+.kcard .kacts{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.kcard .textbtn{background:#fbf8ef;border-color:#d8ccb4;color:#3b3026;text-decoration:none;font-size:12.5px;padding:6px 11px}
+.kcard .textbtn:hover{border-color:#c08f2a;color:#7a5a12}
+.kclose{position:absolute;right:6px;top:4px;border:0;background:none;font-size:20px;line-height:1;color:#9d907c;cursor:pointer;padding:4px 6px}
+.klegend{right:12px;bottom:12px;width:300px;padding:10px 12px 8px}
+.klegend:not(.open){display:none}
+.klegend .lh{font:500 10.5px var(--font-mono);letter-spacing:.12em;color:#3b3026;margin-bottom:6px}
+.klegend .li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:9px;align-items:start;margin:5px 0}
+.klegend .li svg{width:36px;height:14px;margin-top:2px}
+.klegend .t2{display:block;color:#7a6c5b;font-style:italic;font-size:11.5px}
+.kstatus{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);color:#7a6c5b;font:italic 18px/1.4 var(--font-display);pointer-events:none;text-align:center;max-width:80%}
+.kstatus:empty{display:none}
+@media (max-width:899px){
+  .kview .ksheet{flex:none;height:calc(100svh - 120px);min-height:440px;max-height:760px}
+  .kbar{gap:8px;flex-wrap:wrap}
+  .kbar .field{flex:1 1 100%}
+  .kbar .seg button{padding:5px 8px;font-size:12.5px}
+  .kgen{flex:1;gap:6px;font-size:12px}.kgl{display:none}.kgs{display:inline}.kgen input{width:auto;flex:1;min-width:60px}.kgen output{min-width:0}
+  .kline{align-items:flex-start}
+  .kbar-r .textbtn{padding:6px 10px}
+  .kcrumbs{font-size:12.5px}.kcrumbs .kcur{font-size:15px}.kcrumbs .ksum{display:none}
+  .kcard{left:8px;right:8px;bottom:8px;width:auto;max-width:none}
+  .klegend{left:8px;right:8px;bottom:8px;width:auto;max-height:70%;overflow:auto}
+  .kzoom{left:8px;top:8px}
+}
 </style>
 
 </head>
@@ -452,6 +511,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
       <button type="button" data-view="les">Les</button>
       <button type="button" data-view="linie">Línie</button>
       <button type="button" data-view="tree">Strom</button>
+      <button type="button" data-view="strom">Košatý strom</button>
       <button type="button" data-view="connect">Prepojenia</button>
       <button type="button" data-view="people">Matematici</button>
       <button type="button" data-view="alumni">Absolventi</button>
@@ -507,10 +567,32 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
           <div class="stepper"><span class="lbl">Školitelia</span><button type="button" data-act="up-" aria-label="Menej generácií školiteľov">−</button><output id="upN">3</output><button type="button" data-act="up+" aria-label="Viac generácií školiteľov">+</button></div>
           <div class="stepper"><span class="lbl">Doktorandi</span><button type="button" data-act="down-" aria-label="Menej generácií doktorandov">−</button><output id="downN">2</output><button type="button" data-act="down+" aria-label="Viac generácií doktorandov">+</button></div>
           <button type="button" class="tool" data-act="fit">Zobraziť celé</button>
+          <button type="button" class="tool" data-act="kstrom" title="Rodokmeň ako strom: predkovia alebo potomkovia">Košatý strom</button>
         </div>
         <div class="legend" aria-hidden="true">
           <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span title="záznam práce, životopis, článok alebo e-mail"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>vzťah so zdrojom</span><span title="len Mathematics Genealogy Project, odvodené zo zoznamu žiakov alebo bez zdroja"><svg class="lg-ln" viewBox="0 0 22 6"><line class="u" x1="1" y1="3" x2="21" y2="3"/></svg>neoverený vzťah</span><span title="postdoktorandský pobyt u školiteľa (so zdrojom)"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorandský školiteľ</span>
         </div>
+      </div>
+    </section>
+
+    <!-- KOŠATÝ STROM -->
+    <section id="v-strom" class="view kview" aria-label="Košatý strom: rodokmeň ako strom" hidden>
+      <div class="kbar">
+        <div class="field">
+          <svg class="ico" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input id="kq" type="search" autocomplete="off" spellcheck="false" placeholder="Strom inej osoby" aria-label="Vybrať osobu pre strom" role="combobox" aria-expanded="false" aria-controls="kq-list" aria-autocomplete="list">
+          <ul id="kq-list" class="list" role="listbox" hidden></ul>
+        </div>
+        <div class="seg" id="k-dir" role="group" aria-label="Smer stromu"><button type="button" data-dir="up" aria-pressed="true">predkovia</button><button type="button" data-dir="down" aria-pressed="false">potomkovia</button></div>
+        <label class="kgen"><span class="kgl">generácie</span><span class="kgs">gen.</span><input type="range" id="k-gen" min="1" max="6" value="6" step="1"><output id="k-genN" for="k-gen"></output></label>
+      </div>
+      <div class="kline"><nav class="kcrumbs" id="k-crumbs" aria-label="Cesta stromom"></nav><span class="kbar-r"><span class="kpst" id="k-pst" aria-live="polite"></span><button type="button" class="textbtn" id="k-print" title="PDF plagát zobrazeného stromu">Vytlačiť</button><select id="k-paper" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select></span></div>
+      <div class="stage ksheet" id="k-stage">
+        <svg id="k-svg" role="img" aria-label="Košatý strom: osoba pri koreni, predkovia vo vetvách nad ňou alebo potomkovia pod ňou"></svg>
+        <div class="kzoom" role="group" aria-label="Priblíženie"><button type="button" class="tool" data-kz="in" aria-label="Priblížiť">+</button><button type="button" class="tool" data-kz="out" aria-label="Oddialiť">−</button><button type="button" class="tool wide" data-kz="fit">Zobraziť celé</button><button type="button" class="tool wide" data-kz="leg" aria-expanded="true">Legenda</button></div>
+        <div class="kpanel kcard" id="k-card" hidden></div>
+        <div class="kpanel klegend open" id="k-legend"></div>
+        <div class="kstatus" id="k-status" aria-live="polite"></div>
       </div>
     </section>
 
@@ -844,15 +926,15 @@ const F_NM='500 14.5px Newsreader, Georgia, serif', F_MT='400 10.5px "Geist Mono
 function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; while(lo<hi){ const m=(lo+hi+1)>>1; if(tw(t.slice(0,m)+'…',f)<=max) lo=m; else hi=m-1; } return t.slice(0,lo).trimEnd()+'…'; }
 
 /* ---------- routing ---------- */
-const VIEWS=['les','linie','tree','connect','people','alumni','about'];
-const SECTIONS=['forest','tree','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
+const VIEWS=['les','linie','tree','strom','connect','people','alumni','about'];
+const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
 let current='';
 function show(view){ if(current===view) return; current=view; const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
-  if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }
+  if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?$/); if(km){ Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
-$$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else go(b.dataset.view); }));
+$$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
 combo($('#q'),$('#q-list'),p=>{ $('#q').value=''; $('#q').blur(); go('p'+p.id); });
 document.addEventListener('keydown',e=>{ if(e.key==='/'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){ e.preventDefault(); $('#q').focus(); } });
 
@@ -963,7 +1045,7 @@ const Tree=(()=>{
   }
   const upCap=()=>Math.max(12,focusId==null?0:deepestAll(focusId).g);
   function syncSteppers(){ $('#upN').value=up; $('#downN').value=down; $('#upN').textContent=up; $('#downN').textContent=down; $('[data-act="up-"]').disabled=up<=0; $('[data-act="down-"]').disabled=down<=0; $('[data-act="up+"]').disabled=up>=upCap(); $('[data-act="down+"]').disabled=down>=8; }
-  $('#t-stage .controls').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; const a=b.dataset.act; if(a==='fit'){ fit(true); return; } if(a==='up-') up=Math.max(0,up-1); if(a==='up+') up=Math.min(upCap(),up+1); if(a==='down-') down=Math.max(0,down-1); if(a==='down+') down=Math.min(8,down+1); expUp.clear(); expDown.clear(); syncSteppers(); render(true); });
+  $('#t-stage .controls').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; const a=b.dataset.act; if(a==='fit'){ fit(true); return; } if(a==='kstrom'){ go('strom='+focusId); return; } if(a==='up-') up=Math.max(0,up-1); if(a==='up+') up=Math.min(upCap(),up+1); if(a==='down-') down=Math.max(0,down-1); if(a==='down+') down=Math.min(8,down+1); expUp.clear(); expDown.clear(); syncSteppers(); render(true); });
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current==='tree') fit(false); },150); });
   return {focus,ensure,current:()=>focusId};
 })();
@@ -1016,19 +1098,146 @@ function renderProfile(p){
     ${lineage}${lineagePd}
     ${printHtml}
     ${advHtml}${pdAdvHtml}${stHtml}${pdStHtml}
-    <div class="links">${links.join('')}<button type="button" class="textbtn" data-connect="${p.id}" style="margin-left:auto">Porovnať s…</button></div>`;
+    <div class="links">${links.join('')}<button type="button" class="textbtn" data-kstrom="${p.id}" style="margin-left:auto" title="Rodokmeň ako strom: predkovia alebo potomkovia">Košatý strom</button><button type="button" class="textbtn" data-connect="${p.id}">Porovnať s…</button></div>`;
   el.scrollTop=0;
 }
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
-const PRINT_CTX={people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id))};
+const PRINT_CTX={people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf};
 let printP=null;
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=6'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=7'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
 async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2', pdBox=row.querySelector('[name=ppd]'), postdoc=pdBox?pdBox.checked:false;
   btn.disabled=true; st.textContent='Pripravujem PDF…';
   try{ const M=await loadPrint(); await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper,postdoc}); st.textContent=''; }
   catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; }
   finally{ btn.disabled=false; } }
-document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]'); if(pr){ if(!pr.disabled) printTree(pr); return; } const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
+document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]'); if(pr){ if(!pr.disabled) printTree(pr); return; } const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const ks=e.target.closest('[data-kstrom]'); if(ks){ go('strom='+ks.dataset.kstrom); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
+
+/* =========================================================
+   KOŠATÝ STROM (the tree poster as an interactive view: the person at the base of the trunk, ancestors branching
+   upward, or students and their students hanging below; graph, layout and drawing are the poster's own,
+   from assets/print/print-tree.js, loaded on first use; zoom and pan with d3.zoom)
+   ========================================================= */
+const Strom=(()=>{
+  const GDEF=6, DEF_ID=114295;
+  const svg=d3.select('#k-svg'), world=svg.append('g');
+  const zoom=d3.zoom().scaleExtent([.04,6]).on('zoom',e=>world.attr('transform',e.transform));
+  svg.call(zoom).on('dblclick.zoom',null);
+  let root=null, dir='up', gPref=GDEF, drawnKey='', drawnAspect=0, scene=null, trail=[], sel=null, busy=0, lastPtr='mouse', legendOpen=innerWidth>=900, legendTouched=false;
+  const mobile=()=>innerWidth<900;
+  const maxMemo=new Map();
+  function maxGen(id,d){ const k=id+':'+d; if(maxMemo.has(k)) return maxMemo.get(k); const nb=d==='down'?studAllOf:advAllOf; const dist=new Map([[id,0]]), q=[id]; let m=0;
+    for(let i=0;i<q.length;i++){ const x=q[i]; for(const y of nb(x)) if(!dist.has(y)){ dist.set(y,dist.get(x)+1); m=Math.max(m,dist.get(y)); q.push(y); } } maxMemo.set(k,m); return m; }
+  const gens=()=>Math.max(1,Math.min(gPref,maxGen(root,dir)||1));
+  const hashFor=(id,d=dir,g=gPref)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'');
+  const hash=()=>hashFor(root??Tree.current()??DEF_ID);
+  function set(id,d,g){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF;
+    const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else { trail.push(id); if(trail.length>12) trail=trail.slice(-12); }
+    if(current==='strom') draw(); }
+  function ensure(){ if(root==null) set(null,'up',0); draw(); }
+  const status=t=>{ $('#k-status').textContent=t; };
+  function syncUi(){
+    const mx=Math.max(1,maxGen(root,dir)), g=gens(), r=$('#k-gen');
+    $$('#k-dir button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.dir===dir?'true':'false'));
+    r.max=mx; r.value=g; r.disabled=mx<=1; $('#k-genN').textContent=`${g} z ${mx}`;
+    r.setAttribute('aria-valuetext',`${g} ${pl(g,'generácia','generácie','generácií')} z ${mx}`);
+    crumbs(); }
+  async function draw(){
+    syncUi();
+    const g=gens(), key=root+'|'+dir+'|'+g, el=svg.node(), w=el.clientWidth||800, h=el.clientHeight||600, asp=h/w;
+    if(key===drawnKey&&Math.abs(Math.log(asp/drawnAspect))<.4){ fit(false); return; }
+    const my=++busy; if(!scene||drawnKey.split('|')[0]!==String(root)) world.attr('opacity',.35); status('Kreslím strom…');
+    let sc;
+    try{ const M=await loadPrint(); sc=await M.scene(PRINT_CTX,root,{gens:g,dir,postdoc:true,pageH:1190.55*clamp(asp,.5,2.2)}); }
+    catch(err){ console.error(err); if(my===busy){ status('Strom sa nepodarilo nakresliť.'); world.attr('opacity',1); } return; }
+    if(my!==busy) return;
+    scene=sc; drawnKey=key; drawnAspect=asp; sel=null;
+    world.html(sc.treeSvg).attr('opacity',1);
+    legend(sc); card(null); crumbs();
+    const kk=sc.g.S.size-1;
+    status(kk?'':dir==='down'?'V databáze zatiaľ nie sú známi doktorandi tejto osoby.':'V databáze zatiaľ nie sú známi školitelia tejto osoby.');
+    fit(false,true);
+  }
+  function fit(anim,first){
+    const el=svg.node(), vw=el.clientWidth, vh=el.clientHeight; if(!vw||!vh||!scene) return;
+    const b=world.node().getBBox(); if(!b.width) return;
+    const lg=$('#k-legend'), padR=!mobile()&&legendOpen&&lg.offsetWidth?lg.offsetWidth+24:0;
+    const pad=mobile()?10:24, top=mobile()?50:56, aw=vw-2*pad-padR, ah=vh-top-pad;
+    const s=Math.min(aw/b.width,ah/b.height,1.6), SMIN=.42;
+    let tr=d3.zoomIdentity.translate(pad+aw/2-s*(b.x+b.width/2),top+ah/2-s*(b.y+b.height/2)).scale(s);
+    const rn=first&&mobile()&&s<SMIN?world.select('.sp-root').node():null;
+    if(rn){ const rb=rn.getBBox(), cx=clamp(rb.x+rb.width/2,b.x+aw/(2*SMIN),b.x+b.width-aw/(2*SMIN));   // phones: a readable start at the root; "Zobraziť celé" shows everything
+      tr=d3.zoomIdentity.translate(pad+aw/2-SMIN*cx,dir==='down'?top+8-SMIN*rb.y:vh-pad-SMIN*(rb.y+rb.height)).scale(SMIN); }
+    (anim&&!RM?svg.transition().duration(450).ease(d3.easeCubicInOut):svg).call(zoom.transform,tr);
+  }
+  /* breadcrumb of the roots visited in this session; "Späť" returns to the previous one */
+  function crumbs(){
+    if(root==null) return; const el=$('#k-crumbs'); const T=trail.length>4?[trail[0],null].concat(trail.slice(-3)):trail;
+    const nm=id=>esc(people.get(id).name);
+    const parts=T.map(id=>id==null?'<span aria-hidden="true">…</span>':id===root?`<span class="kcur" aria-current="page">${nm(id)}</span>`:`<button type="button" class="linkbtn" data-kroot="${id}">${nm(id)}</button>`);
+    const n=scene&&drawnKey.startsWith(root+'|'+dir+'|')?scene.g.S.size:0;
+    el.innerHTML=(trail.length>1?`<button type="button" class="linkbtn kback" data-kback>← Späť</button>`:'')+parts.join('<span aria-hidden="true">›</span>')+
+      (n?`<span class="ksum">${nf.format(n)} ${pl(n,'osoba','osoby','osôb')} · ${dir==='down'?'potomkovia':'predkovia'}</span>`:''); }
+  /* legend: the poster's items, drawn with the poster's colours */
+  const BR='#726143', TEAL='#3d8c84';
+  const taper=c=>`<path d="M1,9.5 C12,8 24,6 35,5 L35,7.5 C24,8.5 12,11.5 1,13 Z" fill="${c}"/>`;
+  const SW={hl:'<path d="M1,8H35" stroke="#c08f2a" stroke-width="2.2" stroke-linecap="round"/><rect x="9" y="1.5" width="18" height="12" rx="5" fill="#fbf8ef" stroke="#c08f2a" stroke-width="1.2"/>',
+    branch:taper(BR), pd:taper(TEAL), dash:'<path d="M1,10 Q18,0 35,10" fill="none" stroke="#8a7a62" stroke-width="1" stroke-dasharray="3 3"/>',
+    unv:taper(BR)+[5,12.5,20,27.5].map((x,i)=>`<circle cx="${x}" cy="${10.6-i*1}" r="1" fill="#fbf8ef"/>`).join(''),
+    sk:'<rect x="4" y="1.5" width="28" height="12" rx="5" fill="#eef3f8" stroke="#8fb0cf" stroke-width="0.9"/>', more:'<rect x="4" y="1.5" width="28" height="12" rx="5" fill="#fbf8ef" stroke="#bfb193" stroke-width="0.7"/>'};
+  function legend(sc){ const el=$('#k-legend');
+    el.innerHTML=`<div class="lh">LEGENDA</div>`+sc.legend.map(it=>`<div class="li"><svg viewBox="0 0 36 14" aria-hidden="true">${SW[it.sw]||''}</svg><span>${esc(it.sw==='hl'?it.t1.replace(/^Zvýraznená vetva:/,'Zvýraznená hlavná línia:'):it.t1)}${it.t2&&it.sw!=='hl'?`<span class="t2">${esc(it.t2)}</span>`:''}</span></div>`).join('')+
+      `<div class="li"><svg viewBox="0 0 36 14" aria-hidden="true"><rect x="4" y="1.5" width="28" height="12" rx="5" fill="#fbf8ef" stroke="#c08f2a" stroke-width="1.6"/></svg><span>${mobile()?'Ťuknutím na meno zobrazíte údaje, druhým ťuknutím strom tejto osoby':'Kliknutím na meno sa strom prekreslí od tejto osoby'}</span></div>`;
+    el.classList.toggle('open',legendOpen); $('[data-kz="leg"]').setAttribute('aria-expanded',legendOpen?'true':'false'); }
+  /* info card: the same facts as the profile (degree, year, school, link and its source) */
+  function card(id){ const el=$('#k-card'); if(id==null||!scene||!people.has(id)){ el.hidden=true; return; }
+    const p=people.get(id), g=scene.g, par=g.par.get(id), pr=p.primary;
+    const deg=pr?degLine(pr):'', sch=pr&&pr.school?esc(pr.school)+(pr.country?` · ${esc(prettyCountry(pr.country))}`:''):'';
+    let rel='';
+    if(par!=null&&people.has(par)){ const q=people.get(par), [s_,a_]=dir==='down'?[id,par]:[par,id], pd=isPdEdge(s_,a_)?pdLink(s_,a_):null, src=edgeSrc(s_,a_);
+      const role=dir==='down'?(pd?'Postdoktorandský školiteľ':(people.get(a_).adv.length>1?'Jeden zo školiteľov':'Školiteľ')):(pd?'Postdoktorand':'Doktorand');
+      rel=`<div class="krel${pd?' pd':''}">${role}: <b>${esc(q.name)}</b>${pd&&(pd.y||pd.in)?` <span class="m">(${[pd.y,pd.in].filter(Boolean).map(esc).join(', ')})</span>`:''}${src?`<div class="m ksrc" title="${esc(srcLabel(src))}">Zdroj vzťahu: ${esc(srcLabel(src))}</div>`:''}</div>`; }
+    const ns=nStudOf(p), nd=nDescOf(p);
+    const tag=p.sk==='rod'?'Rodák zo Slovenska':p.sk?(isFemale(p)?'Slovenská matematička':'Slovenský matematik'):'';
+    el.innerHTML=`<button type="button" class="kclose" aria-label="Zavrieť">×</button>${tag?`<div class="ksk">${tag}</div>`:''}<b class="kn">${esc(p.name)}</b>`+
+      `<div class="m">${esc(deg||'údaje o titule neuvedené')}</div>${sch?`<div>${sch}</div>`:''}${rel}`+
+      (ns||nd?`<div class="m" style="margin-top:6px">${nf.format(ns)} ${pl(ns,'doktorand','doktorandi','doktorandov')} · ${nf.format(nd)} ${pl(nd,'potomok','potomkovia','potomkov')}</div>`:'')+
+      `<div class="kacts">${id!==root?`<button type="button" class="textbtn" data-kroot="${id}">Strom od tejto osoby</button>`:''}<a class="textbtn" href="#p${id}">Otvoriť profil</a></div>`;
+    el.hidden=false; }
+  function select(id,reveal){ sel=id; let node=null; world.selectAll('.sp').each(function(){ const on=id!=null&&+this.dataset.id===id; this.classList.toggle('sel',on); if(on) node=this; }); card(id);
+    if(reveal&&node&&!$('#k-card').hidden){ const r=node.getBoundingClientRect(), c=$('#k-card').getBoundingClientRect(), sv=svg.node().getBoundingClientRect();
+      if(r.bottom>c.top-8&&r.right>c.left&&r.left<c.right){ const dy=Math.max(sv.top+60-r.top,c.top-12-r.bottom); svg.transition().duration(RM?0:300).call(zoom.translateBy,0,dy/d3.zoomTransform(svg.node()).k); } } }
+  const reroot=id=>{ if(id!==root&&people.has(id)) go(hashFor(id)); };
+  /* mouse: hover shows the card, click re-roots; touch: the first tap shows the card, a second tap re-roots */
+  /* d3.zoom swallows the click of a touch, so taps are recognised from pointerdown/pointerup */
+  let down=null, ptrT=0;
+  function activate(target,touch){ const n=target.closest&&target.closest('.sp'); if(!n){ if(touch) select(null); return; } const id=+n.dataset.id;
+    if(id===root){ select(id,touch); return; } if(!touch||sel===id) reroot(id); else select(id,true); }
+  svg.on('pointerdown.k',e=>{ lastPtr=e.pointerType||'mouse'; ptrT=Date.now(); down={x:e.clientX,y:e.clientY,t:Date.now(),target:e.target,id:e.pointerId}; });
+  svg.on('pointerup.k',e=>{ ptrT=Date.now(); if(lastPtr==='mouse'||!down||e.pointerId!==down.id) return; const d=down; down=null; if(Math.hypot(e.clientX-d.x,e.clientY-d.y)<10&&Date.now()-d.t<600) activate(d.target,true); });
+  svg.on('pointercancel.k',()=>{ down=null; });
+  svg.on('click.k',e=>{ if(lastPtr==='mouse') activate(e.target,false); });
+  svg.on('pointerover.k',e=>{ if(e.pointerType!=='mouse') return; const n=e.target.closest('.sp'); if(n&&+n.dataset.id!==sel) select(+n.dataset.id); });
+  svg.on('focusin.k',e=>{ if(Date.now()-ptrT<800) return; const n=e.target.closest&&e.target.closest('.sp'); if(n) select(+n.dataset.id); });
+  svg.on('keydown.k',e=>{ const n=e.target.closest&&e.target.closest('.sp'); if(n&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); reroot(+n.dataset.id); } });
+  $('#v-strom').addEventListener('click',e=>{
+    const r=e.target.closest('[data-kroot]'); if(r){ reroot(+r.dataset.kroot); return; }
+    if(e.target.closest('[data-kback]')){ if(trail.length>1) go(hashFor(trail[trail.length-2])); return; }
+    if(e.target.closest('.kclose')){ select(null); return; }
+    const z=e.target.closest('[data-kz]'); if(z){ const a=z.dataset.kz;
+      if(a==='in') svg.transition().duration(RM?0:250).call(zoom.scaleBy,1.5); else if(a==='out') svg.transition().duration(RM?0:250).call(zoom.scaleBy,1/1.5);
+      else if(a==='fit') fit(true); else if(a==='leg'){ legendOpen=!legendOpen; legendTouched=true; $('#k-legend').classList.toggle('open',legendOpen); z.setAttribute('aria-expanded',legendOpen?'true':'false'); }
+      return; }
+    const d=e.target.closest('#k-dir [data-dir]'); if(d&&d.dataset.dir!==dir){ go(hashFor(root,d.dataset.dir)); } });
+  const rng=$('#k-gen');
+  rng.addEventListener('input',()=>{ $('#k-genN').textContent=`${rng.value} z ${rng.max}`; });
+  rng.addEventListener('change',()=>{ gPref=+rng.value; try{ history.replaceState(null,'','#'+hash()); }catch(e){} draw(); });
+  combo($('#kq'),$('#kq-list'),p=>{ $('#kq').value=''; $('#kq').blur(); go(hashFor(p.id)); });
+  $('#k-print').addEventListener('click',async()=>{ const b=$('#k-print'), st=$('#k-pst'); if(b.disabled||root==null) return; b.disabled=true; st.textContent='Pripravujem PDF…';
+    try{ const M=await loadPrint(); await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-paper').value,postdoc:true,dir}); st.textContent=''; }
+    catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
+  let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current!=='strom') return; if(!legendTouched) legendOpen=!mobile(); $('#k-legend').classList.toggle('open',legendOpen); draw(); },200); });
+  return {set,ensure,hash,_state:()=>({root,dir,gens:gens(),trail:trail.slice(),n:scene?scene.g.S.size:0,issues:scene?scene.issues:null})};
+})();
 
 /* =========================================================
    LÍNIE (an expandable outline of all Slovak lineages: founders first, largest first;
