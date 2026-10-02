@@ -939,6 +939,51 @@ details.kopt>summary:focus-visible{outline:2px solid var(--accent);outline-offse
 .kopt-pop .kopt-hint{margin:-5px 0 2px 88px;font:400 11.5px/1.45 var(--font-ui);color:var(--ink-3);max-width:240px;white-space:normal}
 @media (max-width:899px){ .kopt-pop{min-width:0} .kopt-pop .kopt-hint{max-width:none} }
 </style>
+<style id="toolbar-all-css">
+/* one toolbar for every control (subject and filters | Väzby | layout | Zobraziť celé | export) */
+.tb-moved,.tb-hidden{display:none!important}
+.top>.tbar{justify-content:flex-start;column-gap:8px}
+.vsubj{margin-left:0;justify-content:flex-start}
+.vsubj .vt{display:none;justify-content:flex-start;gap:6px 8px}
+.tbar[data-view="les"] .vsubj .vt[data-views~="les"],.tbar[data-view="linie"] .vsubj .vt[data-views~="linie"],.tbar[data-view="strom"] .vsubj .vt[data-views~="strom"],
+.tbar[data-view="connect"] .vsubj .vt[data-views~="connect"],.tbar[data-view="people"] .vsubj .vt[data-views~="people"],.tbar[data-view="alumni"] .vsubj .vt[data-views~="alumni"]{display:flex}
+.tbar:not([data-view="les"]) .vsubj #g-chip,.tbar:not([data-view="linie"]) .vsubj #f-chip{display:none}
+.vrel{flex:none}
+.top>.tbar>#vtools{margin-left:auto}
+/* compact pills: selects, search fields */
+.vsubj .vt>*+*::before{display:none}
+.vsubj .fpill select{max-width:160px}
+.vsubj .fpill{margin:0}
+.vsubj .fpill.chk{gap:6px;font:400 12.5px var(--font-ui);color:var(--ink-2);padding:0 6px}
+.vsubj .field{position:relative;width:190px;margin:0;flex:none}
+.vsubj .field>label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.vsubj .field .ico{position:absolute;left:10px;top:7px;width:15px;height:15px;color:var(--ink-3);pointer-events:none}
+.vsubj .field input{box-sizing:border-box;width:100%;height:30px;margin:0;border:1px solid var(--rule);border-radius:999px;background:var(--surface);padding:0 12px 0 31px;font:400 12.5px var(--font-ui);color:var(--ink)}
+.vsubj .field input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.vsubj .field .list{position:absolute;top:34px;left:0;right:auto;min-width:300px;max-width:min(420px,92vw);z-index:60}
+.vsubj #cswap{height:30px;min-width:30px;padding:0 8px;border:0;border-radius:999px;background:none;color:var(--ink-2);font:400 15px var(--font-ui);cursor:pointer}
+.vsubj #cswap:hover{background:var(--surface);color:var(--ink)}
+/* Väzby menu */
+details.kopt.left .kopt-pop{left:0;right:auto}
+.kvaz .kopt-pop{min-width:250px}
+.kvaz .reltog{display:grid;gap:10px;margin:0}
+.kvaz .reltog .reltog-l{display:none}
+.kvaz .reltog .rt{font-size:12.5px}
+details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom}
+@media (max-width:899px){
+  .top>.tbar{flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px}
+  .vsubj,.top>.tbar>#vtools{margin-inline:0;padding-inline:0;overflow:visible;flex-wrap:wrap;max-width:100%}
+  .top>.tbar>#vtools{margin-left:0;flex:0 1 auto}
+  .vsubj .vt{flex:1 1 100%}
+  .vsubj{flex-basis:100%}
+  .vtools .vt,.vsubj .vt{flex-wrap:wrap;white-space:normal}
+  .vtools .vt>*{flex:0 1 auto}
+  .vsubj .field{flex:1 1 150px;width:auto;min-width:0}
+  .vsubj .fpill{flex:1 1 130px;min-width:0}
+  .vsubj .fpill select{width:100%;max-width:none;flex:1 1 auto;min-width:0}
+  .vsubj .vt[data-views~="connect"] .field{flex:1 1 120px}
+}
+</style>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1005,8 +1050,8 @@ details.kopt>summary:focus-visible{outline:2px solid var(--accent);outline-offse
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter vľavo zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
-        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter vľavo les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami.</p>
+        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter v lište nástrojov hore zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
+        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter v lište nástrojov hore les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami.</p>
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
         <div class="lbar"><span class="lsum" id="l-sum"></span><div class="fchip" id="f-chip" hidden><span class="fchip-l">Filter</span><span id="f-chip-t"></span><button type="button">Zrušiť</button></div><span class="lbar-r"><button type="button" class="linkbtn" id="l-exp">rozbaliť všetko</button><button type="button" class="linkbtn" id="l-col">zbaliť</button></span></div>
@@ -2126,7 +2171,7 @@ const People=(()=>{
     const W=Math.max(280,el.clientWidth||420), narrow=innerWidth<900, H=narrow?76:96, m={t:18,r:2,b:16,l:2};
     const x=d3.scaleBand().domain(decades).range([m.l,W-m.r]).paddingInner(.18).paddingOuter(0); const mx=d3.max(data,d=>d.n)||1; const y=d3.scaleLinear().domain([0,mx]).range([H-m.b,m.t]);
     el.innerHTML=''; const svg=d3.select(el).append('svg').attr('viewBox',`0 0 ${W} ${H}`).attr('role','img').attr('aria-label','Stĺpcový graf doktorátov slovenských matematikov podľa desaťročí');
-    svg.append('text').attr('x',0).attr('y',10).attr('style','font:500 9.5px var(--font-mono);letter-spacing:.08em;fill:var(--ink-3)').text('DOKTORÁTY PODĽA DESAŤROČÍ');
+    svg.append('text').attr('x',0).attr('y',10).attr('style','font:500 11px var(--font-ui);fill:var(--ink-3)').text('Doktoráty podľa desaťročí');
     const bw=x.bandwidth(), rr=Math.min(3,bw/2);
     const bars=svg.append('g').selectAll('path').data(data).join('path').attr('class','bar').attr('d',d=>{ const x0=x(d.d),y0=y(d.n),yb=y(0); if(!d.n) return ''; const h=Math.max(1,yb-y0), r=Math.min(rr,h); return `M${x0},${yb}V${yb-h+r}Q${x0},${yb-h} ${x0+r},${yb-h}H${x0+bw-r}Q${x0+bw},${yb-h} ${x0+bw},${yb-h+r}V${yb}Z`; });
     const top=data.reduce((a,b)=>b.n>a.n?b:a); svg.append('text').attr('x',x(top.d)+bw/2).attr('y',y(top.n)-4).attr('text-anchor','middle').attr('style','font:500 10px var(--font-mono);fill:var(--ink-2)').text(top.n);
@@ -2408,6 +2453,56 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
   upd();
   /* the drawings measure their sheet: re-fit once the layout has moved */
   requestAnimationFrame(()=>dispatchEvent(new Event('resize')));
+})();
+</script>
+<script id="toolbar-all-js">
+/* one toolbar for every control: the left panel is read-only (title, lede, person card, lists, legend);
+   order in every view: subject and filters | Väzby | layout | Zobraziť celé | export */
+(function(){
+  const $=q=>document.querySelector(q), mk=(t,c,h)=>{ const e=document.createElement(t); if(c) e.className=c; if(h!=null) e.innerHTML=h; return e; };
+  const tbar=$('#tbar'), rel=tbar&&tbar.querySelector('.reltog'), vt=$('#vtools'); if(!tbar||!rel||!vt) return;
+  const vs=mk('div','vtools vsubj'); vs.id='vsubj'; tbar.insertBefore(vs,tbar.firstChild);
+  const sg=(views,els)=>{ const g=mk('div','vt'); g.dataset.views=views; els.filter(Boolean).forEach(e=>g.appendChild(e)); vs.appendChild(g); return g; };
+  const hide=e=>{ if(e) e.classList.add('tb-moved'); };
+  /* a select standing in for a row of toggle buttons (the buttons stay, hidden, and keep their own handlers) */
+  function proxy(seg,label){ if(!seg) return null; const s=mk('select','tb-proxy'); s.setAttribute('aria-label',label); s.title=label;
+    const bs=[...seg.querySelectorAll('button')]; bs.forEach((b,i)=>{ const o=mk('option'); o.value=i; o.textContent=b.textContent.trim(); if(b.title) o.title=b.title; s.appendChild(o); });
+    const sync=()=>{ const i=bs.findIndex(b=>b.getAttribute('aria-pressed')==='true'); if(i>=0) s.value=i; }; sync();
+    s.addEventListener('change',()=>{ const b=bs[+s.value]; if(b) b.click(); sync(); });
+    new MutationObserver(sync).observe(seg,{subtree:true,attributes:true,attributeFilter:['aria-pressed']});
+    seg.classList.add('tb-hidden'); return s; }
+  const field=inp=>inp&&inp.closest('.field');
+  const pill=sel=>{ if(!sel) return null; const w=mk('span','fpill'); w.appendChild(sel); return w; };   // same pill look as the line filters
+
+  /* ---- Väzby: one compact menu, same place in every view ---- */
+  const rd=mk('details','kopt left kvaz','<summary title="Zobrazené väzby"><span class="kopt-s"></span></summary>'), rpop=mk('div','kopt-pop');
+  rd.appendChild(rpop); rpop.appendChild(rel); const vrel=mk('div','vrel'); vrel.appendChild(rd); tbar.insertBefore(vrel,vt);
+  const RS=[['rel-im','mentorstvo'],[null,'doktorandi'],['rel-pd','postdok'],['rel-rs','výskum']], rsum=rd.querySelector('.kopt-s');
+  function relSum(){ const on=RS.filter(([id])=>!id||($('#'+id)||{}).checked); rsum.textContent='Väzby: '+(on.length===RS.length?'všetky':on.map(x=>x[1]).join(' + ')); }
+  rel.addEventListener('change',relSum); relSum();
+
+  /* ---- Les and Línie: the founder filter ---- */
+  const fp=$('#v-forest .fpills');
+  if(fp){ const els=[...fp.children]; const reset=$('#ff-reset'); hide(reset);
+    sg('les linie',els.concat([$('#g-chip'),$('#f-chip')])); hide(fp); hide($('#v-forest .ffh')); }
+  /* ---- Strom: another person ---- */
+  const kf=field($('#kq')); if(kf){ sg('strom',[kf]); const kb=$('#v-strom .kbar'); if(kb&&!kb.querySelector('input,select,button')) hide(kb); }
+  /* ---- Prepojenia: the two persons and swap ---- */
+  const fa=field($('#ca')), fb=field($('#cb')), cs=$('#cswap');
+  if(fa&&fb){ [['#ca','Prvá osoba'],['#cb','Druhá osoba']].forEach(([q,t])=>{ const i=$(q); i.placeholder=t; i.setAttribute('aria-label',t); });
+    if(cs){ cs.innerHTML='<span aria-hidden="true">⇄</span>'; cs.setAttribute('aria-label','Vymeniť prvú a druhú osobu'); cs.title='Vymeniť prvú a druhú osobu'; }
+    sg('connect',[fa,cs,fb]); hide($('#v-connect .pair')); }
+  /* ---- Matematici: search, who, institution ---- */
+  const pf=field($('#pq'));
+  if(pf){ sg('people',[pf,pill(proxy($('#pscope'),'Koho zobraziť')),pill($('#pinst'))]); hide($('#v-people .lp-filters'));
+    const h=$('#v-people .lp-panel h2.sec span'); if(h) h.textContent='Zoznam'; }
+  /* ---- Absolventi: alma mater, estimates, search in the list ---- */
+  const as=$('#al-sel');
+  if(as){ sg('alumni',[pill(as),pill(proxy($('#al-est'),'Odhady')),field($('#al-q'))]); hide($('#v-alumni .lp-filters')); const h=[...document.querySelectorAll('#v-alumni .lp-panel h2.sec')].find(x=>/Alma mater/.test(x.textContent)); hide(h); }
+
+  /* ---- same labels across views ---- */
+  const le=$('#l-exp'), lc=$('#l-col'); if(le) le.textContent='Rozbaliť všetko'; if(lc) lc.textContent='Zbaliť všetko';
+  dispatchEvent(new Event('resize'));
 })();
 </script>
 </body>
