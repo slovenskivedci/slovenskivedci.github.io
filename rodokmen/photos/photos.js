@@ -813,6 +813,7 @@ window.RODOKMEN_PHOTOS={
 "235011":[2,"Alexis Clairault.jpg","Louis-Jacques Cathelin / After Charles-Nicolas Cochin","Public domain",0],
 "238187":[2,"SD 2025 - Kyunghyun Cho 02 (cropped).jpg","Xuthoria","CC BY-SA 4.0",1],
 "243410":[2,"","","",0,"https://perso.telecom-paristech.fr/ofercoq/ ; https://perso.telecom-paristech.fr/ofercoq/PhotoOlivierFercoq.jpg"],
+"243411":[2,"","","",0,"Shenzhen University: https://math.szu.edu.cn/info/1118/4556.htm ; https://zhengqu-x.github.io/ ; https://zhengqu-x.github.io/images/profile.png"],
 "249940":[2,"","","",0,"KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/mher-safaryan ; https://lh3.googleusercontent.com/d/1HnAiXZFmgqSmxI1Q09ZpxR97LHzkuZv-=s1920"],
 "252186":[2,"","","",0,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CPQPZ_l-ngACCX3-DXUTKixQyBvGxYtoILE2a-yA1OA_qJkomfTdMMg&s=10"],
 "253871":[1,"","","",0,"OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/velibor.jpeg"],
