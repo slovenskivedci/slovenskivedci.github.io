@@ -687,7 +687,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         <svg id="g-svg" role="img" aria-label="Les najväčších slovenských matematických línií: vzdialenosť od stredu zodpovedá roku doktorátu"></svg>
         <div class="fchip" id="g-chip" hidden><span class="fchip-l">Filter</span><span id="g-chip-t"></span><button type="button">Zrušiť</button></div>
         <div class="legend" aria-hidden="true">
-          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (20+ potomkov)</span><span data-rel="im" title="výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="im" x1="1" y1="3" x2="21" y2="3"/></svg>neformálny mentor</span><span title="doktorát: čiara vedie od školiteľa (bližšie k stredu) k doktorandovi"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>školiteľ a doktorand</span><span title="postdoktorandský pobyt u školiteľa (so zdrojom); poloha zodpovedá začiatku pobytu; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorand</span><span data-rel="rs" title="výskumný vedec (research scientist) v skupine; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="rs" x1="1" y1="3" x2="21" y2="3"/></svg>výskumný vedec</span><span title="doktorand mal aj ďalšieho školiteľa"><svg class="lg-ln" viewBox="0 0 22 6"><line class="co" x1="1" y1="3" x2="21" y2="3"/></svg>jeden z viacerých školiteľov</span>
+          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (20+ potomkov)</span><span data-rel="im" title="výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="im" x1="1" y1="3" x2="21" y2="3"/></svg>neformálny mentor</span><span title="doktorát: čiara vedie od školiteľa (bližšie k stredu) k doktorandovi"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>školiteľ a doktorand</span><span data-rel="pd" title="postdoktorandský pobyt u školiteľa (so zdrojom); poloha zodpovedá začiatku pobytu; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorand</span><span data-rel="rs" title="výskumný vedec (research scientist) v skupine; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="rs" x1="1" y1="3" x2="21" y2="3"/></svg>výskumný vedec</span><span title="doktorand mal aj ďalšieho školiteľa"><svg class="lg-ln" viewBox="0 0 22 6"><line class="co" x1="1" y1="3" x2="21" y2="3"/></svg>jeden z viacerých školiteľov</span>
         </div>
       </div>
     </section>
@@ -937,12 +937,23 @@ const studentsOf=id=>students.get(id)||[];
    REL_KEYS in order of seniority (as the toggles): im = neformálne mentorstvo, (PhD links: always shown), pd = postdoktorandi, rs = výskumní vedci.
    A new type: add its key here, a checkbox #rel-KEY, the CSS rule .rel-noKEY [data-rel="KEY"], raw + gated accessors, and REL_NB below. */
 const REL_KEYS=['im','pd','rs'];
-const REL=(()=>{ const r={}; REL_KEYS.forEach(k=>r[k]=true); let ls=null; try{ ls=JSON.parse(localStorage.getItem('rodokmen-vazby')||'null'); }catch(e){}
-  if(ls&&typeof ls==='object') REL_KEYS.forEach(k=>{ if(ls[k]===false) r[k]=false; });
-  const qs=new URLSearchParams(location.search); if(REL_KEYS.some(k=>qs.has(k))) REL_KEYS.forEach(k=>r[k]=qs.get(k)!=='0'); /* a link that names any toggle defines all of them */
-  return r; })();
-const relQuery=()=>{ const q=REL_KEYS.filter(k=>!REL[k]).map(k=>k+'=0'); return q.length?'?'+q.join('&'):''; };
-function syncRelUrl(){ try{ const u=new URL(location.href); REL_KEYS.forEach(k=>{ u.searchParams.delete(k); if(!REL[k]) u.searchParams.set(k,'0'); }); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
+/* two scopes (P. Richtárik, 2. 10. 2026): 'les' = the Les view, by default PhD links only; 'main' = every other view, by default all on.
+   main: URL ?im=0&pd=0&rs=0 (types switched off), localStorage 'rodokmen-vazby'; les: URL ?les=im-pd-rs (types switched on), localStorage 'rodokmen-vazby-les'.
+   REL is the state of the scope on screen (the toggles show and change it); HIDDEN (search, lists, counts) always follows the main scope. */
+const REL_LS={main:'rodokmen-vazby',les:'rodokmen-vazby-les'};
+const REL_ST=(()=>{ const qs=new URLSearchParams(location.search), rd=k=>{ try{ return JSON.parse(localStorage.getItem(k)||'null'); }catch(e){ return null; } };
+  const m={}, l={}; REL_KEYS.forEach(k=>{ m[k]=true; l[k]=false; });
+  const lm=rd(REL_LS.main); if(lm&&typeof lm==='object') REL_KEYS.forEach(k=>{ if(lm[k]===false) m[k]=false; });
+  if(REL_KEYS.some(k=>qs.has(k))) REL_KEYS.forEach(k=>m[k]=qs.get(k)!=='0'); /* a link that names any toggle defines all of them */
+  const ll=rd(REL_LS.les); if(ll&&typeof ll==='object') REL_KEYS.forEach(k=>{ if(ll[k]===true) l[k]=true; });
+  if(qs.has('les')){ const on=qs.get('les').split(/[-,. ]/); REL_KEYS.forEach(k=>l[k]=on.includes(k)); }
+  return {main:m,les:l}; })();
+let REL_SCOPE='main';
+const REL={...REL_ST.main};
+const relQuery=()=>{ const q=REL_KEYS.filter(k=>!REL_ST.main[k]).map(k=>k+'=0'); return q.length?'?'+q.join('&'):''; };
+function syncRelUrl(){ try{ const u=new URL(location.href); REL_KEYS.forEach(k=>{ u.searchParams.delete(k); if(!REL_ST.main[k]) u.searchParams.set(k,'0'); });
+  u.searchParams.delete('les'); const lo=REL_KEYS.filter(k=>REL_ST.les[k]); if(lo.length) u.searchParams.set('les',lo.join('-'));
+  if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
 /* raw relations (always): used only for a person's role chip and for deciding who is reachable */
 const pdAdvRaw=id=>(people.get(id)?.pd||[]).map(x=>x.a).sort(byYear), pdStuRaw=id=>pdStud.get(id)||[];
 const imMenRaw=id=>(people.get(id)?.im||[]).map(x=>x.a).sort(byYear), imStuRaw=id=>(imStud.get(id)||[]).slice().sort(byYear);
@@ -1005,9 +1016,9 @@ function visSet(on){ const V=new Set(), ext=new Set(), q=[];
   return V; }
 /* HIDDEN: in the genealogy only through switched-off relations; HIDE_WHY: the switched-off keys that would each bring the person back (else all off keys) */
 let HIDDEN=new Set(); const HIDE_WHY=new Map();
-function computeHidden(){ HIDDEN=new Set(); HIDE_WHY.clear(); const off=REL_KEYS.filter(k=>!REL[k]); if(!off.length) return; const V=visSet(REL);
+function computeHidden(){ HIDDEN=new Set(); HIDE_WHY.clear(); const M=REL_ST.main, off=REL_KEYS.filter(k=>!M[k]); if(!off.length) return; const V=visSet(M);
   for(const id of people.keys()) if(!V.has(id)) HIDDEN.add(id);
-  if(!HIDDEN.size) return; const Vk=off.map(k=>[k,visSet({...REL,[k]:true})]);
+  if(!HIDDEN.size) return; const Vk=off.map(k=>[k,visSet({...M,[k]:true})]);
   for(const id of HIDDEN){ const w=Vk.filter(([k,s])=>s.has(id)).map(([k])=>k); HIDE_WHY.set(id,w.length?w:off); } }
 const REL_WHY={im:'väzbám neformálneho mentorstva',pd:'postdoktorandským väzbám',rs:'väzbám výskumných vedcov'};
 const relWhy=id=>{ const w=(HIDE_WHY.get(id)||[]).map(k=>REL_WHY[k]); return w.length>1?w.slice(0,-1).join(', ')+' a '+w[w.length-1]:w[0]||''; };
@@ -1123,9 +1134,9 @@ function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; whil
 const VIEWS=['les','linie','tree','strom','connect','people','alumni','about'];
 const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
 let current='';
-function show(view){ if(current===view) return; current=view; const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
+function show(view){ if(current===view) return; current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/bezpd)?$/); if(km){ if(km[4]){ setRel('pd',false); try{ history.replaceState(history.state,'','#'+h.replace('/bezpd','')); }catch(e){} } Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[4]); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/bezpd)?$/); if(km){ if(km[4]){ setRel('pd',false,'main'); try{ history.replaceState(history.state,'','#'+h.replace('/bezpd','')); }catch(e){} } Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[4]); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
 $$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
@@ -1901,10 +1912,14 @@ const hLive=fetch('/data/h.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null)
   for(const p of people.values()){ const f=p.feat; if(!f||!f.sch) continue; const h=H[f.sch]; if(!Number.isInteger(h)){ if(f.h!=null){ f.h=null; n++; } continue; } /* not on the main list any more: hide the chip */ if(h!==f.h){ f.h=h; n++; } }
   return n; }).catch(()=>0);
 /* relation toggles: wiring (the state REL, the URL query and localStorage are kept in sync; every view re-renders in place) */
-function relUi(){ const de=document.documentElement; REL_KEYS.forEach(k=>{ const c=$('#rel-'+k); if(c) c.checked=REL[k]; de.classList.toggle('rel-no'+k,!REL[k]); }); }
-function setRel(k,v){ v=!!v; if(REL[k]===v) return; REL[k]=v; try{ localStorage.setItem('rodokmen-vazby',JSON.stringify(REL)); }catch(e){}
-  syncRelUrl(); depthAllMemo.clear(); pdAncMemo.clear(); computeHidden(); relUi(); hideTip();
-  Tree.refresh(); Strom.refresh(); Grove.sync(); People.refresh(); Forest.restat(); }
+function relUi(){ const de=document.documentElement; REL_KEYS.forEach(k=>{ const c=$('#rel-'+k); if(c) c.checked=REL[k]; de.classList.toggle('rel-no'+k,!REL[k]); });
+  const les=REL_SCOPE==='les', g=$('.reltog'); $('.reltog-l').textContent=les?'Väzby v Lese':'Väzby';
+  g.setAttribute('aria-label',les?'Zobrazené väzby v Lese':'Zobrazené väzby'); g.title=les?'Les má vlastné nastavenie väzieb; predvolene ukazuje iba vzťahy školiteľ a doktorand. Ostatné zobrazenia majú predvolene zapnuté všetky väzby.':''; }
+function setRel(k,v,sc=REL_SCOPE){ v=!!v; const st=REL_ST[sc]; if(st[k]===v) return; st[k]=v; try{ localStorage.setItem(REL_LS[sc],JSON.stringify(st)); }catch(e){}
+  syncRelUrl(); if(sc===REL_SCOPE){ REL[k]=v; depthAllMemo.clear(); pdAncMemo.clear(); relUi(); hideTip(); }
+  if(sc==='main'){ computeHidden(); Tree.refresh(); Strom.refresh(); People.refresh(); Forest.restat(); } else Grove.sync(); }
+/* switching between Les and the other views swaps the state in use (Les is only ever drawn with its own state) */
+function relScope(sc){ if(sc===REL_SCOPE) return; REL_SCOPE=sc; Object.assign(REL,REL_ST[sc]); depthAllMemo.clear(); pdAncMemo.clear(); relUi(); }
 REL_KEYS.forEach(k=>$('#rel-'+k)?.addEventListener('change',e=>setRel(k,e.target.checked)));
 relUi(); syncRelUrl();
 let booted=false; const boot=()=>{ if(booted) return; booted=true; route(); };
