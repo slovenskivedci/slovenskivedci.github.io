@@ -1073,12 +1073,12 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
     </div>
     <nav class="tabs" aria-label="Zobrazenia">
       <button type="button" data-view="les">Les</button>
-      <button type="button" data-view="strom">Strom</button>
-      <button type="button" data-view="tree">Profil</button>
       <button type="button" data-view="linie">Línie</button>
-      <button type="button" data-view="connect">Prepojenia</button>
       <button type="button" data-view="people">Matematici</button>
       <button type="button" data-view="alumni">Absolventi</button>
+      <button type="button" data-view="tree">Profil</button>
+      <button type="button" data-view="strom">Strom</button>
+      <button type="button" data-view="connect">Prepojenia</button>
       <button type="button" data-view="about">O projekte</button>
       <a class="home-link" href="/"><span aria-hidden="true">←</span> slovenskivedci.sk</a>
     </nav>
@@ -1596,7 +1596,7 @@ const F_NM='500 14.5px Newsreader, Georgia, serif', F_MT='400 10.5px Geist, syst
 function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; while(lo<hi){ const m=(lo+hi+1)>>1; if(tw(t.slice(0,m)+'…',f)<=max) lo=m; else hi=m-1; } return t.slice(0,lo).trimEnd()+'…'; }
 
 /* ---------- routing ---------- */
-const VIEWS=['les','linie','tree','strom','connect','people','alumni','about'];
+const VIEWS=['les','linie','people','alumni','tree','strom','connect','about'];
 const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
 let current='';
 function show(view){ if(current===view) return; if(current==='les'&&view!=='les') Grove.leave(); current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
