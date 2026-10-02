@@ -789,6 +789,153 @@ td{border-color:color-mix(in srgb,var(--rule) 60%,transparent)!important}
   .lp-strom .panel .kcrumbs .kcur{font-size:26px}
 }
 </style>
+<style id="graph-style">
+/* ===== one graph style for Profil, Prepojenia and Les =====
+   names: Newsreader 500 · meta, labels, tags: Geist · muted greys · relation colours (postdoc/mentor/research) are the only accents
+   hairline links · no boxes around nodes · the focus is marked only by a larger name */
+#t-stage.grid,#c-stage.grid{background-image:none}
+:is(#t-svg,#c-svg) .node .nm{font:500 14.5px var(--font-display);fill:var(--ink);letter-spacing:-.005em}
+:is(#t-svg,#c-svg) .node .mt{font:400 10.5px var(--font-ui);fill:var(--ink-3);font-variant-numeric:tabular-nums}
+:is(#t-svg,#c-svg) .node.is-focus .nm{font:500 22px var(--font-display);letter-spacing:-.01em}
+:is(#t-svg,#c-svg) .node.is-focus .mt{font-size:11.5px;fill:var(--ink-2)}
+:is(#t-svg,#c-svg) .node .bg{fill:none;stroke:none}
+:is(#t-svg,#c-svg) .node .dot{fill:var(--surface);stroke:var(--ink-3);stroke-width:1.25}
+:is(#t-svg,#c-svg) .node.sk .dot{fill:var(--accent);stroke:var(--accent)}
+:is(#t-svg,#c-svg) .node.is-focus .dot{stroke-width:1.5}
+:is(#t-svg,#c-svg) .node.ft .halo{fill:none;stroke:var(--accent-edge);stroke-width:1}
+:is(#t-svg,#c-svg) .node:hover .nm,#t-svg .node.hl .nm{fill:var(--accent-ink)}
+#t-svg .node.is-focus:hover .nm{fill:var(--ink)}
+/* links: hairline grey; hover path in the accent; relation links keep their colour */
+:is(#t-svg,#c-svg) .link{stroke:var(--edge);stroke-width:1}
+#t-svg .link.hl{stroke:var(--accent);stroke-width:1.5}
+#c-svg .link.hl{stroke:var(--ink-3);stroke-width:1.25}
+#t-svg .link.pd{stroke:var(--pd);stroke-width:1.5}
+#t-svg .link.im{stroke:var(--im);stroke-width:1.75;stroke-dasharray:.1 4}
+#t-svg .link.rs{stroke:var(--rs);stroke-width:1.5;stroke-dasharray:6 3}
+#t-svg :is(.link.pd,.link.im,.link.rs).hl{stroke-width:2}
+#t-svg .link.pd.hl{stroke:var(--pd)} #t-svg .link.im.hl{stroke:var(--im)} #t-svg .link.rs.hl{stroke:var(--rs)}
+/* labels: one quiet Geist label style (column heads in Profil, roles in Prepojenia) */
+#t-svg .head,#c-svg .cn-tag{font:400 11px var(--font-ui);letter-spacing:0;text-transform:none;fill:var(--ink-3)}
+#t-svg .pdtag rect{fill:var(--surface);fill-opacity:.92;stroke:none}
+#t-svg .pdtag text{font:500 9px var(--font-ui);letter-spacing:.01em}
+#t-svg g.crowd .pdtag{opacity:0!important}
+#t-svg g.crowd .pdtag.on{opacity:1!important}
+#t-svg .pill rect{fill:var(--surface);stroke:var(--rule)}
+#t-svg .pill text{font:500 10.5px var(--font-ui);fill:var(--ink-2)}
+#t-svg .pill:hover rect{fill:var(--accent-soft);stroke:var(--accent-edge)}
+/* Les: names in Newsreader too, thinner trail */
+#g-svg .flbl{font:500 12px var(--font-display);stroke-width:3px}
+#g-svg .flbl.root{font:600 13px var(--font-display)}
+#g-svg .ring-lbl{font:400 10.5px var(--font-ui);letter-spacing:0}
+#g-svg .trail{stroke-width:1.5}
+#g-svg .hov{stroke-width:1.5}
+/* legend swatches follow the new line weights */
+.legend svg.lg-ln line{stroke-width:1}
+.legend svg.lg-ln line.pd{stroke-width:1.5}
+.legend svg.lg-ln line.im{stroke-width:1.75;stroke-dasharray:.1 3.6}
+.legend svg.lg-ln line.rs{stroke-width:1.5;stroke-dasharray:6 3}
+/* ===== one layout for every drawing view: toolbar under the main menu, legend under the drawing ===== */
+/* toolbar line: Väzby on the left, the tools of the current view on the right (under the menu) */
+.top>.tbar{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 12px;min-height:34px;min-width:0;max-width:100%}
+@media (min-width:900px){ .top>.tbar{grid-row:2} .top{row-gap:4px} }
+.tbar .reltog{flex:none;gap:2px}
+.tbar .reltog .rt{font-size:12px}
+.vtools{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px;margin-left:auto;min-width:0}
+.vtools .vt{display:none;align-items:center;flex-wrap:wrap;justify-content:flex-end;gap:6px 11px}
+.tbar[data-view="les"] .vt[data-view="les"],.tbar[data-view="linie"] .vt[data-view="linie"],.tbar[data-view="tree"] .vt[data-view="tree"],
+.tbar[data-view="strom"] .vt[data-view="strom"],.tbar[data-view="connect"] .vt[data-view="connect"]{display:flex}
+.vt>*+*{position:relative}
+.vt>*+*::before{content:"";position:absolute;left:-6px;top:50%;height:16px;margin-top:-8px;border-left:1px solid var(--rule)}
+/* every control in the toolbar: same quiet size and style */
+.vtools .controls,.vtools .gbar,.vtools .kzoom,.vtools .lbar-r{position:static;display:flex;align-items:center;flex-wrap:wrap;gap:4px;margin:0;padding:0;background:none;box-shadow:none;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;z-index:auto;left:auto;top:auto;right:auto;bottom:auto}
+.vtools .tool,.vtools .kzoom .tool,.vtools .kzoom .tool.wide{height:30px;width:auto;min-width:30px;padding:0 10px;border:0;border-radius:999px;background:none;box-shadow:none;color:var(--ink-2);font:400 12.5px var(--font-ui)}
+.vtools .kzoom .tool:not(.wide){font-size:15px;padding:0}
+.vtools .tool:hover{background:var(--surface);color:var(--ink)}
+.vtools .stepper{height:30px;padding-left:2px;border:0;background:none;box-shadow:none}
+.vtools .stepper .lbl{font:400 12.5px var(--font-ui);color:var(--ink-3);letter-spacing:0;text-transform:none;margin-right:2px}
+.vtools .stepper button{width:24px;height:28px;font-size:15px}
+.vtools .stepper output{font:500 12.5px var(--font-ui);min-width:12px}
+.vtools .seg{padding:2px}
+.vtools .seg button{padding:4px 8px;font-size:12.5px}
+.vtools .gbar{font:400 12.5px var(--font-ui);color:var(--ink-3);gap:6px}
+.vtools .gbar-l{font:inherit;color:inherit}
+.vtools .gbar-n{display:inline;font:400 11.5px var(--font-ui);color:var(--ink-3)}
+.vtools .kgen{flex:none;gap:6px;font-size:12.5px;color:var(--ink-3)}
+.vtools .kgen .kgl{display:none}.vtools .kgen .kgs{display:inline}
+.vtools .kgen input{width:56px;flex:none}
+.vtools .kgen output{min-width:0;font:400 12px var(--font-ui);color:var(--ink-2)}
+.vtools [data-kz="leg"],#v-strom [data-kz="leg"]{display:none!important}
+/* like Profil and Prepojenia: zoom with wheel/pinch, one Zobraziť celé button */
+.vtools [data-kz="in"],.vtools [data-kz="out"]{display:none!important}
+.vtools .lbar-r{gap:12px}
+.vtools .lbar-r .linkbtn{font:400 12.5px var(--font-ui);color:var(--ink-2)}
+.vtools .lbar-r .linkbtn:hover{color:var(--ink);text-decoration:none}
+.vtools .fchip{position:static;box-shadow:none;border:0;background:var(--accent-soft);padding:3px 4px 3px 10px;font-size:12px;left:auto;top:auto;right:auto;bottom:auto}
+.vtools .fchip[hidden]{display:none}
+/* PDF/print: one dark button + a compact menu (kind, size, orientation, language) */
+.vtools .kact{display:flex;flex-direction:row;align-items:center;gap:4px;margin:0;font-size:12.5px;color:var(--ink-3)}
+.vtools .kact .kact-btn{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px 0 10px;border:0;border-radius:999px;background:var(--ink);color:var(--surface);font:500 12.5px var(--font-ui);cursor:pointer;white-space:nowrap}
+.vtools .kact .kact-btn:hover{background:var(--accent)}
+.vtools .kact .kact-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.vtools .kact .kact-btn:disabled,.vtools .kact .kact-btn[disabled]{opacity:.6;cursor:progress}
+details.kopt{position:relative}
+details.kopt>summary{list-style:none;display:inline-flex;align-items:center;gap:4px;height:30px;padding:0 9px;border-radius:999px;color:var(--ink-2);font:400 12.5px var(--font-ui);cursor:pointer;white-space:nowrap;user-select:none}
+details.kopt>summary::-webkit-details-marker{display:none}
+details.kopt>summary::after{content:"";width:6px;height:6px;border-right:1.3px solid currentColor;border-bottom:1.3px solid currentColor;transform:translateY(-2px) rotate(45deg);margin-left:4px;opacity:.6}
+details.kopt>summary:hover,details.kopt[open]>summary{background:var(--surface);color:var(--ink)}
+details.kopt>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.kopt-pop{position:absolute;right:0;top:36px;z-index:30;display:grid;grid-template-columns:auto;gap:10px;min-width:250px;padding:14px 16px;background:var(--surface);border-radius:14px;box-shadow:0 10px 30px rgba(23,25,30,.12),0 1px 3px rgba(23,25,30,.08)}
+.kopt-pop label{display:grid;grid-template-columns:78px minmax(0,1fr);align-items:center;gap:10px;font:400 12px var(--font-ui);color:var(--ink-3)}
+.kopt-pop select{height:30px;width:100%;border:1px solid var(--rule);border-radius:9px;background:var(--surface);padding:0 8px;font:400 12.5px var(--font-ui);color:var(--ink);cursor:pointer}
+.kopt-pop select[hidden]{display:none}
+.vtools .kact .kpst,.vtools .kact .pst{white-space:nowrap;font-size:12px;color:var(--ink-3)}
+.vtools .kact .kpst:empty,.vtools .kact .pst:empty{display:none}
+#profile .printrow{display:none}
+.vtools .printrow{margin:0}
+/* sheet column: the white drawing area with the legend row directly under it */
+.stagecol{display:flex;flex-direction:column;min-width:0;min-height:0;gap:8px}
+.stagecol>.stage{flex:1 1 auto;min-height:0}
+.stagecol>.stage[hidden]{display:none}
+.vleg{flex:none;padding:0 6px;min-height:36px}
+.vleg .legend,.vleg .klegend{position:static;display:flex!important;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:4px 18px;max-width:none;width:auto;max-height:none;overflow:visible;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;font:400 11.5px/1.5 var(--font-ui);color:var(--ink-3)}
+.vleg .legend span{white-space:nowrap;gap:6px}
+.vleg .legend .lg-off{display:none!important}
+.vleg .legend .lg-root{font:600 12px var(--font-display);font-style:normal;color:var(--ink)}
+.vleg .lg-num{font:500 11.5px var(--font-ui);color:var(--ink-2);margin-right:2px}
+.vleg .comk{font-size:12px}
+.vleg .klegend .lh,.vleg .klegend .t2{display:none}
+.vleg .klegend .li{display:inline-flex;align-items:center;gap:6px;margin:0;white-space:nowrap}
+.vleg .klegend .li svg{width:26px;height:10px;margin:0}
+.vleg .klegend .li>span{color:var(--ink-3)}
+.vleg .lg-conn svg.lg-ln line{stroke:var(--ink-3);stroke-width:1.25}
+#g-stage[hidden]~.vleg .lg-les,#f-stage[hidden]~.vleg .lg-linie{display:none!important}
+/* mobile: toolbar is the line under the tabs (top of the content), legend directly under the drawing */
+@media (max-width:899px){
+  .top>.tbar{flex-direction:column;align-items:stretch;gap:8px}
+  .vtools{justify-content:flex-start;margin-left:0;margin-inline:-16px;padding-inline:16px;overflow-x:auto;scrollbar-width:none;align-self:stretch;max-width:calc(100% + 32px);box-sizing:border-box}
+  .vtools::-webkit-scrollbar{display:none}
+  .vtools .vt{justify-content:flex-start;flex-wrap:nowrap;white-space:nowrap}
+  .vtools .vt>*{flex:none}
+  .split>.stagecol{order:-1;flex:none}
+  .vleg{padding:2px 4px 6px}
+  .kopt-pop{position:fixed;left:12px;right:12px;top:auto;bottom:12px;min-width:0}
+  .vleg .legend,.vleg .klegend{gap:3px 14px;font-size:11.5px}
+  .vleg .klegend .li{white-space:normal}
+}
+/* one title style and one subtitle style in every left panel (Prepojenia used .display.sm = 28px, Profil .pname = 36px, Strom .kcur = 30px) */
+.panel .eyebrow{font:500 11.5px/1.3 var(--font-ui);letter-spacing:.02em;text-transform:none;color:var(--ink-3)}
+.panel h1.display,.panel h1.display.sm,.panel h1.pname,.lp-strom .panel .kcrumbs .kcur{font:500 32px/1.1 var(--font-display);letter-spacing:-.015em;color:var(--ink);text-wrap:balance}
+.panel h1.display,.panel h1.display.sm,.panel h1.pname{margin:6px 0 12px}
+.lp-strom .panel .kcrumbs .kcur{margin:6px 0 6px}
+.panel .lede,.panel .role{font:400 14.5px/1.6 var(--font-ui);color:var(--ink-2);margin:0 0 16px;max-width:62ch}
+@media (max-width:899px){
+  .panel h1.display,.panel h1.display.sm,.panel h1.pname,.lp-strom .panel .kcrumbs .kcur{font-size:28px}
+}
+/* Profil: the education sub-heading follows the panel section-heading style (was uppercase mono) */
+.panel .edu .el{font:500 11px/1.3 var(--font-ui);letter-spacing:.04em;text-transform:none;color:var(--ink-3)}
+/* old Strom mobile rule hid the poster-size select; inside the export menu it must stay visible */
+.kopt-pop select:not([hidden]),.kopt-pop #k-pfmt:not([hidden]){display:block}
+</style>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -895,6 +1042,17 @@ td{border-color:color-mix(in srgb,var(--rule) 60%,transparent)!important}
       <aside class="panel lp-panel">
         <div class="eyebrow">Strom</div>
         <nav class="kcrumbs" id="k-crumbs" aria-label="Cesta stromom"></nav>
+        <div class="kact" id="k-act" role="group" aria-label="Plagát a PDF">
+          <button type="button" class="kact-btn" id="k-pdf" title="Stiahnuť strom ako plagát vo formáte PDF (veľkosť a orientácia v ponuke vedľa)"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v7.5M4.8 7l3.2 3.2L11.2 7M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Stiahnuť PDF</button>
+          <details class="kopt"><summary title="Druh, veľkosť, orientácia a jazyk PDF"><span class="kopt-s"></span></summary><div class="kopt-pop">
+            <label>Druh<select id="k-kind" aria-label="Druh plagátu"><option value="view" selected>plagát zobrazeného stromu</option><option value="print">klasický plagát na tlač</option></select></label>
+            <label>Veľkosť<select id="k-pfmt" aria-label="Veľkosť plagátu PDF"><option value="auto">automaticky (A2 alebo A0)</option><option value="A4">A4</option><option value="A3">A3</option><option value="A2">A2</option><option value="A1">A1</option><option value="A0" selected>A0</option></select><select id="k-paper" aria-label="Formát papiera"><option>A4</option><option>A3</option><option selected>A2</option><option>A1</option><option>A0</option></select></label>
+            <label>Orientácia<select id="k-orient" aria-label="Orientácia PDF"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select></label>
+            <label>Jazyk<select id="k-lang" aria-label="Jazyk plagátu"><option value="sk" selected>slovenčina</option><option value="en">English</option></select></label>
+          </div></details>
+          <button type="button" class="linkbtn" id="k-print" hidden title="Klasický plagát zobrazeného stromu na tlač (PDF)">Tlač</button>
+          <span class="kpst" id="k-pst" aria-live="polite"></span>
+        </div>
         <p class="lede">Predkovia alebo potomkovia zvolenej osoby ako strom. Kliknutím na meno sa strom prekreslí od tejto osoby.</p>
         <div class="kbar">
         <div class="field">
@@ -907,10 +1065,6 @@ td{border-color:color-mix(in srgb,var(--rule) 60%,transparent)!important}
         </div>
         <h2 class="sec lp-dsk"><span>Osoba</span></h2>
         <div class="lp-slot lp-dsk" id="k-cardslot"></div>
-        <h2 class="sec lp-dsk"><span>Legenda</span></h2>
-        <div class="lp-slot lp-dsk" id="k-legslot"></div>
-        <h2 class="sec"><span>Plagát a PDF</span></h2>
-        <div class="lp-export"><span class="kbar-r"><span class="kpst" id="k-pst" aria-live="polite"></span><button type="button" class="textbtn" id="k-pdf" title="Stiahnuť zobrazený strom ako veľký plagát vo formáte PDF (A2 alebo A0, celý strom vo vektoroch)">Stiahnuť PDF</button><select id="k-pfmt" aria-label="Veľkosť plagátu PDF" title="Veľkosť plagátu PDF"><option value="A0" selected>A0</option><option value="A2">A2</option><option value="auto">A2/A0 automaticky</option></select><span class="ksep" aria-hidden="true"></span><button type="button" class="textbtn" id="k-print" title="PDF plagát zobrazeného stromu">Vytlačiť</button><select id="k-paper" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select><select id="k-lang" aria-label="Jazyk plagátu" title="Jazyk plagátu"><option value="sk" selected>Slovenčina</option><option value="en">English</option></select></span></div>
       </aside>
       <div class="stage ksheet" id="k-stage">
         <svg id="k-svg" role="img" aria-label="Strom: osoba pri koreni, predkovia vo vetvách nad ňou alebo potomkovia pod ňou"></svg>
@@ -1331,7 +1485,7 @@ function tipHtml(p){ const adv=advisorsOf(p.id).map(a=>people.get(a).name); retu
 /* ---------- text measurement ---------- */
 const mctx=document.createElement('canvas').getContext('2d');
 const tw=(t,f)=>{ mctx.font=f; return mctx.measureText(t).width; };
-const F_NM='500 14.5px Newsreader, Georgia, serif', F_MT='400 10.5px "Geist Mono", ui-monospace, monospace', F_FN='600 21px Newsreader, Georgia, serif', F_FM='400 11.5px "Geist Mono", ui-monospace, monospace';
+const F_NM='500 14.5px Newsreader, Georgia, serif', F_MT='400 10.5px Geist, system-ui, sans-serif', F_FN='500 22px Newsreader, Georgia, serif', F_FM='400 11.5px Geist, system-ui, sans-serif';
 function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; while(lo<hi){ const m=(lo+hi+1)>>1; if(tw(t.slice(0,m)+'…',f)<=max) lo=m; else hi=m-1; } return t.slice(0,lo).trimEnd()+'…'; }
 
 /* ---------- routing ---------- */
@@ -1403,15 +1557,15 @@ const Tree=(()=>{
     const lall=lent.merge(lsel).attr('class',l=>{ const rs=isRsEdge(l.t.id,l.s.id), pd=!rs&&isPdEdge(l.t.id,l.s.id), im=isImEdge(l.t.id,l.s.id); return 'link'+(l.extra?' extra':'')+(rs?' rs':im?' im':pd?' pd':isUnv(edgeSrc(l.t.id,l.s.id))?' unv':'')+(!pd&&!im&&!rs&&isCoEdge(l.t.id,l.s.id)?' co':''); });
     lall.each(function(l){ const s=d3.select(this); let t=s.select('title'); if(t.empty()) t=s.append('title'); const xr=isRsEdge(l.t.id,l.s.id)?rsLink(l.t.id,l.s.id):null, x=!xr&&isPdEdge(l.t.id,l.s.id)?pdLink(l.t.id,l.s.id):null, xi=isImEdge(l.t.id,l.s.id)?imLink(l.t.id,l.s.id):null; t.text((xr?`${RS_LBL}${xr.y?', '+xr.y:''}${xr.in?', '+xr.in:''}.${xr.n?' '+xr.n.charAt(0).toUpperCase()+xr.n.slice(1)+'.':''} Nezapočítava sa medzi doktorandov ani postdoktorandov. `:'')+(x?`Postdoktorandský pobyt${x.y?' '+x.y:''}${x.in?', '+x.in:''}. `:'')+(xi?`${IM_LBL}${xi.y?', '+xi.y:''}${xi.in?', '+xi.in:''}. Nezapočítava sa medzi doktorandov. `:'')+(!x&&!xi&&!xr&&hasCo(l.t.id)?`Jeden z viacerých školiteľov. Ďalší: ${coWho(l.t.id,l.s.id)}. `:'')+'Zdroj vzťahu: '+srcLabel(edgeSrc(l.t.id,l.s.id))); });
     lall.transition().duration(D).style('opacity',1);
-    const TAG='postdoktorand', TAGW=tw(TAG,'500 8.5px "Geist Mono", monospace')+9;
-    const IMTAG='neformálny mentor', IMTAGW=tw(IMTAG,'500 8.5px "Geist Mono", monospace')+9, isImL=l=>isImEdge(l.t.id,l.s.id);
-    const RSTAG='výskumný vedec', RSTAGW=tw(RSTAG,'500 8.5px "Geist Mono", monospace')+9, isRsL=l=>isRsEdge(l.t.id,l.s.id);
+    const TAG='postdoktorand', TAGW=tw(TAG,'500 9px Geist, sans-serif')+9;
+    const IMTAG='neformálny mentor', IMTAGW=tw(IMTAG,'500 9px Geist, sans-serif')+9, isImL=l=>isImEdge(l.t.id,l.s.id);
+    const RSTAG='výskumný vedec', RSTAGW=tw(RSTAG,'500 9px Geist, sans-serif')+9, isRsL=l=>isRsEdge(l.t.id,l.s.id);
     const tsel=gT.selectAll('g.pdtag').data(links.filter(l=>!l.extra&&(isPdEdge(l.t.id,l.s.id)||isImL(l)||isRsL(l))),l=>l.key);
     tsel.exit().remove();
     const tent=tsel.enter().append('g').attr('class','pdtag').attr('aria-hidden','true').style('opacity',0); tent.append('rect'); tent.append('text');
     const tall=tent.merge(tsel).attr('class',l=>'pdtag'+(isRsL(l)?' rs':isImL(l)?' im':'')); tall.select('rect').attr('x',l=>-(isRsL(l)?RSTAGW:isImL(l)?IMTAGW:TAGW)/2).attr('y',-7).attr('width',l=>isRsL(l)?RSTAGW:isImL(l)?IMTAGW:TAGW).attr('height',13).attr('rx',3);
     tall.select('text').attr('x',0).attr('y',3).attr('text-anchor','middle').text(l=>isRsL(l)?RSTAG:isImL(l)?IMTAG:TAG);
-    tall.transition().duration(D).style('opacity',1);
+    tall.transition().duration(D).style('opacity',1); gT.classed('crowd',tall.size()>6);
     // nodes
     const sel=gN.selectAll('g.node').data(nodes,d=>d.id);
     sel.exit().transition().duration(D*.5).style('opacity',0).remove();
@@ -1426,7 +1580,7 @@ const Tree=(()=>{
     all.select('.mt').attr('x',d=>d.g===0?17:12).attr('y',d=>d.g===0?17:12.5).text(d=>d.meta);
     all.select('title').text(d=>d.full+(d.p.year?` (${d.p.year})`:''));
     all.select('.hit').attr('x',-10).attr('y',d=>d.g===0?-30:-19).attr('width',d=>d.w+(d.g===0?48:26)).attr('height',d=>d.g===0?60:38);
-    all.each(function(d){ const g=d3.select(this).select('.pill'); g.selectAll('*').remove(); if(!d.hidden) return; const label=`+${d.hidden}`; const wpx=tw(label,'500 10px "Geist Mono", monospace')+12; const x=d.side==='up'?-16-wpx:d.w+22; g.attr('transform',`translate(${x},-9)`).attr('role','button').attr('tabindex',0).attr('aria-label',`Zobraziť ďalších ${d.side==='up'?'školiteľov':'doktorandov'} (${d.hidden}): ${d.full}`); g.append('rect').attr('width',wpx).attr('height',18).attr('rx',9); g.append('text').attr('x',wpx/2).attr('y',12.5).attr('text-anchor','middle').text(label); g.append('title').text(`Zobraziť ďalších ${d.side==='up'?'školiteľov':'doktorandov'}: ${d.hidden}`); });
+    all.each(function(d){ const g=d3.select(this).select('.pill'); g.selectAll('*').remove(); if(!d.hidden) return; const label=`+${d.hidden}`; const wpx=tw(label,'500 10.5px Geist, sans-serif')+12; const x=d.side==='up'?-16-wpx:d.w+22; g.attr('transform',`translate(${x},-9)`).attr('role','button').attr('tabindex',0).attr('aria-label',`Zobraziť ďalších ${d.side==='up'?'školiteľov':'doktorandov'} (${d.hidden}): ${d.full}`); g.append('rect').attr('width',wpx).attr('height',18).attr('rx',9); g.append('text').attr('x',wpx/2).attr('y',12.5).attr('text-anchor','middle').text(label); g.append('title').text(`Zobraziť ďalších ${d.side==='up'?'školiteľov':'doktorandov'}: ${d.hidden}`); });
     all.select('.pill').on('click',(e,d)=>{ e.stopPropagation(); (d.side==='up'?expUp:expDown).add(d.id); render(true); }).on('keydown',(e,d)=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); e.stopPropagation(); (d.side==='up'?expUp:expDown).add(d.id); render(true); } });
     all.on('click',(e,d)=>{ if(d.g!==0) go('p'+d.id); }).on('keydown',(e,d)=>{ if((e.key==='Enter'||e.key===' ')&&d.g!==0){ e.preventDefault(); go('p'+d.id); } })
        .on('pointerenter',(e,d)=>hl(d.id)).on('pointerleave',()=>hl(null)).on('focus',(e,d)=>hl(d.id)).on('blur',()=>hl(null));
@@ -1442,12 +1596,12 @@ const Tree=(()=>{
   }
   function linkMid(l){ const s=l.s,t=l.t; const x1=s.cx+s.w+(s.g===0?34:18), x2=t.cx-(t.g===0?16:8); return [(x1+x2)/2,(s.cy+t.cy)/2]; }
   function linkPath(l){ const s=l.s,t=l.t; if(Math.abs(s.x-t.x)<1){ const x=s.cx-9; return `M${x},${s.cy}C${x-46},${s.cy} ${x-46},${t.cy} ${x},${t.cy}`; } const x1=s.cx+s.w+(s.g===0?34:18), y1=s.cy, x2=t.cx-(t.g===0?16:8), y2=t.cy, mx=(x1+x2)/2; return `M${x1},${y1}C${mx},${y1} ${mx},${y2} ${x2},${y2}`; }
-  function hl(id){ if(!layout) return; const on=new Set(); let k=id; while(k!=null){ on.add(k); const n=layout.byId.get(k); k=n?n.parent:null; } gL.selectAll('path').classed('hl',l=>id!=null&&!l.extra&&on.has(l.s.id)&&on.has(l.t.id)); gN.selectAll('g.node').classed('hl',d=>id!=null&&on.has(d.id)&&d.g!==0); }
+  function hl(id){ if(!layout) return; const on=new Set(); let k=id; while(k!=null){ on.add(k); const n=layout.byId.get(k); k=n?n.parent:null; } gL.selectAll('path').classed('hl',l=>id!=null&&!l.extra&&on.has(l.s.id)&&on.has(l.t.id)); gN.selectAll('g.node').classed('hl',d=>id!=null&&on.has(d.id)&&d.g!==0); gT.selectAll('g.pdtag').classed('on',l=>id!=null&&on.has(l.s.id)&&on.has(l.t.id)); }
   function fit(animate){
-    const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight-56; if(!vw||vh<=0||!layout) return;
+    const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight-12; if(!vw||vh<=0||!layout) return;
     let x0=Infinity,x1=-Infinity,y0=Infinity,y1=-Infinity;
     for(const n of layout.nodes){ x0=Math.min(x0,n.x-(n.hidden&&n.side==='up'?56:24)); x1=Math.max(x1,n.x+n.w+(n.hidden?60:24)); y0=Math.min(y0,n.y-64); y1=Math.max(y1,n.y+34); }
-    const bw=x1-x0,bh=y1-y0; let s=Math.min(vw/bw,vh/bh)*.94; s=clamp(s,mobile()?.68:.72,1.08);
+    const bw=x1-x0,bh=y1-y0; let s=Math.min(vw/bw,vh/bh)*.94; s=clamp(s,mobile()?.7:.86,1);
     let cx=(x0+x1)/2, cy=(y0+y1)/2;
     if(bw*s>vw){ let want=WF/2; if(mobile()){ const d1=layout.nodes.filter(n=>n.g===1); if(d1.length){ const r=Math.max(...d1.map(n=>n.x+n.w+(n.hidden?60:24))), l=-70; want=(r-l)*s<=vw?(l+r)/2:-44+vw/(2*s); } } cx=clamp(want,x0+vw/(2*s),x1-vw/(2*s)); }
     if(bh*s>vh) cy=clamp(0,y0+vh/(2*s),y1-vh/(2*s));
@@ -1488,7 +1642,7 @@ function renderProfile(p){
   const lineagePd=viaPd?`<p class="lineage pdl">Cez postdoktorandského školiteľa (${esc(people.get(viaPd.a).name)}): <b>${viaPd.g}</b> ${pl(viaPd.g,'generácia','generácie','generácií')} predkov, najstarší zaznamenaný predok ${rootTxt(people.get(viaPd.root))}.</p>`:
     pdA&&(dpa.g!==dp.g||dpa.root!==dp.root)?`<p class="lineage pdl">Vrátane postdoktorandských školiteľov: <b>${dpa.g}</b> ${pl(dpa.g,'generácia','generácie','generácií')} predkov, najstarší zaznamenaný predok ${rootTxt(people.get(dpa.root))}.</p>`:'';
   const pCap=Math.max(1,dp.g,pdA?dpa.g:0), pDef=Math.min(14,pCap);
-  const printHtml=adv.length||pdAdv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}">Vytlačiť rodokmeň predkov</button><span class="popt"><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Formát papiera" title="Formát papiera"><option selected>A2</option><option>A3</option></select><select name="plang" aria-label="Jazyk plagátu" title="Jazyk plagátu"><option value="sk"${window.rodokmenPrintLang!=='en'?' selected':''}>Slovenčina</option><option value="en"${window.rodokmenPrintLang==='en'?' selected':''}>English</option></select></span><span class="pst" role="status"></span></div>`:'';
+  const printHtml=adv.length||pdAdv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}">Vytlačiť rodokmeň predkov</button><span class="popt"><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Formát papiera" title="Formát papiera"><option>A4</option><option>A3</option><option selected>A2</option><option>A1</option><option>A0</option></select><select name="porient" aria-label="Orientácia" title="Orientácia"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select><select name="plang" aria-label="Jazyk plagátu" title="Jazyk plagátu"><option value="sk"${window.rodokmenPrintLang!=='en'?' selected':''}>Slovenčina</option><option value="en"${window.rodokmenPrintLang==='en'?' selected':''}>English</option></select></span><span class="pst" role="status"></span></div>`:'';
   const pdSub=x=>`<span class="pdt">postdok${x&&x.y?' '+esc(x.y):''}</span>${x&&x.n?' · '+esc(x.n):''}${x&&x.in?' · '+esc(x.in):''}`;
   const pdRow=(id,x)=>personRow(id,'',x?x.s:'','pdrow').replace('<span class="sub"></span>',`<span class="sub">${pdSub(x)}</span>`);
   const rsH=rsHostsOf(p.id), rsM=rsMembersOf(p.id), RST='Výskumný vedec (research scientist) v skupine; pozícia vyššia ako postdoktorandská; nezapočítava sa medzi doktorandov ani potomkov';
@@ -1525,10 +1679,10 @@ function renderProfile(p){
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
 const PRINT_CTX={isCoEdge,people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf,imStudentsOf,imMentorsOf,rsMembersOf,rsHostsOf};
 let printP=null;   // window.rodokmenPrintLang: poster language, Slovak by default; the last choice is kept while the page is open
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=16'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
-async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2', postdoc=REL.pd, informal=REL.im, research=REL.rs, langSel=row.querySelector('[name=plang]'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=17'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2', orient=(row.querySelector('[name=porient]')||{}).value||'auto', postdoc=REL.pd, informal=REL.im, research=REL.rs, langSel=row.querySelector('[name=plang]'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
   btn.disabled=true; st.textContent='Pripravujem PDF…';
-  try{ const M=await loadPrint(); await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper,postdoc,informal,research,lang}); st.textContent=''; }
+  try{ const M=await loadPrint(); const rp=await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper,orient,postdoc,informal,research,lang}); st.textContent=rp&&rp.nameSizePt<5?`Mená majú na ${rp.paper} len ${String(rp.nameSizePt).replace('.',',')} pt – ${rp.paper==='A0'?'zvoľte menej generácií':'zvoľte väčší formát'}.`:''; }
   catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; }
   finally{ btn.disabled=false; } }
 document.addEventListener('click',e=>{ const pr=e.target.closest('[data-print]'); if(pr){ if(!pr.disabled) printTree(pr); return; } const g=e.target.closest('[data-go]'); if(g){ go('p'+g.dataset.go); return; } const ks=e.target.closest('[data-kstrom]'); if(ks){ go('strom='+ks.dataset.kstrom); return; } const c=e.target.closest('[data-connect]'); if(c){ Conn.setA(+c.dataset.connect); go('connect'); return; } const al=e.target.closest('[data-alumni]'); if(al){ go('alumni='+al.dataset.alumni); } });
@@ -1583,7 +1737,7 @@ const Strom=(()=>{
     const el=svg.node(), vw=el.clientWidth, vh=el.clientHeight; if(!vw||!vh||!scene) return;
     const b=world.node().getBBox(); if(!b.width) return;
     const lg=$('#k-legend'), padR=!mobile()&&legendOpen&&lg.offsetWidth&&lg.closest('#k-stage')?lg.offsetWidth+24:0;
-    const pad=mobile()?10:24, top=mobile()?50:56, aw=vw-2*pad-padR, ah=vh-top-pad;
+    const pad=mobile()?10:24, top=mobile()?10:24, aw=vw-2*pad-padR, ah=vh-top-pad;
     const s=Math.min(aw/b.width,ah/b.height,1.6), SMIN=.42;
     let tr=d3.zoomIdentity.translate(pad+aw/2-s*(b.x+b.width/2),top+ah/2-s*(b.y+b.height/2)).scale(s);
     const rn=first&&mobile()&&s<SMIN?world.select('.sp-root').node():null;
@@ -1642,7 +1796,7 @@ const Strom=(()=>{
   svg.on('pointerover.k',e=>{ if(e.pointerType!=='mouse') return; const n=e.target.closest('.sp'); if(n&&+n.dataset.id!==sel) select(+n.dataset.id); });
   svg.on('focusin.k',e=>{ if(Date.now()-ptrT<800) return; const n=e.target.closest&&e.target.closest('.sp'); if(n) select(+n.dataset.id); });
   svg.on('keydown.k',e=>{ const n=e.target.closest&&e.target.closest('.sp'); if(n&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); reroot(+n.dataset.id); } });
-  $('#v-strom').addEventListener('click',e=>{
+  document.addEventListener('click',e=>{ if(!e.target.closest||!e.target.closest('#v-strom,.vt[data-view="strom"]')) return;
     const r=e.target.closest('[data-kroot]'); if(r){ reroot(+r.dataset.kroot); return; }
     if(e.target.closest('[data-kback]')){ if(trail.length>1) go(hashFor(trail[trail.length-2])); return; }
     if(e.target.closest('.kclose')){ select(null); return; }
@@ -1657,7 +1811,7 @@ const Strom=(()=>{
   combo($('#kq'),$('#kq-list'),p=>{ $('#kq').value=''; $('#kq').blur(); go(hashFor(p.id)); });
   $('#k-print').addEventListener('click',async()=>{ const b=$('#k-print'), st=$('#k-pst'); if(b.disabled||root==null) return; b.disabled=true; st.textContent='Pripravujem PDF…';
     const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
-    try{ const M=await loadPrint(); await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-paper').value,postdoc:REL.pd,informal:REL.im,research:REL.rs,dir,lang}); st.textContent=''; }
+    try{ const M=await loadPrint(); const rp=await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-paper').value,orient:($('#k-orient')||{}).value||'auto',postdoc:REL.pd,informal:REL.im,research:REL.rs,dir,lang}); st.textContent=rp&&rp.nameSizePt<5?`Mená majú na ${rp.paper} len ${String(rp.nameSizePt).replace('.',',')} pt – ${rp.paper==='A0'?'zvoľte menej generácií alebo plagát zobrazeného stromu (rozdelí sa na viac strán)':'na čitateľnú tlač zvoľte väčší formát'}.`:''; }
     catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
   /* "Stiahnuť PDF": the tree of the view (person, direction, generations, postdoc links) as a poster PDF, A2 or A0,
      laid out again for the sheet (RodokmenPrint.downloadView in assets/print/print-tree.js) */
@@ -1665,8 +1819,8 @@ const Strom=(()=>{
     const key=keyNow(); if(!scene||drawnKey!==key){ st.textContent='Strom sa ešte kreslí…'; return; }
     b.disabled=true; st.textContent='Pripravujem PDF…';
     const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
-    try{ const M=await loadPrint(); await M.downloadView(PRINT_CTX,root,{scene,sceneOpts:{gens:gens(),dir,postdoc:REL.pd,informal:REL.im,research:REL.rs},gens:gens(),maxGen:maxGen(root,dir),lang,paper:$('#k-pfmt').value,hash:hashFor(root),query:relQuery(),
-        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); st.textContent=''; }
+    try{ const M=await loadPrint(); await M.downloadView(PRINT_CTX,root,{scene,sceneOpts:{gens:gens(),dir,postdoc:REL.pd,informal:REL.im,research:REL.rs},gens:gens(),maxGen:maxGen(root,dir),lang,paper:$('#k-pfmt').value,orient:($('#k-orient')||{}).value||'auto',hash:hashFor(root),query:relQuery(),
+        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); const rv=window.RodokmenPrint.lastView&&window.RodokmenPrint.lastView.report; st.textContent=rv&&rv.pages>1?`PDF má ${rv.pages} ${pl(rv.pages,'stranu','strany','strán')}: prehľad a detaily, aby boli mená čitateľné. Celý strom na jednej strane ukáže väčší formát.`:''; }
     catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current!=='strom') return; if(!legendTouched) legendOpen=!mobile(); $('#k-legend').classList.toggle('open',legendOpen); draw(); },200); });
   function refresh(){ if(current==='strom'&&root!=null) draw(); }
@@ -1853,7 +2007,7 @@ const Grove=(()=>{
     const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).sort((a,b)=>b.d-a.d).map(o=>({n:o.n,cls:o.d>=RED?'flbl root':'flbl',t:o.n.p.name}));
     const cand=pool.filter(n=>n.p.feat).sort((a,b)=>(b.p.feat.h||0)-(a.p.feat.h||0)).map(n=>({n,cls:'flbl',t:n.p.name}));
     const placed=[], done=new Set(), narrow=(svg.node().clientWidth||800)<600;
-    for(const c of roots.concat(cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 12.5px Newsreader, serif':'500 11px Geist, sans-serif'; const w=tw(c.t,f), hgt=14, side=Math.cos(n.x-Math.PI/2)>=-0.15;
+    for(const c of roots.concat(cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 13px Newsreader, serif':'500 12px Newsreader, serif'; const w=tw(c.t,f), hgt=14, side=Math.cos(n.x-Math.PI/2)>=-0.15;
       const tries=[[side,0],[side,-10],[side,10]].concat(narrow?[]:[[!side,0],[!side,-10],[!side,10]]); let ok=null;
       for(const [right,dy] of tries){ const x=right?n.px+8:n.px-8-w, y=n.py+4+dy, box=[x-2,y-hgt+2,x+w+2,y+4]; if(!placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))){ ok={right,y,box}; break; } }
       if(!ok) continue; placed.push(ok.box); done.add(n); gT.append('text').attr('class',c.cls).attr('x',ok.right?n.px+8:n.px-8).attr('y',ok.y).attr('text-anchor',ok.right?'start':'end').text(c.t); }
@@ -1864,7 +2018,7 @@ const Grove=(()=>{
     const x0=n.data.pd?pdLink(n.data.id,n.parent.data.id):null, xi=n.data.im?imLink(n.data.id,n.parent.data.id):null, xr=n.data.rs?rsLink(n.data.id,n.parent.data.id):null;
     showTip(tipHtml(n.p)+(x0?`<div class="m">Postdoktorand: ${esc(n.parent.p.name)}${x0.y?', '+esc(x0.y):''}. Poloha zodpovedá začiatku pobytu.</div>`:'')+(xi?`<div class="m">Neformálny mentor: ${esc(n.parent.p.name)}${xi.y?', '+esc(xi.y):''}. Poloha zodpovedá začiatku pôsobenia; nezapočítava sa medzi potomkov.</div>`:'')+(xr?`<div class="m">Výskumný vedec v skupine: ${esc(n.parent.p.name)}${xr.y?', '+esc(xr.y):''}. Poloha zodpovedá začiatku pôsobenia; nezapočítava sa medzi potomkov.</div>`:'')+(n.est?'<div class="m">Rok nie je zaznamenaný, poloha je odhadnutá.</div>':''),x,y); }
   function clear(){ svg.style('cursor',null); if(hov) hov.attr('r',0); if(trail) trail.attr('d',null); hideTip(); }
-  function center(animate){ const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight; if(!vw) return; const s=Math.min(vw/(2*R+(vw<600?90:220)),(vh-40)/(2*R+70)); const tr=d3.zoomIdentity.translate(vw/2,vh/2+16).scale(Math.min(1,s)); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
+  function center(animate){ const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight; if(!vw) return; const s=Math.min(vw/(2*R+(vw<600?90:220)),(vh-40)/(2*R+70)); const tr=d3.zoomIdentity.translate(vw/2,vh/2).scale(Math.min(1,s)); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
   $('#g-min').addEventListener('click',e=>{ const b=e.target.closest('button[data-min]'); if(!b) return; MIN=+b.dataset.min; $$('#g-min button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); draw(); });
   $('#g-chip button').addEventListener('click',()=>Forest.reset());
   function ensure(){ Forest.panel(); if(!inited){ inited=true; requestAnimationFrame(draw); } else if(dirty) draw(); else center(false); }
@@ -1913,13 +2067,13 @@ const Conn=(()=>{
     $('#cres').innerHTML=text; draw(res);
   }
   function nodeG(g,id,x,y,opts={}){ const p=people.get(id); const n=g.append('g').attr('class',`node ${klass(p)}`).attr('transform',`translate(${x},${y})`).attr('tabindex',0).attr('role','button').attr('aria-label',`Otvoriť: ${p.name}`);
-    const name=fitText(p.name,opts.big?F_FN:F_NM,opts.big?320:230), meta=fitText(metaLine(p),F_MT,opts.big?320:230); const w=Math.max(tw(name,opts.big?F_FN:F_NM),tw(meta,F_MT));
+    const name=fitText(p.name,opts.big?F_FN:F_NM,opts.big?320:230), meta=fitText(metaLine(p),opts.big?F_FM:F_MT,opts.big?320:230); const w=Math.max(tw(name,opts.big?F_FN:F_NM),tw(meta,opts.big?F_FM:F_MT));
     if(opts.big) n.classed('is-focus',true).append('rect').attr('class','bg').attr('x',-16).attr('y',-31).attr('rx',12).attr('width',w+48).attr('height',60);
     if(p.feat) n.append('circle').attr('class','halo').attr('r',opts.big?9.5:7.5);
-    n.append('circle').attr('class','dot').attr('r',opts.big?6:4.5);
+    n.append('circle').attr('class','dot').attr('r',opts.big?6:p.feat?4.5:4);
     n.append('text').attr('class','nm').attr('x',opts.big?17:12).attr('y',opts.big?-3:-2).text(name);
     n.append('text').attr('class','mt').attr('x',opts.big?17:12).attr('y',opts.big?17:12.5).text(meta);
-    if(opts.tag) n.append('text').attr('class','cn-tag').attr('x',opts.big?17:12).attr('y',opts.big?-40:-22).text(opts.tag);
+    if(opts.tag) n.append('text').attr('class','cn-tag').attr('x',opts.big?17:12).attr('y',opts.big?-34:-22).text(opts.tag);
     n.append('title').text(p.name);
     n.append('rect').attr('class','hit').attr('x',-10).attr('y',-20).attr('width',w+30).attr('height',40);
     n.on('click',()=>go('p'+id)).on('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go('p'+id); } });
@@ -1941,7 +2095,7 @@ const Conn=(()=>{
     }
     bounds={x0:d3.min(pts,p=>p.x)-30,x1:d3.max(pts,p=>p.x+p.w)+50,y0:d3.min(pts,p=>p.y)-60,y1:d3.max(pts,p=>p.y)+44}; fit(true);
   }
-  function fit(animate){ const el=svg.node(); const vw=el.clientWidth,vh=el.clientHeight-50; if(!vw||!bounds) return; const bw=bounds.x1-bounds.x0,bh=bounds.y1-bounds.y0; let s=clamp(Math.min(vw/bw,vh/bh)*.92,.45,1.1); let cx=(bounds.x0+bounds.x1)/2, cy=(bounds.y0+bounds.y1)/2; if(bh*s>vh) cy=bounds.y0+vh/(2*s); const tr=d3.zoomIdentity.translate(vw/2-s*cx,vh/2-s*cy).scale(s); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
+  function fit(animate){ const el=svg.node(); const vw=el.clientWidth,vh=el.clientHeight-10; if(!vw||!bounds) return; const bw=bounds.x1-bounds.x0,bh=bounds.y1-bounds.y0; let s=clamp(Math.min(vw/bw,vh/bh)*.92,.45,1); let cx=(bounds.x0+bounds.x1)/2, cy=(bounds.y0+bounds.y1)/2; if(bh*s>vh) cy=bounds.y0+vh/(2*s); const tr=d3.zoomIdentity.translate(vw/2-s*cx,vh/2-s*cy).scale(s); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
   function ensure(){ if(!inited){ inited=true; $('#cex').innerHTML=EX.map(([a,b])=>{ const r=compute(a,b); const via=r.type==='nca'?(r.x===a||r.x===b?'priama línia':'spoločný predok: '+people.get(r.x).name):'prepojení'; return `<button type="button" data-a="${a}" data-b="${b}"><span class="ex-a">${esc(people.get(a).name)} &amp; ${esc(people.get(b).name)}</span><span class="ex-b">${esc(via)}</span></button>`; }).join(''); $('#cex').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; A=+b.dataset.a; B=+b.dataset.b; run(); }); } run(); }
   return {ensure,setA:id=>{ A=id; if(A===B) B=A===111470?182721:111470; }};
 })();
@@ -2076,7 +2230,7 @@ const Alumni=(()=>{
     const W=Math.max(320,el.clientWidth||900), H=200, m={t:26,r:8,b:26,l:30};
     const x=d3.scaleBand().domain(decades).range([m.l,W-m.r]).paddingInner(.25).paddingOuter(.05); const y=d3.scaleLinear().domain([0,d3.max(data,d=>CATS.reduce((a,k)=>a+d[k],0))||1]).nice(4).range([H-m.b,m.t]);
     const svg=d3.select(el).append('svg').attr('viewBox',`0 0 ${W} ${H}`).attr('role','img').attr('aria-label','Doktoráty absolventov podľa desaťročí a miesta');
-    svg.append('text').attr('x',0).attr('y',12).attr('class','axis').append('tspan').attr('style','font:500 10.5px var(--font-mono);letter-spacing:.08em;fill:var(--ink-3)').text('KDE ZÍSKALI DOKTORÁT, PODĽA DESAŤROČIA DOKTORÁTU');
+    svg.append('text').attr('x',0).attr('y',12).attr('class','axis').append('tspan').attr('style','font:500 11.5px var(--font-ui);fill:var(--ink-3)').text('Kde získali doktorát, podľa desaťročia doktorátu');
     const gy=svg.append('g').attr('class','axis'); for(const t of y.ticks(4)){ gy.append('line').attr('class','gridline').attr('x1',m.l).attr('x2',W-m.r).attr('y1',y(t)).attr('y2',y(t)); gy.append('text').attr('x',m.l-6).attr('y',y(t)+3.5).attr('text-anchor','end').text(t); }
     const bw=x.bandwidth();
     for(const d of data){ let acc=0; for(const k of CATS){ if(!d[k]) continue; const y0=y(acc), y1=y(acc+d[k]); svg.append('rect').attr('class','seg-'+k).attr('x',x(d.d)).attr('y',y1).attr('width',bw).attr('height',Math.max(0,y0-y1-1)); acc+=d[k]; } }
@@ -2137,14 +2291,97 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
    O projekte gets a table of contents from its headings */
 (function(){
   const $=q=>document.querySelector(q), mq=matchMedia('(max-width:899px)');
-  function place(){ const card=$('#k-card'), lg=$('#k-legend'), st=$('#k-stage'), cs=$('#k-cardslot'), ls=$('#k-legslot'); if(!card||!lg||!st||!cs||!ls) return;
-    if(mq.matches){ if(card.parentElement!==st) st.appendChild(card); if(lg.parentElement!==st) st.appendChild(lg); }
-    else { if(card.parentElement!==cs) cs.appendChild(card); if(lg.parentElement!==ls) ls.appendChild(lg); } }
+  function place(){ const card=$('#k-card'), st=$('#k-stage'), cs=$('#k-cardslot'); if(!card||!st||!cs) return;
+    if(mq.matches){ if(card.parentElement!==st) st.appendChild(card); }
+    else { if(card.parentElement!==cs) cs.appendChild(card); } }
   place(); mq.addEventListener('change',place);
   const toc=$('#a-toc'), pr=$('#v-about .lp-prose');
   if(toc&&pr){ const hs=[...pr.querySelectorAll('h2')]; hs.forEach((h,i)=>{ if(!h.id) h.id='o-'+(i+1); });
     toc.innerHTML=hs.map(h=>`<a href="#about" data-toc="${h.id}">${h.textContent}</a>`).join('');
     toc.addEventListener('click',e=>{ const a=e.target.closest('[data-toc]'); if(!a) return; e.preventDefault(); document.getElementById(a.dataset.toc).scrollIntoView({behavior:'smooth',block:'start'}); }); }
+})();
+</script>
+<script id="graph-style-js">
+/* One layout rule for every drawing view (Les, Línie, Strom, Profil, Prepojenia):
+   - all controls that change the view (Väzby, threshold, depth, direction, generations, zoom, Zobraziť celé, swap, expand/collapse, PDF/print, active-filter chip)
+     live in ONE toolbar line directly under the main menu (#tbar);
+   - the legend is ONE quiet row directly under the white drawing area (.vleg), on desktop and mobile;
+   - the legend lists only what is actually drawn (and what the Väzby toggles allow). */
+(function(){
+  const $=q=>document.querySelector(q), mk=(tag,cls,html)=>{ const e=document.createElement(tag); if(cls) e.className=cls; if(html!=null) e.innerHTML=html; return e; };
+  const top=$('header.top'), tabs=top&&top.querySelector('.tabs'), rel=top&&top.querySelector('.reltog'); if(!top||!tabs||!rel) return;
+  /* ---- toolbar ---- */
+  const tbar=mk('div','tbar'); tbar.id='tbar';
+  const vt=mk('div','vtools'); vt.id='vtools'; vt.setAttribute('role','toolbar'); vt.setAttribute('aria-label','Nástroje zobrazenia');
+  tabs.after(tbar); tbar.append(rel,vt);
+  const grp=(view,els)=>{ const g=mk('div','vt'); g.dataset.view=view; els.filter(Boolean).forEach(e=>g.appendChild(e)); vt.appendChild(g); return g; };
+  // Les: line-size threshold + active filter chip
+  grp('les',[$('#g-stage .gbar'),$('#g-chip')]);
+  // Línie: active filter chip + expand/collapse
+  grp('linie',[$('#f-chip'),$('#f-stage .lbar-r')]);
+  // Profil: depth steppers, Zobraziť celé, Strom
+  grp('tree',[$('#t-stage .controls')]);
+  // Strom: direction, generations, zoom/fit, PDF + print
+  const kd=$('#k-dir'), kg=$('#v-strom .kgen'), kz=$('#k-stage .kzoom'), ka=$('#k-act');
+  grp('strom',[kd,kg,kz,ka]);
+  // PDF: one button; kind, size, orientation and language in a compact menu next to it
+  const OR={auto:'',portrait:'na výšku',landscape:'na šírku'};
+  const pf=$('#k-pfmt'), pp=$('#k-paper'), kp=$('#k-print'), kb=$('#k-pdf'), kk=$('#k-kind'), ko=$('#k-orient'), kl=$('#k-lang'), ks=$('#k-act .kopt-s');
+  function kSum(){ if(!kk||!ks) return; const pr=kk.value==='print'; pf.hidden=pr; pp.hidden=!pr;
+    ks.textContent=[pr?'tlač '+pp.value:(pf.value==='auto'?'A2/A0':pf.value),OR[ko.value],kl.value.toUpperCase()].filter(Boolean).join(' · '); }
+  if(kb&&kk&&kp){ [kk,pf,pp,ko,kl].forEach(e=>e.addEventListener('change',kSum)); kSum();
+    kb.addEventListener('click',e=>{ if(kk.value==='print'){ e.stopImmediatePropagation(); kp.click(); } },true); }
+  // menus close on a click elsewhere or Escape
+  document.addEventListener('click',e=>{ document.querySelectorAll('details.kopt[open]').forEach(d=>{ if(!d.contains(e.target)) d.open=false; }); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') document.querySelectorAll('details.kopt[open]').forEach(d=>{ d.open=false; d.querySelector('summary').focus(); }); });
+  // Prepojenia: swap, Zobraziť celé
+  const cf=$('#c-stage .controls'), cs=$('#cswap'); if(cs){ cs.classList.add('tool'); cs.classList.remove('textbtn'); cs.title='Vymeniť prvú a druhú osobu'; }
+  grp('connect',[cs,cf]);
+  // Profil: "Vytlačiť rodokmeň predkov" joins the Profil tools (button + compact menu: generations, size, orientation, language)
+  const tg=vt.querySelector('.vt[data-view="tree"]'), prof=$('#profile');
+  function prSum(row){ const q=n=>row.querySelector(`[name=${n}]`), s=row.querySelector('.kopt-s'); if(!s) return;
+    s.textContent=[q('pgen').value+' gen.',q('pfmt').value,OR[(q('porient')||{}).value||'auto'],(q('plang')||{value:'sk'}).value.toUpperCase()].filter(Boolean).join(' · '); }
+  function takePrint(){ if(!tg||!prof) return; const row=prof.querySelector('.printrow'); const old=tg.querySelector('.printrow');
+    if(!row){ if(old&&!prof.contains(old)) old.remove(); return; }
+    if(old) old.remove();
+    const b=row.querySelector('[data-print]'), po=row.querySelector('.popt'); if(b){ b.title='Vytlačiť rodokmeň predkov (PDF plagát)'; b.innerHTML='<svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v7.5M4.8 7l3.2 3.2L11.2 7M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Tlač predkov'; b.classList.add('kact-btn'); }
+    if(po){ const d=mk('details','kopt','<summary title="Generácie, veľkosť, orientácia a jazyk"><span class="kopt-s"></span></summary>'); const pop=mk('div','kopt-pop');
+      const lab=(t,el)=>{ if(!el) return; const l=mk('label'); l.append(t,el); pop.appendChild(l); };
+      const q=n=>po.querySelector(`[name=${n}]`); lab('Generácie',q('pgen')); lab('Veľkosť',q('pfmt')); lab('Orientácia',q('porient')); lab('Jazyk',q('plang'));
+      d.appendChild(pop); po.replaceWith(d); pop.addEventListener('change',()=>prSum(row)); }
+    row.classList.add('kact'); tg.appendChild(row); prSum(row); }
+  // re-render adds nodes; our own move of the row is a pure removal and is ignored
+  if(prof){ new MutationObserver(ms=>{ if(ms.some(m=>m.addedNodes.length)) takePrint(); }).observe(prof,{childList:true}); takePrint(); }
+  /* ---- legend row under the drawing ---- */
+  const LN=c=>`<svg class="lg-ln" viewBox="0 0 22 6"><line${c?` class="${c}"`:''} x1="1" y1="3" x2="21" y2="3"/></svg>`;
+  function legRow(sec,legs){ const s=$(sec); if(!s) return null; const st=[...s.children].filter(e=>e.classList.contains('stage')); if(!st.length) return null;
+    const col=mk('div','stagecol'); st[0].before(col); st.forEach(e=>col.appendChild(e)); const row=mk('div','vleg'); row.setAttribute('aria-hidden','true'); legs.filter(Boolean).forEach(l=>row.appendChild(l)); col.appendChild(row); return row; }
+  const lgLes=$('#g-stage .legend'); if(lgLes) lgLes.classList.add('lg-les');
+  const lgLin=mk('div','legend lg-linie',`<span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span><span class="comk" style="margin:0">spoluškolený</span>mal aj ďalšieho školiteľa</span><span><b class="lg-num">12</b>ľudí vo vetve</span>`);
+  legRow('#v-forest',[lgLes,lgLin]);
+  legRow('#v-tree',[$('#t-stage .legend')]);
+  legRow('#v-strom',[$('#k-legend')]);
+  legRow('#v-connect',[mk('div','legend lg-conn',`<span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span>${LN('')}vzťah so zdrojom</span><span>${LN('u')}neoverený vzťah</span>`)]);
+  /* ---- legend shows only what is drawn ---- */
+  const keyOf=sp=>{ if(sp.querySelector('i.dot.sk')) return 'sk'; if(sp.querySelector('i.dot.ft')) return 'ft'; if(sp.querySelector('i.dot')) return 'other'; if(sp.querySelector('.lg-root')) return 'root';
+    const l=sp.querySelector('svg.lg-ln line'); if(l){ for(const k of ['im','pd','rs','co','u']) if(l.classList.contains(k)) return k==='u'?'unv':k; return 'src'; } return null; };
+  const NEED={
+    '#t-svg':{sk:'.node.sk',ft:'.node.ft',other:'.node:not(.sk)',im:'.link.im',pd:'.link.pd',rs:'.link.rs',co:'.link.co',unv:'.link.unv',src:'.link:not(.unv):not(.pd):not(.im):not(.rs)'},
+    '#g-svg':{sk:'.fn.sk',ft:'.fh',other:'.fn:not(.sk):not(.pd):not(.im):not(.rs)',root:'.flbl.root',im:'.fl.im',pd:'.fl.pd',rs:'.fl.rs',co:'.fl.co',src:'.fl:not(.pd):not(.im):not(.rs)'},
+    '#c-svg':{sk:'.node.sk',ft:'.node.ft',other:'.node:not(.sk)',unv:'.link.unv',src:'.link:not(.unv)'}};
+  const LEG={'#t-svg':'#v-tree .vleg .legend','#g-svg':'#v-forest .vleg .lg-les','#c-svg':'#v-connect .vleg .legend'};
+  function sync(svgSel){ const sv=$(svgSel), lg=$(LEG[svgSel]); if(!sv||!lg) return; const need=NEED[svgSel];
+    for(const sp of lg.children){ const k=sp.dataset.k||(sp.dataset.k=keyOf(sp)||''); if(k&&need[k]) sp.classList.toggle('lg-off',!sv.querySelector(need[k])); } }
+  for(const k of Object.keys(NEED)){ const sv=$(k); if(!sv) continue; let t=0; new MutationObserver(()=>{ clearTimeout(t); t=setTimeout(()=>sync(k),120); }).observe(sv,{childList:true,subtree:true}); sync(k); }
+  /* ---- which view is on: show its tool group ---- */
+  function cur(){ const vis=id=>{ const e=document.getElementById(id); return e&&!e.hidden; };
+    if(vis('v-forest')) return vis('f-stage')?'linie':'les'; if(vis('v-tree')) return 'tree'; if(vis('v-strom')) return 'strom'; if(vis('v-connect')) return 'connect';
+    if(vis('v-people')) return 'people'; if(vis('v-alumni')) return 'alumni'; return 'about'; }
+  function upd(){ const v=cur(); if(tbar.dataset.view!==v){ tbar.dataset.view=v; } }
+  const mo=new MutationObserver(upd); document.querySelectorAll('main .view, #f-stage, #g-stage').forEach(e=>mo.observe(e,{attributes:true,attributeFilter:['hidden']}));
+  upd();
+  /* the drawings measure their sheet: re-fit once the layout has moved */
+  requestAnimationFrame(()=>dispatchEvent(new Event('resize')));
 })();
 </script>
 </body>

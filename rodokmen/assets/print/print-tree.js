@@ -13,7 +13,7 @@
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
 const FONT='EBGaramond';
-const PAPER={A2:[1190.55,1683.78],A3:[841.89,1190.55]};
+const PAPER={A4:[595.28,841.89],A3:[841.89,1190.55],A2:[1190.55,1683.78],A1:[1683.78,2383.94],A0:[2383.94,3370.39]};
 // famous ancestors that may be named in the legend of the main line (MGP ids)
 const FAMOUS=new Set([18231,38586,60985,74313,134975,108295,17864,17865,17981,15635,7298,53410,54440,7401,17946,7486,18232,125561,126177,126109]);
 
@@ -36,9 +36,9 @@ function loadFaces(){
   return faceP;
 }
 function canvasMeasure(){ const c=document.createElement('canvas').getContext('2d'), cache=new Map(); return (t,size,style)=>{ const k=style+'|'+t; let w=cache.get(k); if(w==null){ c.font=(style==='italic'?'italic 400 ':style==='bold'?'700 ':'400 ')+'100px '+FONT; w=c.measureText(t).width/100; cache.set(k,w); } return w*size; }; }
-function newDoc(fonts,paper){
+function newDoc(fonts,paper,land){
   const {jsPDF}=window.jspdf; const [W,H]=PAPER[paper];
-  const doc=new jsPDF({unit:'pt',format:[W,H],orientation:'portrait',compress:true});
+  const doc=new jsPDF({unit:'pt',format:[W,H],orientation:land?'landscape':'portrait',compress:true});
   [['EBG-R.ttf','normal'],['EBG-B.ttf','bold'],['EBG-I.ttf','italic']].forEach(([f,st],i)=>{ doc.addFileToVFS(f,fonts[i]); doc.addFont(f,FONT,st); });
   doc.setFont(FONT,'normal');
   return doc;
@@ -633,14 +633,23 @@ async function buildTree(ctx,rootId,opts){
   else { const fonts=await loadLibs(); doc=newDoc(fonts,opts.paper); tw=makeMeasure(doc); }
   const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir,opts.informal!==false,opts.research!==false);
   const fp=famousPath(ctx,g,rootId);
-  let best=null; const tries=[];
-  for(const c of TREE_CFGS(opts)){ const cfg=Object.assign({},TREE_BASE,opts.treeCfg||{},c,{lang:opts.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,opts);
+  /* orientation of the classic poster: the composition is laid out for the page shape (landscape: a lower, wider page);
+     auto keeps portrait unless the tree does not fit at full size there and landscape gives larger names */
+  const runAll=pageH=>{ const o=pageH?Object.assign({},opts,{pageH}):opts; let best=null; const tries=[];
+  for(const c of TREE_CFGS(o)){ const cfg=Object.assign({},TREE_BASE,o.treeCfg||{},c,{lang:o.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,o);
     const hard=comp.issues.filter(t=>!/^branch /.test(t)).length, soft=comp.issues.length-hard;
     const score=Math.min(comp.s,1)*(cfg.stagger?0.96:1)*(cfg.nameW>=150?1:cfg.nameW>=120?0.9:0.82)*(hard?0.8:1)*Math.pow(0.985,Math.min(soft,10))*(/^free/.test(comp.legendMode)||comp.legendMode==='none'?1:0.95); tries.push([cfg.nameW,cfg.stagger,cfg.availW,+comp.s.toFixed(3),comp.issues.length,comp.legendMode,+score.toFixed(3)]);
-    if(!best||score>best.score) best={lay,comp,cfg,score}; if(comp.s>=0.999&&!comp.issues.length) break; }
-  const {comp,lay}=best;
+    if(!best||score>best.score) best={lay,comp,cfg,score,tries}; if(comp.s>=0.999&&!comp.issues.length) break; }
+  return best; };
+  let best, land=false;
+  if(scr) best=runAll(null);
+  else { const [pa,pb]=PAPER[opts.paper], hL=1190.55*pa/pb;
+    if(opts.orient==='landscape'){ best=runAll(hL); land=true; }
+    else { best=runAll(null); if(opts.orient!=='portrait'&&best.comp.s<0.999){ const b2=runAll(hL); if(b2.score*pb/pa>best.score){ best=b2; land=true; } /* scores in page units: the landscape page is pb/pa times wider */ } }
+    if(land) doc=newDoc(await loadLibs(),opts.paper,true); }
+  const {comp,lay}=best, tries=best.tries;
   if(scr) return {treeSvg:comp.treeSvg,legend:comp.legendItems,boxes:comp.boxes,g,fp,trunk:lay.trunk,title:comp.title,issues:comp.issues};
-  const [PW,PH]=PAPER[opts.paper]; const k=PW/comp.W;
+  const [PW,PH]=land?[PAPER[opts.paper][1],PAPER[opts.paper][0]]:PAPER[opts.paper]; const k=PW/comp.W;
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(PW)}pt" height="${n2(PH)}pt" viewBox="0 0 ${n2(PW)} ${n2(PH)}"><g transform="scale(${k.toFixed(6)})">${comp.svgInner}</g></svg>`;
   const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
   holder.innerHTML=svg; document.body.appendChild(holder);
@@ -649,8 +658,8 @@ async function buildTree(ctx,rootId,opts){
   const p=ctx.people.get(rootId);
   if(comp.credit&&!opts.svgOnly) try{ const c=comp.credit; doc.link(c[0]*k,c[1]*k,c[2]*k,c[3]*k,{url:CREDIT_URL}); }catch(e){}
   const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
-  const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}.pdf`;
-  const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
+  const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}${land?(opts.lang==='en'?'_landscape':'_na_sirku'):''}.pdf`;
+  const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,paper:opts.paper,landscape:land,pageW:PW,pageH:PH,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
     staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
@@ -667,7 +676,7 @@ async function buildTree(ctx,rootId,opts){
    out), each with a locator map.
    ===================================================================== */
 const V_XMAX=220;   // rows may spread further apart than on screen (TREE_BASE.xmax) so that the tree fills the sheet
-const PAPER_ALL={A2:[1190.55,1683.78],A0:[2383.94,3370.39]};
+const PAPER_ALL={A4:[595.28,841.89],A3:[841.89,1190.55],A2:[1190.55,1683.78],A1:[1683.78,2383.94],A0:[2383.94,3370.39]};
 const V_NAME=13;               // design size of a name in the tree (TREE_BASE.ns)
 const V_GOOD=7, V_MIN=4, V_TILE=5, V_MAX=24;   // printed name size in pt on A2 (A0: V_MAX x2, so 48 pt at most): readable on A2, smallest accepted on A0, in detail sections, largest
 Object.assign(L10N.sk,{
@@ -729,7 +738,7 @@ function partsSvg(parts,win){
 /* page frame: header, legend and footer for a W x H page (pt); returns the tree area */
 function vFrame(tw,TX,W,H,legend,mapW){
   const k=Math.min(W,H)/1190.55, m=40*k;
-  const ts=34*k, ss=15*k, ls=11*k, ls2=9.6*k, fs=creditSize(W,H), sw=36*k, gapX=26*k;
+  const ts=Math.max(34*k,20), ss=Math.max(15*k,10), ls=Math.max(11*k,7.5), ls2=Math.max(9.6*k,6.8), fs=creditSize(W,H), sw=36*k, gapX=26*k;
   const yTitle=m+ts*0.8, ySub=yTitle+ss*1.75, yRule=ySub+ss*0.9;
   const maxT=W-2*m-(mapW?mapW+12*k:0);
   // legend items flow left to right in rows
@@ -792,9 +801,9 @@ async function buildView(ctx,rootId,opts){
     const sc=await scene(ctx,rootId,Object.assign({},so,{lang,pageH:130.5+1078.55*r,treeCfg:{xmax:V_XMAX}}));
     lay[land]=Object.assign({sc},sceneParts(sc.treeSvg)); }
   const fitOn=(paper,land)=>{ const f=frameOf(paper,land), L=lay[land], [,,bw,bh]=L.bb, A=f.F.area, k=f.F.k;
-    const s=Math.min((A[2]-A[0])/bw,(A[3]-A[1])/bh,V_MAX*(paper==="A0"?2:1)/V_NAME); /* names at most 24 pt on A2, 48 pt on A0 */ return Object.assign(f,{L,s,name:s*V_NAME}); };
+    const s=Math.min((A[2]-A[0])/bw,(A[3]-A[1])/bh,V_MAX*(Math.min(f.W,f.H)/1190.55)/V_NAME); /* names at most 24 pt on A2, 48 pt on A0, 12 pt on A4 */ return Object.assign(f,{L,s,name:s*V_NAME}); };
   // orientation: the larger scale (ties: less empty paper)
-  const orient=paper=>{ const a=fitOn(paper,false), b=fitOn(paper,true); if(Math.abs(b.s-a.s)>0.002*a.s) return b.s>a.s?b:a;
+  const orient=paper=>{ if(opts.orient==='portrait') return fitOn(paper,false); if(opts.orient==='landscape') return fitOn(paper,true); const a=fitOn(paper,false), b=fitOn(paper,true); if(Math.abs(b.s-a.s)>0.002*a.s) return b.s>a.s?b:a;
     const fill=c=>{ const A=c.F.area; return c.L.bb[2]*c.L.bb[3]*c.s*c.s/((A[2]-A[0])*(A[3]-A[1])); }; return fill(b)>fill(a)?b:a; };
   let pick;
   if(PAPER_ALL[opts.paper]) pick=orient(opts.paper);
