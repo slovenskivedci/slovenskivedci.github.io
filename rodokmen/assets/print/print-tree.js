@@ -1,5 +1,5 @@
 /* Rodokmeň slovenskej matematiky: printable ancestor tree poster (vector PDF, A2 or A3).
-   Loaded on demand from rodokmen/index.html when "Vytlačiť rodokmeň predkov" is clicked.
+   Loaded on demand from rodokmen/index.html when "Stiahnuť PDF" is clicked (Strom and Profil).
    One style, an organic tree (see ORGANIC TREE POSTER below); rendered as SVG and converted to PDF
    with jsPDF + svg2pdf.js, EB Garamond embedded. Postdoc advisor links (ctx.pdAdvisorsOf) are included
    unless opts.postdoc===false and drawn in teal; informal mentor links (dotted violet leaves) unless opts.informal===false, research-scientist links unless opts.research===false
@@ -13,6 +13,7 @@
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
 const FONT='EBGaramond';
+const AUTO_MIN_PT=5;   /* ornate poster, paper 'auto': smallest A size with names of at least this size */
 const PAPER={A4:[595.28,841.89],A3:[841.89,1190.55],A2:[1190.55,1683.78],A1:[1683.78,2383.94],A0:[2383.94,3370.39]};
 // famous ancestors that may be named in the legend of the main line (MGP ids)
 const FAMOUS=new Set([18231,38586,60985,74313,134975,108295,17864,17865,17981,15635,7298,53410,54440,7401,17946,7486,18232,125561,126177,126109]);
@@ -630,7 +631,7 @@ const TREE_CFGS=opts=>opts.treeCfgs||[{},{stagger:true},{stagger:true,availW:600
 async function buildTree(ctx,rootId,opts){
   const scr=!!opts.screen; let doc=null, tw;
   if(scr){ await loadFaces(); tw=canvasMeasure(); }
-  else { const fonts=await loadLibs(); doc=newDoc(fonts,opts.paper); tw=makeMeasure(doc); }
+  else { const fonts=await loadLibs(); doc=newDoc(fonts,PAPER[opts.paper]?opts.paper:'A2'); tw=makeMeasure(doc); }
   const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir,opts.informal!==false,opts.research!==false);
   const fp=famousPath(ctx,g,rootId);
   /* orientation of the classic poster: the composition is laid out for the page shape (landscape: a lower, wider page);
@@ -643,10 +644,16 @@ async function buildTree(ctx,rootId,opts){
   return best; };
   let best, land=false;
   if(scr) best=runAll(null);
-  else { const [pa,pb]=PAPER[opts.paper], hL=1190.55*pa/pb;
+  else { const [pa,pb]=PAPER[PAPER[opts.paper]?opts.paper:'A2'], hL=1190.55*pa/pb;   /* every A size has the same shape */
     if(opts.orient==='landscape'){ best=runAll(hL); land=true; }
     else { best=runAll(null); if(opts.orient!=='portrait'&&best.comp.s<0.999){ const b2=runAll(hL); if(b2.score*pb/pa>best.score){ best=b2; land=true; } /* scores in page units: the landscape page is pb/pa times wider */ } }
-    if(land) doc=newDoc(await loadLibs(),opts.paper,true); }
+    /* paper 'auto': the composition does not depend on the A size (same shape), only its scale does,
+       so take the smallest A size on which the names reach AUTO_MIN_PT, else A0 */
+    const auto=!PAPER[opts.paper];
+    if(auto){ const per=best.comp.nameSize/best.comp.W; let pk='A0';
+      for(const q of ['A4','A3','A2','A1','A0']){ const w=land?PAPER[q][1]:PAPER[q][0]; if(per*w>=AUTO_MIN_PT){ pk=q; break; } }
+      opts=Object.assign({},opts,{paper:pk,paperAuto:true}); }
+    if(land||auto) doc=newDoc(await loadLibs(),opts.paper,land); }
   const {comp,lay}=best, tries=best.tries;
   if(scr) return {treeSvg:comp.treeSvg,legend:comp.legendItems,boxes:comp.boxes,g,fp,trunk:lay.trunk,title:comp.title,issues:comp.issues};
   const [PW,PH]=land?[PAPER[opts.paper][1],PAPER[opts.paper][0]]:PAPER[opts.paper]; const k=PW/comp.W;
@@ -659,7 +666,7 @@ async function buildTree(ctx,rootId,opts){
   if(comp.credit&&!opts.svgOnly) try{ const c=comp.credit; doc.link(c[0]*k,c[1]*k,c[2]*k,c[3]*k,{url:CREDIT_URL}); }catch(e){}
   const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}${land?(opts.lang==='en'?'_landscape':'_na_sirku'):''}.pdf`;
-  const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,paper:opts.paper,landscape:land,pageW:PW,pageH:PH,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
+  const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,paper:opts.paper,paperAuto:!!opts.paperAuto,landscape:land,pageW:PW,pageH:PH,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
     staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
@@ -878,7 +885,7 @@ async function downloadView(ctx,rootId,opts){ const r=await buildView(ctx,rootId
 
 /* ---------- public ---------- */
 async function build(ctx,rootId,opts){
-  opts=Object.assign({gens:14,paper:'A2',lang:'sk'},opts||{}); if(!PAPER[opts.paper]) opts.paper='A2'; if(!L10N[opts.lang]) opts.lang='sk';
+  opts=Object.assign({gens:14,paper:'A2',lang:'sk'},opts||{}); if(!PAPER[opts.paper]&&opts.paper!=='auto') opts.paper='A2'; if(!L10N[opts.lang]) opts.lang='sk';
   return buildTree(ctx,rootId,opts);
 }
 async function download(ctx,rootId,opts){ const r=await build(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.last={report:r.report,svg:r.svg}; return r.report; }
