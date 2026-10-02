@@ -1,0 +1,707 @@
+id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attribution_required
+-1954	Branislav Kvetoň	slovenskivedci.sk	images/Branislav_Kveton.jpg	458,0,734,344	276x344	1			0
+-1911	Michal Demeczky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Mihály_Demeczky.JPG	376,91,696,491	320x400	1	Public domain	Sándor Strelisky (1851-1922), Hungarian photographer	0
+-1910	Oto Petzval	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Petzval_Ottó.jpg	51,0,609,697	558x697	1	Public domain	Károly Rusz / József Marastoni	0
+-1543	Ondrej Strečko	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof.RNDr.Ondrej_Strečko,_CSc..JPG	0,40,456,610	456x570	1	CC BY-SA 3.0	Vladimir.strecko	1
+-1334	Daniel Olejár	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Daniel_Olejar.jpg	253,133,1008,1076	755x943	1	CC BY-SA 4.0	Informacne centrum	1
+-1316	Milan Ftáčnik	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Milan_Ftáčnik.jpg	205,0,1012,1009	807x1009	1	CC BY 2.0	Pavol Frešo	1
+-1291	Jarko Fidrmuc	slovenskivedci.sk	images/Jarko_Fidrmuc.jpg	346,73,464,220	118x147	0			0
+-1271	Miroslav Dudík	slovenskivedci.sk	images/Miro_Dudik.jpg	297,0,472,218	175x218	0			0
+-3	Jozef Džurina	slovenskivedci.sk	(original outside repo) Jozef_Dzurina/kmti_aa.jpg	0,0,2194,2742	2194x2742	1			0
+-2	Karol Mikula	slovenskivedci.sk	images/Karol_Mikula.jpg	105,0,475,463	370x463	1			0
+-1	Igor Podlubný	slovenskivedci.sk	images_not_used/Igor_Podlubny_FULL.jpeg	293,0,833,674	540x674	1			0
+286	R. L. (Robert Lee) Moore	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Robert_Lee_Moore.jpg	36,0,245,261	209x261	1	Public domain	R.L. Moore Papers of the Archives of American Mathematics [image numb…	0
+291	Raymond Louis Wilder	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Raymond_Louis_Wilder.png	164,65,417,382	253x317	1	Public domain	neznámy autor neznámy autor	0
+519	Osip Ivanovich Somov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PGRS_2_079_Somov_-_crop.jpg	242,0,1037,994	795x994	1	Public domain	Petr Borel	0
+782	Ernst Leonard Lindelöf	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Lindelöf_portrait_late_1930s.tif	0,0,1280,1600	1280x1600	1	CC BY 4.0	neznámy autor neznámy autor	1
+805	Oswald Veblen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:OswaldVeblen1915.jpg	0,12,260,337	260x325	1	Public domain	neznámy autor photographer circa 1915	0
+806	E. H. (Eliakim Hastings) Moore	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Moore_Eliakim_2.jpeg	0,0,257,321	257x321	1	Public domain	neznámy autor -- Historical photo	0
+1231	Guoliang Yu	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Guoliang_Yu.jpg	125,0,338,266	213x266	1	CC BY-SA 2.0 de	Ivonne Vetter	1
+1423	John Henry Constantine Whitehead	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Henry_whitehead_age_30_approx.jpg	9,0,127,148	118x148	0	CC BY-SA 2.5	The original uploader was Sosayso at English Wikipedia.	1
+4312	Anthony Perry Morse	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Anthony_Morse_1968_(re-scanned,_as-is,_cropped_portrait.jpg	0,33,1008,1293	1008x1260	1	CC BY-SA 4.0	George Bergman	1
+4403	Robert Miller Hardt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hardt_lisarobinsonphoto.jpg	82,0,1280,1498	1198x1498	1	CC BY-SA 4.0	Swedfish	1
+4610	George Abram Miller	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:George_A_Miller.jpg	0,0,245,306	245x306	1	Public domain	no conegut	0
+4642	Ferdinand Georg Frobenius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:GeorgFrobenius_(cropped).jpg	58,21,172,165	114x144	0	CC BY-SA 3.0	Furfur	1
+4956	Hassler Whitney	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:HasslerWhitney-April1973.jpg	181,397,1007,1429	826x1032	1	CC BY 3.0	Sally Thurston, the subject Hassler Whitney's daughter.	1
+5879	George David Birkhoff	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:George_David_Birkhoff_1.jpg	4,0,265,326	261x326	1	Public domain	neznámy autor neznámy autor	0
+7298	David Hilbert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hilbert.jpg	12,29,437,560	425x531	1	Public domain	neznámy autor neznámy autor	0
+7339	Max Wilhelm Dehn	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Max_Dehn.jpg	0,23,296,393	296x370	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+7361	Erhard Schmidt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Erhard_Schmidt.jpg	47,0,252,257	205x257	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+7378	Richard Courant	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Richard_Courant.jpg	67,54,238,268	171x214	0	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+7401	C. Felix (Christian) Klein	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:1912_circa_Max_Liebermann_oil_on_canvas_portrait_Felix_Klein,_Kunstsammlung_der_Universität_Göttingen.jpg	351,16,888,686	537x670	1	CC0	Max Liebermann	0
+7402	Julius Plücker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Julius_Plücker_1856.jpg	102,20,525,549	423x529	1	Public domain	Rudolph Hoffmann	0
+7404	C. L. Ferdinand (Carl Louis) Lindemann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Carl_Louis_Ferdinand_von_Lindemann.jpg	8,0,280,340	272x340	1	Public domain	neznámy autor neznámy autor	0
+7436	Edward Burr Van Vleck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PSM_V82_D208_Edward_Burr_Van_Vleck.png	4,75,789,1057	785x982	1	Public domain	neznámy autor neznámy autor	0
+7443	Philipp Furtwängler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Philipp_Furtwängler.jpg	31,31,205,250	174x219	0	CC BY-SA 2.0 de	Konrad Jacobs	1
+7451	William Edward Story	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:William_Edward_Story_(1850-1930).png	0,0,311,389	311x389	1	Public domain	s:Author:William Edward Story	0
+7461	Solomon Lefschetz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:LefschetzSolomon_Moscow1935.tif	0,0,250,312	250x312	1	Public domain		0
+7486	Karl Theodor Wilhelm Weierstraß	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karl_Weierstrass.jpg	151,0,761,762	610x762	1	Public domain		0
+7487	Hermann Amandus Schwarz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hermann_Amand_Schwarz_(1843-1921)_by_Louis_Zipfel.jpg	154,165,1063,1301	909x1136	1	Public domain	Louis Zipfel / Adam Cuerden	0
+7488	Leopold (Lipót) Fejér	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fejér_Lipót.jpg	0,0,355,444	355x444	1	Public domain	neznámy autor neznámy autor	0
+7517	Constantin Carathéodory	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Caratheodory_constantin.jpg	0,0,510,638	510x638	1	Public domain	neznámy autor neznámy autor	0
+7518	Hans Adolph Rademacher	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hans-Rademacher.jpg	0,20,277,366	277x346	1	CC BY 2.0	Konrad Jacobs, Copyright is MFO	1
+7611	Frank Nelson Cole	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Frank_N_Cole.jpg	28,0,264,295	236x295	1	Public domain	no coneguts	0
+7629	Ronald George Douglas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ronald_G._Douglas.jpg	121,0,279,198	158x198	0	CC BY-SA 2.0 de	Schmid, Renate	1
+7652	John Torrence Tate, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Tate.jpg	72,0,287,269	215x269	1	GFDL 1.2	George Bergman	1
+7690	Emil Artin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:EmilArtin.jpg	76,90,231,284	155x194	0	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+7731	Diederik Johannes Korteweg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Prof._Diederik_Johannes_Korteweg,_RP-P-1905-521.jpg	64,96,1122,1419	1058x1323	1	CC0	Rijksmuseum	0
+7824	Arthur Cayley	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arthur_Cayley.jpg	105,0,780,844	675x844	1	Public domain	Herbert Beraud (1845–1896)	0
+7862	Edmund Landau	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edmund_Landau.jpg	35,3,275,304	240x301	1	Public domain	Urheber unbekannt	0
+7865	H. A. (Hubert Anson) Newton	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hubert_A_Newton_Yale_College.jpg	124,59,547,588	423x529	1	Public domain	neznámy autor neznámy autor	0
+7868	Eric Temple Bell	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Eric_Temple_Bell_sketch_1931.png	133,40,1018,1146	885x1106	1	Public domain	Carl Rudolph Gist	0
+8038	Salomon Bochner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Salomon_Bochner.jpg	5,0,101,120	96x120	0	CC BY 3.0	no conegut	1
+8119	Herbert Eli Scarf	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Herbert-Scarf-Yale.png	288,0,1062,968	774x968	1	CC BY-SA 1.0	herbert scarf	1
+8581	Albert William Tucker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:TuckerAlbertWilliam_Moscow1935.tif	13,0,210,246	197x246	1	Public domain		0
+8587	William Browder	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:William_Browder.jpg	35,2,233,250	198x248	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+9712	Heinrich Bruns	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Heinrich_Bruns_1908_Anton_Klamroth.png	151,126,839,985	688x859	1	Public domain	Anton Eduard Klamroth	0
+9722	Friedrich Hermann Schottky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Schottky.png	14,0,255,301	241x301	1	Public domain	Anonymous (writer)neznámy autor	0
+10310	Otto Szász	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Otto_Szasz.jpg	204,0,570,458	366x458	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+10404	Juris Hartmanis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:2012-06-15_Juris_Hartmanis_(35414382405).jpg	322,0,926,755	604x755	1	CC BY 2.0	Dennis Hamilton from Seattle, Washington, USA	1
+10463	John Edensor Littlewood	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Edensor_Littlewood_(The_Illustrated_London_News,_1905).png	57,0,471,517	414x517	1	Public domain	Credited to "Stearn" (likely refers to Stearn and Sons)	0
+10480	Andrei Nikolayevich Kolmogorov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Andrej_Nikolajewitsch_Kolmogorov.jpg	35,31,154,180	119x149	0	CC BY-SA 2.0 de	Konrad Jacobs	1
+11321	Frigyes (Frédéric) Riesz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Frigyes_Riesz.jpeg	14,0,262,309	248x309	1	Public domain		0
+11370	Lazarus Immanuel Fuchs	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Lazarus_Fuchs_(HeidICON_33457)_(cropped).jpg	107,23,1108,1275	1001x1252	1	CC BY-SA 4.0	F. Langbein & Co. Heidelberg	1
+11639	Nigel John Kalton	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nigel_Kalton.jpg	130,31,305,250	175x219	0	CC BY-SA 2.0 de	Renate Schmid	1
+11905	Barry Martin Simon	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Barry_Simon_2015.jpg	0,3,318,401	318x398	1	CC BY-SA 4.0	Bsimonca	1
+12099	Ernest William Barnes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernest_William_Barnes.jpeg	5,0,266,326	261x326	1	Public domain	neznámy autor neznámy autor	0
+12540	Joseph Johann von Littrow	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Johann_von_Littrow.jpg	329,103,1014,959	685x856	1	Public domain	After Josef Kriehuber	0
+12541	Nikolai Dmitrievich Brashman	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BrashmanND.jpg	65,17,253,252	188x235	0	Public domain	neznámy autor neznámy autor	0
+12542	Pafnuty Lvovich Chebyshev	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Чебышёв,_Пафнутий_Львович.jpg	184,28,1078,1147	894x1119	1	Public domain	neznámy autor neznámy autor	0
+12543	Andrei Andreyevich Markov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:AAMarkov.jpg	168,103,728,804	560x701	1	Public domain	neznámy autor neznámy autor	0
+12544	Georgy Fedoseevich Voronoy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georgy_Voronoy.jpg	0,0,298,372	298x372	1	Public domain	neznámy autor neznámy autor	0
+13104	Gustav Herglotz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gustav_Herglotz.jpeg	0,0,277,346	277x346	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+13105	Ludwig Boltzmann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Boltzmann-Ludwig.jpg	60,35,281,310	221x275	1	Public domain	neznámy autor neznámy autor	0
+13305	Anthony Gervin Oettinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ottenger_200x300.jpg	29,0,172,178	143x178	0	CC0	Photographer for hire.	0
+13307	Andrew Mattei Gleason	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:GleasonAndrewMattei_Berlin1959.jpg	117,0,243,157	126x157	0	CC BY-SA 3.0	Jean Berko Gleason	1
+13344	Kazimierz Twardowski	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kazimierz_Twardowski_1933.jpg	0,12,1233,1554	1233x1542	1	Public domain	Nieznany/neznámy autor	0
+13345	Stanislaw Lesniewski	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Stanislaw_Lesniewski_(69447640)_(cropped).jpg	23,0,1205,1478	1182x1478	1	Public domain	neznámy autor neznámy autor	0
+13347	Alfred Tarski	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:AlfredTarski1968_(cropped).jpeg	0,7,211,271	211x264	1	GFDL	Original image: George M. Bergman ; cropped by Off-shell	1
+13698	Eduard Čech	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:CechEduard_Moscow1935.tif	0,0,250,312	250x312	1	Public domain		0
+14086	Pierre Lescanne	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre_Lescanne.jpg	0,30,360,480	360x450	1	CC BY-SA 3.0	The original uploader was PIerre.Lescanne at French Wikipedia.	1
+15176	Franz Clemens Brentano	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Brentano.jpeg	27,0,278,314	251x314	1	Public domain	user:svencb	0
+15635	Carl Gustav Jacob Jacobi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Carl_Gustav_Jacob_Jacobi_portrait_1843_(cropped).jpg	0,0,649,811	649x811	1	Public domain	August Kaselowsky; Giesecke u. Devrient (heliogr.)	0
+15779	László Lovász	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:László_Lovász_(2017)_(cropped).jpg	0,117,1280,1717	1280x1600	1	CC BY 2.0	Európa Pont	1
+16915	Heinrich Martin Weber	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ETH-BIB-Weber,_Heinrich_(1842-1913)-Portrait-Portr_09008.jpg	179,188,1075,1308	896x1120	1	Public domain	Ludwig Zipfel	0
+17240	Johann Christoph Sturm	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Christoph_Sturm.jpg	347,292,926,1016	579x724	1	Public domain	Wolfgang Philipp Kilian (1654-1732)	0
+17379	Robert Vita Kohn	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Robert_V._Kohn_circa_1984_(re-scanned;_headshot).jpg	1,0,1280,1599	1279x1599	1	CC BY-SA 4.0	George Bergman	1
+17467	George Howard Darwin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:George_Darwin_sepia_tone.jpg	77,0,972,1119	895x1119	1	Public domain	J. Russell & Sons (Photographic company)	0
+17512	Israel Moiseevich Gelfand	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Izrail_Gel'Fand.jpg	0,0,284,355	284x355	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+17806	G. H. (Godfrey Harold) Hardy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Godfrey_Harold_Hardy_1.jpg	154,35,297,213	143x178	0	Public domain	neznámy autor neznámy autor	0
+17813	Pieter (Petrus) Leonard (Leonardus) Rijke	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PLRijke.jpg	262,20,931,855	669x835	1	Public domain	Dirk Jurriaan Sluyter	0
+17829	Andrew Russell Forsyth	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Andrew_Russell_Forsyth_ILN.jpg	22,0,966,1179	944x1179	1	Public domain	neznámy autor	0
+17864	Joseph Louis Lagrange	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Лагранж.jpg	23,6,262,305	239x299	1	Public domain	neznámy autor neznámy autor	0
+17865	Siméon Denis Poisson	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Simeon_Poisson_(cropped).jpg	258,0,1116,1072	858x1072	1	Public domain	François-Séraphin Delpech / After Nicolas Eustache Maurin	0
+17946	Gustav Peter Lejeune Dirichlet	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Dirichlet.jpg	0,0,261,326	261x326	1	Public domain	neznámy autor neznámy autor	0
+17952	Pavol Hell	slovenskivedci.sk	images/Pavol_Hell.jpg	413,0,1088,843	675x843	1			0
+17981	Jean-Baptiste Joseph Fourier	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fourier2.jpg	300,106,1033,1023	733x917	1	Public domain	Julien-Léopold Boilly	0
+17982	Leopold Kronecker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Leopold_Kronecker_1865.jpg	49,0,343,368	294x368	1	Public domain	neznámy autor neznámy autor	0
+18230	Johann Friedrich Pfaff	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Friedrich_Pfaff.jpg	47,0,184,171	137x171	0	Public domain	neznámy autor	0
+18231	Carl Friedrich Gauß	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg	0,34,917,1180	917x1146	1	Public domain	Gottlieb Biermann / After Christian Albrecht Jensen	0
+18232	Bernhard (Georg Friedrich Bernhard) Riemann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg	208,0,765,695	557x695	1	Public domain		0
+18235	M. Sophus (Marius) Lie	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrett_av_Sophus_Lie.jpg	156,118,1090,1285	934x1167	1	No restrictions	L. Szaciński (Christiania)	0
+18245	Max Born	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Max_Born.jpg	23,0,715,865	692x865	1	Public domain		0
+18250	Arthur Stanley Eddington	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arthur_Stanley_Eddington.jpg	0,0,538,672	538x672	1	Public domain	George Grantham Bain Collection, Library of Congress Prints and Photo…	0
+18251	Ralph Howard Fowler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ralph_H._Fowler.jpg	40,0,272,290	232x290	1	CC BY-SA 4.0	Denizrex1	1
+18331	Ernst Eduard Kummer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Eduard_Kummer_photo.jpg	28,0,760,915	732x915	1	Public domain	neznámy autor neznámy autor	0
+18332	Paul Du Bois-Reymond	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Das_Fotoalbum_für_Weierstraß_026_(Paul_Du_Bois-Reymond).jpg	13,0,818,1007	805x1007	1	Public domain	Franz Hanfstaengl	0
+18336	Leo Königsberger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Leo_Koenigsberger_Portrait.jpg	28,0,1167,1424	1139x1424	1	CC BY-SA 4.0	Carl Lange Heidelberg	1
+18344	Carl David Tolmé Runge	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Voit_202_Karl_Runge.jpg	0,16,700,891	700x875	1	Public domain	Peter Matzen	0
+18351	Ott-Heinrich Keller	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ott-Heinrich_Keller_(cropped).jpg	50,15,261,279	211x264	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+18571	Edmund Taylor Whittaker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edmund_Taylor_Whitakker_by_Arthur_Trevor_Haddon.jpg	136,29,522,512	386x483	1	Public domain	Arthur Trevor Haddon	0
+18577	Alexander Craig Aitken	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alexander_Aitken.gif	58,0,347,361	289x361	1	Public domain	neznámy autor	0
+18581	Joseph Larmor	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Larmor.jpeg	0,0,238,298	238x298	1	Public domain	neznámy autor neznámy autor	0
+18583	William Vallance Douglas Hodge	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:William_Vallance_Douglas_Hodge_(DPJ_-_b01dbz97ze).jpg	0,0,720,900	720x900	1	Public domain	neznámy autor neznámy autor	0
+18589	Wilhelm Scheibner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Das_Fotoalbum_für_Weierstraß_030_(Wilhelm_Scheibner).jpg	0,0,827,1034	827x1034	1	Public domain	Georg Brokesch	0
+18593	Heinrich Scholz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:HeinrichScholz.jpg	0,46,283,400	283x354	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+18599	Alexander Wilhelm von Brill	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alexander_Brill_by_Joseph_Albert_(Kunstbibliothek_Berlin)_-_crop.jpg	130,55,657,714	527x659	1	Public domain	Josef Albert	0
+18600	Franz Ernst Neumann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Ernst_Neumann_by_Rudolf_Hoffmann_1856_(cropped).jpg	339,64,934,807	595x743	1	Public domain	Rudolph Hoffmann	0
+18603	Friedrich Wilhelm Bessel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Bessel_(1839_painting).jpg	66,10,267,261	201x251	1	Public domain	Christian Albrecht Jensen	0
+18607	Rudolf Friedrich Alfred Clebsch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alfred_Clebsch.jpeg	13,0,238,281	225x281	1	Public domain	neznámy autor sourceneznámy autor source	0
+18608	Otto Ludwig Hölder	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hoelder_Otto.jpg	31,0,311,350	280x350	1	Public domain	Archiv Universität Leipzig	0
+18855	Nicholas Michael Katz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nicholas_Katz.jpg	173,0,653,600	480x600	1	CC BY-SA 2.0 de	Renate Schmid, Copyright is with MFO	1
+18858	Andrew Joseph Majda	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Andrew_Majda.jpg	95,7,340,313	245x306	1	GFDL 1.2	George Bergman	1
+18953	Howard Hathaway Aiken	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Aiken.jpeg	114,0,664,688	550x688	1	Public domain		0
+18956	Bruno Buchberger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bruno_Buchberger.jpg	131,25,293,228	162x203	0	CC BY-SA 2.0 de	Gert-Martin Greuel	1
+19402	Jožef Stefan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jozef_Stefan.jpg	82,0,723,802	641x802	1	Public domain	K. Schönbauer	0
+19492	Georg Feigl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Feigl.jpg	28,84,185,280	157x196	0	CC BY-SA 2.0 de	Konrad Jacobs	1
+19497	Paul Koebe	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Koebe,Paul_1930_Jena.jpg	24,3,167,181	143x178	0	CC BY 3.0	GFHund	1
+19714	Herbert (Camillo) Grötzsch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Herbert_Grötzsch_(1988).jpg	67,25,214,208	147x183	0	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+19770	Gösta Magnus Mittag-Leffler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Magnus_Goesta_Mittag-Leffler_1.jpg	36,10,231,253	195x243	1	Public domain		0
+19865	James Eells	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:James_Eells_(left)_and_Nicolaas_Kuiper_at_the_Chern_Symposium_1979_in_Berkeley.jpg	161,112,366,368	205x256	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+19964	Rudolf Otto Sigismund Lipschitz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolf_Lipschitz_by_Johannes_Schafgans_(Kunstbibliothek_Berlin)_-_crop.jpg	107,37,659,727	552x690	1	Public domain	Johannes Schafgans (1828–1905)	0
+20387	Tomaž Pisanski	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Tomaž_Pisanski_age_70_(cropped).jpg	109,0,1266,1446	1157x1446	1	CC BY-SA 4.0	Miha Perosa on behalf of UP IAM	1
+20389	Vladimir Batagelj	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vladimir_Batagelj.jpg	0,0,1136,1420	1136x1420	1	CC BY-SA 4.0	Hladnikm	1
+20390	Bojan Mohar	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bojan_Mohar_Oberwolfach_2022.jpg	166,9,312,191	146x182	0	CC BY-SA 2.0 de	Petra Lein	1
+20493	Arto K. Salomaa	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:C04_0272-ArtoSalomaa.edited.jpg	48,0,1230,1476	1182x1476	1	Public domain	Okhotin at English Wikipedia	0
+20520	Jarkko Kari	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jarkko_Kari.jpg	188,59,724,728	536x669	1	Public domain	ru:User:Alexander Kirillov	0
+20543	Jöns Svanberg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jöns_Svanberg.jpg	183,98,882,972	699x874	1	Public domain	Användare:Goombah	0
+20676	Lothar Collatz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Lothar_Collatz_1984.jpg	192,86,580,571	388x485	1	CC BY-SA 3.0	Wikipeter-HH	1
+20744	Alfred Klose	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alfred-Klose-und-Frau_Sommer-1948.jpg	239,5,613,472	374x467	1	CC BY-SA 4.0	Hansschu	1
+21209	Rolf Rannacher	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rannacher_rolf.jpg	166,167,450,522	284x355	1	CC BY-SA 2.0 de	Renate Schmid	1
+21232	Friedrich Ludwig Bauer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FriedrichLudwigBauer.jpg	0,85,1280,1685	1280x1600	1	CC BY-SA 3.0	No machine-readable author provided. Hcii assumed (based on copyright…	1
+21235	Otto Mencke	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Mencke,_Otto.jpg	329,159,1091,1111	762x952	1	Public domain	Martin Bernigeroth	0
+21249	Hans Hermes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hans_Hermes.jpg	37,0,259,278	222x278	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+21538	Roland Z. Bulirsch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Roland-Bulirsch.jpg	0,0,218,273	218x273	1	CC BY-SA 3.0		1
+21596	Ernst Ferdinand Peschl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Peschl.jpg	12,8,108,128	96x120	0	CC BY-SA 2.0 de	Konrad Jacobs, MFO	1
+22145	John McCarthy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg	94,0,1280,1483	1186x1483	1	CC BY-SA 2.0	"null0"	1
+22260	Kurt Otto Friedrichs	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kurt-Friedrichs-abt-1950-O.jpg	52,0,1192,1425	1140x1425	1	Public domain	Martinfriedrichs at English Wikipedia	0
+22466	Graham Higman	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Graham_Higman.jpg	29,0,461,540	432x540	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+22779	Manfred Broy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Manfred_Broy_2004_1.jpeg	106,19,257,208	151x189	0	Public domain	Aisano	0
+23194	Johannes Peter Müller	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Peter_Müller.jpg	195,43,792,789	597x746	1	Public domain	G. Berger (lithography)	0
+23830	Johann Karl August Radon	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Radon_cr.jpg	0,0,435,544	435x544	1	Public domain	neznámy autor neznámy autor	0
+24101	Nicolai Vasilievich Bugaev	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BugaevNV-MatematicheskySbornik1904-2.jpg	67,23,302,317	235x294	1	Public domain	BugaevNV-MatematicheskySbornik1904.jpg: neznámy autor derivative work…	0
+24109	Dimitri Fedorowitsch Egorov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Dmitri_Egorov.jpg	0,0,287,358	287x358	1	Public domain		0
+24207	Pierre Lelong	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre_Lelong.jpg	111,55,380,391	269x336	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+24408	Pavel Sergeevich Aleksandrov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paul_S_Alexandroff_2.jpg	0,42,273,383	273x341	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+24410	Josiah Royce	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Josiah_Royce.jpeg	224,78,1055,1118	831x1040	1	Public domain	neznámy autor neznámy autor	0
+24594	Igor Rostislavovich Shafarevich	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Igor_Shafarevich.jpeg	111,39,256,221	145x182	0	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+24894	Göran Dillner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Göran_Dillner_SPA3_(cropped).jpg	0,14,265,345	265x331	1	CC BY-SA 4.0	neznámy autor	1
+25087	Detlef Laugwitz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Detlef_Laugwitz.jpg	94,0,323,287	229x287	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+25222	Norbert Wiener	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Norbert_wiener.jpg	0,39,289,400	289x361	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+25248	Emory Leon Chaffee	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:E._Leon_Chaffee.jpg	0,20,1280,1620	1280x1600	1	CC BY-SA 4.0	Sooze1129	1
+25461	Peter Rentrop	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Peter_Rentrop.jpg	118,3,309,242	191x239	0	CC BY-SA 2.0 de	Schmid, Renate	1
+25466	Alois Riehl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Riehl_Alois.jpg	0,23,607,781	607x758	1	Public domain		0
+25484	Heinrich Ferdinand Scherk	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Heinrich_Scherk.jpg	31,23,163,188	132x165	0	Public domain	neznámy autor neznámy autor	0
+26492	Marston Donald Edward Conder	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marston_Conder_ONZM_(cropped).jpg	0,0,1280,1600	1280x1600	1	CC BY 4.0	New Zealand Government, Office of the Governor-General	1
+26941	Edmund Hlawka	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edmund_Hlawka_2003.jpg	0,48,428,583	428x535	1	CC BY-SA 2.5	my friend D. M. B., authorized by Thomas Steiner	1
+26954	Phillip Augustus Griffiths	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Philip_Griffiths.jpeg	34,0,354,400	320x400	1	CC BY-SA 2.0 de	Greuel, Gert-Martin	1
+26995	Michel Chasles	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Michel_Chasles.jpg	1,0,597,746	596x746	1	Public domain		0
+27230	Walter William Rouse Ball	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wwrouseball.jpg	15,3,267,318	252x315	1	Public domain	The original uploader was SuperGirl at English Wikipedia.	0
+27233	Emil Weyr	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan_Vilímek_-_Emil_Weyr_HL.jpg	71,0,533,578	462x578	1	Public domain	Jan Vilímek	0
+27250	Otto Wilhelm Fiedler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ETH-BIB-Fiedler,_Wilhelm_(1832-1912)-Portrait-Portr_04712.tif_(cropped).jpg	227,50,1082,1118	855x1068	1	Public domain	Johannes Meiner	0
+27258	Johannes Frischauf	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Frischauf_1907.png	133,149,646,791	513x642	1	Public domain	neznámy autor neznámy autor	0
+27259	Gustav Ritter von Escherich	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gustav_von_Escherich.jpg	0,0,629,785	629x785	1	CC BY-SA 4.0	Theo Bauer	1
+29642	Christian Ludwig Gerling	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Ludwig_Gerling_(1788-1864)_Federzeichnung.jpg	150,4,550,504	400x500	1	Public domain	Ferdinand Justi	0
+29675	Hermann Minkowski	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hermann_Minkowski_Portrait.jpg	0,0,813,1016	813x1016	1	Public domain	Hermann Minkowski	0
+30607	Bartel Leendert van der Waerden	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ETH-BIB-Waerden,_Bartel_Leendert_van_der_(1903-1996)-Portrait-Portr_12193.tif	0,0,1280,1600	1280x1600	1	Public domain	Unbekannt	0
+30649	Jozef Širáň	slovenskivedci.sk	images/Jozef_Siran.jpg	117,0,296,224	179x224	0			0
+30949	Michael Francis Atiyah	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Michael_Francis_Atiyah.jpg	42,0,282,300	240x300	1	CC BY-SA 2.0 de	Gert-Martin Greuel	1
+31332	John Archibald Wheeler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Archibald_Wheeler_1985.jpg	73,0,340,333	267x333	1	CC BY-SA 3.0	Emielke	1
+31354	Augustus Edward Hough Love	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:AugustusEdwardHoughLove.jpg	83,0,456,467	373x467	1	Public domain	Antique wood engraved print taken from The Graphic (British Newspaper)	0
+31357	Arnold Johannes Wilhelm Sommerfeld	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrait_of_Arnold_Sommerfeld.jpg	150,21,1236,1378	1086x1357	1	Attribution	Collection(s) W. F. Meggers Collection Copyright Holder American Inst…	1
+32840	Heinz Otto Cordes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Cordes_heinz.jpg	182,0,639,572	457x572	1	GFDL 1.2	George Bergman	1
+32858	Carl Gottfried Neumann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Neumann_Carl.jpg	4,9,226,287	222x278	1	Public domain		0
+33931	Stephane Georges Mallat	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Stéphane_Mallat_-_2019_(cropped).jpg	0,17,817,1038	817x1021	1	CC BY-SA 2.0	Jérémy Barande	1
+34187	Moritz Wilhelm Drobisch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Moritz_Wilhelm_Drobisch.jpg	4,4,415,517	411x513	1	Public domain	neznámy autor neznámy autor	0
+34233	Laurent Schwartz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:LaurentSchwartz.jpg	5,0,152,184	147x184	0	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+34254	Gaston Darboux	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jean_Gaston_Darboux,_ante_1917_-_Accademia_delle_Scienze_di_Torino_0123_B.jpg	161,15,1037,1110	876x1095	1	Public domain	neznámy autor neznámy autor	0
+35141	Karl Reinhold	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karl_Leonhard_Reinhold.jpg	63,0,1066,1254	1003x1254	1	Public domain	The original uploader was Jimaingram at English Wikipedia.	0
+35152	Vera T. Sós	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vera_T._Sós.jpeg	137,46,260,200	123x154	0	CC BY-SA 2.0 de	Renate Schmid	1
+35715	Ernst Hairer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Hairer.jpg	168,4,368,254	200x250	1	CC BY-SA 2.0 de	Schmid, Renate	1
+35953	August Ferdinand Möbius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:August_Ferdinand_Möbius.png	115,0,717,752	602x752	1	Public domain	Adolf Neumann	0
+36548	Georg Aumann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Aumann.jpg	86,24,232,207	146x183	0	CC BY-SA 2.0 de	Photographer: Konrad JacobsCopyright transferred to Oberwolfach Photo…	1
+36703	Jacques-Louis Lions	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacques-Louis_Lions.jpeg	13,9,281,345	268x336	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+36705	David Bernard Shmoys	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Shmoys_david.jpg	298,88,619,490	321x402	1	CC BY-SA 2.0 de	Renate Schmid	1
+37105	Dragan Marušič	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Dragan_Marušič_(cropped).jpg	0,6,176,226	176x220	0	CC BY-SA 4.0	Miha Peroša, employee of University of Primorska. The photo is owned…	1
+37275	Pál Turán	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-33149-0001,_Leipzig,_Universität,_Professor_Turan.jpg	227,13,470,317	243x304	1	CC BY-SA 3.0 de	neznámy autor neznámy autor	1
+37346	Cassius Jackson Keyser	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PSM_V74_D209_Cassius_Jackson_Keyser.png	28,0,720,864	692x864	1	Public domain	neznámy autor neznámy autor	0
+37902	Alexander Rosa	slovenskivedci.sk	images/Alexander_Rosa.jpg	261,0,569,386	308x386	1			0
+38126	Hendrick de Vries	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Professor_Hendrik_de_Vries,_mathematicus_PK-F-G.982,_PK-F-G.1875.tiff	403,428,1093,1290	690x862	1	CC BY 4.0	Abraas, Charles (1873-1924)	1
+38586	Leonhard Euler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg	123,71,1052,1233	929x1162	1	Public domain	Jakob Emanuel Handmann	0
+39071	Émile Borel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Emile_Borel-1932.jpg	101,0,1164,1330	1063x1330	1	Public domain	Agence de presse Mondial Photo-Presse	0
+39422	Éva Tardos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Eva_Tardos_(2007).jpg	181,0,842,825	661x825	1	CC BY-SA 2.0	Marc Smith	1
+39424	Ivo M. Babuška	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ivo_Babuska_portrait_(adpated_from_MacTutor).tif	0,17,500,642	500x625	1	CC BY-SA 4.0	Processing: Jenda zet; original photo: MacTutor History of Mathematic…	1
+39957	Ružena Bajcsy	slovenskivedci.sk	images/Ruzena_Bajcsy.jpg	369,0,944,719	575x719	1			0
+42016	William Hopkins	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:WilliamHopkins.jpg	27,0,256,286	229x286	1	Public domain	The original uploader was SuperGirl at English Wikipedia.	0
+44109	Michael Jeremy Todd	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Todd_michael.jpg	288,54,594,436	306x382	1	CC BY-SA 2.0 de	Renate Schmid	1
+44118	Christoph Zenger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christoph_Zenger_1.jpeg	0,41,1280,1641	1280x1600	1	CC0	Aisano	0
+45049	Franz Rellich	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Rellich.jpeg	0,0,281,351	281x351	1	CC BY-SA 2.0 de	Jacobs, Konrad	1
+45621	Johannes Diderik van der Waals	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Van_der_Waals.jpg	0,0,280,350	280x350	1	Public domain	Nobel foundation ?	0
+46060	Friedrich Engel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Engel.jpg	0,0,251,314	251x314	1	Public domain	no coneguts	0
+46061	Adolph Christian Gustav Mayer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:AdolfMayer.jpg	15,0,255,300	240x300	1	Public domain	Furfur	0
+46289	Christos Charilaos Papadimitriou	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christos_Papadimitriou_mg_7721-b.cr2.jpg	198,38,1174,1258	976x1220	1	CC BY-SA 2.0 fr	Rama	1
+46877	Oskar Perron	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Oskar_Perron.jpg	149,22,259,160	110x138	0	CC BY-SA 2.0 de	Jacobs, Konrad	1
+46967	Otto Hesse	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ludwig_Otto_Hesse.jpg	16,0,124,135	108x135	0	Public domain	neznámy autor neznámy autor	0
+46968	Gustav Robert Kirchhoff	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gustav_Robert_Kirchhoff.jpg	160,66,1127,1276	967x1210	1	Public domain	neznámy autor neznámy autor	0
+46969	Friedrich Wilhelm Franz Meyer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Franz_Meyer.jpg	0,0,759,949	759x949	1	Public domain	Friedrich Wilhelm Franz Meyer	0
+47025	Karl Christian von Langsdorf	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Langsdorf_Karl_Christian1.jpg	131,64,825,930	694x866	1	Public domain	zeitgenössischer Stecher	0
+47064	Martin Ohm	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Martin_Ohm_002.jpg	41,9,169,170	128x161	0	Public domain	Schwab (Zeichner) nach Graff (Fotograf)	0
+47610	Ludwig Schlesinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ludwig_Schlesinger.jpg	68,8,510,560	442x552	1	Public domain		0
+47793	Christian M. von Wolff	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Wolff.jpg	156,82,352,326	196x244	1	Public domain	Johann Georg Wille	0
+49057	Hermann Ludwig Ferdinand von Helmholtz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz.jpg	71,18,291,293	220x275	1	Public domain		0
+49363	Alwin Oswald Walther	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Walther,Alwin_1964_Darmstadt.jpg	151,0,555,505	404x505	1	CC BY 3.0	GFHund	1
+49524	Franz Carl Josef Mertens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Mertens_by_Awit_Szubert_(Kunstbibliothek_Berlin)_-_crop.jpg	100,85,648,770	548x685	1	Public domain	Awit Szubert	0
+49940	Alfred Tauber	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alfred_Tauber.jpg	0,0,258,322	258x322	1	Public domain	no conegut	0
+50081	Ronald Linn Rivest	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ronald_L_Rivest_photo.jpg	56,0,540,604	484x604	1	CC BY-SA 4.0	Ronald L. Rivest	1
+50423	Archibald Vivian Hill	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Archibald_Vivian_Hill.jpg	0,26,280,376	280x350	1	Public domain	Photographer neznámy autor . Subject (Hill) deceased. This photo is u…	0
+50699	Ernest Rutherford	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg	0,0,1229,1537	1229x1537	1	Public domain	George Grantham Bain Collection (Library of Congress)	0
+50701	Joseph John Thomson	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:J.J._Thomson_LCCN2014715407.jpg	0,0,1201,1502	1201x1502	1	Public domain	Bain News Service, publisher	0
+51155	Alfréd Rényi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alfred_Kato_Renyi.jpg	259,33,378,182	119x149	0	CC BY-SA 4.0	Konrad Jacobs	1
+51175	Kenneth Joseph Arrow	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kenneth_Arrow,_Stanford_University.jpg	0,0,200,250	200x250	1	CC BY 3.0	Linda A. Cicero / Stanford News Service	1
+51373	Leonard Salomon Ornstein	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:LeonardOrnstein1927.jpg	283,119,634,558	351x439	1	Public domain	neznámy autor photographer	0
+51374	Ludwig Prandtl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prandtl_portrait.jpg	175,0,1144,1211	969x1211	1	CC BY 3.0 de	neznámy autor neznámy autor	1
+51417	Hermann König	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hermannwiki3.png	7,0,374,459	367x459	1	CC BY-SA 4.0	W.G. König	1
+51469	Werner Karl Heisenberg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg	33,0,497,581	464x581	1	CC BY-SA 3.0 de	neznámy autor neznámy autor	1
+51769	Claude Ambrose Rogers	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:C_A_Rogers.jpg	40,194,386,627	346x433	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen, Copyright is MFO	1
+52076	Abraham Plessner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Abraham_Plessner.png	48,0,371,403	323x403	1	CC BY-SA 3.0	no conegut	1
+52134	Michael S. Weiss	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Michael_Weiss2.jpg	94,78,264,292	170x214	0	CC BY-SA 2.0 de	Schmid, Renate	1
+52328	Sebastian Finsterwalder	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Sebastian_Finsterwalder.jpg	0,13,252,328	252x315	1	Public domain	neznámy autor	0
+53266	Max Otto Lagally	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Max_otto_lagally.jpg	0,0,147,184	147x184	0	Public domain	neznámy autor neznámy autor	0
+53410	Johann Bernoulli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Bernoulli2.jpg	132,32,386,350	254x318	1	Public domain	Johann Rudolf Huber	0
+54440	Jacob Bernoulli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jakob_Bernoulli.jpg	325,8,1108,986	783x978	1	Public domain	Niklaus Bernoulli (1662-1716)	0
+55177	Augustin Louis Cauchy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Augustin-Louis_Cauchy_1901.jpg	41,0,275,292	234x292	1	Public domain	Public domain	0
+55185	Joseph Liouville	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Photo_of_Joseph_Liouville_1868.jpg	214,55,601,539	387x484	1	Public domain	Marie Liouville	0
+55611	Alexander Nikolaevich Korkin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Коркин_Александр_Николаевич.jpg	0,0,181,226	181x226	0	Public domain	neznámy autor neznámy autor	0
+56757	Yuri Ivanovich Zhuravlev	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Zhuravlev_001.jpg	93,1,352,324	259x323	1	CC BY-SA 1.0	Andrey S. Inyakin	1
+57659	Johann Tobias Mayer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Tobias_Mayer.png	2,0,239,296	237x296	1	Public domain		0
+57667	Bernhard Friedrich Thibaut	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BernhardFriedrichThibaut.jpg	171,67,499,478	328x411	1	Public domain	neznámy autor neznámy autor	0
+57670	Christian August Hausen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian-August-Hausen-d_J.jpg	118,54,399,406	281x352	1	Public domain	Elias Gottlob Hausmann, (1695-1774)Johann Martin Bernigeroth (1713-17…	0
+57721	Wilhelm Eduard Weber	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wilhelm_Eduard_Weber_IIa.jpg	248,91,751,719	503x628	1	Public domain	Rudolph Hoffmann / Bernhard Petri	0
+58042	Andrei Nikolaevich Tikhonov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Tychonoff.jpg	6,9,276,346	270x337	1	CC BY-SA 2.0 de	Konrad Jacobs, Erlangen	1
+58739	Paul Montel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paul_Montel.jpg	0,0,251,314	251x314	1	Public domain	Anonymousneznámy autor	0
+58750	John Michael Hammersley	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hammersley-at-home_(cropped).jpg	75,66,776,942	701x876	1	CC BY-SA 4.0	Geoffrey Grimmett	1
+58814	Matthias Ehrhardt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof.Dr._Matthias_Ehrhardt.jpg	28,0,671,803	643x803	1	CC BY-SA 3.0	Sebastian Jarych	1
+60099	Horst Sachs	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Horst_Sachs.jpg	31,21,255,300	224x279	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+60782	Johann Andreas Segner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Andreas_von_Segner.jpg	353,320,673,721	320x401	1	Public domain	Fuger pinx; CG Rasp sculps.	0
+60803	Friedrich Adolf Trendelenburg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Trendelenburg.jpg	21,14,147,172	126x158	0	Public domain	neznámy autor neznámy autor	0
+60984	Erhard Weigel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ErhardWeigelRichter.jpg	338,200,927,937	589x737	1	Public domain	Christian Richter	0
+60985	Gottfried Wilhelm Leibniz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg	350,118,991,918	641x800	1	Public domain	Christoph Bernhard Francke	0
+61695	Arthur Joachim von Oettingen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arthur_von_Oettingen2.jpg	52,3,238,235	186x232	0	Public domain	neznámy autor neznámy autor	0
+61848	Hugo Hans von Seeliger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Seeliger_Hugo_von.jpg	8,0,295,358	287x358	1	Public domain	Hector Macpherson	0
+61972	Jana Košecká	slovenskivedci.sk	images/Jana_Kosecka.jpg	142,0,717,719	575x719	1			0
+61986	Franc Solina	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FrancSolina.jpg	0,72,1079,1420	1079x1348	1	CC BY-SA 4.0	Emalora454	1
+62351	Paris Christos Kanellakis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paris_C._Kanellakis_plaque_in_Brown_CS_library.jpg	340,155,969,942	629x787	1	CC BY-SA 3.0	Evgenios M. Kornaropoulos	1
+62547	Johann Franz Friedrich Encke	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Franz_Encke.jpg	0,3,634,795	634x792	1	Public domain	neznámy autor neznámy autor	0
+63570	Friedrich Hund	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hund,_Friedrich_1920er_Göttingen.jpg	0,14,607,773	607x759	1	CC BY 3.0	GFHund	1
+64092	Jean-Pierre Demailly	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jean-Pierre_Demailly.jpg	73,36,223,223	150x187	0	CC BY-SA 2.0 de	Katrin Breithaupt	1
+64245	Dominique B. Picard	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Dominique_Picard.jpg	39,0,1138,1374	1099x1374	1	CC BY-SA 4.0	Profpsy	1
+64314	Petr Vopěnka	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vopenka.jpg	67,0,867,1001	800x1001	1	CC BY 3.0	Lukax	1
+65026	Konrad Zindler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Konrad_Zindler_Universität_Innsbruck.jpg	128,26,1065,1198	937x1172	1	CC BY-SA 4.0	University of Innsbruck	1
+65029	Carl Christian Bruhns	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karl_Christian_Bruhns.jpg	16,0,499,604	483x604	1	Public domain	neznámy autor neznámy autor	0
+65161	Georg Christoph Lichtenberg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Christoph_Lichtenberg.jpg	197,267,736,941	539x674	1	Public domain	After Johann Ludwig Strecker	0
+66101	Carl Anton Bjerknes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrett_av_Carl_Anton_Bjerknes_(1825-1903)_(11286661106)_(cropped).jpg	175,228,1082,1362	907x1134	1	No restrictions	Ludwik Szaciński	0
+66102	Cato Maximilian Guldberg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrett_av_matematikeren_og_fysikeren_Cato_Maximilian_Guldberg,_1891_-_no-nb_digifoto_20160711_00004_blds_02999_(cropped).jpg	0,0,1280,1600	1280x1600	1	Public domain	neznámy autor neznámy autor	0
+66319	Christian Samuel Weiss	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Weiss-christian-samuel-1780-1856--bildnisse-beruehmter-mitglieder-der-deutschen-akademie-der-wissenschaften-zu-berlin-berlin-akademie-verlag-1950-abb024.jpg	174,117,951,1089	777x972	1	Public domain	Anonymousneznámy autor	0
+66476	Abraham Gotthelf Kästner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Abraham_Gotthelf_Kästner.jpg	65,0,488,529	423x529	1	Public domain	From http://www.sil.si.edu/digitalcollections/hst/scientific-identity…	0
+67041	John Trowbridge	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PSM_V26_D740_John_Trowbridge.jpg	0,0,1280,1600	1280x1600	1	Public domain	neznámy autor neznámy autor	0
+67327	Gustav Adolf Harnack	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adolf_Harnack.jpg	0,67,1280,1667	1280x1600	1	Public domain	neznámy autor neznámy autor	0
+67643	Isaac Barrow	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Isaac_Barrow_by_Mary_Beale.jpg	71,7,633,710	562x703	1	Public domain	Mary Beale	0
+68526	Hansjoachim Walther	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hansjoachim_Walther_(cropped).jpg	0,71,354,513	354x442	1	CC BY-SA 3.0 de	Friedrich Gahlbeck	1
+69373	Yosef Sheffi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Yossi_Sheffi_-_PopTech_2012_-_Reykjavik_Iceland_(7466960290).jpg	437,104,827,592	390x488	1	CC BY-SA 2.0	PopTech from Camden, Maine and Brooklyn, NY, USA	1
+70801	Subrahmanyan Chandrasekhar	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Subrahmanyan_Chandrasekhar.jpg	0,0,1280,1600	1280x1600	1	Attribution	AIP Emilio Segrè Visual Archives, Gift of Kameshwar Wali	1
+71565	August Otto Föppl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:August_Föppl.jpg	0,0,256,320	256x320	1	Public domain	neznámy autor neznámy autor	0
+72499	Otakar Borůvka	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Otakar_Boruvka_1981.jpg	0,89,1057,1410	1057x1321	1	CC BY-SA 4.0	JanFrancuBrno	1
+72581	Mathias (Matyas) Lerch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Matyas_Lerch_(1860-1922).jpg	0,0,509,636	509x636	1	Public domain	neznámy autor neznámy autor	0
+72669	Johann Christoph Wichmannshausen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann-Christoph-Wichmannsh.jpg	133,84,337,339	204x255	1	Public domain	neznámy autor neznámy autor	0
+72723	Jörg-Rüdiger Wolfgang Sack	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jörg-Rüdiger_Sack_at_WADS_2015.jpg	0,52,1280,1652	1280x1600	1	CC BY-SA 4.0	David Eppstein	1
+73323	Dmitry Aleksandrovich Grave	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:DmitryGrave.jpg	0,0,261,326	261x326	1	Public domain		0
+73922	Nikolay Grigorievich Chebotarev	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Chebotarev_Nikolai_Grigoryevich.jpg	270,0,846,720	576x720	1	Public domain	neznámy autor neznámy autor	0
+74313	Isaac Newton	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg	155,0,1231,1345	1076x1345	1	Public domain	Godfrey Kneller	0
+74408	Boris Nikolaevich Delone	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Delone_cropped_1924.jpg	33,21,136,149	103x128	0	Public domain	neznámy autor neznámy autor	0
+74462	Wolfgang Gröbner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wolfgang_Grobner.jpg	0,17,277,363	277x346	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+75239	József Kürschák	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kürschák_József,_MTA_emlékbeszédek,_1934.jpg	65,0,1158,1367	1093x1367	1	Public domain	neznámy autor , not named in the original source	0
+75411	Jindřich Nečas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:JindrichNecas1999.jpg	0,0,461,576	461x576	1	CC BY-SA 4.0	JanFrancuBrno	1
+76334	Dénes König	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Denes_Konig_1928.jpg	0,0,410,512	410x512	1	Public domain	no conegut	0
+76481	Elias Rudolph Camerarius, Sr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Elias_Rudolf_Camerarius.jpg	114,16,344,303	230x287	1	Public domain	Anonymousneznámy autor	0
+76482	Elias Rudolph Camerarius, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Elias_Camerarius.jpg	406,179,885,778	479x599	1	Public domain	Georg Kilian (Stecher)	0
+76483	Burchard David Mauchart	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Burkhard_David_Mauchart_1696-1751_001.jpg	186,0,1006,1024	820x1024	1	Public domain	Wolfgang Dietrich Majer	0
+76484	Phillip Friedrich Gmelin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Philipp_Friedrich_Gmelin.jpg	109,0,425,395	316x395	1	Public domain	Anonymousneznámy autor	0
+76485	Johann Friedrich Gmelin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Friedrich_Gmelin.jpg	7,0,273,333	266x333	1	Public domain	Materialscientist	0
+76486	Georg Friedrich Hildebrandt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Hildebrandt.jpg	0,0,579,723	579x723	1	Public domain	Friedrich Wilhelm Nettling	0
+76947	Nikolay Nikolaevich Bogolyubov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:N._N._Bogoliubov_(1930).jpg	0,29,558,726	558x697	1	Public domain	neznámy autor neznámy autor	0
+76982	Nikolay Mitrofanovich Krylov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Крылов_Николай_Митрофанович_(конверт).jpg	102,68,287,300	185x232	0	Public domain	Пчелко Игорь Иванович (1931 – 2009)	0
+77899	Bernt Michael Holmboe	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:HolmboeBM2.jpg	0,0,300,375	300x375	1	Public domain	Johan Andreas Aubert	0
+78102	László Babai	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Laszlo_Babai.jpg	95,10,310,279	215x269	1	CC BY-SA 2.0 de	Schmid, Renate	1
+78732	Alfred North Whitehead	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg	0,0,390,488	390x488	1	Public domain	neznámy autor	0
+79309	Gerhard Wanner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gerhard_wanner.jpg	334,47,675,473	341x426	1	CC BY-SA 2.0 de	Renate Schmid	1
+80886	Benjamin Peirce	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BenjaminPeirce5.jpg	25,0,269,306	244x306	1	Public domain	neznámy autor neznámy autor	0
+80983	Jaroslav Nešetřil	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jarik0.jpg	301,60,1214,1202	913x1142	1	CC BY-SA 2.5	copyright Hubert de Fraysseix (2002)	1
+81192	Elie Cartan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Élie_Cartan.jpg	0,0,1255,1569	1255x1569	1	Public domain	Studio Harcourt	0
+81539	Miroslav Katětov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Miroslav_Katětov_(Obrana_lidu,_1953).png	0,69,480,669	480x600	1	Public domain	neznámy autor neznámy autor	0
+82262	Rastislav Bodík	slovenskivedci.sk	images/Rastislav_Bodik.jpg	90,0,198,135	108x135	0			0
+82936	Steven Benjamin Damelin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Stevenbdamelin.jpg	0,0,177,221	177x221	0	CC BY-SA 4.0	Stevenbdamelin	1
+83137	Theodore Wilbur Anderson, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:TW_Anderson.jpeg	42,44,221,268	179x224	0	CC BY-SA 2.0 de	Jacobs, Konrad	1
+83827	Fritz Victor Franz Hasenöhrl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hasenoehrl.jpg	139,0,1075,1169	936x1169	1	Public domain		0
+84255	Peter Peer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Peter_Peer_2.jpg	0,92,1280,1692	1280x1600	1	CC BY-SA 4.0	Franc Solina	1
+86245	Lev Naumovich Shevrin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Shevrin_l_n.jpg	0,35,558,732	558x697	1	CC BY-SA 2.0 de	Konrad Jacobs	1
+86693	Henri Léon Lebesgue	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Lebesgue_2.jpeg	0,0,283,354	283x354	1	Public domain		0
+88093	Martin Pál	slovenskivedci.sk	images_not_used/Martin_Pal_FULL.jpg	607,0,1065,572	458x572	1			0
+88383	Erich Peter Klement	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Klement_Portr_1.jpg	0,0,180,225	180x225	0	CC BY-SA 3.0 de	Privat, Professor Erich Peter Klement	1
+88810	Josselin Garnier	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Josselin_Garnier_(cropped).jpg	0,0,1280,1600	1280x1600	1	CC BY-SA 2.0	Ecole polytechnique Université Paris-Saclay	1
+89456	Samuel Ross Madden	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:MIT-SamuelMadden.jpg	101,22,373,362	272x340	1	Public domain	TheDownUnderBlunder	0
+90711	Moritz Réthy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Réthy_Mór_matemetikus.jpeg	60,0,265,257	205x257	1	Public domain	Mór Erdélyi	0
+91104	André Lichnérowicz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:André_Lichnerowicz_1978_(re-scanned,_headshot).jpg	0,0,1279,1599	1279x1599	1	CC BY-SA 4.0	George Bergman	1
+91349	Miloš Hauskrecht	slovenskivedci.sk	images/Milos_Hauskrecht_FULL.jpg	536,0,1111,719	575x719	1			0
+92586	Johann Christian Polykarp Erxleben	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Erxleben_1.jpg	134,0,901,960	767x960	1	Public domain	Unidentified painter	0
+95539	John Newport Langley	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Newport_Langley2.jpg	0,0,891,1114	891x1114	1	CC BY 4.0	neznámy autor neznámy autor	1
+95540	Micheal Foster	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Michael_Foster,_ante_1907_-_Accademia_delle_Scienze_di_Torino_0121_B.jpg	0,0,1272,1590	1272x1590	1	Public domain	neznámy autor neznámy autor	0
+95541	Thomas Henry Huxley	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:T.H.Huxley(Woodburytype).jpg	5,0,219,268	214x268	1	Public domain	Lock & Whitfield	0
+95542	Thomas Wharton Jones	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Thomas_Wharton_Jones2.jpg	302,92,1011,978	709x886	1	CC BY 4.0	neznámy autor neznámy autor	1
+95657	Jiri Wiedermann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof._Wiedermann.jpg	325,139,444,288	119x149	0	CC BY-SA 4.0	David Černý	1
+96164	Paul Gerhard Natorp	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paul_Natorp.jpg	0,0,476,595	476x595	1	Public domain	neznámy autor neznámy autor	0
+96283	Édouard Goursat	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Goursat_Edouard.jpg	0,0,160,200	160x200	0	Public domain	neznámy autor neznámy autor	0
+96327	Franz Josef Ritter von Gerstner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Joseph_Gerstner_(1756–1832)_(cropped).jpg	135,86,442,471	307x385	1	Public domain	Johann Nepomuk Passini	0
+96330	Bernard(us) Placidus Johann Nepomuk Bolzano	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BBolzano.jpg	144,126,1070,1283	926x1157	1	Public domain	neznámy autor neznámy autor	0
+96350	Franz Xaver Moth	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Xaver_Moth_Litho.jpg	282,146,947,977	665x831	1	Public domain	Adolf Dauthage	0
+96357	Jozef Maximilián Petzval	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Luckhardt,_Fritz_-_Dr._Josef_Petzval_(Zeno_Fotografie).jpg	62,0,649,733	587x733	1	Public domain	Luckhardt, Fritz	0
+96930	Arieh Iserles	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Iserles_arieh.jpg	325,52,666,479	341x427	1	CC BY-SA 2.0 de	Renate Schmid	1
+98817	Werner Purgathofer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Werner_Purgathofer_portrait_on_2014-05-22.jpg	0,12,1280,1612	1280x1600	1	CC BY-SA 4.0	Robert F. Tobler	1
+99093	Jan Kratochvíl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof._Kratochvíl.jpg	680,100,1009,512	329x412	1	CC BY-SA 4.0	Lucie Filipenská	1
+99198	Gábor Tardos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gábor_Tardos.jpg	109,44,237,204	128x160	0	CC BY-SA 2.0 de	Vetter, Ivonne	1
+99432	Wander Johannes de Haas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wander_Johannes_de_Haas_(1878-1960)._De_huldiging_van_Professor_Lorentz_bij_de_Hollandse_Maatschappij_der_Wetenschappen_in_1925_(cropped).jpg	31,61,151,211	120x150	0	Public domain	Anonymousneznámy autor	0
+99434	Heike Kamerlingh Onnes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kamerlingh_portret.jpg	0,0,600,750	600x750	1	Copyrighted free use	neznámy autor neznámy autor	0
+100601	Richard Van Rees	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Richard-van-Rees.jpg	262,5,1025,960	763x955	1	Public domain	Johan Heinrich Neuman (1819-1898)	0
+101850	Joseph Barth	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Barth_(1746-1818),_by_Heinrich_Friedrich_Füger.jpg	303,207,1092,1193	789x986	1	Public domain	Heinrich Füger	0
+101851	Georg Joseph Beer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Joseph_Beer.jpg	138,0,821,854	683x854	1	Public domain	Engraved by Laurens from artwork by Kininger	0
+101852	Johan Peter Frank	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Peter_Frank.jpg	91,25,1084,1266	993x1241	1	Public domain	Adolph Kunike	0
+101853	Anton von Störck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Anton_von_Störck_2.jpg	128,41,917,1027	789x986	1	Public domain	neznámy autor neznámy autor	0
+101854	Gerard van Swieten	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gerard_van_Swieten_Kaiserbild.jpg	58,31,282,312	224x281	1	CC BY-SA 3.0	El bes	1
+101856	Herman Boerhaave	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Herman_Boerhaave,_by_Cornelis_Troost.jpg	334,102,973,901	639x799	1	Public domain	Cornelis Troost	0
+101860	Franciscus de le Boë Sylvius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Franciscus_de_le_Boë_Sylvius_Franciscus_Deleboe_Sylvius_medicinae_practicae_in_academia_Lugduno-Batava_professor_(titel_op_object),_RP-P-OB-33.613.jpg	359,182,1017,1005	658x823	1	CC0	Rijksmuseum	0
+101865	Philipp Franz von Walther	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Philipp_Franz_von_Walther_-_königlicher_Leibarzt.jpg	40,9,207,218	167x209	0	Public domain	neznámy autor neznámy autor	0
+101893	Johann Salomo Christoph Schweigger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Salomo_Christoph_Schweigger.gif	0,9,295,377	295x368	1	Public domain	neznámy autor First Upload from Bunzil at en.wikipedia	0
+101929	Edward John Routh	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edward_J_Routh.jpg	0,0,255,319	255x319	1	Public domain	en:user:QueenAdelaide	0
+101979	John William Strutt (Lord Rayleigh)	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_William_Strutt.jpg	56,0,601,681	545x681	1	Public domain	neznámy autor neznámy autor	0
+102036	Thomas Jones	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Thomas_jones_at_cambridge.jpg	19,0,259,300	240x300	1	Public domain	neznámy autor neznámy autor	0
+102043	Adam Sedgwick	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adam_Sedgwick.jpg	84,28,194,166	110x138	0	Public domain	Thomas Phillips, R.A., 1770 - 1845	0
+102203	Yurii Evgenievich Nesterov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nesterov_yurii.jpg	205,78,595,566	390x488	1	CC BY-SA 2.0 de	Renate Schmid	1
+102234	Georg Gottlob	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_gottlob-official3.png	0,35,1280,1635	1280x1600	1	Copyrighted free use	neznámy autor hired photographer	0
+102284	Johann Eduard Erdmann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Eduard_Erdmann.jpg	44,0,530,607	486x607	1	Public domain	Daheim-Kalender 1894, S. 253	0
+102292	Kuno Ernst Berthold Fischer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Kuno_Berthold_Fischer_(HeidICON_3746)_(cropped).jpg	144,47,588,603	444x556	1	CC BY-SA 4.0	neznámy autor	1
+102483	George Gabriel Stokes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:George_Gabriel_Stokes,_ante_1903_-_Accademia_delle_Scienze_di_Torino_0155_B.jpg	114,0,1062,1185	948x1185	1	Public domain	Swan Electric Engraving Co.	0
+103067	Roger Cotes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Roger_Cotes.png	13,0,149,170	136x170	0	Public domain	neznámy autor neznámy autor	0
+103068	Robert Smith	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Robertsmith1689-1768.jpg	288,14,925,811	637x797	1	Public domain	John Vanderbank	0
+103809	Zdeněk Frolík	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Zdenek_Frolik.png	0,1,598,749	598x748	1	CC BY-SA 3.0	Frolikwiki	1
+104394	Karl Asmund Rudolphi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karl_Rudolphi.jpg	25,0,498,591	473x591	1	Public domain	The original uploader was Anilocra at English Wikipedia.	0
+104652	Louis Jacques Thenard	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Louis_Jacques_Thénard.jpg	50,0,596,682	546x682	1	Public domain		0
+104900	William McKenzie	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:William_Mackenzie_(1791-1868).jpg	154,0,1081,1158	927x1158	1	CC BY 4.0	John Dixon Comrie	1
+105756	Hendrik Antoon Lorentz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:H_A_Lorentz_(Nobel).jpg	0,0,280,350	280x350	1	Public domain	neznámy autor neznámy autor	0
+105806	James Clerk Maxwell	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg	41,0,772,913	731x913	1	Public domain	neznámy autor neznámy autor	0
+106421	Erwin Richard Fues	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fues-erwin-in-trommsdorff-paul-der-lehrkoerper-der-TH-hannover-1831-1931-hannover-1931-s030.jpg	0,19,605,775	605x756	1	Public domain	Anonymousneznámy autor	0
+106530	Christian Ehrenfried von Weigel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Ehrenfried_von_Weigl_(Wilhelm_Titel)-WUS08830_(cropped).jpg	274,196,1042,1156	768x960	1	Public domain	Wilhelm Titel	0
+106920	Hermann Cohen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Brockhaus_and_Efron_Jewish_Encyclopedia_e9_615-0.jpg	0,0,465,581	465x581	1	Public domain	neznámy autor neznámy autor	0
+106921	Immanuel Kant	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_2.jpg	0,0,861,1076	861x1076	1	Public domain	Becker	0
+107016	Gyula Vályi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vályi_Gyula.jpg	0,0,400,500	400x500	1	Public domain	the original uploader was Wikizoli at Hungarian Wikipedia	0
+107391	Friedrich Wilhelm Joseph von Schelling	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Joseph_Schelling,_1848_daguerreotype_-_cropped.jpg	45,0,578,666	533x666	1	Public domain	Hermann Biow (1804–1850), Berlin	0
+107399	Johann Gottlieb Fichte	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Gottlieb_Fichte_by_Friedrich_Bury.jpg	215,62,833,834	618x772	1	Public domain	Albrecht Fürchtegott Schultheiß	0
+107498	Georg Wilhelm Friedrich Hegel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg	0,14,1280,1614	1280x1600	1	Public domain	Jakob Schlesinger	0
+107558	Aleksei Nikolaevich Krylov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:А._Н._Крылов_(6).jpg	14,0,235,276	221x276	1	Public domain	neznámy autor neznámy autor	0
+108266	Jean Le Rond d'Alembert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jean_Le_Rond_d'Alembert,_by_French_school.jpg	284,0,1122,1048	838x1048	1	Public domain	After Maurice Quentin de La Tour	0
+108295	Pierre-Simon Laplace	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre-Simon,_marquis_de_Laplace_(1745-1827)_-_Guérin.jpg	335,103,617,455	282x352	1	Public domain	Jean-Baptiste Paulin Guérin	0
+108746	Eduard Gröller	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Eduard_Gröller_2018-11-08.jpg	0,49,1280,1649	1280x1600	1	CC BY-SA 4.0	Skunk	1
+110515	Warren Buckler Powell	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Warren-pic_(1).jpg	0,0,1280,1600	1280x1600	1	CC0	Uriee Dave	0
+110750	Marcel Gilles Jozef Minnaert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marcel_Minnaert.jpg	0,49,403,552	403x503	1	Public domain	Baszoetekouw at en.wikipedia	0
+110893	Jan Hendrik van Swinden	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan_Hendrik_van_Swinden_(1746-1823),_by_Anonymous.jpg	313,69,1003,931	690x862	1	Public domain	Unidentified painter	0
+110897	Samuel König	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Konig_Samuel.jpeg	0,0,309,386	309x386	1	Public domain	neznámy autor neznámy autor	0
+110898	Antonius Brugmans	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:AntoniusBrugmans.jpg	224,117,485,444	261x327	1	Public domain	neznámy autor painter	0
+110949	Gerard Moll	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gerrit_Moll_(1785_-_1838)_07.jpg	118,0,398,349	280x349	1	Public domain	neznámy autor neznámy autor	0
+111171	Tomáš Vinař	slovenskivedci.sk	images/Tomas_Vinar_FULL.jpeg	209,0,544,419	335x419	1			0
+111470	Peter Richtárik	slovenskivedci.sk	images/Peter_Richtarik.jpg	133,11,277,191	144x180	0			0
+112492	Anne Barbara Underhill	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Anne_Underhill_in_de_bibliotheek_van_Sonnenborgh,_Utrecht_Observatory,_1962-1965.jpg	119,78,423,457	304x379	1	CC BY-SA 4.0	Hans Nieuwenhuijzen	1
+112543	Cornelis de Jager	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kees-de-jager-1967.jpg	0,22,462,600	462x578	1	CC BY-SA 3.0	Rob Rutten	1
+112544	Cornelis Zwaan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Kees_Zwaan,_1961-1965.jpg	0,27,545,708	545x681	1	CC BY-SA 4.0	Hans Nieuwenhuijzen	1
+112601	William Whewell	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrait_of_W._Whewell;_stipple_engraving_Wellcome_L0014766.jpg	147,0,1224,1347	1077x1347	1	CC BY 4.0		1
+112602	George Peacock	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:George_Peacock_2.jpg	227,104,480,421	253x317	1	Public domain	Douglas Yeoman Blakiston (1832–1914)	0
+112646	Augustus De Morgan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:De_Morgan_Augustus.jpg	155,27,958,1031	803x1004	1	Public domain	Sophia Elizabeth De Morgan	0
+112689	Pierre Varignon	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre_Varignon._Line_engraving_by_E._Desrochers._Wellcome_V0005993.jpg	264,0,1098,1042	834x1042	1	CC BY 4.0		1
+112692	Joseph Serrurier	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Josephus_Serrurier.jpg	14,17,1280,1600	1266x1583	1	Public domain	neznámy autor neznámy autor	0
+112701	Jean-Dominique (Giovanni Domenico) Cassini	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Cassini.jpg	76,28,217,204	141x176	0	Public domain	neznámy autor neznámy autor	0
+112713	Edward Peter Jacobus van den Heuvel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ed_van_den_Heuvel.jpg	6,0,165,198	159x198	0	CC BY-SA 2.5	Photograph by Vincent Kerkhoven; Erik Baas at Dutch Wikipedia (Origin…	1
+112748	Jacques Cassini	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacques_Cassini.png	180,15,350,227	170x212	0	Public domain	Engraving by L. Coquin	0
+112764	Jacob Odé	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:JacobusOde-Colasius.jpg	88,15,280,256	192x241	1	Public domain	Johan George Colasius	0
+112788	Joseph Nicolas Delisle (de L'Isle )	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Nicolas_Delisle_AGE_V11_1803.jpg	176,36,694,685	518x649	1	Public domain	Konrad Westermayr	0
+112812	Johann Friedrich Hennert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:J_F_Hennert_01.jpg	0,0,640,800	640x800	1	CC0	Drehrumbum	0
+112841	Johannes Lulofs	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Lulofs.jpg	229,69,727,691	498x622	1	Public domain	Hieronymus van der Mij	0
+112876	Pierre Charles Le Monnier	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre_Charles_Lemonnier.jpg	251,67,602,506	351x439	1	Public domain	Nicolas Bernard Lépicié	0
+112889	Joseph Jérôme LeFrançais de LaLande	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jérôme_de_La_Lande.jpg	352,185,894,862	542x677	1	Public domain	Jean-Honoré Fragonard	0
+113010	Andreas von Ettingshausen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Andreas_von_Ettingshausen.jpg	141,0,669,659	528x659	1	Public domain		0
+113011	Ernst Mach	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst-Mach-1900.jpg	116,0,612,620	496x620	1	Public domain	Charles Scolik	0
+113012	Heinrich Gomperz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Schiele_-_Heinrich_Gomperz,_Univ.-Prof.,_Dr._Philosoph,_102021,_1918_(cropped).jpg	200,92,922,995	722x903	1	Public domain	Egon Schiele	0
+113041	Jean-Baptiste Joseph Delambre	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jean_Baptiste_Joseph_Delambre.png	87,0,628,676	541x676	1	Public domain	Julien-Léopold Boilly	0
+113082	William Sharpey	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:William_Sharpey_3.jpg	118,41,300,267	182x226	0	Public domain	Maull & Polyblank (active 1854-1865)	0
+113719	Ehrenfried Walter von Tschirnhaus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Tschirnhaus.jpg	120,83,336,354	216x271	1	Public domain	Martin Bernigeroth	0
+114105	Franz-Serafin Exner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz-Serafin_Exner.JPG	230,35,557,443	327x408	1	Public domain		0
+114927	Daniel Berckringer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Daniel_Berckringer.jpg	51,0,1280,1536	1229x1536	1	Public domain	neznámy autor neznámy autor	0
+114945	Johannes de Bruyn	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_de_Bruyn.jpg	57,0,750,867	693x867	1	Public domain	W. Swanenborch	0
+114992	Gilbert Jacchaeus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gilbertus_Jacchaeus.jpg	46,70,323,415	277x345	1	Public domain	Jacob Marci and Justum a Colster	0
+115008	Franck Pieterszoon Burgersdijk	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franco_Petri_Burgersdijk.jpg	208,0,709,626	501x626	1	Public domain	neznámy autor neznámy autor	0
+115030	Henricus (Hendrik de Roy) Regius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Regius,_Henricus_–_Philosophia_naturalis,_1661_–_BEIC_3881650.jpg	188,163,610,690	422x527	1	Public domain	Henricus Regius	0
+115093	Adriaan van Royen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adriaan_van_Royen.jpg	286,51,981,920	695x869	1	Public domain	Hieronymus van der Mij	0
+115095	Adriaan Heereboord	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Adrianus_Heereboord,_hoogleraar_te_Leiden_BN_605.tiff	297,203,1056,1151	759x948	1	CC BY 4.0	Beck, T.G.	1
+115139	Johannes de Raey	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_de_Raey.jpg	103,40,294,279	191x239	0	Public domain	Anonymousneznámy autor	0
+115155	Wolferd Senguerdius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wolferdus-Senguerdius.jpg	251,152,745,770	494x618	1	Public domain	neznámy autor neznámy autor	0
+115395	Antonius Thysius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Antonius-Thysius.jpg	121,112,501,588	380x476	1	Public domain	neznámy autor neznámy autor	0
+115471	Arnold Senguerdius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arnoldus_Senguerdius.jpg	0,0,1280,1600	1280x1600	1	Public domain	neznámy autor neznámy autor	0
+117390	Juraj Hromkovič	slovenskivedci.sk	images/Juraj_Hromkovic.jpg	264,0,635,464	371x464	1			0
+119097	Gemma (Jemme Reinerszoon) Frisius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Reinerus_Frisius_Gemma,_by_Maarten_van_Heemskerck.jpg	459,0,984,656	525x656	1	Public domain	Maarten van Heemskerck	0
+119159	Johannes Winter von Andernach	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Winter_von_Andernach_(1505-1574).jpg	24,0,357,416	333x416	1	Public domain	Jean-Jacques Boissard (1528-1602), Teodoro de Bry (1528-1598)	0
+119178	Andreas (Andries van Wesel) Vesalius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_portrait.jpg	75,29,538,607	463x578	1	Public domain	Attributed to Jan van Calcar	0
+119254	Justus (Joost Lips) Lipsius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Justus_Lipsius_by_Peter_Paul_Rubens.jpg	233,48,1009,1018	776x970	1	Public domain	After Abraham Janssens I / After Peter Paul Rubens / Peter Paul Rubens	0
+119272	Erycius (Henrick van den Putte) Puteanus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Erycius_Putreanus,_Circle_of_Peter_Paul_Rubens.jpg	225,0,1096,1089	871x1089	1	Public domain	Circle of Peter Paul Rubens	0
+119293	Arnold Geulincx	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arnold_Geulincx.gif	0,0,146,182	146x182	0	Public domain	neznámy autor neznámy autor	0
+122049	Pavol Quittner	slovenskivedci.sk	images/Pavol_Quittner.jpg	859,0,3258,2999	2399x2999	1			0
+122294	Marek Fila	slovenskivedci.sk	images/Marek_Fila.jpg	674,0,2219,1931	1545x1931	1			0
+122622	Sydney Chapman	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Sydney_Chapman.jpg	41,12,230,249	189x237	0	Public domain	NOAA	0
+122737	Stepan Rumovsky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rumovsky.jpg	168,8,699,671	531x663	1	Public domain	M. A. Kashentsev (drawing), A. O. Mosharsky (litho)	0
+123952	Radko Mesiar	slovenskivedci.sk	images/Radko_Mesiar.jpeg	221,0,491,337	270x337	1			0
+123957	Ferdinand Christoph Oetinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ferdinand_Christoph_Oetinger_(1719-1772).jpg	84,1,216,166	132x165	0	Public domain	neznámy autor neznámy autor	0
+123967	Robert Wilhelm Eberhard Bunsen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Robert_Wilhelm_Bunsen_(HeidICON_53016)_(cropped).jpg	203,0,1075,1090	872x1090	1	CC BY-SA 4.0	neznámy autor	1
+123968	Michael Alberti	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Michael_Alberti_woodcut.jpg	409,130,827,653	418x523	1	Public domain	neznámy autor neznámy autor	0
+123972	Viktor von Lang	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Viktor-von-Lang.jpg	15,0,111,121	96x121	0	Public domain		0
+123973	August Adolph Eduard Eberhard Kundt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:August_Kundt-1893-1894.png	0,135,1006,1392	1006x1257	1	Public domain	Anton Hruschka	0
+123974	Georg Balthasar Metzger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Balthasar_Metzger.jpg	59,0,282,278	223x278	1	Public domain	neznámy autor neznámy autor	0
+123977	Georg Ernst Stahl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Ernst_Stahl.png	248,156,556,540	308x384	1	Public domain		0
+123978	Heinrich Gustav Magnus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Heinrich_Gustav_Magnus.jpg	97,142,779,995	682x853	1	Public domain		0
+123979	Friedrich Stromeyer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Stromeyer.jpg	55,0,290,293	235x293	1	Public domain	neznámy autor ; original upload by user Grzes14 on pl.wikipedia	0
+123999	Eilhard Mitscherlich	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Eilhard_Mitscherlich_foto_(cropped).jpg	244,178,1006,1131	762x953	1	Public domain	S. Friedlander	0
+124285	Abraham Gottlob Werner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Abraham_Gottlob_Werner.jpg	67,73,515,633	448x560	1	Public domain	Christian Leberecht Vogel	0
+124286	René Just Haüy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:René_Just_Haüy_2.jpg	130,83,704,800	574x717	1	Public domain	Ambroise Tardieu (1788-1841)	0
+124486	Nikolaus Joseph von Jacquin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nikolaus_Josef_Freiherr_von_Jacquin_(Botaniker_und_Chemiker)_(1811),_Joseph_Krafft.jpg	144,0,1079,1169	935x1169	1	Public domain	Joseph Krafft	0
+124490	Johann Carl Gehler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Carl_Gehler.jpg	121,42,490,503	369x461	1	Public domain	neznámy autor neznámy autor	0
+124845	Christian Gottlieb Ludwig	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ChristianGottliebLudwig.jpg	304,191,702,689	398x498	1	Public domain	Johann Jakob Haid / Elias Gottlob Haussmann	0
+125002	Augustin Friedrich Walther	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Aug_Fried_Walther.jpg	110,81,386,426	276x345	1	Public domain	neznámy autor neznámy autor	0
+125006	Adriaan van den Spieghel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Adriaan_van_den_Spiegel_Adrianvs_Spigelivs_(titel_op_object),_RP-P-1910-1780_(cropped).jpg	0,0,1280,1600	1280x1600	1	CC0	Rijksmuseum	0
+125023	Adolph Vorstius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adolphus-Vorstius.jpg	278,35,1065,1019	787x984	1	Public domain	Abraham van den Tempel (1622/23-1671)	0
+125047	Petrus (Pierre de La Ramée) Ramus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Pierre_de_La_Ramée_Petrus_Ramus_math._pro_reg._(titel_op_object)_Serie_portretten_van_vijftiende-_en_zestiende-eeuwse_geleerden_(serietitel),_RP-P-1910-4265_(cropped).jpg	161,0,995,1043	834x1043	1	CC0	Rijksmuseum	0
+125109	Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Girolamo_Fabrizi_d'Acquapendente.jpg	178,0,1077,1123	899x1123	1	Public domain		0
+125124	Johannes (Johan van Heurne) Heurnius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Heurnius_01.jpg	159,207,893,1124	734x917	1	Public domain	Sebastian Furck	0
+125142	Gabriele Falloppio	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gabriele_Falloppio.jpg	21,0,244,279	223x279	1	Public domain	neznámy autor neznámy autor	0
+125148	Theodor Zwinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bildnis_des_Theodor_Zwinger.jpg	137,127,1060,1280	923x1153	1	CC0	Hans Bock der Ältere	0
+125154	Werner Rolfinck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:WernerRolfinck.jpg	365,8,945,734	580x726	1	Public domain	neznámy autor neznámy autor	0
+125159	Immanuel Tremellius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Immanuel_Tremellius.PNG	49,22,345,392	296x370	1	Public domain	neznámy autor neznámy autor	0
+125173	Otho (Otto van Heurne) Heurnius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Otto_Heurnius.jpg	150,88,883,1004	733x916	1	Public domain	neznámy autor neznámy autor	0
+125181	Rudolph (Snel van Royen) Snellius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolph_Snellius.gif	59,0,997,1173	938x1173	1	Public domain	Theodor de Bry	0
+125232	Ludolph van Ceulen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Ludolph_van_Ceulen,_RP-P-OB-15.347.jpg	170,78,1168,1326	998x1248	1	CC0	Rijksmuseum	0
+125233	Petrus (Pierre du Moulin) Molinaeus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Pierre_du_Moulin_op_74-jarige_leeftijd_Petrus_Molinaeus_Phil._(..)_et_Th._prof._Aetat_LXXIV_(titel_op_object),_RP-P-BI-6718.jpg	239,150,1072,1191	833x1041	1	CC0	Rijksmuseum	0
+125302	Willebrord (Snel van Royen) Snellius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Willebrordus_Snellius,_RP-P-OB-15.346.jpg	217,121,1072,1190	855x1069	1	CC0	Rijksmuseum	0
+125303	Matteo Realdo (Renaldus Columbus) Colombo	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Matteocolombo.jpg	24,10,194,223	170x213	0	Public domain		0
+125378	Thomas Erpenius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Thomas_Erpenius,_RP-P-1906-1568.jpg	46,17,1101,1336	1055x1319	1	CC0	Rijksmuseum	0
+125390	Pieter (Petrus Pavius) Pauw	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Petrus_Paauw,_hoogleraar_te_Leiden_BN_1098.tiff	101,0,1280,1474	1179x1474	1	CC BY 4.0	Anonymousneznámy autor	1
+125408	Jacobus Golius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Jacob_Golius,_hoogleraar_Arabisch_en_Wiskunde_te_Leiden_Icones_81.tiff	296,156,878,883	582x727	1	CC BY 4.0	Leiden University Library	1
+125416	Jan Jansz Stampioen, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Johannes_Stampioen,_RP-P-1906-894.jpg	353,146,974,922	621x776	1	CC0	Rijksmuseum	0
+125422	Jacobus (Jacques Dubois) Sylvius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacobus_Sylvius_1478-1555.jpg	31,0,857,1033	826x1033	1	Public domain		0
+125434	Marin Mersenne	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:MarinMersenneDuflos.jpg	337,114,975,912	638x798	1	Public domain	Claude Duflos	0
+125450	Frans van Schooten, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man_with_a_Tall_Hat_and_Gloves,_Rembrandt_van_Rijn,_c._1656,_National_Gallery_of_Art,_Washington.jpg	360,77,884,732	524x655	1	Public domain	Rembrandt	0
+125488	Georg Wolffgang Wedel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fotothek_df_tg_0009002_Medizin_^_Porträt.jpg	0,30,436,575	436x545	1	Public domain	Deutsche Fotothek	0
+125561	Christiaan Huygens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christiaan-huygens4.jpg	276,37,972,907	696x870	1	Public domain	Bernard Vaillant	0
+125658	Nicolas (Nicolaes Cleynaerts) Clénard	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Musea_Brugge,_HUB,_2014_GRO2107_III_(cropped).jpg	207,109,782,827	575x718	1	CC0	Edme de Boulonois	0
+125665	Johannes (Johann Sturm) Sturmius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Sturm_by_Jacob_van_der_Heyden.jpg	42,0,172,162	130x162	0	Public domain	Jacob van der Heyden after Tobias Stimmer	0
+125681	Jacobus (Jacques Masson) Latomus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Jacobus_Latomus_Jacobus_Latomus_theologus._(titel_op_object)_Serie_portretten_van_vijftiende-_en_zestiende-eeuwse_geleerden_(serietitel),_RP-P-1907-5608.jpg	431,194,814,674	383x480	1	CC0	Rijksmuseum	0
+125760	Johann (Johannes Kapnion) Reuchlin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Reuchlin_-_Imagines_philologorum.jpg	40,36,532,651	492x615	1	Public domain		0
+125846	Johann Adolph Wedel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann-Adolph-Wedel.jpg	175,74,1028,1141	853x1067	1	Public domain	Johann Martin Bernigeroth	0
+125886	Georg Erhard Hamberger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Erhard_Hamberger._Line_engraving_by_M._Bernigeroth._Wellcome_V0002540.jpg	256,106,1050,1099	794x993	1	CC BY 4.0		1
+125888	Jan Standonck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan_Standonck_(1453-1504).jpg	215,111,1000,1093	785x982	1	Public domain	J. C. Robin (painter); J. B. Guyard (engraver)	0
+125892	Petrus (Pieter de Corte) Curtius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pieter_de_Corte_(1562-1567).jpg	85,0,1250,1456	1165x1456	1	CC BY-SA 4.0	Michiel Van Mulders	1
+125938	Desiderius Erasmus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg	296,96,904,856	608x760	1	Public domain	Hans Holbein the Younger	0
+126109	Johannes Müller Regiomontanus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Regiomontanus2.jpg	85,19,437,459	352x440	1	Public domain	neznámy autor neznámy autor	0
+126111	Daniel Sennert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:SVE_0056.2000.S.jpeg	385,250,945,950	560x700	1	CC0	Matthäus Merian, engraver	0
+126119	Johann August Ernesti	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_August_Ernesti_-_Imagines_philologorum.png	44,17,362,415	318x398	1	Public domain	Anton Graff	0
+126124	Christian Gottlob Heyne	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Gottlob_Heyne_Tischbein_1772.jpg	81,38,212,202	131x164	0	Public domain	Johann Heinrich Wilhelm Tischbein	0
+126177	Nicolaus (Mikołaj Kopernik) Copernicus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg	71,7,1204,1424	1133x1417	1	Public domain	neznámy autor neznámy autor	0
+126355	Leopold Gmelin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Leopold_Gmelin.jpg	158,64,708,752	550x688	1	Public domain	J. Woelfyle pinxt. G. Cook sculp.	0
+126371	Joseph Franz von Jacquin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Franz_von_Jacquin.jpg	293,92,997,972	704x880	1	Public domain	Josef Kriehuber	0
+126489	Jacobus (Jacob Harmensz.) Arminius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:James_Arminius_2.jpg	64,33,257,274	193x241	1	Public domain	David Bailly	0
+126539	Martin Bača	slovenskivedci.sk	images/Martin_Baca.jpeg	164,0,394,287	230x287	1			0
+126659	Ulrich Zasius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Huldrichus_Zasius.jpg	106,65,294,300	188x235	0	Public domain	The original uploader was Sixat at German Wikipedia.	0
+126667	Jakob Milich	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacob_Milich._Line_engraving_by_T._de_Bry,_1650._Wellcome_V0004012.jpg	190,0,1073,1105	883x1105	1	CC BY 4.0		1
+126888	Luca Pacioli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pacioli.jpg	463,0,821,447	358x447	1	Public domain	Attributed to Jacopo de' Barbari	0
+126895	Christian Wilhelm Küstner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Wilhelm_Küstner.jpg	144,0,471,408	327x408	1	Public domain	Elias Gottlob Haußmann	0
+126956	Philipp Melanchthon	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PhilippMelanchthon.jpg	301,210,980,1059	679x849	1	Public domain	Lucas Cranach the Elder and workshop	0
+127107	Johannes Stöffler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fotothek_df_tg_0004740_Porträt.jpg	185,50,485,425	300x375	1	Public domain	Deutsche Fotothek	0
+127165	Menelaus Winsemius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:MenelaosWinsemius.jpg	200,128,496,498	296x370	1	Public domain	neznámy autor painter	0
+127166	Niccolò Leoniceno	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Niccolò_Leoniceno_(1428-1524).png	143,25,377,318	234x293	1	CC BY-SA 4.0	Clendening Library Portrait Collection	1
+127181	Girolamo (Hieronymus Aleander) Aleandro	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Aleander.jpg	29,19,254,300	225x281	1	Public domain	The original uploader was Dr Jorgen at Russian Wikipedia.	0
+127245	Antonio Musa Brasavola	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Antonius_Brassavola_Portretten_van_klassieke_en_recente_filosofen_en_geneesheren_(serietitel),_RP-P-OB-26.787_(cropped2).jpg	247,215,943,1084	696x869	1	CC0	Rijksmuseum	0
+127278	Jan Jessenius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan_Jesenius.jpg	168,107,332,312	164x205	0	Public domain	Matthäus Merian	0
+127424	Erasmus Schmidt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Erasmus_Schmidt.jpg	220,20,685,601	465x581	1	Public domain	I. I. Haid	0
+127636	Johann Friedrich Christ	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christ,_Johann_Friedrich_(1700-1756).jpg	198,149,463,480	265x331	1	Public domain	Johann Christoph Sysang	0
+127646	Johann Franz Buddeus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann-Franz-Buddeus.jpg	383,193,848,774	465x581	1	Public domain	Johann Georg Wolfgang	0
+127647	Johann Matthias Gesner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Matthias_Gesner.jpg	125,4,488,457	363x453	1	Public domain	neznámy autor neznámy autor	0
+127668	Johann Georg Büsch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Georg_Buesch.JPG	44,0,155,140	111x140	0	Public domain		0
+127710	Johann Elert Bode	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Elert_Bode.jpg	0,42,758,990	758x948	1	Public domain	neznámy autor neznámy autor	0
+127803	Johann Peter von Ludewig	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Peter_von_Ludewig.jpg	221,189,584,643	363x454	1	Public domain	Johann Jakob Haid	0
+127848	Jacobus Martini	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacobus_Martini,_PA01619.jpg	324,104,994,941	670x837	1	Public domain	Buchner, August (1591-1661) (artist) (writer of the poem)	0
+127898	Sethus Calvisius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:SethusCalvisius.jpg	15,0,1199,1480	1184x1480	1	Public domain	Melchior Haffner II	0
+127946	Christian Thomasius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christian_Thomasius.jpg	91,0,266,219	175x219	0	Public domain	Johann Christian Heinrich Sporleder	0
+128012	Rudolf Agricola	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolf_Agricola_-_Imagines_philologorum.jpg	137,54,589,619	452x565	1	Public domain	Johann Jakob Haid	0
+128112	Friedrich Ludwig Kämtz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ludvig_Friedrich_Kämtz.jpg	61,11,215,204	154x193	0	Public domain	neznámy autor neznámy autor	0
+128122	Duncan Liddel	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Contemporary_engraving_of_Duncan_Liddel_c.1600.jpg	166,132,1280,1524	1114x1392	1	CC BY-SA 4.0	neznámy autor neznámy autor	1
+128305	John Craig	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John-craig-d-1655-physician-to-james-vi-and-charle.jpg	334,23,1007,865	673x842	1	Public domain	neznámy autor neznámy autor	0
+128765	Anatolij Dvurečenskij	slovenskivedci.sk	images/Anatolij_Dvurecenskij.jpeg	126,0,222,120	96x120	0			0
+128766	Beloslav Riečan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Beloslav_Riecan_2016.jpg	29,0,1280,1564	1251x1564	1	CC BY 4.0	JanFrancuBrno Jan Franců	1
+128938	Rudolf Jakob Camerarius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolf_Jakob_Camerarius.jpg	257,0,918,827	661x827	1	Public domain	Johann Georg Dramburg	0
+129264	Michal Fečkan	slovenskivedci.sk	images/Michal_Feckan.jpg	472,0,1031,699	559x699	1			0
+129344	Karel Petr	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karel_Petr_(1868-1950).jpg	15,0,309,368	294x368	1	Public domain	nezjištěn (neznámí)	0
+129420	Isaac Todhunter	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Todhunter_Isaac.jpg	15,0,429,517	414x517	1	Public domain	Alexander Macfarlane	0
+129421	Edward Waring	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edwardwaring.jpg	0,0,1241,1551	1241x1551	1	Public domain	neznámy autor neznámy autor	0
+129648	Ernst Laas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Laas_(Ernst)_Philosoph_btv1b102261811.jpg	45,40,471,573	426x533	1	CC BY-SA 4.0	Bibliothèque nationale et universitaire de Strasbourg, NIM14992	1
+129708	Johann Caspar Bauhin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bauhin_Jean_aus_Bericht_Kranckheiten_1599.jpg	122,49,497,518	375x469	1	Public domain	neznámy autor neznámy autor	0
+130323	Joannes Willmet	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Caspari,_Hendrik_Willem_(1770-1829),_Afb_010097009464.jpg	323,183,873,870	550x687	1	Public domain	Caspari, Hendrik Willem (1770-1829)	0
+130346	Joannes Jacobus Schultens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan-Jacob-Schultens.jpg	209,64,676,648	467x584	1	Public domain	Pierre Frédéric de la Croix	0
+130461	Albert Schultens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Albert-Schultens.jpg	200,38,714,680	514x642	1	Public domain	Hieronymus van der Mij	0
+130575	Johannes Coccejus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Coccejus.jpg	165,129,415,442	250x313	1	CC0	neznámy autor painter	0
+130840	Sixtinus Amama	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Sixtinus_Amama.jpg	210,177,504,544	294x367	1	CC0	neznámy autor painter	0
+130913	Johannes (van den Driesche) Drusius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_van_den_Driesche.png	183,108,988,1114	805x1006	1	Public domain	neznámy autor neznámy autor	0
+131236	Paul (Paul Büchlein) Fagius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Paul_Fagius,_RP-P-1915-1321.jpg	180,0,990,1013	810x1013	1	CC0	Rijksmuseum	0
+131356	Jozef Mikloško	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jozef_Mikloško,_nar._1939.jpg	104,0,1078,1218	974x1218	1	CC0	Matica slovenská	0
+131398	Jacques (Jacobus Faber) Lefèvre d'Étaples	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FaberStapulensis.jpg	99,100,320,377	221x277	1	Public domain	Jean de Laon 1518-1599	0
+131399	Wolfgang Fabricius Capito	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:WolfgangCapito.jpg	128,77,342,344	214x267	1	Public domain		0
+131444	Johannes Argyropoulos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Argyropoulos_(1866).jpg	13,5,336,409	323x404	1	Public domain	Marinos Papadopoulos Vretos (1828-1871)	0
+131447	Scipione Fortiguerra	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Scipio_Dominicus_Forteguerri,_PA00967.jpg	219,221,1019,1221	800x1000	1	Public domain	Forteguerri, Scipione (1467-1513) (depicted)	0
+131517	Guillaume Budé	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Guillaume_Budé_by_Jean_Clouet.jpg	177,0,661,605	484x605	1	Public domain	Jean Clouet	0
+131535	Angelo Poliziano	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Angelo_Poliziano_-_Angel_Appearing_to_Zacharias_(detail).jpg	0,0,300,375	300x375	1	Public domain	Domenico Ghirlandaio	0
+131539	Marsilio Ficino	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marsilio_Ficino_-_Angel_Appearing_to_Zacharias_(detail).jpg	0,25,300,400	300x375	1	Public domain	Domenico Ghirlandaio	0
+131540	Cristoforo Landino	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Cristoforo_Landino_-_Angel_Appearing_to_Zacharias_(detail).jpg	0,25,300,400	300x375	1	Public domain	Domenico Ghirlandaio	0
+131541	Janus Lascaris	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Johannes_Lascaris,_RP-P-1874-12-42-3_(cropped).jpg	60,0,1157,1372	1097x1372	1	CC0	Rijksmuseum	0
+131546	Jacques Toussain	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrait_de_Jacques_Thouzat.jpg	132,105,411,454	279x349	1	CC BY 2.5	Centre d'études supérieures de la Renaissance / Bibliothèques virtuel…	1
+131561	Basilios Bessarion	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Bessarion_aport012.png	86,39,283,285	197x246	1	Public domain	Theodor de Bry	0
+131575	Georgios Plethon Gemistos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Benozzo_Gozzoli,_Pletone,_Cappella_dei_Magi.jpg	0,20,248,330	248x310	1	Public domain	Benozzo Gozzoli	0
+131576	Demetrios Chalcocondyles	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Demetrios_Chalkokondyles_-_Detail_of_Angel_Appearing_to_Zacharias_by_Domenico_Ghirlandaio.jpg	0,0,312,390	312x390	1	Public domain	Domenico Ghirlandaio	0
+131577	Joseph Justus Scaliger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Scaliger.jpg	271,0,1031,950	760x950	1	Public domain	Paulus Merula	0
+131584	Theodoros Gazes	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Cristofano_dell'altissimo,_teodoro_gaza,_1556_crop.JPG	206,262,1132,1419	926x1157	1	CC BY-SA 3.0	Sailko	1
+131606	Adrien Turnèbe	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adrien_Turnebe.png	0,4,169,215	169x211	0	Public domain	neznámy autor engraver	0
+131821	Theodorus (Théodore de Bèze) Beza	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Theodore-de-Beze-2.jpg	12,0,506,617	494x617	1	Public domain		0
+131905	Melchior Wolmar	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Melchior_Volmari_(Kupferstich_17Jh).jpg	0,6,545,687	545x681	1	Public domain	neznámy autor neznámy autor	0
+131939	Everardus Scheidius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Everard-Scheidius.jpg	160,0,904,930	744x930	1	Public domain	L.Springer	0
+132044	Jean (Johannes Calvinus) Calvin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png	163,0,1219,1319	1056x1319	1	Public domain	Anonymous (France)neznámy autor	0
+132045	Andrea Alciati	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Andrea_Alciato_1584.JPG	0,0,575,719	575x719	1	Public domain	neznámy autor neznámy autor	0
+132468	Gisbertus Voetius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:GisbertusVoetius.jpg	180,107,626,665	446x558	1	Public domain	Nicolaes Maes	0
+132487	Joseph Lovering	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joseph_Lovering.jpg	149,218,558,729	409x511	1	Public domain	John Adams Whipple	0
+132488	Franciscus (François Gomaer) Gomarus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gomarus.jpg	195,31,982,1015	787x984	1	Public domain	Contemporary portrait	0
+133301	Thomas Postlethwaite	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Thomas_Postlethwaite_after_DB_Murphy.jpg	128,51,678,738	550x687	1	Public domain	Denis Brownell Murphy (1755-1842) (after)	0
+133302	Vincenzo Viviani	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vincenzo_Viviani.jpeg	52,0,398,432	346x432	1	Public domain	Domenico Tempesti	0
+133367	Stephen Whisson	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Stephen_Whisson.jpg	142,54,442,430	300x376	1	Public domain	Thomas Trotter / Joseph Freeman / After Frans van der Mijn	0
+133808	Marián Fabián	slovenskivedci.sk	images/Marian_Fabian.jpg	227,0,665,547	438x547	1			0
+134873	Vittorino da Feltre	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Giusto_di_gand_e_pedro_berruguete,_vittorino_da_feltre.jpg	138,0,503,457	365x457	1	Public domain	Justus van Gent / Pedro Berruguete	0
+134931	Guarino da Verona	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Guarino_da_Verona_-_Imagines_philologorum.jpg	73,5,396,409	323x404	1	Public domain		0
+134975	Galileo Galilei	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg	0,0,1158,1448	1158x1448	1	Public domain	Justus Sustermans	0
+135185	Manuel Chrysoloras	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Manuel_Chrysoloras_-_Imagines_philologorum.jpg	96,75,339,378	243x303	1	Public domain	Nicolas III de Larmessin (1640–1725)	0
+135683	Gyula O.H. Katona	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gyula_Katona.jpg	0,0,1280,1600	1280x1600	1	CC BY-SA 3.0	Gyula O. H. Katona	1
+136245	Ostilio Ricci	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ostilio_Ricci.gif	86,0,437,439	351x439	1	Public domain	neznámy autor neznámy autor	0
+136514	Niccolò Fontana Tartaglia	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Niccolo_Tartaglia_Nicolavs_Tartaglia_Brixianvs_(titel_op_object)_Portretten_van_beroemde_Europese_geleerden_(serietitel)_Virorum_doctorum_de_Disciplinis_benemerentium_effigies_(serietitel),_RP-P-1909-4459.jpg	73,0,1184,1389	1111x1389	1	CC0	Rijksmuseum	0
+136556	Herbert Fleischner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Herbert.Fleischner.jpg	100,0,400,375	300x375	1	CC BY-SA 4.0	Michael Fleischner	1
+136575	Benedetto Castelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Benedetto_Castelli.jpg	29,8,236,266	207x258	1	Public domain	Original uploader was Deep also it at it.wikipedia	0
+137132	Friedrich Wilhelm Ostwald	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ostwald.jpg	0,0,280,350	280x350	1	Public domain	Nobel Foundation	0
+137314	Carl Ernst Heinrich Schmidt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Carl_Ernst_Heinrich_Schmidt.jpg	50,43,207,239	157x196	0	Public domain		0
+137705	Jakob Thomasius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jacob_Thomasius;_Haid_cropped.jpg	195,57,687,672	492x615	1	Public domain	Johann Jakob Haid	0
+137717	Valentin Alberti	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Valentin-Alberti.jpg	131,151,541,664	410x513	1	Public domain	Christian Romstet	0
+138500	Justus von Liebig	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Justus_von_Liebig._Stipple_engraving._Wellcome_V0003559.jpg	346,230,889,909	543x679	1	CC BY 4.0		1
+139687	Johann Christian Wiegleb	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Christian_Wiegleb._Line_engraving._Wellcome_V0006280.jpg	215,265,1027,1280	812x1015	1	CC BY 4.0	Johann Conrad Krüger	1
+139735	Ernst Gottfried Baldinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ernst_Gottfried_Baldinger.jpg	178,0,1212,1293	1034x1293	1	Public domain	Konrad Westermayr	0
+140181	Thomas von Kempen à Kempis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Thomas_à_Kempis,_RP-P-OB-26.661.jpg	570,356,914,786	344x430	1	CC0	Rijksmuseum	0
+140909	Georg Jurij Bartolomej Veha von Vega	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Georg_Vega.jpg	98,0,549,564	451x564	1	Public domain	User Magnus Manske on en.wikipedia	0
+140923	Gabriel Gruber	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gabriel_Gruber.jpg	24,0,564,674	540x674	1	Public domain	Kocmut Dušan	0
+141571	Thomas Cranmer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Thomas_Cranmer_by_Gerlach_Flicke.jpg	374,7,906,672	532x665	1	Public domain	Gerlach Flicke	0
+141831	Robert Zimmermann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Robert_von_Zimmermann.jpg	51,34,248,280	197x246	1	Public domain	Anonymousneznámy autor	0
+141834	Friedrich Wöhler	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Wöhler_Litho.jpg	171,0,623,565	452x565	1	Public domain	Rudolph Hoffmann	0
+141835	Rudolph Wagner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolf_Wagner.jpg	261,14,951,877	690x863	1	Public domain	Portrait by C. Oesterley, lithography by G. Honig	0
+141987	George Washington Pierce	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:GeorgeWashingtonPierceUTJuniorFilter.jpg	20,6,260,307	240x301	1	Public domain	neznámy autor yearbook photographer	0
+143011	Nicolas Malebranche	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nicolas_Malebranche_-_Versailles_MV_2929.jpg	93,42,398,425	305x383	1	Public domain	Paul Jourdy / After Jean-Baptiste Santerre	0
+143044	Jacob Andreae	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:HU_Alt_-_Jacob_Andreae_1590.jpg	70,0,274,255	204x255	1	Public domain	Hans Ulrich Alt	0
+143045	Johann Jacob Grynaeus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Grynaeus.jpg	149,152,646,773	497x621	1	Public domain	Engraving by Siegmund Jacob Apin (1693-1732), after a painting by Chr…	0
+143082	Sebastian Beck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:UBH_Portr_BS_Beck_S_1583_2_(cropped).jpg	415,412,909,1030	494x618	1	Public domain	nach dem Originalgemälde auf der Bibliothek copirt v. P.T.	0
+143083	Theodor Zwinger, Jr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Zwinger,_Theodor_(1597-1654).gif	70,28,440,490	370x462	1	Public domain	Clemens Ammon	0
+143084	Peter Werenfels	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Peter_Werenfels.png	179,90,628,651	449x561	1	CC BY-SA 4.0	Johann Jakob Gessner	1
+143129	Joseph Stepling	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:JosephSteplingBalzer.jpg	228,279,682,846	454x567	1	Public domain	Johann Balzer	0
+143630	Friedrich Leibniz	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Leibnütz.jpg	60,0,619,699	559x699	1	Public domain	selbst gescannt, Maler unbekannt	0
+143859	Bartholomäus Leonhard Schwendendörffer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Allegorisch_portret_van_Bartholomäus_Leonhard_Schwendendörffer,_RP-P-1914-1773.jpg	675,527,984,913	309x386	1	CC0	Rijksmuseum	0
+143865	Robert Hjalmar Mellin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hjalmar_Mellin_by_Charles_Riis_(Kunstbibliothek_Berlin)_-_crop.jpg	158,48,638,649	480x601	1	Public domain	Charles Riis	0
+144155	Nicolaus Gundling	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:NicolausHieronymusGundlingFritzsch.jpg	428,133,821,624	393x491	1	Public domain	Christian Fritzsch (1695-1769)	0
+144156	Everhard Otto	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Everhard-Otto.jpg	7,0,900,1117	893x1117	1	Public domain	J. Cressant	0
+144220	Christoph Meurer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Christoph_Meurer._Line_engraving_by_(J._G._M.)._Wellcome_V0003997.jpg	11,0,1158,1433	1147x1433	1	CC BY 4.0		1
+144262	François Du Jon, Sr.	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franciscus_Iunius.jpg	178,90,410,381	232x291	1	Public domain	Jacob Matham	0
+144263	Johannes Polyander van Kerckhoven	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Johannes_Polyander_à_Kerchoven,_hoogleraar_Godgeleerdheid_te_Leiden_Icones_51.tiff	223,46,716,663	493x617	1	CC BY 4.0	Leiden University Library	1
+144265	Martinus Schoock	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Martinus_Schoock_1614-1669.jpg	147,50,656,686	509x636	1	Public domain	neznámy autor neznámy autor	0
+144354	Johannes Hoornbeeck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Frans_Hals_107_WGA_version.jpg	189,92,640,655	451x563	1	Public domain	Frans Hals	0
+144355	Melchior Leydecker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Melchior_Leydecker.jpg	0,0,1280,1600	1280x1600	1	Public domain	neznámy autor neznámy autor	0
+144356	Hieronymus Simons van Alphen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hieronymus_Simonsz._van_Alphen.jpg	16,0,690,843	674x843	1	Public domain	J.G. Colasius	0
+145113	Johann Afzelius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jon_Arvid_Afzelius_(1753-1837).jpg	0,18,360,468	360x450	1	Public domain	Johan Afzelius (1753-1837)	0
+145114	Jöns Jacob Berzelius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jöns_Jacob_Berzelius_from_Familj-Journalen1873.png	0,0,357,446	357x446	1	Public domain		0
+145115	Torbern Olof Bergman	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Torbern_Olof_Bergman.jpg	172,0,1119,1184	947x1184	1	Public domain	Ulrika Pasch	0
+145116	Bengt Ferrner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bengt_Ferrner,_1724-1802_(Jean_Hugues_Taraval)_-_Nationalmuseum_-_39905.tif	178,131,1093,1274	915x1143	1	Public domain	Hugues Taraval	0
+145118	Samuel Klingenstierna	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Samuel_Klingenstierna-1849.jpg	139,0,467,410	328x410	1	Public domain	Litho by Otto Henrik Wallgren (1795-1857)	0
+145122	Petrus Hoffvenius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Petrus_Hoffvenius.jpg	270,0,925,820	655x820	1	Public domain	Painting by neznámy autor	0
+145123	Johannes Antonides van der Linden	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan_Antonides_van_der_Linden_by_Rembrandt_van_Rijn.jpg	387,52,1004,823	617x771	1	Public domain	Rembrandt	0
+145264	Johann Lukas Schönlein	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Schoenlein.jpg	74,0,342,335	268x335	1	Public domain	neznámy autor neznámy autor	0
+145283	Ignaz Döllinger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ignaz_Döllinger_-_Anatom.jpg	57,11,194,182	137x171	0	Public domain	neznámy autor neznámy autor	0
+145284	Antonio Scarpa	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Antonio_Scarpa,_RP-P-1905-2639_(cropped).jpg	108,119,705,864	597x745	1	CC0	Rijksmuseum	0
+145286	Giovan Battista Morgagni	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Morgagni_portrait.jpg	90,1,354,331	264x330	1	Public domain	published in De sedibus et causis morborum per anatomen indagatis Sou…	0
+145289	Antonio Valsalva	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Valsalva_Portrait.jpg	46,56,566,706	520x650	1	Public domain	neznámy autor ; uploader: Eberhard J. Wormer	0
+145290	Marcello Malpighi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marcello_Malpighi_large.jpg	77,0,432,444	355x444	1	Public domain	User Magnus Manske on en.wikipedia	0
+145291	Giovanni Alfonso Borelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Giovanni_Alfonso_Borelli,_di_pittore_di_ambito_fiorentino,_ante_1679_-FG.jpg	196,1,1130,1170	934x1169	1	CC0	Fabrizio Garrisi	0
+145707	Constantijn l’Empereur van Oppyck	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:L'Empereur_Constantin.jpg	181,120,734,811	553x691	1	Public domain	Jonas Suyderhoef	0
+145708	Hiob Ludolf	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hiob_Ludolf_(8166013).jpg	83,0,1280,1496	1197x1496	1	Public domain	neznámy autor neznámy autor	0
+145770	Johann Heinrich Michaelis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann-Heinrich-Michaelis.jpg	149,41,489,466	340x425	1	Public domain	neznámy autor neznámy autor	0
+146034	August Hermann Francke	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FranckescheStiftungen_1.jpg	131,39,353,316	222x277	1	Public domain	Anonymousneznámy autor	0
+146036	Giovanni Battista (Giambattista) Beccaria	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Giambattista_Beccaria_(cropped).jpg	216,0,957,927	741x927	1	Public domain	Andrea Gastaldi	0
+146776	Nikolai Ivanovich Lobachevsky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg	117,45,475,492	358x447	1	Public domain	Lev Kryukov	0
+147666	Menahem Eliahu Yaari	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Menachem_yari.jpg	266,12,403,183	137x171	0	CC BY-SA 3.0	פרס א.מ.ת	1
+147797	Nathaniel Bowditch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nathaniel_Bowditch_(1773-1838),_American_mathematician_and_actuary.jpeg	349,215,647,588	298x373	1	Public domain		0
+150184	Mária Lukáčová-Medviďová	slovenskivedci.sk	(original outside repo) Maria_Lukacova_Medvidova/lukacova_orig.jpg	663,116,1056,607	393x491	1			0
+151180	Johann Martin Christian Bartels	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Christian_Martin_Bartels.jpg	58,18,226,228	168x210	0	Public domain	neznámy autor neznámy autor	0
+152237	Anne du Bourg	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BOYER_849_-_Anne_du_Bourg_-_né_en_1521_-_mort_en_1559.jpg	30,78,280,390	250x312	1	Public domain	Ambroise Tardieu	0
+152238	Lambert Daneau	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Lambert_Daneau,_hoogleraar_te_Leiden_BN_409.tiff	369,434,818,995	449x561	1	CC BY 4.0	Anonymousneznámy autor	1
+152648	Jakob Beuerlin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jakob_Beurlin_um_1630_auf_einem_Porträt_eines_unbekannten_Meisters_in_der_Tübinger_Professorengalerie.jpg	149,26,465,422	316x396	1	Public domain	neznámy autor painter	0
+152901	Marco Musuro	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marcus_Musurus.jpg	174,246,368,490	194x244	1	Public domain	Unbekannter Künstler, eindeutig länger als 70 Jahre tot	0
+152903	Pietro Pomponazzi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pietro_Pomponazzi.jpg	10,0,195,232	185x232	0	Public domain	neznámy autor neznámy autor	0
+152904	Giovanni Battista della Monte	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Baptista_Montanus.jpg	182,236,900,1134	718x898	1	Public domain	neznámy autor neznámy autor	0
+152905	Vittore Trincavelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vettore_Trincavelli.jpg	89,0,1084,1244	995x1244	1	Public domain	neznámy autor neznámy autor	0
+153825	Humberto Bustince Sola	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Humberto_Bustince.jpg	0,0,283,353	283x353	1	CC0	Rinos linos	0
+154455	Evangelista Torricelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Evangelista_Torricelli_by_Lorenzo_Lippi_(circa_1647,_Galleria_Silvano_Lodi_&_Due).jpg	61,0,1243,1477	1182x1477	1	Public domain	Lorenzo Lippi	0
+155982	Adolf Georg Karl Wilhelm Ebert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adolf-ebert.jpg	0,0,117,146	117x146	0	Public domain	neznámy autor neznámy autor	0
+156876	Michal Valko	slovenskivedci.sk	images_not_used/Michal_Valko_FULL.jpg	279,62,643,517	364x455	1			0
+158329	Guillaume Rondelet	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Guillaume-Rondelet-1507-1566.jpg	217,53,896,903	679x850	1	Public domain		0
+158571	Nicolas Louis Vauquelin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Louis_Nicolas_Vauquelin_3.jpg	93,71,751,894	658x823	1	Public domain	neznámy autor neznámy autor	0
+158735	Antoine Francois de Fourcroy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portrait_of_Antoine_Francois,_Comte_de_Fourcroy_(1755-1809)_(François_Dumont)_-_Nationalmuseum_-_177243.tif	441,120,998,816	557x696	1	Public domain	François Dumont	0
+159312	Edward Frankland	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edward_Frankland.jpg	144,17,578,560	434x543	1	Public domain		0
+159761	Pierre Joseph Macquer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre_Joseph_Macquer.jpg	125,47,633,683	508x636	1	Public domain	neznámy autor neznámy autor	0
+163998	Marta Štefánková	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Marta_Štefánková.jpg	283,381,580,752	297x371	1	CC BY-SA 4.0	K.stefankova	1
+167450	Gillaume-Francois Rouelle	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Guillaume-François_Rouelle.jpg	28,0,251,279	223x279	1	Public domain	neznámy autor neznámy autor	0
+167682	Carl Johan Malmsten	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:C._J._Malmsten.png	261,185,970,1070	709x885	1	Public domain	Bertha Valerius	0
+169018	Nicolas Lemery	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nicolas_Lémery.jpg	264,176,873,937	609x761	1	Public domain	Nicolas Pitau	0
+170019	Wilhelm Traugott Krug	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Wilhelm_Traugott_Krug.jpg	167,92,957,1080	790x988	1	Public domain	Carl Lutherer	0
+170526	Stanislav Katina	slovenskivedci.sk	images/Stanislav_Katina_size_280px.jpg	80,0,205,157	125x157	0			0
+172852	Carl-Friedrich von Weizsäcker	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Carl_Friedrich_von_Weizsaecker.jpg	270,0,1122,1065	852x1065	1	CC BY-SA 3.0	Ian Howard (of the original picture)	1
+176139	Karl Ludwig Nitzsch	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karl_Ludwig_Nitzsch.jpg	72,75,406,492	334x417	1	Public domain	The original uploader was Torsten Schleese at German Wikipedia.	0
+176844	Gregory Palamas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Григорий_Палама_14в.jpg	355,226,919,932	564x706	1	Public domain	neznámy autor	0
+177440	Johann Friedrich Rhetius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arolsen_Klebeband_01_543_2.jpg	326,199,674,634	348x435	1	Public domain	Johann Georg Wolfgang	0
+181981	Vladimír Palko	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vladimír_Palko.jpg	122,0,347,282	225x282	1	CC BY-SA 4.0	Karibaci	1
+182045	Simon Grynaeus	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Simon_Grynaeus_(12158385).jpg	279,0,1149,1087	870x1087	1	Public domain	Johann Adam Lonicerus	0
+182089	Gottfried Möbius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gottfried_Moebius_2.jpg	353,1,1015,829	662x828	1	Public domain	Johann Dürr	0
+182090	Felix Plater	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Felix_Plater.jpg	104,45,254,233	150x188	0	Public domain	The original uploader was Lipothymia at English Wikipedia.	0
+182092	Simon Sulzer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Simon_Sulzer_(12158284).jpg	185,32,932,966	747x934	1	Public domain	Johann Adam Lonicerus	0
+182721	Martin Takáč	slovenskivedci.sk	images_not_used/Martin_Takac_full.jpg	594,153,1276,1006	682x853	1			0
+183360	Frederick Mallet	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Fredrik_Mallet.png	36,0,598,702	562x702	1	Public domain	neznámy autor neznámy autor	0
+184835	Ian Horrocks	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ian_Horrocks_mg_7439.jpg	87,0,1111,1280	1024x1280	1	CC BY-SA 2.0 fr	Rama	1
+193252	František Josef Studnička	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Frantisek_Josef_Studnicka_Vilimek.jpg	145,0,1011,1082	866x1082	1	Public domain	Jan Vilímek	0
+193720	Christopher Hansteen	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Aasta_Hansteen_-_Professor_Christopher_Hansteen_-_Nasjonalmuseet_-_NG.M.00288.jpg	175,36,407,326	232x290	1	Public domain	Aasta Hansteen	0
+197171	Afonso S. Bandeira	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ETH-BIB-Bandeira,_Afonso-Portr_19841.jpg	0,0,1280,1600	1280x1600	1	CC BY-SA 4.0	Giulia Marthaler	1
+199357	Nicole Oresme	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Oresme.jpg	228,185,449,462	221x277	1	Public domain	Nicole Oresme / Aristotle	0
+208258	Gerardus Leonardus Blasius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gerardus_Leonardus_Blasius_(1625-1695).jpg	187,0,932,931	745x931	1	Public domain	Anonymousneznámy autor	0
+208259	Siegmund Jakob Baumgarten	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Siegmund_Jakob_Baumgarten.jpg	253,211,641,696	388x485	1	Public domain	Johann Jakob Haid	0
+211056	John Brian Taylor	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:JohnBTaylor.jpg	0,0,239,299	239x299	1	Public domain		0
+216105	Helen Janeith Joyce	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Helen_Joyce_MoneyConf_2018_(1)_(cropped).jpg	460,0,1016,695	556x695	1	CC BY 2.0	MoneyConf	1
+217509	Nasir al-Dīn al-Ṭūsī	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nasir_al-Din_Tusi.jpg	190,336,597,844	407x508	1	Public domain	scan of stamp 30 May 2006	0
+219010	Friedrich Ludwig Stegmann	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich-Ludwig-Stegmann.jpg	242,54,1117,1148	875x1094	1	Public domain	Ferdinand Justi	0
+219258	John Tyndall	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:John_Tyndall_portrait_mid_career.jpg	12,0,401,486	389x486	1	Public domain	Tucker Collection	0
+220246	Elsbeth Stern	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Elsbeth_Stern.jpg	0,0,128,160	128x160	0	CC BY-SA 4.0	Copyright by ETH Zurich	1
+222463	Franz Volkmar Reinhard	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz-Volkmar-Reinhard.jpg	123,73,641,720	518x647	1	Public domain	neznámy autor neznámy autor	0
+223386	Evžen Kočenda	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Evžen_Kočenda.jpg	0,0,675,844	675x844	1	CC BY-SA 4.0	Emasta	1
+228334	Johann Wilhelm Baier	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Joh_Wilhelm_Baier_theol..jpg	60,0,397,420	337x420	1	Public domain	Johann Christoph von Dreyhaupt	0
+231030	Friedrich Albert Lange	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Friedrich_Albert_Lange.jpg	105,0,544,549	439x549	1	Public domain	春秋社	0
+232227	Paolo (Nicoletti) da Venezia	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Nuremberg_Chronicles_f_237r_2_Paulus_venetus.jpg	50,30,155,162	105x132	0	Public domain	Michel Wolgemut, Wilhelm Pleydenwurff (Hartmann Schedel, editor)	0
+234380	Hans Christian Ørsted	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Ørsted,_Hans_Christian_(av_Christian_Albrecht_Jensen_1842).jpg	211,0,1016,1006	805x1006	1	Public domain	Christian Albrecht Jensen	0
+234381	Johann Wilhelm Ritter	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Wilhelm_Ritter.jpg	0,0,458,572	458x572	1	Public domain	Klaus Günzel: Die deutschen Romantiker. Artemis, Zürich 1995, ISBN 3-…	0
+234382	Alexander von Humboldt	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Stieler,_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg	284,112,587,491	303x379	1	Public domain	Joseph Karl Stieler	0
+234668	Giovanni Battista Riccioli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Riccioli.jpg	77,118,390,508	313x390	1	Public domain	Wiccioli	0
+234669	Francesco Maria Grimaldi	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Francesco_Maria_Grimaldi.jpg	61,39,280,313	219x274	1	Public domain		0
+234704	Christoph Clavius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_astronoom_Christoph_Clavius,_RP-P-OB-38.439_(cropped).jpg	497,149,1105,908	608x759	1	CC0	Rijksmuseum	0
+235010	Pierre Louis Maupertuis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pierre-Louis_Moreau_de_Maupertuis_(Levrac-Tournières).jpg	448,342,721,684	273x342	1	Public domain	Robert Tournières	0
+235011	Alexis Claude Clairaut	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alexis_Clairault.jpg	212,151,776,855	564x704	1	Public domain	Louis-Jacques Cathelin / After Charles-Nicolas Cochin	0
+238187	Kyunghyun Cho	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:SD_2025_-_Kyunghyun_Cho_02_(cropped).jpg	0,192,1280,1792	1280x1600	1	CC BY-SA 4.0	Xuthoria	1
+259485	Benjamin Gess	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Benjamin_Gess_Oberwolfach_2025.jpg	198,23,321,177	123x154	0	CC BY-SA 2.0 de	Marlene Ruf	1
+259973	Mikhail Vasilyevich Ostrogradsky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PGRS_2_069_Ostrogradski_-_crop.jpg	278,0,952,842	674x842	1	Public domain	Petr Borel / Andrey Denyer	0
+260114	Mikhail Vasilyevich Lomonosov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_(1787,_RAN).jpg	77,15,371,383	294x368	1	Public domain	After Georg Caspar Prenner	0
+283475	Irène Waldspurger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Irène_Waldspurger_Oberwolfach_2015.jpg	91,53,221,216	130x163	0	CC BY-SA 2.0 de	Katrin Schmid	1
+293789	Demeter Krupka	slovenskivedci.sk	images/Demeter_Krupka.jpg	106,0,285,224	179x224	0			0
+295739	Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm al-Khayyām al-Nīsābūrī	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Omar_Khayyam2.JPG	221,265,814,1006	593x741	1	CC BY-SA 3.0	The original uploader was Atilin at French Wikipedia.	1
+296285	Karel Koutský	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karel_Koutský_(1897-1964).jpg	0,12,148,197	148x185	0	Public domain	neznámí	0
+298288	George of Trebizond	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Georg_Trapezuntius,_RP-P-1909-4357.jpg	273,161,915,964	642x803	1	CC0	Rijksmuseum	0
+298290	Gasparino da Barzizza	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Barzizza-gasparino-salvioni-anton-fritz-1723.jpg	411,309,880,895	469x586	1	Public domain	Anton Fritz	0
+298616	Abu ʿAli al-Husayn (Avicenna) ibn Sina	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pursina.jpg	28,0,167,175	139x175	0	Public domain	Original work: Abolhassan Sadighi Depiction: User:Ehsan 1987	0
+301056	Frederick George Donnan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Donnan_FG.jpg	0,0,263,329	263x329	1	Public domain	F. G. Donnan	0
+321682	Humphry Davy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Sir_Humphry_Davy,_Bt_by_Thomas_Phillips.jpg	372,190,945,906	573x716	1	Public domain	Thomas Phillips	0
+321683	Michael Faraday	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg	144,66,662,713	518x647	1	Public domain	Thomas Phillips	0
+322039	Milan Hejný	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Milan_Hejny_C.jpg	436,116,749,507	313x391	1	CC BY 3.0	h-mat.cz	1
+337427	Ctirad Klimčík	slovenskivedci.sk	images_not_used/Ctirad_Klimcik_FULL.png	168,3,447,352	279x349	1			0
+343840	William Davidson Niven	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:WD_Niven.jpg	10,0,254,305	244x305	1	Public domain	No conegut	0

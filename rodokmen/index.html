@@ -1038,6 +1038,20 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
   #g-year{flex:1 1 auto;width:auto;min-width:0}
 }
 </style>
+<style id="photos-css">
+/* portrait photo left of the name (Profil 96×120, Strom card 0.8×); no element at all when there is no photo */
+.phwrap{display:flex;align-items:flex-start;gap:20px;margin:18px 0 20px}
+.phwrap .phtxt{flex:1;min-width:0}
+.phwrap .phtxt>.pname,.phwrap .phtxt>.kn{margin-top:0}
+.phwrap .ph{flex:none;display:block;width:96px;height:120px;object-fit:cover;border-radius:2px;background:#eceef1;box-shadow:0 0 0 1px rgba(20,24,31,.07)}
+.phcred{font:400 10.5px/1.4 var(--font-ui);color:var(--ink-3);margin-top:8px;overflow-wrap:anywhere}
+.phcred a{color:inherit}
+@media (max-width:700px){.phwrap{gap:16px;margin:14px 0 16px}}
+.kcard .phwrap{gap:16px;margin:12px 0 14px}
+.kcard .phwrap .ph{width:77px;height:96px}
+.kcard .phwrap .kn{display:block}
+</style>
+<script src="photos/photos.js?v=1"></script>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1722,6 +1736,13 @@ const Tree=(()=>{
 const IMOAW={G:'zlato',S:'striebro',B:'bronz',HM:'čestné uznanie'};
 const PROG={DM:'Diskrétna matematika',TVM:'Teória vyučovania matematiky','Dikrétna matematika':'Diskrétna matematika'};
 function personRow(id,sub,src,cls,coOf){ const p=people.get(id); const u=src&&isUnv(src); return `<li${cls?` class="${cls}"`:''}><button type="button" class="row" data-go="${p.id}"${src?` title="Zdroj vzťahu: ${esc(srcLabel(src))}"`:''}><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}${coOf!=null?coMark(p.id,coOf):''}</span><span class="yr">${p.year||''}</span><span class="sub">${esc(sub??p.school??'')}${u?'<span class="unv-t"> · neoverený vzťah</span>':''}</span></button></li>`; }
+/* portrait photos (photos/photos.js); the credit line is shown only when the licence requires attribution */
+const PHOTOS=window.RODOKMEN_PHOTOS||{};
+function photoBlock(id,nameHtml,restHtml,w,h){ const e=PHOTOS[id]; if(!e) return nameHtml+restHtml;
+  const f='photos/'+(id<0?'n'+(-id):id), file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
+  const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:'Foto: slovenskivedci.sk';
+  const cred=file&&e[4]?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`:'';
+  return `<div class="phwrap"><img class="ph" src="${f}.webp"${e[0]>1?` srcset="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}" loading="lazy" decoding="async" alt="" title="${esc(tip)}"><div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
 function renderProfile(p){
   const el=$('#profile'); const f=p.feat; const chips=[];
   if(p.sk==='rod') chips.push(`<span class="chip sk" title="Narodil sa na území dnešného Slovenska a doktorát získal pred rokom 1918"><i class="dot sk"></i>Rodák zo Slovenska</span>`); else if(p.sk) chips.push(`<span class="chip sk" title="${p.sk==='inst'?'Doktorát udelila slovenská inštitúcia':p.sk==='unk'?'Miesto doktorátu nie je známe':'Doktorát získaný v zahraničí'}"><i class="dot sk"></i>${isFemale(p)?'Slovenská matematička':'Slovenský matematik'}</span>`);
@@ -1765,7 +1786,7 @@ function renderProfile(p){
   if(!f&&p.links){ const L=p.links; if(L.sch) links.push(`<a href="https://scholar.google.com/citations?user=${encodeURIComponent(L.sch)}" target="_blank" rel="noopener">Google Scholar</a>`); if(L.web) links.push(`<a href="${esc(L.web)}" target="_blank" rel="noopener">Webstránka</a>`); }
   links.push(`<a class="fix" href="mailto:richtarik+rodokmen@gmail.com?subject=${encodeURIComponent('Rodokmeň: '+p.name+' (#p'+p.id+')')}">Navrhnúť opravu</a>`);
   el.innerHTML=`<div class="chips">${chips.join('')}</div>
-    <h1 class="pname">${esc(p.name)}</h1>${role}
+    ${photoBlock(p.id,`<h1 class="pname">${esc(p.name)}</h1>`,role,96,120)}
     <div class="stats"><div class="stat"><b>${nf.format(nStud)}</b><span>${pl(nStud,'doktorand','doktorandi','doktorandov')}</span></div><div class="stat"><b>${nf.format(nDesc)}</b><span>${pl(nDesc,'potomok','potomkovia','potomkov')}</span></div><div class="stat"><b>${dp.g}</b><span>${pl(dp.g,'generácia','generácie','generácií')} predkov</span></div></div>
     ${HIDDEN.has(p.id)?`<p class="relnote">Táto osoba je v rodokmeni len vďaka ${relWhy(p.id)}, ktoré sú teraz vypnuté (prepínače Väzby v hlavičke).</p>`:''}
     ${p.note?`<p class="note">${esc(p.note)}</p>`:''}
@@ -1887,7 +1908,7 @@ const Strom=(()=>{
       rel=`<div class="krel${rs?' rs':im?' im':pd?' pd':''}">${role}: <b>${esc(q.name)}</b>${pd&&(pd.y||pd.in||pd.n)?` <span class="m">(${[pd.n,pd.y,pd.in].filter(Boolean).map(esc).join(', ')})</span>`:''}${src?`<div class="m ksrc" title="${esc(srcLabel(src))}">Zdroj vzťahu: ${esc(srcLabel(src))}</div>`:''}</div>`; }
     const ns=nStudOf(p), nd=nDescOf(p);
     const tag=p.sk==='rod'?'Rodák zo Slovenska':p.sk?(isFemale(p)?'Slovenská matematička':'Slovenský matematik'):'';
-    el.innerHTML=`<button type="button" class="kclose" aria-label="Zavrieť">×</button>${tag?`<div class="ksk">${tag}</div>`:''}<b class="kn">${esc(p.name)}</b>`+
+    el.innerHTML=`<button type="button" class="kclose" aria-label="Zavrieť">×</button>${tag?`<div class="ksk">${tag}</div>`:''}${photoBlock(id,`<b class="kn">${esc(p.name)}</b>`,'',77,96)}`+
       `<div class="m">${esc(deg||'údaje o titule neuvedené')}</div>${sch?`<div>${sch}</div>`:''}${rel}`+
       (ns||nd?`<div class="m" style="margin-top:6px">${nf.format(ns)} ${pl(ns,'doktorand','doktorandi','doktorandov')} · ${nf.format(nd)} ${pl(nd,'potomok','potomkovia','potomkov')}</div>`:'')+
       `<div class="kacts">${id!==root?`<button type="button" class="textbtn" data-kroot="${id}">Strom od tejto osoby</button>`:''}<a class="textbtn" href="#p${id}">Otvoriť profil</a></div>`;
