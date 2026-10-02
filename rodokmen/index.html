@@ -984,6 +984,60 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
   .vsubj .vt[data-views~="connect"] .field{flex:1 1 120px}
 }
 </style>
+<style id="les-interactive-css">
+/* interactive Les: selection, card, search, year slider */
+#g-svg .fn,#g-svg .fh,#g-svg .fl{transition:opacity .3s ease}
+#g-svg .sdim{opacity:.07}
+#g-svg .fl.son{stroke:var(--accent);opacity:.85;stroke-width:1.1}
+#g-svg .fl.son.pd{stroke:var(--pd)} #g-svg .fl.son.im{stroke:var(--im)} #g-svg .fl.son.rs{stroke:var(--rs)}
+#g-svg .fut{opacity:0!important;pointer-events:none}
+#g-svg .selc{fill:none;stroke:var(--accent);stroke-width:1.6;pointer-events:none}
+#g-svg .flbl.gc-sel{font-weight:600;fill:var(--accent-ink)}
+#g-svg .yring{fill:none;stroke:var(--accent-edge);stroke-width:1;stroke-dasharray:3 3}
+#g-svg .yring-lbl{font:500 11px var(--font-ui);fill:var(--accent-ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px}
+@media (prefers-reduced-motion:reduce){#g-svg .fn,#g-svg .fh,#g-svg .fl{transition:none}}
+/* card */
+.lcard{position:absolute;z-index:4;left:14px;top:14px;width:280px;max-width:calc(100% - 28px);box-sizing:border-box;background:color-mix(in srgb,var(--surface) 97%,transparent);box-shadow:var(--shadow);border-radius:12px;padding:12px 14px;font:400 12.5px/1.45 var(--font-ui);color:var(--ink-2)}
+.lcard[hidden]{display:none}
+.lcard .ltag{font:500 11px var(--font-ui);color:var(--accent-ink)}
+.lcard .gc-name{display:block;font:500 20px/1.2 var(--font-display);color:var(--ink);padding-right:26px;margin:1px 0 3px}
+.lcard .m{color:var(--ink-3)}
+.lcard .lsch{color:var(--ink-2)}
+.lcard .lcnt{margin-top:6px}
+.lcard .lrel{margin-top:6px;padding-left:8px;border-left:2px solid var(--pd)}
+.lcard .lrel.im{border-left-color:var(--im)} .lcard .lrel.rs{border-left-color:var(--rs)}
+.lcard .lacts{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.lcard .textbtn{font:500 12.5px var(--font-ui);padding:6px 16px}
+.lclose{position:absolute;top:6px;right:6px;width:28px;height:28px;border:0;padding:0;background:none;border-radius:999px;color:var(--ink-3);font:400 19px/1 var(--font-ui);cursor:pointer}
+.lclose:hover{background:var(--surface-2);color:var(--ink)}
+.lnote{position:absolute;z-index:5;left:50%;bottom:14px;transform:translateX(-50%);width:max-content;max-width:min(480px,calc(100% - 28px));box-sizing:border-box;background:var(--surface);box-shadow:var(--shadow);border-radius:10px;padding:8px 12px;font:400 12.5px/1.45 var(--font-ui);color:var(--ink-2)}
+.lnote[hidden]{display:none}
+.lnote a{color:var(--accent-ink)}
+/* toolbar: search and year (moved there by les-interactive-js) */
+#g-stage>.lfind,#g-stage>.gyear{display:none}
+.gyear{position:relative;display:flex;align-items:center;gap:7px;font:400 12.5px var(--font-ui);color:var(--ink-3);flex:none}
+.gplay{flex:none;width:28px;height:28px;border:0;padding:0;border-radius:999px;background:var(--surface-2);color:var(--ink-2);display:inline-grid;place-items:center;cursor:pointer}
+.gplay:hover,.gplay[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink)}
+.gplay:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+#g-year{--p:100%;-webkit-appearance:none;appearance:none;width:150px;height:20px;margin:0;background:none;cursor:pointer}
+#g-year::-webkit-slider-runnable-track{height:3px;border-radius:2px;background:linear-gradient(90deg,var(--accent-edge) 0 var(--p),var(--rule) var(--p) 100%)}
+#g-year::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;margin-top:-5.5px;border-radius:50%;background:var(--accent);border:2px solid var(--surface);box-shadow:0 0 0 1px var(--accent-edge)}
+#g-year::-moz-range-track{height:3px;border-radius:2px;background:var(--rule)}
+#g-year::-moz-range-progress{height:3px;border-radius:2px;background:var(--accent-edge)}
+#g-year::-moz-range-thumb{width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid var(--surface)}
+#g-year:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+#g-year-v{font:500 12.5px var(--font-ui);color:var(--ink-2);font-variant-numeric:tabular-nums;min-width:2.4em}
+@media (max-width:899px){
+  .lcard{position:fixed;left:0;right:0;top:auto;bottom:0;width:auto;max-width:none;border-radius:16px 16px 0 0;padding:20px 18px calc(16px + env(safe-area-inset-bottom));box-shadow:0 -6px 24px rgba(18,26,44,.14);z-index:90;max-height:60vh;overflow:auto;background:var(--surface)}
+  .lcard::before{content:"";position:absolute;top:7px;left:50%;width:36px;height:4px;margin-left:-18px;border-radius:2px;background:var(--rule)}
+  .lcard .gc-name{font-size:22px}
+  .lcard .textbtn{flex:1 1 0;padding:9px 16px;font-size:13.5px;text-align:center}
+  .lnote{position:fixed;z-index:91;bottom:16px}
+  .gyear{flex:1 1 100%;min-width:0}
+  .vtools .vt>.gyear::before{display:none!important}
+  #g-year{flex:1 1 auto;width:auto;min-width:0}
+}
+</style>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1037,7 +1091,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         <div class="eyebrow">Akademický rodokmeň</div>
         <h1 class="display">Kto koho vychoval v slovenskej matematike</h1>
         <p class="lede" data-mode="linie" hidden>Všetky slovenské matematické línie v jednom zozname, od najväčšej. Každý riadok je zakladateľ línie; šípkou zobrazíte jeho doktorandov, potom ich doktorandov a ďalšie generácie. Číslo vpravo je počet ľudí vo vetve. Kliknutím na meno otvoríte rodokmeň.</p>
-        <p class="lede" data-mode="les">Les najväčších slovenských matematických línií. Každá línia rastie zo stredu von: vzdialenosť od stredu zodpovedá roku doktorátu, vetvy spájajú školiteľov s doktorandmi. Aby les nebol preplnený, zobrazuje iba línie s aspoň zvoleným počtom potomkov; menšie línie nájdete na karte Línie. Prejdením myšou nad bodkou zvýrazníte cestu k zakladateľovi, kliknutím otvoríte rodokmeň.</p>
+        <p class="lede" data-mode="les">Les najväčších slovenských matematických línií. Každá línia rastie zo stredu von: vzdialenosť od stredu zodpovedá roku doktorátu, vetvy spájajú školiteľov s doktorandmi. Aby les nebol preplnený, zobrazuje iba línie s aspoň zvoleným počtom potomkov; menšie línie nájdete na karte Línie. Prejdením myšou nad bodkou zvýrazníte cestu k zakladateľovi, kliknutím osobu vyberiete a zvýrazní sa celá jej línia.</p>
         <div class="stats" id="f-stats"></div>
         <h2 class="sec ffh"><span>Filter línií</span><span><span id="ff-sum"></span><button type="button" class="linkbtn" id="ff-reset" hidden>zrušiť</button></span></h2>
         <div class="fpills" role="group" aria-label="Filter zakladateľov línií">
@@ -1051,7 +1105,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
         <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter v lište nástrojov hore zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
-        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter v lište nástrojov hore les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami.</p>
+        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter v lište nástrojov hore les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami. Kliknutím na bodku vyberiete osobu: zvýraznia sa jej predkovia až po zakladateľa aj všetci potomkovia a karta ponúkne Strom a Profil; výber zrušíte kliknutím do prázdna alebo klávesom Esc. Odkaz na stránku si výber pamätá. Pole Nájsť v Lese osobu priblíži a vyberie. Posuvník Rok ukáže les iba s doktorátmi do zvoleného roku, tlačidlo vedľa neho prehrá rast lesa.</p>
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
         <div class="lbar"><span class="lsum" id="l-sum"></span><div class="fchip" id="f-chip" hidden><span class="fchip-l">Filter</span><span id="f-chip-t"></span><button type="button">Zrušiť</button></div><span class="lbar-r"><button type="button" class="linkbtn" id="l-exp">rozbaliť všetko</button><button type="button" class="linkbtn" id="l-col">zbaliť</button></span></div>
@@ -1061,6 +1115,10 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
       <div class="stage" id="g-stage">
         <div class="gbar" role="group" aria-label="Minimálna veľkosť línie"><span class="gbar-l">Línie s aspoň</span><span class="seg" id="g-min"><button type="button" data-min="10" aria-pressed="false">10</button><button type="button" data-min="20" aria-pressed="true">20</button><button type="button" data-min="50" aria-pressed="false">50</button><button type="button" data-min="100" aria-pressed="false">100</button></span><span class="gbar-l">potomkami</span><span class="gbar-n" id="g-n"></span></div>
         <svg id="g-svg" role="img" aria-label="Les najväčších slovenských matematických línií: vzdialenosť od stredu zodpovedá roku doktorátu"></svg>
+        <div class="lcard" id="g-card" role="dialog" aria-label="Vybraná osoba" hidden></div>
+        <div class="lnote" id="g-note" role="status" aria-live="polite" hidden></div>
+        <div class="field lfind"><label for="g-find">Nájsť v Lese</label><svg class="ico" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="g-find" type="search" placeholder="Nájsť v Lese" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="g-find-list" aria-autocomplete="list"><ul id="g-find-list" class="list" role="listbox" hidden></ul></div>
+        <div class="gyear" id="g-year-w" role="group" aria-label="Les do zvoleného roku"><button type="button" class="gplay" id="g-play" aria-pressed="false"></button><span class="gbar-l">Rok</span><input type="range" id="g-year" min="1900" max="2026" step="1" value="2026" aria-label="Rok: les zobrazí doktoráty do tohto roku"><output id="g-year-v" for="g-year"></output></div>
         <div class="fchip" id="g-chip" hidden><span class="fchip-l">Filter</span><span id="g-chip-t"></span><button type="button">Zrušiť</button></div>
         <div class="legend" aria-hidden="true">
           <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (20+ potomkov)</span><span data-rel="im" title="výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="im" x1="1" y1="3" x2="21" y2="3"/></svg>neformálny mentor</span><span title="doktorát: čiara vedie od školiteľa (bližšie k stredu) k doktorandovi"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>školiteľ a doktorand</span><span data-rel="pd" title="postdoktorandský pobyt u školiteľa (so zdrojom); poloha zodpovedá začiatku pobytu; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorand</span><span data-rel="rs" title="výskumný vedec (research scientist) v skupine; nezapočítava sa medzi potomkov ani do veľkosti línie"><svg class="lg-ln" viewBox="0 0 22 6"><line class="rs" x1="1" y1="3" x2="21" y2="3"/></svg>výskumný vedec</span><span title="doktorand mal aj ďalšieho školiteľa"><svg class="lg-ln" viewBox="0 0 22 6"><line class="co" x1="1" y1="3" x2="21" y2="3"/></svg>jeden z viacerých školiteľov</span>
@@ -1541,7 +1599,7 @@ function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; whil
 const VIEWS=['les','linie','tree','strom','connect','people','alumni','about'];
 const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
 let current='';
-function show(view){ if(current===view) return; current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
+function show(view){ if(current===view) return; if(current==='les'&&view!=='les') Grove.leave(); current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
 function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/bezpd)?$/); if(km){ if(km[4]){ setRel('pd',false,'main'); try{ history.replaceState(history.state,'','#'+h.replace('/bezpd','')); }catch(e){} } Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[4]); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
@@ -2021,9 +2079,9 @@ const Forest=(()=>{
    ========================================================= */
 const Grove=(()=>{
   const svg=d3.select('#g-svg'), world=svg.append('g');
-  let inited=false, dirty=true, MIN=20, T=d3.zoomIdentity, nodes=[], delaunay=null, R=0, trail=null, hov=null, linkSel=null, nodeSel=null, fhSel=null, gT=null;
+  let inited=false, dirty=true, MIN=20, T=d3.zoomIdentity, nodes=[], delaunay=null, R=0, trail=null, hov=null, linkSel=null, nodeSel=null, fhSel=null, gT=null, rS=null, byId=new Map(), vis=[], gY=null, selC=null;
   const RED=20;
-  const zoom=d3.zoom().scaleExtent([.6,8]).on('zoom',e=>{ T=e.transform; world.attr('transform',T); });
+  const zoom=d3.zoom().scaleExtent([.6,8]).on('zoom',e=>{ T=e.transform; world.attr('transform',T); LI.zoomed(e); });
   svg.call(zoom).on('dblclick.zoom',null);
   const arc=(s,c)=>{ const a0=s.x-Math.PI/2,a1=c.x-Math.PI/2,rm=(s.r+c.r)/2; return `M${s.px},${s.py}C${rm*Math.cos(a0)},${rm*Math.sin(a0)} ${rm*Math.cos(a1)},${rm*Math.sin(a1)} ${c.px},${c.py}`; };
   function draw(){
@@ -2034,44 +2092,45 @@ const Grove=(()=>{
     $('#g-chip').hidden=!match; if(match) $('#g-chip-t').textContent=`v lese ${keep.length} z ${match.size} ${pl(match.size,'vybranej línie','vybraných línií','vybraných línií')}`;
     world.selectAll('*').remove(); nodes=[]; delaunay=null; clear();
     const el=svg.node(); const vw=el.clientWidth||800, vh=el.clientHeight||700;
-    if(!keep.length){ world.append('text').attr('class','ring-lbl').attr('text-anchor','middle').attr('x',vw/2).attr('y',vh/2).text(match?'Filtru nevyhovuje žiadna línia tejto veľkosti':'Žiadna línia tejto veľkosti'); svg.call(zoom.transform,d3.zoomIdentity); return; }
+    if(!keep.length){ world.append('text').attr('class','ring-lbl').attr('text-anchor','middle').attr('x',vw/2).attr('y',vh/2).text(match?'Filtru nevyhovuje žiadna línia tejto veľkosti':'Žiadna línia tejto veľkosti'); svg.call(zoom.transform,d3.zoomIdentity); LI.empty(); return; }
     /* postdocs of the drawn people who are not in the forest as PhD descendants: teal leaves, placed at the start of the stay; not counted above */
     const inF=new Set(), walk=t=>{ inF.add(t.id); t.children.forEach(walk); }; keep.forEach(walk);
     const withPd=t=>({id:t.id,children:t.children.map(withPd).concat(pdStudentsOf(t.id).filter(x=>!inF.has(x)).map(x=>{ inF.add(x); return {id:x,pd:true,children:[]}; }),imStudentsOf(t.id).filter(x=>!inF.has(x)).map(x=>{ inF.add(x); return {id:x,im:true,children:[]}; }),rsMembersOf(t.id).filter(x=>!inF.has(x)).map(x=>{ inF.add(x); return {id:x,rs:true,children:[]}; }))});
     const h=d3.hierarchy({id:null,children:keep.map(withPd)});
     d3.cluster().size([2*Math.PI,1]).separation((a,b)=>a.parent===b.parent?1:1.6)(h);
     R=Math.max(150,Math.min(vw-150,vh)/2-40);
-    const r=d3.scaleLinear().domain([1905,2026]).range([R*.07,R]).clamp(true);
+    const r=d3.scaleLinear().domain([1905,2026]).range([R*.07,R]).clamp(true); rS=r;
     h.each(n=>{ if(n.data.id==null) return; const p=people.get(n.data.id); let y=n.data.pd||n.data.im||n.data.rs?(+(String(((n.data.rs?rsLink:n.data.im?imLink:pdLink)(n.data.id,n.parent.data.id)||{}).y||'').match(/\d{4}/)||[0])[0]||p.year):p.year; if(!y){ const py=n.parent&&n.parent.data.id!=null?n.parent.yr:null; const cy=d3.min((n.children||[]).map(c=>people.get(c.data.id).year).filter(Boolean)); y=py?py+18:cy?cy-26:1960; n.est=true; } n.yr=y; const a=n.x-Math.PI/2; n.r=r(y); n.px=n.r*Math.cos(a); n.py=n.r*Math.sin(a); n.p=p; nodes.push(n); });
     for(const n of nodes){ let k=n; while(k.depth>1) k=k.parent; n.root=k.data.id; }
+    byId=new Map(nodes.map(n=>[n.data.id,n]));
     const gR=world.append('g');
     for(const yr of [1920,1940,1960,1980,2000,2020]){ gR.append('circle').attr('class','ring').attr('r',r(yr)); gR.append('text').attr('class','ring-lbl').attr('x',5).attr('y',-r(yr)-4).text(yr); }
     linkSel=world.append('g').selectAll('path').data(nodes.filter(n=>n.parent&&n.parent.data.id!=null)).join('path').attr('class',n=>'fl'+(n.data.rs?' rs':n.data.im?' im':n.data.pd?' pd':(n.p.sk&&n.parent.p.sk?' sk':'')+(isCoEdge(n.data.id,n.parent.data.id)?' co':''))).attr('d',n=>arc(n.parent,n));
-    trail=world.append('path').attr('class','trail');
+    gY=world.append('g'); trail=world.append('path').attr('class','trail');
     const gN=world.append('g');
     fhSel=gN.selectAll('circle.fh').data(nodes.filter(n=>n.p.feat)).join('circle').attr('class','fh').attr('cx',n=>n.px).attr('cy',n=>n.py).attr('r',6.5);
     nodeSel=gN.selectAll('circle.fn').data(nodes).join('circle').attr('class',n=>'fn'+(n.data.rs?' rs':n.data.im?' im':n.data.pd?' pd':n.p.sk?' sk':'')).attr('cx',n=>n.px).attr('cy',n=>n.py).attr('r',n=>n.p.feat?3.6:n.p.sk?(n.depth===1?3.8:2.8):2.1);
-    hov=world.append('circle').attr('class','hov').attr('r',0);
+    hov=world.append('circle').attr('class','hov').attr('r',0); selC=world.append('circle').attr('class','selc').attr('r',0);
     gT=world.append('g');
     delaunay=d3.Delaunay.from(nodes,n=>n.px,n=>n.py);
-    applyHot(); center(false);
+    LI.afterDraw();
   }
-  function pick(e){ if(!delaunay) return null; const [mx,my]=T.invert(d3.pointer(e,svg.node())); const n=nodes[delaunay.find(mx,my)]; return n&&Math.hypot(n.px-mx,n.py-my)*T.k<=16?n:null; }
+  function pick(e){ if(!delaunay) return null; const [mx,my]=T.invert(d3.pointer(e,svg.node())); const n=vis[delaunay.find(mx,my)]; return n&&Math.hypot(n.px-mx,n.py-my)*T.k<=16?n:null; }
   svg.on('pointermove',e=>{ const n=pick(e); if(n) hover(n,e.clientX,e.clientY); else clear(); })
      .on('pointerleave',clear)
-     .on('click',e=>{ const n=pick(e); if(n) go('p'+n.data.id); });
+     .on('click',e=>LI.click(pick(e)));
   function labels(hot){ // lineage founders first (largest first), then people from slovenskivedci.sk by h-index; greedy collision avoidance
     gT.selectAll('*').remove();
-    const pool=hot!=null?nodes.filter(n=>n.root===hot):nodes;
+    const pool=LI.pool(hot);
     const roots=pool.filter(n=>n.depth===1).map(n=>({n,d:nDescOf(n.p)})).sort((a,b)=>b.d-a.d).map(o=>({n:o.n,cls:o.d>=RED?'flbl root':'flbl',t:o.n.p.name}));
     const cand=pool.filter(n=>n.p.feat).sort((a,b)=>(b.p.feat.h||0)-(a.p.feat.h||0)).map(n=>({n,cls:'flbl',t:n.p.name}));
     const placed=[], done=new Set(), narrow=(svg.node().clientWidth||800)<600;
-    for(const c of roots.concat(cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 13px Newsreader, serif':'500 12px Newsreader, serif'; const w=tw(c.t,f), hgt=14, side=Math.cos(n.x-Math.PI/2)>=-0.15;
+    for(const c of LI.first().concat(roots,cand)){ const n=c.n; if(done.has(n)) continue; const f=c.cls.includes('root')?'600 13px Newsreader, serif':'500 12px Newsreader, serif'; const w=tw(c.t,f), hgt=14, side=Math.cos(n.x-Math.PI/2)>=-0.15;
       const tries=[[side,0],[side,-10],[side,10]].concat(narrow?[]:[[!side,0],[!side,-10],[!side,10]]); let ok=null;
       for(const [right,dy] of tries){ const x=right?n.px+8:n.px-8-w, y=n.py+4+dy, box=[x-2,y-hgt+2,x+w+2,y+4]; if(!placed.some(b=>!(box[2]<b[0]||box[0]>b[2]||box[3]<b[1]||box[1]>b[3]))){ ok={right,y,box}; break; } }
       if(!ok) continue; placed.push(ok.box); done.add(n); gT.append('text').attr('class',c.cls).attr('x',ok.right?n.px+8:n.px-8).attr('y',ok.y).attr('text-anchor',ok.right?'start':'end').text(c.t); }
   }
-  function applyHot(){ if(!nodeSel) return; const {hot}=Forest.state(); const on=hot!=null&&nodes.some(n=>n.root===hot); const off=n=>on&&n.root!==hot;
+  function applyHot(){ if(!nodeSel) return; const {hot}=Forest.state(); const on=LI.sel==null&&hot!=null&&nodes.some(n=>n.root===hot); const off=n=>on&&n.root!==hot;
     linkSel.classed('off',off); nodeSel.classed('off',off); fhSel.classed('off',off); labels(on?hot:null); }
   function hover(n,x,y){ svg.style('cursor','pointer'); hov.attr('cx',n.px).attr('cy',n.py).attr('r',5.5); let d='', k=n; while(k.parent&&k.parent.data.id!=null){ d+=arc(k.parent,k); k=k.parent; } trail.attr('d',d||null);
     const x0=n.data.pd?pdLink(n.data.id,n.parent.data.id):null, xi=n.data.im?imLink(n.data.id,n.parent.data.id):null, xr=n.data.rs?rsLink(n.data.id,n.parent.data.id):null;
@@ -2080,10 +2139,102 @@ const Grove=(()=>{
   function center(animate){ const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight; if(!vw) return; const s=Math.min(vw/(2*R+(vw<600?90:220)),(vh-40)/(2*R+70)); const tr=d3.zoomIdentity.translate(vw/2,vh/2).scale(Math.min(1,s)); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
   $('#g-min').addEventListener('click',e=>{ const b=e.target.closest('button[data-min]'); if(!b) return; MIN=+b.dataset.min; $$('#g-min button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); draw(); });
   $('#g-chip button').addEventListener('click',()=>Forest.reset());
-  function ensure(){ Forest.panel(); if(!inited){ inited=true; requestAnimationFrame(draw); } else if(dirty) draw(); else center(false); }
+  /* ---- interactive Les (P. Richtárik, 2. 10. 2026): click selects a person and their whole line (ancestors to the founder + all descendants),
+     a small card offers Strom and Profil; "Nájsť v Lese" zooms to and selects; the Rok slider shows the forest up to a year (play = growth).
+     URL: ?les-sel=<id> (selection), ?les-rok=<year> (only when not all years). Layout never changes with the year: later dots just stay hidden. */
+  const LI=(()=>{
+    const YMAX=new Date().getFullYear(), qs=new URLSearchParams(location.search);
+    const st={sel:null,year:null,focus:false,line:null,ymin:1900,play:0,baseN:'',noteT:0,step:0};
+    { const v=+qs.get('les-sel'); if(qs.has('les-sel')&&people.has(v)){ st.sel=v; st.focus=true; } const y=+qs.get('les-rok'); if(qs.has('les-rok')&&y>=1000&&y<YMAX) st.year=y; }
+    const yIn=$('#g-year'), yOut=$('#g-year-v'), play=$('#g-play'), card=$('#g-card'), note=$('#g-note'), fi=$('#g-find');
+    const PLAY='<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.2 1.8v8.4L10 6z" fill="currentColor"/></svg>', PAUSE='<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 2h2.2v8H3zM6.8 2H9v8H6.8z" fill="currentColor"/></svg>';
+    const visible=n=>st.year==null||n.yr<=st.year;
+    const extra=n=>n.data.pd||n.data.im||n.data.rs;
+    function url(){ if(current!=='les') return; try{ const u=new URL(location.href); u.searchParams.delete('les-sel'); u.searchParams.delete('les-rok');
+      if(st.sel!=null) u.searchParams.set('les-sel',st.sel); if(st.year!=null) u.searchParams.set('les-rok',st.year); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
+    function leave(){ stop(); hideNote(); try{ const u=new URL(location.href); u.searchParams.delete('les-sel'); u.searchParams.delete('les-rok'); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
+    function hideNote(){ clearTimeout(st.noteT); note.hidden=true; }
+    function say(html){ clearTimeout(st.noteT); note.innerHTML=html; note.hidden=false; st.noteT=setTimeout(hideNote,8000); }
+    function lineOf(n){ const s=new Set(); let k=n; while(k&&k.data.id!=null){ s.add(k); k=k.parent; } n.descendants().forEach(d=>s.add(d)); return s; }
+    /* ---- year ---- */
+    function yUi(){ const y=st.year??YMAX; yIn.min=st.ymin; yIn.max=YMAX; yIn.value=y; yOut.textContent=y; const p=YMAX>st.ymin?(y-st.ymin)/(YMAX-st.ymin)*100:100; yIn.style.setProperty('--p',p.toFixed(1)+'%');
+      yIn.setAttribute('aria-valuetext',st.year==null?'všetky doktoráty':'doktoráty do roku '+y); yIn.title=st.year==null?'Všetky doktoráty':'Doktoráty do roku '+y; }
+    function applyYear(){ vis=nodes.filter(visible); delaunay=vis.length?d3.Delaunay.from(vis,n=>n.px,n=>n.py):null;
+      if(nodeSel){ const f=n=>!visible(n); nodeSel.classed('fut',f); fhSel.classed('fut',f); linkSel.classed('fut',n=>!visible(n)||!visible(n.parent)); }
+      if(gY){ gY.selectAll('*').remove(); if(st.year!=null&&rS){ const rr=rS(st.year); gY.append('circle').attr('class','yring').attr('r',rr); gY.append('text').attr('class','yring-lbl').attr('text-anchor','end').attr('x',-6).attr('y',-rr-4).text(st.year); } }
+      const el=$('#g-n'); if(st.year==null) el.textContent=st.baseN; else { const P=vis.filter(n=>!extra(n)), L=P.filter(n=>n.depth===1).length; el.textContent=`do roku ${st.year}: ${L} ${pl(L,'línia','línie','línií')} · ${nf.format(P.length)} ${pl(P.length,'osoba','osoby','osôb')}`; }
+      yUi(); }
+    function setYear(y,fromPlay){ y=+y; st.year=y>=YMAX?null:Math.max(st.ymin,Math.round(y)); applyYear(); if(st.sel!=null&&byId.has(st.sel)) paintSel();
+      if(!fromPlay||st.year==null||(++st.step%3===0)) applyHot(); if(!fromPlay) url(); }
+    function playUi(){ const on=!!st.play, t=on?'Zastaviť':'Prehrať rast lesa po rokoch'; play.innerHTML=on?PAUSE:PLAY; play.title=t; play.setAttribute('aria-label',t); play.setAttribute('aria-pressed',String(on)); }
+    function stop(){ if(!st.play) return; clearInterval(st.play); st.play=0; playUi(); applyHot(); url(); }
+    play.addEventListener('click',()=>{ if(st.play){ stop(); return; } hideNote(); let y=st.year==null||st.year>=YMAX-1?st.ymin:st.year; setYear(y,true); applyHot();
+      st.play=setInterval(()=>{ y+=1; if(y>=YMAX){ clearInterval(st.play); st.play=0; setYear(YMAX); playUi(); return; } setYear(y,true); },RM?25:70); playUi(); });
+    yIn.addEventListener('input',()=>{ if(st.play){ clearInterval(st.play); st.play=0; playUi(); } setYear(+yIn.value); });
+    playUi();
+    /* ---- selection ---- */
+    function paintSel(){ if(!nodeSel) return; const L=st.line; nodeSel.classed('sdim',L?n=>!L.has(n):false); fhSel.classed('sdim',L?n=>!L.has(n):false);
+      linkSel.classed('sdim',L?n=>!(L.has(n)&&L.has(n.parent)):false).classed('son',L?n=>L.has(n)&&L.has(n.parent):false);
+      const n=st.sel!=null?byId.get(st.sel):null; if(selC) selC.attr('cx',n?n.px:0).attr('cy',n?n.py:0).attr('r',n&&visible(n)?7:0); }
+    function cardOf(n){ if(!n){ card.hidden=true; return; } const p=n.p, id=p.id, pr=p.primary;
+      const deg=pr?degLine(pr):'', yrs=[deg||'údaje o titule neuvedené',p.born?'nar. '+p.born:''].filter(Boolean).join(' · ');
+      const sch=pr&&pr.school?esc(pr.school)+(pr.country?' · '+esc(prettyCountry(pr.country)):''):'';
+      const tag=p.sk==='rod'?'Rodák zo Slovenska':p.sk?(isFemale(p)?'Slovenská matematička':'Slovenský matematik'):'';
+      const lk=n.data.rs?rsLink(id,n.parent.data.id):n.data.im?imLink(id,n.parent.data.id):n.data.pd?pdLink(id,n.parent.data.id):null;
+      const role=n.data.rs?'Výskumný vedec v skupine':n.data.im?'Neformálny mentor':n.data.pd?'Postdoktorand u':'';
+      const rel=role?`<div class="lrel ${n.data.rs?'rs':n.data.im?'im':'pd'}">${role}: <b>${esc(n.parent.p.name)}</b>${lk&&lk.y?` <span class="m">(${esc(lk.y)})</span>`:''}</div>`:'';
+      const ns=nStudOf(p), nd=nDescOf(p);
+      card.innerHTML=`<button type="button" class="lclose" aria-label="Zrušiť výber">×</button>${tag?`<div class="ltag">${tag}</div>`:''}<b class="gc-name">${esc(p.name)}</b>`+
+        `<div class="m">${esc(yrs)}${n.est?' <span title="Rok doktorátu nie je zaznamenaný, poloha v lese je odhadnutá.">(rok odhadnutý)</span>':''}</div>${sch?`<div class="lsch">${sch}</div>`:''}${rel}`+
+        `<div class="m lcnt">${nf.format(ns)} ${pl(ns,'doktorand','doktorandi','doktorandov')} · ${nf.format(nd)} ${pl(nd,'potomok','potomkovia','potomkov')}</div>`+
+        `<div class="lacts"><button type="button" class="textbtn" data-lgo="strom=${id}" title="Strom potomkov alebo predkov od tejto osoby">Strom</button><button type="button" class="textbtn" data-lgo="p${id}" title="Profil a rodokmeň osoby">Profil</button></div>`;
+      card.hidden=false; }
+    card.addEventListener('click',e=>{ const b=e.target.closest('[data-lgo],.lclose'); if(!b) return; if(b.classList.contains('lclose')){ select(null); return; } stop(); go(b.dataset.lgo); });
+    const MQ=matchMedia('(max-width:899px)'), sheet=()=>!card.hidden&&getComputedStyle(card).position==='fixed';
+    /* the part of the drawing the reader can actually see: inside the window, not under the card */
+    function viewBox(){ const el=svg.node(), sr=el.getBoundingClientRect(), vw=el.clientWidth, vh=el.clientHeight; let x0=0,x1=vw,y0=Math.max(0,-sr.top),y1=Math.min(vh,innerHeight-sr.top);
+      if(!card.hidden){ const cr=card.getBoundingClientRect(); if(sheet()) y1=Math.min(y1,cr.top-sr.top-8); else if(vw>=700) x0=Math.min(cr.right-sr.left+8,vw*.45); }
+      if(y1-y0<140){ y0=0; y1=vh; } return {x0,x1,y0,y1,sr}; }
+    function reveal(){ if(MQ.matches){ const s=$('#g-stage'); if(s&&s.getBoundingClientRect().top>8) s.scrollIntoView({block:'start'}); } }
+    function fit(animate){ const n=byId.get(st.sel); if(!n||!st.line) return; const el=svg.node(); if(!el.clientWidth) return;
+      const pts=[...st.line].filter(visible); if(!pts.includes(n)) pts.push(n); const pad=48, V=viewBox(), w=V.x1-V.x0, h=V.y1-V.y0;
+      const bx0=d3.min(pts,d=>d.px), bx1=d3.max(pts,d=>d.px), by0=d3.min(pts,d=>d.py), by1=d3.max(pts,d=>d.py);
+      const k=Math.max(.6,Math.min(2,w/(bx1-bx0+2*pad),h/(by1-by0+2*pad)));
+      const tr=d3.zoomIdentity.translate(V.x0+w/2-k*(bx0+bx1)/2,V.y0+h/2-k*(by0+by1)/2).scale(k); (animate&&!RM?svg.transition().duration(600):svg).call(zoom.transform,tr); }
+    /* a tapped dot that ends up under the bottom sheet slides up into view */
+    function unhide(n){ if(!n||!sheet()) return; const V=viewBox(), y=T.applyY(n.py); if(y<V.y1-24) return; const dy=(V.y0+V.y1)/2-y; (RM?svg:svg.transition().duration(350)).call(zoom.translateBy,0,dy/T.k); }
+    function select(id,zoomTo){ const n=id!=null?byId.get(id):null, was=st.focus&&st.sel!=null; st.sel=n?id:null; st.line=n?lineOf(n):null; if(!n){ st.focus=false; if(was) center(true); }
+      paintSel(); cardOf(n); applyHot(); url(); if(n&&zoomTo){ st.focus=true; reveal(); fit(true); } else if(n) unhide(n); }
+    function missing(id){ const p=people.get(id), nm=`<b>${esc(p.name)}</b>`, prof=` <a href="#p${id}">Profil</a>`; let root=null; const has=t=>t.id===id||t.children.some(has);
+      for(const t of Forest.build().trees) if(has(t)){ root=t; break; }
+      if(root){ const q=people.get(root.id), d=nDescOf(q), {match}=Forest.state();
+        if(match&&!match.has(root.id)) return `${nm} nie je v lese: línia ${esc(q.name)} je mimo filtra.${prof}`;
+        if(d<MIN) return (root.id===id?`${nm} zakladá líniu s ${nf.format(d)} ${pl(d,'potomkom','potomkami','potomkami')}`:`${nm} patrí do línie ${esc(q.name)} (${nf.format(d)} ${pl(d,'potomok','potomkovia','potomkov')})`)+`; les teraz zobrazuje iba línie s aspoň ${MIN} potomkami.${prof}`; }
+      return `${nm} nie je v líniách zobrazených v lese.${prof}`; }
+    function find(id){ hideNote(); const n=byId.get(id); if(!n){ select(null); say(missing(id)); return; } select(id,true);
+      if(!visible(n)) say(`<b>${esc(n.p.name)}</b>: doktorát ${n.yr}, posuvník Rok je teraz na ${st.year}.`); }
+    if(fi) combo(fi,$('#g-find-list'),p=>{ fi.value=''; fi.blur(); find(p.id); });
+    document.addEventListener('keydown',e=>{ if(e.key!=='Escape'||current!=='les') return; if(/INPUT|SELECT|TEXTAREA/.test(e.target.tagName||'')&&e.target!==yIn) return; if(document.querySelector('details.kopt[open]')) return;
+      hideNote(); if(st.sel!=null) select(null); });
+    /* ---- hooks for draw ---- */
+    function afterDraw(){ st.baseN=$('#g-n').textContent; st.ymin=Math.floor(d3.min(nodes.filter(n=>!n.est),n=>n.yr)||1900); if(st.year!=null&&st.year<st.ymin) st.year=st.ymin;
+      applyYear();
+      if(st.sel!=null&&!byId.has(st.sel)){ const id=st.sel; st.sel=null; st.line=null; st.focus=false; card.hidden=true; if(people.has(id)) say(missing(id)); url(); }
+      st.line=st.sel!=null?lineOf(byId.get(st.sel)):null; paintSel(); applyHot(); center(false);
+      if(st.sel!=null){ cardOf(byId.get(st.sel)); if(st.focus){ if(!st.revealed){ st.revealed=true; reveal(); } fit(false); } } }
+    function empty(){ vis=[]; card.hidden=true; if(st.sel!=null&&people.has(st.sel)){ say(missing(st.sel)); st.sel=null; st.line=null; st.focus=false; url(); } st.baseN=$('#g-n').textContent; }
+    return {afterDraw,empty,leave,url,
+      recenter(){ center(false); if(st.sel!=null&&st.focus) fit(false); },
+      zoomed(e){ if(e.sourceEvent) st.focus=false; },
+      pool(hot){ const P=st.line?[...st.line]:hot!=null?nodes.filter(n=>n.root===hot):nodes; return P.filter(visible); },
+      first(){ const n=st.sel!=null&&byId.get(st.sel); return n&&visible(n)?[{n,cls:'flbl gc-sel',t:n.p.name}]:[]; },
+      click(n){ if(n) select(n.data.id,false); else if(st.sel!=null) select(null); hideNote(); },
+      get sel(){ return st.sel; }};
+  })();
+  function ensure(){ Forest.panel(); if(!inited){ inited=true; requestAnimationFrame(draw); } else if(dirty) draw(); else LI.recenter(); LI.url(); }
   function sync(){ dirty=true; if(inited&&current==='les') draw(); }
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(inited&&current==='les') draw(); else dirty=true; },200); });
-  return {ensure,sync,hot:()=>{ if(inited&&current==='les') applyHot(); }};
+  return {ensure,sync,leave:()=>LI.leave(),hot:()=>{ if(inited&&current==='les') applyHot(); }};
 })();
 
 
@@ -2502,6 +2653,17 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
 
   /* ---- same labels across views ---- */
   const le=$('#l-exp'), lc=$('#l-col'); if(le) le.textContent='Rozbaliť všetko'; if(lc) lc.textContent='Zbaliť všetko';
+  dispatchEvent(new Event('resize'));
+})();
+</script>
+<script id="les-interactive-js">
+/* interactive Les: the search field and the year slider join the one toolbar (search with the other subject controls, year next to the line threshold) */
+(function(){
+  const $=q=>document.querySelector(q);
+  const vs=$('#vsubj'), f=$('#g-stage>.lfind');
+  if(vs&&f){ const g=document.createElement('div'); g.className='vt'; g.dataset.views='les'; g.appendChild(f); vs.insertBefore(g,vs.firstChild); }
+  const vg=$('#vtools .vt[data-view="les"]'), y=$('#g-stage>.gyear'), gb=vg&&vg.querySelector('.gbar');
+  if(vg&&y){ if(gb) gb.after(y); else vg.appendChild(y); }
   dispatchEvent(new Event('resize'));
 })();
 </script>
