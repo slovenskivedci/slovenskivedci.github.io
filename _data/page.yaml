@@ -457,43 +457,44 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ University of Applied Sciences','Brookhaven National Laboratory','CERN','CSIRO','CY\
   \ Cergy Paris Universit\xE9','Cardiovascular Research Center','Carleton University','Central\
   \ European University','Centrum vedecko-technick\xFDch inform\xE1ci\xED SR','\u010C\
-  esk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze','Cultech Ltd.','Curtin University','DeepMind','Ekonomick\xE1\
+  esk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze','Cultech Ltd.','Curtin University','Ekonomick\xE1\
   \ univerzita v Bratislave','Estonian University of Life Sciences','European Alliance\
   \ for Innovation','Eur\xF3pska komisia','Federal Reserve Bank of Dallas','Florida\
   \ State University','Fraunhofer Institute','George Mason University','Georgia Institute\
   \ of Technology','Goethe University Frankfurt','Google','Hannover Medical School','IST\
   \ Austria','Indiana University Bloomington','Institute of Tropical Medicine Antwerp','International\
-  \ Institute for Applied Systems Analysis','Johannes Gutenberg-Universit\xE4t Mainz','Joint\
-  \ Institute for Nuclear Research','J\xFClich Research Centre','Karlsruhe Institute\
-  \ of Technology','Karolinska Institutet','Kempelen Institute of Intelligent Technologies','King\\\
-  's College London','Krembil Research Institute','Lawrence Berkeley National Laboratory','Lepage\
-  \ Research Institute','MBZUAI','McMaster University','Medical College of Wisconsin','Monash\
-  \ University','Montanuniversit\xE4t Leoben','Murdoch University','NGM Biopharmaceuticals','N\xE1\
-  rodn\xFD onkologick\xFD \xFAstav','N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4\
-  b','National Research Council','Norwegian Institute for Air Research','Onkologick\xFD\
-  \ \xFAstav sv. Al\u017Ebety','Oregon Health and Science University','Oregon State\
-  \ University','Ostravsk\xE1 univerzita','Paul Scherrer Institut','Polytechnique\
-  \ Montr\xE9al','Pre\u0161ovsk\xE1 univerzita','RIKEN','RWTH Aachen','Region\xE1\
-  lny \xFArad verejn\xE9ho zdravotn\xEDctva','Research and Development Services','Ruprecht-Karls-Universit\xE4\
-  t Heidelberg','SUNY ESF','Sigmund Freud University','Slezsk\xE1 univerzita v Opave','Slovensk\xE1\
-  \ zdravotn\xEDcka univerzita','Solargis','Stanford University','Technical University\
-  \ Dortmund','The Wistar Institute','Tren\u010Dianska univerzita Alexandra Dub\u010D\
-  eka','Trinity College Dublin','U.S. Department of Agriculture','US Food and Drug\
-  \ Administration','UTB Zl\xEDn / UP Olomouc','Universit\xE4t Basel','Universit\xE4\
-  tsspital Basel','Universit\xE9 Aix-Marseille','Universit\xE9 Jean Monnet','Universit\xE9\
-  \ de Lille','University Medical Center Utrecht','University of Birmingham','University\
-  \ of Bonn','University of British Columbia','University of California, Berkeley','University\
-  \ of Chicago','University of Edinburgh','University of Essex','University of Fribourg','University\
-  \ of Groningen','University of Hawaii','University of Illinois Urbana-Champaign','University\
-  \ of Louisville','University of Massachusetts Lowell','University of Minnesota','University\
-  \ of New South Wales','University of Notre Dame','University of Ottawa','University\
-  \ of Pennsylvania','University of Pittsburgh','University of Reading','University\
-  \ of Regensburg','University of Technology Sydney','University of Troms\xF8','University\
-  \ of Turku','University of Vienna','University of Washington','University of Western\
-  \ Ontario','University of Wollongong','V\u0160B \u2013 Technick\xE1 univerzita Ostrava','Vanderbilt\
-  \ University','Vienna University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1\
-  ','Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B','Wageningen University','Yonsei\
-  \ University','Z\xE1pado\u010Desk\xE1 univerzita v Plzni','Zeppelin University']"
+  \ Institute for Applied Systems Analysis','Isara Labs','Johannes Gutenberg-Universit\xE4\
+  t Mainz','Joint Institute for Nuclear Research','J\xFClich Research Centre','Karlsruhe\
+  \ Institute of Technology','Karolinska Institutet','Kempelen Institute of Intelligent\
+  \ Technologies','King\\'s College London','Krembil Research Institute','Lawrence\
+  \ Berkeley National Laboratory','Lepage Research Institute','MBZUAI','McMaster University','Medical\
+  \ College of Wisconsin','Monash University','Montanuniversit\xE4t Leoben','Murdoch\
+  \ University','NGM Biopharmaceuticals','N\xE1rodn\xFD onkologick\xFD \xFAstav','N\xE1\
+  rodn\xFD \xFAstav reumatick\xFDch chor\xF4b','National Research Council','Norwegian\
+  \ Institute for Air Research','Onkologick\xFD \xFAstav sv. Al\u017Ebety','Oregon\
+  \ Health and Science University','Oregon State University','Ostravsk\xE1 univerzita','Paul\
+  \ Scherrer Institut','Polytechnique Montr\xE9al','Pre\u0161ovsk\xE1 univerzita','RIKEN','RWTH\
+  \ Aachen','Region\xE1lny \xFArad verejn\xE9ho zdravotn\xEDctva','Research and Development\
+  \ Services','Ruprecht-Karls-Universit\xE4t Heidelberg','SUNY ESF','Sigmund Freud\
+  \ University','Slezsk\xE1 univerzita v Opave','Slovensk\xE1 zdravotn\xEDcka univerzita','Solargis','Stanford\
+  \ University','Technical University Dortmund','The Wistar Institute','Tren\u010D\
+  ianska univerzita Alexandra Dub\u010Deka','Trinity College Dublin','U.S. Department\
+  \ of Agriculture','US Food and Drug Administration','UTB Zl\xEDn / UP Olomouc','Universit\xE4\
+  t Basel','Universit\xE4tsspital Basel','Universit\xE9 Aix-Marseille','Universit\xE9\
+  \ Jean Monnet','Universit\xE9 de Lille','University Medical Center Utrecht','University\
+  \ of Birmingham','University of Bonn','University of British Columbia','University\
+  \ of California, Berkeley','University of Chicago','University of Edinburgh','University\
+  \ of Essex','University of Fribourg','University of Groningen','University of Hawaii','University\
+  \ of Illinois Urbana-Champaign','University of Louisville','University of Massachusetts\
+  \ Lowell','University of Minnesota','University of New South Wales','University\
+  \ of Notre Dame','University of Ottawa','University of Pennsylvania','University\
+  \ of Pittsburgh','University of Reading','University of Regensburg','University\
+  \ of Technology Sydney','University of Troms\xF8','University of Turku','University\
+  \ of Vienna','University of Washington','University of Western Ontario','University\
+  \ of Wollongong','V\u0160B \u2013 Technick\xE1 univerzita Ostrava','Vanderbilt University','Vienna\
+  \ University of Technology','Vysok\xE1 \u0161kola chemicko-technologick\xE1','Vysok\xE9\
+  \ u\u010Den\xED technick\xE9 v Brn\u011B','Wageningen University','Yonsei University','Z\xE1\
+  pado\u010Desk\xE1 univerzita v Plzni','Zeppelin University']"
 fields:
   informatika:
   - 40
@@ -7630,13 +7631,13 @@ conn_areas:
     hindex: 54
     field: "strojov\xE9 u\u010Denie"
     area: "umel\xE1 inteligencia"
-    affiliation: DeepMind
+    affiliation: Isara Labs
     city: "Par\xED\u017E"
     country: "Franc\xFAzsko"
     img: Michal_Valko_size_280px.jpg
-    card_id: Valko:Francuzsko:DeepMind:Pariz:vedec:strojove_ucenie:muz
+    card_id: Valko:Francuzsko:Isara_Labs:Pariz:vedec:strojove_ucenie:muz
     areaurl: umela_inteligencia
-    affiliationurl: DeepMind
+    affiliationurl: Isara_Labs
     cityurl: Pariz
     countryurl: Francuzsko
   - &id341

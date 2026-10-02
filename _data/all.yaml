@@ -3144,9 +3144,10 @@
   sex: "mu\u017E"
   position: vedec
   field: "strojov\xE9 u\u010Denie"
-  pribeh: "V DeepMInde u\u010D\xED agentov pou\u010Di\u0165 sa z omylu r\xFDchlej\u0161\
-    ie, ne\u017E sa \u010Dlovek pou\u010D\xED z pondelka."
-  affiliation: DeepMind
+  pribeh: "Predt\xFDm Google DeepMind a Meta, dnes v Isara Labs u\u010D\xED modely\
+    \ pou\u010Di\u0165 sa z omylu r\xFDchlej\u0161ie, ne\u017E sa \u010Dlovek pou\u010D\
+    \xED z pondelka."
+  affiliation: Isara Labs
   city: "Par\xED\u017E"
   country: "Franc\xFAzsko"
   hindex: 54
@@ -3184,7 +3185,7 @@
   area: "umel\xE1 inteligencia"
   areaurl: umela_inteligencia
   positionurl: vedec
-  affiliationurl: DeepMind
+  affiliationurl: Isara_Labs
   cityurl: Pariz
   sexurl: muz
 - name: "Roman Bo\u010Da"
