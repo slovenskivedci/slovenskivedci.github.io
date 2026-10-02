@@ -155,7 +155,7 @@ function schoolShort(raw,lang){
    Highlight: one root-to-leaf branch through the ancestor with the most academic descendants
    (ctx.nDesc: MGP count or the local count, whichever is larger); fallback: the longest line.
    ===================================================================== */
-const TP={VIOLET:'#6e4fb3',INK:'#3b3026',INK2:'#7a6c5b',INK3:'#9d907c',TEAL:'#3d8c84',OCHRE:'#c08f2a',CREAM:'#fbf8ef',PAGE:'#fcfaf3',DASH:'#8a7a62',EDGE:'#bfb193',
+const TP={RUST:'#b4532a',VIOLET:'#6e4fb3',INK:'#3b3026',INK2:'#7a6c5b',INK3:'#9d907c',TEAL:'#3d8c84',OCHRE:'#c08f2a',CREAM:'#fbf8ef',PAGE:'#fcfaf3',DASH:'#8a7a62',EDGE:'#bfb193',
   SK:'#2f5d8a',SKF:'#eef3f8',SKE:'#8fb0cf',FOL:'#f0f2e2',FRAME:'#d8ccb4',FRAME2:'#e6dcc8',GROUND:'#cfc2a6'};
 const T_BROWN=[110,86,62],T_OLIVE=[122,124,78];
 const hex2=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
@@ -184,7 +184,7 @@ const L10N={
   date:(y,m,d)=>`${d}. ${m}. ${y}`, f3:ds=>ds?`Stav údajov k ${ds}.`:'',
   credit:'Rodokmeň slovenských matematikov · autor a tvorca: Peter Richtárik · www.slovenskivedci.sk/rodokmen',
   hl:chain=>'Zvýraznená vetva: '+chain, hlWhy:(who,d)=>`vedie k predkovi s najviac akademickými potomkami: ${who} (${d})`, hlLong:'najdlhšia línia (údaje o potomkoch chýbajú)',
-  lBranch:'Vetva: školiteľ (vyššie) a doktorand', lPd:'Postdoktorandský školiteľ a postdoktorand', lPd2:'', lIm:'Neformálny mentor', lIm2:'(výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa do počtu osôb)',
+  lBranch:'Vetva: školiteľ (vyššie) a doktorand', lPd:'Postdoktorandský školiteľ a postdoktorand', lPd2:'', lRs:'Výskumný vedec v skupine', lRs2:'(research scientist; nezapočítava sa do počtu osôb)', lIm:'Neformálny mentor', lIm2:'(výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa do počtu osôb)',
   lDash:'Ďalší školiteľ už nakreslenej osoby', lDash2:'(druhá cesta k tej istej osobe)',
   lUnv:'Neoverený vzťah', lUnv2:'(odvodený zo zoznamu žiakov alebo bez zdroja)', lCo:'Jeden z viacerých školiteľov', lCo2:'(doktorand mal aj ďalšieho školiteľa)', lSk:'Slovenský matematik alebo rodák zo Slovenska',
   lMore:'ďalší predkovia: n', lMore2:'= počet starších predkov mimo výrezu', legend:'LEGENDA', pdTag:'postdoktorand',
@@ -211,7 +211,7 @@ const L10N={
   date:(y,m,d)=>`${d} ${MONTHS_EN[m-1]} ${y}`, f3:ds=>ds?`Data as of ${ds}.`:'',
   credit:'Slovak Mathematical Genealogy · created by Peter Richtárik · www.slovenskivedci.sk/rodokmen',
   hl:chain=>'Highlighted branch: '+chain, hlWhy:(who,d)=>`leads to the ancestor with the most academic descendants: ${who} (${d})`, hlLong:'the longest line (descendant counts missing)',
-  lBranch:'Branch: PhD advisor (above) of a student', lPd:'Postdoc link', lPd2:'(postdoc advisor above)', lIm:'Informal mentor', lIm2:'(strong research influence before a PhD with another advisor; not included in the head count)',
+  lBranch:'Branch: PhD advisor (above) of a student', lPd:'Postdoc link', lPd2:'(postdoc advisor above)', lRs:'Research scientist in the group', lRs2:'(not included in the head count)', lIm:'Informal mentor', lIm2:'(strong research influence before a PhD with another advisor; not included in the head count)',
   lDash:'Also an advisor', lDash2:'(second path to a person)',
   lUnv:'Unconfirmed link', lUnv2:'(derived from a list of students, or without a source)', lCo:'One of several advisors', lCo2:'(the student also had another advisor)', lSk:'Slovak mathematician or born in Slovakia',
   lMore:'more ancestors: n', lMore2:'= older ancestors not shown here', legend:'LEGEND', pdTag:'postdoc',
@@ -240,20 +240,23 @@ function treeGraph(ctx,rootId,G,usePd,dir){
   const src=(x,a)=>ctx.edgeSrc?((down?ctx.edgeSrc(a,x):ctx.edgeSrc(x,a))||''):'';
   /* informal mentor links (ctx.imStudentsOf/imMentorsOf): dotted violet leaves, never followed further and not counted as people */
   const imOf=down?ctx.imStudentsOf:ctx.imMentorsOf, IM=new Set();
+  /* research scientist links (ctx.rsMembersOf/rsHostsOf): long-dash rust leaves; kept in IM (never followed, never counted) and flagged in RS */
+  const rsOf=down?ctx.rsMembersOf:ctx.rsHostsOf, RS=new Set();
   const gmin=new Map([[rootId,0]]), par=new Map(); const q=[rootId];
   for(let i=0;i<q.length;i++){ const x=q[i]; if(IM.has(x)) continue; for(const a of advOrd(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); }
+    if(rsOf) for(const a of rsOf(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); IM.add(a); RS.add(a); }
     if(imOf) for(const a of imOf(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); IM.add(a); } }
   const ALL=new Set(gmin.keys()); const order=q.filter(x=>gmin.get(x)<=G); const S=new Set(order);
   const kids=new Map(order.map(x=>[x,[]]));
   for(const x of order) if(x!==rootId) kids.get(par.get(x)).push(x);
-  const edge=new Map(); for(const x of order) if(x!==rootId){ const p=par.get(x); if(IM.has(x)){ edge.set(x,{im:true,pd:false,unv:false,co:false}); continue; } const pdE=isPd(p,x); edge.set(x,{pd:pdE,unv:UNV_TREE.test(src(p,x)),co:!pdE&&!!ctx.isCoEdge&&(down?ctx.isCoEdge(x,p):ctx.isCoEdge(p,x))}); }
+  const edge=new Map(); for(const x of order) if(x!==rootId){ const p=par.get(x); if(IM.has(x)){ edge.set(x,RS.has(x)?{rs:true,im:false,pd:false,unv:false,co:false}:{im:true,pd:false,unv:false,co:false}); continue; } const pdE=isPd(p,x); edge.set(x,{pd:pdE,unv:UNV_TREE.test(src(p,x)),co:!pdE&&!!ctx.isCoEdge&&(down?ctx.isCoEdge(x,p):ctx.isCoEdge(p,x))}); }
   const extra=[]; for(const x of order) if(!IM.has(x)) for(const a of advOrd(x)) if(S.has(a)&&par.get(a)!==x&&a!==rootId) extra.push({s:x,a,pd:isPd(x,a),unv:UNV_TREE.test(src(x,a))});
   const size=new Map(), leaves=new Map(), height=new Map();
   for(let i=order.length-1;i>=0;i--){ const x=order[i]; let s=1,l=0,h=0; for(const c of kids.get(x)){ s+=size.get(c); l+=leaves.get(c); h=Math.max(h,height.get(c)+1); } size.set(x,s); leaves.set(x,l||1); height.set(x,h); }
   const ancestors=x=>{ const out=new Set(); const st=[x]; while(st.length){ const y=st.pop(); for(const a of advOrd(y)) if(!out.has(a)){ out.add(a); st.push(a); } } return out; };
   const more=new Map(); for(const x of order){ if(IM.has(x)) continue; if(advOrd(x).some(a=>!S.has(a))){ let n=0; for(const a of ancestors(x)) if(!S.has(a)) n++; if(n) more.set(x,n); } }
   const pdEdges=[...edge.values()].filter(e=>e.pd).length+extra.filter(e=>e.pd).length;
-  return {S,ALL,order,gmin,par,kids,edge,extra,size,leaves,height,more,usePd:!!usePd,pdEdges,dir:down?'down':'up',im:IM,nIm:[...IM].filter(x=>S.has(x)).length,nImAll:IM.size};
+  return {S,ALL,order,gmin,par,kids,edge,extra,size,leaves,height,more,usePd:!!usePd,pdEdges,dir:down?'down':'up',im:IM,rs:RS,nIm:[...IM].filter(x=>S.has(x)).length,nImAll:IM.size};
 }
 
 function famousPath(ctx,g,rootId){
@@ -419,10 +422,12 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     const why=fp.mode==='desc'?(down?TX.dHlWhy:TX.hlWhy)(baseName(P.get(fp.target).name),nfmt(fp.d,lang)):TX.hlLong;
     LI.push({sw:'hl',t1:TX.hl(chain.join(' → ')),t2:why});
   }
+  /* relation types by seniority (P. Richtárik, 2. 10. 2026): neformálny mentor, doktorand, postdoktorand, výskumný vedec */
+  if([...g.edge.values()].some(e=>e.im)) LI.push({sw:'im',t1:TX.lIm,t2:TX.lIm2});
   if(kk) LI.push({sw:'branch',t1:TX.lBranch});
   const hasPd=[...g.edge.values()].some(e=>e.pd)||g.extra.some(e=>e.pd);
   if(hasPd) LI.push({sw:'pd',t1:TX.lPd,t2:TX.lPd2});
-  if([...g.edge.values()].some(e=>e.im)) LI.push({sw:'im',t1:TX.lIm,t2:TX.lIm2});
+  if([...g.edge.values()].some(e=>e.rs)) LI.push({sw:'rs',t1:TX.lRs,t2:TX.lRs2});
   if(g.extra.some(e=>!e.pd)) LI.push({sw:'dash',t1:TX.lDash,t2:TX.lDash2});
   const hasUnv=[...g.edge.values()].some(e=>e.unv)||g.extra.some(e=>e.unv);
   if(hasUnv) LI.push({sw:'unv',t1:TX.lUnv,t2:TX.lUnv2});
@@ -532,6 +537,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     const k1=isT(p)&&p!==B?0.42:cfg.c1, k2=cfg.c2;   // short start and long vertical approach: branches reach their column early and rise straight into the pill
     const c=[S0,[S0[0]+u0[0]*Ld*k1,S0[1]+u0[1]*Math.min(Ld*k1,dyv*0.75)],[E[0],E[1]+dyv*k2],E]; curveOf.set(x,c);
     const pts=curvePts(c,28); const w=Wd(size.get(x)); const e=g.edge.get(x);
+    if(e.rs){ G2.push(`<path d="${cpath(c)}" fill="none" stroke="${TP.RUST}" stroke-width="${n2(Math.max(2.4,w*0.8))}" stroke-dasharray="${n2(Math.max(9,w*3))} ${n2(Math.max(4.5,w*1.5))}"/>`); if(hlEdge(x)) veins.push(cpath(c)); continue; }
     if(e.im){ G2.push(`<path d="${cpath(c)}" fill="none" stroke="${TP.VIOLET}" stroke-width="${n2(Math.max(3,w*0.9))}" stroke-dasharray="0.1 ${n2(Math.max(5.5,w*1.8))}" stroke-linecap="round"/>`); if(hlEdge(x)) veins.push(cpath(c)); continue; }
     if(e.co){ const pc=curvePts(c,140); G2.push(coBranch(pc,pc.map((q,i)=>w*1.1+(w*0.72-w*1.1)*i/140),brCol(size.get(x)))); }
     else G2.push(`<path d="${polyTaper(pts,pts.map((q,i)=>w*1.1+(w*0.72-w*1.1)*i/28))}" fill="${e.pd?TP.TEAL:brCol(size.get(x))}"/>`);
@@ -593,6 +599,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     for(const it of LI){ const sx=Lx+lpad, cy=yy+7;
       if(it.sw==='branch') out.push(`<path d="${tp2(sx,cy,6,2)}" fill="${mixc(T_BROWN,T_OLIVE,0.3)}"/>`);
       else if(it.sw==='pd') out.push(`<path d="${tp2(sx,cy,6,4)}" fill="${TP.TEAL}"/>`);
+      else if(it.sw==='rs') out.push(`<path d="M${n2(sx)},${n2(cy+3)} C${n2(sx+12)},${n2(cy+1.5)} ${n2(sx+24)},${n2(cy-1)} ${n2(sx+lsw)},${n2(cy-2.5)}" fill="none" stroke="${TP.RUST}" stroke-width="2.2" stroke-dasharray="6 3"/>`);
       else if(it.sw==='im') out.push(`<path d="M${n2(sx)},${n2(cy+3)} C${n2(sx+12)},${n2(cy+1.5)} ${n2(sx+24)},${n2(cy-1)} ${n2(sx+lsw)},${n2(cy-2.5)}" fill="none" stroke="${TP.VIOLET}" stroke-width="2.2" stroke-dasharray="0.1 4.2" stroke-linecap="round"/>`);
       else if(it.sw==='dash') out.push(`<path d="M${n2(sx)},${n2(cy+2)} Q${n2(sx+20)},${n2(cy-8)} ${n2(sx+lsw)},${n2(cy+2)}" fill="none" stroke="${TP.DASH}" stroke-width="0.9" stroke-dasharray="3 3"/>`);
       else if(it.sw==='unv'){ out.push(`<path d="${tp2(sx,cy,6,4)}" fill="${mixc(T_BROWN,T_OLIVE,0.3)}"/>`); for(let k2=0;k2<5;k2++) out.push(`<circle cx="${n2(sx+5+k2*7.5)}" cy="${n2(cy+1.6-k2*0.8)}" r="1" fill="${TP.CREAM}"/>`); }
@@ -686,7 +693,7 @@ Object.assign(L10N.en,{
 const V_BR='#726143';
 const vTaper=c=>`<path d="M1,9.5 C12,8 24,6 35,5 L35,7.5 C24,8.5 12,11.5 1,13 Z" fill="${c}"/>`;
 const V_SW={hl:`<path d="M1,8H35" stroke="${TP.OCHRE}" stroke-width="2.2" stroke-linecap="round"/><rect x="9" y="1.5" width="18" height="12" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="1.2"/>`,
-  branch:vTaper(V_BR), pd:vTaper(TP.TEAL), im:`<path d="M1,11 C12,9.5 24,7 35,5.5" fill="none" stroke="${TP.VIOLET}" stroke-width="2.2" stroke-dasharray="0.1 4.2" stroke-linecap="round"/>`, dash:`<path d="M1,10 Q18,0 35,10" fill="none" stroke="${TP.DASH}" stroke-width="1" stroke-dasharray="3 3"/>`,
+  branch:vTaper(V_BR), pd:vTaper(TP.TEAL), rs:`<path d="M1,11 C12,9.5 24,7 35,5.5" fill="none" stroke="${TP.RUST}" stroke-width="2.2" stroke-dasharray="6 3"/>`, im:`<path d="M1,11 C12,9.5 24,7 35,5.5" fill="none" stroke="${TP.VIOLET}" stroke-width="2.2" stroke-dasharray="0.1 4.2" stroke-linecap="round"/>`, dash:`<path d="M1,10 Q18,0 35,10" fill="none" stroke="${TP.DASH}" stroke-width="1" stroke-dasharray="3 3"/>`,
   co:vTaper(V_BR)+`<path d="M1,11 C12,9.5 24,7.5 35,6.3" fill="none" stroke="${TP.PAGE}" stroke-width="9" stroke-dasharray="3.5 7" stroke-dashoffset="-6"/>`,
   unv:vTaper(V_BR)+[5,12.5,20,27.5].map((x,i)=>`<circle cx="${x}" cy="${10.6-i*1}" r="1" fill="${TP.CREAM}"/>`).join(''),
   sk:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.SKF}" stroke="${TP.SKE}" stroke-width="0.9"/>`,
