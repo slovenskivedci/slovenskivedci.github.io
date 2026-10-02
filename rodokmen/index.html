@@ -183,6 +183,15 @@ h2.sec{font:500 10.5px/1.3 var(--font-mono);letter-spacing:.09em;text-transform:
 .row .unv-t{color:var(--ink-3);font-style:italic}
 #t-stage .legend{flex-wrap:wrap;justify-content:flex-end;max-width:300px;row-gap:4px}
 .link.hl{stroke:var(--accent);stroke-width:1.9}
+/* co-advised student (2+ advisors): every advisor link dash-dot; tag "spoluškolený" in lists */
+:root{--co:#A8467E;--co-soft:#F6E9F1}
+:root[data-theme="dark"]{--co:#E58BC0;--co-soft:#3A1F31}
+.link.co:not(.extra){stroke-dasharray:9 3 1.5 3}
+.link.co.unv:not(.extra){stroke-dasharray:1 3 1 3 9 3}
+.fl.co{stroke-dasharray:5 2 1 2}
+.comk{display:inline-block;margin-left:7px;padding:0 5px;border:1px solid var(--co);border-radius:4px;font:500 9.5px/1.45 var(--font-mono);letter-spacing:.03em;color:var(--co);background:var(--co-soft);vertical-align:2px;white-space:nowrap;cursor:help;text-transform:none}
+.lname .comk{margin-left:0}
+.legend svg.lg-ln line.co{stroke-dasharray:9 3 1.5 3}
 .node{cursor:pointer}
 .node .dot{fill:var(--surface);stroke:var(--ink-3);stroke-width:1.5}
 .node.sk .dot{fill:var(--accent);stroke:var(--accent)}
@@ -550,7 +559,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
         <div class="lbar"><span class="lsum" id="l-sum"></span><div class="fchip" id="f-chip" hidden><span class="fchip-l">Filter</span><span id="f-chip-t"></span><button type="button">Zrušiť</button></div><span class="lbar-r"><button type="button" class="linkbtn" id="l-exp">rozbaliť všetko</button><button type="button" class="linkbtn" id="l-col">zbaliť</button></span></div>
-        <div class="lhead" aria-hidden="true"><span>zakladateľ línie a jeho doktorandi</span><span>vo vetve</span></div>
+        <div class="lhead" aria-hidden="true"><span>zakladateľ línie a jeho doktorandi · <span class="comk" style="margin:0">spoluškolený</span> = mal aj ďalšieho školiteľa</span><span>vo vetve</span></div>
         <ul class="ltree" id="l-list" role="tree" aria-label="Slovenské matematické línie"></ul>
       </div>
       <div class="stage" id="g-stage">
@@ -558,7 +567,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         <svg id="g-svg" role="img" aria-label="Les najväčších slovenských matematických línií: vzdialenosť od stredu zodpovedá roku doktorátu"></svg>
         <div class="fchip" id="g-chip" hidden><span class="fchip-l">Filter</span><span id="g-chip-t"></span><button type="button">Zrušiť</button></div>
         <div class="legend" aria-hidden="true">
-          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (20+ potomkov)</span>
+          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>potomkovia v zahraničí</span><span><i class="lg-root">Meno</i>zakladateľ línie (20+ potomkov)</span><span title="doktorand mal aj ďalšieho školiteľa"><svg class="lg-ln" viewBox="0 0 22 6"><line class="co" x1="1" y1="3" x2="21" y2="3"/></svg>jeden z viacerých školiteľov</span>
         </div>
       </div>
     </section>
@@ -575,7 +584,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
           <button type="button" class="tool" data-act="kstrom" title="Rodokmeň ako strom: predkovia alebo potomkovia">Strom</button>
         </div>
         <div class="legend" aria-hidden="true">
-          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span title="záznam práce, životopis, článok alebo e-mail"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>vzťah so zdrojom</span><span title="len Mathematics Genealogy Project, odvodené zo zoznamu žiakov alebo bez zdroja"><svg class="lg-ln" viewBox="0 0 22 6"><line class="u" x1="1" y1="3" x2="21" y2="3"/></svg>neoverený vzťah</span><span title="postdoktorandský pobyt u školiteľa (so zdrojom)"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorandský školiteľ</span>
+          <span><i class="dot sk"></i>slovenskí</span><span><i class="dot ft"></i>slovenskivedci.sk</span><span><i class="dot"></i>ostatní</span><span title="záznam práce, životopis, článok alebo e-mail"><svg class="lg-ln" viewBox="0 0 22 6"><line x1="1" y1="3" x2="21" y2="3"/></svg>vzťah so zdrojom</span><span title="len Mathematics Genealogy Project, odvodené zo zoznamu žiakov alebo bez zdroja"><svg class="lg-ln" viewBox="0 0 22 6"><line class="u" x1="1" y1="3" x2="21" y2="3"/></svg>neoverený vzťah</span><span title="postdoktorandský pobyt u školiteľa (so zdrojom)"><svg class="lg-ln" viewBox="0 0 22 6"><line class="pd" x1="1" y1="3" x2="21" y2="3"/></svg>postdoktorandský školiteľ</span><span title="doktorand mal aj ďalšieho školiteľa"><svg class="lg-ln" viewBox="0 0 22 6"><line class="co" x1="1" y1="3" x2="21" y2="3"/></svg>jeden z viacerých školiteľov</span><span><span class="comk" style="margin:0">spoluškolený</span>mal viacerých školiteľov</span>
         </div>
       </div>
     </section>
@@ -807,6 +816,13 @@ const studAllOf=id=>{ const s=studentsOf(id); return s.concat(pdStudentsOf(id).f
 const SRCL={m:'Mathematics Genealogy Project',g:'RePEc Genealogy',i:'odvodené zo zoznamu žiakov',u:'bez zdroja',r:'záznam alebo zoznam obhájených prác',c:'životopis alebo osobná stránka',j:'článok alebo monografia',e:'e-mail'};
 const edgeSrc=(sid,aid)=>{ const p=people.get(sid); const k=p?p.adv.indexOf(aid):-1; if(k>=0) return p.advSrc[k]||'u'; const q=people.get(aid); const j=q?q.adv.indexOf(sid):-1; if(j>=0) return q.advSrc[j]||'u'; const x=pdLink(sid,aid)||pdLink(aid,sid); return x?(x.s||'u'):''; };
 const isUnv=s=>/^[mgiu]/.test(s||'');
+/* co-advised students: 2+ advisors (also ids outside the database, as on MGP) */
+const hasCo=sid=>{ const p=people.get(sid); return !!p&&p.adv.length>1; };
+const isCoEdge=(sid,aid)=>{ const p=people.get(sid); return !!p&&p.adv.length>1&&p.adv.includes(aid); };
+function coWho(sid,aid){ const p=people.get(sid); const ins=p.adv.filter(a=>a!==aid&&people.has(a)).map(a=>people.get(a).name), out=p.adv.filter(a=>!people.has(a)).length;
+  if(out) ins.push(out===1?'ďalší školiteľ mimo databázy (podľa MGP)':`ďalší školitelia mimo databázy (${out}, podľa MGP)`); return ins.join(', '); }
+function coMark(sid,aid){ if(!hasCo(sid)) return ''; const p=people.get(sid), t=(aid==null?'Školitelia: ':'Ďalší školitelia: ')+coWho(sid,aid);
+  return `<span class="comk" title="${esc(t)}">${isFemale(p)?'spoluškolená':'spoluškolený'}</span>`; }
 const srcLabel=s=>s?((s.length>2&&s[1]===':'?s.slice(2):SRCL[s[0]]||'')+(isUnv(s)?' (neoverené)':'')):'';
 const klass=p=>p.feat?'sk ft':p.sk?'sk':'';
 const isFemale=p=>/\p{L}(ová|á)(?!\p{L})/u.test(p.name.replace(/^\S+\s/,''))||(/a$/.test(p.name.split(' ')[0])&&!/^(Gejza|Luca|Nikola|Andrea|Joshua|Kuba|Csaba|Attila|Ilja)$/.test(p.name.split(' ')[0]));
@@ -926,7 +942,7 @@ function combo(input,list,onPick){
 const tip=$('#tip');
 function showTip(html,x,y){ tip.innerHTML=html; tip.hidden=false; const r=tip.getBoundingClientRect(); let L=x+14,T=y+14; if(L+r.width>innerWidth-8) L=x-r.width-14; if(T+r.height>innerHeight-8) T=y-r.height-14; tip.style.left=Math.max(8,L)+'px'; tip.style.top=Math.max(8,T)+'px'; }
 function hideTip(){ tip.hidden=true; }
-function tipHtml(p){ const adv=advisorsOf(p.id).map(a=>people.get(a).name); return `<b>${esc(p.name)}</b><span class="m">${esc(p.primary?degLine(p.primary):'')}${p.school?' · '+esc(p.school):''}</span>${adv.length?`<div>${adv.length===1?'Školiteľ':'Školitelia'}: ${esc(adv.join(', '))}</div>`:''}${nDescOf(p)?`<div class="m">${nf.format(nDescOf(p))} ${pl(nDescOf(p),'potomok','potomkovia','potomkov')}</div>`:''}`; }
+function tipHtml(p){ const adv=advisorsOf(p.id).map(a=>people.get(a).name); return `<b>${esc(p.name)}</b><span class="m">${esc(p.primary?degLine(p.primary):'')}${p.school?' · '+esc(p.school):''}</span>${adv.length?`<div>${p.adv.length>1?'Školitelia':'Školiteľ'}: ${esc(coWho(p.id,null))}</div>`:''}${nDescOf(p)?`<div class="m">${nf.format(nDescOf(p))} ${pl(nDescOf(p),'potomok','potomkovia','potomkov')}</div>`:''}`; }
 
 /* ---------- text measurement ---------- */
 const mctx=document.createElement('canvas').getContext('2d');
@@ -1000,8 +1016,8 @@ const Tree=(()=>{
     const lsel=gL.selectAll('path').data(links,l=>l.key);
     lsel.exit().transition().duration(D*.5).style('opacity',0).remove();
     const lent=lsel.enter().append('path').style('opacity',0);
-    const lall=lent.merge(lsel).attr('class',l=>{ const pd=isPdEdge(l.t.id,l.s.id); return 'link'+(l.extra?' extra':'')+(pd?' pd':isUnv(edgeSrc(l.t.id,l.s.id))?' unv':''); });
-    lall.each(function(l){ const s=d3.select(this); let t=s.select('title'); if(t.empty()) t=s.append('title'); const x=isPdEdge(l.t.id,l.s.id)?pdLink(l.t.id,l.s.id):null; t.text((x?`Postdoktorandský pobyt${x.y?' '+x.y:''}${x.in?', '+x.in:''}. `:'')+'Zdroj vzťahu: '+srcLabel(edgeSrc(l.t.id,l.s.id))); });
+    const lall=lent.merge(lsel).attr('class',l=>{ const pd=isPdEdge(l.t.id,l.s.id); return 'link'+(l.extra?' extra':'')+(pd?' pd':isUnv(edgeSrc(l.t.id,l.s.id))?' unv':'')+(!pd&&isCoEdge(l.t.id,l.s.id)?' co':''); });
+    lall.each(function(l){ const s=d3.select(this); let t=s.select('title'); if(t.empty()) t=s.append('title'); const x=isPdEdge(l.t.id,l.s.id)?pdLink(l.t.id,l.s.id):null; t.text((x?`Postdoktorandský pobyt${x.y?' '+x.y:''}${x.in?', '+x.in:''}. `:'')+(!x&&hasCo(l.t.id)?`Jeden z viacerých školiteľov. Ďalší: ${coWho(l.t.id,l.s.id)}. `:'')+'Zdroj vzťahu: '+srcLabel(edgeSrc(l.t.id,l.s.id))); });
     lall.transition().duration(D).style('opacity',1);
     const TAG='postdoktorand', TAGW=tw(TAG,'500 8.5px "Geist Mono", monospace')+9;
     const tsel=gT.selectAll('g.pdtag').data(links.filter(l=>!l.extra&&isPdEdge(l.t.id,l.s.id)),l=>l.key);
@@ -1062,7 +1078,7 @@ const Tree=(()=>{
 /* ---------- profile panel ---------- */
 const IMOAW={G:'zlato',S:'striebro',B:'bronz',HM:'čestné uznanie'};
 const PROG={DM:'Diskrétna matematika',TVM:'Teória vyučovania matematiky','Dikrétna matematika':'Diskrétna matematika'};
-function personRow(id,sub,src,cls){ const p=people.get(id); const u=src&&isUnv(src); return `<li${cls?` class="${cls}"`:''}><button type="button" class="row" data-go="${p.id}"${src?` title="Zdroj vzťahu: ${esc(srcLabel(src))}"`:''}><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}</span><span class="yr">${p.year||''}</span><span class="sub">${esc(sub??p.school??'')}${u?'<span class="unv-t"> · neoverený vzťah</span>':''}</span></button></li>`; }
+function personRow(id,sub,src,cls,coOf){ const p=people.get(id); const u=src&&isUnv(src); return `<li${cls?` class="${cls}"`:''}><button type="button" class="row" data-go="${p.id}"${src?` title="Zdroj vzťahu: ${esc(srcLabel(src))}"`:''}><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}${coOf!=null?coMark(p.id,coOf):''}</span><span class="yr">${p.year||''}</span><span class="sub">${esc(sub??p.school??'')}${u?'<span class="unv-t"> · neoverený vzťah</span>':''}</span></button></li>`; }
 function renderProfile(p){
   const el=$('#profile'); const f=p.feat; const chips=[];
   if(p.sk==='rod') chips.push(`<span class="chip sk" title="Narodil sa na území dnešného Slovenska a doktorát získal pred rokom 1918"><i class="dot sk"></i>Rodák zo Slovenska</span>`); else if(p.sk) chips.push(`<span class="chip sk" title="${p.sk==='inst'?'Doktorát udelila slovenská inštitúcia':p.sk==='unk'?'Miesto doktorátu nie je známe':'Doktorát získaný v zahraničí'}"><i class="dot sk"></i>${isFemale(p)?'Slovenská matematička':'Slovenský matematik'}</span>`);
@@ -1091,7 +1107,7 @@ function renderProfile(p){
   const pdAdvHtml=pdAdv.length?`<h2 class="sec"><span>${pdAdv.length===1?'Postdoktorandský školiteľ':'Postdoktorandskí školitelia'}</span><span>${pdAdv.length}</span></h2><ul class="rows">${pdAdv.map(a=>pdRow(a,pdLink(p.id,a))).join('')}</ul>`:'';
   const pdStHtml=pdSt.length?`<h2 class="sec"><span>${pdSt.length===1?'Postdoktorand':'Postdoktorandi'}</span><span>${pdSt.length}</span></h2><ul class="rows">${pdSt.map(s=>pdRow(s,pdLink(s,p.id))).join('')}</ul>`:'';
   const advHtml=adv.length||p.advText.length||missingAdv?`<h2 class="sec"><span>${adv.length+p.advText.length+missingAdv===1?'Školiteľ':'Školitelia'}</span><span>${adv.length+p.advText.length+missingAdv}</span></h2><ul class="rows">${adv.map(a=>personRow(a,undefined,edgeSrc(p.id,a))).join('')}${p.advText.map(t=>`<li><div class="row" style="cursor:default"><i class="dot"></i><span class="nm">${esc(t)}</span><span class="yr"></span><span class="sub">Uvedený na domovskej stránke, v databáze zatiaľ nie je.</span></div></li>`).join('')}</ul>${missingAdv?`<p class="more-note">Ďalší na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>, mimo tejto databázy: ${missingAdv}.</p>`:''}`:'';
-  const stHtml=st.length?`<h2 class="sec"><span>Doktorandi</span><span>${st.length}${nStud>st.length?' z '+nf.format(nStud):''}</span></h2><ul class="rows">${st.map(s=>personRow(s,undefined,edgeSrc(s,p.id))).join('')}</ul>${nStud>st.length?`<p class="more-note">Zobrazení sú len doktorandi na ceste k slovenskému matematikovi. Všetkých ${nf.format(nStud)} nájdete na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>.</p>`:''}`:'';
+  const stHtml=st.length?`<h2 class="sec"><span>Doktorandi</span><span>${st.length}${nStud>st.length?' z '+nf.format(nStud):''}</span></h2><ul class="rows">${st.map(s=>personRow(s,undefined,edgeSrc(s,p.id),undefined,p.id)).join('')}</ul>${nStud>st.length?`<p class="more-note">Zobrazení sú len doktorandi na ceste k slovenskému matematikovi. Všetkých ${nf.format(nStud)} nájdete na <a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">MGP</a>.</p>`:''}`:'';
   const links=[]; if(p.id>0) links.push(`<a href="${mgpUrl(p.id)}" target="_blank" rel="noopener">Mathematics Genealogy Project</a>`);
   if(f){ if(f.sch) links.push(`<a href="https://scholar.google.com/citations?user=${encodeURIComponent(f.sch)}" target="_blank" rel="noopener">Google Scholar</a>`); if(f.web) links.push(`<a href="${esc(f.web)}" target="_blank" rel="noopener">Webstránka</a>`); if(f.wiki) links.push(`<a href="${esc(f.wiki)}" target="_blank" rel="noopener">Wikipédia</a>`); links.push(`<a href="https://www.slovenskivedci.sk/" target="_blank" rel="noopener">slovenskivedci.sk</a>`); }
   if(p.src) links.push(`<a href="${esc(p.src)}" target="_blank" rel="noopener">Zdroj údajov</a>`);
@@ -1111,9 +1127,9 @@ function renderProfile(p){
   el.scrollTop=0;
 }
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
-const PRINT_CTX={people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf};
+const PRINT_CTX={isCoEdge,people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf};
 let printP=null;   // window.rodokmenPrintLang: poster language, Slovak by default; the last choice is kept while the page is open
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=12'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=13'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
 async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'); const gens=+row.querySelector('[name=pgen]').value||14, paper=row.querySelector('[name=pfmt]').value||'A2', pdBox=row.querySelector('[name=ppd]'), postdoc=pdBox?pdBox.checked:false, langSel=row.querySelector('[name=plang]'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
   btn.disabled=true; st.textContent='Pripravujem PDF…';
   try{ const M=await loadPrint(); await M.download(PRINT_CTX,+btn.dataset.print,{gens,paper,postdoc,lang}); st.textContent=''; }
@@ -1191,6 +1207,7 @@ const Strom=(()=>{
   const taper=c=>`<path d="M1,9.5 C12,8 24,6 35,5 L35,7.5 C24,8.5 12,11.5 1,13 Z" fill="${c}"/>`;
   const SW={hl:'<path d="M1,8H35" stroke="#c08f2a" stroke-width="2.2" stroke-linecap="round"/><rect x="9" y="1.5" width="18" height="12" rx="5" fill="#fbf8ef" stroke="#c08f2a" stroke-width="1.2"/>',
     branch:taper(BR), pd:taper(TEAL), dash:'<path d="M1,10 Q18,0 35,10" fill="none" stroke="#8a7a62" stroke-width="1" stroke-dasharray="3 3"/>',
+    co:taper(BR)+'<path d="M1,11 C12,9.5 24,7.5 35,6.3" fill="none" stroke="#fcfaf3" stroke-width="9" stroke-dasharray="3.5 7" stroke-dashoffset="-6"/>',
     unv:taper(BR)+[5,12.5,20,27.5].map((x,i)=>`<circle cx="${x}" cy="${10.6-i*1}" r="1" fill="#fbf8ef"/>`).join(''),
     sk:'<rect x="4" y="1.5" width="28" height="12" rx="5" fill="#eef3f8" stroke="#8fb0cf" stroke-width="0.9"/>', more:'<rect x="4" y="1.5" width="28" height="12" rx="5" fill="#fbf8ef" stroke="#bfb193" stroke-width="0.7"/>'};
   function legend(sc){ const el=$('#k-legend');
@@ -1272,8 +1289,8 @@ const Forest=(()=>{
     for(const id of N){ const advs=advisorsOf(id).filter(a=>N.has(a)); if(!advs.length) continue; advs.sort((a,b)=>(people.get(b).sk?1:0)-(people.get(a).sk?1:0)||yearOf(a)-yearOf(b)); par.set(id,advs[0]); }
     const kids=new Map(); for(const [c,pa] of par){ if(!kids.has(pa)) kids.set(pa,[]); kids.get(pa).push(c); }
     const roots=[...N].filter(id=>!par.has(id)).sort(byYear); const seen=new Set();
-    const make=id=>{ seen.add(id); return {id,children:(kids.get(id)||[]).filter(c=>!seen.has(c)).sort(byYear).map(make)}; };
-    const trees=roots.map(make).filter(t=>t.children.length);
+    const make=(id,pa)=>{ seen.add(id); return {id,par:pa,children:(kids.get(id)||[]).filter(c=>!seen.has(c)).sort(byYear).map(c=>make(c,id))}; };
+    const trees=roots.map(id=>make(id,null)).filter(t=>t.children.length);
     return {trees,singles:roots.length-trees.length,N};
   }
   const size=t=>t.n??(t.n=1+t.children.reduce((a,c)=>a+size(c),0));
@@ -1283,7 +1300,7 @@ const Forest=(()=>{
     const cls='lrow'+(d===0?' top':'')+(d===0&&nDescOf(p)>=RED?' big':'');
     return `<li class="lnode" role="treeitem" aria-level="${d+1}"${kids?` aria-expanded="${isOpen}"`:''} data-id="${p.id}" style="--d:${d}"><div class="${cls}">`+
       (kids?`<button type="button" class="ltog" data-tog="${p.id}" aria-label="${isOpen?'Zbaliť':'Rozbaliť'}: ${esc(p.name)}"><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M3.5 2 L7 5 L3.5 8"/></svg></button>`:'<span class="ltog sp" aria-hidden="true"></span>')+
-      `<button type="button" class="lname" data-go="${p.id}"><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}</span></button><span class="lmeta">${esc(String(meta))}</span>`+
+      `<button type="button" class="lname" data-go="${p.id}"><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}</span>${d>0?coMark(p.id,t.par??null):''}</button><span class="lmeta">${esc(String(meta))}</span>`+
       `<span class="lcount" title="${n?`${nf.format(n)} ${pl(n,'osoba','osoby','osôb')} vo vetve`:''}">${n?nf.format(n):''}</span></div>`+
       (kids&&isOpen?`<ul class="lkids" role="group">${t.children.map(c=>rowHtml(c,d+1)).join('')}</ul>`:'')+`</li>`; }
   function draw(){ const {trees}=build(); byId=new Map(); const idx=t=>{ byId.set(t.id,t); t.children.forEach(idx); }; trees.forEach(idx);
@@ -1408,7 +1425,7 @@ const Grove=(()=>{
     for(const n of nodes){ let k=n; while(k.depth>1) k=k.parent; n.root=k.data.id; }
     const gR=world.append('g');
     for(const yr of [1920,1940,1960,1980,2000,2020]){ gR.append('circle').attr('class','ring').attr('r',r(yr)); gR.append('text').attr('class','ring-lbl').attr('x',5).attr('y',-r(yr)-4).text(yr); }
-    linkSel=world.append('g').selectAll('path').data(nodes.filter(n=>n.parent&&n.parent.data.id!=null)).join('path').attr('class',n=>'fl'+(n.data.pd?' pd':n.p.sk&&n.parent.p.sk?' sk':'')).attr('d',n=>arc(n.parent,n));
+    linkSel=world.append('g').selectAll('path').data(nodes.filter(n=>n.parent&&n.parent.data.id!=null)).join('path').attr('class',n=>'fl'+(n.data.pd?' pd':(n.p.sk&&n.parent.p.sk?' sk':'')+(isCoEdge(n.data.id,n.parent.data.id)?' co':''))).attr('d',n=>arc(n.parent,n));
     trail=world.append('path').attr('class','trail');
     const gN=world.append('g');
     fhSel=gN.selectAll('circle.fh').data(nodes.filter(n=>n.p.feat)).join('circle').attr('class','fh').attr('cx',n=>n.px).attr('cy',n=>n.py).attr('r',6.5);
