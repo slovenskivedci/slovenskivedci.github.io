@@ -2152,7 +2152,7 @@ const Grove=(()=>{
     const extra=n=>n.data.pd||n.data.im||n.data.rs;
     function url(){ if(current!=='les') return; try{ const u=new URL(location.href); u.searchParams.delete('les-sel'); u.searchParams.delete('les-rok');
       if(st.sel!=null) u.searchParams.set('les-sel',st.sel); if(st.year!=null) u.searchParams.set('les-rok',st.year); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
-    function leave(){ stop(); hideNote(); try{ const u=new URL(location.href); u.searchParams.delete('les-sel'); u.searchParams.delete('les-rok'); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(e){} }
+    function leave(){ stop(); hideNote(); }   // the address keeps ?les-sel / ?les-rok in other views: Back from Strom or Profil then differs only in the hash, so hashchange and the router fire
     function hideNote(){ clearTimeout(st.noteT); note.hidden=true; }
     function say(html){ clearTimeout(st.noteT); note.innerHTML=html; note.hidden=false; st.noteT=setTimeout(hideNote,8000); }
     function lineOf(n){ const s=new Set(); let k=n; while(k&&k.data.id!=null){ s.add(k); k=k.parent; } n.descendants().forEach(d=>s.add(d)); return s; }
