@@ -2667,5 +2667,50 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
   dispatchEvent(new Event('resize'));
 })();
 </script>
+<style id="panel-type-css">
+/* Panel type scale: 1 heading name, 1b card name, 2 list entry name, 3 meta line */
+:root{--pt-head:32px;--pt-card:22px;--pt-name:15.5px;--pt-meta:12px}
+@media (max-width:899px){:root{--pt-head:28px}}
+/* 1 heading name (main person of the panel) */
+.panel h1.pname,.panel .kcrumbs .kcur{font:500 var(--pt-head)/1.1 var(--font-display)!important;letter-spacing:-.015em!important;color:var(--ink)!important}
+/* 1b card name (Strom: Osoba card in the panel) */
+.panel .lp-slot .kcard .kn{font:500 var(--pt-card)/1.2 var(--font-display)!important;letter-spacing:-.01em!important;color:var(--ink)!important}
+/* 2 list entry name */
+.panel .row .nm,.panel .examples .ex-a,.panel .lp-slot .kcard .krel>b{font:500 var(--pt-name)/1.3 var(--font-display)!important;letter-spacing:normal!important}
+/* 3 meta line (years, school, counts) */
+.panel .row .sub,.panel .row .yr,.panel .hrow .h,.panel .examples .ex-b,.panel .kcrumbs .ksum,.panel .stat>span,
+.panel .lp-slot .kcard>.m,.panel .lp-slot .kcard>div:not([class]),.panel .lp-slot .kcard .krel .m{font:400 var(--pt-meta)/1.55 var(--font-ui)!important;letter-spacing:normal!important;color:var(--ink-3)!important;font-variant-numeric:tabular-nums}
+</style>
+<style id="checkmenu-fix-css">
+/* checkbox rows in dropdown menus: box + label left-aligned, 8px gap */
+.kopt-pop label:has(>input[type="checkbox"]),.kopt-pop label:has(>input[type="radio"]),.kopt-pop .rt{display:flex!important;grid-template-columns:none!important;justify-content:flex-start!important;align-items:center;gap:8px!important;text-align:left}
+.kopt-pop .rt>span,.kopt-pop label:has(>input[type="checkbox"])>span{flex:0 1 auto;min-width:0;text-align:left}
+</style>
+<script id="checkmenu-fix-js">
+(()=>{const d=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'checked');
+const RS=[['rel-im','mentorstvo'],[null,'doktorandi'],['rel-pd','postdok'],['rel-rs','výskum']];
+const upd=()=>{const s=document.querySelector('.kvaz .kopt-s');if(!s)return;const on=RS.filter(([id])=>!id||(document.getElementById(id)||{}).checked);
+ const t='Väzby: '+(on.length===RS.length?'všetky':on.map(x=>x[1]).join(' + '));if(s.textContent!==t)s.textContent=t;};
+RS.forEach(([id])=>{const i=id&&document.getElementById(id);if(!i)return;
+ Object.defineProperty(i,'checked',{configurable:true,get(){return d.get.call(this)},set(v){d.set.call(this,v);queueMicrotask(upd)}});
+ i.addEventListener('change',upd);});
+addEventListener('hashchange',()=>setTimeout(upd,0));addEventListener('load',upd);upd();})();
+</script>
+<style id="menubar-css">:root{--mb-bleed:24px}@media (max-width:899px){:root{--mb-bleed:16px}}
+
+/* V2 type contrast: serif menu, small grey sans toolbar */
+.top .tabs button{font:400 17px/1.2 var(--font-display)!important;letter-spacing:-.005em!important;color:var(--ink-2)!important;padding:8px 9px!important}
+.top .tabs button:hover{color:var(--ink)!important}
+.top .tabs button[aria-current="page"]{font-weight:500!important;color:var(--ink)!important}
+.top .tabs button[aria-current="page"]::after{height:2px!important;bottom:-1px!important;left:9px!important;right:9px!important;background:var(--ink)!important}
+@media (max-width:899px){.top .tabs button{font-size:15.5px!important;padding:8px 7px!important}.top .tabs button[aria-current="page"]::after{left:7px!important;right:7px!important}}
+.top>.tbar{margin-top:4px}
+.top>.tbar :is(.fpill select,.field input,details.kopt>summary,.tool,.seg button,.linkbtn,.fpill.chk,.kgen,.gbar,.stepper .lbl,#cswap){font-size:12px!important}
+.top>.tbar :is(.fpill:not(.on) select,details.kopt>summary,.tool,.seg button:not([aria-pressed="true"]),.linkbtn,.fpill.chk,.kgen,.gbar){color:var(--ink-3)!important}
+.top>.tbar :is(.fpill select,.field input){height:28px!important}
+.top>.tbar .field .ico{top:6.5px!important}
+.top>.tbar :is(details.kopt>summary,.tool){height:28px!important}
+.top>.tbar .kact .kact-btn{height:28px;font-size:12px}
+</style>
 </body>
 </html>
