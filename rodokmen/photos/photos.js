@@ -1,5 +1,5 @@
 /* Rodokmeň: profile photos (photos/<id>.webp 96×120, <id>@2x.webp 192×240; negative ids as n<id>).
-   id: [2 = has @2x | 1 = 1x only, Commons file name, author, license, attribution required 1|0]
+   id: [2 = has @2x | 1 = 1x only, Commons file name, author, license, attribution required 1|0, other source URL (no credit shown)]
    entries with only [n] are slovenskivedci.sk card photos (fresh 4:5 crops from the original source photos). */
 window.RODOKMEN_PHOTOS={
 "-1954":[2],
@@ -308,7 +308,7 @@ window.RODOKMEN_PHOTOS={
 "78732":[2,"ANWhitehead.jpg","neznámy autor","Public domain",0],
 "79309":[2,"Gerhard wanner.jpg","Renate Schmid","CC BY-SA 2.0 de",1],
 "80886":[2,"BenjaminPeirce5.jpg","neznámy autor neznámy autor","Public domain",0],
-"80983":[2,"Jarik0.jpg","copyright Hubert de Fraysseix (2002)","CC BY-SA 2.5",1],
+"80983":[2,"","","",0,"https://dynasnet.renyi.hu/sites/default/files/members/images/Jaroslav%20Nesetril2_0/index.jpg"],
 "81192":[2,"Élie Cartan.jpg","Studio Harcourt","Public domain",0],
 "81539":[2,"Miroslav Katětov (Obrana lidu, 1953).png","neznámy autor neznámy autor","Public domain",0],
 "82262":[1],

@@ -1051,7 +1051,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
 .kcard .phwrap .ph{width:77px;height:96px}
 .kcard .phwrap .kn{display:block}
 </style>
-<script src="photos/photos.js?v=1"></script>
+<script src="photos/photos.js?v=2"></script>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1740,9 +1740,9 @@ function personRow(id,sub,src,cls,coOf){ const p=people.get(id); const u=src&&is
 const PHOTOS=window.RODOKMEN_PHOTOS||{};
 function photoBlock(id,nameHtml,restHtml,w,h){ const e=PHOTOS[id]; if(!e) return nameHtml+restHtml;
   const f='photos/'+(id<0?'n'+(-id):id), file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
-  const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:'Foto: slovenskivedci.sk';
+  const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:e[5]?'':'Foto: slovenskivedci.sk';
   const cred=file&&e[4]?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`:'';
-  return `<div class="phwrap"><img class="ph" src="${f}.webp"${e[0]>1?` srcset="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}" loading="lazy" decoding="async" alt="" title="${esc(tip)}"><div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
+  return `<div class="phwrap"><img class="ph" src="${f}.webp"${e[0]>1?` srcset="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}" loading="lazy" decoding="async" alt=""${tip?` title="${esc(tip)}"`:''}><div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
 function renderProfile(p){
   const el=$('#profile'); const f=p.feat; const chips=[];
   if(p.sk==='rod') chips.push(`<span class="chip sk" title="Narodil sa na území dnešného Slovenska a doktorát získal pred rokom 1918"><i class="dot sk"></i>Rodák zo Slovenska</span>`); else if(p.sk) chips.push(`<span class="chip sk" title="${p.sk==='inst'?'Doktorát udelila slovenská inštitúcia':p.sk==='unk'?'Miesto doktorátu nie je známe':'Doktorát získaný v zahraničí'}"><i class="dot sk"></i>${isFemale(p)?'Slovenská matematička':'Slovenský matematik'}</span>`);

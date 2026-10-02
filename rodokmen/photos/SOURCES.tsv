@@ -260,7 +260,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 61848	Hugo Hans von Seeliger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Seeliger_Hugo_von.jpg	8,0,295,358	287x358	1	Public domain	Hector Macpherson	0
 61972	Jana Košecká	slovenskivedci.sk	images/Jana_Kosecka.jpg	142,0,717,719	575x719	1			0
 61986	Franc Solina	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FrancSolina.jpg	0,72,1079,1420	1079x1348	1	CC BY-SA 4.0	Emalora454	1
-62351	Paris Christos Kanellakis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paris_C._Kanellakis_plaque_in_Brown_CS_library.jpg	340,155,969,942	629x787	1	CC BY-SA 3.0	Evgenios M. Kornaropoulos	1
+62351	Paris Christos Kanellakis	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Paris_C._Kanellakis_plaque_in_Brown_CS_library.jpg	430,285,920,897	490x612	1	CC BY-SA 3.0	Evgenios M. Kornaropoulos	1
 62547	Johann Franz Friedrich Encke	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johann_Franz_Encke.jpg	0,3,634,795	634x792	1	Public domain	neznámy autor neznámy autor	0
 63570	Friedrich Hund	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Hund,_Friedrich_1920er_Göttingen.jpg	0,14,607,773	607x759	1	CC BY 3.0	GFHund	1
 64092	Jean-Pierre Demailly	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jean-Pierre_Demailly.jpg	73,36,223,223	150x187	0	CC BY-SA 2.0 de	Katrin Breithaupt	1
@@ -305,7 +305,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 78732	Alfred North Whitehead	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg	0,0,390,488	390x488	1	Public domain	neznámy autor	0
 79309	Gerhard Wanner	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gerhard_wanner.jpg	334,47,675,473	341x426	1	CC BY-SA 2.0 de	Renate Schmid	1
 80886	Benjamin Peirce	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:BenjaminPeirce5.jpg	25,0,269,306	244x306	1	Public domain	neznámy autor neznámy autor	0
-80983	Jaroslav Nešetřil	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jarik0.jpg	301,60,1214,1202	913x1142	1	CC BY-SA 2.5	copyright Hubert de Fraysseix (2002)	1
+80983	Jaroslav Nešetřil	owner request	https://dynasnet.renyi.hu/sites/default/files/members/images/Jaroslav%20Nesetril2_0/index.jpg	62,0,414,440	352x440	1	unknown, used at owner's request		0
 81192	Elie Cartan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Élie_Cartan.jpg	0,0,1255,1569	1255x1569	1	Public domain	Studio Harcourt	0
 81539	Miroslav Katětov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Miroslav_Katětov_(Obrana_lidu,_1953).png	0,69,480,669	480x600	1	Public domain	neznámy autor neznámy autor	0
 82262	Rastislav Bodík	slovenskivedci.sk	images/Rastislav_Bodik.jpg	90,0,198,135	108x135	0			0
