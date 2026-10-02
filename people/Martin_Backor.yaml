@@ -18,4 +18,7 @@ links:
   web: https://www.upjs.sk/PF/zamestnanec/martin.backor/
   životopis: http://kfrserver.natur.cuni.cz/studium/anatomie/soubory/CV_Backor.pdf
 img: Martin_Backor_1_size_280px.jpg
+photos_alt:
+  - alt/Martin_Backor_alt1.jpg
+  - alt/Martin_Backor_alt2.jpg
 update_status: UPDATED

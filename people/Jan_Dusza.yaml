@@ -20,4 +20,6 @@ links:
   scientific.net: "https://www.scientific.net/author-papers/j\xE1n-dusza"
   web: https://promatech.sk
 img: Jan_Dusza_size_280px.jpg
+photos_alt:
+  - alt/Jan_Dusza_alt1.jpg
 update_status: UPDATED

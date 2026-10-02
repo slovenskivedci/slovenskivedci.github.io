@@ -1,0 +1,17 @@
+/* === card hover gallery (preview 2026-10-02) ===
+   Main photo stays the default. Curated alternatives (yaml photos_alt) fade in
+   only while the photo is hovered / focused / tapped. Layers are absolutely
+   positioned over the main <img>, so there is no layout shift. */
+.cg{position:relative;display:block;width:100%;max-width:280px;line-height:0;cursor:default;outline:none;-webkit-tap-highlight-color:transparent}
+.cg>img{display:block}
+.cg .cg-layer{position:absolute;left:0;top:0;width:100%!important;height:100%!important;max-width:none!important;margin:0!important;object-fit:cover;opacity:0;transition:opacity .45s ease;pointer-events:none}
+.cg .cg-layer.on{opacity:1}
+.cg-dots{position:absolute;left:0;right:0;bottom:6px;display:flex;justify-content:center;gap:5px;opacity:0;transition:opacity .2s ease;pointer-events:none;line-height:0}
+.cg-dots span{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);box-shadow:0 0 0 1px rgba(0,0,0,.28)}
+.cg-dots span.on{background:#fff}
+.cg:hover .cg-dots,.cg.cg-active .cg-dots,.cg:focus-visible .cg-dots{opacity:1}
+.cg:focus-visible{box-shadow:0 0 0 2px #1f4e79}
+/* touch screens have no hover: keep a faint hint that the photo can be tapped */
+@media (hover:none){.cg-dots{opacity:.55}}
+@media (max-width:700px){.cg{margin-left:auto;margin-right:auto}}
+@media (prefers-reduced-motion:reduce){.cg .cg-layer,.cg-dots{transition:none}}
