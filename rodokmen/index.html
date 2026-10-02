@@ -516,6 +516,69 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
 }
 </style>
 
+<style id="linie-redesign">
+/* Línie redesign, variant A */
+/* ===== Variant A — Tichý index: one quiet column, serif founders, hairlines only ===== */
+#v-forest #f-stage{border:0;border-radius:14px;box-shadow:none}
+#v-forest .lbar{border:0;padding:20px 32px 6px}
+#v-forest .lsum{font:400 12.5px var(--font-ui);color:var(--ink-3);letter-spacing:0}
+#v-forest .lbar .linkbtn{font:400 12.5px var(--font-ui);color:var(--ink-3)}
+#v-forest .lbar .linkbtn:hover{color:var(--ink);text-decoration:none}
+#v-forest .lhead{display:none}
+#v-forest .ltree{padding:6px 0 40px}
+#v-forest .ltree ul::before{display:none}
+#v-forest .lnode{--ind:calc(var(--d)*22px)}
+#v-forest .lnode[aria-level="1"]{margin-inline:32px 32px;border-top:1px solid color-mix(in srgb,var(--rule) 65%,transparent)}
+#v-forest .lnode[aria-level="1"]:first-child{border-top:0}
+#v-forest .lrow{margin:0;border-radius:0;padding:5px 0 5px var(--ind);column-gap:10px;grid-template-columns:18px minmax(0,auto) minmax(0,1fr) auto}
+#v-forest .lrow:hover{background:none}
+#v-forest .lrow:hover .nm{color:var(--accent-ink)}
+#v-forest .lrow.top{padding-top:15px;padding-bottom:15px}
+#v-forest .lnode[aria-expanded="true"]>.lrow.top{padding-bottom:8px}
+#v-forest .lnode[aria-level="1"][aria-expanded="true"]{padding-bottom:12px}
+#v-forest .lnode.hot>.lrow{background:none}
+#v-forest .lnode.hot>.lrow .nm{color:var(--accent-ink)}
+#v-forest .ltog{width:18px;height:18px;color:color-mix(in srgb,var(--ink-3) 70%,transparent)}
+#v-forest .ltog:hover{background:none;color:var(--ink)}
+#v-forest .ltog svg{width:8px;height:8px;stroke-width:1.5}
+#v-forest .lname{font:400 14px var(--font-ui);gap:9px;color:var(--ink)}
+#v-forest .lname:hover .nm{text-decoration:none}
+#v-forest .lname .dot{width:5px;height:5px;border-width:1px}
+#v-forest .lrow.top .lname{font:500 18.5px/1.3 var(--font-display);letter-spacing:-.005em}
+#v-forest .lrow.top .lname .dot{display:none}
+#v-forest .lrow.big .lname{color:var(--ink);font-weight:600}
+#v-forest .lmeta{font:400 12px var(--font-ui);color:var(--ink-3)}
+#v-forest .lcount{font:400 12.5px var(--font-ui);color:var(--ink-3);font-variant-numeric:tabular-nums}
+#v-forest .lrow.top .lcount{font-size:14px;color:var(--ink-2)}
+#v-forest .lrow .comk{border:0;background:none;padding:0;margin-left:0;font:italic 400 12.5px var(--font-display);letter-spacing:0;color:var(--ink-3);vertical-align:0}
+@media (max-width:899px){
+  #v-forest .lbar{padding:14px 18px 4px}
+  #v-forest .lnode[aria-level="1"]{margin-inline:18px}
+  #v-forest .lrow{grid-template-columns:18px minmax(0,1fr) auto}
+  #v-forest .lrow .lmeta{grid-column:2;grid-row:2;margin-left:14px}
+  #v-forest .lnode{--ind:calc(var(--d)*14px)}
+}
+/* panel */
+#v-forest:has(#f-stage:not([hidden])) .fpill select{border-color:transparent;background:var(--surface);height:32px;font-weight:400;color:var(--ink-2)}
+#v-forest:has(#f-stage:not([hidden])) .fpill select:hover{border-color:var(--rule)}
+#v-forest:has(#f-stage:not([hidden])) .fpill.on select{background:var(--surface);border-color:var(--ink-3);color:var(--ink)}
+/* panel tidy (Línie mode only) */
+#v-forest:has(#f-stage:not([hidden])) .stats{border:0;padding-block:6px 2px;gap:16px}
+#v-forest:has(#f-stage:not([hidden])) .stat b{font-size:22px;font-weight:400}
+#v-forest:has(#f-stage:not([hidden])) .stat span{font-size:11.5px}
+#v-forest:has(#f-stage:not([hidden])) h2.sec{font:500 11px/1.3 var(--font-ui);letter-spacing:.04em;text-transform:none;color:var(--ink-3);margin:28px 0 10px}
+#v-forest:has(#f-stage:not([hidden])) .hrow{border-bottom:0;padding:7px 4px;grid-template-columns:8px minmax(0,1fr) 56px 30px}
+#v-forest:has(#f-stage:not([hidden])) .hrow .nm{font:400 14.5px/1.3 var(--font-ui)}
+#v-forest:has(#f-stage:not([hidden])) .hbar{height:2px;background:var(--rule)}
+#v-forest:has(#f-stage:not([hidden])) .hbar i{background:var(--ink-3);opacity:.55}
+#v-forest:has(#f-stage:not([hidden])) .hrow .h{font:400 12px var(--font-ui);color:var(--ink-3)}
+#v-forest:has(#f-stage:not([hidden])) .hrow .sub{font-size:11.5px}
+#v-forest:has(#f-stage:not([hidden])) .row .dot{width:6px;height:6px;border-width:1px}
+#v-forest:has(#f-stage:not([hidden])) .fine{font-size:12px;line-height:1.6}
+
+/* the founder row also carries the header class .top (gap:20px) — neutralise it */
+#v-forest .lrow,#v-forest .lrow.top{row-gap:0}
+</style>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -572,7 +635,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Mená červenou farbou označujú zakladateľov línií s aspoň 20 akademickými potomkami. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter vľavo zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
+        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter vľavo zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
         <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter vľavo les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami.</p>
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
