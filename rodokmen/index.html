@@ -563,7 +563,7 @@ h2.sec.ffh .linkbtn{font:500 11.5px var(--font-ui)}
         </div>
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
-        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Mená červenou farbou označujú zakladateľov línií s aspoň 20 akademickými potomkami. Doktorand s viacerými školiteľmi je v zozname iba raz, pod jedným z nich (prednostne pod slovenským). Filter vľavo zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
+        <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Mená červenou farbou označujú zakladateľov línií s aspoň 20 akademickými potomkami. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter vľavo zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
         <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom). Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter vľavo les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami.</p>
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
@@ -1313,34 +1313,44 @@ const Forest=(()=>{
     const roots=[...N].filter(id=>!par.has(id)).sort(byYear); const seen=new Set();
     const make=(id,pa)=>{ seen.add(id); return {id,par:pa,children:(kids.get(id)||[]).filter(c=>!seen.has(c)).sort(byYear).map(c=>make(c,id))}; };
     const trees=roots.map(id=>make(id,null)).filter(t=>t.children.length);
-    return {trees,singles:roots.length-trees.length,N};
+    return {trees,singles:roots.length-trees.length,N,roots};
   }
-  const size=t=>t.n??(t.n=1+t.children.reduce((a,c)=>a+size(c),0));
-  let byId=new Map();
-  function rowHtml(t,d){ const p=people.get(t.id), n=size(t)-1, kids=t.children.length, isOpen=open.has(t.id);
+  /* Línie: a co-advised student is listed under every one of their PhD advisors (each copy keyed by its path in the tree);
+     a row counts the unique descendants reachable through any PhD advisor (as the Profil count); postdoc and informal-mentor links never count */
+  let AT=null; const _ds=new Map();
+  function buildAll(){ if(AT) return AT; const {N,roots}=build();
+    const make=(id,pa,key,anc)=>({id,par:pa,key,children:studentsOf(id).filter(c=>N.has(c)&&!anc.has(c)).map(c=>make(c,id,key+'.'+c,new Set(anc).add(c)))});
+    const trees=roots.map(id=>make(id,null,String(id),new Set([id]))).filter(t=>t.children.length);
+    return AT={trees,N}; }
+  function descSet(id){ if(_ds.has(id)) return _ds.get(id); const {N}=buildAll(); const s=new Set(), st=[id];
+    while(st.length){ const x=st.pop(); for(const c of studentsOf(x)) if(N.has(c)&&c!==id&&!s.has(c)){ s.add(c); st.push(c); } } _ds.set(id,s); return s; }
+  const size=t=>1+descSet(t.id).size;
+  const uniq=ts=>{ const u=new Set(); for(const t of ts){ u.add(t.id); for(const x of descSet(t.id)) u.add(x); } return u.size; };
+  let byKey=new Map();
+  function rowHtml(t,d){ const p=people.get(t.id), n=size(t)-1, kids=t.children.length, isOpen=open.has(t.key);
     const meta=[p.year||'',p.school?shortSchool(p.school):''].filter(Boolean).join(' · ');
     const cls='lrow'+(d===0?' top':'')+(d===0&&nDescOf(p)>=RED?' big':'');
-    return `<li class="lnode" role="treeitem" aria-level="${d+1}"${kids?` aria-expanded="${isOpen}"`:''} data-id="${p.id}" style="--d:${d}"><div class="${cls}">`+
-      (kids?`<button type="button" class="ltog" data-tog="${p.id}" aria-label="${isOpen?'Zbaliť':'Rozbaliť'}: ${esc(p.name)}"><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M3.5 2 L7 5 L3.5 8"/></svg></button>`:'<span class="ltog sp" aria-hidden="true"></span>')+
+    return `<li class="lnode" role="treeitem" aria-level="${d+1}"${kids?` aria-expanded="${isOpen}"`:''} data-id="${p.id}" data-key="${t.key}" style="--d:${d}"><div class="${cls}">`+
+      (kids?`<button type="button" class="ltog" data-tog="${t.key}" aria-label="${isOpen?'Zbaliť':'Rozbaliť'}: ${esc(p.name)}"><svg viewBox="0 0 10 10" aria-hidden="true"><path d="M3.5 2 L7 5 L3.5 8"/></svg></button>`:'<span class="ltog sp" aria-hidden="true"></span>')+
       `<button type="button" class="lname" data-go="${p.id}"><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}</span>${d>0?coMark(p.id,t.par??null):''}</button><span class="lmeta">${esc(String(meta))}</span>`+
-      `<span class="lcount" title="${n?`${nf.format(n)} ${pl(n,'osoba','osoby','osôb')} vo vetve`:''}">${n?nf.format(n):''}</span></div>`+
+      `<span class="lcount" title="${n?`${nf.format(n)} ${pl(n,'potomok','potomkovia','potomkov')} (každý raz, cez ktoréhokoľvek školiteľa)`:''}">${n?nf.format(n):''}</span></div>`+
       (kids&&isOpen?`<ul class="lkids" role="group">${t.children.map(c=>rowHtml(c,d+1)).join('')}</ul>`:'')+`</li>`; }
-  function draw(){ const {trees}=build(); byId=new Map(); const idx=t=>{ byId.set(t.id,t); t.children.forEach(idx); }; trees.forEach(idx);
+  function draw(){ const {trees}=buildAll(); byKey=new Map(); const idx=t=>{ byKey.set(t.key,t); t.children.forEach(idx); }; trees.forEach(idx);
     T=(match?trees.filter(t=>match.has(t.id)):trees).sort((a,b)=>size(b)-size(a)||byYear(a.id,b.id));
-    const nP=d3.sum(T,size);
+    const nP=uniq(T);
     $('#l-sum').textContent=`${T.length} ${pl(T.length,'línia','línie','línií')} · ${nf.format(nP)} ${pl(nP,'osoba','osoby','osôb')}`;
     $('#l-sum').hidden=!!match;
     list.innerHTML=T.length?T.map(t=>rowHtml(t,0)).join(''):`<li class="lempty">Filtru nevyhovuje žiadna línia.</li>`;
     list.scrollTop=0; applyHot(); }
-  function toggle(id,on){ const t=byId.get(id); if(!t||!t.children.length) return; const li=list.querySelector(`li.lnode[data-id="${id}"]`); if(!li) return;
+  function toggle(id,on){ const t=byKey.get(id); if(!t||!t.children.length) return; const li=list.querySelector(`li.lnode[data-key="${id}"]`); if(!li) return;
     const d=+li.getAttribute('aria-level')-1, now=on??!open.has(id); if(now) open.add(id); else open.delete(id);
     const tmp=document.createElement('ul'); tmp.innerHTML=rowHtml(t,d); li.replaceWith(tmp.firstElementChild); }
-  function setAll(on){ if(!T) return; open.clear(); if(on){ const walk=t=>{ if(t.children.length){ open.add(t.id); t.children.forEach(walk); } }; T.forEach(walk); } draw(); }
-  list.addEventListener('click',e=>{ const b=e.target.closest('[data-tog]'); if(b){ e.stopPropagation(); const id=+b.dataset.tog; toggle(id); const nb=list.querySelector(`[data-tog="${id}"]`); if(nb) nb.focus(); return; }
-    const r=e.target.closest('.lrow'); if(r&&!e.target.closest('.lname')){ const li=r.parentElement; const id=+li.dataset.id; if(li.hasAttribute('aria-expanded')) toggle(id); } });
-  list.addEventListener('keydown',e=>{ const b=e.target.closest('.ltog,.lname'); if(!b) return; const li=b.closest('li.lnode'), id=+li.dataset.id;
-    if(e.key==='ArrowRight'&&li.getAttribute('aria-expanded')==='false'){ e.preventDefault(); toggle(id,true); list.querySelector(`li.lnode[data-id="${id}"] .lname`)?.focus(); }
-    else if(e.key==='ArrowLeft'){ e.preventDefault(); if(li.getAttribute('aria-expanded')==='true'){ toggle(id,false); list.querySelector(`li.lnode[data-id="${id}"] .lname`)?.focus(); } else li.parentElement.closest('li.lnode')?.querySelector('.lname')?.focus(); }
+  function setAll(on){ if(!T) return; open.clear(); if(on){ const walk=t=>{ if(t.children.length){ open.add(t.key); t.children.forEach(walk); } }; T.forEach(walk); } draw(); }
+  list.addEventListener('click',e=>{ const b=e.target.closest('[data-tog]'); if(b){ e.stopPropagation(); const id=b.dataset.tog; toggle(id); const nb=list.querySelector(`[data-tog="${id}"]`); if(nb) nb.focus(); return; }
+    const r=e.target.closest('.lrow'); if(r&&!e.target.closest('.lname')){ const li=r.parentElement; const id=li.dataset.key; if(li.hasAttribute('aria-expanded')) toggle(id); } });
+  list.addEventListener('keydown',e=>{ const b=e.target.closest('.ltog,.lname'); if(!b) return; const li=b.closest('li.lnode'), id=li.dataset.key;
+    if(e.key==='ArrowRight'&&li.getAttribute('aria-expanded')==='false'){ e.preventDefault(); toggle(id,true); list.querySelector(`li.lnode[data-key="${id}"] .lname`)?.focus(); }
+    else if(e.key==='ArrowLeft'){ e.preventDefault(); if(li.getAttribute('aria-expanded')==='true'){ toggle(id,false); list.querySelector(`li.lnode[data-key="${id}"] .lname`)?.focus(); } else li.parentElement.closest('li.lnode')?.querySelector('.lname')?.focus(); }
     else if(e.key==='ArrowDown'||e.key==='ArrowUp'){ e.preventDefault(); const all=[...list.querySelectorAll('.lname')]; const i=all.indexOf(li.querySelector('.lname')); const nx=all[i+(e.key==='ArrowDown'?1:-1)]; if(nx) nx.focus(); } });
   list.addEventListener('pointerover',e=>{ const b=e.target.closest('.lname'); if(!b){ hideTip(); return; } const p=people.get(+b.dataset.go); const r=b.getBoundingClientRect(); showTip(tipHtml(p)+'<div class="m">Kliknutím otvoríte rodokmeň</div>',r.left+Math.min(r.width,160),r.bottom-6); });
   list.addEventListener('pointerleave',hideTip);
@@ -1351,8 +1361,8 @@ const Forest=(()=>{
   const FF={alma:'',ctry:'',inst:'',era:'',size:'',est:false}; let match=null, hot=null, RI=null;
   const eraOf=y=>!y?'?':y<1950?'<1950':String(Math.floor(y/10)*10);
   const instKeyOf=ph=>ph?(ph.u||'S:'+ph.school):'?';
-  function rootInfo(){ if(RI) return RI; const {trees}=build(); const sz=new Map(); const count=t=>1+t.children.reduce((a,c)=>a+count(c),0);
-    RI=trees.map(t=>{ const p=people.get(t.id); return {p,ph:phdOf(p),d:nDescOf(p),n:count(t)-1}; }); return RI; }
+  function rootInfo(){ if(RI) return RI; const {trees}=buildAll();
+    RI=trees.map(t=>{ const p=people.get(t.id); return {p,ph:phdOf(p),d:nDescOf(p),n:size(t)-1,t}; }); return RI; }
   function rootOk(r,skip){
     if(FF.alma&&skip!=='alma'){ const es=eduEntries(r.p,FF.est); if(FF.alma==='?'){ if(es.length) return false; } else if(!es.some(e=>selMatch(e,FF.alma,FF.est))) return false; }
     if(FF.ctry&&skip!=='ctry'&&(r.ph&&r.ph.c||'?')!==FF.ctry) return false;
@@ -1386,7 +1396,7 @@ const Forest=(()=>{
     const ok=active?R.filter(r=>rootOk(r)):[]; match=active?new Set(ok.map(r=>r.p.id)):null; hot=null;
     fillSelects(); applyFilter(); Grove.sync();
     $('#ff-reset').hidden=!active; $('#f-chip').hidden=!active; $('#ff-est-w').hidden=!FF.alma&&!FF.est;
-    const nP=d3.sum(ok,r=>r.n+1);
+    const nP=uniq(ok.map(r=>r.t));
     $('#ff-sum').textContent=active?`${ok.length} z ${R.length} · `:`${R.length} ${pl(R.length,'línia','línie','línií')}`;
     if(active){ $('#f-chip-t').textContent=`${ok.length} ${pl(ok.length,'línia','línie','línií')} · ${nf.format(nP)} ${pl(nP,'osoba','osoby','osôb')}`;
       $('#f-feat-h').innerHTML=`<span>Zakladatelia vybraných línií</span><span>potomkovia</span>`; renderRows(ok.sort((a,b)=>b.d-a.d||cmp(a.p.name,b.p.name)).map(r=>({p:r.p,d:r.d})),true); }
