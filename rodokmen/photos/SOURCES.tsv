@@ -1,5 +1,11 @@
 id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attribution_required
 -2013	Laurent Condat	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/laurent-condat ; https://cemse.kaust.edu.sa/sites/default/files/images/kaust-cemse-cs-amcs-ai-oml-Laurent-Pierre-Condat.jpg	1330,97,2387,1418	1057x1321	1	unknown, used at owner's request		0
+-2000	Grigory Koroteev	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/grigoryKoroteev.jpeg	33,25,151,173	118x148	0	unknown, used at owner's request		0
+-1999	Dmitry Kamzolov	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/DmitryKamzolov.jpeg	54,20,184,182	130x162	0	unknown, used at owner's request		0
+-1998	Ruben Solozabal	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/Ruben_Solozabal.jpg	72,0,712,800	640x800	1	unknown, used at owner's request		0
+-1997	Arip Asadulaev	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/AripAsadulaev.jpeg	32,0,217,232	185x232	0	unknown, used at owner's request		0
+-1996	Hachem Madmoun	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/HachemMadmoun.jpeg	55,0,163,135	108x135	0	unknown, used at owner's request		0
+-1995	Yanda Li	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/YandaLi.png	186,0,1014,1036	828x1036	1	unknown, used at owner's request		0
 -1974	Aleksandr Beznosikov	owner request	https://optmllab.github.io/people.html ; https://optmllab.github.io/people/Alexander_Beznosikov.png	173,236,469,606	296x370	1	unknown, used at owner's request		0
 -1971	Bokun Wang	owner request	https://bokun-wang.github.io/ ; https://bokun-wang.github.io/bokun.jpg	425,164,1005,889	580x725	1	unknown, used at owner's request		0
 -1970	Ilyas Fatkhullin	owner request	https://fatkhullin.github.io/ ; https://fatkhullin.github.io/assets/my_photo_2025.jpg	350,263,821,851	471x588	1	unknown, used at owner's request		0
@@ -17,6 +23,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 -1745	Peter Borovanský	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/borovansky1 ; https://sluzby.fmph.uniba.sk/f/borovansky1	0,0,200,250	200x250	1	unknown, used at owner's request		0
 -1574	Ján Mózer	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/mozer1 ; https://sluzby.fmph.uniba.sk/f/mozer1	0,0,200,250	200x250	1	unknown, used at owner's request		0
 -1543	Ondrej Strečko	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof.RNDr.Ondrej_Strečko,_CSc..JPG	0,40,456,610	456x570	1	CC BY-SA 3.0	Vladimir.strecko	1
+-1536	Valter Šeda	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Valter_Seda.jpg	0,345,4960,6545	4960x6200	1	unknown, used at owner's request		0
 -1385	Eugen Viszus	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/viszus1 ; https://sluzby.fmph.uniba.sk/f/viszus1	0,0,200,250	200x250	1	unknown, used at owner's request		0
 -1383	Peter Vankúš	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/vankus1 ; https://sluzby.fmph.uniba.sk/f/vankus1	0,0,200,250	200x250	1	unknown, used at owner's request		0
 -1381	Mária Slavíčková	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/slavickova1 ; https://sluzby.fmph.uniba.sk/f/slavickova1	0,8,200,258	200x250	1	unknown, used at owner's request		0
@@ -63,6 +70,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 -1282	Artavazd Maranjyan	owner request	https://artomaranjyan.github.io/assets/img/prof_pic.jpg (vlastná stránka; rovnaký záber ako https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_TAUetzdJDWYoZ_K3x_vDOXwdc3WXUPOzzAQNiadhJZhbg--pUR0DzE&s=10)	546,107,2149,2110	1603x2003	1	unknown, used at owner's request		0
 -1281	Grigory Malinovsky	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/grigory-malinovsky ; https://drive.google.com/thumbnail?id=1i_WwuIFCPhTR3FHtVbxJKV0QNixuW2om&sz=w3840	1395,161,2475,1511	1080x1350	1	unknown, used at owner's request		0
 -1280	Egor Shulgin	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/egor-shulgin ; https://cemse.kaust.edu.sa/sites/default/files/images/kaust-cemse-cs-ai-oml-person-egor-shulgin.jpg	532,0,1241,886	709x886	1	unknown, used at owner's request		0
+-1274	Ivan Korec	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Ivan_Korec.jpg	105,52,4265,5252	4160x5200	1	unknown, used at owner's request		0
 -1271	Miroslav Dudík	slovenskivedci.sk	images/Miro_Dudik.jpg	297,0,472,218	175x218	0			0
 -1240	Peter Náther	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/nather2 ; https://sluzby.fmph.uniba.sk/f/nather2	0,0,200,250	200x250	1	unknown, used at owner's request		0
 -1230	Ján Mazák	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/mazak1 ; https://sluzby.fmph.uniba.sk/f/mazak1	0,0,200,250	200x250	1	unknown, used at owner's request		0
@@ -415,6 +423,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 96350	Franz Xaver Moth	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Franz_Xaver_Moth_Litho.jpg	282,146,947,977	665x831	1	Public domain	Adolf Dauthage	0
 96357	Jozef Maximilián Petzval	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Luckhardt,_Fritz_-_Dr._Josef_Petzval_(Zeno_Fotografie).jpg	62,0,649,733	587x733	1	Public domain	Luckhardt, Fritz	0
 96930	Arieh Iserles	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Iserles_arieh.jpg	325,52,666,479	341x427	1	CC BY-SA 2.0 de	Renate Schmid	1
+97272	Tibor Neubrunn	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Tibor_Neubrunn.jpg	0,108,4960,6308	4960x6200	1	unknown, used at owner's request		0
 98817	Werner Purgathofer	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Werner_Purgathofer_portrait_on_2014-05-22.jpg	0,12,1280,1612	1280x1600	1	CC BY-SA 4.0	Robert F. Tobler	1
 99093	Jan Kratochvíl	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Prof._Kratochvíl.jpg	680,100,1009,512	329x412	1	CC BY-SA 4.0	Lucie Filipenská	1
 99198	Gábor Tardos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Gábor_Tardos.jpg	109,44,237,204	128x160	0	CC BY-SA 2.0 de	Vetter, Ivonne	1
@@ -604,16 +613,23 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 128766	Beloslav Riečan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Beloslav_Riecan_2016.jpg	29,0,1280,1564	1251x1564	1	CC BY 4.0	JanFrancuBrno Jan Franců	1
 128887	Marek Hyčko	owner request	MÚ SAV / domovská stránka: http://www.mat.savba.sk/~hycko/ ; http://www.mat.savba.sk/~hycko/images/photo2017.jpg	0,1,150,188	150x187	0	unknown, used at owner's request		0
 128938	Rudolf Jakob Camerarius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Rudolf_Jakob_Camerarius.jpg	257,0,918,827	661x827	1	Public domain	Johann Georg Dramburg	0
+128958	Ladislav Mišík	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Ladislav_Misik.jpg	0,582,4960,6782	4960x6200	1	unknown, used at owner's request		0
+129226	Ján Jakubík	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Jan_Jakubik.jpg	0,664,4960,6864	4960x6200	1	unknown, used at owner's request		0
+129262	Ivan Dobrakov	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Ivan_Dobrakov.jpg	0,0,4960,6200	4960x6200	1	unknown, used at owner's request		0
 129264	Michal Fečkan	slovenskivedci.sk	images/Michal_Feckan.jpg	472,0,1031,699	559x699	1			0
 129265	Milan Medveď	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/medved1 ; https://sluzby.fmph.uniba.sk/f/medved1	0,2,200,252	200x250	1	unknown, used at owner's request		0
 129269	Gejza Wimmer	owner request	MÚ SAV / domovská stránka: http://www.mat.savba.sk/~wimmer ; http://www.mat.savba.sk/~wimmer/GW.jpg	5,0,221,269	216x269	1	unknown, used at owner's request		0
+129270	Lubomír Kubáček	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Lubomir_Kubacek.jpg	0,89,4960,6289	4960x6200	1	unknown, used at owner's request		0
 129344	Karel Petr	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Karel_Petr_(1868-1950).jpg	15,0,309,368	294x368	1	Public domain	nezjištěn (neznámí)	0
 129420	Isaac Todhunter	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Todhunter_Isaac.jpg	15,0,429,517	414x517	1	Public domain	Alexander Macfarlane	0
 129421	Edward Waring	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Edwardwaring.jpg	0,0,1241,1551	1241x1551	1	Public domain	neznámy autor neznámy autor	0
+129439	Tibor Šalát	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Tibor_Salat.jpg	4,0,3598,4491	3594x4491	1	unknown, used at owner's request		0
+129440	Silvia Pulmannová	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Sylvia_Pulmannova.jpg	0,225,4960,6425	4960x6200	1	unknown, used at owner's request		0
 129648	Ernst Laas	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Laas_(Ernst)_Philosoph_btv1b102261811.jpg	45,40,471,573	426x533	1	CC BY-SA 4.0	Bibliothèque nationale et universitaire de Strasbourg, NIM14992	1
 129708	Johann Caspar Bauhin	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Bauhin_Jean_aus_Bericht_Kranckheiten_1599.jpg	122,49,497,518	375x469	1	Public domain	neznámy autor neznámy autor	0
 129839	Galina Jirásková	owner request	MÚ SAV / domovská stránka: http://im.saske.sk/~jiraskov ; https://im.saske.sk/~jiraskov/image002.jpg	49,70,197,255	148x185	0	unknown, used at owner's request		0
 130047	Igor Privara	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/privara1 ; https://sluzby.fmph.uniba.sk/f/privara1	0,0,200,250	200x250	1	unknown, used at owner's request		0
+130119	Jaroslav Kurzweil	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Jaroslav_Kurzweil.jpg	1519,546,4521,4298	3002x3752	1	unknown, used at owner's request		0
 130323	Joannes Willmet	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Caspari,_Hendrik_Willem_(1770-1829),_Afb_010097009464.jpg	323,183,873,870	550x687	1	Public domain	Caspari, Hendrik Willem (1770-1829)	0
 130346	Joannes Jacobus Schultens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jan-Jacob-Schultens.jpg	209,64,676,648	467x584	1	Public domain	Pierre Frédéric de la Croix	0
 130461	Albert Schultens	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Albert-Schultens.jpg	200,38,714,680	514x642	1	Public domain	Hieronymus van der Mij	0
@@ -623,6 +639,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 130913	Johannes (van den Driesche) Drusius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_van_den_Driesche.png	183,108,988,1114	805x1006	1	Public domain	neznámy autor neznámy autor	0
 131236	Paul (Paul Büchlein) Fagius	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Portret_van_Paul_Fagius,_RP-P-1915-1321.jpg	180,0,990,1013	810x1013	1	CC0	Rijksmuseum	0
 131356	Jozef Mikloško	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Jozef_Mikloško,_nar._1939.jpg	104,0,1078,1218	974x1218	1	CC0	Matica slovenská	0
+131366	Tibor Katriňák	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Tibor_Katrinak.jpg	0,746,4960,6946	4960x6200	1	unknown, used at owner's request		0
 131398	Jacques (Jacobus Faber) Lefèvre d'Étaples	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:FaberStapulensis.jpg	99,100,320,377	221x277	1	Public domain	Jean de Laon 1518-1599	0
 131399	Wolfgang Fabricius Capito	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:WolfgangCapito.jpg	128,77,342,344	214x267	1	Public domain		0
 131444	Johannes Argyropoulos	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Argyropoulos_(1866).jpg	13,5,336,409	323x404	1	Public domain	Marinos Papadopoulos Vretos (1828-1871)	0
@@ -729,6 +746,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 152904	Giovanni Battista della Monte	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Johannes_Baptista_Montanus.jpg	182,236,900,1134	718x898	1	Public domain	neznámy autor neznámy autor	0
 152905	Vittore Trincavelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Vettore_Trincavelli.jpg	89,0,1084,1244	995x1244	1	Public domain	neznámy autor neznámy autor	0
 153825	Humberto Bustince Sola	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Humberto_Bustince.jpg	0,0,283,353	283x353	1	CC0	Rinos linos	0
+153876	Zdenka Riečanová	owner request	MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Zdenka_Riecanova.jpg	0,425,4960,6625	4960x6200	1	unknown, used at owner's request		0
 154455	Evangelista Torricelli	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Evangelista_Torricelli_by_Lorenzo_Lippi_(circa_1647,_Galleria_Silvano_Lodi_&_Due).jpg	61,0,1243,1477	1182x1477	1	Public domain	Lorenzo Lippi	0
 155982	Adolf Georg Karl Wilhelm Ebert	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Adolf-ebert.jpg	0,0,117,146	117x146	0	Public domain	neznámy autor neznámy autor	0
 156423	Miroslav Haviar	owner request	UMB FPV KM: https://www.fpv.umb.sk/katedry/katedra-matematiky/clenovia-katedry.html ; https://www.fpv.umb.sk/app/accountJpegPhoto.php?ID=9332&width=600	16,0,120,130	104x130	0	unknown, used at owner's request		0
@@ -795,6 +813,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 243411	Zheng Qu	owner request	https://zhengqu-x.github.io/ ; https://zhengqu-x.github.io/images/profile.png	160,68,1008,1129	848x1061	1	unknown, used at owner's request		0
 249940	Mher Safaryan	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/mher-safaryan ; https://lh3.googleusercontent.com/d/1HnAiXZFmgqSmxI1Q09ZpxR97LHzkuZv-=s1920	99,29,347,339	248x310	1	unknown, used at owner's request		0
 252186	Nicolas Loizou	owner request	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4CPQPZ_l-ngACCX3-DXUTKixQyBvGxYtoILE2a-yA1OA_qJkomfTdMMg&s=10	84,5,324,306	240x301	1	unknown, used at owner's request		0
+253871	Velibor Bojkovic	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/velibor.jpeg	32,0,171,173	139x173	0	unknown, used at owner's request		0
 259485	Benjamin Gess	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Benjamin_Gess_Oberwolfach_2025.jpg	198,23,321,177	123x154	0	CC BY-SA 2.0 de	Marlene Ruf	1
 259973	Mikhail Vasilyevich Ostrogradsky	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:PGRS_2_069_Ostrogradski_-_crop.jpg	278,0,952,842	674x842	1	Public domain	Petr Borel / Andrey Denyer	0
 260114	Mikhail Vasilyevich Lomonosov	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_(1787,_RAN).jpg	77,15,371,383	294x368	1	Public domain	After Georg Caspar Prenner	0
@@ -803,6 +822,7 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 278523	Konstantin Mishchenko	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/konstantin-mishchenko ; https://lh3.googleusercontent.com/d/1BnpmRag-9_5_ahrorJ12fjoX0iu5DOLz=s1920	548,0,1361,1016	813x1016	1	unknown, used at owner's request		0
 279900	Avetik Karagulyan	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/avetik-karagulyan ; https://lh3.googleusercontent.com/d/1AHIeLU-q-SJ6wJh7-V2a-UYW7fScw-Kh=s1920	509,13,769,338	260x325	1	unknown, used at owner's request		0
 280226	Eduard Gorbunov	owner request	https://mbzuai.ac.ae/content/media/faculty-import/2025/08/487x365-4.png (MBZUAI)	94,0,386,365	292x365	1	unknown, used at owner's request		0
+280227	Alexander Gasnikov	owner request	OptML Lab MBZUAI (M. Takáč): https://optmllab.github.io/people.html ; https://optmllab.github.io/people/alexander_gasnikov.jpg	8,0,160,190	152x190	0	unknown, used at owner's request		0
 280242	Nidham Gazagnadou	owner request	https://ngazagna.github.io/ ; https://ngazagna.github.io/authors/admin/avatar_hu6220e9d96488ad1e6438272ddd3a5ae2_55138_270x270_fill_q75_lanczos_center.jpg	43,17,239,262	196x245	1	unknown, used at owner's request		0
 283475	Irène Waldspurger	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Irène_Waldspurger_Oberwolfach_2015.jpg	91,53,221,216	130x163	0	CC BY-SA 2.0 de	Katrin Schmid	1
 284748	Jaroslav Guričan	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/gurican1 ; https://sluzby.fmph.uniba.sk/f/gurican1	0,0,200,250	200x250	1	unknown, used at owner's request		0
@@ -817,11 +837,14 @@ id	name	source	source_file	crop_box_l_t_r_b	crop_px	has_2x	license	author	attrib
 298290	Gasparino da Barzizza	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Barzizza-gasparino-salvioni-anton-fritz-1723.jpg	411,309,880,895	469x586	1	Public domain	Anton Fritz	0
 298616	Abu ʿAli al-Husayn (Avicenna) ibn Sina	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Pursina.jpg	28,0,167,175	139x175	0	Public domain	Original work: Abolhassan Sadighi Depiction: User:Ehsan 1987	0
 301056	Frederick George Donnan	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Donnan_FG.jpg	0,0,263,329	263x329	1	Public domain	F. G. Donnan	0
+301154	Jaroslav Heyrovský	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Heyrovsky_Jaroslav.jpg	0,0,752,940	752x940	1	CC BY-SA 3.0	archiv ÚFCH J.Heyrovského AV ČR, v.v.i.	1
 302498	Rui Yuan	owner request	https://rui-yuan91.github.io/ ; https://rui-yuan91.github.io/files/ruiyuan.jpg	21,0,885,1080	864x1080	1	unknown, used at owner's request		0
 306815	Slavomír Hanzely	owner request	KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/slavomir-hanzely ; https://lh3.googleusercontent.com/d/1rkzEQJNoItTA9CkxqAED8KOPlcBfdzcH=s1920	624,36,1226,789	602x753	1	unknown, used at owner's request		0
 317657	Petra Macková	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/mackova87 ; https://sluzby.fmph.uniba.sk/f/mackova87	0,2,200,252	200x250	1	unknown, used at owner's request		0
 317662	Martin Škoviera	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/skoviera2 ; https://sluzby.fmph.uniba.sk/f/skoviera2	0,0,200,250	200x250	1	unknown, used at owner's request		0
 319758	Ján Mačutek	owner request	FMFI UK: https://sluzby.fmph.uniba.sk/ludia/macutek1 ; https://sluzby.fmph.uniba.sk/f/macutek1	0,0,200,250	200x250	1	unknown, used at owner's request		0
+320284	Alexander William Bickerton	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Alexander_William_Bickerton_c1905.jpg	43,0,467,529	424x529	1	Public domain	Unknown author	0
+320327	Arthur Schuster	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Arthur_Schuster_by_William_Orpen_1912.jpg	224,33,422,281	198x248	1	Public domain	William Orpen	0
 321682	Humphry Davy	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Sir_Humphry_Davy,_Bt_by_Thomas_Phillips.jpg	372,190,945,906	573x716	1	Public domain	Thomas Phillips	0
 321683	Michael Faraday	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg	144,66,662,713	518x647	1	Public domain	Thomas Phillips	0
 322039	Milan Hejný	Wikimedia Commons	https://commons.wikimedia.org/wiki/File:Milan_Hejny_C.jpg	436,116,749,507	313x391	1	CC BY 3.0	h-mat.cz	1
