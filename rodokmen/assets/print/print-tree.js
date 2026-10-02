@@ -13,7 +13,7 @@
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
 const FONT='EBGaramond';
-const AUTO_MIN_PT=5;   /* ornate poster, paper 'auto': smallest A size with names of at least this size */
+const AUTO_MIN_PT=5;   /* paper 'auto' (both looks, one page): smallest A size with names of at least this size, else A0 */
 const PAPER={A4:[595.28,841.89],A3:[841.89,1190.55],A2:[1190.55,1683.78],A1:[1683.78,2383.94],A0:[2383.94,3370.39]};
 // famous ancestors that may be named in the legend of the main line (MGP ids)
 const FAMOUS=new Set([18231,38586,60985,74313,134975,108295,17864,17865,17981,15635,7298,53410,54440,7401,17946,7486,18232,125561,126177,126109]);
@@ -813,11 +813,14 @@ async function buildView(ctx,rootId,opts){
   const orient=paper=>{ if(opts.orient==='portrait') return fitOn(paper,false); if(opts.orient==='landscape') return fitOn(paper,true); const a=fitOn(paper,false), b=fitOn(paper,true); if(Math.abs(b.s-a.s)>0.002*a.s) return b.s>a.s?b:a;
     const fill=c=>{ const A=c.F.area; return c.L.bb[2]*c.L.bb[3]*c.s*c.s/((A[2]-A[0])*(A[3]-A[1])); }; return fill(b)>fill(a)?b:a; };
   let pick;
-  if(PAPER_ALL[opts.paper]) pick=orient(opts.paper);
-  else { pick=orient('A2'); if(pick.name<V_GOOD) pick=orient('A0'); }
+  /* paper 'auto' (the default): always one page, on the smallest A size where the names reach AUTO_MIN_PT, else one A0 page;
+     overview + detail pages only for a fixed size chosen by the reader that is too small */
+  const auto=!PAPER_ALL[opts.paper];
+  if(!auto) pick=orient(opts.paper);
+  else { for(const q of ['A4','A3','A2','A1','A0']){ pick=orient(q); if(pick.name>=AUTO_MIN_PT) break; } }
   const {parts,bb}=pick.L, pills=parts.filter(p=>p.pill).map(p=>p.box);
   const [bx,by,bw,bh]=bb;
-  const tiled=pick.name<V_MIN;
+  const tiled=!auto&&pick.name<V_MIN;
   // detail sections: same paper and orientation, names at V_TILE pt
   let tiles=[], st=V_TILE/V_NAME, tileF=null, mapW=0;
   if(tiled){
@@ -877,7 +880,7 @@ async function buildView(ctx,rootId,opts){
   doc.setProperties({title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const paperName=pick.paper+(pick.land?(lang==='en'?'_landscape':'_na_sirku'):(lang==='en'?'_portrait':'_na_vysku'));
   const filename=[fileSlug(rootP.name),dir==='down'?TX.dFile:TX.file,TX.vStrom,'g'+G,so.postdoc===false?(lang==='en'?'no_postdoc':'bez_postdoc'):'',paperName].filter(Boolean).join('_')+'.pdf';
-  const report={lang,dir,gens:G,maxGen:MX,postdoc:so.postdoc!==false,people:n,paper:pick.paper,landscape:pick.land,pageW:W,pageH:H,scale:+pick.s.toFixed(4),nameSizePt:+pick.name.toFixed(2),
+  const report={lang,dir,gens:G,maxGen:MX,postdoc:so.postdoc!==false,people:n,paper:pick.paper,paperAuto:auto,landscape:pick.land,pageW:W,pageH:H,scale:+pick.s.toFixed(4),nameSizePt:+pick.name.toFixed(2),
     pages:nPages,issues:pick.L.sc.issues,tiles:tiles.map(t=>[t.r,t.c]),tileNameSizePt:tiled?V_TILE:null,bbox:bb.map(v=>Math.round(v)),title,sub,legend:legend.map(l=>l.sw),filename};
   return {doc,filename,report,svgs:svgs.map(x=>x.svg)};
 }

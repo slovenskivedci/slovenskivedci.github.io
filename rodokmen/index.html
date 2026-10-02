@@ -1048,11 +1048,11 @@ details.kopt>summary:focus-visible{outline:2px solid var(--accent);outline-offse
         <div class="kact" id="k-act" role="group" aria-label="Stiahnuť PDF">
           <button type="button" class="kact-btn" id="k-pdf" title="Stiahnuť strom ako PDF (vzhľad, veľkosť, orientácia a jazyk v ponuke vedľa)"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v7.5M4.8 7l3.2 3.2L11.2 7M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Stiahnuť PDF</button>
           <details class="kopt"><summary title="Vzhľad, veľkosť, orientácia a jazyk PDF"><span class="kopt-s"></span></summary><div class="kopt-pop">
-            <label>Vzhľad<select id="k-kind" aria-label="Vzhľad PDF"><option value="view" selected>Jednoduchý (aj na viac strán)</option><option value="print">Ozdobný plagát (jedna strana)</option></select></label>
+            <label>Vzhľad<select id="k-kind" autocomplete="off" aria-label="Vzhľad PDF"><option value="view" selected>Jednoduchý (aj na viac strán)</option><option value="print">Ozdobný plagát (jedna strana)</option></select></label>
             <p class="kopt-hint">Rovnaký strom. Ozdobný plagát má rám, nadpis a vysvetlivky.</p>
-            <label>Veľkosť<select id="k-size" aria-label="Veľkosť PDF"><option value="auto" selected>automaticky</option><option value="A4">A4</option><option value="A3">A3</option><option value="A2">A2</option><option value="A1">A1</option><option value="A0">A0</option></select></label>
-            <label>Orientácia<select id="k-orient" aria-label="Orientácia PDF"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select></label>
-            <label>Jazyk<select id="k-lang" aria-label="Jazyk PDF"><option value="sk" selected>slovenčina</option><option value="en">English</option></select></label>
+            <label>Veľkosť<select id="k-size" autocomplete="off" aria-label="Veľkosť PDF"><option value="auto" selected>automaticky</option><option value="A4">A4</option><option value="A3">A3</option><option value="A2">A2</option><option value="A1">A1</option><option value="A0">A0</option></select></label>
+            <label>Orientácia<select id="k-orient" autocomplete="off" aria-label="Orientácia PDF"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select></label>
+            <label>Jazyk<select id="k-lang" autocomplete="off" aria-label="Jazyk PDF"><option value="sk" selected>slovenčina</option><option value="en">English</option></select></label>
           </div></details>
           <button type="button" class="linkbtn" id="k-print" hidden title="Ozdobný plagát stromu (PDF, jedna strana)">Ozdobný plagát</button>
           <span class="kpst" id="k-pst" aria-live="polite"></span>
@@ -1646,7 +1646,7 @@ function renderProfile(p){
   const lineagePd=viaPd?`<p class="lineage pdl">Cez postdoktorandského školiteľa (${esc(people.get(viaPd.a).name)}): <b>${viaPd.g}</b> ${pl(viaPd.g,'generácia','generácie','generácií')} predkov, najstarší zaznamenaný predok ${rootTxt(people.get(viaPd.root))}.</p>`:
     pdA&&(dpa.g!==dp.g||dpa.root!==dp.root)?`<p class="lineage pdl">Vrátane postdoktorandských školiteľov: <b>${dpa.g}</b> ${pl(dpa.g,'generácia','generácie','generácií')} predkov, najstarší zaznamenaný predok ${rootTxt(people.get(dpa.root))}.</p>`:'';
   const pCap=Math.max(1,dp.g,pdA?dpa.g:0), pDef=Math.min(14,pCap);
-  const printHtml=adv.length||pdAdv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}" title="Stiahnuť rodokmeň predkov ako PDF (vzhľad, veľkosť, orientácia a jazyk v ponuke vedľa)">Stiahnuť PDF</button><span class="popt"><select name="pkind" aria-label="Vzhľad PDF"><option value="view">Jednoduchý (aj na viac strán)</option><option value="print" selected>Ozdobný plagát (jedna strana)</option></select><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Veľkosť PDF"><option value="auto">automaticky</option><option value="A4">A4</option><option value="A3">A3</option><option value="A2" selected>A2</option><option value="A1">A1</option><option value="A0">A0</option></select><select name="porient" aria-label="Orientácia PDF"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select><select name="plang" aria-label="Jazyk PDF"><option value="sk"${window.rodokmenPrintLang!=='en'?' selected':''}>slovenčina</option><option value="en"${window.rodokmenPrintLang==='en'?' selected':''}>English</option></select></span><span class="pst" role="status"></span></div>`:'';
+  const printHtml=adv.length||pdAdv.length?`<div class="printrow"><button type="button" class="textbtn" data-print="${p.id}" title="Stiahnuť rodokmeň predkov ako PDF (vzhľad, veľkosť, orientácia a jazyk v ponuke vedľa)">Stiahnuť PDF</button><span class="popt"><select name="pkind" aria-label="Vzhľad PDF"><option value="view" selected>Jednoduchý (aj na viac strán)</option><option value="print">Ozdobný plagát (jedna strana)</option></select><label>generácie <select name="pgen" aria-label="Počet generácií predkov">${Array.from({length:pCap},(_,i)=>`<option${i+1===pDef?' selected':''}>${i+1}</option>`).join('')}</select></label><select name="pfmt" aria-label="Veľkosť PDF"><option value="auto" selected>automaticky</option><option value="A4">A4</option><option value="A3">A3</option><option value="A2">A2</option><option value="A1">A1</option><option value="A0">A0</option></select><select name="porient" aria-label="Orientácia PDF"><option value="auto" selected>automaticky</option><option value="portrait">na výšku</option><option value="landscape">na šírku</option></select><select name="plang" aria-label="Jazyk PDF"><option value="sk"${window.rodokmenPrintLang!=='en'?' selected':''}>slovenčina</option><option value="en"${window.rodokmenPrintLang==='en'?' selected':''}>English</option></select></span><span class="pst" role="status"></span></div>`:'';
   const pdSub=x=>`<span class="pdt">postdok${x&&x.y?' '+esc(x.y):''}</span>${x&&x.n?' · '+esc(x.n):''}${x&&x.in?' · '+esc(x.in):''}`;
   const pdRow=(id,x)=>personRow(id,'',x?x.s:'','pdrow').replace('<span class="sub"></span>',`<span class="sub">${pdSub(x)}</span>`);
   const rsH=rsHostsOf(p.id), rsM=rsMembersOf(p.id), RST='Výskumný vedec (research scientist) v skupine; pozícia vyššia ako postdoktorandská; nezapočítava sa medzi doktorandov ani potomkov';
@@ -1683,18 +1683,19 @@ function renderProfile(p){
 /* printable ancestor tree (PDF); the module, jsPDF, svg2pdf and fonts load only on click */
 const PRINT_CTX={isCoEdge,people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf,imStudentsOf,imMentorsOf,rsMembersOf,rsHostsOf};
 let printP=null;   // window.rodokmenPrintLang: poster language, Slovak by default; the last choice is kept while the page is open
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=18'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=19'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
 /* name-size advice after a PDF (both looks); no em dashes */
-function smallMsg(rp){ if(!rp||!(rp.nameSizePt<5)) return ''; const n=String(rp.nameSizePt).replace('.',',');
-  return `Mená majú na ${rp.paper} len ${n} pt: ${rp.paper==='A0'?'zvoľte menej generácií alebo jednoduchý vzhľad (rozdelí sa na viac strán)':'na čitateľnú tlač zvoľte väčší formát'}.`; }
+function smallMsg(rp,kind){ if(!rp||!(rp.nameSizePt<5)) return ''; const n=String(rp.nameSizePt).replace('.',',');
+  const big=rp.paper==='A0'?(kind==='view'?'zvoľte menej generácií alebo pevnú veľkosť (PDF sa rozdelí na viac strán)':'zvoľte menej generácií alebo jednoduchý vzhľad s pevnou veľkosťou (rozdelí sa na viac strán)'):'na čitateľnú tlač zvoľte väčší formát';
+  return `Mená majú na ${rp.paper} len ${n} pt: ${big}.`; }
 function pagesMsg(rv){ return rv&&rv.pages>1?`PDF má ${rv.pages} ${pl(rv.pages,'stranu','strany','strán')}: prehľad a detaily, aby boli mená čitateľné. Celý strom na jednej strane ukáže väčší formát.`:''; }
 /* Profil "Stiahnuť PDF": the ancestors of the person, Ozdobný plagát (one page) or Jednoduchý (split into pages when needed) */
 async function printTree(btn){ const row=btn.closest('.printrow'), st=row.querySelector('.pst'), q=n=>row.querySelector(`[name=${n}]`);
-  const id=+btn.dataset.print, kind=(q('pkind')||{}).value==='view'?'view':'print', gSel=q('pgen'), gens=+gSel.value||14, paper=(q('pfmt')||{}).value||'A2', orient=(q('porient')||{}).value||'auto', postdoc=REL.pd, informal=REL.im, research=REL.rs, langSel=q('plang'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
+  const id=+btn.dataset.print, kind=(q('pkind')||{}).value==='print'?'print':'view', gSel=q('pgen'), gens=+gSel.value||14, paper=(q('pfmt')||{}).value||'A2', orient=(q('porient')||{}).value||'auto', postdoc=REL.pd, informal=REL.im, research=REL.rs, langSel=q('plang'), lang=langSel&&langSel.value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
   btn.disabled=true; st.textContent='Pripravujem PDF…';
   try{ const M=await loadPrint();
     if(kind==='view'){ await M.downloadView(PRINT_CTX,id,{sceneOpts:{gens,dir:'up',postdoc,informal,research},gens,maxGen:gSel.options.length,lang,paper,orient,hash:'p'+id,
-        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); st.textContent=pagesMsg(window.RodokmenPrint.lastView&&window.RodokmenPrint.lastView.report); }
+        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); { const rv=window.RodokmenPrint.lastView&&window.RodokmenPrint.lastView.report; st.textContent=pagesMsg(rv)||smallMsg(rv,'view'); } }
     else { const rp=await M.download(PRINT_CTX,id,{gens,paper,orient,postdoc,informal,research,lang}); st.textContent=smallMsg(rp); } }
   catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; }
   finally{ btn.disabled=false; } }
@@ -1826,14 +1827,14 @@ const Strom=(()=>{
     const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
     try{ const M=await loadPrint(); const rp=await M.download(PRINT_CTX,root,{gens:gens(),paper:$('#k-size').value,orient:($('#k-orient')||{}).value||'auto',postdoc:REL.pd,informal:REL.im,research:REL.rs,dir,lang}); st.textContent=smallMsg(rp); }
     catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
-  /* "Stiahnuť PDF", Jednoduchý: the tree of the view (person, direction, generations, postdoc links) as a PDF of the chosen size,
+  /* "Stiahnuť PDF", Jednoduchý: the tree of the view (person, direction, generations, postdoc links) as a PDF (automaticky: one page),
      laid out again for the sheet (RodokmenPrint.downloadView in assets/print/print-tree.js) */
   $('#k-pdf').addEventListener('click',async()=>{ const b=$('#k-pdf'), st=$('#k-pst'); if(b.disabled||root==null) return;
     const key=keyNow(); if(!scene||drawnKey!==key){ st.textContent='Strom sa ešte kreslí…'; return; }
     b.disabled=true; st.textContent='Pripravujem PDF…';
     const lang=$('#k-lang').value==='en'?'en':'sk'; window.rodokmenPrintLang=lang;
     try{ const M=await loadPrint(); await M.downloadView(PRINT_CTX,root,{scene,sceneOpts:{gens:gens(),dir,postdoc:REL.pd,informal:REL.im,research:REL.rs},gens:gens(),maxGen:maxGen(root,dir),lang,paper:$('#k-size').value,orient:($('#k-orient')||{}).value||'auto',hash:hashFor(root),query:relQuery(),
-        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); const rv=window.RodokmenPrint.lastView&&window.RodokmenPrint.lastView.report; st.textContent=pagesMsg(rv); }
+        progress:t=>{ st.textContent=t?`Pripravujem PDF (strana ${t})…`:'Pripravujem PDF…'; }}); const rv=window.RodokmenPrint.lastView&&window.RodokmenPrint.lastView.report; st.textContent=pagesMsg(rv)||smallMsg(rv,'view'); }
     catch(err){ console.error(err); st.textContent='PDF sa nepodarilo vytvoriť.'; } finally{ b.disabled=false; } });
   let rz; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(current!=='strom') return; if(!legendTouched) legendOpen=!mobile(); $('#k-legend').classList.toggle('open',legendOpen); draw(); },200); });
   function refresh(){ if(current==='strom'&&root!=null) draw(); }
@@ -2339,9 +2340,9 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
   grp('strom',[kd,kg,kz,ka]);
   // PDF: one button "Stiahnuť PDF" and one menu (Vzhľad, Veľkosť, Orientácia, Jazyk) in Strom and Profil
   const OR={auto:'',portrait:'na výšku',landscape:'na šírku'};
-  const SIZE_TIP={view:'Automaticky: A2, pri veľkom strome A0 (a ak treba, prehľad a detaily na ďalších stranách)',print:'Automaticky: najmenší formát od A4 po A0, na ktorom majú mená aspoň 5 pt, inak A0'};
+  const SIZE_TIP={view:'Automaticky: jedna strana, najmenší formát od A4 po A0, na ktorom majú mená aspoň 5 pt, inak A0. Pevná menšia veľkosť rozdelí strom na viac strán.',print:'Automaticky: jedna strana, najmenší formát od A4 po A0, na ktorom majú mená aspoň 5 pt, inak A0'};
   const HINT='Rovnaký strom. Ozdobný plagát má rám, nadpis a vysvetlivky.';
-  const pdfSum=(kind,size,orient,lang)=>[kind==='print'?'Ozdobný':'',size==='auto'?(kind==='print'?'auto':'A2/A0'):size,OR[orient||'auto'],(lang||'sk').toUpperCase()];
+  const pdfSum=(kind,size,orient,lang)=>[kind==='print'?'Ozdobný':'',size,OR[orient||'auto'],(lang||'sk').toUpperCase()];
   // one size menu for both looks; each look remembers its own size (defaults: Jednoduchý automaticky, Ozdobný A2)
   function wireSize(kindSel,sizeSel,mem,sum){ if(!kindSel||!sizeSel) return; sizeSel.title=SIZE_TIP[kindSel.value];
     kindSel.addEventListener('change',()=>{ sizeSel.value=mem[kindSel.value]; sizeSel.title=SIZE_TIP[kindSel.value]; sum(); });
@@ -2358,7 +2359,7 @@ hLive.then(n=>{ if(!n||!booted) return; if(Tree.current()!=null&&$('#profile').c
   grp('connect',[cs,cf]);
   // Profil: its "Stiahnuť PDF" joins the Profil tools (button + compact menu: generations, size, orientation, language)
   const tg=vt.querySelector('.vt[data-view="tree"]'), prof=$('#profile');
-  const pMem={kind:'print',size:{view:'auto',print:'A2'},orient:'auto'};
+  const pMem={kind:'view',size:{view:'auto',print:'A2'},orient:'auto'};
   function prSum(row){ const q=n=>row.querySelector(`[name=${n}]`), s=row.querySelector('.kopt-s'); if(!s) return;
     s.textContent=pdfSum((q('pkind')||{}).value,q('pfmt').value,(q('porient')||{}).value,(q('plang')||{}).value).filter(Boolean).join(' · '); }   // same chip as Strom (generations are in the menu)
   function takePrint(){ if(!tg||!prof) return; const row=prof.querySelector('.printrow'); const old=tg.querySelector('.printrow');
