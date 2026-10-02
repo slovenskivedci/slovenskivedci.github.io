@@ -2,7 +2,8 @@
    Loaded on demand from rodokmen/index.html when "Vytlačiť rodokmeň predkov" is clicked.
    One style, an organic tree (see ORGANIC TREE POSTER below); rendered as SVG and converted to PDF
    with jsPDF + svg2pdf.js, EB Garamond embedded. Postdoc advisor links (ctx.pdAdvisorsOf) are included
-   unless opts.postdoc===false and drawn in teal. opts.lang: 'sk' (default) or 'en' (poster language; names
+   unless opts.postdoc===false and drawn in teal; informal mentor links (dotted violet leaves) unless opts.informal===false, research-scientist links unless opts.research===false
+   (all follow the shared "Väzby" toggles of the page). opts.lang: 'sk' (default) or 'en' (poster language; names
    and thesis titles are never translated).
    opts.dir==='down' draws the academic descendants instead (students hang below the person, same layout mirrored).
    RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Strom" view
@@ -231,7 +232,7 @@ const CREDIT_COL='#857b6f', creditSize=(W,H)=>8.5*Math.min(W,H)/841.89, CREDIT_U
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
-function treeGraph(ctx,rootId,G,usePd,dir){
+function treeGraph(ctx,rootId,G,usePd,dir,useIm,useRs){
   const P=ctx.people, down=dir==='down';   // down: the "advisors" of the layout are the students (descendants tree)
   const advPhd=down?id=>(ctx.studentsOf?ctx.studentsOf(id):[]).filter(s=>s!==id&&P.has(s)):id=>{ const p=P.get(id); return p?p.adv.filter(a=>P.has(a)&&a!==id):[]; };
   const pdOf=down?ctx.pdStudentsOf:ctx.pdAdvisorsOf;
@@ -239,9 +240,9 @@ function treeGraph(ctx,rootId,G,usePd,dir){
   const isPd=(x,a)=>usePd&&!advPhd(x).includes(a);
   const src=(x,a)=>ctx.edgeSrc?((down?ctx.edgeSrc(a,x):ctx.edgeSrc(x,a))||''):'';
   /* informal mentor links (ctx.imStudentsOf/imMentorsOf): dotted violet leaves, never followed further and not counted as people */
-  const imOf=down?ctx.imStudentsOf:ctx.imMentorsOf, IM=new Set();
+  const imOf=useIm===false?null:down?ctx.imStudentsOf:ctx.imMentorsOf, IM=new Set();
   /* research scientist links (ctx.rsMembersOf/rsHostsOf): long-dash rust leaves; kept in IM (never followed, never counted) and flagged in RS */
-  const rsOf=down?ctx.rsMembersOf:ctx.rsHostsOf, RS=new Set();
+  const rsOf=useRs===false?null:down?ctx.rsMembersOf:ctx.rsHostsOf, RS=new Set();
   const gmin=new Map([[rootId,0]]), par=new Map(); const q=[rootId];
   for(let i=0;i<q.length;i++){ const x=q[i]; if(IM.has(x)) continue; for(const a of advOrd(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); }
     if(rsOf) for(const a of rsOf(x)) if(!gmin.has(a)){ gmin.set(a,gmin.get(x)+1); par.set(a,x); q.push(a); IM.add(a); RS.add(a); }
@@ -630,7 +631,7 @@ async function buildTree(ctx,rootId,opts){
   const scr=!!opts.screen; let doc=null, tw;
   if(scr){ await loadFaces(); tw=canvasMeasure(); }
   else { const fonts=await loadLibs(); doc=newDoc(fonts,opts.paper); tw=makeMeasure(doc); }
-  const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir);
+  const g=treeGraph(ctx,rootId,opts.gens,opts.postdoc!==false,opts.dir,opts.informal!==false,opts.research!==false);
   const fp=famousPath(ctx,g,rootId);
   let best=null; const tries=[];
   for(const c of TREE_CFGS(opts)){ const cfg=Object.assign({},TREE_BASE,opts.treeCfg||{},c,{lang:opts.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,opts);
@@ -782,7 +783,7 @@ async function buildView(ctx,rootId,opts){
   const legend=sc0.legend.map(it=>({sw:it.sw,t1:it.sw==='hl'?TX.vHl(it.t1):it.t1,t2:it.t2||''}));
   const today=opts.today||new Date(); const dt=(ctx.generated||'').split('-');
   const dToday=TX.date(today.getFullYear(),today.getMonth()+1,today.getDate()), dData=dt.length===3?TX.date(+dt[0],+dt[1],+dt[2]):'';
-  const url='slovenskivedci.sk/rodokmen/'+(opts.hash?'#'+opts.hash:'');
+  const url='slovenskivedci.sk/rodokmen/'+(opts.query||'')+(opts.hash?'#'+opts.hash:'');
   // re-flow: the scene laid out for the aspect of the tree area of the sheet (screen-mode page of width 1190.55:
   // its tree area is 1078.55 wide and pageH-130.5 high), in portrait and in landscape
   const frameOf=(paper,land)=>{ const [a,b]=PAPER_ALL[paper]; const W=land?b:a, H=land?a:b; return {paper,land,W,H,F:vFrame(tw,TX,W,H,legend,0)}; };
