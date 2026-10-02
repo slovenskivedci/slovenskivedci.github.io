@@ -2724,5 +2724,11 @@ a.addEventListener('click',e=>{if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey
  if(location.href===u.href){location.reload();}else{location.assign(u.href);}
 });})();
 </script>
+<style id="phone-menu-css">
+@media (max-width:599px){
+  .top .tabs{display:grid!important;grid-template-columns:repeat(4,auto);justify-content:space-between;align-items:end;column-gap:4px;row-gap:0;overflow:visible!important;margin-inline:-7px!important;max-width:calc(100% + 14px)}
+  .top .tabs button{justify-self:start;padding:7px 7px!important}
+}
+</style>
 </body>
 </html>
