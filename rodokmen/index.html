@@ -1682,7 +1682,7 @@ const Conn=(()=>{
   combo(ib,$('#cb-list'),p=>{ B=p.id; ib.value=p.name; run(); });
   $('#cswap').addEventListener('click',()=>{ [A,B]=[B,A]; run(); });
   $('#cfit').addEventListener('click',()=>fit(true));
-  const EX=[[123952,128765],[122294,129264],[117390,122294],[17952,82262],[52043,117390]];
+  const EX=[[17952,129439],[129267,122294],[77963,156876],[117390,84633],[-1536,133247]];
   function ancestors(id){ const m=new Map([[id,{d:0,next:null}]]); const q=[id]; while(q.length){ const x=q.shift(); for(const a of advisorsOf(x)) if(!m.has(a)){ m.set(a,{d:m.get(x).d+1,next:x}); q.push(a); } } return m; }
   function compute(a,b){
     if(a===b) return {type:'same'};
