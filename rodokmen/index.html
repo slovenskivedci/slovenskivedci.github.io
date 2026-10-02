@@ -1105,7 +1105,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         <h2 class="sec" id="f-feat-h"><span>Najviac akademických potomkov</span><span>potomkovia</span></h2>
         <ul class="rows" id="f-feat"></ul>
         <p class="fine" style="margin-top:12px" data-mode="linie" hidden>Zakladateľ línie je prvý slovenský matematik v danej vetve, ktorého školiteľ je zo zahraničia alebo nie je známy. Doktorand s viacerými školiteľmi je uvedený pod každým zo svojich školiteľov, vždy s označením spoluškolený/spoluškolená (ďalších školiteľov ukáže prejdenie myšou). Číslo pri mene je počet rôznych potomkov cez ktoréhokoľvek školiteľa doktorátu (ako v Profile); súčet osôb nad zoznamom ráta každú osobu iba raz. Postdoktorandské a neformálne väzby sa nezapočítavajú. Filter v lište nástrojov hore zúži zoznam na vybrané línie. Potomkovia sú doktorandi, ich doktorandi a všetky ďalšie generácie podľa MGP a ďalších zdrojov. Zoznam sa dá ovládať aj klávesnicou (šípky).</p>
-        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom); pri 0 ukáže všetkých, aj osoby bez potomkov. Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter v lište nástrojov hore les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami. Kliknutím na bodku vyberiete osobu: zvýraznia sa jej predkovia až po zakladateľa aj všetci potomkovia a karta ponúkne Strom a Profil; výber zrušíte kliknutím do prázdna alebo klávesom Esc. Odkaz na stránku si výber pamätá. Pole Nájsť v Lese osobu priblíži a vyberie. Posuvník Rok ukáže les iba s doktorátmi do zvoleného roku, tlačidlo vedľa neho prehrá rast lesa.</p>
+        <p class="fine" style="margin-top:12px" data-mode="les">Les zobrazuje iba línie, ktorých zakladateľ má aspoň zvolený počet akademických potomkov (prepínač nad lesom); pri 1 ukáže všetky línie, ktorých zakladateľ má aspoň jedného doktoranda. Mená červenou farbou označujú zakladateľov línií s aspoň 20 potomkami. Filter v lište nástrojov hore les ďalej zúži; prejdením myšou nad zakladateľom v zozname sa jeho línia zvýrazní. Bodky, ktorých rok doktorátu nie je známy, sú umiestnené odhadom. Les môžete posúvať a približovať myšou alebo prstami. Kliknutím na bodku vyberiete osobu: zvýraznia sa jej predkovia až po zakladateľa aj všetci potomkovia a karta ponúkne Strom a Profil; výber zrušíte kliknutím do prázdna alebo klávesom Esc. Odkaz na stránku si výber pamätá. Pole Nájsť v Lese osobu priblíži a vyberie. Posuvník Rok ukáže les iba s doktorátmi do zvoleného roku, tlačidlo vedľa neho prehrá rast lesa.</p>
       </aside>
       <div class="stage lstage" id="f-stage" hidden>
         <div class="lbar"><span class="lsum" id="l-sum"></span><div class="fchip" id="f-chip" hidden><span class="fchip-l">Filter</span><span id="f-chip-t"></span><button type="button">Zrušiť</button></div><span class="lbar-r"><button type="button" class="linkbtn" id="l-exp">rozbaliť všetko</button><button type="button" class="linkbtn" id="l-col">zbaliť</button></span></div>
@@ -1113,7 +1113,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         <ul class="ltree" id="l-list" role="tree" aria-label="Slovenské matematické línie"></ul>
       </div>
       <div class="stage" id="g-stage">
-        <div class="gbar" role="group" aria-label="Minimálna veľkosť línie"><span class="gbar-l">Línie s aspoň</span><span class="seg" id="g-min"><button type="button" data-min="0" aria-pressed="false" title="0: všetci, aj osoby bez potomkov">0</button><button type="button" data-min="10" aria-pressed="false">10</button><button type="button" data-min="20" aria-pressed="true">20</button><button type="button" data-min="50" aria-pressed="false">50</button><button type="button" data-min="100" aria-pressed="false">100</button></span><span class="gbar-l">potomkami</span><span class="gbar-n" id="g-n"></span></div>
+        <div class="gbar" role="group" aria-label="Minimálna veľkosť línie"><span class="gbar-l">Línie s aspoň</span><span class="seg" id="g-min"><button type="button" data-min="1" aria-pressed="false" title="1: všetky línie, ktorých zakladateľ má aspoň jedného doktoranda">1</button><button type="button" data-min="10" aria-pressed="false">10</button><button type="button" data-min="20" aria-pressed="true">20</button><button type="button" data-min="50" aria-pressed="false">50</button><button type="button" data-min="100" aria-pressed="false">100</button></span><span class="gbar-l">potomkami</span><span class="gbar-n" id="g-n"></span></div>
         <svg id="g-svg" role="img" aria-label="Les najväčších slovenských matematických línií: vzdialenosť od stredu zodpovedá roku doktorátu"></svg>
         <div class="lcard" id="g-card" role="dialog" aria-label="Vybraná osoba" hidden></div>
         <div class="lnote" id="g-note" role="status" aria-live="polite" hidden></div>
@@ -2085,11 +2085,10 @@ const Grove=(()=>{
   svg.call(zoom).on('dblclick.zoom',null);
   const arc=(s,c)=>{ const a0=s.x-Math.PI/2,a1=c.x-Math.PI/2,rm=(s.r+c.r)/2; return `M${s.px},${s.py}C${rm*Math.cos(a0)},${rm*Math.sin(a0)} ${rm*Math.cos(a1)},${rm*Math.sin(a1)} ${c.px},${c.py}`; };
   function draw(){
-    dirty=false; const FB=Forest.build(); const {match}=Forest.state(); let trees=FB.trees;
-    if(MIN<=0){ const tm=new Map(trees.map(t=>[t.id,t])); trees=FB.roots.map(id=>tm.get(id)||{id,par:null,children:[]}); }   /* 0: also single people without a line */
+    dirty=false; const {trees}=Forest.build(); const {match}=Forest.state();
     const keep=trees.filter(t=>nDescOf(people.get(t.id))>=MIN&&(!match||match.has(t.id)));
-    const count=t=>1+t.children.reduce((a,c)=>a+count(c),0), nP=d3.sum(keep,count), nL=keep.filter(t=>t.children.length).length, nS=keep.length-nL;
-    $('#g-n').textContent=`${nf.format(nL)} ${pl(nL,'línia','línie','línií')}`+(nS?` a ${nf.format(nS)} ${pl(nS,'osoba','osoby','osôb')} bez línie`:'')+` · ${nf.format(nP)} ${pl(nP,'osoba','osoby','osôb')}`;
+    const count=t=>1+t.children.reduce((a,c)=>a+count(c),0), nP=d3.sum(keep,count);
+    $('#g-n').textContent=`${nf.format(keep.length)} ${pl(keep.length,'línia','línie','línií')} · ${nf.format(nP)} ${pl(nP,'osoba','osoby','osôb')}`;
     $('#g-chip').hidden=!match; if(match) $('#g-chip-t').textContent=`v lese ${keep.length} z ${match.size} ${pl(match.size,'vybranej línie','vybraných línií','vybraných línií')}`;
     world.selectAll('*').remove(); nodes=[]; delaunay=null; clear();
     const el=svg.node(); const vw=el.clientWidth||800, vh=el.clientHeight||700;
@@ -2138,10 +2137,12 @@ const Grove=(()=>{
     showTip(tipHtml(n.p)+(x0?`<div class="m">Postdoktorand: ${esc(n.parent.p.name)}${x0.y?', '+esc(x0.y):''}. Poloha zodpovedá začiatku pobytu.</div>`:'')+(xi?`<div class="m">Neformálny mentor: ${esc(n.parent.p.name)}${xi.y?', '+esc(xi.y):''}. Poloha zodpovedá začiatku pôsobenia; nezapočítava sa medzi potomkov.</div>`:'')+(xr?`<div class="m">Výskumný vedec v skupine: ${esc(n.parent.p.name)}${xr.y?', '+esc(xr.y):''}. Poloha zodpovedá začiatku pôsobenia; nezapočítava sa medzi potomkov.</div>`:'')+(n.est?'<div class="m">Rok nie je zaznamenaný, poloha je odhadnutá.</div>':''),x,y); }
   function clear(){ svg.style('cursor',null); if(hov) hov.attr('r',0); if(trail) trail.attr('d',null); hideTip(); }
   function center(animate){ const el=svg.node(); const vw=el.clientWidth, vh=el.clientHeight; if(!vw) return; const s=Math.min(vw/(2*R+(vw<600?90:220)),(vh-40)/(2*R+70)); const tr=d3.zoomIdentity.translate(vw/2,vh/2).scale(Math.min(1,s)); (animate&&!RM?svg.transition().duration(500):svg).call(zoom.transform,tr); }
-  $('#g-min').addEventListener('click',e=>{ const b=e.target.closest('button[data-min]'); if(!b) return; MIN=+b.dataset.min; $$('#g-min button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  const setMin=b=>{ MIN=+b.dataset.min; $$('#g-min button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); const w=document.querySelector('#g-min + .gbar-l'); if(w) w.textContent=MIN===1?'potomkom':'potomkami'; };
+  $('#g-min').addEventListener('click',e=>{ const b=e.target.closest('button[data-min]'); if(!b) return; setMin(b);
     try{ const u=new URL(location.href); if(MIN===20) u.searchParams.delete('les-min'); else u.searchParams.set('les-min',MIN); if(u.href!==location.href) history.replaceState(history.state,'',u.href); }catch(_){}
     draw(); });
-  { const q=new URLSearchParams(location.search).get('les-min'), b=q!=null&&document.querySelector(`#g-min button[data-min="${CSS.escape(q)}"]`); if(b){ MIN=+q; $$('#g-min button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); } }   /* ?les-min round-trips */
+  { let q=new URLSearchParams(location.search).get('les-min'); const old=q==='0'; if(old) q='1';   /* ?les-min round-trips; old 0 links -> 1 */
+    const b=q!=null&&document.querySelector(`#g-min button[data-min="${CSS.escape(q)}"]`); if(b){ setMin(b); if(old) try{ const u=new URL(location.href); u.searchParams.set('les-min','1'); history.replaceState(history.state,'',u.href); }catch(_){} } }
   $('#g-chip button').addEventListener('click',()=>Forest.reset());
   /* ---- interactive Les (P. Richtárik, 2. 10. 2026): click selects a person and their whole line (ancestors to the founder + all descendants),
      a small card offers Strom and Profil; "Nájsť v Lese" zooms to and selects; the Rok slider shows the forest up to a year (play = growth).
@@ -2213,7 +2214,7 @@ const Grove=(()=>{
       for(const t of Forest.build().trees) if(has(t)){ root=t; break; }
       if(root){ const q=people.get(root.id), d=nDescOf(q), {match}=Forest.state();
         if(match&&!match.has(root.id)) return `${nm} nie je v lese: línia ${esc(q.name)} je mimo filtra.${prof}`;
-        if(d<MIN) return (root.id===id?`${nm} zakladá líniu s ${nf.format(d)} ${pl(d,'potomkom','potomkami','potomkami')}`:`${nm} patrí do línie ${esc(q.name)} (${nf.format(d)} ${pl(d,'potomok','potomkovia','potomkov')})`)+`; les teraz zobrazuje iba línie s aspoň ${MIN} potomkami.${prof}`; }
+        if(d<MIN) return (root.id===id?`${nm} zakladá líniu s ${nf.format(d)} ${pl(d,'potomkom','potomkami','potomkami')}`:`${nm} patrí do línie ${esc(q.name)} (${nf.format(d)} ${pl(d,'potomok','potomkovia','potomkov')})`)+`; les teraz zobrazuje iba línie s aspoň ${MIN} ${MIN===1?'potomkom':'potomkami'}.${prof}`; }
       return `${nm} nie je v líniách zobrazených v lese.${prof}`; }
     function find(id){ hideNote(); const n=byId.get(id); if(!n){ select(null); say(missing(id)); return; } select(id,true);
       if(!visible(n)) say(`<b>${esc(n.p.name)}</b>: doktorát ${n.yr}, posuvník Rok je teraz na ${st.year}.`); }
