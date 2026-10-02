@@ -1043,7 +1043,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
 <div class="app">
   <header class="top">
-    <a class="brand" href="#les" aria-label="Rodokmeň, úvod">
+    <a class="brand" href="./" aria-label="Rodokmeň, úvod" title="Úvod: zrušiť výber a filtre">
       <span style="display:flex;align-items:center;gap:12px">
         <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
           <path d="M8 7 C 15 7, 15 15, 22 15 M8 23 C 15 23, 15 15, 22 15" fill="none" stroke="var(--edge)" stroke-width="1.6"/>
@@ -2712,5 +2712,17 @@ addEventListener('hashchange',()=>setTimeout(upd,0));addEventListener('load',upd
 .top>.tbar :is(details.kopt>summary,.tool){height:28px!important}
 .top>.tbar .kact .kact-btn{height:28px;font-size:12px}
 </style>
+<style id="logo-reset-css">
+.top .brand{cursor:pointer}
+</style>
+<script id="logo-reset-js">
+(()=>{const a=document.querySelector('.top a.brand');if(!a)return;
+a.addEventListener('click',e=>{if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+ try{['rodokmen-vazby','rodokmen-vazby-les'].forEach(k=>localStorage.removeItem(k));}catch(_){}
+ const u=new URL(a.getAttribute('href')||'./',location.href);u.search='';u.hash='';
+ e.preventDefault();
+ if(location.href===u.href){location.reload();}else{location.assign(u.href);}
+});})();
+</script>
 </body>
 </html>
