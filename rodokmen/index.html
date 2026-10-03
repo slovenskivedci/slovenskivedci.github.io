@@ -1609,9 +1609,9 @@ function fitText(t,f,max){ if(tw(t,f)<=max) return t; let lo=0,hi=t.length; whil
 const VIEWS=['les','linie','people','alumni','tree','strom','connect','about'];
 const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], secOf=v=>v==='linie'||v==='les'?'forest':v;
 let current='';
-let ACTIVE=null;   // the active person, shared by the person views: the Profil focus and the Strom root (the menu tabs Profil and Strom open this person)
+let ACTIVE=null;   // the one active person (general rule): set by every view that picks a person (Profil focus, Strom root, Les selection, Prepojenia first person) and shown by every view that can show a person when it opens
 function show(view){ if(current===view) return; if(current==='les'&&view!=='les') Grove.leave(); current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
-  if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect'){ if(ACTIVE!=null&&people.has(ACTIVE)&&Conn.active()!==ACTIVE) Conn.setA(ACTIVE); Conn.ensure(); } if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); if(view==='people'||view==='alumni') markActive(view,true); }
+  if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree'){ if(ACTIVE!=null&&people.has(ACTIVE)&&Tree.current()!==ACTIVE) Tree.focus(ACTIVE); Tree.ensure(); } if(view==='strom') Strom.ensure(); if(view==='connect'){ if(ACTIVE!=null&&people.has(ACTIVE)&&Conn.active()!==ACTIVE) Conn.setA(ACTIVE); Conn.ensure(); } if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); if(view==='people'||view==='alumni') markActive(view,true); }
 /* lists (Matematici, Absolventi): the row of the active person is marked (and scrolled to when the view opens); kept when the table is redrawn */
 function markActive(view,scroll){ const sec=$('#v-'+secOf(view)); if(!sec) return; sec.querySelectorAll('tr.act').forEach(t=>t.classList.remove('act')); if(ACTIVE==null) return;
   const b=sec.querySelector(`button.pn[data-go="${ACTIVE}"]`), tr=b&&b.closest('tr'); if(!tr) return; tr.classList.add('act'); if(scroll) requestAnimationFrame(()=>tr.scrollIntoView({block:'center'})); }
@@ -1849,7 +1849,7 @@ const Strom=(()=>{
   const hashFor=(id,d=dir,g=gPref,f=ph)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'')+(f?'':'/bez-portretov');
   const keyNow=()=>root+'|'+dir+'|'+gens()+'|'+relQuery()+'|'+(ph?'ph':'');
   const hash=()=>hashFor(root??Tree.current()??DEF_ID);
-  function set(id,d,g,p,f){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; ACTIVE=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF; pd=REL.pd; ph=f!==false;
+  function set(id,d,g,p,f){ if(id==null) id=(ACTIVE!=null&&people.has(ACTIVE)?ACTIVE:null)??root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; ACTIVE=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF; pd=REL.pd; ph=f!==false;
     const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else { trail.push(id); if(trail.length>12) trail=trail.slice(-12); }
     if(current==='strom') draw(); }
   function ensure(){ if(root==null) set(null,'up',0); $('#k-lang').value=window.rodokmenPrintLang==='en'?'en':'sk'; draw(); }
@@ -2307,6 +2307,7 @@ const Conn=(()=>{
   function gens(n){ return `${n} ${pl(n,'generáciu','generácie','generácií')}`; }
   function run(){
     if(!inited) return;
+    ACTIVE=A;   // the first person is the active person (also after a swap or an example pair)
     ia.value=people.get(A).name; ib.value=people.get(B).name; ia.dataset.picked='1'; ib.dataset.picked='1';
     const res=compute(A,B); let text='';
     if(res.type==='same') text='Vyberte dve rôzne osoby.';
