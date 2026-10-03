@@ -3485,7 +3485,7 @@
   last: Benova
   year: ''
   sex: "\u017Eena"
-  position: "vedky\u0148a"
+  position: profesorka
   field: "reproduk\u010Dn\xE9 zdravie"
   pribeh: "V Antverp\xE1ch sp\xE1ja tropick\xFA medic\xEDnu s reproduk\u010Dn\xFD\
     m zdrav\xEDm \u2014 epidemiol\xF3gia, ktor\xE1 po\u010D\xFAva \u017Eeny, nielen\
@@ -3513,7 +3513,7 @@
   fieldurl: reprodukcne_zdravie
   area: "medic\xEDna"
   areaurl: medicina
-  positionurl: vedkyna
+  positionurl: profesorka
   affiliationurl: Institute_of_Tropical_Medicine_Antwerp
   cityurl: Antwerpy
   sexurl: zena
