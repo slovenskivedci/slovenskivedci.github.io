@@ -1050,8 +1050,23 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
 .kcard .phwrap{gap:16px;margin:12px 0 14px}
 .kcard .phwrap .ph{width:77px;height:96px}
 .kcard .phwrap .kn{display:block}
+/* Profil gallery: extra different photos over the main one (cross-fade, dots, arrows; same look as the slovenskivedci.sk cards); Strom cards never get it */
+.phwrap .pg{flex:none;position:relative;width:96px;height:120px;line-height:0;outline:none;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.phwrap .pg .ph{position:relative}
+.phwrap .pg .pg-l{position:absolute;left:0;top:0;opacity:0;transition:opacity .45s ease;pointer-events:none;box-shadow:none}
+.phwrap .pg .pg-l.on{opacity:1}
+.pg-dots{position:absolute;left:0;right:0;bottom:3px;display:flex;justify-content:center;gap:0;line-height:0;z-index:2}
+.pg-dots i{width:6px;height:6px;padding:2px;background:rgba(255,255,255,.5);background-clip:content-box;border-radius:50%;filter:drop-shadow(0 0 1px rgba(0,0,0,.55));cursor:pointer;box-sizing:content-box}
+.pg-dots i.on{background-color:#fff}
+.pg-a{position:absolute;top:50%;margin-top:-10px;width:20px;height:20px;padding:0;border:0;border-radius:50%;background:rgba(20,24,31,.42);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:opacity .2s ease,background .2s ease;z-index:2}
+.pg-a:hover{background:rgba(20,24,31,.65)}
+.pg-prev{left:2px}.pg-next{right:2px}
+.pg:hover .pg-a,.pg:focus-visible .pg-a{opacity:1}
+.pg:focus-visible{box-shadow:0 0 0 2px #1f4e79;border-radius:2px}
+@media (hover:none){.pg-a{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.phwrap .pg .pg-l,.pg-a{transition:none}}
 </style>
-<script src="photos/photos.js?v=19"></script>
+<script src="photos/photos.js?v=20"></script>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1744,12 +1759,35 @@ const PROG={DM:'Diskrétna matematika',TVM:'Teória vyučovania matematiky','Dik
 function personRow(id,sub,src,cls,coOf){ const p=people.get(id); const u=src&&isUnv(src); return `<li${cls?` class="${cls}"`:''}><button type="button" class="row" data-go="${p.id}"${src?` title="Zdroj vzťahu: ${esc(srcLabel(src))}"`:''}><i class="dot ${klass(p)}"></i><span class="nm">${esc(p.name)}${coOf!=null?coMark(p.id,coOf):''}</span><span class="yr">${p.year||''}</span><span class="sub">${esc(sub??p.school??'')}${u?'<span class="unv-t"> · neoverený vzťah</span>':''}</span></button></li>`; }
 /* portrait photos (photos/photos.js); the credit line is shown only when the licence requires attribution */
 const PHOTOS=window.RODOKMEN_PHOTOS||{};
-function photoBlock(id,nameHtml,restHtml,w,h){ const e=PHOTOS[id]; if(!e) return nameHtml+restHtml;
-  const f='photos/'+(id<0?'n'+(-id):id), file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
+function phInfo(e){ const file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
   const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:e[5]?'':'Foto: slovenskivedci.sk';
   const osrc=!file&&e[4]&&e[5]?/^(.*?):\s*(https?:\/\/\S+)/.exec(e[5]):null; /* licence with attribution outside Commons: credit links the source named in e[5] ("label: page URL ; image URL") */
-  const cred=file&&e[4]?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`:osrc?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${esc(osrc[2])}" target="_blank" rel="noopener">${esc(osrc[1])}</a></div>`:'';
-  return `<div class="phwrap"><img class="ph" src="${f}.webp"${e[0]>1?` srcset="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}" loading="lazy" decoding="async" alt=""${tip?` title="${esc(tip)}"`:''}><div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
+  const cred=file&&e[4]?`Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a>`:osrc?`Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${esc(osrc[2])}" target="_blank" rel="noopener">${esc(osrc[1])}</a>`:'';
+  return [tip,cred]; }
+/* Profil only (gal=1): extra, genuinely different photos from RODOKMEN_PHOTOS_GALLERY as a small gallery (arrows, dots, cross-fade like the cards on slovenskivedci.sk); the main photo stays the default. Strom cards, photoSrc and posters use only the main photo. */
+const GALLERY=window.RODOKMEN_PHOTOS_GALLERY||{};
+function photoBlock(id,nameHtml,restHtml,w,h,gal){ const e=PHOTOS[id]; if(!e) return nameHtml+restHtml;
+  const f='photos/'+(id<0?'n'+(-id):id), [tip,cred0]=phInfo(e), xs=gal&&GALLERY[id]||[];
+  const img=(f,hi,cls,t,lazy)=>`<img class="${cls}" ${lazy?'data-src':'src'}="${f}.webp"${hi>1?` ${lazy?'data-srcset':'srcset'}="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}"${lazy?'':' loading="lazy"'} decoding="async" alt=""${t?` ${xs.length?'data-tip':'title'}="${esc(t)}"`:''}>`;
+  const creds=[cred0], layers=xs.map((x,i)=>{ const [t,c]=phInfo(x.slice(1)); if(c) creds.push(c); return img('photos/'+x[0],x[1],'ph pg-l',t,1); }).join('');
+  const cred=creds.filter(Boolean).map(c=>`<div class="phcred">${c}</div>`).join('');
+  const N=xs.length+1, chev=d=>`<svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const ph=xs.length?`<div class="pg" tabindex="0" role="group" aria-roledescription="galéria" aria-label="Fotografia 1 z ${N} (šípky vľavo/vpravo)"${tip?` title="${esc(tip)}"`:''}>${img(f,e[0],'ph',tip,0)}${layers}<button type="button" class="pg-a pg-prev" tabindex="-1" aria-label="Predchádzajúca fotografia">${chev('M7.5 2.5 4 6l3.5 3.5')}</button><button type="button" class="pg-a pg-next" tabindex="-1" aria-label="Ďalšia fotografia">${chev('M4.5 2.5 8 6 4.5 9.5')}</button><div class="pg-dots">${Array.from({length:N},(_,i)=>`<i${i?'':' class="on"'}></i>`).join('')}</div></div>`:img(f,e[0],'ph',tip,0);
+  return `<div class="phwrap">${ph}<div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
+function pgLoad(g){ g.querySelectorAll('.pg-l[data-src]').forEach(l=>{ if(l.dataset.srcset) l.srcset=l.dataset.srcset; l.src=l.dataset.src; l.removeAttribute('data-src'); }); }
+function pgGo(g,n){ pgLoad(g); const ls=g.querySelectorAll('.pg-l'), N=ls.length+1; n=((n%N)+N)%N; g._pg=n; const im=n?ls[n-1]:null;
+  if(im&&!(im.complete&&im.naturalWidth)){ im.addEventListener('load',()=>{ if(g._pg===n) pgGo(g,n); },{once:true}); return; } /* never fade to a blank layer */
+  ls.forEach((l,i)=>l.classList.toggle('on',i+1===n)); g.querySelectorAll('.pg-dots i').forEach((d,i)=>d.classList.toggle('on',i===n));
+  g.setAttribute('aria-label',`Fotografia ${n+1} z ${N} (šípky vľavo/vpravo)`); const t=(im||g.querySelector('.ph')).dataset.tip; if(t) g.title=t; else g.removeAttribute('title'); }
+document.addEventListener('pointerover',ev=>{ const g=ev.target.closest&&ev.target.closest('.pg'); if(g) pgLoad(g); });
+document.addEventListener('click',ev=>{ const g=ev.target.closest&&ev.target.closest('.pg'); if(!g) return; ev.preventDefault();
+  if(Date.now()-(g._sw||0)<400) return; const a=ev.target.closest('.pg-a'), d=ev.target.closest('.pg-dots i'), i=g._pg||0;
+  pgGo(g,d?[...d.parentNode.children].indexOf(d):a&&a.classList.contains('pg-prev')?i-1:i+1); });
+document.addEventListener('keydown',ev=>{ const g=ev.target.classList&&ev.target.classList.contains('pg')?ev.target:null; if(!g) return; const i=g._pg||0;
+  if(ev.key==='ArrowRight'||ev.key==='Enter'||ev.key===' '){ ev.preventDefault(); pgGo(g,i+1); } else if(ev.key==='ArrowLeft'){ ev.preventDefault(); pgGo(g,i-1); } });
+document.addEventListener('touchstart',ev=>{ const g=ev.target.closest&&ev.target.closest('.pg'); if(!g) return; pgLoad(g); const t=ev.touches[0]; g._tx=t.clientX; g._ty=t.clientY; },{passive:true});
+document.addEventListener('touchend',ev=>{ const g=ev.target.closest&&ev.target.closest('.pg'); if(!g||g._tx==null) return; const t=ev.changedTouches[0], dx=t.clientX-g._tx, dy=t.clientY-g._ty; g._tx=null;
+  if(Math.abs(dx)>28&&Math.abs(dx)>1.5*Math.abs(dy)){ g._sw=Date.now(); pgGo(g,(g._pg||0)+(dx<0?1:-1)); } },{passive:true});
 function rRole(p){const r=p.role;if(!r)return '';const a=[r.pos||'',r.sub||''].filter(Boolean);if(a.length&&p.born)a.push('nar. '+p.born);const b=[r.inst,r.city,r.ctry].filter(Boolean);if(!a.length&&!b.length)return '';return `<p class="role"${r.src?` title="Zdroj: ${esc(r.src)}"`:''}>${esc(cap(a.join(' · ')))}${a.length&&b.length?'<br>':''}${b.map(esc).join(', ')}</p>`;}
 function renderProfile(p){
   const el=$('#profile'); const f=p.feat; const chips=[];
@@ -1794,7 +1832,7 @@ function renderProfile(p){
   if(!f&&p.links){ const L=p.links; if(L.sch) links.push(`<a href="https://scholar.google.com/citations?user=${encodeURIComponent(L.sch)}" target="_blank" rel="noopener">Google Scholar</a>`); if(L.web) links.push(`<a href="${esc(L.web)}" target="_blank" rel="noopener">Webstránka</a>`); }
   links.push(`<a class="fix" href="mailto:richtarik+rodokmen@gmail.com?subject=${encodeURIComponent('Rodokmeň: '+p.name+' (#p'+p.id+')')}">Navrhnúť opravu</a>`);
   el.innerHTML=`<div class="chips">${chips.join('')}</div>
-    ${photoBlock(p.id,`<h1 class="pname">${esc(p.name)}</h1>`,role,96,120)}
+    ${photoBlock(p.id,`<h1 class="pname">${esc(p.name)}</h1>`,role,96,120,1)}
     <div class="stats"><div class="stat"><b>${nf.format(nStud)}</b><span>${pl(nStud,'doktorand','doktorandi','doktorandov')}</span></div><div class="stat"><b>${nf.format(nDesc)}</b><span>${pl(nDesc,'potomok','potomkovia','potomkov')}</span></div><div class="stat"><b>${dp.g}</b><span>${pl(dp.g,'generácia','generácie','generácií')} predkov</span></div></div>
     ${HIDDEN.has(p.id)?`<p class="relnote">Táto osoba je v rodokmeni len vďaka ${relWhy(p.id)}, ktoré sú teraz vypnuté (prepínače Väzby v hlavičke).</p>`:''}
     ${p.note?`<p class="note">${esc(p.note)}</p>`:''}

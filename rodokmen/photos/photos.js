@@ -997,3 +997,15 @@ window.RODOKMEN_PHOTOS={
 "343840":[2,"WD Niven.jpg","No conegut","Public domain",0],
 "346123":[2,"","","",0,"KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/konstantin-burlachenko ; https://cemse.kaust.edu.sa/sites/default/files/images/KAUST-CEMSE-CS-person-Konstantin-Burlachenko.jpg"]
 };
+/* Profil gallery: extra photos shown only on the Profil photo (arrows / dots / tap); Strom cards and posters use only the main photo.
+   Only genuinely different pictures (never another crop of the main image) that are sharp, well lit, with a clear face, @2x and not upscaled.
+   id: [[file under photos/ without .webp, 2 = has @2x | 1, Commons file name, author, license, attribution required 1|0, other source URL (no credit shown)], ...] */
+window.RODOKMEN_PHOTOS_GALLERY={
+"10480":[["alt/10480-medium",2,"","","",0,"Medium: https://miro.medium.com/1*Je0DA4XN_lTyjE9tbiBRTA.jpeg"]],
+"50630":[["alt/50630-dean1999",2,"","","",0,"DML-CZ, B. Novák (ed.), Life and work of Vojtěch Jarník (1999): https://dml.cz/bitstream/handle/10338.dmlcz/402238/SingleBooks_29-1999-1_2.pdf ; https://dml.cz/manakin/themes/DML/portrait-jarnik-1.jpg"]],
+"125048":[["alt/125048-ubh2",2,"UBH Portr BS Stupanus JN 1542 2.jpg","neznámy autor","Public domain",0]],
+"127864":[["alt/127864-debry",2,"Nikolaus-Selnecker.jpg","Thierry de Bry","Public domain",0]],
+"130311":[["alt/130311-homepage2016",2,"","","",0,"osobná stránka (KAMŠ FMFI UK, archív 2016): https://web.archive.org/web/20160113215749/http://www.iam.fmph.uniba.sk/ospm/Harman/index.htm ; https://web.archive.org/web/20160113215749im_/http://www.iam.fmph.uniba.sk/ospm/Harman/images/pharman.jpg"]],
+"131235":[["alt/131235-gaultier",2,"Francois Vatable, R3A20687 102.jpg","Léonard Gaultier","Public domain",0]],
+"248783":[["alt/248783-umich",2,"","","",0,"U-Michigan IOE: https://ioe.engin.umich.edu/people/berahas-albert-s/ ; https://ioe.engin.umich.edu/wp-content/uploads/sites/7/2023/09/aberahas350.jpg"]]
+};
