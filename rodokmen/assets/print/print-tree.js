@@ -163,7 +163,8 @@ function schoolShort(raw,lang){
    (ctx.nDesc: MGP count or the local count, whichever is larger); fallback: the longest line.
    ===================================================================== */
 const TP={RUST:'#b4532a',VIOLET:'#6e4fb3',INK:'#3b3026',INK2:'#7a6c5b',INK3:'#9d907c',TEAL:'#3d8c84',OCHRE:'#c08f2a',CREAM:'#fbf8ef',PAGE:'#fcfaf3',DASH:'#8a7a62',EDGE:'#bfb193',
-  SK:'#2f5d8a',SKF:'#eef3f8',SKE:'#8fb0cf',FOL:'#f0f2e2',FRAME:'#d8ccb4',FRAME2:'#e6dcc8',GROUND:'#cfc2a6'};
+  SK:'#2f5d8a',SKF:'#eef3f8',SKE:'#8fb0cf',POV:'#5a7ea3',POVF:'#f5f8fb',POVE:'#bfd1e3',   /* POV*: slovenského pôvodu (paler than SK*) */
+ FOL:'#f0f2e2',FRAME:'#d8ccb4',FRAME2:'#e6dcc8',GROUND:'#cfc2a6'};
 const T_BROWN=[110,86,62],T_OLIVE=[122,124,78];
 const hex2=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
 const rgbHex=a=>'#'+a.map(v=>Math.max(0,Math.min(255,Math.round(v))).toString(16).padStart(2,'0')).join('');
@@ -179,7 +180,7 @@ const degDisp=(d,lang)=>{ const c=clean(d); const m=DEG_DISP[lang]||DEG_DISP.sk;
 const MONTHS_EN=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const L10N={
  sk:{
-  noDeg:'údaje o titule neuvedené', tagRod:'RODÁK ZO SLOVENSKA', tagSkF:'SLOVENSKÁ MATEMATIČKA', tagSk:'SLOVENSKÝ MATEMATIK', more:n=>'ďalší predkovia: '+n,
+  noDeg:'údaje o titule neuvedené', tagRod:'RODÁK ZO SLOVENSKA', tagPov:'SLOVENSKÉHO PÔVODU', tagSkF:'SLOVENSKÁ MATEMATIČKA', tagSk:'SLOVENSKÝ MATEMATIK', more:n=>'ďalší predkovia: '+n,
   title:(name,gen)=>gen?'Akademický rodokmeň '+gen:'Akademický rodokmeň: '+name,
   sub:'Rodokmeň slovenskej matematiky · zdroj: slovenskivedci.sk/rodokmen (čerpá z viacerých zdrojov, najmä z Mathematics Genealogy Project)',
   f0:name=>`${name}: v databáze zatiaľ nie sú známi školitelia.`,
@@ -189,11 +190,11 @@ const L10N={
   f2cut:(tot,dg,oldest,om)=>`Úplný rodokmeň má ${tot} ${pl(tot,'predka','predkov','predkov')} (najdlhšia línia siaha ${dg} ${pl(dg,'generáciu','generácie','generácií')} do minulosti, k osobe ${oldest}); ${om} ${pl(om,'starší predok tu nie je zobrazený','starší predkovia tu nie sú zobrazení','starších predkov tu nie je zobrazených')}. `,
   f2all:'Zobrazený je celý známy rodokmeň. ',
   date:(y,m,d)=>`${d}. ${m}. ${y}`, f3:ds=>ds?`Stav údajov k ${ds}.`:'',
-  credit:'Rodokmeň slovenských matematikov · autor a tvorca: Peter Richtárik · www.slovenskivedci.sk/rodokmen',
+  credit:'autor a tvorca: Peter Richtárik',   // the name and the address of the project are in the logo (bottom right)
   hl:chain=>'Zvýraznená vetva: '+chain, hlWhy:(who,d)=>`vedie k predkovi s najviac akademickými potomkami: ${who} (${d})`, hlLong:'najdlhšia línia (údaje o potomkoch chýbajú)',
   lBranch:'Vetva: školiteľ (vyššie) a doktorand', lPd:'Postdoktorandský školiteľ a postdoktorand', lPd2:'', lRs:'Výskumný vedec v skupine', lRs2:'(research scientist; nezapočítava sa do počtu osôb)', lIm:'Neformálny mentor', lIm2:'(výrazný vplyv na výskum pred doktorátom u iného školiteľa; nezapočítava sa do počtu osôb)',
   lDash:'Ďalší školiteľ už nakreslenej osoby', lDash2:'(druhá cesta k tej istej osobe)',
-  lUnv:'Neoverený vzťah', lUnv2:'(odvodený zo zoznamu žiakov alebo bez zdroja)', lCo:'Jeden z viacerých školiteľov', lCo2:'(doktorand mal aj ďalšieho školiteľa)', lSk:'Slovenský matematik alebo rodák zo Slovenska',
+  lUnv:'Neoverený vzťah', lUnv2:'(odvodený zo zoznamu žiakov alebo bez zdroja)', lCo:'Jeden z viacerých školiteľov', lCo2:'(doktorand mal aj ďalšieho školiteľa)', lSk:'Slovenský matematik alebo rodák zo Slovenska', lPov:'Slovenského pôvodu', lPov2:'(rodina pochádzala z územia dnešného Slovenska)',
   lMore:'ďalší predkovia: n', lMore2:'= počet starších predkov mimo výrezu', legend:'LEGENDA', pdTag:'postdoktorand',
   subject:'Rodokmeň slovenskej matematiky', file:'rodokmen',
   // descendants poster (opts.dir==='down')
@@ -206,7 +207,7 @@ const L10N={
   dLMore:'ďalší potomkovia: n', dLMore2:'= počet ďalších potomkov mimo výrezu', dFile:'potomkovia'
  },
  en:{
-  noDeg:'degree details not recorded', tagRod:'BORN IN SLOVAKIA', tagSkF:'SLOVAK MATHEMATICIAN', tagSk:'SLOVAK MATHEMATICIAN', more:n=>'more ancestors: '+n,
+  noDeg:'degree details not recorded', tagRod:'BORN IN SLOVAKIA', tagPov:'OF SLOVAK DESCENT', tagSkF:'SLOVAK MATHEMATICIAN', tagSk:'SLOVAK MATHEMATICIAN', more:n=>'more ancestors: '+n,
   title:name=>'Academic family tree of '+name,
   sub:'Slovak Mathematics Genealogy · source: slovenskivedci.sk/rodokmen (drawing on several sources, mainly the Mathematics Genealogy Project)',
   f0:name=>`${name}: no advisors are known in the database yet.`,
@@ -216,11 +217,11 @@ const L10N={
   f2cut:(tot,dg,oldest,om)=>`The full tree has ${tot} ${tot===1?'ancestor':'ancestors'} (the longest line goes back ${dg} ${dg===1?'generation':'generations'}, to ${oldest}); ${om} older ${om===1?'ancestor is':'ancestors are'} not shown here. `,
   f2all:'The whole known tree is shown. ',
   date:(y,m,d)=>`${d} ${MONTHS_EN[m-1]} ${y}`, f3:ds=>ds?`Data as of ${ds}.`:'',
-  credit:'Slovak Mathematical Genealogy · created by Peter Richtárik · www.slovenskivedci.sk/rodokmen',
+  credit:'author and creator: Peter Richtárik',
   hl:chain=>'Highlighted branch: '+chain, hlWhy:(who,d)=>`leads to the ancestor with the most academic descendants: ${who} (${d})`, hlLong:'the longest line (descendant counts missing)',
   lBranch:'Branch: PhD advisor (above) of a student', lPd:'Postdoc link', lPd2:'(postdoc advisor above)', lRs:'Research scientist in the group', lRs2:'(not included in the head count)', lIm:'Informal mentor', lIm2:'(strong research influence before a PhD with another advisor; not included in the head count)',
   lDash:'Also an advisor', lDash2:'(second path to a person)',
-  lUnv:'Unconfirmed link', lUnv2:'(derived from a list of students, or without a source)', lCo:'One of several advisors', lCo2:'(the student also had another advisor)', lSk:'Slovak mathematician or born in Slovakia',
+  lUnv:'Unconfirmed link', lUnv2:'(derived from a list of students, or without a source)', lCo:'One of several advisors', lCo2:'(the student also had another advisor)', lSk:'Slovak mathematician or born in Slovakia', lPov:'Of Slovak descent', lPov2:'(the family came from present-day Slovakia)',
   lMore:'more ancestors: n', lMore2:'= older ancestors not shown here', legend:'LEGEND', pdTag:'postdoc',
   subject:'Slovak Mathematics Genealogy', file:'family_tree',
   dTitle:name=>'Academic descendants of '+name, dMore:n=>'more descendants: '+n,
@@ -349,6 +350,7 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     if(root&&pr&&pr.deg&&degDisp(pr.deg,cfg.lang).length<=14&&(yr||sch)) meta=degDisp(pr.deg,cfg.lang)+' '+meta;
     wrapText(tw,meta,ms,'italic',root?1e4:cfg.nameW+14).forEach((t,i)=>lines.push({t,size:ms,style:'italic',fill:TP.INK2,lh:ms*1.25,gap:i?0:-1}));
     if(p.sk){ const tag=p.sk==='rod'?TX.tagRod:ctx.isFemale(p)?TX.tagSkF:TX.tagSk; lines.push({t:tag,size:ms*0.84,style:'normal',fill:TP.SK,lh:ms*1.2,gap:0.5}); }
+    else if(p.pov) lines.push({t:TX.tagPov,size:ms*0.84,style:'normal',fill:TP.POV,lh:ms*1.2,gap:0.5});
     if(g.more.has(x)) lines.push({t:(g.dir==='down'?TX.dMore:TX.more)(g.more.get(x)),size:ms*0.92,style:'italic',fill:TP.INK3,lh:ms*1.18});
     const padX=root?14:8, padY=root?6:4;
     let w=0; for(const l of lines){ l.w=tw(l.t,l.size,l.style); w=Math.max(w,l.w); }
@@ -356,8 +358,8 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     /* portrait (opts.photos): 4:5 at the left of the text, 38 units high (the root 64), the text centred beside it */
     const src=cfg.photos&&ctx.photo?ctx.photo(x):null;
     if(src){ const ph=root?64:38, pw=ph*0.8, gap=root?10:6, H2=Math.max(h,ph+2*padY);
-      return {w:w+2*padX+pw+gap,h:H2,tdy:(H2-h)/2,ph:{src,w:pw,h:ph,gap},lines,padX,padY,sk:p.sk||'',hl:hlSet.has(x),root}; }
-    return {w:w+2*padX,h,lines,padX,padY,sk:p.sk||'',hl:hlSet.has(x),root};
+      return {w:w+2*padX+pw+gap,h:H2,tdy:(H2-h)/2,ph:{src,w:pw,h:ph,gap},lines,padX,padY,sk:p.sk||'',pov:!p.sk&&!!p.pov,hl:hlSet.has(x),root}; }
+    return {w:w+2*padX,h,lines,padX,padY,sk:p.sk||'',pov:!p.sk&&!!p.pov,hl:hlSet.has(x),root};
   }
   const lab=new Map(); for(const x of S) lab.set(x,makeLabel(x));
   // extra links -> affinity between sibling subtrees (keeps people joined by dashed links close)
@@ -500,6 +502,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   if(hasUnv) LI.push({sw:'unv',t1:TX.lUnv,t2:TX.lUnv2});
   if([...g.edge.values()].some(e=>e.co)) LI.push({sw:'co',t1:TX.lCo,t2:TX.lCo2});
   if([...g.S].some(x=>P.get(x).sk)) LI.push({sw:'sk',t1:TX.lSk});
+  if([...g.S].some(x=>{ const q=P.get(x); return !q.sk&&q.pov; })) LI.push({sw:'pov',t1:TX.lPov,t2:TX.lPov2});
   if(g.more.size) LI.push(down?{sw:'more',t1:TX.dLMore,t2:TX.dLMore2}:{sw:'more',t1:TX.lMore,t2:TX.lMore2});
   const L1=11, L2=9.6, lpad=14, lsw=36, ltx=lpad+lsw+10, LWmax=270;
   for(const it of LI){ it.l1=wrapText(tw,it.t1,L1,'normal',LWmax); it.l2=it.t2?wrapText(tw,it.t2,L2,'italic',LWmax):[]; it.h=Math.max(18,it.l1.length*13.4+it.l2.length*12)+6; }
@@ -645,7 +648,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     else { const fz2=7.5, wv=tw(TX.pdTag,fz2,'italic'); const x0=t.dir>0?t.x+6:t.x-6-wv; G3.push(`<text x="${n2(x0)}" y="${n2(fy(t.y)+3)}" font-family="${FONT}" font-size="${fz2}" font-style="italic" fill="${TP.TEAL}">${xesc(TX.pdTag)}</text>`); boxes.set('pd'+t.x,[x0,fy(t.y)-5,wv,9]); } }
   // pills
   for(const x of S){ const b=lab.get(x), bx=boxes.get(x); const [x0,y0,w,h]=bx; const r=Math.min(10,h/2);
-    const fill=b.sk?TP.SKF:TP.CREAM, stroke=b.hl?TP.OCHRE:b.sk?TP.SKE:TP.EDGE, sw=b.hl?(b.root?1.8:1.3):b.sk?0.9:0.6;
+    const fill=b.sk?TP.SKF:b.pov?TP.POVF:TP.CREAM, stroke=b.hl?TP.OCHRE:b.sk?TP.SKE:b.pov?TP.POVE:TP.EDGE, sw=b.hl?(b.root?1.8:1.3):b.sk||b.pov?0.9:0.6;
     if(scr) G3.push(`<g class="sp${b.root?' sp-root':''}" data-id="${x}" tabindex="0" role="button" aria-label="${xesc(clean(P.get(x).name))}">`);
     G3.push(`<rect x="${n2(x0)}" y="${n2(y0)}" width="${n2(w)}" height="${n2(h)}" rx="${n2(r)}" ry="${n2(r)}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`);
     const po=b.ph?b.ph.w+b.ph.gap:0;
@@ -676,6 +679,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
       else if(it.sw==='co') out.push(`<g transform="translate(${n2(sx)} ${n2(cy-7)})">${V_SW.co}</g>`);
       else if(it.sw==='hl') out.push(`<path d="M${n2(sx)},${n2(cy+1)} L${n2(sx+lsw)},${n2(cy+1)}" stroke="${TP.OCHRE}" stroke-width="2.2" stroke-linecap="round"/><rect x="${n2(sx+lsw/2-9)}" y="${n2(cy-6)}" width="18" height="14" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="1.2"/>`);
       else if(it.sw==='sk') out.push(`<rect x="${n2(sx+4)}" y="${n2(cy-6)}" width="${lsw-8}" height="14" rx="5" ry="5" fill="${TP.SKF}" stroke="${TP.SKE}" stroke-width="0.9"/>`);
+      else if(it.sw==='pov') out.push(`<rect x="${n2(sx+4)}" y="${n2(cy-6)}" width="${lsw-8}" height="14" rx="5" ry="5" fill="${TP.POVF}" stroke="${TP.POVE}" stroke-width="0.9"/>`);
       else if(it.sw==='more') out.push(`<rect x="${n2(sx+4)}" y="${n2(cy-6)}" width="${lsw-8}" height="14" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.EDGE}" stroke-width="0.6"/>`);
       let ty=yy+11; for(const t of it.l1){ T(Lx+ltx,ty,t,L1,it.sw==='more'?'italic':'normal',it.sw==='more'?TP.INK3:TP.INK); ty+=13.4; } for(const t of it.l2){ T(Lx+ltx,ty-1,t,L2,'italic',TP.INK2); ty+=12; }
       yy+=it.h; } }
@@ -787,6 +791,7 @@ const V_SW={hl:`<path d="M1,8H35" stroke="${TP.OCHRE}" stroke-width="2.2" stroke
   co:vTaper(V_BR)+`<path d="M1,11 C12,9.5 24,7.5 35,6.3" fill="none" stroke="${TP.PAGE}" stroke-width="9" stroke-dasharray="3.5 7" stroke-dashoffset="-6"/>`,
   unv:vTaper(V_BR)+[5,12.5,20,27.5].map((x,i)=>`<circle cx="${x}" cy="${10.6-i*1}" r="1" fill="${TP.CREAM}"/>`).join(''),
   sk:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.SKF}" stroke="${TP.SKE}" stroke-width="0.9"/>`,
+  pov:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.POVF}" stroke="${TP.POVE}" stroke-width="0.9"/>`,
   more:`<rect x="4" y="1.5" width="28" height="12" rx="5" ry="5" fill="${TP.CREAM}" stroke="${TP.EDGE}" stroke-width="0.7"/>`};
 
 /* the scene off screen: its bounding box and every top-level piece with its box (tree coordinates, y down) */
