@@ -41,6 +41,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("iban")
     ap.add_argument("--bic", default="")
+    ap.add_argument("--png", default="", help="optional PNG copy")
     ap.add_argument("--out", default=str(pathlib.Path(__file__).resolve().parent.parent / "podporte" / "paybysquare.svg"))
     a = ap.parse_args()
     iban = re.sub(r"\s+", "", a.iban).upper()
@@ -48,7 +49,12 @@ def main():
         sys.exit(f"Not a Slovak IBAN: {iban}")
     code = paybysquare(iban, a.bic.upper())
     import segno
-    segno.make(code, error="m", micro=False).save(a.out, scale=4, border=2, dark="#222")
+    qr = segno.make(code, error="m", micro=False)
+    # omitsize: viewBox instead of fixed width/height, so <img width="128"> scales it cleanly
+    qr.save(a.out, kind="svg", scale=4, border=2, dark="#222", omitsize=True)
+    if a.png:
+        qr.save(a.png, kind="png", scale=8, border=4, dark="#222")
+        print("wrote", a.png)
     print(code)
     print("wrote", a.out)
 
