@@ -3,7 +3,7 @@
 
 Usage:  pip install segno
         python3 _tools/paybysquare_qr.py SK8511000000002937308257 [--bic XXXXSKBX]
-Writes podporte/paybysquare-<amount>.svg for each preset amount (5, 10, 20, 50, 100, 500 EUR)
+Writes podporte/paybysquare-<amount>.svg for each preset amount (5, 10, 20, 50, 100 EUR)
 and podporte/paybysquare.svg without an amount (button "vlastná suma": the payer types it).
 Due date is left empty (= pay now), so the codes never go stale.
 
@@ -54,7 +54,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("iban")
     ap.add_argument("--bic", default="")
-    ap.add_argument("--amounts", default="5,10,20,50,100,500", help="preset amounts in EUR, comma separated")
+    ap.add_argument("--amounts", default="5,10,20,50,100", help="preset amounts in EUR, comma separated")
     ap.add_argument("--vs", default="7272", help="variable symbol")
     ap.add_argument("--note", default="Dar slovenskivedci.sk")
     ap.add_argument("--name", default="Peter Richtárik")
