@@ -8,7 +8,9 @@
    opts.dir==='down' draws the academic descendants instead (students hang below the person, same layout mirrored).
    RodokmenPrint.scene() runs the same graph, layout and drawing for the interactive "Strom" view
    (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup).
-   RodokmenPrint.downloadView() prints the tree of the "Strom" view as a poster PDF ("Stiahnuť PDF", see VIEW EXPORT). */
+   RodokmenPrint.downloadView() prints the tree of the "Strom" view as a poster PDF ("Stiahnuť PDF", see VIEW EXPORT).
+   Every printed page (both looks, every paper and orientation, every page of a multi-page PDF) carries the Rodokmeň logo
+   in its bottom right corner (see LOGO below). */
 (function(){
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
@@ -230,6 +232,42 @@ const L10N={
 const LANGS=Object.keys(L10N);
 /* credit on every poster (TX.credit): small and grey at the foot of the page; 8.5 pt on A3, scaled with the paper (12 pt on A2, 24 pt on A0) */
 const CREDIT_COL='#857b6f', creditSize=(W,H)=>8.5*Math.min(W,H)/841.89, CREDIT_URL='https://www.slovenskivedci.sk/rodokmen/';
+/* ---------- LOGO: the Rodokmeň logo on every printed page ----------
+   M2k, the linden tree with the Krišáň ridge: the hand-drawn mark of the site header (index.html, data-logo="M2k") and of
+   favicon.svg, as vector paths (crisp at any size) in the dark blue of favicon.svg with its three accent dots. A lockup in
+   the bottom right corner of the page: the mark, the wordmark (TX.subject: Rodokmeň slovenskej matematiky / Slovak
+   Mathematics Genealogy) and the address; it links to the site. Its size follows the sheet slowly, not in proportion:
+   the mark is 7.5 mm high (about 15 mm wide) on A4, 9.2 mm on A2 and 11.2 mm on A0. The layouts keep the corner free
+   (on the poster the footer lines rise when one would reach it, the simple look has a footer band as high as the mark),
+   so the logo never covers the tree, the legend or the texts. */
+const LOGO_INK='#163179', LOGO_DOT='#1F4FD6', LOGO_W=45.78, LOGO_H=22.53, LOGO_ADDR='slovenskivedci.sk/rodokmen';
+const LOGO_D=[
+'M2.56 11.98L2.54 11.82L2.48 11.61L2.40 11.38L2.32 11.12L2.26 10.87L2.23 10.63L2.21 10.44L2.22 10.27L2.25 10.08L2.29 9.88L2.34 9.67L2.39 9.44L2.44 9.19L2.47 8.94L2.49 8.68L2.50 8.44L2.51 8.20L2.52 7.98L2.55 7.77L2.59 7.58L2.65 7.41L2.74 7.25L2.86 7.08L3.00 6.90L3.16 6.72L3.34 6.54L3.52 6.35L3.70 6.16L3.87 5.95L4.02 5.74L4.16 5.53L4.29 5.34L4.43 5.16L4.56 5.00L4.71 4.86L4.88 4.75L5.08 4.65L5.32 4.57L5.57 4.49L5.83 4.42L6.11 4.34L6.38 4.23L6.64 4.10L6.88 3.95L7.10 3.80L7.32 3.65L7.53 3.53L7.73 3.43L7.94 3.36L8.18 3.34L8.47 3.33L8.77 3.31L9.08 3.29L9.36 3.26L9.61 3.23L9.79 3.17L9.81 2.94L9.64 2.87L9.41 2.80L9.12 2.73L8.80 2.67L8.47 2.62L8.13 2.62L7.80 2.66L7.50 2.74L7.22 2.85L6.97 2.98L6.72 3.12L6.49 3.26L6.27 3.39L6.05 3.50L5.82 3.60L5.57 3.69L5.31 3.78L5.05 3.88L4.78 3.99L4.53 4.13L4.28 4.29L4.06 4.48L3.86 4.68L3.69 4.89L3.52 5.09L3.36 5.29L3.22 5.48L3.07 5.65L2.92 5.82L2.76 6.00L2.60 6.20L2.43 6.41L2.27 6.63L2.13 6.87L2.00 7.12L1.91 7.38L1.84 7.64L1.79 7.89L1.76 8.14L1.73 8.38L1.71 8.60L1.68 8.82L1.65 9.03L1.61 9.26L1.56 9.49L1.52 9.74L1.49 10.00L1.47 10.26L1.49 10.54L1.54 10.82L1.66 11.10L1.80 11.36L1.95 11.60L2.10 11.81L2.24 11.97L2.36 12.08Z',
+'M9.81 3.23L9.99 3.28L10.24 3.29L10.52 3.30L10.83 3.30L11.13 3.32L11.42 3.33L11.66 3.36L11.86 3.43L12.07 3.53L12.28 3.65L12.51 3.78L12.74 3.92L12.99 4.06L13.24 4.18L13.51 4.29L13.78 4.39L14.04 4.48L14.28 4.58L14.50 4.68L14.70 4.78L14.87 4.89L15.02 5.02L15.16 5.17L15.30 5.34L15.43 5.54L15.57 5.74L15.71 5.96L15.87 6.18L16.05 6.38L16.23 6.57L16.41 6.75L16.59 6.92L16.75 7.08L16.88 7.23L16.98 7.40L17.05 7.57L17.10 7.76L17.11 7.97L17.12 8.20L17.11 8.44L17.11 8.68L17.13 8.94L17.17 9.19L17.22 9.43L17.29 9.66L17.34 9.88L17.39 10.08L17.41 10.27L17.40 10.44L17.36 10.63L17.31 10.86L17.23 11.10L17.15 11.35L17.07 11.59L17.02 11.80L17.01 11.97L17.21 12.06L17.32 11.95L17.45 11.78L17.60 11.57L17.75 11.34L17.91 11.09L18.05 10.82L18.12 10.54L18.15 10.26L18.14 9.99L18.11 9.74L18.06 9.49L18.01 9.25L17.96 9.03L17.92 8.82L17.90 8.60L17.89 8.38L17.87 8.14L17.85 7.89L17.81 7.63L17.74 7.36L17.63 7.10L17.49 6.85L17.33 6.63L17.15 6.42L16.97 6.23L16.80 6.04L16.64 5.85L16.50 5.67L16.36 5.49L16.23 5.30L16.08 5.10L15.91 4.89L15.73 4.69L15.53 4.50L15.30 4.32L15.06 4.16L14.80 4.02L14.55 3.89L14.29 3.77L14.04 3.66L13.80 3.55L13.58 3.45L13.36 3.34L13.13 3.23L12.89 3.10L12.64 2.98L12.37 2.86L12.10 2.75L11.80 2.66L11.47 2.61L11.13 2.61L10.80 2.66L10.48 2.74L10.20 2.83L9.96 2.92L9.79 3.00Z',
+'M2.38 12.07L2.53 12.54L2.80 13.18L3.15 13.93L3.52 14.74L3.92 15.50L4.35 16.15L4.79 16.63L5.30 16.90L5.84 16.97L6.37 16.89L6.85 16.72L7.28 16.54L7.62 16.39L7.87 16.28L7.83 16.13L7.55 16.13L7.17 16.21L6.74 16.32L6.29 16.42L5.85 16.47L5.45 16.41L5.12 16.21L4.79 15.81L4.40 15.22L3.97 14.50L3.60 13.71L3.21 12.99L2.82 12.40L2.52 12.00Z',
+'M17.09 12.01L16.80 12.41L16.41 13.00L16.02 13.72L15.64 14.50L15.21 15.22L14.80 15.80L14.46 16.18L14.14 16.35L13.75 16.40L13.32 16.38L12.86 16.33L12.42 16.25L12.04 16.18L11.76 16.17L11.73 16.32L11.97 16.42L12.32 16.56L12.75 16.71L13.24 16.87L13.76 16.95L14.30 16.89L14.80 16.62L15.22 16.13L15.64 15.48L16.10 14.75L16.52 13.97L16.82 13.19L17.06 12.54L17.22 12.07Z',
+'M8.58 21.87L8.72 21.56L8.85 21.14L8.95 20.63L9.00 20.05L9.07 19.44L9.16 18.83L9.21 18.24L9.23 17.65L9.27 17.02L9.30 16.37L9.30 15.72L9.27 15.07L9.22 14.45L9.12 13.86L8.93 13.31L8.63 12.79L8.31 12.32L7.99 11.88L7.68 11.52L7.40 11.23L7.17 11.04L6.99 11.16L7.07 11.47L7.23 11.85L7.44 12.27L7.71 12.70L7.98 13.14L8.20 13.60L8.34 14.06L8.43 14.56L8.52 15.12L8.58 15.73L8.57 16.36L8.49 16.99L8.43 17.61L8.42 18.20L8.41 18.77L8.36 19.37L8.28 19.96L8.21 20.53L8.24 21.06L8.29 21.50L8.35 21.84Z',
+'M11.31 21.83L11.38 21.49L11.39 21.04L11.37 20.52L11.28 19.95L11.23 19.35L11.19 18.76L11.15 18.20L11.12 17.65L11.09 17.06L11.09 16.48L11.10 15.89L11.14 15.34L11.24 14.82L11.38 14.37L11.56 13.93L11.79 13.47L12.07 12.99L12.39 12.55L12.66 12.13L12.89 11.76L13.00 11.44L12.82 11.30L12.56 11.49L12.22 11.76L11.84 12.11L11.49 12.57L11.17 13.07L10.86 13.59L10.61 14.12L10.46 14.67L10.39 15.26L10.38 15.87L10.36 16.48L10.33 17.08L10.32 17.67L10.35 18.24L10.43 18.81L10.51 19.42L10.57 20.03L10.64 20.61L10.79 21.12L10.94 21.55L11.08 21.86Z',
+'M8.41 21.79L8.18 21.75L7.97 21.78L7.77 21.85L7.57 21.91L7.37 21.97L7.19 22.07L7.04 22.26L7.08 22.38L7.32 22.42L7.53 22.39L7.72 22.32L7.92 22.25L8.12 22.19L8.30 22.08L8.45 21.90Z',
+'M11.15 21.90L11.32 22.11L11.52 22.24L11.75 22.33L11.97 22.41L12.20 22.49L12.44 22.53L12.71 22.50L12.75 22.38L12.57 22.18L12.37 22.05L12.14 21.97L11.92 21.88L11.70 21.79L11.46 21.75L11.19 21.77Z',
+'M7.92 11.73L7.73 11.31L7.48 10.96L7.20 10.61L6.93 10.26L6.67 9.91L6.35 9.61L5.94 9.37L5.82 9.48L5.99 9.90L6.24 10.27L6.52 10.60L6.80 10.94L7.08 11.28L7.40 11.59L7.80 11.82Z',
+'M12.01 12.10L12.43 11.77L12.77 11.38L13.03 10.95L13.28 10.50L13.53 10.06L13.76 9.60L13.92 9.11L13.79 9.03L13.40 9.38L13.08 9.77L12.80 10.20L12.54 10.63L12.28 11.07L12.05 11.53L11.89 12.02Z',
+'M9.84 12.60L10.01 11.73L10.09 10.86L10.09 9.98L10.14 9.11L10.19 8.24L10.15 7.36L10.04 6.48L9.89 6.48L9.73 7.35L9.70 8.23L9.67 9.10L9.60 9.97L9.57 10.85L9.61 11.72L9.71 12.60Z',
+'M19.27 11.41L19.39 11.36L19.57 11.28L19.77 11.20L19.99 11.11L20.22 11.00L20.42 10.88L20.60 10.75L20.74 10.58L20.84 10.41L20.91 10.22L20.97 10.04L21.03 9.88L21.09 9.73L21.15 9.61L21.24 9.50L21.33 9.41L21.43 9.32L21.53 9.23L21.64 9.14L21.76 9.05L21.87 8.95L21.97 8.86L22.07 8.77L22.18 8.68L22.29 8.59L22.40 8.48L22.51 8.36L22.61 8.21L22.70 8.04L22.77 7.86L22.82 7.68L22.87 7.52L22.93 7.37L22.99 7.24L23.07 7.14L23.18 7.06L23.32 6.99L23.49 6.92L23.68 6.84L23.88 6.76L24.09 6.65L24.27 6.52L24.43 6.38L24.57 6.22L24.70 6.07L24.82 5.91L24.94 5.75L25.05 5.60L25.17 5.46L25.28 5.31L25.38 5.17L25.49 5.02L25.58 4.87L25.67 4.71L25.75 4.55L25.83 4.39L25.90 4.23L25.98 4.06L26.07 3.87L26.15 3.67L26.22 3.46L26.26 3.23L26.27 2.99L26.22 2.74L26.13 2.51L26.03 2.28L25.91 2.07L25.80 1.87L25.71 1.69L25.63 1.53L25.57 1.36L25.50 1.18L25.43 1.01L25.38 0.85L25.36 0.73L25.36 0.66L25.36 0.64L25.39 0.62L25.48 0.58L25.62 0.55L25.78 0.54L25.96 0.55L26.13 0.56L26.27 0.59L26.38 0.64L26.50 0.71L26.63 0.80L26.77 0.91L26.92 1.04L27.08 1.17L27.24 1.29L27.41 1.41L27.57 1.53L27.74 1.65L27.91 1.78L28.08 1.90L28.26 2.01L28.43 2.12L28.61 2.21L28.79 2.30L28.96 2.39L29.13 2.47L29.29 2.56L29.45 2.65L29.61 2.74L29.76 2.85L29.90 2.96L30.05 3.08L30.20 3.20L30.36 3.33L30.54 3.45L30.73 3.56L30.93 3.66L31.13 3.75L31.35 3.84L31.56 3.92L31.78 4.00L32.00 4.08L32.21 4.17L32.44 4.25L32.66 4.32L32.88 4.39L33.09 4.45L33.28 4.52L33.44 4.59L33.59 4.67L33.72 4.78L33.86 4.91L34.00 5.07L34.14 5.26L34.29 5.45L34.46 5.64L34.64 5.81L34.82 5.96L35.00 6.10L35.19 6.23L35.37 6.34L35.56 6.45L35.76 6.55L35.95 6.64L36.14 6.72L36.33 6.80L36.52 6.87L36.71 6.94L36.91 7.00L37.11 7.05L37.33 7.10L37.57 7.14L37.81 7.16L38.06 7.17L38.30 7.17L38.54 7.17L38.77 7.18L38.98 7.21L39.18 7.24L39.39 7.29L39.59 7.35L39.78 7.42L39.96 7.49L40.14 7.57L40.31 7.64L40.48 7.72L40.63 7.80L40.79 7.88L40.95 7.96L41.10 8.05L41.26 8.14L41.42 8.24L41.58 8.34L41.74 8.45L41.89 8.56L42.03 8.68L42.17 8.80L42.31 8.93L42.45 9.06L42.58 9.19L42.70 9.32L42.83 9.45L42.96 9.59L43.10 9.73L43.24 9.87L43.39 10.01L43.55 10.15L43.72 10.30L43.89 10.44L44.06 10.59L44.23 10.74L44.40 10.88L44.56 11.00L44.74 11.12L44.93 11.23L45.12 11.32L45.30 11.41L45.46 11.48L45.60 11.54L45.70 11.58L45.78 11.44L45.68 11.38L45.55 11.31L45.39 11.22L45.22 11.13L45.04 11.03L44.87 10.91L44.71 10.79L44.56 10.66L44.41 10.52L44.26 10.36L44.10 10.20L43.95 10.04L43.80 9.89L43.65 9.74L43.52 9.61L43.39 9.47L43.26 9.33L43.13 9.19L43.00 9.05L42.87 8.91L42.73 8.77L42.58 8.63L42.44 8.50L42.30 8.37L42.15 8.23L42.00 8.11L41.85 7.98L41.70 7.87L41.54 7.76L41.39 7.65L41.23 7.54L41.07 7.44L40.90 7.33L40.72 7.24L40.53 7.14L40.34 7.06L40.14 6.98L39.94 6.90L39.73 6.83L39.51 6.77L39.29 6.72L39.06 6.67L38.82 6.64L38.57 6.63L38.32 6.61L38.08 6.60L37.85 6.58L37.63 6.55L37.43 6.51L37.25 6.46L37.06 6.41L36.89 6.36L36.72 6.30L36.55 6.25L36.37 6.19L36.20 6.13L36.01 6.06L35.84 5.97L35.66 5.88L35.49 5.78L35.32 5.66L35.16 5.53L35.02 5.40L34.88 5.25L34.76 5.08L34.62 4.90L34.48 4.70L34.32 4.51L34.13 4.33L33.92 4.17L33.69 4.05L33.46 3.97L33.23 3.90L33.00 3.85L32.79 3.79L32.58 3.73L32.39 3.66L32.20 3.57L31.99 3.48L31.79 3.39L31.59 3.31L31.39 3.21L31.20 3.12L31.03 3.03L30.86 2.93L30.71 2.83L30.56 2.72L30.41 2.61L30.25 2.49L30.08 2.38L29.91 2.27L29.74 2.18L29.57 2.09L29.39 2.00L29.23 1.92L29.06 1.83L28.90 1.74L28.73 1.64L28.57 1.53L28.41 1.41L28.24 1.28L28.08 1.15L27.91 1.03L27.75 0.91L27.59 0.80L27.44 0.69L27.29 0.58L27.13 0.46L26.96 0.34L26.79 0.23L26.60 0.14L26.40 0.07L26.19 0.03L25.97 0.00L25.75 0.00L25.52 0.01L25.30 0.05L25.09 0.13L24.90 0.29L24.79 0.53L24.77 0.75L24.79 0.97L24.85 1.17L24.92 1.37L24.99 1.56L25.07 1.75L25.17 1.95L25.29 2.16L25.42 2.36L25.54 2.55L25.64 2.74L25.70 2.90L25.73 3.03L25.72 3.16L25.69 3.30L25.64 3.46L25.56 3.62L25.47 3.78L25.38 3.96L25.29 4.13L25.21 4.28L25.13 4.43L25.05 4.57L24.96 4.71L24.87 4.85L24.77 4.99L24.67 5.13L24.57 5.28L24.47 5.44L24.37 5.59L24.28 5.74L24.17 5.88L24.07 6.01L23.96 6.12L23.83 6.22L23.67 6.30L23.49 6.37L23.29 6.44L23.09 6.53L22.89 6.64L22.70 6.78L22.56 6.97L22.47 7.16L22.40 7.36L22.36 7.54L22.32 7.71L22.29 7.86L22.24 7.98L22.18 8.09L22.10 8.20L22.01 8.30L21.92 8.39L21.82 8.49L21.71 8.58L21.61 8.68L21.51 8.78L21.40 8.87L21.29 8.96L21.18 9.05L21.07 9.16L20.96 9.28L20.85 9.42L20.77 9.58L20.70 9.76L20.65 9.94L20.60 10.11L20.55 10.27L20.48 10.42L20.39 10.55L20.26 10.67L20.08 10.79L19.88 10.90L19.67 11.01L19.48 11.11L19.32 11.20L19.20 11.27Z',
+'M26.49 1.32L26.53 1.43L26.60 1.58L26.68 1.75L26.77 1.93L26.87 2.12L26.97 2.30L27.06 2.47L27.14 2.64L27.22 2.80L27.30 2.97L27.38 3.13L27.45 3.30L27.53 3.46L27.61 3.63L27.70 3.80L27.79 3.96L27.89 4.12L27.99 4.27L28.09 4.42L28.17 4.57L28.24 4.72L28.29 4.87L28.34 5.03L28.37 5.19L28.40 5.35L28.41 5.51L28.42 5.67L28.41 5.84L28.40 6.00L28.37 6.16L28.33 6.33L28.29 6.50L28.24 6.68L28.19 6.86L28.15 7.04L28.12 7.22L28.08 7.39L28.03 7.57L27.99 7.74L27.95 7.91L27.90 8.09L27.85 8.26L27.81 8.44L27.77 8.61L27.73 8.79L27.69 8.96L27.66 9.14L27.63 9.31L27.60 9.49L27.57 9.66L27.53 9.84L27.49 10.02L27.45 10.19L27.40 10.37L27.35 10.54L27.31 10.72L27.26 10.90L27.21 11.07L27.17 11.25L27.13 11.43L27.09 11.60L27.05 11.78L27.02 11.96L26.98 12.15L26.95 12.36L26.91 12.57L26.88 12.77L26.84 12.95L26.81 13.11L26.79 13.22L26.88 13.24L26.92 13.13L26.97 12.99L27.03 12.81L27.09 12.62L27.15 12.41L27.21 12.21L27.26 12.03L27.30 11.85L27.35 11.68L27.40 11.50L27.45 11.33L27.51 11.15L27.56 10.98L27.61 10.80L27.66 10.63L27.71 10.45L27.75 10.28L27.80 10.10L27.84 9.92L27.88 9.74L27.91 9.56L27.95 9.38L27.99 9.21L28.03 9.03L28.07 8.86L28.11 8.68L28.16 8.51L28.20 8.33L28.25 8.16L28.29 7.99L28.33 7.81L28.37 7.64L28.41 7.46L28.44 7.29L28.47 7.11L28.51 6.94L28.55 6.76L28.59 6.58L28.64 6.40L28.68 6.22L28.71 6.04L28.74 5.85L28.75 5.67L28.75 5.49L28.74 5.31L28.71 5.13L28.68 4.95L28.63 4.77L28.57 4.60L28.49 4.42L28.40 4.26L28.30 4.09L28.19 3.94L28.08 3.78L27.98 3.63L27.88 3.48L27.79 3.32L27.70 3.16L27.61 3.00L27.53 2.84L27.44 2.68L27.35 2.52L27.26 2.36L27.16 2.20L27.05 2.02L26.94 1.84L26.83 1.66L26.73 1.51L26.65 1.37L26.58 1.28Z',
+'M0.00 22.26L1.19 22.19L2.79 22.15L4.69 22.08L6.80 22.03L9.01 21.93L11.24 21.93L13.38 21.92L15.49 21.91L17.67 21.95L19.90 22.09L22.17 22.21L24.46 22.27L26.73 22.38L28.99 22.39L31.36 22.32L33.91 22.34L36.51 22.23L39.01 22.10L41.28 22.05L43.19 21.91L44.60 21.79L44.60 21.65L43.19 21.69L41.27 21.74L39.00 21.75L36.49 21.78L33.90 21.85L31.35 21.87L28.99 21.90L26.75 21.90L24.47 21.81L22.19 21.71L19.92 21.63L17.69 21.47L15.50 21.42L13.38 21.46L11.23 21.42L9.00 21.50L6.78 21.62L4.67 21.74L2.78 21.87L1.18 21.98L0.00 22.12Z'];
+const LOGO_DOTS=[[5.9,9.406,0.616],[9.956,6.482,0.677],[13.856,9.066,0.616]];
+const logoMarkPt=(W,H)=>7.5*Math.pow(Math.min(W,H)/595.28,0.29)*72/25.4;   // height of the mark (pt) on a W x H pt page
+/* the lockup for a mark u units high (the units of the page drawing): its size, and its markup with the right edge at x1 and
+   the ground line of the mark at y1 (the address sits on the same line, the wordmark above it) */
+function logoSize(tw,TX,u){ const mw=LOGO_W*u/LOGO_H, gap=0.3*u, s1=0.42*u, s2=0.3*u;
+  const w1=tw(TX.subject,s1,'italic'), w2=tw(LOGO_ADDR,s2,'normal'); return {u,mw,gap,s1,s2,w:mw+gap+Math.max(w1,w2),h:u}; }
+function logoSvg(L,TX,x1,y1){ const {u,mw,gap,s1,s2}=L, x0=x1-L.w, y0=y1-u, sc=u/LOGO_H, tx=x0+mw+gap;
+  const txt=(y,t,size,style,fill)=>`<text x="${n2(tx)}" y="${n2(y)}" font-family="${FONT}" font-size="${n2(size)}"${style==='italic'?' font-style="italic"':''} fill="${fill}">${xesc(t)}</text>`;
+  const svg=`<g data-logo="M2k"><g transform="translate(${n2(x0)} ${n2(y0)}) scale(${sc.toFixed(5)})">`+LOGO_D.map(d=>`<path d="${d}" fill="${LOGO_INK}"/>`).join('')+
+    LOGO_DOTS.map(([cx,cy,r])=>`<circle cx="${cx}" cy="${cy}" r="${r}" fill="${LOGO_DOT}"/>`).join('')+'</g>'+
+    txt(y0+0.56*u,TX.subject,s1,'italic',LOGO_INK)+txt(y1-0.02*u,LOGO_ADDR,s2,'normal',CREDIT_COL)+'</g>';
+  return {svg,box:[x0,y0-0.05*u,L.w,u*1.1]}; }
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
@@ -408,10 +446,16 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   const dt=(ctx.generated||'').split('-'); const dstr=dt.length===3?TX.date(+dt[0],+dt[1],+dt[2]):'';
   const f2=down?(cut?TX.dF2cut(tot,om):(kk?TX.dF2all:'')):cut?TX.f2cut(tot,dp.g,clean(oldest.name),om):(kk?TX.f2all:'');
   const f3=TX.f3(dstr);
+  /* logo (bottom right, its ground line on the credit's baseline): opts.logoK = pt per design unit of the final page */
+  const LG=scr?null:logoSize(tw,TX,logoMarkPt(W*(opts.logoK||1),H*(opts.logoK||1))/(opts.logoK||1)), lgX1=W-M+6, lgY1=H-36;
+  const midW=LG?W-2*(W-lgX1+LG.w+16):Infinity;   // centred texts beside the logo stay within this width
   const fs=12.5, flh=18, fmax=W-2*M-30;
   const w23=wrapText(tw,clean(f2+f3),fs,'normal',fmax);
   const flines=scr?[]:wrapText(tw,clean(f1),fs,'normal',fmax).concat(w23.length===1||!f2?w23:wrapText(tw,clean(f2),fs,'normal',fmax).concat([f3])).filter(Boolean);
-  const footTop=H-M-12-(flines.length-1)*flh-fs;
+  /* footer lines beside the logo: row j from the bottom (baseline H-58-18j) clears the top of the logo with 5 units to spare when
+     18j >= u-13.9; a line too wide for midW in a row that does not clear it lifts the footer block just enough */
+  let lift=0; if(LG) flines.forEach((t,i)=>{ const j=flines.length-1-i, need=LG.u-13.9-flh*j; if(need>lift&&tw(t,fs,'normal')>midW) lift=need; });
+  const footTop=H-M-12-lift-(flines.length-1)*flh-fs;
   // ----- legend content
   const LI=[];
   const isFam=x=>FAMOUS.has(x)||TREE_FAMOUS.has(x);
@@ -612,7 +656,9 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
       let ty=yy+11; for(const t of it.l1){ T(Lx+ltx,ty,t,L1,it.sw==='more'?'italic':'normal',it.sw==='more'?TP.INK3:TP.INK); ty+=13.4; } for(const t of it.l2){ T(Lx+ltx,ty-1,t,L2,'italic',TP.INK2); ty+=12; }
       yy+=it.h; } }
   flines.forEach((t,i)=>T(W/2,footTop+fs+i*flh,t,fs,'normal',TP.INK2,'middle'));
-  let credit=null; if(!scr){ const cs=creditSize(W,H), cy=H-36; const cw=T(W/2,cy,TX.credit,cs,'normal',CREDIT_COL,'middle'); credit=[W/2-cw/2,cy-cs,cw,cs*1.3]; }   // below the footer, above the inner frame
+  let credit=null, logo=null; if(!scr){ let cs=creditSize(W,H); const cy=H-36; { const w0=tw(TX.credit,cs,'normal'); if(w0>midW) cs*=midW/w0; }
+    const cw=T(W/2,cy,TX.credit,cs,'normal',CREDIT_COL,'middle'); credit=[W/2-cw/2,cy-cs,cw,cs*1.3];   // below the footer, above the inner frame
+    const lg=logoSvg(LG,TX,lgX1,lgY1); out.push(lg.svg); logo=lg.box; }
   // ----- self check
   const issues=[]; const P2=(b)=>[GX+b[0]*s,GY+b[1]*s,b[2]*s,b[3]*s];
   const all=[...boxes.entries()];
@@ -622,7 +668,7 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
   for(const [x,c] of curveOf){ const p=g.par.get(x); const pts=curvePts(c,24).slice(2,-2).map(q=>[q[0],fy(q[1])]); for(const [y,b] of boxes){ if(y===x||y===p||typeof y!=='number') continue; if(pts.some(q=>q[0]>b[0]+2&&q[0]<b[0]+b[2]-2&&q[1]>b[1]+2&&q[1]<b[1]+b[3]-2)){ issues.push('branch '+p+'>'+x+' under '+y); } } }
   const svgInner=out.join('');
   if(/[\u2013\u2014]/.test(svgInner)) issues.push('dash in text');
-  return {svgInner,W,H,s,issues,legendMode,title,flines,credit,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra,treeSvg,legendItems:LI.map(it=>({sw:it.sw,t1:it.t1,t2:it.t2||''})),boxes:scr?boxes:null};
+  return {svgInner,W,H,s,issues,legendMode,title,flines,credit,logo,logoMm:LG?+(LG.u*(opts.logoK||1)*25.4/72).toFixed(1):null,nameSize:cfg.ns*s,centered:F.centered,extra:F.extra,treeSvg,legendItems:LI.map(it=>({sw:it.sw,t1:it.t1,t2:it.t2||''})),boxes:scr?boxes:null};
 }
 
 const TREE_FAMOUS=new Set([10480,55185]);  // with FAMOUS: also Kolmogorov and Liouville may be named in the legend when on the highlighted branch
@@ -636,7 +682,8 @@ async function buildTree(ctx,rootId,opts){
   const fp=famousPath(ctx,g,rootId);
   /* orientation of the classic poster: the composition is laid out for the page shape (landscape: a lower, wider page);
      auto keeps portrait unless the tree does not fit at full size there and landscape gives larger names */
-  const runAll=pageH=>{ const o=pageH?Object.assign({},opts,{pageH}):opts; let best=null; const tries=[];
+  const kOf=(paper,land)=>PAPER[paper][land?1:0]/1190.55;   // pt per design unit (the design page is 1190.55 wide)
+  const runAll=(pageH,logoK)=>{ const o=Object.assign({},opts,pageH?{pageH}:{},{logoK:logoK||1}); let best=null; const tries=[];
   for(const c of TREE_CFGS(o)){ const cfg=Object.assign({},TREE_BASE,o.treeCfg||{},c,{lang:o.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,o);
     const hard=comp.issues.filter(t=>!/^branch /.test(t)).length, soft=comp.issues.length-hard;
     const score=Math.min(comp.s,1)*(cfg.stagger?0.96:1)*(cfg.nameW>=150?1:cfg.nameW>=120?0.9:0.82)*(hard?0.8:1)*Math.pow(0.985,Math.min(soft,10))*(/^free/.test(comp.legendMode)||comp.legendMode==='none'?1:0.95); tries.push([cfg.nameW,cfg.stagger,cfg.availW,+comp.s.toFixed(3),comp.issues.length,comp.legendMode,+score.toFixed(3)]);
@@ -644,15 +691,16 @@ async function buildTree(ctx,rootId,opts){
   return best; };
   let best, land=false;
   if(scr) best=runAll(null);
-  else { const [pa,pb]=PAPER[PAPER[opts.paper]?opts.paper:'A2'], hL=1190.55*pa/pb;   /* every A size has the same shape */
-    if(opts.orient==='landscape'){ best=runAll(hL); land=true; }
-    else { best=runAll(null); if(opts.orient!=='portrait'&&best.comp.s<0.999){ const b2=runAll(hL); if(b2.score*pb/pa>best.score){ best=b2; land=true; } /* scores in page units: the landscape page is pb/pa times wider */ } }
+  else { const p0=PAPER[opts.paper]?opts.paper:'A2', [pa,pb]=PAPER[p0], hL=1190.55*pa/pb;   /* every A size has the same shape */
+    if(opts.orient==='landscape'){ best=runAll(hL,kOf(p0,true)); land=true; }
+    else { best=runAll(null,kOf(p0,false)); if(opts.orient!=='portrait'&&best.comp.s<0.999){ const b2=runAll(hL,kOf(p0,true)); if(b2.score*pb/pa>best.score){ best=b2; land=true; } /* scores in page units: the landscape page is pb/pa times wider */ } }
     /* paper 'auto': the composition does not depend on the A size (same shape), only its scale does,
        so take the smallest A size on which the names reach AUTO_MIN_PT, else A0 */
     const auto=!PAPER[opts.paper];
     if(auto){ const per=best.comp.nameSize/best.comp.W; let pk='A0';
       for(const q of ['A4','A3','A2','A1','A0']){ const w=land?PAPER[q][1]:PAPER[q][0]; if(per*w>=AUTO_MIN_PT){ pk=q; break; } }
-      opts=Object.assign({},opts,{paper:pk,paperAuto:true}); }
+      opts=Object.assign({},opts,{paper:pk,paperAuto:true});
+      if(pk!==p0) best=runAll(land?hL:null,kOf(pk,land)); }   /* the logo keeps its size in mm: composed again for the room it takes on this sheet */
     if(land||auto) doc=newDoc(await loadLibs(),opts.paper,land); }
   const {comp,lay}=best, tries=best.tries;
   if(scr) return {treeSvg:comp.treeSvg,legend:comp.legendItems,boxes:comp.boxes,g,fp,trunk:lay.trunk,title:comp.title,issues:comp.issues};
@@ -664,12 +712,13 @@ async function buildTree(ctx,rootId,opts){
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:PW,height:PH}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
   if(comp.credit&&!opts.svgOnly) try{ const c=comp.credit; doc.link(c[0]*k,c[1]*k,c[2]*k,c[3]*k,{url:CREDIT_URL}); }catch(e){}
+  if(comp.logo&&!opts.svgOnly) try{ const c=comp.logo; doc.link(c[0]*k,c[1]*k,c[2]*k,c[3]*k,{url:CREDIT_URL}); }catch(e){}
   const TX=L10N[opts.lang]; doc.setProperties({title:comp.title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const filename=`${fileSlug(p.name)}_${g.dir==='down'?TX.dFile:TX.file}_${opts.paper}${land?(opts.lang==='en'?'_landscape':'_na_sirku'):''}.pdf`;
   const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,paper:opts.paper,paperAuto:!!opts.paperAuto,landscape:land,pageW:PW,pageH:PH,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
-    staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
+    staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,logo:{mm:comp.logoMm,box:comp.logo&&comp.logo.map(v=>+(v*k).toFixed(1))},cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
   return {doc,filename,svg,report};
 }
 
@@ -756,8 +805,10 @@ function vFrame(tw,TX,W,H,legend,mapW){
   let x=m, y=yRule+9*k, rowH=0; const placed=[];
   for(const it of items){ if(x>m&&x+it.w>W-m){ x=m; y+=rowH+5*k; rowH=0; } placed.push(Object.assign(it,{x,y})); x+=it.w+gapX; rowH=Math.max(rowH,it.h); }
   const legBottom=items.length?y+rowH:yRule;
-  const area=[m,legBottom+12*k,W-m,H-m-fs*2.4];
-  return {k,m,ts,ss,ls,ls2,fs,sw,yTitle,ySub,yRule,maxT,placed,area};
+  // footer: the logo in the bottom right corner, the credit and the date on two lines at the left, a rule above the band
+  const LG=logoSize(tw,TX,logoMarkPt(W,H)), yFR=H-m-Math.max(LG.h,fs*2.45)-0.35*LG.h;
+  const area=[m,legBottom+12*k,W-m,yFR-0.9*fs];
+  return {k,m,ts,ss,ls,ls2,fs,sw,yTitle,ySub,yRule,maxT,placed,area,LG,yFR};
 }
 function vPageSvg(tw,TX,F,W,H,o){
   const {k,m,ts,ss,ls,ls2,fs,sw}=F, out=[];
@@ -774,11 +825,13 @@ function vPageSvg(tw,TX,F,W,H,o){
     for(const t of it.l2){ T(it.x+sw+6*k,yy,t,ls2,'italic',TP.INK2); yy+=ls2*1.25; } }
   // tree
   out.push(o.tree);
-  // footer
-  const yF=H-m;
-  out.push(`<path d="M${n2(m)},${n2(yF-fs*1.5)} L${n2(W-m)},${n2(yF-fs*1.5)}" stroke="${TP.FRAME}" stroke-width="${n2(0.5*k)}" fill="none"/>`);
-  const wl=T(m,yF,o.footL,fs,'normal',CREDIT_COL); T(W-m,yF,o.footR,fs,'normal',CREDIT_COL,'end');
-  return {svg:out.join(''),link:{x:m,y:yF-fs,w:wl,h:fs*1.3}};
+  // footer: rule, credit and date at the left, the logo at the right (both end on the bottom margin)
+  const yF=H-m, LG=F.LG;
+  out.push(`<path d="M${n2(m)},${n2(F.yFR)} L${n2(W-m)},${n2(F.yFR)}" stroke="${TP.FRAME}" stroke-width="${n2(0.5*k)}" fill="none"/>`);
+  let f1=fs; { const room=W-2*m-LG.w-LG.gap*2, w=Math.max(tw(o.footL,fs,'normal'),tw(o.footR,fs,'normal')); if(w>room) f1*=room/w; }
+  const wl=T(m,yF-f1*1.45,o.footL,f1,'normal',CREDIT_COL); T(m,yF,o.footR,f1,'normal',CREDIT_COL);
+  const lg=logoSvg(LG,TX,W-m,yF); out.push(lg.svg);
+  return {svg:out.join(''),link:{x:m,y:yF-f1*2.45,w:wl,h:f1*1.3},logo:lg.box};
 }
 async function buildView(ctx,rootId,opts){
   opts=Object.assign({lang:'sk',paper:'auto'},opts||{}); const lang=L10N[opts.lang]?opts.lang:'sk', TX=L10N[lang];
@@ -844,7 +897,7 @@ async function buildView(ctx,rootId,opts){
   const W=pick.W, H=pick.H;
   const footL=TX.credit;   // the credit (the link opens this view)
   const footR=i=>TX.vMade(dToday,dData)+(nPages>1?' · '+TX.vPage(i,nPages):'');
-  const render=async(svgInner,link,i)=>{
+  const render=async(svgInner,link,i,logo)=>{
     if(i>1) doc.addPage([Math.min(W,H),Math.max(W,H)],pick.land?'landscape':'portrait');
     const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(W)}pt" height="${n2(H)}pt" viewBox="0 0 ${n2(W)} ${n2(H)}">${svgInner}</svg>`;
     const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
@@ -852,16 +905,18 @@ async function buildView(ctx,rootId,opts){
     doc.setFont(FONT,'normal'); doc.setFontSize(12);
     try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:W,height:H}); } finally { holder.remove(); }
     try{ doc.link(link.x,link.y,link.w,link.h,{url:'https://www.'+url}); }catch(e){}
+    if(logo&&!opts.svgOnly) try{ doc.link(logo[0],logo[1],logo[2],logo[3],{url:CREDIT_URL}); }catch(e){}
   };
   const svgs=[];
   // page 1: the whole tree
   { const F=pick.F, A=F.area, s=pick.s; const aw=A[2]-A[0], ah=A[3]-A[1];
     const GX=A[0]+(aw-bw*s)/2-bx*s, GY=A[1]+(ah-bh*s)/2-by*s;
     let tree=`<g transform="translate(${n2(GX)} ${n2(GY)}) scale(${s.toFixed(5)})">${partsSvg(parts,null)}</g>`;
-    if(tiled){ const kk=F.k; tiles.forEach((t,i)=>{ const [x0,y0,x1,y1]=t.win; const X0=GX+x0*s, Y0=GY+y0*s, w=(x1-x0)*s, h=(y1-y0)*s;
+    if(tiled){ const kk=F.k; tree+=`<defs><clipPath id="vtf"><rect x="0" y="0" width="${n2(W)}" height="${n2(F.yFR-0.5*F.fs)}"/></clipPath></defs><g clip-path="url(#vtf)">`;   // the section frames stop above the footer (logo)
+      tiles.forEach((t,i)=>{ const [x0,y0,x1,y1]=t.win; const X0=GX+x0*s, Y0=GY+y0*s, w=(x1-x0)*s, h=(y1-y0)*s;
       tree+=`<rect x="${n2(X0)}" y="${n2(Y0)}" width="${n2(w)}" height="${n2(h)}" fill="none" stroke="${TP.OCHRE}" stroke-width="${n2(1.2*kk)}" stroke-dasharray="${n2(6*kk)} ${n2(4*kk)}"/>`;
       const lb=String(i+1), fz=16*kk, lw=tw(lb,fz,'normal')+8*kk;
-      tree+=`<rect x="${n2(X0+2*kk)}" y="${n2(Y0+2*kk)}" width="${n2(lw)}" height="${n2(fz*1.3)}" rx="${n2(3*kk)}" ry="${n2(3*kk)}" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="${n2(0.8*kk)}"/><text x="${n2(X0+2*kk+4*kk)}" y="${n2(Y0+2*kk+fz*1.0)}" font-family="${FONT}" font-size="${n2(fz)}" fill="${TP.INK}">${lb}</text>`; }); }
+      tree+=`<rect x="${n2(X0+2*kk)}" y="${n2(Y0+2*kk)}" width="${n2(lw)}" height="${n2(fz*1.3)}" rx="${n2(3*kk)}" ry="${n2(3*kk)}" fill="${TP.CREAM}" stroke="${TP.OCHRE}" stroke-width="${n2(0.8*kk)}"/><text x="${n2(X0+2*kk+4*kk)}" y="${n2(Y0+2*kk+fz*1.0)}" font-family="${FONT}" font-size="${n2(fz)}" fill="${TP.INK}">${lb}</text>`; }); tree+='</g>'; }
     const sub1=tiled?sub+' · '+TX.vOverview(tiles.length):sub;
     svgs.push(vPageSvg(tw,TX,F,W,H,{title,sub:sub1,tree,footL,footR:footR(1)})); }
   // detail sections
@@ -876,12 +931,12 @@ async function buildView(ctx,rootId,opts){
     for(const b of pills) map+=`<rect x="${n2(mx0+(b[0]-bx)*ms)}" y="${n2(my0+(b[1]-by)*ms)}" width="${n2(Math.max(0.6,(b[2]-b[0])*ms))}" height="${n2(Math.max(0.6,(b[3]-b[1])*ms))}" fill="${TP.INK2}"/>`;
     map+=`<rect x="${n2(mx0+(x0-bx)*ms)}" y="${n2(my0+(y0-by)*ms)}" width="${n2((x1-x0)*ms)}" height="${n2((y1-y0)*ms)}" fill="none" stroke="${TP.OCHRE}" stroke-width="${n2(0.9*F.k)}"/>`;
     svgs.push(vPageSvg(tw,TX,F,W,H,{title,sub:TX.vPart(i+1,tiles.length,t.r,t.c)+' · '+sub,tree:tree+map,footL,footR:footR(i+2)})); });
-  for(let i=0;i<svgs.length;i++){ say(nPages>1?i+1+'/'+nPages:''); await render(svgs[i].svg,svgs[i].link,i+1); }
+  for(let i=0;i<svgs.length;i++){ say(nPages>1?i+1+'/'+nPages:''); await render(svgs[i].svg,svgs[i].link,i+1,svgs[i].logo); }
   doc.setProperties({title,subject:TX.subject,creator:'slovenskivedci.sk/rodokmen',author:'Peter Richtárik, slovenskivedci.sk'});
   const paperName=pick.paper+(pick.land?(lang==='en'?'_landscape':'_na_sirku'):(lang==='en'?'_portrait':'_na_vysku'));
   const filename=[fileSlug(rootP.name),dir==='down'?TX.dFile:TX.file,TX.vStrom,'g'+G,so.postdoc===false?(lang==='en'?'no_postdoc':'bez_postdoc'):'',paperName].filter(Boolean).join('_')+'.pdf';
   const report={lang,dir,gens:G,maxGen:MX,postdoc:so.postdoc!==false,people:n,paper:pick.paper,paperAuto:auto,landscape:pick.land,pageW:W,pageH:H,scale:+pick.s.toFixed(4),nameSizePt:+pick.name.toFixed(2),
-    pages:nPages,issues:pick.L.sc.issues,tiles:tiles.map(t=>[t.r,t.c]),tileNameSizePt:tiled?V_TILE:null,bbox:bb.map(v=>Math.round(v)),title,sub,legend:legend.map(l=>l.sw),filename};
+    pages:nPages,issues:pick.L.sc.issues,logo:{mm:+(pick.F.LG.u*25.4/72).toFixed(1),box:svgs[0].logo.map(v=>+v.toFixed(1))},tiles:tiles.map(t=>[t.r,t.c]),tileNameSizePt:tiled?V_TILE:null,bbox:bb.map(v=>Math.round(v)),title,sub,legend:legend.map(l=>l.sw),filename};
   return {doc,filename,report,svgs:svgs.map(x=>x.svg)};
 }
 async function downloadView(ctx,rootId,opts){ const r=await buildView(ctx,rootId,opts); r.doc.save(r.filename); window.RodokmenPrint.lastView={report:r.report}; return r.report; }
