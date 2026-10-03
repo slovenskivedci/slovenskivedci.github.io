@@ -1,0 +1,204 @@
+---
+layout: null
+permalink: /podporte/
+---
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Podporte projekt · Slovenskí vedci</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="Slovenskí vedci a Rodokmeň slovenskej matematiky sú bezplatné a bez reklám. Ak chcete projekt podporiť, tu je ako.">
+    <link rel="canonical" href="https://www.slovenskivedci.sk/podporte/">
+    <link href="/style/webflow.0fd7239fd.css" rel="stylesheet" type="text/css">
+    <link href="/style/tighten.css?v=20261003podpora" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Open+Sans:wght@400;700&display=swap">
+    <link href="/images/favicon-krivan-32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="/images/favicon-krivan-48.png" rel="icon" type="image/png" sizes="48x48">
+    <link href="/images/favicon-krivan-48.png" rel="apple-touch-icon" sizes="48x48">
+    <style>
+    .main-title { font-size: 30px; line-height: 34px; color: #1f4e79; }
+    @media (max-width: 700px) {
+      .main-title { font-size: 20px; line-height: 1.25; }
+    }
+    .main-subheading { font-size: 13px; line-height: 18px; }
+    .dropdown-menu { padding: 4px 8px; }
+    .menu-text { font-size: 12px; }
+    .header-section { padding-top: 16px; padding-bottom: 0; background: none; background-color: #fff; border-bottom: none; }
+    .content-wrapper { padding-top: 0; }
+    .dropdown-wrapper, .dropdown-wrapper.w-dropdown { display: inline-flex !important; width: auto !important; max-width: 100%; justify-content: flex-start !important; align-items: center; gap: 4px !important; margin: 8px 0 0 0 !important; position: static !important; left: auto !important; float: none !important; flex-wrap: wrap; }
+    .dropdown-menu { float: none; display: inline-block; }
+    .menu-text { float: none; }
+    a { color: #444; text-decoration: none; }
+    a:hover { color: #1f4e79; text-decoration: none; }
+    .dropdown-menu a, .dropdown-menu a:hover { color: #333; text-decoration: none; }
+    @media screen and (max-width: 991px) {
+        .header-section { padding-top: 20px; padding-bottom: 0; }
+        .content-wrapper { padding-top: 4px; padding-bottom: 40px; }
+    }
+
+    /* Podporte projekt */
+    .sv-support { max-width: 720px; margin: 36px auto 56px; color: #555; font-family: "Open Sans", Arial, sans-serif; }
+    .sv-support h1 { font-family: Merriweather, Georgia, serif; font-size: 24px; line-height: 32px; font-weight: 400; color: #1f4e79; text-align: center; margin: 0 0 18px; }
+    .sv-support .lede { max-width: 38em; margin: 0 auto 10px; font-size: 15px; line-height: 1.65; text-align: center; color: #555; }
+    .sv-support a { color: #444; border-bottom: 1px solid #ccc; }
+    .sv-support a:hover { color: #1f4e79; border-bottom-color: #1f4e79; }
+    .sv-options { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 30px 0 26px; }
+    .sv-option { border: 1px solid #e6e6e6; border-radius: 10px; padding: 20px 22px 22px; background: #fff; text-align: left; }
+    .sv-option h2 { font-family: Merriweather, Georgia, serif; font-size: 17px; line-height: 24px; font-weight: 400; color: #333; margin: 0 0 6px; }
+    .sv-option p { font-size: 14px; line-height: 1.6; color: #666; margin: 0 0 14px; }
+    .sv-kofi-btn, .sv-support a.sv-kofi-btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border: 1px solid #1f4e79; border-radius: 999px; background: #1f4e79; color: #fff; font-size: 14px; font-weight: 700; line-height: 20px; text-decoration: none; }
+    .sv-support a.sv-kofi-btn:hover { background: #173d60; border-color: #173d60; color: #fff; }
+    .sv-kofi-btn .h { color: #f3b6b6; }
+    .sv-bank { margin: 0 0 14px; font-size: 14px; line-height: 1.5; }
+    .sv-bank dt { color: #999; font-size: 12px; margin: 8px 0 1px; }
+    .sv-bank dt:first-child { margin-top: 0; }
+    .sv-bank dd { margin: 0; color: #333; }
+    .sv-iban { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; letter-spacing: .02em; }
+    .sv-copy { margin-left: 8px; padding: 1px 8px; border: 1px solid #ddd; border-radius: 999px; background: #fff; color: #777; font-size: 11px; line-height: 18px; cursor: pointer; vertical-align: 1px; }
+    .sv-copy:hover { border-color: #1f4e79; color: #1f4e79; }
+    .sv-qr { display: flex; align-items: center; gap: 14px; margin-top: 4px; }
+    .sv-qr-box { flex: none; width: 128px; height: 128px; border: 1px dashed #bbb; border-radius: 6px; background: repeating-linear-gradient(45deg, #fafafa, #fafafa 6px, #f3f3f3 6px, #f3f3f3 12px); display: flex; align-items: center; justify-content: center; text-align: center; font-size: 11px; line-height: 1.35; color: #999; padding: 8px; box-sizing: border-box; }
+    .sv-qr-note { font-size: 12.5px; line-height: 1.5; color: #888; margin: 0; }
+    .sv-thanks { max-width: 36em; margin: 0 auto; font-size: 15px; line-height: 1.65; text-align: center; color: #555; }
+    @media (max-width: 700px) {
+      .sv-support { margin: 22px auto 40px; }
+      .sv-support h1 { font-size: 21px; line-height: 28px; }
+      .sv-support .lede, .sv-thanks { font-size: 14px; }
+      .sv-options { grid-template-columns: 1fr; gap: 14px; margin: 22px 0 20px; }
+      .sv-option { padding: 18px 18px 20px; }
+    }
+    </style>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEEPMXNRDP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FEEPMXNRDP');
+    </script>
+</head>
+
+<body>
+
+<header id="header" class="header-section wf-section">
+  <div class="w-container header-stack">
+<div class="dropdown-wrapper w-dropdown">
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/"><div class="menu-text">Zoznam</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/podrobny.html"><div class="menu-text">Podrobný zoznam</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/statistiky.html"><div class="menu-text">Štatistiky</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/suvislosti.html"><div class="menu-text">Súvislosti</div></a>
+  </div>
+  <div class="dropdown-menu w-clearfix w-dropdown-toggle">
+    <a href="/rodokmen/"><div class="menu-text">Rodokmeň</div></a>
+  </div>
+  <a class="nav-support" href="/podporte/" aria-current="page"><span class="nav-support-heart" aria-hidden="true">♥</span> Podporte projekt</a>
+</div>
+
+    <a href="/" class="site-logo-link" aria-label="Slovenskí vedci, domov">
+      <img src="/images/krivan-display.png" srcset="/images/krivan-display.png 220w, /images/krivan-display@2x.png 330w" sizes="110px" alt="" class="site-logo" width="220" height="186" decoding="async">
+    </a>
+    <div class="header-title-block">
+    <a href="/" class="main-title">
+		Slovenskí vedci a vedkyne s vysokým Hirschovým indexom</a>
+    <p class="scientists-count-line">
+    <b>POČET VEDCOV: {{ site.data.all.size }}</b>
+    </p>
+    </div>
+
+    <div class="header-search-col">
+      <div class="header-search-wrap">
+        <input type="search" id="header-search" class="header-search" placeholder="Hľadať" autocomplete="off" spellcheck="false" aria-label="Hľadať">
+        <button type="button" id="header-search-clear" class="header-search-clear" aria-label="Vymazať" hidden>×</button>
+      </div>
+    <p class="sex-under-search sex-under-search-spacer" aria-hidden="true">&nbsp;</p>
+    </div>
+</div></header>
+
+<div class="content-wrapper">
+	<div class="w-container">
+		<main class="sv-support">
+			<h1>Podporte projekt</h1>
+			<p class="lede">Stránka Slovenskí vedci aj <a href="/rodokmen/">Rodokmeň slovenskej matematiky</a> sú bezplatné a bez reklám. Tvorím ich a starám sa o ne vo voľnom čase.</p>
+			<p class="lede">Ak vám projekt robí radosť alebo vám pomáha, môžete ho podporiť. Príspevky mi pomáhajú pokryť čas, ktorý mu venujem, hosting a tiež výskum v archívoch a digitalizáciu starých dokumentov a fotografií.</p>
+
+			<div class="sv-options">
+				<section class="sv-option" aria-labelledby="sv-kofi-h">
+					<h2 id="sv-kofi-h">Cez Ko-fi</h2>
+					<p>Kartou alebo cez PayPal, jednorazovo alebo mesačne.</p>
+					<!-- TODO before publishing: replace PLACEHOLDER with the real Ko-fi username -->
+					<a class="sv-kofi-btn" href="https://ko-fi.com/PLACEHOLDER" target="_blank" rel="noopener"><span class="h" aria-hidden="true">♥</span> Podporiť cez Ko-fi</a>
+				</section>
+
+				<section class="sv-option" aria-labelledby="sv-bank-h">
+					<h2 id="sv-bank-h">Bankovým prevodom</h2>
+					<!-- TODO before publishing: replace the placeholder IBAN (here and in data-iban) -->
+					<dl class="sv-bank">
+						<dt>IBAN</dt>
+						<dd><span class="sv-iban" id="sv-iban">SK00 0000 0000 0000 0000 0000</span><button type="button" class="sv-copy" data-iban="SK0000000000000000000000" aria-label="Kopírovať IBAN">Kopírovať</button></dd>
+						<dt>Príjemca</dt>
+						<dd>Peter Richtárik</dd>
+						<dt>Správa pre príjemcu</dt>
+						<dd>Dar slovenskivedci</dd>
+					</dl>
+					<div class="sv-qr">
+						<!-- PLACEHOLDER: PAY by square QR code. Generate once the real IBAN is known:
+						     python3 _tools/paybysquare_qr.py SKxx... ; then replace this div with
+						     <img src="/podporte/paybysquare.svg" width="128" height="128" alt="PAY by square QR kód"> -->
+						<div class="sv-qr-box" role="img" aria-label="Miesto pre QR kód PAY by square">QR kód PAY by square<br>(doplním)</div>
+						<p class="sv-qr-note">Naskenujte QR kód v aplikácii svojej banky. Údaje sa vyplnia samy, sumu zadáte vy.</p>
+					</div>
+				</section>
+			</div>
+
+			<p class="sv-thanks">Ďakujem za každý príspevok, veľký aj malý. Rovnako si vážim opravy, doplnenia a tipy, ktoré mi posielate na <a href="mailto:richtarik+slovenskivedci@gmail.com">richtarik+slovenskivedci@gmail.com</a>.</p>
+		</main>
+		<div class="footer">
+		<p class="footer-thanks">Za pomoc s projektom ďakujem týmto skvelým ľuďom: Jana Tomková (výskum) a Martin Takáč (web).</p>
+		<p class="footer-maintainer">Stránku spravuje Peter Richtárik. Prvú verziu som vytvoril ja, Martin Takáč ju potom výrazne vylepšil a odvtedy sa o ňu starám ja. Kontakt: <a href="mailto:richtarik+slovenskivedci@gmail.com">richtarik+slovenskivedci@gmail.com</a>{% if site.data.page.h_updated %} <span class="footer-updated">Aktualizované {{ site.data.page.h_updated }}.</span>{% endif %}</p>
+		</div>
+	</div>
+</div>
+
+<script>
+(function(){
+  var input = document.getElementById("header-search");
+  var clear = document.getElementById("header-search-clear");
+  if (input) {
+    var sync = function(){ clear.hidden = !(input.value || "").length; };
+    input.addEventListener("input", sync);
+    clear.addEventListener("click", function(){ input.value = ""; sync(); input.focus(); });
+    input.addEventListener("keydown", function(e){
+      if (e.key === "Enter") {
+        e.preventDefault();
+        var v = (input.value || "").trim();
+        window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
+      }
+    });
+  }
+  var btn = document.querySelector(".sv-copy");
+  if (btn && navigator.clipboard) {
+    btn.addEventListener("click", function(){
+      navigator.clipboard.writeText(btn.getAttribute("data-iban")).then(function(){
+        btn.textContent = "Skopírované";
+        setTimeout(function(){ btn.textContent = "Kopírovať"; }, 1800);
+      });
+    });
+  } else if (btn) {
+    btn.hidden = true;
+  }
+})();
+</script>
+
+</body>
+</html>

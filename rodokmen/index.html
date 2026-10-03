@@ -642,6 +642,13 @@ body{font:14px/1.55 var(--font-ui);letter-spacing:-.003em}
 .tabs button[aria-current="page"]::after{height:1.5px;bottom:0;background:var(--ink)}
 .home-link{color:var(--ink-3);font-weight:400}
 .home-link:hover{background:none;color:var(--ink)}
+/* Podporte projekt: quiet second line under the home link; no extra width in the header row */
+.hlinks{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;align-self:center;margin-left:6px;gap:0;line-height:1.25}
+.hlinks .home-link{margin:0;padding:1px 2px}
+.support-link{padding:1px 2px;font-size:12px;color:var(--ink-3);text-decoration:none;white-space:nowrap}
+.support-link:hover{color:var(--ink)}
+.support-link .hrt{color:#c27272;font-size:11px}
+@media (max-width:899px){.hlinks{position:absolute;top:8px;right:-4px;margin:0}.hlinks .home-link{position:static;padding:2px 4px;font-size:13.5px}.hlinks .support-link{padding:2px 4px;font-size:12.5px}}
 .reltog{gap:4px}
 .reltog-l{font:400 11.5px var(--font-ui);letter-spacing:0;text-transform:none;color:var(--ink-3);margin-right:4px}
 .rt{border:0;background:none;padding:0 8px 0 6px;height:26px;font:400 12.5px var(--font-ui);color:var(--ink-2);border-radius:999px}
@@ -1109,7 +1116,10 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
       <button type="button" data-view="strom">Strom</button>
       <button type="button" data-view="connect">Prepojenia</button>
       <button type="button" data-view="about">O projekte</button>
-      <a class="home-link" href="/"><span aria-hidden="true">←</span> slovenskivedci.sk</a>
+      <span class="hlinks">
+        <a class="home-link" href="/"><span aria-hidden="true">←</span> slovenskivedci.sk</a>
+        <a class="support-link" href="/podporte/"><span class="hrt" aria-hidden="true">♥</span> Podporte projekt</a>
+      </span>
     </nav>
   </header>
 
@@ -1370,6 +1380,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         <p>Najviac medzier je pri starších kandidátskych dizertáciách (CSc.) z čias Československa: MGP ich eviduje len čiastočne, preto niektorí matematici nemajú v databáze školiteľa ani doktorandov. Dopĺňame ich postupne, vždy s uvedeným zdrojom.</p>
         <p>MGP prijíma opravy a nové záznamy cez svoj <a href="https://www.mathgenealogy.org/submit.php" target="_blank" rel="noopener">formulár</a>. Chýbajúceho školiteľa alebo doktoranda, ktorého tam doplníte, prevezme aj ďalšia aktualizácia tejto stránky.</p>
         <p class="fine" id="a-counts"></p>
+        <p class="fine a-support">Rodokmeň je bezplatný a bez reklám. Ak ho chcete podporiť, <a href="/podporte/">tu je ako</a>.</p>
         </div>
       </div>
     </section>

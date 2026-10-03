@@ -1582,3 +1582,48 @@ button.filter-link:focus-visible {
 
 /* Auto-dated weekly h-index refresh, moved from the header into the footer line. */
 .footer-updated { white-space: nowrap; color: #999; }
+
+
+/* === Podporte projekt: quiet menu link + footer line 2026-10-03 === */
+.dropdown-wrapper .nav-support {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 0 6px;
+  padding: 3px 4px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.dropdown-wrapper .nav-support:hover,
+.dropdown-wrapper .nav-support[aria-current="page"] {
+  color: #1f4e79;
+}
+.nav-support-heart {
+  color: #c27272;
+  font-size: 11px;
+}
+@media (max-width: 700px) {
+  .dropdown-wrapper .nav-support {
+    font-size: 11px;
+    margin-left: 2px;
+  }
+}
+.footer-support {
+  margin: 8px auto 0;
+  max-width: 42em;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #888;
+  text-align: center;
+}
+.footer-support a {
+  color: #888;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.footer-support a:hover {
+  color: #1f4e79;
+}
