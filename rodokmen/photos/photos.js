@@ -383,6 +383,7 @@ window.RODOKMEN_PHOTOS={
 "52134":[1,"Michael Weiss2.jpg","Schmid, Renate","CC BY-SA 2.0 de",1],
 "52328":[2,"Sebastian Finsterwalder.jpg","neznámy autor","Public domain",0],
 "53266":[1,"Max otto lagally.jpg","neznámy autor neznámy autor","Public domain",0],
+"53335":[2,"","","",0,"Institute of Combinatorics and its Applications blog, In memoriam Stefan Znam (z Bulletin of the ICA 10, 1994): http://combinatoricsinstitute.blogspot.com/2019/09/in-memoriam-stefan-znam.html ; https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDI4abQg-nqZ9v0IszxAvOm3AXYOKDYkgzO9ruLObyVTJPqdRVR22LyP9y7a7cZUqtWUJDzo0Dq0PnYIf9jiWWSqNm8P7gTMVxUnrEeFPmW18QA0mjKsdjLhI9MzUMPTRUZZtfTjaSecc/s1600/ZNAM+%252810%2529+1994.bmp"],
 "53410":[2,"Johann Bernoulli2.jpg","Johann Rudolf Huber","Public domain",0],
 "54440":[2,"Jakob Bernoulli.jpg","Niklaus Bernoulli (1662-1716)","Public domain",0],
 "55177":[2,"Augustin-Louis Cauchy 1901.jpg","Public domain","Public domain",0],
