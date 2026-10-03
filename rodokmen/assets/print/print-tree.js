@@ -10,7 +10,10 @@
    (no PDF: text measured on a canvas with the same EB Garamond, the tree returned as SVG markup).
    RodokmenPrint.downloadView() prints the tree of the "Strom" view as a poster PDF ("Stiahnuť PDF", see VIEW EXPORT).
    Every printed page (both looks, every paper and orientation, every page of a multi-page PDF) carries the Rodokmeň logo
-   in its bottom right corner (see LOGO below). */
+   in its bottom right corner (see LOGO below).
+   opts.photos (the "Portréty" toggle of the Strom view): each name label gets the person's portrait at its left
+   (ctx.photo(id): URL of photos/<id>@2x.webp or <id>.webp, null without a photo; no placeholder then); labels grow and the
+   layout adapts. In a PDF the portraits are embedded as JPEG from the @2x files (see PORTRAITS). */
 (function(){
 'use strict';
 const BASE=((document.currentScript&&document.currentScript.src)||'').replace(/[^/]*$/,'')||'assets/print/';
@@ -268,6 +271,20 @@ function logoSvg(L,TX,x1,y1){ const {u,mw,gap,s1,s2}=L, x0=x1-L.w, y0=y1-u, sc=u
     LOGO_DOTS.map(([cx,cy,r])=>`<circle cx="${cx}" cy="${cy}" r="${r}" fill="${LOGO_DOT}"/>`).join('')+'</g>'+
     txt(y0+0.56*u,TX.subject,s1,'italic',LOGO_INK)+txt(y1-0.02*u,LOGO_ADDR,s2,'normal',CREDIT_COL)+'</g>';
   return {svg,box:[x0,y0-0.05*u,L.w,u*1.1]}; }
+/* ---------- PORTRAITS in a PDF ----------
+   the labels refer to the photos by URL (as on screen); before svg2pdf every one is drawn once on a canvas at its own
+   size (192 x 240 px from the @2x file, 96 x 120 where only that exists) and embedded as a JPEG (quality 0.92, white
+   ground): about 300 to 450 dpi at the printed size. A photo that cannot be loaded is left out. */
+const photoCache=new Map();
+function photoData(url){ if(!photoCache.has(url)) photoCache.set(url,new Promise(res=>{ const im=new Image();
+    im.onload=()=>{ try{ const c=document.createElement('canvas'); c.width=im.naturalWidth; c.height=im.naturalHeight; const x=c.getContext('2d'); x.fillStyle='#fff'; x.fillRect(0,0,c.width,c.height); x.drawImage(im,0,0); res(c.toDataURL('image/jpeg',0.92)); }catch(e){ res(null); } };
+    im.onerror=()=>res(null); im.src=url; }));
+  return photoCache.get(url); }
+async function embedPhotos(svg){
+  const urls=[...new Set([...svg.matchAll(/<image href="([^"]+)"/g)].map(m=>m[1]).filter(u=>!u.startsWith('data:')))]; if(!urls.length) return svg;
+  const data=new Map(await Promise.all(urls.map(async u=>[u,await photoData(u.replace(/&amp;/g,'&'))])));
+  // the markup comes as written here or as serialised by the browser (sceneParts: <image ...></image>)
+  return svg.replace(/<image href="([^"]+)"([^>]*?)(\/>|><\/image>)/g,(m,u,a,e)=>{ if(!data.has(u)) return m; const d=data.get(u); return d?`<image href="${d}"${a}${e}`:''; }); }
 function rng(seed){ let s=(seed>>>0)||0x9e3779b9; return ()=>{ s^=s<<13; s>>>=0; s^=s>>>17; s^=s<<5; s>>>=0; return s/4294967296; }; }
 const addExt=(m,l,e)=>{ const a=m.get(l); if(!a) m.set(l,[e[0],e[1]]); else { if(e[0]<a[0]) a[0]=e[0]; if(e[1]>a[1]) a[1]=e[1]; } };
 
@@ -336,6 +353,10 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
     const padX=root?14:8, padY=root?6:4;
     let w=0; for(const l of lines){ l.w=tw(l.t,l.size,l.style); w=Math.max(w,l.w); }
     let h=2*padY; for(const l of lines) h+=l.lh+(l.gap||0);
+    /* portrait (opts.photos): 4:5 at the left of the text, 38 units high (the root 64), the text centred beside it */
+    const src=cfg.photos&&ctx.photo?ctx.photo(x):null;
+    if(src){ const ph=root?64:38, pw=ph*0.8, gap=root?10:6, H2=Math.max(h,ph+2*padY);
+      return {w:w+2*padX+pw+gap,h:H2,tdy:(H2-h)/2,ph:{src,w:pw,h:ph,gap},lines,padX,padY,sk:p.sk||'',hl:hlSet.has(x),root}; }
     return {w:w+2*padX,h,lines,padX,padY,sk:p.sk||'',hl:hlSet.has(x),root};
   }
   const lab=new Map(); for(const x of S) lab.set(x,makeLabel(x));
@@ -627,7 +648,10 @@ function treeCompose(ctx,tw,g,fp,lay,rootId,opts){
     const fill=b.sk?TP.SKF:TP.CREAM, stroke=b.hl?TP.OCHRE:b.sk?TP.SKE:TP.EDGE, sw=b.hl?(b.root?1.8:1.3):b.sk?0.9:0.6;
     if(scr) G3.push(`<g class="sp${b.root?' sp-root':''}" data-id="${x}" tabindex="0" role="button" aria-label="${xesc(clean(P.get(x).name))}">`);
     G3.push(`<rect x="${n2(x0)}" y="${n2(y0)}" width="${n2(w)}" height="${n2(h)}" rx="${n2(r)}" ry="${n2(r)}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`);
-    let yy=y0+b.padY; for(const l of b.lines){ yy+=(l.gap||0); G3.push(`<text x="${n2(x0+(w-l.w)/2)}" y="${n2(yy+l.size*0.86+(l.lh-l.size*1.12)*0.5)}" font-family="${FONT}" font-size="${n2(l.size)}"${l.style==='italic'?' font-style="italic"':''} fill="${l.fill}">${xesc(l.t)}</text>`); yy+=l.lh; } if(scr) G3.push('</g>'); }
+    const po=b.ph?b.ph.w+b.ph.gap:0;
+    if(b.ph){ const px=x0+b.padX, py=y0+(h-b.ph.h)/2;
+      G3.push(`<image href="${xesc(b.ph.src)}" x="${n2(px)}" y="${n2(py)}" width="${n2(b.ph.w)}" height="${n2(b.ph.h)}"/><rect x="${n2(px)}" y="${n2(py)}" width="${n2(b.ph.w)}" height="${n2(b.ph.h)}" fill="none" stroke="${over(TP.INK,0.16)}" stroke-width="0.4"/>`); }
+    let yy=y0+b.padY+(b.tdy||0); for(const l of b.lines){ yy+=(l.gap||0); G3.push(`<text x="${n2(x0+po+(w-po-l.w)/2)}" y="${n2(yy+l.size*0.86+(l.lh-l.size*1.12)*0.5)}" font-family="${FONT}" font-size="${n2(l.size)}"${l.style==='italic'?' font-style="italic"':''} fill="${l.fill}">${xesc(l.t)}</text>`); yy+=l.lh; } if(scr) G3.push('</g>'); }
   // ----- page
   out.push(`<rect x="0" y="0" width="${W}" height="${H}" fill="${TP.PAGE}"/>`);
   out.push(`<rect x="22" y="22" width="${n2(W-44)}" height="${n2(H-44)}" fill="none" stroke="${TP.FRAME}" stroke-width="0.8"/>`);
@@ -684,7 +708,7 @@ async function buildTree(ctx,rootId,opts){
      auto keeps portrait unless the tree does not fit at full size there and landscape gives larger names */
   const kOf=(paper,land)=>PAPER[paper][land?1:0]/1190.55;   // pt per design unit (the design page is 1190.55 wide)
   const runAll=(pageH,logoK)=>{ const o=Object.assign({},opts,pageH?{pageH}:{},{logoK:logoK||1}); let best=null; const tries=[];
-  for(const c of TREE_CFGS(o)){ const cfg=Object.assign({},TREE_BASE,o.treeCfg||{},c,{lang:o.lang}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,o);
+  for(const c of TREE_CFGS(o)){ const cfg=Object.assign({},TREE_BASE,o.treeCfg||{},c,{lang:o.lang,photos:!!o.photos}); const lay=treeLayout(ctx,tw,g,fp,rootId,cfg); const comp=treeCompose(ctx,tw,g,fp,lay,rootId,o);
     const hard=comp.issues.filter(t=>!/^branch /.test(t)).length, soft=comp.issues.length-hard;
     const score=Math.min(comp.s,1)*(cfg.stagger?0.96:1)*(cfg.nameW>=150?1:cfg.nameW>=120?0.9:0.82)*(hard?0.8:1)*Math.pow(0.985,Math.min(soft,10))*(/^free/.test(comp.legendMode)||comp.legendMode==='none'?1:0.95); tries.push([cfg.nameW,cfg.stagger,cfg.availW,+comp.s.toFixed(3),comp.issues.length,comp.legendMode,+score.toFixed(3)]);
     if(!best||score>best.score) best={lay,comp,cfg,score,tries}; if(comp.s>=0.999&&!comp.issues.length) break; }
@@ -707,7 +731,7 @@ async function buildTree(ctx,rootId,opts){
   const [PW,PH]=land?[PAPER[opts.paper][1],PAPER[opts.paper][0]]:PAPER[opts.paper]; const k=PW/comp.W;
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(PW)}pt" height="${n2(PH)}pt" viewBox="0 0 ${n2(PW)} ${n2(PH)}"><g transform="scale(${k.toFixed(6)})">${comp.svgInner}</g></svg>`;
   const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
-  holder.innerHTML=svg; document.body.appendChild(holder);
+  holder.innerHTML=opts.svgOnly?svg:await embedPhotos(svg); document.body.appendChild(holder);
   doc.setFont(FONT,'normal'); doc.setFontSize(12);
   try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:PW,height:PH}); } finally { holder.remove(); }
   const p=ctx.people.get(rootId);
@@ -718,7 +742,7 @@ async function buildTree(ctx,rootId,opts){
   const report={style:'strom',lang:opts.lang,dir:g.dir,tries,filename,paper:opts.paper,paperAuto:!!opts.paperAuto,landscape:land,pageW:PW,pageH:PH,people:g.S.size,ancestors:g.ALL.size-1,omitted:g.ALL.size-g.S.size,generations:Math.max(...[...g.S].map(x=>g.gmin.get(x))),
     trunk:lay.trunk.map(x=>ctx.people.get(x).name),highlight:fp.path.map(x=>ctx.people.get(x).name),highlightMode:fp.mode,highlightTarget:fp.target!=null?ctx.people.get(fp.target).name:null,highlightDesc:fp.d,
     extraLinks:g.extra.length,postdoc:g.usePd,pdEdges:g.pdEdges,scale:+(comp.s*k).toFixed(4),nameSizePt:+(comp.nameSize*k).toFixed(2),metaSizePt:+(lay.cfg.ms*comp.s*k).toFixed(2),legend:comp.legendMode,centered:comp.centered,
-    staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,logo:{mm:comp.logoMm,box:comp.logo&&comp.logo.map(v=>+(v*k).toFixed(1))},cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
+    staggeredRows:lay.tiers.filter(t=>t>1).length,issues:comp.issues,photos:[...lay.lab.values()].filter(b=>b.ph).length,logo:{mm:comp.logoMm,box:comp.logo&&comp.logo.map(v=>+(v*k).toFixed(1))},cfg:{nameW:best.cfg.nameW,stagger:best.cfg.stagger,availW:best.cfg.availW},footer:comp.flines,title:comp.title};
   return {doc,filename,svg,report};
 }
 
@@ -901,7 +925,7 @@ async function buildView(ctx,rootId,opts){
     if(i>1) doc.addPage([Math.min(W,H),Math.max(W,H)],pick.land?'landscape':'portrait');
     const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n2(W)}pt" height="${n2(H)}pt" viewBox="0 0 ${n2(W)} ${n2(H)}">${svgInner}</svg>`;
     const holder=document.createElement('div'); holder.style.cssText='position:fixed;left:-100000px;top:0;width:10px;height:10px;overflow:hidden';
-    holder.innerHTML=svg; document.body.appendChild(holder);
+    holder.innerHTML=opts.svgOnly?svg:await embedPhotos(svg); document.body.appendChild(holder);
     doc.setFont(FONT,'normal'); doc.setFontSize(12);
     try{ if(!opts.svgOnly) await window.svg2pdf.svg2pdf(holder.firstElementChild,doc,{x:0,y:0,width:W,height:H}); } finally { holder.remove(); }
     try{ doc.link(link.x,link.y,link.w,link.h,{url:'https://www.'+url}); }catch(e){}
