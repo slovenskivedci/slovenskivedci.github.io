@@ -702,6 +702,7 @@ window.RODOKMEN_PHOTOS={
 "129839":[1,"","","",0,"MÚ SAV / domovská stránka: http://im.saske.sk/~jiraskov ; https://im.saske.sk/~jiraskov/image002.jpg"],
 "130047":[2,"","","",0,"FMFI UK: https://sluzby.fmph.uniba.sk/ludia/privara1 ; https://sluzby.fmph.uniba.sk/f/privara1"],
 "130119":[2,"","","",0,"MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Jaroslav_Kurzweil.jpg"],
+"130311":[1,"","","",0,"osobná stránka (KAMŠ FMFI UK, archív 2018): https://web.archive.org/web/20180919132832/http://www.iam.fmph.uniba.sk/ospm/Harman/index.htm ; https://web.archive.org/web/20180919132832im_/http://www.iam.fmph.uniba.sk/ospm/Harman/images/RH-small.jpg"],
 "130323":[2,"Caspari, Hendrik Willem (1770-1829), Afb 010097009464.jpg","Caspari, Hendrik Willem (1770-1829)","Public domain",0],
 "130346":[2,"Jan-Jacob-Schultens.jpg","Pierre Frédéric de la Croix","Public domain",0],
 "130461":[2,"Albert-Schultens.jpg","Hieronymus van der Mij","Public domain",0],
