@@ -1009,3 +1009,9 @@ window.RODOKMEN_PHOTOS_GALLERY={
 "131235":[["alt/131235-gaultier",2,"Francois Vatable, R3A20687 102.jpg","Léonard Gaultier","Public domain",0]],
 "248783":[["alt/248783-umich",2,"","","",0,"U-Michigan IOE: https://ioe.engin.umich.edu/people/berahas-albert-s/ ; https://ioe.engin.umich.edu/wp-content/uploads/sites/7/2023/09/aberahas350.jpg"]]
 };
+
+/* portrait notes: a small muted footnote at the bottom of the Profil (e.g. why no portrait is shown); never in Strom, its card or the PDF posters.
+   id: [Slovak text, [[source label, URL], ...]] */
+window.RODOKMEN_PHOTO_NOTES={
+"128056":["Portrét nie je známy. V predhovore k dejinám Bombardier-Corps od F. Gattiho (Viedeň 1905) sa uvádza, že jeho podobizeň sa nenachádza vo viedenskom Kriegsarchive, v Heeresmuseum ani vo Fideikommissbibliothek. Ani G. Faustmann (2014), ktorá o ňom písala už v dizertácii z roku 1992, nenašla žiadny jeho obraz.",[["F. Gatti, Geschichte der k. und k. Technischen Militär-Akademie, 2. časť (vyd. A. von Obermayer, Wien 1905), predhovor, s. IX","https://archive.org/details/geschichtederkun02gattuoft"],["G. Faustmann, Austrian Authors of Tables of Logarithms around 1800 (2014), s. 13","https://sfdf6bd4395e3be71.jimcontent.com/download/version/1485287133/module/13889859822/name/Gerlinde%20Faustmann%20Napier400%20Austrian%20Authors.pdf"]]]
+};
