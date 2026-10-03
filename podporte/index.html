@@ -59,6 +59,14 @@ permalink: /podporte/
     .sv-iban { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; letter-spacing: .02em; }
     .sv-copy { margin-left: 8px; padding: 1px 8px; border: 1px solid #ddd; border-radius: 999px; background: #fff; color: #777; font-size: 11px; line-height: 18px; cursor: pointer; vertical-align: 1px; }
     .sv-copy:hover { border-color: #1f4e79; color: #1f4e79; }
+    .sv-amounts { margin: 0 0 12px; }
+    .sv-amounts-label { display: block; color: #999; font-size: 12px; margin: 0 0 5px; }
+    .sv-amounts-btns { display: flex; flex-wrap: wrap; gap: 6px; }
+    .sv-amount { padding: 3px 11px; border: 1px solid #ddd; border-radius: 999px; background: #fff; color: #555; font-family: inherit; font-size: 13px; line-height: 20px; cursor: pointer; white-space: nowrap; }
+    .sv-amount:hover { border-color: #1f4e79; color: #1f4e79; }
+    .sv-amount[aria-pressed="true"], .sv-amount[aria-pressed="true"]:hover { background: #1f4e79; border-color: #1f4e79; color: #fff; }
+    .sv-amount:focus { outline: none; }
+    .sv-amount:focus-visible { outline: 2px solid #1f4e79; outline-offset: 2px; }
     .sv-qr { display: flex; align-items: center; gap: 14px; margin-top: 4px; }
     .sv-qr-img { flex: none; width: 128px; height: 128px; display: block; }
     .sv-qr-note { font-size: 12.5px; line-height: 1.5; color: #888; margin: 0; }
@@ -146,13 +154,27 @@ permalink: /podporte/
 						<dd><span class="sv-iban" id="sv-iban">SK85 1100 0000 0029 3730 8257</span><button type="button" class="sv-copy" data-iban="SK8511000000002937308257" aria-label="Kopírovať IBAN">Kopírovať</button></dd>
 						<dt>Príjemca</dt>
 						<dd>Peter Richtárik</dd>
+						<dt>Variabilný symbol</dt>
+						<dd>7272</dd>
 						<dt>Správa pre príjemcu</dt>
-						<dd>Dar slovenskivedci</dd>
+						<dd>Dar slovenskivedci.sk</dd>
 					</dl>
+					<div class="sv-amounts" role="group" aria-labelledby="sv-amounts-label">
+						<span class="sv-amounts-label" id="sv-amounts-label">Suma pre QR kód</span>
+						<div class="sv-amounts-btns">
+							<button type="button" class="sv-amount" data-amount="5" aria-pressed="false">5&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="10" aria-pressed="true">10&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="20" aria-pressed="false">20&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="50" aria-pressed="false">50&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="100" aria-pressed="false">100&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="500" aria-pressed="false">500&nbsp;€</button>
+							<button type="button" class="sv-amount" data-amount="" aria-pressed="false">vlastná suma</button>
+						</div>
+					</div>
 					<div class="sv-qr">
-						<!-- PAY by square: regenerate with  python3 _tools/paybysquare_qr.py SK8511000000002937308257  (needs segno) -->
-						<img class="sv-qr-img" src="/podporte/paybysquare.svg" width="128" height="128" alt="QR kód PAY by square pre bankový prevod">
-						<p class="sv-qr-note">Naskenujte QR kód v aplikácii svojej banky. Údaje sa vyplnia samy, sumu zadáte vy.</p>
+						<!-- PAY by square: regenerate all codes with  python3 _tools/paybysquare_qr.py SK8511000000002937308257  (needs segno; VS 7272, správa Dar slovenskivedci.sk, bez dátumu splatnosti); paybysquare.svg = bez sumy -->
+						<img class="sv-qr-img" id="sv-qr-img" src="/podporte/paybysquare-10.svg" width="128" height="128" alt="QR kód PAY by square pre bankový prevod 10 €">
+						<p class="sv-qr-note" id="sv-qr-note" aria-live="polite">Naskenujte QR kód v aplikácii svojej banky. Údaje aj suma 10&nbsp;€ sa vyplnia samy.</p>
 					</div>
 				</section>
 			</div>
@@ -181,6 +203,24 @@ permalink: /podporte/
         window.location.href = v ? ("/?q=" + encodeURIComponent(v)) : "/";
       }
     });
+  }
+  var qrImg = document.getElementById("sv-qr-img");
+  var qrNote = document.getElementById("sv-qr-note");
+  var amountBtns = document.querySelectorAll(".sv-amount");
+  for (var i = 0; i < amountBtns.length; i++) {
+    amountBtns[i].addEventListener("click", function(){
+      var amt = this.getAttribute("data-amount");
+      for (var j = 0; j < amountBtns.length; j++) amountBtns[j].setAttribute("aria-pressed", amountBtns[j] === this ? "true" : "false");
+      qrImg.src = "/podporte/paybysquare" + (amt ? "-" + amt : "") + ".svg";
+      qrImg.alt = "QR kód PAY by square pre bankový prevod" + (amt ? " " + amt + " €" : "");
+      qrNote.textContent = amt
+        ? "Naskenujte QR kód v aplikácii svojej banky. Údaje aj suma " + amt + "\u00a0€ sa vyplnia samy."
+        : "Naskenujte QR kód v aplikácii svojej banky. Údaje sa vyplnia samy, sumu zadáte vy.";
+    });
+  }
+  for (var k = 0; k < amountBtns.length; k++) {
+    var a = amountBtns[k].getAttribute("data-amount");
+    (new Image()).src = "/podporte/paybysquare" + (a ? "-" + a : "") + ".svg";
   }
   var btn = document.querySelector(".sv-copy");
   if (btn && navigator.clipboard) {
