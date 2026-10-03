@@ -1627,3 +1627,24 @@ button.filter-link:focus-visible {
 .footer-support a:hover {
   color: #1f4e79;
 }
+
+
+/* === h-index caveat above the compact list 2026-10-04 === */
+.hindex-note {
+  max-width: 760px;
+  margin: 0 auto 12px;
+  padding: 0 8px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #888;
+  text-align: center;
+  text-wrap: balance;
+}
+.hindex-note a {
+  color: #888;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.hindex-note a:hover {
+  color: #1f4e79;
+}
