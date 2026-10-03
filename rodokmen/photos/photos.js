@@ -870,6 +870,7 @@ window.RODOKMEN_PHOTOS={
 "167682":[2,"C. J. Malmsten.png","Bertha Valerius","Public domain",0],
 "169018":[2,"Nicolas Lémery.jpg","Nicolas Pitau","Public domain",0],
 "170019":[2,"Wilhelm Traugott Krug.jpg","Carl Lutherer","Public domain",0],
+"170525":[2,"","","",0,"Deutsche Digitale Bibliothek (UB Leipzig, Porträtstichsammlung 18/40): https://www.deutsche-digitale-bibliothek.de/item/YEGZNT6V42P63S4BZ6ISCLRGYU3OO4ND ; https://www.portraitindex.de/documents/obj/33203007"],
 "170526":[1],
 "172852":[2,"Carl Friedrich von Weizsaecker.jpg","Ian Howard (of the original picture)","CC BY-SA 3.0",1],
 "176139":[2,"Karl Ludwig Nitzsch.jpg","The original uploader was Torsten Schleese at German Wikipedia.","Public domain",0],
