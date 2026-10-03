@@ -1051,7 +1051,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
 .kcard .phwrap .ph{width:77px;height:96px}
 .kcard .phwrap .kn{display:block}
 </style>
-<script src="photos/photos.js?v=15"></script>
+<script src="photos/photos.js?v=16"></script>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1747,7 +1747,8 @@ const PHOTOS=window.RODOKMEN_PHOTOS||{};
 function photoBlock(id,nameHtml,restHtml,w,h){ const e=PHOTOS[id]; if(!e) return nameHtml+restHtml;
   const f='photos/'+(id<0?'n'+(-id):id), file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
   const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:e[5]?'':'Foto: slovenskivedci.sk';
-  const cred=file&&e[4]?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`:'';
+  const osrc=!file&&e[4]&&e[5]?/^(.*?):\s*(https?:\/\/\S+)/.exec(e[5]):null; /* licence with attribution outside Commons: credit links the source named in e[5] ("label: page URL ; image URL") */
+  const cred=file&&e[4]?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`:osrc?`<div class="phcred">Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${esc(osrc[2])}" target="_blank" rel="noopener">${esc(osrc[1])}</a></div>`:'';
   return `<div class="phwrap"><img class="ph" src="${f}.webp"${e[0]>1?` srcset="${f}.webp 1x, ${f}@2x.webp 2x"`:''} width="${w}" height="${h}" loading="lazy" decoding="async" alt=""${tip?` title="${esc(tip)}"`:''}><div class="phtxt">${nameHtml}${restHtml}${cred}</div></div>`; }
 function rRole(p){const r=p.role;if(!r)return '';const a=[r.pos||'',r.sub||''].filter(Boolean);if(a.length&&p.born)a.push('nar. '+p.born);const b=[r.inst,r.city,r.ctry].filter(Boolean);if(!a.length&&!b.length)return '';return `<p class="role"${r.src?` title="Zdroj: ${esc(r.src)}"`:''}>${esc(cap(a.join(' · ')))}${a.length&&b.length?'<br>':''}${b.map(esc).join(', ')}</p>`;}
 function renderProfile(p){
