@@ -819,6 +819,8 @@ window.RODOKMEN_PHOTOS={
 "152903":[1,"Pietro Pomponazzi.jpg","neznámy autor neznámy autor","Public domain",0],
 "152904":[2,"Johannes Baptista Montanus.jpg","neznámy autor neznámy autor","Public domain",0],
 "152905":[2,"Vettore Trincavelli.jpg","neznámy autor neznámy autor","Public domain",0],
+"153206":[2,"","","",0,"osobná stránka (KAMŠ FMFI UK, archív 2007): https://web.archive.org/web/20070723084357/http://www.iam.fmph.uniba.sk/institute/halicka/content.html ; https://web.archive.org/web/20070723131613im_/http://www.iam.fmph.uniba.sk/institute/halicka/kludova.jpg"],
+"153207":[2,"","","",0,"osobná stránka (KAMŠ FMFI UK): http://www.iam.fmph.uniba.sk/institute/trnovska/ ; https://www.iam.fmph.uniba.sk/institute/trnovska/pic.jpg"],
 "153825":[2,"Humberto Bustince.jpg","Rinos linos","CC0",0],
 "153876":[2,"","","",0,"MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Zdenka_Riecanova.jpg"],
 "154455":[2,"Evangelista Torricelli by Lorenzo Lippi (circa 1647, Galleria Silvano Lodi & Due).jpg","Lorenzo Lippi","Public domain",0],
