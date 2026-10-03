@@ -955,7 +955,7 @@ year_hindex_xy: "[{x:1952,y:274,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'medic\xEDna'},{x:1969,y:70,name:'Eva Benkov\xE1',id:'Benkova:Rakusko:IST_Austria:Klosterneuburg:profesorka:biologia_rastlin:zena',field:'biol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1949,y:70,name:'Imrich Chlamt\xE1\u010D',id:'Chlamtac:Belgicko:European_Alliance_for_Innovation:Gent:prezident:telekomunikacie:muz',field:'telekomunik\xE1\
   cie',area:'in\u017Einierstvo'},{x:1964,y:70,name:'Jozef \u0160amaj',id:'Samaj:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:profesor:botanika:muz',field:'botanika',area:'biol\xF3\
-  gia'},{x:1981,y:70,name:'Norbert Werner',id:'Werner:Cesko:Masarykova_univerzita:Brno:docent:astronomia:muz',field:'astron\xF3\
+  gia'},{x:1981,y:70,name:'Norbert Werner',id:'Werner:Cesko:Masarykova_univerzita:Brno:profesor:astronomia:muz',field:'astron\xF3\
   mia',area:'fyzika'},{x:1970,y:69,name:'R\xF3bert Kr\xE1lovics',id:'Kralovics:Rakusko:Medical_University_of_Vienna:Vieden:vedec:hematologia:muz',field:'hematol\xF3\
   gia',area:'medic\xEDna'},{x:1956,y:69,name:'Ladislav Mucina',id:'Mucina:Australia:Murdoch_University:Perth:profesor:biogeografia:muz',field:'biogeografia',area:'biol\xF3\
   gia'},{x:1967,y:69,name:'Peter \u0160utovsk\xFD',id:'Sutovsky:USA:University_of_Missouri:Columbia:profesor:reprodukcna_biologia:muz',field:'reproduk\u010D\
@@ -3189,7 +3189,7 @@ conn_areas:
     city: Brno
     country: "\u010Cesko"
     img: Norbert_Werner_size_280px.jpg
-    card_id: Werner:Cesko:Masarykova_univerzita:Brno:docent:astronomia:muz
+    card_id: Werner:Cesko:Masarykova_univerzita:Brno:profesor:astronomia:muz
     areaurl: fyzika
     affiliationurl: Masarykova_univerzita
     cityurl: Brno

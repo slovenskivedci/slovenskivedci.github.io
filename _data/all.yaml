@@ -1330,11 +1330,10 @@
   last: Werner
   year: 1981
   sex: "mu\u017E"
-  position: docent
+  position: profesor
   field: "astron\xF3mia"
-  pribeh: "V Brne \u010D\xEDta r\xF6ntgenov\xE9 s\xE1lanie k\xF4p galaxi\xED: hor\xFA\
-    ci plyn mu prezr\xE1dza, \u010Do \u010Dierne diery robia, ke\u010F si myslia,\
-    \ \u017Ee ich nikto nevid\xED."
+  pribeh: "V Brne sleduje vesm\xEDr, ktor\xFD m\xE1 mili\xF3ny stup\u0148ov, a u\u010D\
+    \xED mal\xE9 dru\u017Eice robi\u0165 ve\u013Ek\xFA astrofyziku."
   affiliation: Masarykova univerzita
   city: Brno
   country: "\u010Cesko"
@@ -1355,18 +1354,19 @@
   - - TEDx
     - https://www.tedxbratislava.sk/en/video/norbert-werner-tlcuce-srdcia-galaxii-beating-hearts-of-galaxies-2/
   - - web
-    - http://hea.physics.muni.cz/people/norbert.html
+    - https://hea.physics.muni.cz/team/norbert_werner
   - - youtube
     - https://www.youtube.com/c/UTFAMUNI
-  - - "\u017Eivotopis"
-    - https://www.upjs.sk/prirodovedecka-fakulta/absolventi/as/archiv/hostia-nw/
   img: Norbert_Werner_size_280px.jpg
+  photos_alt:
+  - alt/Norbert_Werner_alt1.jpg
+  - alt/Norbert_Werner_alt2.jpg
   update_status: UPDATED
   countryurl: Cesko
   fieldurl: astronomia
   area: fyzika
   areaurl: fyzika
-  positionurl: docent
+  positionurl: profesor
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: muz

@@ -2,9 +2,9 @@ name: Norbert Werner
 last: Werner
 year: 1981
 sex: "mu\u017E"
-position: docent
+position: profesor
 field: "astron\xF3mia"
-pribeh: "V Brne číta röntgenové sálanie kôp galaxií: horúci plyn mu prezrádza, čo čierne diery robia, keď si myslia, že ich nikto nevidí."
+pribeh: "V Brne sleduje vesmír, ktorý má milióny stupňov, a učí malé družice robiť veľkú astrofyziku."
 affiliation: Masarykova univerzita
 city: Brno
 country: "\u010Cesko"
@@ -18,8 +18,10 @@ links:
   iDNES: https://www.idnes.cz/brno/zpravy/norbert-werner-astrofyzik-brno-vesmir-exploze-kosmicka-pavucina.A200715_559372_brno-zpravy_krut
   Rožňavské noviny: https://roznavskenoviny.sk/cestnym-obcanom-roznavy-sa-stal-astrofyzik-norbert-werner/
   orcid: https://orcid.org/0000-0003-0392-0120
-  web: http://hea.physics.muni.cz/people/norbert.html
+  web: https://hea.physics.muni.cz/team/norbert_werner
   youtube: https://www.youtube.com/c/UTFAMUNI
-  životopis: https://www.upjs.sk/prirodovedecka-fakulta/absolventi/as/archiv/hostia-nw/
 img: Norbert_Werner_size_280px.jpg
+photos_alt:
+  - alt/Norbert_Werner_alt1.jpg
+  - alt/Norbert_Werner_alt2.jpg
 update_status: UPDATED
