@@ -335,7 +335,7 @@ function treeLayout(ctx,tw,g,fp,rootId,cfg){
   const Wd=s=>Math.min(cfg.wmax,2+3.4*Math.sqrt(s));
   // trunk: follow the dominant advisor
   const trunk=[rootId];
-  for(let x=rootId;;){ const ks=kids.get(x); if(!ks.length) break; let h=ks[0]; for(const k of ks) if(size.get(k)>size.get(h)) h=k;
+  for(let x=rootId;;){ const ks=kids.get(x).filter(k=>!(g.im&&g.im.has(k))); if(!ks.length) break;   // informal mentors never form the trunk: they stay dotted violet branches let h=ks[0]; for(const k of ks) if(size.get(k)>size.get(h)) h=k;
     const rest=size.get(x)-1-size.get(h); if(ks.length>1&&rest>cfg.dom*size.get(h)) break; trunk.push(h); x=h; }
   const tIdx=new Map(trunk.map((x,i)=>[x,i])); const isT=x=>tIdx.has(x); const B=trunk[trunk.length-1];
   const tNext=x=>{ const i=tIdx.get(x); return i!=null&&i+1<trunk.length?trunk[i+1]:null; };
