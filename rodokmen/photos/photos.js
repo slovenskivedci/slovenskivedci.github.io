@@ -662,7 +662,7 @@ window.RODOKMEN_PHOTOS={
 "127166":[2,"Niccolò Leoniceno (1428-1524).png","Clendening Library Portrait Collection","CC BY-SA 4.0",1],
 "127181":[2,"Aleander.jpg","The original uploader was Dr Jorgen at Russian Wikipedia.","Public domain",0],
 "127245":[2,"Portret van Antonius Brassavola Portretten van klassieke en recente filosofen en geneesheren (serietitel), RP-P-OB-26.787 (cropped2).jpg","Rijksmuseum","CC0",0],
-"127278":[1,"Jan Jesenius.jpg","Matthäus Merian","Public domain",0],
+"127278":[2,"Johann Jessenius.jpg","Matthäus Merian","Public domain",0],
 "127424":[2,"Erasmus Schmidt.jpg","I. I. Haid","Public domain",0],
 "127636":[2,"Christ, Johann Friedrich (1700-1756).jpg","Johann Christoph Sysang","Public domain",0],
 "127646":[2,"Johann-Franz-Buddeus.jpg","Johann Georg Wolfgang","Public domain",0],
