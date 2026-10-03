@@ -1178,7 +1178,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
         </div>
         <div class="seg" id="k-dir" role="group" aria-label="Smer stromu"><button type="button" data-dir="up" aria-pressed="true">predkovia</button><button type="button" data-dir="down" aria-pressed="false">potomkovia</button></div>
         <label class="kgen"><span class="kgl">generácie</span><span class="kgs">gen.</span><input type="range" id="k-gen" min="1" max="6" value="6" step="1"><output id="k-genN" for="k-gen"></output></label>
-        <label class="fpill chk" id="k-ph-w" title="Portréty osôb v strome (kde je fotografia) na obrazovke aj v PDF"><input type="checkbox" id="k-ph" autocomplete="off"><span>Portréty</span></label>
+        <label class="fpill chk" id="k-ph-w" title="Portréty osôb v strome (kde je fotografia) na obrazovke aj v PDF"><input type="checkbox" id="k-ph" autocomplete="off" checked><span>Portréty</span></label>
         </div>
         <h2 class="sec lp-dsk"><span>Osoba</span></h2>
         <div class="lp-slot lp-dsk" id="k-cardslot"></div>
@@ -1611,7 +1611,7 @@ const SECTIONS=['forest','tree','strom','connect','people','alumni','about'], se
 let current='';
 function show(view){ if(current===view) return; if(current==='les'&&view!=='les') Grove.leave(); current=view; relScope(view==='les'?'les':'main'); const sec=secOf(view); for(const v of SECTIONS) $('#v-'+v).hidden=v!==sec; $$('.tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false')); hideTip();
   if(sec==='forest'){ $('#f-stage').hidden=view!=='linie'; $('#g-stage').hidden=view!=='les'; $$('#v-forest [data-mode]').forEach(e=>e.hidden=e.dataset.mode!==view); if(view==='linie') Forest.ensure(); else Grove.ensure(); } if(view==='tree') Tree.ensure(); if(view==='strom') Strom.ensure(); if(view==='connect') Conn.ensure(); if(view==='people') People.ensure(); if(view==='alumni') Alumni.ensure(); }
-function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/portrety)?(\/bezpd)?$/); if(km){ if(km[5]){ setRel('pd',false,'main'); try{ history.replaceState(history.state,'','#'+h.replace('/bezpd','')); }catch(e){} } Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[5],!!km[4]); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
+function route(){ let h=''; try{ h=decodeURIComponent(location.hash.slice(1)); }catch(e){} const m=h.match(/^p(-?\d+)$/); if(m&&people.has(+m[1])){ Tree.focus(+m[1]); show('tree'); return; } const km=h.match(/^strom(?:=(-?\d+))?(\/potomkovia)?(?:\/g(\d+))?(\/portrety|\/bez-portretov)?(\/bezpd)?$/); if(km){ if(km[5]) setRel('pd',false,'main'); const hc=h.replace('/bezpd','').replace(/\/portrety(?=\/|$)/,''); if(hc!==h){ try{ history.replaceState(history.state,'','#'+hc); }catch(e){} } Strom.set(km[1]!=null&&people.has(+km[1])?+km[1]:null,km[2]?'down':'up',km[3]?+km[3]:0,!km[5],km[4]!=='/bez-portretov'); show('strom'); return; } const am=h.match(/^alumni=(.+)$/); if(am){ Alumni.set(am[1]); show('alumni'); return; } if(h==='forest') h='les'; if(h==='profil') h='tree'; if(VIEWS.includes(h)){ show(h); return; } show('les'); }   // default view: Les (Strom keeps its default root DEF_ID, Pavol Brunovský)
 function go(hash){ if(location.hash==='#'+hash) route(); else { try{ location.hash=hash; }catch(e){ route(); } if(location.hash!=='#'+hash) route(); } }
 window.addEventListener('hashchange',route);
 $$('.tabs button').forEach(b=>b.addEventListener('click',()=>{ if(b.dataset.view==='tree'&&Tree.current()!=null) go('p'+Tree.current()); else if(b.dataset.view==='strom') go(Strom.hash()); else go(b.dataset.view); }));
@@ -1834,17 +1834,17 @@ const Strom=(()=>{
   const svg=d3.select('#k-svg'), world=svg.append('g');
   const zoom=d3.zoom().scaleExtent([.04,6]).on('zoom',e=>world.attr('transform',e.transform));
   svg.call(zoom).on('dblclick.zoom',null);
-  let root=null, dir='up', gPref=GDEF, pd=true, ph=false, drawnKey='', drawnAspect=0, scene=null, trail=[], sel=null, busy=0, lastPtr='mouse', legendOpen=innerWidth>=900, legendTouched=false;
+  let root=null, dir='up', gPref=GDEF, pd=true, ph=true, drawnKey='', drawnAspect=0, scene=null, trail=[], sel=null, busy=0, lastPtr='mouse', legendOpen=innerWidth>=900, legendTouched=false;
   const mobile=()=>innerWidth<900;
   const maxMemo=new Map();
   function maxGen(id,d,p=pd){ const k=id+':'+d+':'+(p?1:0); if(maxMemo.has(k)) return maxMemo.get(k); const nb=d==='down'?(p?studAllOf:studentsOf):(p?advAllOf:advisorsOf); const dist=new Map([[id,0]]), q=[id]; let m=0;
     for(let i=0;i<q.length;i++){ const x=q[i]; for(const y of nb(x)) if(!dist.has(y)){ dist.set(y,dist.get(x)+1); m=Math.max(m,dist.get(y)); q.push(y); } } maxMemo.set(k,m); return m; }
   const gens=()=>Math.max(1,Math.min(gPref,maxGen(root,dir)||1));
-  /* ph: portraits in the labels ("Portréty" in the toolbar; off by default, kept in the address as /portrety) */
-  const hashFor=(id,d=dir,g=gPref,f=ph)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'')+(f?'/portrety':'');
+  /* ph: portraits in the labels ("Portréty" in the toolbar; on by default, the off state is kept in the address as /bez-portretov; old /portrety links still work) */
+  const hashFor=(id,d=dir,g=gPref,f=ph)=>'strom='+id+(d==='down'?'/potomkovia':'')+(g!==GDEF?'/g'+g:'')+(f?'':'/bez-portretov');
   const keyNow=()=>root+'|'+dir+'|'+gens()+'|'+relQuery()+'|'+(ph?'ph':'');
   const hash=()=>hashFor(root??Tree.current()??DEF_ID);
-  function set(id,d,g,p,f){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF; pd=REL.pd; ph=!!f;
+  function set(id,d,g,p,f){ if(id==null) id=root??Tree.current()??DEF_ID; if(!people.has(id)) return; root=id; dir=d==='down'?'down':'up'; gPref=g?clamp(g,1,99):GDEF; pd=REL.pd; ph=f!==false;
     const i=trail.indexOf(id); if(i>=0) trail=trail.slice(0,i+1); else { trail.push(id); if(trail.length>12) trail=trail.slice(-12); }
     if(current==='strom') draw(); }
   function ensure(){ if(root==null) set(null,'up',0); $('#k-lang').value=window.rodokmenPrintLang==='en'?'en':'sk'; draw(); }
