@@ -1858,7 +1858,7 @@ function renderProfile(p){
 const photoSrc=id=>{ const e=PHOTOS[id]; if(!e) return null; const f='photos/'+(id<0?'n'+(-id):id); return f+(e[0]>1?'@2x':'')+'.webp'; };
 const PRINT_CTX={photo:photoSrc,isCoEdge,people,advisorsOf,deepest,isFemale,generated:DATA.generated,pdAdvisorsOf,deepestAll,isPdEdge,edgeSrc,nDesc:id=>nDescOf(people.get(id)),studentsOf,pdStudentsOf,imStudentsOf,imMentorsOf,rsMembersOf,rsHostsOf};
 let printP=null;   // window.rodokmenPrintLang: poster language, Slovak by default; the last choice is kept while the page is open
-function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=24'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
+function loadPrint(){ if(window.RodokmenPrint) return Promise.resolve(window.RodokmenPrint); if(!printP){ printP=new Promise((res,rej)=>{ const s=document.createElement('script'); s.src='assets/print/print-tree.js?v=25'; s.onload=()=>res(window.RodokmenPrint); s.onerror=()=>{ printP=null; rej(new Error('print-tree.js')); }; document.head.appendChild(s); }); } return printP; }
 /* name-size advice after a PDF (both looks); no em dashes */
 function smallMsg(rp,kind){ if(!rp||!(rp.nameSizePt<5)) return ''; const n=String(rp.nameSizePt).replace('.',',');
   const big=rp.paper==='A0'?(kind==='view'?'zvoľte menej generácií alebo pevnú veľkosť (PDF sa rozdelí na viac strán)':'zvoľte menej generácií alebo jednoduchý vzhľad s pevnou veľkosťou (rozdelí sa na viac strán)'):'na čitateľnú tlač zvoľte väčší formát';
