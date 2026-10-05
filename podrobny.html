@@ -16,9 +16,9 @@ title: Podrobný zoznam
 
 							{% if item.photos_alt %}<div class="cg" data-alts="{{ item.photos_alt | join: '|' }}" data-v="20261002a" tabindex="0" aria-label="{{ item.name | escape }}: {{ item.photos_alt.size | plus: 1 }} fotografie">{% endif %}
 							{% if forloop.index <= 8 %}
-							<img alt="{{ item.name | escape }}" src="/images/{{ item.img }}?v=20261002a" width="280" height="157" decoding="async" role="img">
+							<img alt="{{ item.name | escape }}" src="/images/{{ item.img }}?v=20261005a" width="280" height="157" decoding="async" role="img">
 							{% else %}
-							<img alt="{{ item.name | escape }}" src="/images/{{ item.img }}?v=20261002a" width="280" height="157" loading="lazy" decoding="async" role="img">
+							<img alt="{{ item.name | escape }}" src="/images/{{ item.img }}?v=20261005a" width="280" height="157" loading="lazy" decoding="async" role="img">
 							{% endif %}
 							{% if item.photos_alt %}</div>{% endif %}
 						</div>
