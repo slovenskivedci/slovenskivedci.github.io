@@ -24,6 +24,8 @@ window.RODOKMEN_PHOTOS={
 "-1930":[2,"","","",0,"KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/adil-salim ; https://lh3.googleusercontent.com/d/1mLM9pXrGe2HwfUPfyQSWM1ZIsdeDoetw=s1920"],
 "-1929":[2,"","","",0,"KAUST CEMSE / OML (P. Richtárik): https://cemse.kaust.edu.sa/profiles/zhize-li ; https://lh3.googleusercontent.com/d/1WXkz3YclVNrQypxTyVq9pqKyg0jyl4Ke=s1920"],
 "-1928":[2,"","","",0,"https://sites.google.com/view/sarit-khirirat ; https://sites.google.com/sitesv-images-rt/AMxu72tchZO-Mj1LAg-mBQd5zO9E3hprw2V1HFWgBZukKEB5mR2GbkzFlA3UwynAqZdH-y9aSGNK2UEqncHGLV6plOjHhSOd4rMmPbEN5cCTto_2mddzE_RNkSW1eH0-kjvpH9M5HeWcvA3FZile-d2YWaHbwYsCoWuLtqORBIiHuae81nWRfoqZ_xOXpiuyHLyKxnGrmDpgZYS9lB3iJ0Hvl9b0l4Xg3AbG-E-T1_HplS4=w1280"],
+"-1916":[2,"PetrovAA.jpg","Sergey Vladimirov / Vlsergey (Flickr)","CC BY 2.0",1],
+"-1915":[2,"Shananin_AA.jpg","Bogdanov-62","CC BY 4.0",1],
 "-1911":[2,"Mihály Demeczky.JPG","Sándor Strelisky (1851-1922), Hungarian photographer","Public domain",0],
 "-1910":[2,"Petzval Ottó.jpg","Károly Rusz / József Marastoni","Public domain",0],
 "-1843":[2,"","","",0,"STU FCHPT, Ústav informatizácie, automatizácie a matematiky: https://www.uiam.sk/index.php?menu=2&show_id=3&person_id=407263 ; https://www.uiam.sk/assets/img/persons/visnyai.jpg"],
@@ -887,6 +889,7 @@ window.RODOKMEN_PHOTOS={
 "176844":[2,"Григорий Палама 14в.jpg","neznámy autor","Public domain",0],
 "177112":[2,"","","",0,"TU Dortmund, Analysis – profil: https://analysis.mathematik.tu-dortmund.de/personen/prof-dr-peter-bella/ ; https://analysis.mathematik.tu-dortmund.de/storages/analysis-mathematik/r/bilder/BellaPeter.jpg"],
 "177440":[2,"Arolsen Klebeband 01 543 2.jpg","Johann Georg Wolfgang","Public domain",0],
+"177795":[2,"","","",0,"CCAS museum / manbios: http://www.ccas.ru/manbios/mois_r.html ; http://www.ccas.ru/manbios/mois300.jpg"],
 "177883":[2,"","","",0,"UMB FPV KM: https://www.fpv.umb.sk/katedry/katedra-matematiky/clenovia-katedry.html ; https://www.fpv.umb.sk/app/accountJpegPhoto.php?ID=9265&width=600"],
 "178103":[2,"","","",0,"STU FCHPT, Ústav informatizácie, automatizácie a matematiky: https://www.uiam.sk/index.php?menu=2&show_id=3&person_id=407673 ; https://www.uiam.sk/assets/img/persons/langerova.jpg"],
 "178646":[1,"","","",0,"osobná stránka (MFF UK Praha, KPMS): https://msekce.karlin.mff.cuni.cz/~maciak/ ; https://msekce.karlin.mff.cuni.cz/~maciak/images/profile/sm25.jpg"],
@@ -911,6 +914,7 @@ window.RODOKMEN_PHOTOS={
 "199357":[2,"Oresme.jpg","Nicole Oresme / Aristotle","Public domain",0],
 "204206":[2,"","","",0,"https://gowerrobert.github.io/ ; https://gowerrobert.github.io/img/pics/face_may_8_2026.jpg"],
 "206872":[2,"","","",0,"PPGM UFPR (Programa de Pós-Graduação em Matemática): https://ppgm.ufpr.br/member/ademir-alves-ribeiro/ ; https://ppgm.ufpr.br/wp-content/uploads/2021/05/Ademir-Alves-Ribeiro-1.jpg"],
+"206873":[2,"","","",0,"Р.П. Вентцель, Г.Л. Эпштейн (mathedu.ru memorial); RU Wikipedia Файл:Вентцель-ДА.jpg ; https://upload.wikimedia.org/wikipedia/ru/c/ca/Вентцель-ДА.jpg"],
 "208258":[2,"Gerardus Leonardus Blasius (1625-1695).jpg","Anonymousneznámy autor","Public domain",0],
 "208259":[2,"Siegmund Jakob Baumgarten.jpg","Johann Jakob Haid","Public domain",0],
 "209640":[2,"","neznámy autor","",1,"MacTutor History of Mathematics: https://mathshistory.st-andrews.ac.uk/Biographies/Fiedler/ ; https://mathshistory.st-andrews.ac.uk/Biographies/Fiedler/Fiedler.jpeg"],
@@ -1029,6 +1033,11 @@ window.RODOKMEN_PHOTOS_GALLERY={
 "131235":[["alt/131235-gaultier",2,"Francois Vatable, R3A20687 102.jpg","Léonard Gaultier","Public domain",0]],
 "150184":[["alt/150184-mfo26011",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=26011 ; https://owpdb.mfo.de/photoNormal?id=26011"],["alt/150184-mfo23233",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=23233 ; https://owpdb.mfo.de/photoNormal?id=23233"],["alt/150184-mfo24486",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=24486 ; https://owpdb.mfo.de/photoNormal?id=24486"]],
 "160201":[["alt/160201-mfo14548",2,"","Katrin Schmid, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=14548 ; https://owpdb.mfo.de/photoNormal?id=14548"]],
+"177795":[
+  ["alt/177795-moisnn",2,"","","",0,"CCAS museum: http://www.ccas.ru/manbios/moisnn.jpg"],
+  ["alt/177795-moisl1",2,"","","",0,"CCAS museum: http://www.ccas.ru/manbios/moisl1.jpg"],
+  ["alt/177795-rik4072",2,"","","",0,"RIK Mosgu gallery: https://rikmosgu.ru/resources/i4072-icon-middle.jpg"]
+],
 "248783":[["alt/248783-umich",2,"","","",0,"U-Michigan IOE: https://ioe.engin.umich.edu/people/berahas-albert-s/ ; https://ioe.engin.umich.edu/wp-content/uploads/sites/7/2023/09/aberahas350.jpg"]]
 };
 
