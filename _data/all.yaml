@@ -4544,6 +4544,32 @@
   affiliationurl: Stanford_University
   cityurl: Menlo_Park
   sexurl: muz
+- name: "Juraj Balkovi\u010D"
+  last: Balkovic
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "p\xF4doznalectvo"
+  pribeh: "Pedol\xF3gia z PriF UK, dnes IIASA. Plodiny a p\xF4du modeluje v scen\xE1\
+    roch, v ktor\xFDch sa hekt\xE1r u\u010D\xED predv\xEDda\u0165 zajtra."
+  affiliation: International Institute for Applied Systems Analysis
+  city: Laxenburg
+  country: "Rak\xFAsko"
+  hindex: 47
+  scholar: https://scholar.google.com/citations?user=Q80PHIoAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://iiasa.ac.at/staff/juraj-balkovic
+  img: Juraj_Balkovic_size_280px.jpg
+  countryurl: Rakusko
+  fieldurl: podoznalectvo
+  area: geovedy
+  areaurl: geovedy
+  positionurl: vedec
+  affiliationurl: International_Institute_for_Applied_Systems_Analysis
+  cityurl: Laxenburg
+  sexurl: muz
 - name: "Tom\xE1\u0161 Bu\u010Dko"
   last: Bucko
   year: ''
@@ -4802,6 +4828,33 @@
   affiliationurl: Amazon
   cityurl: Berkeley
   sexurl: muz
+- name: "Andrea Laukov\xE1"
+  last: Laukova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "veterin\xE1rna mikrobiol\xF3gia"
+  pribeh: "V Ko\u0161iciach u\u010D\xED enterokoky a bakterioc\xEDny, ako nahradi\u0165\
+    \ antibiotik\xE1 v chove. SISA Vedeck\xE1 osobnos\u0165 roka 2025, ktor\xE1 mikrobiomu\
+    \ zvierat d\xE1va pl\xE1n B."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 47
+  scholar: https://scholar.google.com/citations?user=TbWprfcAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=1192
+  img: Andrea_Laukova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: veterinarna_mikrobiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: vedkyna
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Kosice
+  sexurl: zena
 - name: "Juraj Majt\xE1n"
   last: Majtan
   year: ''
@@ -6200,6 +6253,33 @@
   positionurl: docent
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
+  sexurl: muz
+- name: Igor Jex
+  last: Jex
+  year: 1962
+  sex: "mu\u017E"
+  position: profesor
+  field: "kvantov\xE1 optika"
+  pribeh: "Rod\xE1k z Bratislavy, dekan FJFI v Prahe. Kvantov\xE9 prech\xE1dzky a\
+    \ siete kresl\xED na tabu\u013Eu tak, aby aj fot\xF3n vedel, kam m\xE1 \xEDs\u0165\
+    ."
+  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Praze"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 42
+  scholar: https://scholar.google.com/citations?user=9fT102MAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://www.optica.org/get_involved/awards_and_honors/fellow_members/fellow_profiles/igor_jex/
+  img: Igor_Jex_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: kvantova_optika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: profesor
+  affiliationurl: Ceske_vysoke_uceni_technicke_v_Praze
+  cityurl: Praha
   sexurl: muz
 - name: "Peter Kop\u010Dansk\xFD"
   last: Kopcansky
@@ -7629,6 +7709,33 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "\u013Dubica Palkovi\u010Dov\xE1 Mur\xEDnov\xE1"
+  last: Palkovicova Murinova
+  year: ''
+  sex: "\u017Eena"
+  position: "ved\xFAca"
+  field: "environment\xE1lna epidemiol\xF3gia"
+  pribeh: "Na SZU v Bratislave \u010D\xEDsla o PCB a PFAS preklad\xE1 do \u013Eudsk\xE9\
+    ho tela. Environment\xE1lna epidemiol\xF3gia, ktor\xE1 zne\u010Disteniu meria,\
+    \ \u010Do urobilo v krvi, nie iba vo vzduchu."
+  affiliation: "Slovensk\xE1 zdravotn\xEDcka univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=wz9Oc6kAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://www.apvv.sk/kontakt/kontakt-detail.html?contact_id=12469
+  img: Lubica_Palkovicova_Murinova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: environmentalna_epidemiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: veduca
+  affiliationurl: Slovenska_zdravotnicka_univerzita
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Miroslav \u0160o\xF3\u0161"
   last: Soos
   year: ''
@@ -9222,6 +9329,33 @@
   affiliationurl: Medical_College_of_Wisconsin
   cityurl: Milwaukee
   sexurl: muz
+- name: "Peter Hrob\xE1rik"
+  last: Hrobarik
+  year: 1981
+  sex: "mu\u017E"
+  position: docent
+  field: "anorganick\xE1 ch\xE9mia"
+  pribeh: "Na PriF UK po\u010D\xEDta molekuly tak, aby NMR a fluorescencia prestali\
+    \ by\u0165 h\xE1dankou. Relativistick\xE1 ch\xE9mia s laborat\xF3rnym zmyslom\
+    \ pre detail."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?user=X_yoj1oAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://qchemlab.wordpress.com/about-pi/
+  img: Peter_Hrobarik_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: anorganicka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: Martin Kahanec
   last: Kahanec
   year: 1977
@@ -10004,6 +10138,32 @@
   affiliationurl: University_of_Troms
   cityurl: Troms
   sexurl: muz
+- name: "Rastislav Skalsk\xFD"
+  last: Skalsky
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "p\xF4doznalectvo"
+  pribeh: "Z UK do IIASA v Laxenburgu. P\xF4du a agroekosyst\xE9my modeluje tak, aby\
+    \ \xFAroda prestala by\u0165 lot\xE9riou klimatick\xE9ho modelu."
+  affiliation: International Institute for Applied Systems Analysis
+  city: Laxenburg
+  country: "Rak\xFAsko"
+  hindex: 35
+  scholar: https://scholar.google.com/citations?user=T8T8MpAAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://iiasa.ac.at/staff/rastislav-skalsky
+  img: Rastislav_Skalsky_size_280px.jpg
+  countryurl: Rakusko
+  fieldurl: podoznalectvo
+  area: geovedy
+  areaurl: geovedy
+  positionurl: vedec
+  affiliationurl: International_Institute_for_Applied_Systems_Analysis
+  cityurl: Laxenburg
+  sexurl: muz
 - name: "Matej \u0160korv\xE1nek"
   last: Skorvanek
   year: 1984
@@ -10703,6 +10863,33 @@
   areaurl: chemia
   positionurl: vedec
   affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
+- name: "Roman Sz\u0171cs"
+  last: Szucs
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "analytick\xE1 ch\xE9mia"
+  pribeh: "Ing. zo STU, potom Pfizer v Sandwichi a docent na PriF UK. Chromatografii\
+    \ meria reten\u010Dn\xFD \u010Das tak, aby molekula prestala me\u0161ka\u0165\
+    \ na kol\xF3ne."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 34
+  scholar: https://scholar.google.com/citations?user=jFpsqPQAAAAJ
+  last_update: '2026-10-05'
+  links:
+  - - web
+    - https://analytika.sk/en/about-us/pracovnici/roman-szucs/
+  img: Roman_Szucs_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: analyticka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
 - name: "\u013Dubom\xEDr Tom\xE1\u0161ka"
