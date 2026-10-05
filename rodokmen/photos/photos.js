@@ -304,6 +304,7 @@ window.RODOKMEN_PHOTOS={
 "25461":[1,"Peter Rentrop.jpg","Schmid, Renate","CC BY-SA 2.0 de",1],
 "25466":[2,"Riehl Alois.jpg","","Public domain",0],
 "25484":[1,"Heinrich Scherk.jpg","neznámy autor neznámy autor","Public domain",0],
+"25969":[2,"","Ivonne Vetter, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=19198 ; https://owpdb.mfo.de/photoNormal?id=19198"],
 "26492":[2,"Marston Conder ONZM (cropped).jpg","New Zealand Government, Office of the Governor-General","CC BY 4.0",1],
 "26701":[2,"","","",0,"Naval Postgraduate School, Calhoun (Resume of Gordon Hoover Bradley, 1973): https://hdl.handle.net/10945/52741 ; https://hdl.handle.net/10945/52741"],
 "26941":[2,"Edmund Hlawka 2003.jpg","my friend D. M. B., authorized by Thomas Steiner","CC BY-SA 2.5",1],
@@ -496,7 +497,7 @@ window.RODOKMEN_PHOTOS={
 "96350":[2,"Franz Xaver Moth Litho.jpg","Adolf Dauthage","Public domain",0],
 "96357":[2,"Luckhardt, Fritz - Dr. Josef Petzval (Zeno Fotografie).jpg","Luckhardt, Fritz","Public domain",0],
 "96930":[2,"Iserles arieh.jpg","Renate Schmid","CC BY-SA 2.0 de",1],
-"97272":[2,"","","",0,"MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Tibor_Neubrunn.jpg"],
+"97272":[2,"","Konrad Jacobs, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=2999 ; https://owpdb.mfo.de/photoNormal?id=2999"],
 "98052":[2,"","","",0,"University of Rochester, Dept. of Computer Science: https://www.cs.rochester.edu/people/faculty/stefankovic_daniel/index.html ; https://www.cs.rochester.edu/people/faculty/stefankovic_daniel/assets/images/dstefankovic.jpg"],
 "98817":[2,"Werner Purgathofer portrait on 2014-05-22.jpg","Robert F. Tobler","CC BY-SA 4.0",1],
 "99093":[2,"Prof. Kratochvíl.jpg","Lucie Filipenská","CC BY-SA 4.0",1],
@@ -829,6 +830,7 @@ window.RODOKMEN_PHOTOS={
 "145289":[2,"Valsalva Portrait.jpg","neznámy autor ; uploader: Eberhard J. Wormer","Public domain",0],
 "145290":[2,"Marcello Malpighi large.jpg","User Magnus Manske on en.wikipedia","Public domain",0],
 "145291":[2,"Giovanni Alfonso Borelli, di pittore di ambito fiorentino, ante 1679 -FG.jpg","Fabrizio Garrisi","CC0",0],
+"145542":[2,"","Renate Schmid, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=16667 ; https://owpdb.mfo.de/photoNormal?id=16667"],
 "145707":[2,"L'Empereur Constantin.jpg","Jonas Suyderhoef","Public domain",0],
 "145708":[2,"Hiob Ludolf (8166013).jpg","neznámy autor neznámy autor","Public domain",0],
 "145770":[2,"Johann-Heinrich-Michaelis.jpg","neznámy autor neznámy autor","Public domain",0],
@@ -1013,12 +1015,20 @@ window.RODOKMEN_PHOTOS={
    Only genuinely different pictures (never another crop of the main image) that are sharp, well lit, with a clear face, @2x and not upscaled.
    id: [[file under photos/ without .webp, 2 = has @2x | 1, Commons file name, author, license, attribution required 1|0, other source URL (no credit shown)], ...] */
 window.RODOKMEN_PHOTOS_GALLERY={
+"-1348":[["alt/n1348-mfo13145",2,"","Ivonne Vetter, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=13145 ; https://owpdb.mfo.de/photoNormal?id=13145"]],
 "10480":[["alt/10480-medium",2,"","","",0,"Medium: https://miro.medium.com/1*Je0DA4XN_lTyjE9tbiBRTA.jpeg"]],
+"25969":[["alt/25969-mfo20940",2,"","Tatjana Ruf, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=20940 ; https://owpdb.mfo.de/photoNormal?id=20940"],["alt/25969-mfo11828",2,"","Renate Schmid, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=11828 ; https://owpdb.mfo.de/photoNormal?id=11828"]],
 "50630":[["alt/50630-dean1999",2,"","","",0,"DML-CZ, B. Novák (ed.), Life and work of Vojtěch Jarník (1999): https://dml.cz/bitstream/handle/10338.dmlcz/402238/SingleBooks_29-1999-1_2.pdf ; https://dml.cz/manakin/themes/DML/portrait-jarnik-1.jpg"]],
+"61009":[["alt/61009-mfo3892",2,"","Konrad Jacobs, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=3892 ; https://owpdb.mfo.de/photoNormal?id=3892"]],
+"97272":[["alt/97272-kresba",2,"","","",0,"MÚ SAV, Galéria matematikov (kresba KD): https://www.mat.savba.sk/galeria_matematikov-KD.html ; https://www.mat.savba.sk/imgs/galeria_matematikov-KD/Tibor_Neubrunn.jpg"]],
+"122294":[["alt/122294-mfo17294",2,"","Ivonne Vetter, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=17294 ; https://owpdb.mfo.de/photoNormal?id=17294"]],
 "125048":[["alt/125048-ubh2",2,"UBH Portr BS Stupanus JN 1542 2.jpg","neznámy autor","Public domain",0]],
 "127864":[["alt/127864-debry",2,"Nikolaus-Selnecker.jpg","Thierry de Bry","Public domain",0]],
+"129827":[["alt/129827-mfo1233",2,"","Konrad Jacobs, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=1233 ; https://owpdb.mfo.de/photoNormal?id=1233"]],
 "130311":[["alt/130311-homepage2016",2,"","","",0,"osobná stránka (KAMŠ FMFI UK, archív 2016): https://web.archive.org/web/20160113215749/http://www.iam.fmph.uniba.sk/ospm/Harman/index.htm ; https://web.archive.org/web/20160113215749im_/http://www.iam.fmph.uniba.sk/ospm/Harman/images/pharman.jpg"]],
 "131235":[["alt/131235-gaultier",2,"Francois Vatable, R3A20687 102.jpg","Léonard Gaultier","Public domain",0]],
+"150184":[["alt/150184-mfo26011",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=26011 ; https://owpdb.mfo.de/photoNormal?id=26011"],["alt/150184-mfo23233",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=23233 ; https://owpdb.mfo.de/photoNormal?id=23233"],["alt/150184-mfo24486",2,"","Petra Lein, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=24486 ; https://owpdb.mfo.de/photoNormal?id=24486"]],
+"160201":[["alt/160201-mfo14548",2,"","Katrin Schmid, Archives of the Mathematisches Forschungsinstitut Oberwolfach","CC BY-SA 2.0 de",1,"Oberwolfach Photo Collection (MFO): https://owpdb.mfo.de/detail?photo_id=14548 ; https://owpdb.mfo.de/photoNormal?id=14548"]],
 "248783":[["alt/248783-umich",2,"","","",0,"U-Michigan IOE: https://ioe.engin.umich.edu/people/berahas-albert-s/ ; https://ioe.engin.umich.edu/wp-content/uploads/sites/7/2023/09/aberahas350.jpg"]]
 };
 
