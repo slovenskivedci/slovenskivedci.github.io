@@ -6091,6 +6091,38 @@
   affiliationurl: Univerzita_Karlova
   cityurl: Praha
   sexurl: muz
+- name: "Pavol Juh\xE1s"
+  last: Juhas
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "fyzika nano\u0161trukt\xFAr"
+  pribeh: "Fyzik z FMFI UK a autor programov PDFgui a PDFgetX3, ktor\xE9 z r\xF6ntgenov\xE9\
+    ho rozptylu vy\u010D\xEDtaj\xFA, kde v nano\u010Dasticiach sedia at\xF3my. Dnes\
+    \ v Google Quantum AI u\u010D\xED kvantov\xE9 bity opravova\u0165 si vlastn\xE9\
+    \ chyby."
+  affiliation: Google
+  city: Mountain View
+  country: USA
+  hindex: 43
+  scholar: https://scholar.google.com/citations?user=4OkEb0kAAAAJ
+  last_update: '2026-10-06'
+  links:
+  - - github
+    - https://github.com/pavoljuhas
+  - - orcid
+    - https://orcid.org/0000-0001-8751-4458
+  - - web
+    - https://thebillingegroup.com/pavol-juhas/
+  img: Pavol_Juhas_size_280px.jpg
+  countryurl: USA
+  fieldurl: fyzika_nanostruktur
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedec
+  affiliationurl: Google
+  cityurl: Mountain_View
+  sexurl: muz
 - name: "Martin Luk\xE1\u010D"
   last: Lukac
   year: ''
@@ -7736,6 +7768,35 @@
   affiliationurl: Slovenska_zdravotnicka_univerzita
   cityurl: Bratislava
   sexurl: zena
+- name: "Ladislav \u0160olt\xE9s"
+  last: Soltes
+  year: 1950
+  sex: "mu\u017E"
+  position: vedec
+  field: "ch\xE9mia hyaluronanu"
+  pribeh: "V Bratislave sleduje, ako vo\u013En\xE9 radik\xE1ly strihaj\xFA hyaluronan\
+    \ v k\u013Abovej tekutine, a h\u013Ead\xE1 molekuly, ktor\xE9 im zober\xFA no\u017E\
+    nice. Vedec roka SR 2007."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=Pg24hG8AAAAJ
+  last_update: '2026-10-06'
+  links:
+  - - orcid
+    - https://orcid.org/0009-0002-1514-2258
+  - - web
+    - https://www.sav.sk/?doc=user-org-user&lang=sk&user_no=235
+  img: Ladislav_Soltes_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: chemia_hyaluronanu
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Miroslav \u0160o\xF3\u0161"
   last: Soos
   year: ''
@@ -9429,6 +9490,35 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Martin
   sexurl: zena
+- name: "Juraj Ko\u0161ka"
+  last: Koska
+  year: 1971
+  sex: "mu\u017E"
+  position: "medic\xEDnsky riadite\u013E"
+  field: "diabetol\xF3gia"
+  pribeh: "Po medic\xEDne na UK a laborat\xF3riu v SAV sk\xFAmal v Phoenixe inzul\xED\
+    nov\xFA rezistenciu a glyk\xE1ciu pri cukrovke 2. typu. Dnes v Amgene str\xE1\u017E\
+    i, aby cukor neposlal srdcu \xFA\u010Det."
+  affiliation: Amgen
+  city: Phoenix
+  country: USA
+  hindex: 36
+  scholar: https://scholar.google.com/citations?user=bU5AFmcAAAAJ
+  last_update: '2026-10-06'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/juraj-koska-9480a732
+  - - orcid
+    - https://orcid.org/0000-0002-6671-6250
+  img: Juraj_Koska_size_280px.jpg
+  countryurl: USA
+  fieldurl: diabetologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: medicinsky_riaditel
+  affiliationurl: Amgen
+  cityurl: Phoenix
+  sexurl: muz
 - name: "Zuzana K\xFAkelov\xE1"
   last: Kukelova
   year: null
@@ -9980,6 +10070,33 @@
   affiliationurl: Zilinska_univerzita
   cityurl: Zilina
   sexurl: zena
+- name: "Martin Mikol\xE1\u0161"
+  last: Mikolas
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "lesn\xEDcka ekol\xF3gia"
+  pribeh: "\u017Dilin\u010Dan, ktor\xFD v Prahe \u010D\xEDta letokruhy karpatsk\xFD\
+    ch pralesov ako kroniku v\xEDchric a lyko\u017Er\xFAtov. A popritom str\xE1\u017E\
+    i hluch\xE1\u0148a, aby mal na Slovensku e\u0161te kde toka\u0165."
+  affiliation: "\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 35
+  scholar: https://scholar.google.com/citations?user=d59txEAAAAAJ
+  last_update: '2026-10-06'
+  links:
+  - - web
+    - https://wp.v2.czu.cz/cs/person/135002/mikolas-martin
+  img: Martin_Mikolas_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: lesnicka_ekologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: vedec
+  affiliationurl: Ceska_zemedelska_univerzita_v_Praze
+  cityurl: Praha
+  sexurl: muz
 - name: Karol Mikula
   last: Mikula
   year: 1963
