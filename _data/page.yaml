@@ -939,7 +939,7 @@ hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''9
 hindex_hist_count: '[206,94,62,20,19,3,6,3,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
   ',]"
-year_hist_count: '[8,25,60,66,56,30,4,170]'
+year_hist_count: '[8,25,61,66,56,30,4,169]'
 year_hindex_xy: "[{x:1952,y:275,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1979,y:263,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1983,y:239,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
@@ -1230,7 +1230,8 @@ year_hindex_xy: "[{x:1952,y:275,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   mia a mana\u017Ement'},{x:1962,y:30,name:'Jozef Min\xE1r',id:'Minar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzicka_geografia:muz',field:'fyzick\xE1\
   \ geografia',area:'geovedy'},{x:1987,y:30,name:'Peter Papcun',id:'Papcun:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:docent:kybernetika:muz',field:'kybernetika',area:'in\u017E\
   inierstvo'},{x:1963,y:30,name:'Martin P\xE9\u010D',id:'Pec:Slovensko:Univerzita_Komenskeho:Martin:profesor:lekarska_biologia:muz',field:'lek\xE1\
-  rska biol\xF3gia',area:'medic\xEDna'},{x:1956,y:30,name:'Peter Samuely',id:'Samuely:Slovensko:Slovenska_akademia_vied:Kosice:profesor:fyzika_pevnych_latok:muz',field:'fyzika\
+  rska biol\xF3gia',area:'medic\xEDna'},{x:1959,y:30,name:'Roman R\xE9h',id:'Reh:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:kompozitne_drevne_materialy:muz',field:'kompozitn\xE9\
+  \ drevn\xE9 materi\xE1ly',area:'materi\xE1ly'},{x:1956,y:30,name:'Peter Samuely',id:'Samuely:Slovensko:Slovenska_akademia_vied:Kosice:profesor:fyzika_pevnych_latok:muz',field:'fyzika\
   \ pevn\xFDch l\xE1tok',area:'fyzika'},{x:1955,y:30,name:'Pavol \u0160tekauer',id:'Stekauer:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:lingvistika:muz',field:'lingvistika',area:'spolo\u010D\
   ensk\xE9 vedy'},{x:1944,y:30,name:'J\xFAlius \u0160ub\xEDk',id:'Subik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:mikrobiologia:muz',field:'mikrobiol\xF3\
   gia',area:'medic\xEDna'}]"
