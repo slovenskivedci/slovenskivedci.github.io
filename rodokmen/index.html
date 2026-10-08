@@ -1090,7 +1090,7 @@ details.kopt>summary .kopt-s{display:inline-block;max-width:240px;overflow:hidde
 @media (hover:none){.pg-a{opacity:.6}}
 @media (prefers-reduced-motion:reduce){.phwrap .pg .pg-l,.pg-a{transition:none}}
 </style>
-<script src="photos/photos.js?v=28"></script>
+<script src="photos/photos.js?v=29"></script>
 </head>
 <body>
 <noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:3rem auto;padding:0 16px">Rodokmeň slovenskej matematiky potrebuje na zobrazenie zapnutý JavaScript. Údaje pochádzajú z <a href="https://www.mathgenealogy.org/">Mathematics Genealogy Project</a> a <a href="https://www.slovenskivedci.sk/">slovenskivedci.sk</a>.</p></noscript>
@@ -1826,10 +1826,12 @@ const PHOTOS=window.RODOKMEN_PHOTOS||{};
 /* portrait note (photos.js RODOKMEN_PHOTO_NOTES): small muted footnote at the bottom of the Profil only */
 const PNOTES=window.RODOKMEN_PHOTO_NOTES||{};
 function pnoteHtml(id){ const n=PNOTES[id]; if(!n) return ''; const src=(n[1]||[]).map(([l,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join('; '); return `<p class="pnote">${esc(n[0])}${src?` Zdroje: ${src}.`:''}</p>`; }
+const LICURL={'CC BY-SA 2.0 de':'https://creativecommons.org/licenses/by-sa/2.0/de/'}; /* licence text in the credit links to the licence (CC BY-SA 2.0 DE, sec. 4a) */
 function phInfo(e){ const file=e[1]||'', lic=e[3]==='Public domain'?'voľné dielo':(e[3]||''), url=file?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(file.replace(/ /g,'_')):'';
   const tip=file?`Foto: ${[e[2],lic,'Wikimedia Commons'].filter(Boolean).join(' · ')}`:e[5]?'':'Foto: slovenskivedci.sk';
   const osrc=!file&&e[4]&&e[5]?/^(.*?):\s*(https?:\/\/\S+)/.exec(e[5]):null; /* licence with attribution outside Commons: credit links the source named in e[5] ("label: page URL ; image URL") */
-  const cred=file&&e[4]?`Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a>`:osrc?`Foto: ${[e[2],lic].filter(Boolean).map(esc).join(' · ')} · <a href="${esc(osrc[2])}" target="_blank" rel="noopener">${esc(osrc[1])}</a>`:'';
+  const licH=lic&&LICURL[e[3]]?`<a href="${LICURL[e[3]]}" target="_blank" rel="noopener license">${esc(lic)}</a>`:esc(lic), who=[e[2]?esc(e[2]):'',licH].filter(Boolean).join(' · ');
+  const cred=file&&e[4]?`Foto: ${who} · <a href="${url}" target="_blank" rel="noopener">Wikimedia Commons</a>`:osrc?`Foto: ${who} · <a href="${esc(osrc[2])}" target="_blank" rel="noopener">${esc(osrc[1])}</a>`:'';
   return [tip,cred]; }
 /* Profil only (gal=1): extra, genuinely different photos from RODOKMEN_PHOTOS_GALLERY as a small gallery (arrows, dots, cross-fade like the cards on slovenskivedci.sk); the main photo stays the default. Strom cards, photoSrc and posters use only the main photo. */
 const GALLERY=window.RODOKMEN_PHOTOS_GALLERY||{};
