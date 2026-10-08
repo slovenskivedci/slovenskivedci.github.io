@@ -1410,8 +1410,8 @@
   sex: "mu\u017E"
   position: profesor
   field: biogeografia
-  pribeh: "V Perthe sklad\xE1 veget\xE1ciu sveta do hierarchi\xED, v ktor\xFDch m\xE1\
-    \ ka\u017Ed\xFD porast svoje meno aj adresu."
+  pribeh: "Triedi veget\xE1ciu a bi\xF3my sveta a odha\u013Euje pestros\u0165 a p\xF4\
+    vod spolo\u010Denstiev, ktor\xE9 ob\xFDvaj\xFA na\u0161u plan\xE9tu."
   affiliation: Murdoch University
   city: Perth
   country: "Austr\xE1lia"
@@ -1437,7 +1437,7 @@
     - https://www.webofscience.com/wos/author/rid/B-6278-2012
   - - "wikip\xE9dia"
     - https://en.wikipedia.org/wiki/Ladislav_Mucina
-  img: Ladislav_Mucina_size_280px.png
+  img: Ladislav_Mucina_size_280px.jpg
   update_status: UPDATED
   countryurl: Australia
   fieldurl: biogeografia
@@ -10446,17 +10446,15 @@
   sex: "mu\u017E"
   position: vedec
   field: "enzymol\xF3gia"
-  pribeh: "Peroxid\xE1zy vo Viedni: enz\xFDmy, ktor\xE9 kysl\xEDkov\xE9 radik\xE1\
-    ly krotia s profesion\xE1lnym pokojom."
-  affiliation: University of Natural Resources and Life Sciences
-  city: "Viede\u0148"
-  country: "Rak\xFAsko"
+  pribeh: "Sk\xFAma, ako antioxida\u010Dn\xE9 enz\xFDmy s chladnou hlavou krotia kysl\xED\
+    kov\xE9 radik\xE1ly a bunk\xE1m tak predl\u017Euj\xFA \u017Eivot."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
   hindex: 35
   scholar: https://scholar.google.com/citations?user=pT4T7F4AAAAJ&hl=sk
   last_update: '2026-08-25'
   links:
-  - - BOKU
-    - https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&menue_id_in=101&id_in=7969
   - - LinkedIn
     - https://www.linkedin.com/in/marcel-zamocky-51260810a/
   - - orcid
@@ -10465,15 +10463,17 @@
     - https://www.researchgate.net/profile/Marcel-Zamocky
   - - SAV
     - https://www.sav.sk/index.php?lang=en&doc=user-org-user&user_no=2990
+  - - web
+    - https://www.learned.sk/clen/rndr-marcel-zamocky-drsc/
   img: Marcel_Zamocky_size_280px.jpg
   update_status: UPDATED
-  countryurl: Rakusko
+  countryurl: Slovensko
   fieldurl: enzymologia
   area: "ch\xE9mia"
   areaurl: chemia
   positionurl: vedec
-  affiliationurl: University_of_Natural_Resources_and_Life_Sciences
-  cityurl: Vieden
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: muz
 - name: "Michal Bo\u0161e\u013Ea"
   last: Bosela
