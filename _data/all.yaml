@@ -13345,6 +13345,37 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
+- name: Marek Petrik
+  last: Petrik
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "posil\u0148ovan\xE9 u\u010Denie"
+  pribeh: "Informatiku vy\u0161tudoval na UK v Bratislave, dnes je na University of\
+    \ New Hampshire. U\u010D\xED posil\u0148ovan\xE9 u\u010Denie opatrnosti, aby sa\
+    \ rozhodovalo dobre aj vtedy, ke\u010F d\xE1ta nehovoria cel\xFA pravdu."
+  affiliation: University of New Hampshire
+  city: Durham
+  country: USA
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=yT-xSLoAAAAJ
+  last_update: '2026-10-12'
+  links:
+  - - web
+    - https://ceps.unh.edu/person/marek-petrik
+  - - "\u017Eivotopis"
+    - https://www.cs.unh.edu/~mpetrik/pub/CV.pdf
+  img: Marek_Petrik_size_280px.jpg
+  countryurl: USA
+  fieldurl: posilnovane_ucenie
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
+  area2: informatika
+  area2url: informatika
+  positionurl: docent
+  affiliationurl: University_of_New_Hampshire
+  cityurl: Durham
+  sexurl: muz
 - name: "Gust\xE1v Plesch"
   last: Plesch
   year: ''
@@ -13714,6 +13745,35 @@
   positionurl: profesor
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
+  sexurl: muz
+- name: Jozef Hanes
+  last: Hanes
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "neuroimunol\xF3gia"
+  pribeh: "In\u017Einier zo STU, dnes v Neuroimunologickom \xFAstave SAV a v Axon\
+    \ Neuroscience. Navrhuje prote\xEDny a protil\xE1tky proti tau, ktor\xE9 pri Alzheimerovej\
+    \ chorobe zamot\xE1va neur\xF3ny."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=TERSPzQAAAAJ
+  last_update: '2026-10-12'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/jozef-hanes-625b7a5
+  img: Jozef_Hanes_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: neuroimunologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
   sexurl: muz
 - name: "Karol Hricov\xEDni"
   last: Hricovini
