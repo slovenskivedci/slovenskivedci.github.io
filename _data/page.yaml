@@ -961,7 +961,7 @@ hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''9
 hindex_hist_count: '[215,96,62,19,20,3,6,3,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
   ',]"
-year_hist_count: '[8,25,62,66,58,31,4,176]'
+year_hist_count: '[8,25,61,66,59,31,4,176]'
 year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1979,y:263,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1983,y:240,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
@@ -1140,7 +1140,7 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'biol\xF3gia'},{x:1947,y:37,name:'Vladim\xEDr Kell\xF6',id:'Kello:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1980,y:37,name:'\u013Dubo\u0161 Kri\u0161\u0165\
   \xE1k',id:'Kristak:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:docent:kompozitne_drevne_materialy:muz',field:'kompozitn\xE9\
-  \ drevn\xE9 materi\xE1ly',area:'materi\xE1ly'},{x:1956,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1959,y:37,name:'\u013D\
+  \ drevn\xE9 materi\xE1ly',area:'materi\xE1ly'},{x:1970,y:37,name:'Jozef Kristek',id:'Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1959,y:37,name:'\u013D\
   ubica Lacinov\xE1',id:'Lacinova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1964,y:37,name:'Roman\
   \ Marto\u0148\xE1k',id:'Martonak:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzika_kondenzovanych_latok:muz',field:'fyzika\
   \ kondenzovan\xFDch l\xE1tok',area:'fyzika'},{x:1981,y:37,name:'Peter Moln\xE1r',id:'Molnar:Norsko:University_of_Stavanger:Stavanger:profesor:ekonomia:muz',field:'ekon\xF3\
@@ -6654,7 +6654,7 @@ conn_areas:
     city: Bratislava
     country: Slovensko
     img: Jozef_Kristek_size_280px.jpg
-    card_id: Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:docent:geofyzika:muz
+    card_id: Kristek:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz
     areaurl: geovedy
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
