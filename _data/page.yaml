@@ -1,7 +1,7 @@
 countries:
   "\u0160vaj\u010Diarsko": 11
   "\xCDrsko": 1
-  USA: 49
+  USA: 50
   Slovensko: 230
   "N\xF3rsko": 4
   Holandsko: 6
@@ -24,7 +24,7 @@ countries:
   "Ju\u017En\xE1 K\xF3rea": 1
   "D\xE1nsko": 1
   "\u0160panielsko": 1
-man: 354
+man: 355
 woman: 76
 hindex:
 - 40
@@ -51,7 +51,7 @@ hindex:
 - 30
 - 73
 - 47
-- 35
+- 36
 - 35
 - 31
 - 30
@@ -74,11 +74,11 @@ hindex:
 - 47
 - 70
 - 37
-- 66
+- 67
 - 53
 - 80
 - 56
-- 38
+- 39
 - 33
 - 35
 - 32
@@ -96,7 +96,7 @@ hindex:
 - 63
 - 35
 - 45
-- 42
+- 43
 - 32
 - 31
 - 95
@@ -107,7 +107,7 @@ hindex:
 - 51
 - 48
 - 44
-- 54
+- 55
 - 52
 - 30
 - 44
@@ -117,7 +117,7 @@ hindex:
 - 31
 - 40
 - 98
-- 52
+- 53
 - 55
 - 82
 - 55
@@ -130,11 +130,11 @@ hindex:
 - 76
 - 35
 - 34
-- 33
-- 240
+- 34
+- 241
 - 34
 - 31
-- 180
+- 179
 - 276
 - 39
 - 46
@@ -162,7 +162,7 @@ hindex:
 - 53
 - 56
 - 39
-- 58
+- 59
 - 110
 - 30
 - 102
@@ -183,7 +183,7 @@ hindex:
 - 33
 - 33
 - 79
-- 79
+- 80
 - 30
 - 32
 - 34
@@ -192,7 +192,7 @@ hindex:
 - 30
 - 36
 - 55
-- 31
+- 32
 - 38
 - 32
 - 78
@@ -231,7 +231,7 @@ hindex:
 - 66
 - 37
 - 57
-- 39
+- 40
 - 40
 - 38
 - 41
@@ -252,13 +252,13 @@ hindex:
 - 42
 - 37
 - 31
-- 35
+- 34
 - 36
 - 38
 - 34
 - 56
 - 50
-- 50
+- 51
 - 55
 - 35
 - 45
@@ -268,7 +268,7 @@ hindex:
 - 34
 - 38
 - 72
-- 52
+- 53
 - 95
 - 38
 - 33
@@ -277,7 +277,7 @@ hindex:
 - 44
 - 36
 - 38
-- 41
+- 42
 - 52
 - 57
 - 42
@@ -289,7 +289,7 @@ hindex:
 - 35
 - 32
 - 64
-- 43
+- 44
 - 31
 - 47
 - 36
@@ -322,7 +322,7 @@ hindex:
 - 37
 - 34
 - 38
-- 42
+- 41
 - 30
 - 37
 - 30
@@ -360,7 +360,7 @@ hindex:
 - 47
 - 32
 - 53
-- 38
+- 39
 - 52
 - 34
 - 43
@@ -380,7 +380,7 @@ hindex:
 - 56
 - 36
 - 58
-- 88
+- 89
 - 42
 - 36
 - 56
@@ -432,13 +432,14 @@ hindex:
 - 37
 - 42
 - 37
+- 30
 - 33
 - 66
 - 47
 - 66
 - 45
 - 33
-- 49
+- 50
 - 35
 - 46
 - 33
@@ -462,12 +463,12 @@ affiliation: "['Slovensk\xE1 akad\xE9mia vied','Univerzita Komensk\xE9ho','Slove
   \ akad\xE9mia vied','Masarykova univerzita','Technick\xE1 univerzita v Ko\u0161\
   iciach','Technick\xE1 univerzita vo Zvolene','\u017Dilinsk\xE1 univerzita','Slovensk\xE1\
   \ po\u013Enohospod\xE1rska univerzita','Univerzita Palack\xE9ho v Olomouci','Medical\
-  \ University of Vienna','Univerzita Kon\u0161tant\xEDna Filozofa','Adelaide University','International\
+  \ University of Vienna','Univerzita Kon\u0161tant\xEDna Filozofa','Adelaide University','Google','International\
   \ Institute for Applied Systems Analysis','National Institutes of Health','North\
   \ Carolina State University','The University of Melbourne','Trnavsk\xE1 univerzita','University\
   \ of Oxford','Univerzita Karlova','Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave','\u010C\
   esk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze','\u010Cesk\xE9 vysok\xE9 u\u010D\
-  en\xED technick\xE9 v Prahe','Delft University of Technology','ETH Z\xFCrich','Google','KAUST','Microsoft\
+  en\xED technick\xE9 v Prahe','Delft University of Technology','ETH Z\xFCrich','KAUST','Microsoft\
   \ Research','New York University','Qatar University','Simon Fraser University','Slezsk\xE1\
   \ univerzita v Opave','Slovensk\xE1 zdravotn\xEDcka univerzita','University of Arizona','University\
   \ of California, San Diego','University of Missouri','University of Stavanger','University\
@@ -585,7 +586,7 @@ fields:
   - 42
   - 53
   - 34
-  - 33
+  - 34
   - 42
   - 32
   - 33
@@ -598,7 +599,7 @@ fields:
   - 53
   - 37
   - 41
-  - 50
+  - 51
   - 55
   - 44
   - 52
@@ -613,7 +614,7 @@ fields:
   - 39
   - 41
   - 36
-  - 38
+  - 39
   - 35
   - 34
   - 35
@@ -644,20 +645,20 @@ fields:
   - 31
   - 30
   - 35
-  - 38
-  - 42
+  - 39
+  - 43
   - 44
-  - 240
-  - 180
+  - 241
+  - 179
   - 276
   - 46
   - 68
   - 56
   - 53
   - 56
-  - 58
+  - 59
   - 33
-  - 79
+  - 80
   - 32
   - 34
   - 42
@@ -668,16 +669,16 @@ fields:
   - 66
   - 66
   - 31
-  - 35
+  - 34
   - 36
   - 45
   - 59
   - 72
   - 38
   - 31
-  - 41
   - 42
-  - 43
+  - 42
+  - 44
   - 44
   - 202
   - 41
@@ -712,19 +713,19 @@ fields:
   - 51
   - 45
   - 53
-  - 35
+  - 36
   - 40
   - 53
   - 33
   - 31
   - 32
-  - 66
+  - 67
   - 37
   - 79
   - 63
   - 51
   - 44
-  - 52
+  - 53
   - 76
   - 39
   - 56
@@ -753,7 +754,7 @@ fields:
   - 44
   - 33
   - 57
-  - 39
+  - 40
   - 40
   - 38
   - 38
@@ -764,7 +765,7 @@ fields:
   - 34
   - 56
   - 49
-  - 52
+  - 53
   - 95
   - 36
   - 57
@@ -788,7 +789,7 @@ fields:
   - 39
   - 56
   - 36
-  - 88
+  - 89
   - 36
   - 74
   - 34
@@ -870,7 +871,7 @@ fields:
   - 35
   - 35
   - 32
-  - 31
+  - 32
   - 61
   - 46
   - 36
@@ -920,8 +921,8 @@ fields:
   - 37
   - 46
   - 31
-  - 42
-  - 49
+  - 41
+  - 50
   "ekon\xF3mia a mana\u017Ement":
   - 30
   - 38
@@ -947,7 +948,7 @@ fields:
   "umel\xE1 inteligencia":
   - 45
   - 80
-  - 54
+  - 55
   - 79
   - 36
   - 41
@@ -957,15 +958,16 @@ fields:
   - 38
   - 40
   - 52
+  - 30
 hindex_hist_x: '[''30-39'',''40-49'',''50-59'',''60-69'',''70-79'',''80-89'',''90-99'',''100-109'',''110-119'',''120-129'',''130-139'',''140-149'',''150-159'',''160-169'',''170-179'',''180-189'',''190-199'',''200-209'',''210-219'',''220-229'',''230-239'',''240-249'',''250-259'',''260-269'',''270-276'',]'
-hindex_hist_count: '[215,96,62,19,20,3,6,3,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1]'
+hindex_hist_count: '[215,96,63,19,19,4,6,3,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1]'
 year_hist_x: "['1930-1939','1940-1949','1950-1959','1960-1969','1970-1979','1980-1989','1990-1994','neuveden\xFD\
   ',]"
-year_hist_count: '[8,25,61,66,59,31,4,176]'
+year_hist_count: '[8,25,61,66,59,31,4,177]'
 year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1979,y:263,name:'Roman Lys\xE1k',id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1983,y:240,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1946,y:180,name:'Branislav Sit\xE1r',id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1983,y:241,name:'Pavol Barto\u0161',id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1946,y:179,name:'Branislav Sit\xE1r',id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',field:'subjadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1962,y:110,name:'Jozef G\xE9cz',id:'Gecz:Australia:Adelaide_University:Adelaide:profesor:neurogenetika:muz',field:'neurogenetika',area:'medic\xED\
   na'},{x:1959,y:108,name:'Mari\xE1n Bresti\u010D',id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1933,y:102,name:'J\xE1n Vil\u010Dek',id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',field:'imunol\xF3\
@@ -975,13 +977,13 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ syst\xE9my',area:'informatika'},{x:1967,y:94,name:'Igor Juri\u0161ica',id:'Jurisica:Kanada:Krembil_Research_Institute:Toronto:vedec:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1941,y:92,name:'J\xE1\
   n Veizer',id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',field:'geoch\xE9\
   mia',area:'geovedy'},{x:1968,y:90,name:'\u0160tefan Matej\u010D\xEDk',id:'Matejcik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:elektronova_a_plazmova_fyzika:muz',field:'elektr\xF3\
-  nov\xE1 a plazmov\xE1 fyzika',area:'fyzika'},{x:1979,y:88,name:'Peter Boor',id:'Boor:Nemecko:RWTH_Aachen:Aachen:docent:patologia:muz',field:'patol\xF3\
+  nov\xE1 a plazmov\xE1 fyzika',area:'fyzika'},{x:1979,y:89,name:'Peter Boor',id:'Boor:Nemecko:RWTH_Aachen:Aachen:docent:patologia:muz',field:'patol\xF3\
   gia',area:'medic\xEDna'},{x:1951,y:82,name:'Radko Mesiar',id:'Mesiar:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
   \ matematika',area:'matematika'},{x:1933,y:80,name:'Ru\u017Eena Bajcsy',id:'Bajcsy:USA:University_of_California__Berkeley:Berkeley:profesorka:robotika_a_pocitacove_videnie:zena',field:'robotika\
-  \ a po\u010D\xEDta\u010Dov\xE9 videnie',area:'umel\xE1 inteligencia'},{x:1953,y:79,name:'Eleon\xF3\
-  ra Fabi\xE1nov\xE1',id:'Fabianova:Slovensko:Regionalny_urad_verejneho_zdravotnictva:Banska_Bystrica:docentka:verejne_zdravotnictvo:zena',field:'verejn\xE9\
-  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1959,y:79,name:'Fedor \u0160imkovic',id:'Simkovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1980,y:76,name:'Marek Majdan',id:'Majdan:Slovensko:Trnavska_univerzita:Trnava:docent:epidemiologia:muz',field:'epidemiol\xF3\
+  \ a po\u010D\xEDta\u010Dov\xE9 videnie',area:'umel\xE1 inteligencia'},{x:1959,y:80,name:'Fedor\
+  \ \u0160imkovic',id:'Simkovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1953,y:79,name:'Eleon\xF3ra Fabi\xE1nov\xE1',id:'Fabianova:Slovensko:Regionalny_urad_verejneho_zdravotnictva:Banska_Bystrica:docentka:verejne_zdravotnictvo:zena',field:'verejn\xE9\
+  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1980,y:76,name:'Marek Majdan',id:'Majdan:Slovensko:Trnavska_univerzita:Trnava:docent:epidemiologia:muz',field:'epidemiol\xF3\
   gia',area:'medic\xEDna'},{x:1961,y:76,name:'Silvia Pastorekov\xE1',id:'Pastorekova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:onkologia:zena',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1962,y:75,name:'Pavol Bauer',id:'Bauer:Holandsko:Delft_University_of_Technology:Delft:profesor:elektronika:muz',field:'elektronika',area:'in\u017E\
   inierstvo'},{x:1938,y:74,name:'Vladim\xEDr Bencko',id:'Bencko:Cesko:Univerzita_Karlova:Praha:profesor:hygiena_a_epidemiologia:muz',field:'hygiena\
@@ -997,11 +999,11 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   mia',area:'fyzika'},{x:1970,y:69,name:'R\xF3bert Kr\xE1lovics',id:'Kralovics:Rakusko:Medical_University_of_Vienna:Vieden:vedec:hematologia:muz',field:'hematol\xF3\
   gia',area:'medic\xEDna'},{x:1956,y:69,name:'Ladislav Mucina',id:'Mucina:Australia:Murdoch_University:Perth:profesor:biogeografia:muz',field:'biogeografia',area:'biol\xF3\
   gia'},{x:1942,y:68,name:'Pavel Povinec',id:'Povinec:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1957,y:68,name:'Miro Zeman',id:'Zeman:Holandsko:Delft_University_of_Technology:Delft:profesor:fotovoltaika:muz',field:'fotovoltaika',area:'fyzika'},{x:1941,y:66,name:'Peter\
-  \ Biely',id:'Biely:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biochemia:muz',field:'bioch\xE9\
+  \ fyzika',area:'fyzika'},{x:1957,y:68,name:'Miro Zeman',id:'Zeman:Holandsko:Delft_University_of_Technology:Delft:profesor:fotovoltaika:muz',field:'fotovoltaika',area:'fyzika'},{x:1973,y:67,name:'Peter\
+  \ Kubatka',id:'Kubatka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:onkologia:muz',field:'onkol\xF3\
+  gia',area:'medic\xEDna'},{x:1941,y:66,name:'Peter Biely',id:'Biely:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:biochemia:muz',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1957,y:66,name:'Vladim\xEDr Bu\u017Eek',id:'Buzek:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
-  \ fyzika',area:'fyzika'},{x:1973,y:66,name:'Peter Kubatka',id:'Kubatka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:onkologia:muz',field:'onkol\xF3\
-  gia',area:'medic\xEDna'},{x:1973,y:66,name:'L\xEDvia Ludhov\xE1',id:'Ludhova:Nemecko:Julich_Research_Centre:Julich:profesorka:fyzika_neutrin:zena',field:'fyzika\
+  \ fyzika',area:'fyzika'},{x:1973,y:66,name:'L\xEDvia Ludhov\xE1',id:'Ludhova:Nemecko:Julich_Research_Centre:Julich:profesorka:fyzika_neutrin:zena',field:'fyzika\
   \ neutr\xEDn',area:'fyzika'},{x:1969,y:64,name:'Mari\xE1n Hajd\xFAch',id:'Hajduch:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:docent:onkologia:muz',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1971,y:63,name:'Alexandra Bra\u017Einov\xE1',id:'Brazinova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:epidemiologia:zena',field:'epidemiol\xF3\
   gia',area:'medic\xEDna'},{x:1952,y:63,name:'Vladim\xEDr \u010Cern\xFD',id:'Cerny:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',field:'subjadrov\xE1\
@@ -1077,23 +1079,23 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ a fotonika',area:'fyzika'},{x:1966,y:44,name:'Pavol Szomol\xE1nyi',id:'Szomolanyi:Rakusko:Medical_University_of_Vienna:Vieden:vedec:magneticka_rezonancia:muz',field:'magnetick\xE1\
   \ rezonancia',area:'fyzika'},{x:1973,y:44,name:'Norbert \u017Dilka',id:'Zilka:Slovensko:Slovenska_akademia_vied:Bratislava:docent:neuroimunologia:muz',field:'neuroimunol\xF3\
   gia',area:'medic\xEDna'},{x:1978,y:43,name:'Roman Horv\xE1th',id:'Horvath:Cesko:Univerzita_Karlova:Praha:profesor:ekonomia:muz',field:'ekon\xF3\
-  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1968,y:42,name:'Du\u0161an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz',field:'keramick\xE9\
+  mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1979,y:43,name:'J\xE1n Rusz',id:'Rusz:Svedsko:Uppsala_University:Uppsala:profesor:fyzika_pevnych_latok:muz',field:'fyzika\
+  \ pevn\xFDch l\xE1tok',area:'fyzika'},{x:1968,y:42,name:'Du\u0161an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz',field:'keramick\xE9\
   \ materi\xE1ly',area:'materi\xE1ly'},{x:1962,y:42,name:'Igor Jex',id:'Jex:Cesko:Ceske_vysoke_uceni_technicke_v_Praze:Praha:profesor:kvantova_optika:muz',field:'kvantov\xE1\
   \ optika',area:'fyzika'},{x:1955,y:42,name:'Peter Kop\u010Dansk\xFD',id:'Kopcansky:Slovensko:Slovenska_akademia_vied:Kosice:docent:fyzika_magnetizmu:muz',field:'fyzika\
   \ magnetizmu',area:'fyzika'},{x:1974,y:42,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
-  \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
+  \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1959,y:42,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
   \ Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:fyzika_komplexnych_systemov:muz',field:'fyzika\
   \ komplexn\xFDch syst\xE9mov',area:'fyzika'},{x:1961,y:42,name:'Igor Podlubn\xFD\
   ',id:'Podlubny:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
-  \ matematika',area:'matematika'},{x:1979,y:42,name:'J\xE1n Rusz',id:'Rusz:Svedsko:Uppsala_University:Uppsala:profesor:fyzika_pevnych_latok:muz',field:'fyzika\
-  \ pevn\xFDch l\xE1tok',area:'fyzika'},{x:1955,y:42,name:'Katar\xEDna \u0160ebekov\xE1\
+  \ matematika',area:'matematika'},{x:1955,y:42,name:'Katar\xEDna \u0160ebekov\xE1\
   ',id:'Sebekova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:interna_medicina:zena',field:'intern\xE1\
   \ medic\xEDna',area:'medic\xEDna'},{x:1983,y:42,name:'\u013Dubom\xEDr \u0160vorc',id:'Svorc:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:analyticka_chemia:muz',field:'analytick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1974,y:42,name:'Jozef Ukropec',id:'Ukropec:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:patofyziologia:muz',field:'patofyziol\xF3\
   gia',area:'medic\xEDna'},{x:1943,y:41,name:'Ivan Chod\xE1k',id:'Chodak:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:modifikacia_polymerov:muz',field:'modifik\xE1\
   cia polym\xE9rov',area:'ch\xE9mia'},{x:1959,y:41,name:'J\xE1n Kormanec',id:'Kormanec:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:genova_expresia:muz',field:'g\xE9\
   nov\xE1 expresia',area:'biol\xF3gia'},{x:1980,y:41,name:'Andrej Liptaj',id:'Liptaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1959,y:41,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1965,y:41,name:'Katar\xEDna Miku\u0161ov\xE1',id:'Mikusova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:biochemia:zena',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1955,y:41,name:'Peter I. Nabelek',id:'Nabelek:USA:University_of_Missouri:Columbia:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1960,y:41,name:'Juraj Nemec',id:'Nemec:Cesko:Masarykova_univerzita:Brno:profesor:ekonomia:muz',field:'ekon\xF3\
@@ -1112,9 +1114,11 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   mia',area:'ch\xE9mia'},{x:1954,y:39,name:'J\xE1n Lehotsk\xFD',id:'Lehotsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:lekarska_biochemia:muz',field:'lek\xE1\
   rska bioch\xE9mia',area:'medic\xEDna'},{x:1950,y:39,name:'Ladislav \u0160olt\xE9\
   s',id:'Soltes:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:chemia_hyaluronanu:muz',field:'ch\xE9\
-  mia hyaluronanu',area:'ch\xE9mia'},{x:1977,y:39,name:'Ivan Viola',id:'Viola:Saudska_Arabia:KAUST:Thuwal:profesor:pocitacova_grafika_a_vizualizacia:muz',field:'po\u010D\
-  \xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia',area:'informatika'},{x:1966,y:38,name:'M\xE1\
-  ria Bielikov\xE1',id:'Bielikova:Slovensko:Kempelen_Institute_of_Intelligent_Technologies:Bratislava:profesorka:odporucacie_systemy:zena',field:'odpor\xFA\
+  mia hyaluronanu',area:'ch\xE9mia'},{x:1954,y:39,name:'Milan Timko',id:'Timko:Slovensko:Slovenska_akademia_vied:Kosice:vedec:fyzika_magnetizmu:muz',field:'fyzika\
+  \ magnetizmu',area:'fyzika'},{x:1977,y:39,name:'Ivan Viola',id:'Viola:Saudska_Arabia:KAUST:Thuwal:profesor:pocitacova_grafika_a_vizualizacia:muz',field:'po\u010D\
+  \xEDta\u010Dov\xE1 grafika a vizualiz\xE1cia',area:'informatika'},{x:1969,y:39,name:'Vladimir\
+  \ Zele\u0148\xE1k',id:'Zelenak:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:anorganicka_chemia:muz',field:'anorganick\xE1\
+  \ ch\xE9mia',area:'ch\xE9mia'},{x:1966,y:38,name:'M\xE1ria Bielikov\xE1',id:'Bielikova:Slovensko:Kempelen_Institute_of_Intelligent_Technologies:Bratislava:profesorka:odporucacie_systemy:zena',field:'odpor\xFA\
   \u010Dacie syst\xE9my',area:'umel\xE1 inteligencia'},{x:1980,y:38,name:'Marek Chmel\xED\
   k',id:'Chmelik:Slovensko:Presovska_univerzita:Presov:vedec:magneticka_rezonancia:muz',field:'magnetick\xE1\
   \ rezonancia',area:'fyzika'},{x:1977,y:38,name:'\u013Dubo\u0161 Dani\u0161ovi\u010D\
@@ -1130,9 +1134,7 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   rna a bunkov\xE1 biol\xF3gia',area:'biol\xF3gia'},{x:1981,y:38,name:'\u013Dudov\xED\
   t Paulis',id:'Paulis:Slovensko:Univerzita_Komenskeho:Bratislava:odborny_asistent:patofyziologia:muz',field:'patofyziol\xF3\
   gia',area:'medic\xEDna'},{x:1951,y:38,name:'Martin Rusn\xE1k',id:'Rusnak:Slovensko:Trnavska_univerzita:Trnava:profesor:verejne_zdravotnictvo:muz',field:'verejn\xE9\
-  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1954,y:38,name:'Milan Timko',id:'Timko:Slovensko:Slovenska_akademia_vied:Kosice:vedec:fyzika_magnetizmu:muz',field:'fyzika\
-  \ magnetizmu',area:'fyzika'},{x:1969,y:38,name:'Vladimir Zele\u0148\xE1k',id:'Zelenak:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:anorganicka_chemia:muz',field:'anorganick\xE1\
-  \ ch\xE9mia',area:'ch\xE9mia'},{x:1988,y:37,name:'Matej Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Kosice:vedec:mechanochemia:muz',field:'mechanoch\xE9\
+  \ zdravotn\xEDctvo',area:'medic\xEDna'},{x:1988,y:37,name:'Matej Bal\xE1\u017E',id:'Balaz:Slovensko:Slovenska_akademia_vied:Kosice:vedec:mechanochemia:muz',field:'mechanoch\xE9\
   mia',area:'ch\xE9mia'},{x:1962,y:37,name:'Milan \u010Cert\xEDk',id:'Certik:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:biotechnologia:muz',field:'biotechnol\xF3\
   gia',area:'biol\xF3gia'},{x:1975,y:37,name:'Peter Halama',id:'Halama:Slovensko:Trnavska_univerzita:Trnava:profesor:psychologia:muz',field:'psychol\xF3\
   gia',area:'spolo\u010Densk\xE9 vedy'},{x:1957,y:37,name:'M\xE1ria Kazim\xEDrov\xE1\
@@ -1150,8 +1152,9 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ubo\u0161 P\xE1stor',id:'Pastor:USA:University_of_Chicago:Chicago:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1975,y:37,name:'Peter Sta\u0148o',id:'Stano:Japonsko:RIKEN:Wako:vedec:teoreticka_fyzika:muz',field:'teoretick\xE1\
   \ fyzika',area:'fyzika'},{x:1961,y:36,name:'Imrich Bar\xE1k',id:'Barak:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:molekularna_biologia:muz',field:'molekul\xE1\
-  rna biol\xF3gia',area:'biol\xF3gia'},{x:1968,y:36,name:'Daniela Ga\u0161per\xED\
-  kov\xE1',id:'Gasperikova:Slovensko:Slovenska_akademia_vied:Bratislava:riaditelka:genetika_monogenovej_cukrovky:zena',field:'genetika\
+  rna biol\xF3gia',area:'biol\xF3gia'},{x:1964,y:36,name:'Da\u0161a \u010C\xED\u017E\
+  kov\xE1',id:'Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena',field:'neuroimunol\xF3\
+  gia',area:'medic\xEDna'},{x:1968,y:36,name:'Daniela Ga\u0161per\xEDkov\xE1',id:'Gasperikova:Slovensko:Slovenska_akademia_vied:Bratislava:riaditelka:genetika_monogenovej_cukrovky:zena',field:'genetika\
   \ monog\xE9novej cukrovky',area:'medic\xEDna'},{x:1952,y:36,name:'Fedor G\xF6m\xF6\
   ry',id:'Gomory:Slovensko:Slovenska_akademia_vied:Bratislava:docent:supravodice:muz',field:'supravodi\u010D\
   e',area:'fyzika'},{x:1981,y:36,name:'Peter Hrob\xE1rik',id:'Hrobarik:Slovensko:Univerzita_Komenskeho:Bratislava:docent:anorganicka_chemia:muz',field:'anorganick\xE1\
@@ -1160,8 +1163,7 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   ',id:'Koklesova:Slovensko:Univerzita_Komenskeho:Martin:odborna_asistentka:preventivna_onkologia:zena',field:'prevent\xED\
   vna onkol\xF3gia',area:'medic\xEDna'},{x:1971,y:36,name:'Juraj Ko\u0161ka',id:'Koska:USA:Amgen:Phoenix:medicinsky_riaditel:diabetologia:muz',field:'diabetol\xF3\
   gia',area:'medic\xEDna'},{x:1953,y:36,name:'Du\u0161an Pla\u0161ienka',id:'Plasienka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geologia:muz',field:'geol\xF3\
-  gia',area:'geovedy'},{x:1964,y:35,name:'Da\u0161a \u010C\xED\u017Ekov\xE1',id:'Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena',field:'neuroimunol\xF3\
-  gia',area:'medic\xEDna'},{x:1947,y:35,name:'Ferdinand Dev\xEDnsky',id:'Devinsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmaceuticka_chemia:muz',field:'farmaceutick\xE1\
+  gia',area:'geovedy'},{x:1947,y:35,name:'Ferdinand Dev\xEDnsky',id:'Devinsky:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmaceuticka_chemia:muz',field:'farmaceutick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1949,y:35,name:'Anatolij Dvure\u010Denskij',id:'Dvurecenskij:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:teoria_pravdepodobnosti:muz',field:'te\xF3\
   ria pravdepodobnosti',area:'matematika'},{x:1966,y:35,name:'Miroslav Grajcar',id:'Grajcar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
   \ fyzika',area:'fyzika'},{x:1969,y:35,name:'Monika Jani\u0161ov\xE1',id:'Janisova:Slovensko:Slovenska_akademia_vied:Bratislava:samostatna_vedecka_pracovnicka:geobotanika_a_ekologia_luk:zena',field:'geobotanika\
@@ -1174,14 +1176,13 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'geovedy'},{x:1979,y:35,name:'J\xE1n Titi\u0161',id:'Titis:Slovensko:Univerzita_svateho_Cyrila_a_Metoda_v_Trnave:Trnava:docent:anorganicka_chemia:muz',field:'anorganick\xE1\
   \ ch\xE9mia',area:'ch\xE9mia'},{x:1976,y:35,name:'Jan Val\xED\u010Dek',id:'Valicek:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:vyrobne_technologie:muz',field:'v\xFD\
   robn\xE9 technol\xF3gie',area:'in\u017Einierstvo'},{x:1966,y:35,name:'Iveta Waczul\xED\
-  kov\xE1',id:'Waczulikova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1988,y:35,name:'Michal\
-  \ Zaja\u010Dek',id:'Zajacek:Cesko:Masarykova_univerzita:Brno:docent:astrofyzika_galaktickych_jadier_a_ciernych_dier:muz',field:'astrofyzika\
-  \ galaktick\xFDch jadier a \u010Diernych dier',area:'fyzika'},{x:1981,y:34,name:'Michal\
+  kov\xE1',id:'Waczulikova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biofyzika:zena',field:'biofyzika',area:'fyzika'},{x:1981,y:34,name:'Michal\
   \ Bo\u0161e\u013Ea',id:'Bosela:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:odborny_asistent:lesnictvo:muz',field:'lesn\xED\
   ctvo',area:'biol\xF3gia'},{x:1958,y:34,name:'Jozef D\u017Eurina',id:'Dzurina:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:diferencialne_rovnice:muz',field:'diferenci\xE1\
   lne rovnice',area:'matematika'},{x:1965,y:34,name:'Pavol Hvizdo\u0161',id:'Hvizdos:Slovensko:Slovenska_akademia_vied:Kosice:docent:keramicke_materialy:muz',field:'keramick\xE9\
   \ materi\xE1ly',area:'materi\xE1ly'},{x:1974,y:34,name:'Richard Imrich',id:'Imrich:Slovensko:Slovenska_akademia_vied:Bratislava:docent:biomedicina:muz',field:'biomedic\xED\
-  na',area:'medic\xEDna'},{x:1937,y:34,name:'Ivan Lefkovits',id:'Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:emeritny_profesor:imunologia:muz',field:'imunol\xF3\
+  na',area:'medic\xEDna'},{x:1977,y:34,name:'Jana Kordul\xE1kov\xE1',id:'Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena',field:'bioch\xE9\
+  mia',area:'ch\xE9mia'},{x:1937,y:34,name:'Ivan Lefkovits',id:'Lefkovits:Svajciarsko:Universitatsspital_Basel:Basel:emeritny_profesor:imunologia:muz',field:'imunol\xF3\
   gia',area:'medic\xEDna'},{x:1944,y:34,name:'Jaroslav Lexa',id:'Lexa:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:vulkanologia:muz',field:'vulkanol\xF3\
   gia',area:'geovedy'},{x:1982,y:34,name:'Tom\xE1\u0161 Macku\u013Eak',id:'Mackulak:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:epidemiologia_odpadovych_vod:muz',field:'epidemiol\xF3\
   gia odpadov\xFDch v\xF4d',area:'medic\xEDna'},{x:1979,y:34,name:'Ladislav Mura',id:'Mura:Slovensko:Ekonomicka_univerzita_v_Bratislave:Bratislava:profesor:ekonomia:muz',field:'ekon\xF3\
@@ -1190,8 +1191,10 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ in\u017Einierstvo',area:'in\u017Einierstvo'},{x:1948,y:34,name:'Milan Remko',id:'Remko:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:fyzikalna_chemia:muz',field:'fyzik\xE1\
   lna ch\xE9mia',area:'ch\xE9mia'},{x:1966,y:34,name:'\u013Dubom\xEDr Tom\xE1\u0161\
   ka',id:'Tomaska:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:genetika_a_molekularna_biologia:muz',field:'genetika\
-  \ a molekul\xE1rna biol\xF3gia',area:'biol\xF3gia'},{x:1972,y:33,name:'\u0160tefan\
-  \ Be\u0148u\u0161',id:'Benus:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesor:fonetika:muz',field:'fonetika',area:'spolo\u010D\
+  \ a molekul\xE1rna biol\xF3gia',area:'biol\xF3gia'},{x:1988,y:34,name:'Michal Zaja\u010D\
+  ek',id:'Zajacek:Cesko:Masarykova_univerzita:Brno:docent:astrofyzika_galaktickych_jadier_a_ciernych_dier:muz',field:'astrofyzika\
+  \ galaktick\xFDch jadier a \u010Diernych dier',area:'fyzika'},{x:1972,y:33,name:'\u0160\
+  tefan Be\u0148u\u0161',id:'Benus:Slovensko:Univerzita_Konstantina_Filozofa:Nitra:profesor:fonetika:muz',field:'fonetika',area:'spolo\u010D\
   ensk\xE9 vedy'},{x:1983,y:33,name:'Du\u0161an Dr\xE1bik',id:'Drabik:Holandsko:Wageningen_University:Wageningen:docent:polnohospodarska_ekonomia:muz',field:'po\u013E\
   nohospod\xE1rska ekon\xF3mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1967,y:33,name:'\u013D\
   ubo\u0161 Drgo\u0148a',id:'Drgona:Slovensko:Narodny_onkologicky_ustav:Bratislava:docent:onkohematologia:muz',field:'onkohematol\xF3\
@@ -1200,9 +1203,8 @@ year_hindex_xy: "[{x:1952,y:276,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   tov\xE1 veda',area:'informatika'},{x:1965,y:33,name:'Milo\u0161 Hitka',id:'Hitka:Slovensko:Technicka_univerzita_vo_Zvolene:Zvolen:profesor:manazment:muz',field:'mana\u017E\
   ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1978,y:33,name:'Michal Jablonsk\xFD\
   ',id:'Jablonsky:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:technologia_bunicin_a_lignocelulozy:muz',field:'technol\xF3\
-  gia buni\u010D\xEDn a lignocelul\xF3zy',area:'ch\xE9mia'},{x:1977,y:33,name:'Jana\
-  \ Kordul\xE1kov\xE1',id:'Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena',field:'bioch\xE9\
-  mia',area:'ch\xE9mia'},{x:1964,y:33,name:'Ivan Kuric',id:'Kuric:Slovensko:Zilinska_univerzita:Zilina:profesor:automatizacia_vyrobnych_systemov:muz',field:'automatiz\xE1\
+  gia buni\u010D\xEDn a lignocelul\xF3zy',area:'ch\xE9mia'},{x:1964,y:33,name:'Ivan\
+  \ Kuric',id:'Kuric:Slovensko:Zilinska_univerzita:Zilina:profesor:automatizacia_vyrobnych_systemov:muz',field:'automatiz\xE1\
   cia v\xFDrobn\xFDch syst\xE9mov',area:'in\u017Einierstvo'},{x:1963,y:33,name:'J\xE1\
   n Kyselovi\u010D',id:'Kyselovic:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:farmakologia:muz',field:'farmakol\xF3\
   gia',area:'medic\xEDna'},{x:1976,y:33,name:'Jozef Mad\u017Eo',id:'Madzo:USA:The_Wistar_Institute:Filadelfia:odborny_asistent:epigenomika_rakoviny:muz',field:'epigen\xF3\
@@ -1268,17 +1270,17 @@ country: "['Slovensko','USA','\u010Cesko','Rak\xFAsko','Austr\xE1lia','Ve\u013Ek
   zsko','N\xF3rsko','Belgicko','\u0160v\xE9dsko','Katar','Saudsk\xE1 Ar\xE1bia','D\xE1\
   nsko','Est\xF3nsko','F\xEDnsko','\xCDrsko','Japonsko','Ju\u017En\xE1 K\xF3rea','Rusk\xE1\
   \ feder\xE1cia','\u0160panielsko','Spojen\xE9 arabsk\xE9 emir\xE1ty']"
-countryCount: '[230,49,41,15,13,13,12,12,11,6,5,4,3,3,2,2,1,1,1,1,1,1,1,1,1]'
+countryCount: '[230,50,41,15,13,13,12,12,11,6,5,4,3,3,2,2,1,1,1,1,1,1,1,1,1]'
 countryUrl: '[''Slovensko'',''USA'',''Cesko'',''Rakusko'',''Australia'',''Velka_Britania'',''Kanada'',''Nemecko'',''Svajciarsko'',''Holandsko'',''Francuzsko'',''Norsko'',''Belgicko'',''Svedsko'',''Katar'',''Saudska_Arabia'',''Dansko'',''Estonsko'',''Finsko'',''Irsko'',''Japonsko'',''Juzna_Korea'',''Ruska_federacia'',''Spanielsko'',''Spojene_arabske_emiraty'']'
-affiliationCount: '[80,63,20,11,9,9,9,9,8,6,6,5,4,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
+affiliationCount: '[80,63,20,11,9,9,9,9,8,6,6,5,4,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]'
 odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','in\u017Einierstvo','geovedy','ekon\xF3\
   mia a mana\u017Ement','matematika','informatika','materi\xE1ly','umel\xE1 inteligencia','spolo\u010D\
   ensk\xE9 vedy']"
-odborCount: '[93,73,64,60,24,23,21,17,16,16,12,11]'
-odborMin: '[30,30,30,30,30,30,30,30,30,30,31,30]'
-odborAvg: '[49.0,58.9,41.2,43.3,41.6,41.8,38.2,37.5,47.2,41.7,48.7,40.5]'
+odborCount: '[93,73,64,60,24,23,21,17,16,16,13,11]'
+odborMin: '[30,30,30,30,30,30,30,30,30,30,30,30]'
+odborAvg: '[49.1,58.9,41.3,43.3,41.6,41.8,38.2,37.5,47.2,41.7,47.3,40.5]'
 odborMax: '[110,276,66,108,75,92,56,82,95,58,80,56]'
-odborMedian: '[44.0,42.0,39.0,37.0,35.5,37.0,36.0,34.0,39.5,41.0,43.0,38.0]'
+odborMedian: '[44.0,42.0,39.0,37.0,35.5,37.0,36.0,34.0,39.5,40.5,41.0,38.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''inzinierstvo'',''geovedy'',''ekonomia_a_manazment'',''matematika'',''informatika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1533,6 +1535,7 @@ odbor_key:
   - "robotika a po\u010D\xEDta\u010Dov\xE9 videnie"
   - "robotika a strojov\xE9 videnie"
   - "strojov\xE9 u\u010Denie"
+  - "umel\xE1 inteligencia"
 - area: "spolo\u010Densk\xE9 vedy"
   fields:
   - "didaktika biol\xF3gie"
@@ -1546,7 +1549,7 @@ odbor_key:
   - "soci\xE1lna psychol\xF3gia"
   - "sociol\xF3gia"
 place: "['Slovensko','zahrani\u010Die']"
-placeCount: '[230,200]'
+placeCount: '[230,201]'
 placeMin: '[30,30]'
 placeAvg: '[43.4,49.8]'
 placeMax: '[276,263]'
@@ -1558,12 +1561,12 @@ city_markers: "[{name:'Bratislava',country:'Slovensko',count:155,lat:48.1516988,
   ilina',country:'Slovensko',count:8,lat:49.2234674,lon:18.7393139,url:'Zilina'},{name:'Olomouc',country:'\u010C\
   esko',count:6,lat:49.5940567,lon:17.251143,url:'Olomouc'},{name:'Trnava',country:'Slovensko',count:6,lat:48.3767652,lon:17.5858175,url:'Trnava'},{name:'Z\xFC\
   rich',country:'\u0160vaj\u010Diarsko',count:5,lat:47.3744489,lon:8.5410422,url:'Zurich'},{name:'Melbourne',country:'Austr\xE1\
-  lia',count:4,lat:-37.8142454,lon:144.9631732,url:'Melbourne'},{name:'Adelaide',country:'Austr\xE1\
+  lia',count:4,lat:-37.8142454,lon:144.9631732,url:'Melbourne'},{name:'Seattle',country:'USA',count:4,lat:47.6038321,lon:-122.330062,url:'Seattle'},{name:'Adelaide',country:'Austr\xE1\
   lia',count:3,lat:-34.9281805,lon:138.5999312,url:'Adelaide'},{name:'Berkeley',country:'USA',count:3,lat:37.8708393,lon:-122.272863,url:'Berkeley'},{name:'Bethesda',country:'USA',count:3,lat:38.9846816,lon:-77.0942447,url:'Bethesda'},{name:'Laxenburg',country:'Rak\xFA\
   sko',count:3,lat:48.0686831,lon:16.3561206,url:'Laxenburg'},{name:'Martin',country:'Slovensko',count:3,lat:49.0724921,lon:18.929193,url:'Martin'},{name:'New\
   \ York',country:'USA',count:3,lat:40.7127281,lon:-74.0060152,url:'New_York'},{name:'Ottawa',country:'Kanada',count:3,lat:45.4208777,lon:-75.6901106,url:'Ottawa'},{name:'Oxford',country:'Ve\u013E\
   k\xE1 Brit\xE1nia',count:3,lat:51.7520131,lon:-1.2578499,url:'Oxford'},{name:'Pre\u0161\
-  ov',country:'Slovensko',count:3,lat:49.0000074,lon:21.2392122,url:'Presov'},{name:'Raleigh',country:'USA',count:3,lat:35.7803977,lon:-78.6390989,url:'Raleigh'},{name:'Seattle',country:'USA',count:3,lat:47.6038321,lon:-122.330062,url:'Seattle'},{name:'Toronto',country:'Kanada',count:3,lat:43.6534817,lon:-79.3839347,url:'Toronto'},{name:'Basel',country:'\u0160\
+  ov',country:'Slovensko',count:3,lat:49.0000074,lon:21.2392122,url:'Presov'},{name:'Raleigh',country:'USA',count:3,lat:35.7803977,lon:-78.6390989,url:'Raleigh'},{name:'Toronto',country:'Kanada',count:3,lat:43.6534817,lon:-79.3839347,url:'Toronto'},{name:'Basel',country:'\u0160\
   vaj\u010Diarsko',count:2,lat:47.5581077,lon:7.5878261,url:'Basel'},{name:'Columbia',country:'USA',count:2,lat:38.951883,lon:-92.3337366,url:'Columbia'},{name:'Delft',country:'Holandsko',count:2,lat:52.0114017,lon:4.35839,url:'Delft'},{name:'Doha',country:'Katar',count:2,lat:25.2856329,lon:51.5264162,url:'Doha'},{name:'Filadelfia',country:'USA',count:2,lat:39.9527237,lon:-75.1635262,url:'Filadelfia'},{name:'Fribourg',country:'\u0160\
   vaj\u010Diarsko',count:2,lat:46.8055656,lon:7.1612669,url:'Fribourg'},{name:'Glasgow',country:'Ve\u013E\
   k\xE1 Brit\xE1nia',count:2,lat:55.861155,lon:-4.2501687,url:'Glasgow'},{name:'Opava',country:'\u010C\
@@ -1614,16 +1617,16 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   ',h:54},{name:'Boris Klempa',h:53},{name:'Karol Marhold',h:53},{name:'Igor Lac\xED\
   k',h:52},{name:'Peter Komadel',h:51},{name:'O\u013Ega Pech\xE1\u0148ov\xE1',h:50},{name:'Juraj\
   \ Majt\xE1n',h:47},{name:'Peter Gemeiner',h:47},{name:'\u0160tefan Jane\u010Dek',h:47},{name:'Iwar\
-  \ Klime\u0161',h:44},{name:'Norbert \u017Dilka',h:44},{name:'Jozef Ukropec',h:42},{name:'Zdenko\
-  \ \u0160pit\xE1lsky',h:42},{name:'Adam Toma\u0161ov\xFDch',h:41},{name:'Andrej Liptaj',h:41},{name:'Igor\
-  \ Tvaro\u0161ka',h:41},{name:'Ivan Chod\xE1k',h:41},{name:'J\xE1n Kormanec',h:41},{name:'Pavol\
-  \ \u0160ajgal\xEDk',h:40},{name:'Ladislav \u0160olt\xE9s',h:39},{name:'Vladim\xED\
-  r Farka\u0161',h:39},{name:'Iveta Bern\xE1tov\xE1',h:38},{name:'O\u013Ega Kri\u017E\
-  anov\xE1',h:38},{name:'Karol Ondria\u0161',h:37},{name:'\u013Dubica Lacinov\xE1\
-  ',h:37},{name:'M\xE1ria Kazim\xEDrov\xE1',h:37},{name:'Daniela Ga\u0161per\xEDkov\xE1\
-  ',h:36},{name:'Fedor G\xF6m\xF6ry',h:36},{name:'Imrich Bar\xE1k',h:36},{name:'Jaroslav\
-  \ Mosn\xE1\u010Dek',h:36},{name:'Anatolij Dvure\u010Denskij',h:35},{name:'Da\u0161\
-  a \u010C\xED\u017Ekov\xE1',h:35},{name:'Marcel Z\xE1mock\xFD',h:35},{name:'Miroslav\
+  \ Klime\u0161',h:44},{name:'Norbert \u017Dilka',h:44},{name:'Jozef Ukropec',h:42},{name:'Adam\
+  \ Toma\u0161ov\xFDch',h:41},{name:'Andrej Liptaj',h:41},{name:'Igor Tvaro\u0161\
+  ka',h:41},{name:'Ivan Chod\xE1k',h:41},{name:'J\xE1n Kormanec',h:41},{name:'Zdenko\
+  \ \u0160pit\xE1lsky',h:41},{name:'Pavol \u0160ajgal\xEDk',h:40},{name:'Ladislav\
+  \ \u0160olt\xE9s',h:39},{name:'Vladim\xEDr Farka\u0161',h:39},{name:'Iveta Bern\xE1\
+  tov\xE1',h:38},{name:'O\u013Ega Kri\u017Eanov\xE1',h:38},{name:'Karol Ondria\u0161\
+  ',h:37},{name:'\u013Dubica Lacinov\xE1',h:37},{name:'M\xE1ria Kazim\xEDrov\xE1',h:37},{name:'Daniela\
+  \ Ga\u0161per\xEDkov\xE1',h:36},{name:'Da\u0161a \u010C\xED\u017Ekov\xE1',h:36},{name:'Fedor\
+  \ G\xF6m\xF6ry',h:36},{name:'Imrich Bar\xE1k',h:36},{name:'Jaroslav Mosn\xE1\u010D\
+  ek',h:36},{name:'Anatolij Dvure\u010Denskij',h:35},{name:'Marcel Z\xE1mock\xFD',h:35},{name:'Miroslav\
   \ Kocifaj',h:35},{name:'Monika Jani\u0161ov\xE1',h:35},{name:'Igor Nov\xE1k',h:34},{name:'Jaroslav\
   \ Lexa',h:34},{name:'Richard Imrich',h:34},{name:'Jana Jakub\xEDkov\xE1',h:33},{name:'Mari\xE1\
   n Kraj\u010D\xED',h:33},{name:'Peter Vr\u0161ansk\xFD',h:33},{name:'Richard Hrivn\xE1\
@@ -1634,14 +1637,14 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   rio Ziman',h:31},{name:'Tom\xE1\u0161 Bleha',h:31},{name:'Jozef Hanes',h:30},{name:'\u013D\
   ubo\u0161 \u010Cip\xE1k',h:30},{name:'Peter Cifra',h:30}]},{name:'Univerzita Komensk\xE9\
   ho',city:'Bratislava',count:60,lat:48.267,lon:17.109,url:'Univerzita_Komenskeho',names:[{name:'Stanislav\
-  \ Tok\xE1r',h:276},{name:'Pavol Barto\u0161',h:240},{name:'Branislav Sit\xE1r',h:180},{name:'\u0160\
-  tefan Matej\u010D\xEDk',h:90},{name:'Fedor \u0160imkovic',h:79},{name:'Pavel Povinec',h:68},{name:'Peter\
-  \ Kubatka',h:66},{name:'Alexandra Bra\u017Einov\xE1',h:63},{name:'Vladim\xEDr \u010C\
+  \ Tok\xE1r',h:276},{name:'Pavol Barto\u0161',h:241},{name:'Branislav Sit\xE1r',h:179},{name:'\u0160\
+  tefan Matej\u010D\xEDk',h:90},{name:'Fedor \u0160imkovic',h:80},{name:'Pavel Povinec',h:68},{name:'Peter\
+  \ Kubatka',h:67},{name:'Alexandra Bra\u017Einov\xE1',h:63},{name:'Vladim\xEDr \u010C\
   ern\xFD',h:63},{name:'Pavol Prokop',h:62},{name:'Josef Jamp\xEDlek',h:57},{name:'Peter\
   \ Celec',h:56},{name:'Michal Mego',h:51},{name:'Jozef Noga',h:47},{name:'Tibor Hianik',h:47},{name:'Tom\xE1\
   \u0161 Bu\u010Dko',h:47},{name:'Michal Zeman',h:46},{name:'Nat\xE1lia Kryvinsk\xE1\
-  ',h:46},{name:'Michal Fe\u010Dkan',h:44},{name:'Katar\xEDna \u0160ebekov\xE1',h:42},{name:'Peter\
-  \ Moczo',h:42},{name:'Zdenko Machala',h:42},{name:'Jozef Masarik',h:41},{name:'Katar\xED\
+  ',h:46},{name:'Michal Fe\u010Dkan',h:44},{name:'Jozef Masarik',h:42},{name:'Katar\xED\
+  na \u0160ebekov\xE1',h:42},{name:'Peter Moczo',h:42},{name:'Zdenko Machala',h:42},{name:'Katar\xED\
   na Miku\u0161ov\xE1',h:41},{name:'Miroslav Urban',h:41},{name:'Stanislav Antalic',h:41},{name:'Juraj\
   \ Bujd\xE1k',h:40},{name:'J\xE1n Lehotsk\xFD',h:39},{name:'Zdenka \u010Eura\u010D\
   kov\xE1',h:39},{name:'Daniela Ostatn\xEDkov\xE1',h:38},{name:'\u013Dubo\u0161 Dani\u0161\
@@ -1649,9 +1652,9 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Kristek',h:37},{name:'Roman Marto\u0148\xE1k',h:37},{name:'Vladim\xEDr Kell\xF6\
   ',h:37},{name:'Du\u0161an Pla\u0161ienka',h:36},{name:'Peter Hrob\xE1rik',h:36},{name:'Ferdinand\
   \ Dev\xEDnsky',h:35},{name:'Iveta Waczul\xEDkov\xE1',h:35},{name:'Jozef Nosek',h:35},{name:'Marek\
-  \ Fila',h:35},{name:'Miroslav Grajcar',h:35},{name:'\u013Dubom\xEDr Tom\xE1\u0161\
-  ka',h:34},{name:'Milan Remko',h:34},{name:'Roman Sz\u0171cs',h:34},{name:'J\xE1\
-  n Kyselovi\u010D',h:33},{name:'Jana Kordul\xE1kov\xE1',h:33},{name:'Pavol Quittner',h:33},{name:'Tom\xE1\
+  \ Fila',h:35},{name:'Miroslav Grajcar',h:35},{name:'Jana Kordul\xE1kov\xE1',h:34},{name:'\u013D\
+  ubom\xEDr Tom\xE1\u0161ka',h:34},{name:'Milan Remko',h:34},{name:'Roman Sz\u0171\
+  cs',h:34},{name:'J\xE1n Kyselovi\u010D',h:33},{name:'Pavol Quittner',h:33},{name:'Tom\xE1\
   \u0161 Vina\u0159',h:33},{name:'Tom\xE1\u0161 Roch',h:32},{name:'Daniela Reh\xE1\
   kov\xE1',h:31},{name:'Gust\xE1v Plesch',h:31},{name:'Pavol Balgav\xFD',h:31},{name:'Tom\xE1\
   \u0161 Szemes',h:31},{name:'Jozef Min\xE1r',h:30},{name:'J\xFAlius \u0160ub\xED\
@@ -1661,19 +1664,19 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   ubom\xEDr \u0160vorc',h:42},{name:'Milan \u010Cert\xEDk',h:37},{name:'J\xE1n Szolgay',h:35},{name:'Karol\
   \ Mikula',h:35},{name:'Zlatica Kohajdov\xE1',h:35},{name:'Milan Polakovi\u010D',h:34},{name:'\u0160\
   tefan Schlosser',h:34},{name:'Tom\xE1\u0161 Macku\u013Eak',h:34},{name:'Michal Jablonsk\xFD\
-  ',h:33},{name:'Milan Hronec',h:32},{name:'Igor Bod\xEDk',h:31},{name:'Jozef \u0160\
-  ir\xE1\u0148',h:31},{name:'Michal Kvasnica',h:31},{name:'Miroslav G\xE1l',h:31},{name:'Silvia\
+  ',h:33},{name:'Michal Kvasnica',h:32},{name:'Milan Hronec',h:32},{name:'Igor Bod\xED\
+  k',h:31},{name:'Jozef \u0160ir\xE1\u0148',h:31},{name:'Miroslav G\xE1l',h:31},{name:'Silvia\
   \ Kohnov\xE1',h:31},{name:'Albert Breier',h:30},{name:'\u013Dubom\xEDr Val\xEDk',h:30}]},{name:'Slovensk\xE1\
   \ akad\xE9mia vied',city:'Ko\u0161ice',count:12,lat:48.6875,lon:21.17255661457009,url:'Slovenska_akademia_vied',names:[{name:'J\xE1\
   n Dusza',h:54},{name:'Andrea Laukov\xE1',h:47},{name:'Peter Kop\u010Dansk\xFD',h:42},{name:'Milan\
-  \ Timko',h:38},{name:'Matej Bal\xE1\u017E',h:37},{name:'Pavol Hvizdo\u0161',h:34},{name:'Radovan\
+  \ Timko',h:39},{name:'Matej Bal\xE1\u017E',h:37},{name:'Pavol Hvizdo\u0161',h:34},{name:'Radovan\
   \ Bure\u0161',h:33},{name:'Dana Miklisov\xE1',h:32},{name:'Klaudia \u010Cobanov\xE1\
   \ (Boldi\u017E\xE1rov\xE1)',h:32},{name:'Karol Flachbart',h:31},{name:'Zuzana Ga\u017E\
   ov\xE1',h:31},{name:'Peter Samuely',h:30}]},{name:'Univerzita Pavla Jozefa \u0160\
   af\xE1rika',city:'Ko\u0161ice',count:11,lat:48.6875,lon:21.327443385429913,url:'Univerzita_Pavla_Jozefa_Safarika',names:[{name:'Andrea\
   \ Madarasov\xE1 Geckov\xE1',h:56},{name:'Iveta Nagyov\xE1',h:48},{name:'Martin Ba\u010D\
   kor',h:47},{name:'Martin Gmitra',h:47},{name:'J\xE1n Moj\u017Ei\u0161',h:45},{name:'Zuzana\
-  \ Gdovinov\xE1',h:40},{name:'Vladimir Zele\u0148\xE1k',h:38},{name:'Matej \u0160\
+  \ Gdovinov\xE1',h:40},{name:'Vladimir Zele\u0148\xE1k',h:39},{name:'Matej \u0160\
   korv\xE1nek',h:35},{name:'Eva \u010Cell\xE1rov\xE1',h:31},{name:'Peter Jar\u010D\
   u\u0161ka',h:31},{name:'Pavol \u0160tekauer',h:30}]},{name:'Technick\xE1 univerzita\
   \ vo Zvolene',city:'Zvolen',count:9,lat:48.629000000000005,lon:19.125,url:'Technicka_univerzita_vo_Zvolene',names:[{name:'Du\u0161\
@@ -1714,7 +1717,7 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   \ Krupka',h:30}]},{name:'N\xE1rodn\xFD onkologick\xFD \xFAstav',city:'Bratislava',count:1,lat:48.13563379359857,lon:16.938381231183246,url:'Narodny_onkologicky_ustav',names:[{name:'\u013D\
   ubo\u0161 Drgo\u0148a',h:33}]},{name:'N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4\
   b',city:'Pie\u0161\u0165any',count:1,lat:48.5895247,lon:17.8213848,url:'Narodny_ustav_reumatickych_chorob',names:[{name:'Jozef\
-  \ Rovensk\xFD',h:52}]},{name:'Onkologick\xFD \xFAstav sv. Al\u017Ebety',city:'Bratislava',count:1,lat:48.041658308034336,lon:17.157563164981088,url:'Onkologicky_ustav_sv._Alzbety',names:[{name:'Karol\
+  \ Rovensk\xFD',h:53}]},{name:'Onkologick\xFD \xFAstav sv. Al\u017Ebety',city:'Bratislava',count:1,lat:48.041658308034336,lon:17.157563164981088,url:'Onkologicky_ustav_sv._Alzbety',names:[{name:'Karol\
   \ Kajo',h:37}]},{name:'Pre\u0161ovsk\xE1 univerzita',city:'Pre\u0161ov',count:1,lat:49.059,lon:21.239,url:'Presovska_univerzita',names:[{name:'Marek\
   \ Chmel\xEDk',h:38}]},{name:'Region\xE1lny \xFArad verejn\xE9ho zdravotn\xEDctva',city:'Bansk\xE1\
   \ Bystrica',count:1,lat:48.735429,lon:19.1457338,url:'Regionalny_urad_verejneho_zdravotnictva',names:[{name:'Eleon\xF3\
@@ -1738,11 +1741,11 @@ record_area: "[{name:'Stanislav Tok\xE1r',h:276,id:'Tokar:Slovensko:Univerzita_K
   mia a mana\u017Ement'},{name:'Andrea Madarasov\xE1 Geckov\xE1',h:56,id:'Geckova:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesorka:socialna_psychologia:zena',area:'spolo\u010D\
   ensk\xE9 vedy'}]"
 record_decade: "[{name:'J\xE1n Vil\u010Dek',h:102,id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',decade:'1930s'},{name:'Branislav\
-  \ Sit\xE1r',h:180,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
+  \ Sit\xE1r',h:179,id:'Sitar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1940s'},{name:'Stanislav\
   \ Tok\xE1r',h:276,id:'Tokar:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:subjadrova_fyzika:muz',decade:'1950s'},{name:'Jozef\
   \ G\xE9cz',h:110,id:'Gecz:Australia:Adelaide_University:Adelaide:profesor:neurogenetika:muz',decade:'1960s'},{name:'Roman\
   \ Lys\xE1k',h:263,id:'Lysak:Cesko:Ceska_akademia_vied:Praha:vedec:subjadrova_fyzika:muz',decade:'1970s'},{name:'Pavol\
-  \ Barto\u0161',h:240,id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',decade:'1980s'},{name:'Peter\
+  \ Barto\u0161',h:241,id:'Bartos:Slovensko:Univerzita_Komenskeho:Bratislava:docent:subjadrova_fyzika:muz',decade:'1980s'},{name:'Peter\
   \ \u0160vihra',h:72,id:'Svihra:Svajciarsko:CERN:Zeneva:vedec:subjadrova_fyzika:muz',decade:'1990s'}]"
 conn_areas:
 - label: "medic\xEDna"
@@ -1764,7 +1767,7 @@ conn_areas:
     affiliationurl: Adelaide_University
     cityurl: Adelaide
     countryurl: Australia
-  - &id281
+  - &id282
     name: "J\xE1n Vil\u010Dek"
     last: Vilcek
     hindex: 102
@@ -1779,7 +1782,7 @@ conn_areas:
     affiliationurl: New_York_University
     cityurl: New_York
     countryurl: USA
-  - &id418
+  - &id419
     name: Jozef Bartunek
     last: Bartunek
     hindex: 95
@@ -1794,10 +1797,10 @@ conn_areas:
     affiliationurl: Cardiovascular_Research_Center
     cityurl: Aalst
     countryurl: Belgicko
-  - &id395
+  - &id396
     name: Peter Boor
     last: Boor
-    hindex: 88
+    hindex: 89
     field: "patol\xF3gia"
     area: "medic\xEDna"
     affiliation: RWTH Aachen
@@ -1809,7 +1812,7 @@ conn_areas:
     affiliationurl: RWTH_Aachen
     cityurl: Aachen
     countryurl: Nemecko
-  - &id323
+  - &id324
     name: "Barbora (Voz\xE1rov\xE1) de Courten"
     last: de Courten
     hindex: 79
@@ -1824,7 +1827,7 @@ conn_areas:
     affiliationurl: Monash_University
     cityurl: Melbourne
     countryurl: Australia
-  - &id348
+  - &id349
     name: "Eleon\xF3ra Fabi\xE1nov\xE1"
     last: Fabianova
     hindex: 79
@@ -1839,7 +1842,7 @@ conn_areas:
     affiliationurl: Regionalny_urad_verejneho_zdravotnictva
     cityurl: Banska_Bystrica
     countryurl: Slovensko
-  - &id301
+  - &id302
     name: "Vladim\xEDr D\u017Eav\xEDk"
     last: Dzavik
     hindex: 78
@@ -1854,7 +1857,7 @@ conn_areas:
     affiliationurl: University_of_Toronto
     cityurl: Toronto
     countryurl: Kanada
-  - &id416
+  - &id417
     name: "M\xE1ria Du\u0161insk\xE1"
     last: Dusinska
     hindex: 77
@@ -1869,7 +1872,7 @@ conn_areas:
     affiliationurl: Norwegian_Institute_for_Air_Research
     cityurl: Kjeller
     countryurl: Norsko
-  - &id255
+  - &id258
     name: Marek Majdan
     last: Majdan
     hindex: 76
@@ -1899,7 +1902,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id261
+  - &id264
     name: "Vladim\xEDr Bencko"
     last: Bencko
     hindex: 74
@@ -1929,7 +1932,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id258
+  - &id261
     name: Ervin Fodor
     last: Fodor
     hindex: 71
@@ -1959,7 +1962,22 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
-  - &id352
+  - &id087
+    name: Peter Kubatka
+    last: Kubatka
+    hindex: 67
+    field: "onkol\xF3gia"
+    area: "medic\xEDna"
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Peter_Kubatka_size_280px.jpg
+    card_id: Kubatka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:onkologia:muz
+    areaurl: medicina
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id353
     name: "Maro\u0161 Feren\u010D\xEDk"
     last: Ferencik
     hindex: 66
@@ -1974,21 +1992,6 @@ conn_areas:
     affiliationurl: Oregon_Health_and_Science_University
     cityurl: Portland
     countryurl: USA
-  - &id087
-    name: Peter Kubatka
-    last: Kubatka
-    hindex: 66
-    field: "onkol\xF3gia"
-    area: "medic\xEDna"
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
-    country: Slovensko
-    img: Peter_Kubatka_size_280px.jpg
-    card_id: Kubatka:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:onkologia:muz
-    areaurl: medicina
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id226
     name: "Mari\xE1n Hajd\xFAch"
     last: Hajduch
@@ -2049,7 +2052,7 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
-  - &id293
+  - &id294
     name: "Martin Mar\u0161ala"
     last: Marsala
     hindex: 57
@@ -2064,7 +2067,7 @@ conn_areas:
     affiliationurl: University_of_California__San_Diego
     cityurl: San_Diego
     countryurl: USA
-  - &id407
+  - &id408
     name: "Michal Mokr\xFD"
     last: Mokry
     hindex: 57
@@ -2094,7 +2097,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id353
+  - &id354
     name: Peter Hedera
     last: Hedera
     hindex: 56
@@ -2154,7 +2157,7 @@ conn_areas:
     affiliationurl: Slovenska_polnohospodarska_univerzita
     cityurl: Nitra
     countryurl: Slovensko
-  - &id252
+  - &id255
     name: "Tom\xE1\u0161 Kalin\u010D\xEDk"
     last: Kalincik
     hindex: 55
@@ -2169,7 +2172,22 @@ conn_areas:
     affiliationurl: The_University_of_Melbourne
     cityurl: Melbourne
     countryurl: Australia
-  - &id246
+  - &id421
+    name: "Lenka Be\u0148ov\xE1"
+    last: Benova
+    hindex: 53
+    field: "reproduk\u010Dn\xE9 zdravie"
+    area: "medic\xEDna"
+    affiliation: Institute of Tropical Medicine Antwerp
+    city: Antwerpy
+    country: Belgicko
+    img: Lenka_Benova_size_280px.jpg
+    card_id: Benova:Belgicko:Institute_of_Tropical_Medicine_Antwerp:Antwerpy:profesorka:reprodukcne_zdravie:zena
+    areaurl: medicina
+    affiliationurl: Institute_of_Tropical_Medicine_Antwerp
+    cityurl: Antwerpy
+    countryurl: Belgicko
+  - &id249
     name: "Bibiana Bielekov\xE1"
     last: Bielekova
     hindex: 53
@@ -2184,7 +2202,7 @@ conn_areas:
     affiliationurl: National_Institutes_of_Health
     cityurl: Bethesda
     countryurl: USA
-  - &id303
+  - &id304
     name: Lubor Borsig
     last: Borsig
     hindex: 53
@@ -2199,7 +2217,7 @@ conn_areas:
     affiliationurl: University_of_Zurich
     cityurl: Zurich
     countryurl: Svajciarsko
-  - &id355
+  - &id356
     name: "Marcela Brissov\xE1"
     last: Brissova
     hindex: 53
@@ -2229,7 +2247,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id316
+  - &id317
     name: "Peter Kru\u017Eliak"
     last: Kruzliak
     hindex: 53
@@ -2244,25 +2262,10 @@ conn_areas:
     affiliationurl: Research_and_Development_Services
     cityurl: Brno
     countryurl: Cesko
-  - &id420
-    name: "Lenka Be\u0148ov\xE1"
-    last: Benova
-    hindex: 52
-    field: "reproduk\u010Dn\xE9 zdravie"
-    area: "medic\xEDna"
-    affiliation: Institute of Tropical Medicine Antwerp
-    city: Antwerpy
-    country: Belgicko
-    img: Lenka_Benova_size_280px.jpg
-    card_id: Benova:Belgicko:Institute_of_Tropical_Medicine_Antwerp:Antwerpy:profesorka:reprodukcne_zdravie:zena
-    areaurl: medicina
-    affiliationurl: Institute_of_Tropical_Medicine_Antwerp
-    cityurl: Antwerpy
-    countryurl: Belgicko
-  - &id349
+  - &id350
     name: "Jozef Rovensk\xFD"
     last: Rovensky
-    hindex: 52
+    hindex: 53
     field: "reumatol\xF3gia"
     area: "medic\xEDna"
     affiliation: "N\xE1rodn\xFD \xFAstav reumatick\xFDch chor\xF4b"
@@ -2274,7 +2277,7 @@ conn_areas:
     affiliationurl: Narodny_ustav_reumatickych_chorob
     cityurl: Piestany
     countryurl: Slovensko
-  - &id398
+  - &id399
     name: "Andrej Kr\xE1\u013E"
     last: Kral
     hindex: 51
@@ -2319,7 +2322,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id289
+  - &id290
     name: "Tom\xE1\u0161 Trnovec"
     last: Trnovec
     hindex: 50
@@ -2334,7 +2337,7 @@ conn_areas:
     affiliationurl: Slovenska_zdravotnicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id291
+  - &id292
     name: "Igor Koz\xE1k"
     last: Kozak
     hindex: 49
@@ -2364,7 +2367,7 @@ conn_areas:
     affiliationurl: Univerzita_Pavla_Jozefa_Safarika
     cityurl: Kosice
     countryurl: Slovensko
-  - &id282
+  - &id283
     name: "Tom\xE1\u0161 Kirchhoff"
     last: Kirchhoff
     hindex: 47
@@ -2424,7 +2427,7 @@ conn_areas:
     affiliationurl: Univerzita_Pavla_Jozefa_Safarika
     cityurl: Kosice
     countryurl: Slovensko
-  - &id248
+  - &id251
     name: "Juraj Kab\xE1t"
     last: Kabat
     hindex: 44
@@ -2454,7 +2457,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id338
+  - &id339
     name: "\u013Dubica Rauov\xE1"
     last: Rauova
     hindex: 44
@@ -2484,7 +2487,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id102
+  - &id103
     name: "Katar\xEDna \u0160ebekov\xE1"
     last: Sebekova
     hindex: 42
@@ -2499,7 +2502,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id026
+  - &id025
     name: Jozef Ukropec
     last: Ukropec
     hindex: 42
@@ -2544,7 +2547,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Martin
     countryurl: Slovensko
-  - &id321
+  - &id322
     name: "Marek S\xFDkora"
     last: Sykora
     hindex: 40
@@ -2559,7 +2562,22 @@ conn_areas:
     affiliationurl: Sigmund_Freud_University
     cityurl: Vieden
     countryurl: Rakusko
-  - &id384
+  - &id424
+    name: "Eva Tvrd\xE1"
+    last: Tvrda
+    hindex: 40
+    field: "androl\xF3gia"
+    area: "medic\xEDna"
+    affiliation: Estonian University of Life Sciences
+    city: Tartu
+    country: "Est\xF3nsko"
+    img: Eva_Tvrda_size_280px.jpg
+    card_id: Tvrda:Estonsko:Estonian_University_of_Life_Sciences:Tartu:profesorka:andrologia:zena
+    areaurl: medicina
+    affiliationurl: Estonian_University_of_Life_Sciences
+    cityurl: Tartu
+    countryurl: Estonsko
+  - &id385
     name: "M\xE1ria Kukli\u0161ov\xE1"
     last: Kuklisova
     hindex: 39
@@ -2589,7 +2607,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id290
+  - &id291
     name: "\u013Dubica Palkovi\u010Dov\xE1 Mur\xEDnov\xE1"
     last: Palkovicova Murinova
     hindex: 39
@@ -2604,22 +2622,7 @@ conn_areas:
     affiliationurl: Slovenska_zdravotnicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id423
-    name: "Eva Tvrd\xE1"
-    last: Tvrda
-    hindex: 39
-    field: "androl\xF3gia"
-    area: "medic\xEDna"
-    affiliation: Estonian University of Life Sciences
-    city: Tartu
-    country: "Est\xF3nsko"
-    img: Eva_Tvrda_size_280px.jpg
-    card_id: Tvrda:Estonsko:Estonian_University_of_Life_Sciences:Tartu:profesorka:andrologia:zena
-    areaurl: medicina
-    affiliationurl: Estonian_University_of_Life_Sciences
-    cityurl: Tartu
-    countryurl: Estonsko
-  - &id035
+  - &id036
     name: "Iveta Bern\xE1tov\xE1"
     last: Bernatova
     hindex: 38
@@ -2694,7 +2697,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id256
+  - &id259
     name: "Martin Rusn\xE1k"
     last: Rusnak
     hindex: 38
@@ -2709,7 +2712,7 @@ conn_areas:
     affiliationurl: Trnavska_univerzita
     cityurl: Trnava
     countryurl: Slovensko
-  - &id308
+  - &id309
     name: Karol Kajo
     last: Kajo
     hindex: 37
@@ -2724,7 +2727,7 @@ conn_areas:
     affiliationurl: Onkologicky_ustav_sv._Alzbety
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id401
+  - &id402
     name: "\u0160tefan Porubsk\xFD"
     last: Porubsky
     hindex: 37
@@ -2740,6 +2743,21 @@ conn_areas:
     cityurl: Mannheim
     countryurl: Nemecko
   - &id043
+    name: "Da\u0161a \u010C\xED\u017Ekov\xE1"
+    last: Cizkova
+    hindex: 36
+    field: "neuroimunol\xF3gia"
+    area: "medic\xEDna"
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: Bratislava
+    country: Slovensko
+    img: Dasa_Cizkova_size_280px.jpg
+    card_id: Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena
+    areaurl: medicina
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id044
     name: "Daniela Ga\u0161per\xEDkov\xE1"
     last: Gasperikova
     hindex: 36
@@ -2754,7 +2772,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id367
+  - &id368
     name: "Viktor Hra\u0161ka"
     last: Hraska
     hindex: 36
@@ -2784,7 +2802,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Martin
     countryurl: Slovensko
-  - &id368
+  - &id369
     name: "Juraj Ko\u0161ka"
     last: Koska
     hindex: 36
@@ -2799,7 +2817,7 @@ conn_areas:
     affiliationurl: Amgen
     cityurl: Phoenix
     countryurl: USA
-  - &id369
+  - &id370
     name: Roman Mezencev
     last: Mezencev
     hindex: 36
@@ -2814,21 +2832,6 @@ conn_areas:
     affiliationurl: Georgia_Institute_of_Technology
     cityurl: Atlanta
     countryurl: USA
-  - &id046
-    name: "Da\u0161a \u010C\xED\u017Ekov\xE1"
-    last: Cizkova
-    hindex: 35
-    field: "neuroimunol\xF3gia"
-    area: "medic\xEDna"
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: Bratislava
-    country: Slovensko
-    img: Dasa_Cizkova_size_280px.jpg
-    card_id: Cizkova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:neuroimunologia:zena
-    areaurl: medicina
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id171
     name: "Matej \u0160korv\xE1nek"
     last: Skorvanek
@@ -2859,7 +2862,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id336
+  - &id337
     name: Ivan Lefkovits
     last: Lefkovits
     hindex: 34
@@ -2889,7 +2892,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id421
+  - &id422
     name: "Jarom\xEDr Mike\u0161"
     last: Mikes
     hindex: 34
@@ -2904,7 +2907,7 @@ conn_areas:
     affiliationurl: Karolinska_Institutet
     cityurl: Stockholm
     countryurl: Svedsko
-  - &id311
+  - &id312
     name: "\u013Dubo\u0161 Drgo\u0148a"
     last: Drgona
     hindex: 33
@@ -2934,7 +2937,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id424
+  - &id425
     name: Ivan Jambor
     last: Jambor
     hindex: 33
@@ -2949,7 +2952,7 @@ conn_areas:
     affiliationurl: University_of_Turku
     cityurl: Turku
     countryurl: Finsko
-  - &id403
+  - &id404
     name: "Peter Jedli\u010Dka"
     last: Jedlicka
     hindex: 33
@@ -2979,7 +2982,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id260
+  - &id263
     name: "Ladislav Valkovi\u010D"
     last: Valkovic
     hindex: 33
@@ -2994,7 +2997,7 @@ conn_areas:
     affiliationurl: University_of_Oxford
     cityurl: Oxford
     countryurl: Velka_Britania
-  - &id386
+  - &id387
     name: "Iveta Garaiov\xE1"
     last: Garaiova
     hindex: 32
@@ -3024,7 +3027,7 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
-  - &id337
+  - &id338
     name: "Martin Smie\u0161ko"
     last: Smiesko
     hindex: 32
@@ -3181,7 +3184,7 @@ conn_areas:
   - &id082
     name: "Pavol Barto\u0161"
     last: Bartos
-    hindex: 240
+    hindex: 241
     field: "subjadrov\xE1 fyzika"
     area: fyzika
     affiliation: "Univerzita Komensk\xE9ho"
@@ -3193,7 +3196,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id393
+  - &id394
     name: "Tom\xE1\u0161 Dado"
     last: Dado
     hindex: 202
@@ -3211,7 +3214,7 @@ conn_areas:
   - &id083
     name: "Branislav Sit\xE1r"
     last: Sitar
-    hindex: 180
+    hindex: 179
     field: "subjadrov\xE1 fyzika"
     area: fyzika
     affiliation: "Univerzita Komensk\xE9ho"
@@ -3223,7 +3226,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id269
+  - &id272
     name: "Katar\xEDna K\u0159\xED\u017Ekov\xE1 Gajdo\u0161ov\xE1"
     last: Gajdosova
     hindex: 106
@@ -3256,7 +3259,7 @@ conn_areas:
   - &id085
     name: "Fedor \u0160imkovic"
     last: Simkovic
-    hindex: 79
+    hindex: 80
     field: "jadrov\xE1 fyzika"
     area: fyzika
     affiliation: "Univerzita Komensk\xE9ho"
@@ -3268,7 +3271,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id396
+  - &id397
     name: "Jaroslav Fabi\xE1n"
     last: Fabian
     hindex: 73
@@ -3283,7 +3286,7 @@ conn_areas:
     affiliationurl: University_of_Regensburg
     cityurl: Regensburg
     countryurl: Nemecko
-  - &id329
+  - &id332
     name: Pavel Cheben
     last: Cheben
     hindex: 72
@@ -3298,7 +3301,7 @@ conn_areas:
     affiliationurl: National_Research_Council
     cityurl: Ottawa
     countryurl: Kanada
-  - &id405
+  - &id406
     name: "Peter \u0160vihra"
     last: Svihra
     hindex: 72
@@ -3328,7 +3331,7 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
-  - &id389
+  - &id390
     name: Marcel Franz
     last: Franz
     hindex: 68
@@ -3358,7 +3361,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id272
+  - &id275
     name: Miro Zeman
     last: Zeman
     hindex: 68
@@ -3388,7 +3391,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id397
+  - &id398
     name: "L\xEDvia Ludhov\xE1"
     last: Ludhova
     hindex: 66
@@ -3418,7 +3421,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id340
+  - &id341
     name: "Jozef Adam\u010D\xEDk"
     last: Adamcik
     hindex: 59
@@ -3433,7 +3436,22 @@ conn_areas:
     affiliationurl: Adolphe_Merkle_Institute
     cityurl: Fribourg
     countryurl: Svajciarsko
-  - &id325
+  - &id347
+    name: "Milo\u0161 T\xF3th"
+    last: Toth
+    hindex: 59
+    field: nanooptika
+    area: fyzika
+    affiliation: University of Technology Sydney
+    city: Sydney
+    country: "Austr\xE1lia"
+    img: Milos_Toth_size_280px.png
+    card_id: Toth:Australia:University_of_Technology_Sydney:Sydney:profesor:nanooptika:muz
+    areaurl: fyzika
+    affiliationurl: University_of_Technology_Sydney
+    cityurl: Sydney
+    countryurl: Australia
+  - &id328
     name: Michal Hammel
     last: Hammel
     hindex: 58
@@ -3448,22 +3466,7 @@ conn_areas:
     affiliationurl: Lawrence_Berkeley_National_Laboratory
     cityurl: Berkeley
     countryurl: USA
-  - &id346
-    name: "Milo\u0161 T\xF3th"
-    last: Toth
-    hindex: 58
-    field: nanooptika
-    area: fyzika
-    affiliation: University of Technology Sydney
-    city: Sydney
-    country: "Austr\xE1lia"
-    img: Milos_Toth_size_280px.png
-    card_id: Toth:Australia:University_of_Technology_Sydney:Sydney:profesor:nanooptika:muz
-    areaurl: fyzika
-    affiliationurl: University_of_Technology_Sydney
-    cityurl: Sydney
-    countryurl: Australia
-  - &id249
+  - &id252
     name: "Lubo\u0161 Mit\xE1\u0161"
     last: Mitas
     hindex: 56
@@ -3478,7 +3481,7 @@ conn_areas:
     affiliationurl: North_Carolina_State_University
     cityurl: Raleigh
     countryurl: USA
-  - &id354
+  - &id355
     name: "Ivan Tk\xE1\u010D"
     last: Tkac
     hindex: 56
@@ -3493,7 +3496,7 @@ conn_areas:
     affiliationurl: University_of_Minnesota
     cityurl: Minneapolis
     countryurl: USA
-  - &id375
+  - &id376
     name: "J\xE1n Min\xE1r"
     last: Minar
     hindex: 53
@@ -3553,7 +3556,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id391
+  - &id392
     name: Miroslav Grmela
     last: Grmela
     hindex: 46
@@ -3568,7 +3571,7 @@ conn_areas:
     affiliationurl: Polytechnique_Montreal
     cityurl: Montreal
     countryurl: Kanada
-  - &id292
+  - &id293
     name: "Miroslav Koles\xEDk"
     last: Kolesik
     hindex: 46
@@ -3583,7 +3586,7 @@ conn_areas:
     affiliationurl: University_of_Arizona
     cityurl: Tucson
     countryurl: USA
-  - &id360
+  - &id361
     name: "Radovan Derm\xED\u0161ek"
     last: Dermisek
     hindex: 45
@@ -3598,7 +3601,7 @@ conn_areas:
     affiliationurl: Indiana_University_Bloomington
     cityurl: Bloomington
     countryurl: USA
-  - &id300
+  - &id301
     name: Ivan Glesk
     last: Glesk
     hindex: 44
@@ -3613,7 +3616,22 @@ conn_areas:
     affiliationurl: University_of_Strathclyde
     cityurl: Glasgow
     countryurl: Velka_Britania
-  - &id428
+  - &id243
+    name: "Pavol Juh\xE1s"
+    last: Juhas
+    hindex: 44
+    field: "fyzika nano\u0161trukt\xFAr"
+    area: fyzika
+    affiliation: Google
+    city: Mountain View
+    country: USA
+    img: Pavol_Juhas_size_280px.jpg
+    card_id: Juhas:USA:Google:Mountain_View:vedec:fyzika_nanostruktur:muz
+    areaurl: fyzika
+    affiliationurl: Google
+    cityurl: Mountain_View
+    countryurl: USA
+  - &id429
     name: "Norbert Ku\u010Derka"
     last: Kucerka
     hindex: 44
@@ -3643,22 +3661,22 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
-  - &id275
-    name: "Pavol Juh\xE1s"
-    last: Juhas
+  - &id306
+    name: "J\xE1n Rusz"
+    last: Rusz
     hindex: 43
-    field: "fyzika nano\u0161trukt\xFAr"
+    field: "fyzika pevn\xFDch l\xE1tok"
     area: fyzika
-    affiliation: Google
-    city: Mountain View
-    country: USA
-    img: Pavol_Juhas_size_280px.jpg
-    card_id: Juhas:USA:Google:Mountain_View:vedec:fyzika_nanostruktur:muz
+    affiliation: Uppsala University
+    city: Uppsala
+    country: "\u0160v\xE9dsko"
+    img: Jan_Rusz_size_280px.jpg
+    card_id: Rusz:Svedsko:Uppsala_University:Uppsala:profesor:fyzika_pevnych_latok:muz
     areaurl: fyzika
-    affiliationurl: Google
-    cityurl: Mountain_View
-    countryurl: USA
-  - &id362
+    affiliationurl: Uppsala_University
+    cityurl: Uppsala
+    countryurl: Svedsko
+  - &id363
     name: Oskar Vafek
     last: Vafek
     hindex: 43
@@ -3673,7 +3691,7 @@ conn_areas:
     affiliationurl: Florida_State_University
     cityurl: Tallahassee
     countryurl: USA
-  - &id314
+  - &id315
     name: Igor Jex
     last: Jex
     hindex: 42
@@ -3718,6 +3736,21 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
+  - &id101
+    name: Jozef Masarik
+    last: Masarik
+    hindex: 42
+    field: "jadrov\xE1 fyzika"
+    area: fyzika
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Jozef_Masarik_size_280px.jpg
+    card_id: Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz
+    areaurl: fyzika
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Bratislava
+    countryurl: Slovensko
   - &id178
     name: "Milan Palu\u0161"
     last: Palus
@@ -3733,22 +3766,7 @@ conn_areas:
     affiliationurl: Ceska_akademia_vied
     cityurl: Praha
     countryurl: Cesko
-  - &id305
-    name: "J\xE1n Rusz"
-    last: Rusz
-    hindex: 42
-    field: "fyzika pevn\xFDch l\xE1tok"
-    area: fyzika
-    affiliation: Uppsala University
-    city: Uppsala
-    country: "\u0160v\xE9dsko"
-    img: Jan_Rusz_size_280px.jpg
-    card_id: Rusz:Svedsko:Uppsala_University:Uppsala:profesor:fyzika_pevnych_latok:muz
-    areaurl: fyzika
-    affiliationurl: Uppsala_University
-    cityurl: Uppsala
-    countryurl: Svedsko
-  - &id103
+  - &id104
     name: Stanislav Antalic
     last: Antalic
     hindex: 41
@@ -3763,7 +3781,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id029
+  - &id028
     name: Andrej Liptaj
     last: Liptaj
     hindex: 41
@@ -3778,22 +3796,22 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id104
-    name: Jozef Masarik
-    last: Masarik
-    hindex: 41
-    field: "jadrov\xE1 fyzika"
+  - &id035
+    name: Milan Timko
+    last: Timko
+    hindex: 39
+    field: fyzika magnetizmu
     area: fyzika
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
+    affiliation: "Slovensk\xE1 akad\xE9mia vied"
+    city: "Ko\u0161ice"
     country: Slovensko
-    img: Jozef_Masarik_size_280px.jpg
-    card_id: Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz
+    img: Milan_Timko_size_280px.jpg
+    card_id: Timko:Slovensko:Slovenska_akademia_vied:Kosice:vedec:fyzika_magnetizmu:muz
     areaurl: fyzika
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
+    affiliationurl: Slovenska_akademia_vied
+    cityurl: Kosice
     countryurl: Slovensko
-  - &id331
+  - &id334
     name: "Marek Chmel\xEDk"
     last: Chmelik
     hindex: 38
@@ -3807,21 +3825,6 @@ conn_areas:
     areaurl: fyzika
     affiliationurl: Presovska_univerzita
     cityurl: Presov
-    countryurl: Slovensko
-  - &id037
-    name: Milan Timko
-    last: Timko
-    hindex: 38
-    field: fyzika magnetizmu
-    area: fyzika
-    affiliation: "Slovensk\xE1 akad\xE9mia vied"
-    city: "Ko\u0161ice"
-    country: Slovensko
-    img: Milan_Timko_size_280px.jpg
-    card_id: Timko:Slovensko:Slovenska_akademia_vied:Kosice:vedec:fyzika_magnetizmu:muz
-    areaurl: fyzika
-    affiliationurl: Slovenska_akademia_vied
-    cityurl: Kosice
     countryurl: Slovensko
   - &id040
     name: "\u013Dubica Lacinov\xE1"
@@ -3853,7 +3856,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id365
+  - &id366
     name: "Pavel Oblo\u017Einsk\xFD"
     last: Oblozinsky
     hindex: 37
@@ -3883,7 +3886,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id426
+  - &id427
     name: "Peter Sta\u0148o"
     last: Stano
     hindex: 37
@@ -3898,7 +3901,7 @@ conn_areas:
     affiliationurl: RIKEN
     cityurl: Wako
     countryurl: Japonsko
-  - &id044
+  - &id045
     name: "Fedor G\xF6m\xF6ry"
     last: Gomory
     hindex: 36
@@ -3913,7 +3916,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id309
+  - &id310
     name: "Marcel \u0160\xFAri"
     last: Suri
     hindex: 36
@@ -3973,21 +3976,6 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id190
-    name: "Michal Zaja\u010Dek"
-    last: Zajacek
-    hindex: 35
-    field: "astrofyzika galaktick\xFDch jadier a \u010Diernych dier"
-    area: fyzika
-    affiliation: Masarykova univerzita
-    city: Brno
-    country: "\u010Cesko"
-    img: Michal_Zajacek_size_280px.jpg
-    card_id: Zajacek:Cesko:Masarykova_univerzita:Brno:docent:astrofyzika_galaktickych_jadier_a_ciernych_dier:muz
-    areaurl: fyzika
-    affiliationurl: Masarykova_univerzita
-    cityurl: Brno
-    countryurl: Cesko
   - &id180
     name: Marek Piliarik
     last: Piliarik
@@ -4002,6 +3990,21 @@ conn_areas:
     areaurl: fyzika
     affiliationurl: Ceska_akademia_vied
     cityurl: Praha
+    countryurl: Cesko
+  - &id190
+    name: "Michal Zaja\u010Dek"
+    last: Zajacek
+    hindex: 34
+    field: "astrofyzika galaktick\xFDch jadier a \u010Diernych dier"
+    area: fyzika
+    affiliation: Masarykova univerzita
+    city: Brno
+    country: "\u010Cesko"
+    img: Michal_Zajacek_size_280px.jpg
+    card_id: Zajacek:Cesko:Masarykova_univerzita:Brno:docent:astrofyzika_galaktickych_jadier_a_ciernych_dier:muz
+    areaurl: fyzika
+    affiliationurl: Masarykova_univerzita
+    cityurl: Brno
     countryurl: Cesko
   - &id059
     name: "Mari\xE1n Kraj\u010D\xED"
@@ -4018,7 +4021,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id312
+  - &id313
     name: "Du\u0161an Chorv\xE1t"
     last: Chorvat
     hindex: 32
@@ -4033,7 +4036,7 @@ conn_areas:
     affiliationurl: Centrum_vedecko-technickych_informacii_SR
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id371
+  - &id372
     name: Marian Jandel
     last: Jandel
     hindex: 32
@@ -4168,7 +4171,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id415
+  - &id416
     name: "Karol Hricov\xEDni"
     last: Hricovini
     hindex: 30
@@ -4183,7 +4186,7 @@ conn_areas:
     affiliationurl: CY_Cergy_Paris_Universite
     cityurl: Cergy
     countryurl: Francuzsko
-  - &id388
+  - &id389
     name: Karol Kalna
     last: Kalna
     hindex: 30
@@ -4198,7 +4201,7 @@ conn_areas:
     affiliationurl: Swansea_University
     cityurl: Swansea
     countryurl: Velka_Britania
-  - &id406
+  - &id407
     name: "Juraj Krempask\xFD"
     last: Krempasky
     hindex: 30
@@ -4213,7 +4216,7 @@ conn_areas:
     affiliationurl: Paul_Scherrer_Institut
     cityurl: Villigen
     countryurl: Svajciarsko
-  - &id288
+  - &id289
     name: Peter Lichard
     last: Lichard
     hindex: 30
@@ -4262,7 +4265,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id259
+  - &id262
     name: Philipp Kukura
     last: Kukura
     hindex: 62
@@ -4337,7 +4340,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id264
+  - &id267
     name: "Roman Bo\u010Da"
     last: Boca
     hindex: 53
@@ -4352,7 +4355,7 @@ conn_areas:
     affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
     cityurl: Trnava
     countryurl: Slovensko
-  - &id356
+  - &id357
     name: "Du\u0161an Hesek"
     last: Hesek
     hindex: 53
@@ -4442,6 +4445,21 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
+  - &id382
+    name: "Du\u0161an Uhr\xEDn"
+    last: Uhrin
+    hindex: 51
+    field: "NMR spektroskopia v ch\xE9mii a biol\xF3gii"
+    area: "ch\xE9mia"
+    affiliation: University of Edinburgh
+    city: Edinburgh
+    country: "Ve\u013Ek\xE1 Brit\xE1nia"
+    img: Dusan_Uhrin_size_280px.jpg
+    card_id: Uhrin:Velka_Britania:University_of_Edinburgh:Edinburgh:profesor:NMR_spektroskopia_v_chemii_a_biologii:muz
+    areaurl: chemia
+    affiliationurl: University_of_Edinburgh
+    cityurl: Edinburgh
+    countryurl: Velka_Britania
   - &id187
     name: Branislav Vrana
     last: Vrana
@@ -4457,22 +4475,7 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
-  - &id382
-    name: "Du\u0161an Uhr\xEDn"
-    last: Uhrin
-    hindex: 50
-    field: "NMR spektroskopia v ch\xE9mii a biol\xF3gii"
-    area: "ch\xE9mia"
-    affiliation: University of Edinburgh
-    city: Edinburgh
-    country: "Ve\u013Ek\xE1 Brit\xE1nia"
-    img: Dusan_Uhrin_size_280px.jpg
-    card_id: Uhrin:Velka_Britania:University_of_Edinburgh:Edinburgh:profesor:NMR_spektroskopia_v_chemii_a_biologii:muz
-    areaurl: chemia
-    affiliationurl: University_of_Edinburgh
-    cityurl: Edinburgh
-    countryurl: Velka_Britania
-  - &id358
+  - &id359
     name: Michal Bajdich
     last: Bajdich
     hindex: 47
@@ -4517,7 +4520,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id247
+  - &id250
     name: "Pavol Kov\xE1\u010D"
     last: Kovac
     hindex: 46
@@ -4532,7 +4535,7 @@ conn_areas:
     affiliationurl: National_Institutes_of_Health
     cityurl: Bethesda
     countryurl: USA
-  - &id265
+  - &id268
     name: "Stanislav Miertu\u0161"
     last: Miertus
     hindex: 46
@@ -4547,7 +4550,7 @@ conn_areas:
     affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
     cityurl: Trnava
     countryurl: Slovensko
-  - &id320
+  - &id321
     name: Daniel Tunega
     last: Tunega
     hindex: 45
@@ -4562,7 +4565,7 @@ conn_areas:
     affiliationurl: University_of_Natural_Resources_and_Life_Sciences
     cityurl: Vieden
     countryurl: Rakusko
-  - &id284
+  - &id285
     name: "Peter Kas\xE1k"
     last: Kasak
     hindex: 44
@@ -4607,7 +4610,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id027
+  - &id026
     name: "Ivan Chod\xE1k"
     last: Chodak
     hindex: 41
@@ -4622,7 +4625,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id317
+  - &id318
     name: "Adri\xE1na Koval\u010D\xEDk"
     last: Kovalcik
     hindex: 41
@@ -4742,7 +4745,22 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id036
+  - &id170
+    name: "Vladimir Zele\u0148\xE1k"
+    last: Zelenak
+    hindex: 39
+    field: "anorganick\xE1 ch\xE9mia"
+    area: "ch\xE9mia"
+    affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+    city: "Ko\u0161ice"
+    country: Slovensko
+    img: Vladimir_Zelenak_size_280px.jpg
+    card_id: Zelenak:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:anorganicka_chemia:muz
+    areaurl: chemia
+    affiliationurl: Univerzita_Pavla_Jozefa_Safarika
+    cityurl: Kosice
+    countryurl: Slovensko
+  - &id037
     name: "O\u013Ega Kri\u017Eanov\xE1"
     last: Krizanova
     hindex: 38
@@ -4756,21 +4774,6 @@ conn_areas:
     areaurl: chemia
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
-    countryurl: Slovensko
-  - &id170
-    name: "Vladimir Zele\u0148\xE1k"
-    last: Zelenak
-    hindex: 38
-    field: "anorganick\xE1 ch\xE9mia"
-    area: "ch\xE9mia"
-    affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
-    city: "Ko\u0161ice"
-    country: Slovensko
-    img: Vladimir_Zelenak_size_280px.jpg
-    card_id: Zelenak:Slovensko:Univerzita_Pavla_Jozefa_Safarika:Kosice:profesor:anorganicka_chemia:muz
-    areaurl: chemia
-    affiliationurl: Univerzita_Pavla_Jozefa_Safarika
-    cityurl: Kosice
     countryurl: Slovensko
   - &id038
     name: "Matej Bal\xE1\u017E"
@@ -4787,7 +4790,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
     countryurl: Slovensko
-  - &id294
+  - &id295
     name: "Milan Gembick\xFD"
     last: Gembicky
     hindex: 37
@@ -4847,7 +4850,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id045
+  - &id046
     name: "Jaroslav Mosn\xE1\u010Dek"
     last: Mosnacek
     hindex: 36
@@ -4877,7 +4880,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id417
+  - &id418
     name: "Michal Repisk\xFD"
     last: Repisky
     hindex: 35
@@ -4892,7 +4895,7 @@ conn_areas:
     affiliationurl: University_of_Troms
     cityurl: Troms
     countryurl: Norsko
-  - &id266
+  - &id269
     name: "J\xE1n Titi\u0161"
     last: Titis
     hindex: 35
@@ -4922,7 +4925,22 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id402
+  - &id126
+    name: "Jana Kordul\xE1kov\xE1"
+    last: Kordulakova
+    hindex: 34
+    field: "bioch\xE9mia"
+    area: "ch\xE9mia"
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Jana_Kordulakova_size_280px.jpg
+    card_id: Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena
+    areaurl: chemia
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id403
     name: Tibor Macko
     last: Macko
     hindex: 34
@@ -4952,7 +4970,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id126
+  - &id127
     name: Milan Remko
     last: Remko
     hindex: 34
@@ -4982,7 +5000,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id127
+  - &id128
     name: "Roman Sz\u0171cs"
     last: Szucs
     hindex: 34
@@ -5012,21 +5030,6 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id129
-    name: "Jana Kordul\xE1kov\xE1"
-    last: Kordulakova
-    hindex: 33
-    field: "bioch\xE9mia"
-    area: "ch\xE9mia"
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
-    country: Slovensko
-    img: Jana_Kordulakova_size_280px.jpg
-    card_id: Kordulakova:Slovensko:Univerzita_Komenskeho:Bratislava:docentka:biochemia:zena
-    areaurl: chemia
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id181
     name: "Veronika Ostatn\xE1"
     last: Ostatna
@@ -5042,7 +5045,7 @@ conn_areas:
     affiliationurl: Ceska_akademia_vied
     cityurl: Brno
     countryurl: Cesko
-  - &id304
+  - &id305
     name: "Michal Jur\xED\u010Dek"
     last: Juricek
     hindex: 32
@@ -5072,7 +5075,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id376
+  - &id377
     name: "\u013Dubom\xEDr Lap\u010D\xEDk"
     last: Lapcik
     hindex: 32
@@ -5087,7 +5090,7 @@ conn_areas:
     affiliationurl: UTB_Zlin_/_UP_Olomouc
     cityurl: Zlin
     countryurl: Cesko
-  - &id427
+  - &id428
     name: "Milan Bal\xE1\u017E"
     last: Balaz
     hindex: 31
@@ -5117,7 +5120,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id158
+  - &id159
     name: "Miroslav G\xE1l"
     last: Gal
     hindex: 31
@@ -5132,7 +5135,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id251
+  - &id254
     name: "Elena Jakub\xEDkov\xE1"
     last: Jakubikova
     hindex: 31
@@ -5177,7 +5180,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id341
+  - &id342
     name: "Tom\xE1\u0161 Majt\xE1n"
     last: Majtan
     hindex: 30
@@ -5226,7 +5229,7 @@ conn_areas:
     affiliationurl: Slovenska_polnohospodarska_univerzita
     cityurl: Nitra
     countryurl: Slovensko
-  - &id394
+  - &id395
     name: "Franti\u0161ek Balu\u0161ka"
     last: Baluska
     hindex: 98
@@ -5241,7 +5244,7 @@ conn_areas:
     affiliationurl: University_of_Bonn
     cityurl: Bonn
     countryurl: Nemecko
-  - &id377
+  - &id378
     name: "Eva Benkov\xE1"
     last: Benkova
     hindex: 70
@@ -5271,7 +5274,7 @@ conn_areas:
     affiliationurl: Univerzita_Palackeho_v_Olomouci
     cityurl: Olomouc
     countryurl: Cesko
-  - &id295
+  - &id296
     name: "Peter \u0160utovsk\xFD"
     last: Sutovsky
     hindex: 70
@@ -5286,7 +5289,7 @@ conn_areas:
     affiliationurl: University_of_Missouri
     cityurl: Columbia
     countryurl: USA
-  - &id344
+  - &id345
     name: Ladislav Mucina
     last: Mucina
     hindex: 69
@@ -5346,7 +5349,7 @@ conn_areas:
     affiliationurl: Slovenska_polnohospodarska_univerzita
     cityurl: Nitra
     countryurl: Slovensko
-  - &id330
+  - &id333
     name: "Martin Hol\u010D\xEDk"
     last: Holcik
     hindex: 56
@@ -5361,7 +5364,7 @@ conn_areas:
     affiliationurl: Carleton_University
     cityurl: Ottawa
     countryurl: Kanada
-  - &id302
+  - &id303
     name: "Andrea Juri\u0161icov\xE1"
     last: Jurisicova
     hindex: 55
@@ -5421,7 +5424,7 @@ conn_areas:
     affiliationurl: Slovenska_polnohospodarska_univerzita
     cityurl: Nitra
     countryurl: Slovensko
-  - &id342
+  - &id343
     name: "Tom\xE1\u0161 Grim"
     last: Grim
     hindex: 49
@@ -5511,7 +5514,7 @@ conn_areas:
     affiliationurl: Univerzita_Konstantina_Filozofa
     cityurl: Nitra
     countryurl: Slovensko
-  - &id383
+  - &id384
     name: "Martin Luk\xE1\u010D"
     last: Lukac
     hindex: 43
@@ -5541,7 +5544,7 @@ conn_areas:
     affiliationurl: Technicka_univerzita_vo_Zvolene
     cityurl: Zvolen
     countryurl: Slovensko
-  - &id028
+  - &id027
     name: "J\xE1n Kormanec"
     last: Kormanec
     hindex: 41
@@ -5556,7 +5559,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id363
+  - &id364
     name: "Ivan \u0160imko"
     last: Simko
     hindex: 41
@@ -5586,7 +5589,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id267
+  - &id270
     name: "Tom\xE1\u0161 Hl\xE1sny"
     last: Hlasny
     hindex: 40
@@ -5691,7 +5694,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id268
+  - &id271
     name: "Martin Mikol\xE1\u0161"
     last: Mikolas
     hindex: 36
@@ -5706,7 +5709,7 @@ conn_areas:
     affiliationurl: Ceska_zemedelska_univerzita_v_Praze
     cityurl: Praha
     countryurl: Cesko
-  - &id327
+  - &id330
     name: "Tom\xE1\u0161 Drgo\u0148"
     last: Drgon
     hindex: 35
@@ -5766,7 +5769,7 @@ conn_areas:
     affiliationurl: Technicka_univerzita_vo_Zvolene
     cityurl: Zvolen
     countryurl: Slovensko
-  - &id128
+  - &id129
     name: "\u013Dubom\xEDr Tom\xE1\u0161ka"
     last: Tomaska
     hindex: 34
@@ -5811,7 +5814,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Zvolen
     countryurl: Slovensko
-  - &id339
+  - &id340
     name: "Jozef Mad\u017Eo"
     last: Madzo
     hindex: 33
@@ -5931,7 +5934,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id370
+  - &id371
     name: "Martin Dov\u010Diak"
     last: Dovciak
     hindex: 32
@@ -5946,7 +5949,7 @@ conn_areas:
     affiliationurl: SUNY_ESF
     cityurl: Syracuse
     countryurl: USA
-  - &id313
+  - &id314
     name: "Vladim\xEDr Kov\xE1\u010D"
     last: Kovac
     hindex: 32
@@ -5991,7 +5994,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id372
+  - &id373
     name: "Juraj \u0160vitel"
     last: Svitel
     hindex: 32
@@ -6115,7 +6118,7 @@ conn_areas:
   url: inzinierstvo
   count: 24
   members:
-  - &id271
+  - &id274
     name: Pavol Bauer
     last: Bauer
     hindex: 75
@@ -6130,7 +6133,7 @@ conn_areas:
     affiliationurl: Delft_University_of_Technology
     cityurl: Delft
     countryurl: Holandsko
-  - &id419
+  - &id420
     name: "Imrich Chlamt\xE1\u010D"
     last: Chlamtac
     hindex: 70
@@ -6175,7 +6178,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id347
+  - &id348
     name: "Branislav Hredz\xE1k"
     last: Hredzak
     hindex: 48
@@ -6205,7 +6208,7 @@ conn_areas:
     affiliationurl: Technicka_univerzita_v_Kosiciach
     cityurl: Kosice
     countryurl: Slovensko
-  - &id299
+  - &id300
     name: "J\xE1n \u0160ef\u010D\xEDk"
     last: Sefcik
     hindex: 46
@@ -6235,7 +6238,7 @@ conn_areas:
     affiliationurl: Technicka_univerzita_v_Kosiciach
     cityurl: Kosice
     countryurl: Slovensko
-  - &id379
+  - &id380
     name: "Branislav Kus\xFD"
     last: Kusy
     hindex: 40
@@ -6250,7 +6253,7 @@ conn_areas:
     affiliationurl: CSIRO
     cityurl: Brisbane
     countryurl: Australia
-  - &id315
+  - &id316
     name: "Miroslav \u0160o\xF3\u0161"
     last: Soos
     hindex: 40
@@ -6310,7 +6313,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id380
+  - &id381
     name: "Jan Nem\u010D\xEDk"
     last: Nemcik
     hindex: 35
@@ -6385,7 +6388,7 @@ conn_areas:
     affiliationurl: Zilinska_univerzita
     cityurl: Zilina
     countryurl: Slovensko
-  - &id412
+  - &id413
     name: Viktor Fischer
     last: Fischer
     hindex: 32
@@ -6416,6 +6419,21 @@ conn_areas:
     cityurl: Bratislava
     countryurl: Slovensko
   - &id157
+    name: Michal Kvasnica
+    last: Kvasnica
+    hindex: 32
+    field: "automatiz\xE1cia"
+    area: "in\u017Einierstvo"
+    affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+    city: Bratislava
+    country: Slovensko
+    img: Michal_Kvasnica_size_280px.jpg
+    card_id: Kvasnica:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:automatizacia:muz
+    areaurl: inzinierstvo
+    affiliationurl: Slovenska_technicka_univerzita
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id158
     name: "Igor Bod\xEDk"
     last: Bodik
     hindex: 31
@@ -6445,21 +6463,6 @@ conn_areas:
     affiliationurl: Slovenska_polnohospodarska_univerzita
     cityurl: Nitra
     countryurl: Slovensko
-  - &id160
-    name: Michal Kvasnica
-    last: Kvasnica
-    hindex: 31
-    field: "automatiz\xE1cia"
-    area: "in\u017Einierstvo"
-    affiliation: "Slovensk\xE1 technick\xE1 univerzita"
-    city: Bratislava
-    country: Slovensko
-    img: Michal_Kvasnica_size_280px.jpg
-    card_id: Kvasnica:Slovensko:Slovenska_technicka_univerzita:Bratislava:profesor:automatizacia:muz
-    areaurl: inzinierstvo
-    affiliationurl: Slovenska_technicka_univerzita
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id201
     name: Peter Papcun
     last: Papcun
@@ -6479,7 +6482,7 @@ conn_areas:
   url: geovedy
   count: 23
   members:
-  - &id328
+  - &id331
     name: "J\xE1n Veizer"
     last: Veizer
     hindex: 92
@@ -6494,7 +6497,7 @@ conn_areas:
     affiliationurl: University_of_Ottawa
     cityurl: Ottawa
     countryurl: Kanada
-  - &id273
+  - &id276
     name: "Peter Moln\xE1r"
     last: Molnar
     hindex: 56
@@ -6509,7 +6512,7 @@ conn_areas:
     affiliationurl: ETH_Zurich
     cityurl: Zurich
     countryurl: Svajciarsko
-  - &id318
+  - &id319
     name: Juraj Parajka
     last: Parajka
     hindex: 56
@@ -6524,7 +6527,7 @@ conn_areas:
     affiliationurl: Vienna_University_of_Technology
     cityurl: Vieden
     countryurl: Rakusko
-  - &id243
+  - &id246
     name: "Juraj Balkovi\u010D"
     last: Balkovic
     hindex: 47
@@ -6539,7 +6542,7 @@ conn_areas:
     affiliationurl: International_Institute_for_Applied_Systems_Analysis
     cityurl: Laxenburg
     countryurl: Rakusko
-  - &id345
+  - &id346
     name: "Martin Dani\u0161\xEDk"
     last: Danisik
     hindex: 47
@@ -6554,7 +6557,7 @@ conn_areas:
     affiliationurl: Curtin_University
     cityurl: Perth
     countryurl: Australia
-  - &id359
+  - &id360
     name: John Nabelek
     last: Nabelek
     hindex: 47
@@ -6569,7 +6572,7 @@ conn_areas:
     affiliationurl: Oregon_State_University
     cityurl: Corvallis
     countryurl: USA
-  - &id262
+  - &id265
     name: Ondrej Lexa
     last: Lexa
     hindex: 46
@@ -6584,7 +6587,7 @@ conn_areas:
     affiliationurl: Univerzita_Karlova
     cityurl: Praha
     countryurl: Cesko
-  - &id361
+  - &id362
     name: Henrietta Dulai
     last: Dulai
     hindex: 43
@@ -6599,7 +6602,7 @@ conn_areas:
     affiliationurl: University_of_Hawaii
     cityurl: Honolulu
     countryurl: USA
-  - &id101
+  - &id102
     name: Peter Moczo
     last: Moczo
     hindex: 42
@@ -6614,7 +6617,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id296
+  - &id297
     name: Peter I. Nabelek
     last: Nabelek
     hindex: 41
@@ -6629,7 +6632,7 @@ conn_areas:
     affiliationurl: University_of_Missouri
     cityurl: Columbia
     countryurl: USA
-  - &id244
+  - &id247
     name: Peter Rafaj
     last: Rafaj
     hindex: 40
@@ -6659,7 +6662,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id306
+  - &id307
     name: Peter Lazor
     last: Lazor
     hindex: 37
@@ -6689,7 +6692,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id343
+  - &id344
     name: "Michal Nem\u010Dok"
     last: Nemcok
     hindex: 35
@@ -6704,7 +6707,7 @@ conn_areas:
     affiliationurl: VSB__Technicka_univerzita_Ostrava
     cityurl: Ostrava
     countryurl: Cesko
-  - &id245
+  - &id248
     name: "Rastislav Skalsk\xFD"
     last: Skalsky
     hindex: 35
@@ -6764,7 +6767,7 @@ conn_areas:
     affiliationurl: Adelaide_University
     cityurl: Adelaide
     countryurl: Australia
-  - &id159
+  - &id160
     name: "Silvia Kohnov\xE1"
     last: Kohnova
     hindex: 31
@@ -6888,7 +6891,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id429
+  - &id430
     name: Pavel Ciaian
     last: Ciaian
     hindex: 45
@@ -6903,7 +6906,7 @@ conn_areas:
     affiliationurl: Europska_komisia
     cityurl: Sevilla
     countryurl: Spanielsko
-  - &id263
+  - &id266
     name: "Roman Horv\xE1th"
     last: Horvath
     hindex: 43
@@ -6933,7 +6936,7 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
-  - &id400
+  - &id401
     name: Jarko Fidrmuc
     last: Fidrmuc
     hindex: 38
@@ -6948,7 +6951,7 @@ conn_areas:
     affiliationurl: Zeppelin_University
     cityurl: Friedrichshafen
     countryurl: Nemecko
-  - &id298
+  - &id299
     name: "Peter Moln\xE1r"
     last: Molnar
     hindex: 37
@@ -6963,7 +6966,7 @@ conn_areas:
     affiliationurl: University_of_Stavanger
     cityurl: Stavanger
     countryurl: Norsko
-  - &id366
+  - &id367
     name: "\u013Dubo\u0161 P\xE1stor"
     last: Pastor
     hindex: 37
@@ -6978,7 +6981,7 @@ conn_areas:
     affiliationurl: University_of_Chicago
     cityurl: Chicago
     countryurl: USA
-  - &id322
+  - &id323
     name: Martin Kahanec
     last: Kahanec
     hindex: 36
@@ -7008,7 +7011,7 @@ conn_areas:
     affiliationurl: Zilinska_univerzita
     cityurl: Zilina
     countryurl: Slovensko
-  - &id310
+  - &id311
     name: Ladislav Mura
     last: Mura
     hindex: 34
@@ -7023,7 +7026,7 @@ conn_areas:
     affiliationurl: Ekonomicka_univerzita_v_Bratislave
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id408
+  - &id409
     name: "Du\u0161an Dr\xE1bik"
     last: Drabik
     hindex: 33
@@ -7098,7 +7101,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id414
+  - &id415
     name: "J\xE1n Fidrmuc"
     last: Fidrmuc
     hindex: 31
@@ -7113,7 +7116,7 @@ conn_areas:
     affiliationurl: Universite_de_Lille
     cityurl: Lille
     countryurl: Francuzsko
-  - &id374
+  - &id375
     name: "Alexander Chud\xEDk"
     last: Chudik
     hindex: 30
@@ -7162,7 +7165,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id392
+  - &id393
     name: Alexander Rosa
     last: Rosa
     hindex: 46
@@ -7282,7 +7285,7 @@ conn_areas:
     affiliationurl: Technicka_univerzita_v_Kosiciach
     cityurl: Kosice
     countryurl: Slovensko
-  - &id404
+  - &id405
     name: "M\xE1ria Luk\xE1\u010Dov\xE1-Medvi\u010Fov\xE1"
     last: Lukacova-Medvidova
     hindex: 33
@@ -7312,7 +7315,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id413
+  - &id414
     name: "Ctirad Klim\u010D\xEDk"
     last: Klimcik
     hindex: 32
@@ -7342,7 +7345,7 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id387
+  - &id388
     name: Gabriela Czanner
     last: Czanner
     hindex: 30
@@ -7387,7 +7390,7 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
-  - &id332
+  - &id335
     name: Demeter Krupka
     last: Krupka
     hindex: 30
@@ -7406,7 +7409,7 @@ conn_areas:
   url: informatika
   count: 16
   members:
-  - &id351
+  - &id352
     name: "Kl\xE1ra Nahrstedt"
     last: Nahrstedt
     hindex: 95
@@ -7421,7 +7424,7 @@ conn_areas:
     affiliationurl: University_of_Illinois_Urbana-Champaign
     cityurl: Urbana-Champaign
     countryurl: USA
-  - &id335
+  - &id336
     name: "Igor Juri\u0161ica"
     last: Jurisica
     hindex: 94
@@ -7436,7 +7439,7 @@ conn_areas:
     affiliationurl: Krembil_Research_Institute
     cityurl: Toronto
     countryurl: Kanada
-  - &id333
+  - &id325
     name: "Rastislav Bod\xEDk"
     last: Bodik
     hindex: 55
@@ -7451,7 +7454,7 @@ conn_areas:
     affiliationurl: University_of_Washington
     cityurl: Seattle
     countryurl: USA
-  - &id285
+  - &id286
     name: Pavol Hell
     last: Hell
     hindex: 52
@@ -7466,7 +7469,7 @@ conn_areas:
     affiliationurl: Simon_Fraser_University
     cityurl: Burnaby
     countryurl: Kanada
-  - &id250
+  - &id253
     name: "Helena Mit\xE1\u0161ov\xE1"
     last: Mitasova
     hindex: 52
@@ -7481,7 +7484,7 @@ conn_areas:
     affiliationurl: North_Carolina_State_University
     cityurl: Raleigh
     countryurl: USA
-  - &id381
+  - &id383
     name: "Peter Ti\u0148o"
     last: Tino
     hindex: 50
@@ -7496,7 +7499,7 @@ conn_areas:
     affiliationurl: University_of_Birmingham
     cityurl: Birmingham
     countryurl: Velka_Britania
-  - &id286
+  - &id287
     name: Marek Hatala
     last: Hatala
     hindex: 48
@@ -7511,7 +7514,7 @@ conn_areas:
     affiliationurl: Simon_Fraser_University
     cityurl: Surrey
     countryurl: Kanada
-  - &id274
+  - &id277
     name: "Juraj Hromkovi\u010D"
     last: Hromkovic
     hindex: 40
@@ -7526,7 +7529,7 @@ conn_areas:
     affiliationurl: ETH_Zurich
     cityurl: Zurich
     countryurl: Svajciarsko
-  - &id278
+  - &id279
     name: Ivan Viola
     last: Viola
     hindex: 39
@@ -7556,7 +7559,7 @@ conn_areas:
     affiliationurl: Masarykova_univerzita
     cityurl: Brno
     countryurl: Cesko
-  - &id276
+  - &id244
     name: "Martin P\xE1l"
     last: Pal
     hindex: 34
@@ -7571,7 +7574,7 @@ conn_areas:
     affiliationurl: Google
     cityurl: Zurich
     countryurl: Svajciarsko
-  - &id422
+  - &id423
     name: Peter Dolog
     last: Dolog
     hindex: 33
@@ -7616,7 +7619,7 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id254
+  - &id257
     name: Martin Tomko
     last: Tomko
     hindex: 32
@@ -7631,7 +7634,7 @@ conn_areas:
     affiliationurl: The_University_of_Melbourne
     cityurl: Melbourne
     countryurl: Australia
-  - &id280
+  - &id281
     name: "Peter Bod\xEDk"
     last: Bodik
     hindex: 30
@@ -7650,7 +7653,7 @@ conn_areas:
   url: materialy
   count: 16
   members:
-  - &id378
+  - &id379
     name: "Jozef Ke\u010Dk\xE9\u0161"
     last: Keckes
     hindex: 58
@@ -7665,7 +7668,7 @@ conn_areas:
     affiliationurl: Montanuniversitat_Leoben
     cityurl: Leoben
     countryurl: Rakusko
-  - &id283
+  - &id284
     name: Igor Krupa
     last: Krupa
     hindex: 56
@@ -7695,10 +7698,10 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
     countryurl: Slovensko
-  - &id399
+  - &id400
     name: "Vladim\xEDr \u0160epel\xE1k"
     last: Sepelak
-    hindex: 49
+    hindex: 50
     field: "nanotechnol\xF3gia"
     area: "materi\xE1ly"
     affiliation: Karlsruhe Institute of Technology
@@ -7710,7 +7713,7 @@ conn_areas:
     affiliationurl: Karlsruhe_Institute_of_Technology
     cityurl: Karlsruhe
     countryurl: Nemecko
-  - &id319
+  - &id320
     name: "Viera Sk\xE1kalov\xE1"
     last: Skakalova
     hindex: 46
@@ -7740,7 +7743,7 @@ conn_areas:
     affiliationurl: Ceska_akademia_vied
     cityurl: Praha
     countryurl: Cesko
-  - &id350
+  - &id351
     name: "Du\u0161an Galusek"
     last: Galusek
     hindex: 42
@@ -7755,10 +7758,10 @@ conn_areas:
     affiliationurl: Trencianska_univerzita_Alexandra_Dubceka
     cityurl: Trencin
     countryurl: Slovensko
-  - &id025
+  - &id029
     name: "Zdenko \u0160pit\xE1lsky"
     last: Spitalsky
-    hindex: 42
+    hindex: 41
     field: "nanomateri\xE1ly"
     area: "materi\xE1ly"
     affiliation: "Slovensk\xE1 akad\xE9mia vied"
@@ -7845,7 +7848,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
     countryurl: Slovensko
-  - &id409
+  - &id410
     name: "Tibor Kudern\xE1\u010D"
     last: Kudernac
     hindex: 32
@@ -7892,9 +7895,9 @@ conn_areas:
     countryurl: Slovensko
 - label: "umel\xE1 inteligencia"
   url: umela_inteligencia
-  count: 12
+  count: 13
   members:
-  - &id324
+  - &id327
     name: "Ru\u017Eena Bajcsy"
     last: Bajcsy
     hindex: 80
@@ -7909,7 +7912,7 @@ conn_areas:
     affiliationurl: University_of_California__Berkeley
     cityurl: Berkeley
     countryurl: USA
-  - &id277
+  - &id278
     name: "Peter Richt\xE1rik"
     last: Richtarik
     hindex: 79
@@ -7924,10 +7927,10 @@ conn_areas:
     affiliationurl: KAUST
     cityurl: Thuwal
     countryurl: Saudska_Arabia
-  - &id411
+  - &id412
     name: Michal Valko
     last: Valko
-    hindex: 54
+    hindex: 55
     field: "strojov\xE9 u\u010Denie"
     area: "umel\xE1 inteligencia"
     affiliation: Isara Labs
@@ -7939,7 +7942,7 @@ conn_areas:
     affiliationurl: Isara_Labs
     cityurl: Pariz
     countryurl: Francuzsko
-  - &id357
+  - &id358
     name: "Jana Ko\u0161eck\xE1"
     last: Kosecka
     hindex: 52
@@ -7954,7 +7957,7 @@ conn_areas:
     affiliationurl: George_Mason_University
     cityurl: Fairfax
     countryurl: USA
-  - &id326
+  - &id329
     name: "Branislav Kveto\u0148"
     last: Kveton
     hindex: 47
@@ -7969,7 +7972,7 @@ conn_areas:
     affiliationurl: Amazon
     cityurl: Berkeley
     countryurl: USA
-  - &id334
+  - &id326
     name: "Martin Pelik\xE1n"
     last: Pelikan
     hindex: 45
@@ -7984,7 +7987,7 @@ conn_areas:
     affiliationurl: Apple
     cityurl: Seattle
     countryurl: USA
-  - &id279
+  - &id280
     name: "Miroslav Dud\xEDk"
     last: Dudik
     hindex: 41
@@ -7999,7 +8002,7 @@ conn_areas:
     affiliationurl: Microsoft_Research
     cityurl: New_York
     countryurl: USA
-  - &id430
+  - &id431
     name: "Martin Tak\xE1\u010D"
     last: Takac
     hindex: 41
@@ -8014,7 +8017,7 @@ conn_areas:
     affiliationurl: MBZUAI
     cityurl: Abu_Dhabi
     countryurl: Spojene_arabske_emiraty
-  - &id364
+  - &id365
     name: "Milo\u0161 Hauskrecht"
     last: Hauskrecht
     hindex: 40
@@ -8029,7 +8032,7 @@ conn_areas:
     affiliationurl: University_of_Pittsburgh
     cityurl: Pittsburgh
     countryurl: USA
-  - &id307
+  - &id308
     name: "M\xE1ria Bielikov\xE1"
     last: Bielikova
     hindex: 38
@@ -8044,7 +8047,7 @@ conn_areas:
     affiliationurl: Kempelen_Institute_of_Intelligent_Technologies
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id270
+  - &id273
     name: "Zuzana K\xFAkelov\xE1"
     last: Kukelova
     hindex: 36
@@ -8059,7 +8062,7 @@ conn_areas:
     affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
     cityurl: Praha
     countryurl: Cesko
-  - &id373
+  - &id374
     name: Marek Petrik
     last: Petrik
     hindex: 31
@@ -8073,6 +8076,21 @@ conn_areas:
     areaurl: umela_inteligencia
     affiliationurl: University_of_New_Hampshire
     cityurl: Durham
+    countryurl: USA
+  - &id245
+    name: "Jakub Kone\u010Dn\xFD"
+    last: Konecny
+    hindex: 30
+    field: "umel\xE1 inteligencia"
+    area: "umel\xE1 inteligencia"
+    affiliation: Google
+    city: Seattle
+    country: USA
+    img: Jakub_Konecny_size_280px.jpg
+    card_id: Konecny:USA:Google:Seattle:vedec:umela_inteligencia:muz
+    areaurl: umela_inteligencia
+    affiliationurl: Google
+    cityurl: Seattle
     countryurl: USA
 - label: "spolo\u010Densk\xE9 vedy"
   url: spolocenske_vedy
@@ -8093,7 +8111,7 @@ conn_areas:
     affiliationurl: Univerzita_Pavla_Jozefa_Safarika
     cityurl: Kosice
     countryurl: Slovensko
-  - &id425
+  - &id426
     name: "Ladislav Timu\u013E\xE1k"
     last: Timulak
     hindex: 52
@@ -8108,7 +8126,7 @@ conn_areas:
     affiliationurl: Trinity_College_Dublin
     cityurl: Dublin
     countryurl: Irsko
-  - &id390
+  - &id391
     name: "Anna Zajacov\xE1"
     last: Zajacova
     hindex: 52
@@ -8123,7 +8141,7 @@ conn_areas:
     affiliationurl: University_of_Western_Ontario
     cityurl: London
     countryurl: Kanada
-  - &id297
+  - &id298
     name: "Nat\xE1lia Ku\u010D\xEDrkov\xE1"
     last: Kucirkova
     hindex: 47
@@ -8138,7 +8156,7 @@ conn_areas:
     affiliationurl: University_of_Stavanger
     cityurl: Stavanger
     countryurl: Norsko
-  - &id253
+  - &id256
     name: Marek Tesar
     last: Tesar
     hindex: 39
@@ -8153,7 +8171,7 @@ conn_areas:
     affiliationurl: The_University_of_Melbourne
     cityurl: Melbourne
     countryurl: Australia
-  - &id385
+  - &id386
     name: Miroslav Sirota
     last: Sirota
     hindex: 38
@@ -8168,7 +8186,7 @@ conn_areas:
     affiliationurl: University_of_Essex
     cityurl: Essex/Colchester
     countryurl: Velka_Britania
-  - &id257
+  - &id260
     name: Peter Halama
     last: Halama
     hindex: 37
@@ -8198,7 +8216,7 @@ conn_areas:
     affiliationurl: Univerzita_Konstantina_Filozofa
     cityurl: Nitra
     countryurl: Slovensko
-  - &id410
+  - &id411
     name: "Ondrej Mita\u0161"
     last: Mitas
     hindex: 32
@@ -8213,7 +8231,7 @@ conn_areas:
     affiliationurl: Breda_University_of_Applied_Sciences
     cityurl: Breda
     countryurl: Holandsko
-  - &id287
+  - &id288
     name: Milan Kubiatko
     last: Kubiatko
     hindex: 30
@@ -8542,182 +8560,183 @@ conn_affiliations:
   - *id240
   - *id241
   - *id242
-- label: International Institute for Applied Systems Analysis
-  url: International_Institute_for_Applied_Systems_Analysis
+- label: Google
+  url: Google
   count: 3
   members:
   - *id243
   - *id244
   - *id245
-- label: National Institutes of Health
-  url: National_Institutes_of_Health
+- label: International Institute for Applied Systems Analysis
+  url: International_Institute_for_Applied_Systems_Analysis
   count: 3
   members:
   - *id246
   - *id247
   - *id248
-- label: North Carolina State University
-  url: North_Carolina_State_University
+- label: National Institutes of Health
+  url: National_Institutes_of_Health
   count: 3
   members:
   - *id249
   - *id250
   - *id251
-- label: The University of Melbourne
-  url: The_University_of_Melbourne
+- label: North Carolina State University
+  url: North_Carolina_State_University
   count: 3
   members:
   - *id252
   - *id253
   - *id254
-- label: "Trnavsk\xE1 univerzita"
-  url: Trnavska_univerzita
+- label: The University of Melbourne
+  url: The_University_of_Melbourne
   count: 3
   members:
   - *id255
   - *id256
   - *id257
-- label: University of Oxford
-  url: University_of_Oxford
+- label: "Trnavsk\xE1 univerzita"
+  url: Trnavska_univerzita
   count: 3
   members:
   - *id258
   - *id259
   - *id260
-- label: Univerzita Karlova
-  url: Univerzita_Karlova
+- label: University of Oxford
+  url: University_of_Oxford
   count: 3
   members:
   - *id261
   - *id262
   - *id263
-- label: "Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave"
-  url: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
+- label: Univerzita Karlova
+  url: Univerzita_Karlova
   count: 3
   members:
   - *id264
   - *id265
   - *id266
+- label: "Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave"
+  url: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
+  count: 3
+  members:
+  - *id267
+  - *id268
+  - *id269
 - label: "\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze"
   url: Ceska_zemedelska_univerzita_v_Praze
   count: 2
   members:
-  - *id267
-  - *id268
+  - *id270
+  - *id271
 - label: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
   url: Ceske_vysoke_uceni_technicke_v_Prahe
   count: 2
   members:
-  - *id269
-  - *id270
+  - *id272
+  - *id273
 - label: Delft University of Technology
   url: Delft_University_of_Technology
   count: 2
   members:
-  - *id271
-  - *id272
+  - *id274
+  - *id275
 - label: "ETH Z\xFCrich"
   url: ETH_Zurich
   count: 2
   members:
-  - *id273
-  - *id274
-- label: Google
-  url: Google
-  count: 2
-  members:
-  - *id275
   - *id276
+  - *id277
 - label: KAUST
   url: KAUST
   count: 2
   members:
-  - *id277
   - *id278
+  - *id279
 - label: Microsoft Research
   url: Microsoft_Research
   count: 2
   members:
-  - *id279
   - *id280
+  - *id281
 - label: New York University
   url: New_York_University
   count: 2
   members:
-  - *id281
   - *id282
+  - *id283
 - label: Qatar University
   url: Qatar_University
   count: 2
   members:
-  - *id283
   - *id284
+  - *id285
 - label: Simon Fraser University
   url: Simon_Fraser_University
   count: 2
   members:
-  - *id285
   - *id286
+  - *id287
 - label: "Slezsk\xE1 univerzita v Opave"
   url: Slezska_univerzita_v_Opave
   count: 2
   members:
-  - *id287
   - *id288
+  - *id289
 - label: "Slovensk\xE1 zdravotn\xEDcka univerzita"
   url: Slovenska_zdravotnicka_univerzita
   count: 2
   members:
-  - *id289
   - *id290
+  - *id291
 - label: University of Arizona
   url: University_of_Arizona
   count: 2
   members:
-  - *id291
   - *id292
+  - *id293
 - label: University of California, San Diego
   url: University_of_California__San_Diego
   count: 2
   members:
-  - *id293
   - *id294
+  - *id295
 - label: University of Missouri
   url: University_of_Missouri
   count: 2
   members:
-  - *id295
   - *id296
+  - *id297
 - label: University of Stavanger
   url: University_of_Stavanger
   count: 2
   members:
-  - *id297
   - *id298
+  - *id299
 - label: University of Strathclyde
   url: University_of_Strathclyde
   count: 2
   members:
-  - *id299
   - *id300
+  - *id301
 - label: University of Toronto
   url: University_of_Toronto
   count: 2
   members:
-  - *id301
   - *id302
+  - *id303
 - label: University of Zurich
   url: University_of_Zurich
   count: 2
   members:
-  - *id303
   - *id304
+  - *id305
 - label: Uppsala University
   url: Uppsala_University
   count: 2
   members:
-  - *id305
   - *id306
+  - *id307
 conn_cities:
 - label: Bratislava
   url: Bratislava
@@ -8732,9 +8751,9 @@ conn_cities:
   - *id001
   - *id002
   - *id086
+  - *id087
   - *id003
   - *id004
-  - *id087
   - *id088
   - *id089
   - *id090
@@ -8755,7 +8774,7 @@ conn_cities:
   - *id016
   - *id093
   - *id017
-  - *id289
+  - *id290
   - *id094
   - *id018
   - *id095
@@ -8770,15 +8789,15 @@ conn_cities:
   - *id100
   - *id101
   - *id102
-  - *id025
-  - *id147
-  - *id026
   - *id103
+  - *id147
+  - *id025
+  - *id104
+  - *id026
   - *id027
   - *id028
-  - *id029
-  - *id104
   - *id105
+  - *id029
   - *id030
   - *id031
   - *id106
@@ -8787,17 +8806,17 @@ conn_cities:
   - *id109
   - *id033
   - *id110
-  - *id290
+  - *id291
   - *id034
-  - *id035
-  - *id307
-  - *id111
   - *id036
+  - *id308
+  - *id111
+  - *id037
   - *id112
   - *id113
   - *id114
   - *id148
-  - *id308
+  - *id309
   - *id039
   - *id115
   - *id116
@@ -8807,11 +8826,11 @@ conn_cities:
   - *id042
   - *id043
   - *id044
-  - *id118
   - *id045
-  - *id120
-  - *id309
+  - *id118
   - *id046
+  - *id120
+  - *id310
   - *id121
   - *id047
   - *id122
@@ -8825,20 +8844,20 @@ conn_cities:
   - *id125
   - *id050
   - *id052
+  - *id126
   - *id053
   - *id152
-  - *id310
+  - *id311
   - *id054
   - *id153
-  - *id126
-  - *id154
   - *id127
+  - *id154
   - *id128
-  - *id311
+  - *id129
+  - *id312
   - *id056
   - *id155
   - *id057
-  - *id129
   - *id059
   - *id130
   - *id131
@@ -8846,18 +8865,18 @@ conn_cities:
   - *id060
   - *id061
   - *id062
-  - *id312
+  - *id313
   - *id064
   - *id156
   - *id065
-  - *id313
+  - *id314
+  - *id157
   - *id133
   - *id067
   - *id068
   - *id069
   - *id134
   - *id070
-  - *id157
   - *id158
   - *id159
   - *id160
@@ -8895,9 +8914,9 @@ conn_cities:
   - *id024
   - *id196
   - *id169
-  - *id197
-  - *id037
+  - *id035
   - *id170
+  - *id197
   - *id038
   - *id198
   - *id171
@@ -8918,19 +8937,19 @@ conn_cities:
   count: 17
   members:
   - *id175
-  - *id269
-  - *id261
+  - *id272
+  - *id264
   - *id176
-  - *id262
+  - *id265
   - *id177
-  - *id263
-  - *id314
-  - *id178
-  - *id267
+  - *id266
   - *id315
-  - *id179
+  - *id178
   - *id270
-  - *id268
+  - *id316
+  - *id179
+  - *id273
+  - *id271
   - *id180
   - *id182
   - *id183
@@ -8941,9 +8960,9 @@ conn_cities:
   - *id184
   - *id185
   - *id186
-  - *id316
-  - *id187
   - *id317
+  - *id187
+  - *id318
   - *id188
   - *id189
   - *id190
@@ -8985,13 +9004,13 @@ conn_cities:
   members:
   - *id231
   - *id232
-  - *id318
-  - *id233
   - *id319
+  - *id233
   - *id320
-  - *id234
   - *id321
+  - *id234
   - *id322
+  - *id323
   - *id235
 - label: "\u017Dilina"
   url: Zilina
@@ -9019,29 +9038,37 @@ conn_cities:
   url: Trnava
   count: 6
   members:
-  - *id255
-  - *id264
-  - *id265
-  - *id256
-  - *id257
-  - *id266
+  - *id258
+  - *id267
+  - *id268
+  - *id259
+  - *id260
+  - *id269
 - label: "Z\xFCrich"
   url: Zurich
   count: 5
   members:
-  - *id273
-  - *id303
-  - *id274
   - *id276
   - *id304
+  - *id277
+  - *id244
+  - *id305
 - label: Melbourne
   url: Melbourne
   count: 4
   members:
-  - *id323
-  - *id252
-  - *id253
-  - *id254
+  - *id324
+  - *id255
+  - *id256
+  - *id257
+- label: Seattle
+  url: Seattle
+  count: 4
+  members:
+  - *id325
+  - *id326
+  - *id281
+  - *id245
 - label: Adelaide
   url: Adelaide
   count: 3
@@ -9053,23 +9080,23 @@ conn_cities:
   url: Berkeley
   count: 3
   members:
-  - *id324
-  - *id325
-  - *id326
+  - *id327
+  - *id328
+  - *id329
 - label: Bethesda
   url: Bethesda
   count: 3
   members:
-  - *id246
-  - *id247
-  - *id327
+  - *id249
+  - *id250
+  - *id330
 - label: Laxenburg
   url: Laxenburg
   count: 3
   members:
-  - *id243
-  - *id244
-  - *id245
+  - *id246
+  - *id247
+  - *id248
 - label: Martin
   url: Martin
   count: 3
@@ -9081,147 +9108,140 @@ conn_cities:
   url: New_York
   count: 3
   members:
-  - *id281
   - *id282
-  - *id279
+  - *id283
+  - *id280
 - label: Ottawa
   url: Ottawa
   count: 3
   members:
-  - *id328
-  - *id329
-  - *id330
+  - *id331
+  - *id332
+  - *id333
 - label: Oxford
   url: Oxford
   count: 3
   members:
-  - *id258
-  - *id259
-  - *id260
+  - *id261
+  - *id262
+  - *id263
 - label: "Pre\u0161ov"
   url: Presov
   count: 3
   members:
-  - *id331
+  - *id334
   - *id200
-  - *id332
+  - *id335
 - label: Raleigh
   url: Raleigh
   count: 3
   members:
-  - *id249
-  - *id250
-  - *id251
-- label: Seattle
-  url: Seattle
-  count: 3
-  members:
-  - *id333
-  - *id334
-  - *id280
+  - *id252
+  - *id253
+  - *id254
 - label: Toronto
   url: Toronto
   count: 3
   members:
-  - *id335
-  - *id301
+  - *id336
   - *id302
+  - *id303
 - label: Basel
   url: Basel
   count: 2
   members:
-  - *id336
   - *id337
+  - *id338
 - label: Columbia
   url: Columbia
   count: 2
   members:
-  - *id295
   - *id296
+  - *id297
 - label: Delft
   url: Delft
   count: 2
   members:
-  - *id271
-  - *id272
+  - *id274
+  - *id275
 - label: Doha
   url: Doha
   count: 2
   members:
-  - *id283
   - *id284
+  - *id285
 - label: Filadelfia
   url: Filadelfia
   count: 2
   members:
-  - *id338
   - *id339
+  - *id340
 - label: Fribourg
   url: Fribourg
   count: 2
   members:
-  - *id340
   - *id341
+  - *id342
 - label: Glasgow
   url: Glasgow
   count: 2
   members:
-  - *id299
   - *id300
+  - *id301
 - label: Opava
   url: Opava
   count: 2
   members:
-  - *id287
   - *id288
+  - *id289
 - label: Ostrava
   url: Ostrava
   count: 2
   members:
-  - *id342
   - *id343
+  - *id344
 - label: Perth
   url: Perth
   count: 2
   members:
-  - *id344
   - *id345
+  - *id346
 - label: San Diego
   url: San_Diego
   count: 2
   members:
-  - *id293
   - *id294
+  - *id295
 - label: Stavanger
   url: Stavanger
   count: 2
   members:
-  - *id297
   - *id298
+  - *id299
 - label: Sydney
   url: Sydney
   count: 2
   members:
-  - *id346
   - *id347
+  - *id348
 - label: Thuwal
   url: Thuwal
   count: 2
   members:
-  - *id277
   - *id278
+  - *id279
 - label: Tucson
   url: Tucson
   count: 2
   members:
-  - *id291
   - *id292
+  - *id293
 - label: Uppsala
   url: Uppsala
   count: 2
   members:
-  - *id305
   - *id306
+  - *id307
 conn_countries:
 - label: Slovensko
   url: Slovensko
@@ -9233,15 +9253,15 @@ conn_countries:
   - *id219
   - *id084
   - *id144
-  - *id348
   - *id085
-  - *id255
+  - *id349
+  - *id258
   - *id001
   - *id002
   - *id086
+  - *id087
   - *id003
   - *id004
-  - *id087
   - *id088
   - *id089
   - *id090
@@ -9259,19 +9279,19 @@ conn_countries:
   - *id010
   - *id011
   - *id012
-  - *id264
+  - *id267
   - *id013
   - *id014
+  - *id350
   - *id145
   - *id146
   - *id211
   - *id015
-  - *id349
   - *id016
   - *id093
   - *id222
   - *id017
-  - *id289
+  - *id290
   - *id165
   - *id194
   - *id166
@@ -9285,7 +9305,7 @@ conn_countries:
   - *id096
   - *id212
   - *id097
-  - *id265
+  - *id268
   - *id098
   - *id168
   - *id236
@@ -9293,22 +9313,22 @@ conn_countries:
   - *id195
   - *id022
   - *id023
-  - *id350
+  - *id351
   - *id202
   - *id024
   - *id100
   - *id101
-  - *id196
   - *id102
-  - *id025
-  - *id147
-  - *id026
+  - *id196
   - *id103
+  - *id147
+  - *id025
+  - *id104
+  - *id026
   - *id027
   - *id028
-  - *id029
-  - *id104
   - *id105
+  - *id029
   - *id030
   - *id031
   - *id106
@@ -9319,27 +9339,27 @@ conn_countries:
   - *id109
   - *id033
   - *id110
-  - *id290
+  - *id291
   - *id034
   - *id035
-  - *id307
-  - *id331
+  - *id170
+  - *id036
+  - *id308
+  - *id334
   - *id111
   - *id197
   - *id237
   - *id203
-  - *id036
+  - *id037
   - *id112
   - *id204
   - *id113
-  - *id256
+  - *id259
   - *id114
-  - *id037
-  - *id170
   - *id038
   - *id148
-  - *id257
-  - *id308
+  - *id260
+  - *id309
   - *id039
   - *id115
   - *id205
@@ -9349,15 +9369,15 @@ conn_countries:
   - *id041
   - *id042
   - *id043
-  - *id213
   - *id044
+  - *id213
+  - *id045
   - *id118
   - *id119
-  - *id045
-  - *id120
-  - *id309
-  - *id198
   - *id046
+  - *id120
+  - *id310
+  - *id198
   - *id121
   - *id047
   - *id122
@@ -9370,7 +9390,7 @@ conn_countries:
   - *id124
   - *id171
   - *id151
-  - *id266
+  - *id269
   - *id223
   - *id125
   - *id050
@@ -9378,19 +9398,20 @@ conn_countries:
   - *id199
   - *id051
   - *id052
+  - *id126
   - *id053
   - *id152
   - *id200
-  - *id310
+  - *id311
   - *id054
   - *id153
-  - *id126
-  - *id154
   - *id127
+  - *id154
   - *id128
+  - *id129
   - *id238
   - *id055
-  - *id311
+  - *id312
   - *id215
   - *id216
   - *id217
@@ -9399,7 +9420,6 @@ conn_countries:
   - *id155
   - *id057
   - *id058
-  - *id129
   - *id059
   - *id218
   - *id130
@@ -9410,12 +9430,13 @@ conn_countries:
   - *id060
   - *id061
   - *id062
-  - *id312
+  - *id313
   - *id063
   - *id064
   - *id156
   - *id065
-  - *id313
+  - *id314
+  - *id157
   - *id066
   - *id133
   - *id067
@@ -9424,14 +9445,13 @@ conn_countries:
   - *id209
   - *id134
   - *id070
-  - *id157
+  - *id158
   - *id172
   - *id071
-  - *id158
+  - *id159
   - *id072
   - *id224
   - *id173
-  - *id159
   - *id160
   - *id073
   - *id074
@@ -9446,7 +9466,7 @@ conn_countries:
   - *id078
   - *id138
   - *id079
-  - *id332
+  - *id335
   - *id139
   - *id140
   - *id201
@@ -9459,176 +9479,176 @@ conn_countries:
   - *id143
 - label: USA
   url: USA
-  count: 49
+  count: 50
   members:
-  - *id281
-  - *id351
-  - *id324
-  - *id295
+  - *id282
   - *id352
-  - *id325
-  - *id293
+  - *id327
+  - *id296
   - *id353
-  - *id249
+  - *id328
+  - *id294
   - *id354
-  - *id333
-  - *id246
+  - *id252
   - *id355
+  - *id325
+  - *id249
   - *id356
   - *id357
-  - *id250
-  - *id291
   - *id358
-  - *id282
-  - *id326
-  - *id359
+  - *id253
   - *id292
-  - *id247
+  - *id359
+  - *id283
+  - *id329
   - *id360
-  - *id334
-  - *id248
-  - *id338
+  - *id293
+  - *id250
   - *id361
-  - *id275
+  - *id326
+  - *id243
+  - *id251
+  - *id339
   - *id362
-  - *id279
-  - *id296
   - *id363
+  - *id280
+  - *id297
   - *id364
-  - *id294
   - *id365
+  - *id295
   - *id366
   - *id367
   - *id368
   - *id369
-  - *id327
-  - *id339
   - *id370
+  - *id330
+  - *id340
   - *id371
   - *id372
-  - *id251
   - *id373
-  - *id280
+  - *id254
   - *id374
+  - *id281
+  - *id375
+  - *id245
 - label: "\u010Cesko"
   url: Cesko
   count: 41
   members:
   - *id175
-  - *id269
-  - *id261
+  - *id272
+  - *id264
   - *id225
   - *id184
   - *id226
   - *id185
   - *id186
   - *id176
-  - *id316
-  - *id375
-  - *id187
-  - *id342
-  - *id262
-  - *id177
-  - *id263
-  - *id227
-  - *id314
-  - *id178
   - *id317
-  - *id188
-  - *id267
+  - *id376
+  - *id187
+  - *id343
+  - *id265
+  - *id177
+  - *id266
+  - *id227
   - *id315
+  - *id178
+  - *id318
+  - *id188
+  - *id270
+  - *id316
   - *id228
   - *id189
   - *id179
-  - *id270
-  - *id268
-  - *id343
-  - *id190
+  - *id273
+  - *id271
+  - *id344
   - *id180
+  - *id190
   - *id181
   - *id229
-  - *id376
+  - *id377
   - *id230
   - *id182
   - *id183
   - *id191
-  - *id287
   - *id288
+  - *id289
   - *id192
 - label: "Rak\xFAsko"
   url: Rakusko
   count: 15
   members:
-  - *id377
-  - *id231
   - *id378
+  - *id231
+  - *id379
   - *id232
-  - *id318
-  - *id233
-  - *id243
   - *id319
+  - *id233
+  - *id246
   - *id320
-  - *id234
-  - *id244
   - *id321
+  - *id234
+  - *id247
   - *id322
-  - *id245
+  - *id323
+  - *id248
   - *id235
 - label: "Austr\xE1lia"
   url: Australia
   count: 13
   members:
   - *id240
-  - *id323
-  - *id344
-  - *id346
-  - *id252
-  - *id241
-  - *id347
+  - *id324
   - *id345
-  - *id379
-  - *id253
+  - *id347
+  - *id255
+  - *id241
+  - *id348
+  - *id346
   - *id380
+  - *id256
+  - *id381
   - *id242
-  - *id254
+  - *id257
 - label: "Ve\u013Ek\xE1 Brit\xE1nia"
   url: Velka_Britania
   count: 13
   members:
-  - *id258
-  - *id259
-  - *id381
+  - *id261
+  - *id262
   - *id382
-  - *id299
-  - *id300
   - *id383
+  - *id300
+  - *id301
   - *id384
   - *id385
-  - *id260
   - *id386
+  - *id263
   - *id387
   - *id388
+  - *id389
 - label: Kanada
   url: Kanada
   count: 12
   members:
-  - *id335
-  - *id328
-  - *id301
-  - *id329
-  - *id389
-  - *id330
+  - *id336
+  - *id331
   - *id302
-  - *id285
+  - *id332
   - *id390
+  - *id333
+  - *id303
   - *id286
   - *id391
+  - *id287
   - *id392
+  - *id393
 - label: Nemecko
   url: Nemecko
   count: 12
   members:
-  - *id393
   - *id394
   - *id395
   - *id396
@@ -9640,121 +9660,122 @@ conn_countries:
   - *id402
   - *id403
   - *id404
+  - *id405
 - label: "\u0160vaj\u010Diarsko"
   url: Svajciarsko
   count: 11
   members:
-  - *id405
-  - *id340
-  - *id273
-  - *id303
-  - *id274
-  - *id336
-  - *id276
-  - *id304
-  - *id337
   - *id406
   - *id341
+  - *id276
+  - *id304
+  - *id277
+  - *id337
+  - *id244
+  - *id305
+  - *id338
+  - *id407
+  - *id342
 - label: Holandsko
   url: Holandsko
   count: 6
   members:
-  - *id271
-  - *id272
-  - *id407
+  - *id274
+  - *id275
   - *id408
   - *id409
   - *id410
+  - *id411
 - label: "Franc\xFAzsko"
   url: Francuzsko
   count: 5
   members:
-  - *id411
   - *id412
   - *id413
   - *id414
   - *id415
+  - *id416
 - label: "N\xF3rsko"
   url: Norsko
   count: 4
   members:
-  - *id416
-  - *id297
-  - *id298
   - *id417
+  - *id298
+  - *id299
+  - *id418
 - label: Belgicko
   url: Belgicko
   count: 3
   members:
-  - *id418
   - *id419
   - *id420
+  - *id421
 - label: "\u0160v\xE9dsko"
   url: Svedsko
   count: 3
   members:
-  - *id305
   - *id306
-  - *id421
+  - *id307
+  - *id422
 - label: Katar
   url: Katar
   count: 2
   members:
-  - *id283
   - *id284
+  - *id285
 - label: "Saudsk\xE1 Ar\xE1bia"
   url: Saudska_Arabia
   count: 2
   members:
-  - *id277
   - *id278
+  - *id279
 - label: "D\xE1nsko"
   url: Dansko
   count: 1
   members:
-  - *id422
+  - *id423
 - label: "Est\xF3nsko"
   url: Estonsko
   count: 1
   members:
-  - *id423
+  - *id424
 - label: "F\xEDnsko"
   url: Finsko
   count: 1
   members:
-  - *id424
+  - *id425
 - label: "\xCDrsko"
   url: Irsko
   count: 1
   members:
-  - *id425
+  - *id426
 - label: Japonsko
   url: Japonsko
   count: 1
   members:
-  - *id426
+  - *id427
 - label: "Ju\u017En\xE1 K\xF3rea"
   url: Juzna_Korea
   count: 1
   members:
-  - *id427
+  - *id428
 - label: "Rusk\xE1 feder\xE1cia"
   url: Ruska_federacia
   count: 1
   members:
-  - *id428
+  - *id429
 - label: "\u0160panielsko"
   url: Spanielsko
   count: 1
   members:
-  - *id429
+  - *id430
 - label: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
   url: Spojene_arabske_emiraty
   count: 1
   members:
-  - *id430
-h_updated: 11. 10. 2026
-h_updated_iso: '2026-10-11'
+  - *id431
+h_updated: 18. 10. 2026
+h_updated_iso: '2026-10-18'
 area_menu:
 - name: "biol\xF3gia"
   url: biologia
@@ -9791,4 +9812,4 @@ area_menu:
   n: 14
 - name: "umel\xE1 inteligencia"
   url: umela_inteligencia
-  n: 15
+  n: 16
