@@ -8105,6 +8105,38 @@
   affiliationurl: KAUST
   cityurl: Thuwal
   sexurl: muz
+- name: "Zolt\xE1n V\xF6r\xF6s"
+  last: Voros
+  year: 1959
+  sex: "mu\u017E"
+  position: vedec
+  field: "fyzika vesm\xEDrnej plazmy"
+  pribeh: "Rod\xE1k z Kom\xE1rna, jadrov\xFA fyziku vy\u0161tudoval na UK a dvan\xE1\
+    s\u0165 rokov viedol geomagnetick\xE9 observat\xF3rium v Hurbanove. V Grazi sleduje,\
+    \ ako sa v turbulentnej plazme okolo Zeme trhaj\xFA a znova sp\xE1jaj\xFA magnetick\xE9\
+    \ silo\u010Diary."
+  affiliation: "Institut f\xFCr Weltraumforschung \xD6AW"
+  city: Graz
+  country: "Rak\xFAsko"
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=NEORYUkAAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-7597-238X
+  - - web
+    - https://www.oeaw.ac.at/en/iwf/institut/das-team/weltraumplasmaphysik/voeroes-zoltan
+  img: Zoltan_Voros_size_280px.jpg
+  countryurl: Rakusko
+  fieldurl: fyzika_vesmirnej_plazmy
+  area: fyzika
+  areaurl: fyzika
+  area2: geovedy
+  area2url: geovedy
+  positionurl: vedec
+  affiliationurl: Institut_fur_Weltraumforschung_OAW
+  cityurl: Graz
+  sexurl: muz
 - name: "Vladimir Zele\u0148\xE1k"
   last: Zelenak
   year: 1969
