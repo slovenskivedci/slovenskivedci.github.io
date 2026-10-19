@@ -1976,6 +1976,35 @@
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: muz
+- name: "Andrej Hasil\xEDk"
+  last: Hasilik
+  year: ''
+  sex: "mu\u017E"
+  position: "emeritn\xFD profesor"
+  field: "bioch\xE9mia"
+  pribeh: "In\u017Einier zo STU v Bratislave, doktor\xE1t z\xEDskal vo Freiburgu.\
+    \ V Marburgu viedol \xDAstav fyziologickej ch\xE9mie a sk\xFAmal, ako enz\xFD\
+    my pod\u013Ea adresy man\xF3za-6-fosf\xE1t trafia do lyzoz\xF3mov."
+  affiliation: "Philipps-Universit\xE4t Marburg"
+  city: Marburg
+  country: Nemecko
+  hindex: 61
+  scholar: https://scholar.google.com/citations?user=oli3kAIAAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-3162-7757
+  img: Andrej_Hasilik_size_280px.jpg
+  countryurl: Nemecko
+  fieldurl: biochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: emeritny_profesor
+  affiliationurl: Philipps-Universitat_Marburg
+  cityurl: Marburg
+  sexurl: muz
 - name: "Richard Kvet\u0148ansk\xFD"
   last: Kvetnansky
   year: 1937-2016
@@ -2114,6 +2143,32 @@
   affiliationurl: Adolphe_Merkle_Institute
   cityurl: Fribourg
   sexurl: muz
+- name: "Veronika Bachanov\xE1"
+  last: Bachanova
+  year: ''
+  sex: "\u017Eena"
+  position: profesorka
+  field: "hematol\xF3gia a onkol\xF3gia"
+  pribeh: "Medic\xEDnu vy\u0161tudovala na UK v Bratislave. V Minneapolise prestavuje\
+    \ imunitn\xE9 bunky CAR-T a NK na lovcov lymf\xF3mov a leuk\xE9mi\xED."
+  affiliation: University of Minnesota
+  city: Minneapolis
+  country: USA
+  hindex: 59
+  scholar: https://scholar.google.com/citations?user=1hzFH18AAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - web
+    - https://cancer.umn.edu/staff/veronika-bachanova
+  img: Veronika_Bachanova_size_280px.jpg
+  countryurl: USA
+  fieldurl: hematologia_a_onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesorka
+  affiliationurl: University_of_Minnesota
+  cityurl: Minneapolis
+  sexurl: zena
 - name: "Vladim\xEDr Sl\xE1dek"
   last: Sladek
   year: 1954
@@ -4121,6 +4176,37 @@
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: muz
+- name: "Tibor Kristi\xE1n"
+  last: Kristian
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: neurovedy
+  pribeh: "Vy\u0161tudoval na UPJ\u0160 v Ko\u0161iciach, doktor\xE1t z\xEDskal v\
+    \ SAV. V Baltimore sk\xFAma, pre\u010Do mitochondrie v mozgu po isch\xE9mii zlyh\xE1\
+    vaj\xFA a ako ich zachr\xE1ni\u0165 cez NAD+."
+  affiliation: University of Maryland School of Medicine
+  city: Baltimore
+  country: USA
+  hindex: 50
+  scholar: https://scholar.google.com/citations?user=mhP12TkAAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-1804-8999
+  - - web
+    - https://www.medschool.umaryland.edu/profiles/kristian-tibor/
+  img: Tibor_Kristian_size_280px.jpg
+  countryurl: USA
+  fieldurl: neurovedy
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: profesor
+  affiliationurl: University_of_Maryland_School_of_Medicine
+  cityurl: Baltimore
+  sexurl: muz
 - name: "Peter Mass\xE1nyi"
   last: Massanyi
   year: 1968
@@ -4366,6 +4452,37 @@
   affiliationurl: University_of_Arizona
   cityurl: Tucson
   sexurl: muz
+- name: "Eva \u010Cul\xE1kov\xE1"
+  last: Culakova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "bio\u0161tatistika"
+  pribeh: "Vy\u0161tudovala na UK v Bratislave, doktor\xE1t z\xEDskala v Rochestri.\
+    \ Ako biostatisti\u010Dka dohliada, aby klinick\xE9 \u0161t\xFAdie so star\u0161\
+    \xEDmi pacientmi s rakovinou hovorili pravdu aj v \u010D\xEDslach."
+  affiliation: University of Rochester Medical Center
+  city: Rochester
+  country: USA
+  hindex: 48
+  scholar: https://scholar.google.com/citations?user=pQiaHmwAAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-9852-6515
+  - - web
+    - https://mycarg.org/team/eva-culakova/
+  img: Eva_Culakova_size_280px.jpg
+  countryurl: USA
+  fieldurl: biostatistika
+  area: matematika
+  areaurl: matematika
+  area2: "medic\xEDna"
+  area2url: medicina
+  positionurl: vedkyna
+  affiliationurl: University_of_Rochester_Medical_Center
+  cityurl: Rochester
+  sexurl: zena
 - name: Marek Hatala
   last: Hatala
   year: ''
@@ -5092,6 +5209,36 @@
   affiliationurl: Zilinska_univerzita
   cityurl: Zilina
   sexurl: zena
+- name: Peter Ertl
+  last: Ertl
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: chemoinformatika
+  pribeh: "Rod\xE1k z Bratislavy, ch\xE9miu vy\u0161tudoval na UK. \u0160tvr\u0165\
+    storo\u010Die v Novartise u\u010Dil po\u010D\xEDta\u010De rozozna\u0165 s\u013E\
+    ubn\xFA molekulu sk\xF4r, ne\u017E ju niekto priprav\xED v laborat\xF3riu, a dnes\
+    \ to rob\xED vo vlastnej firme."
+  affiliation: Ertl Molecular
+  city: Basel
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 46
+  scholar: https://scholar.google.com/citations?user=_UgR8v8AAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - web
+    - https://peter-ertl.com/
+  img: Peter_Ertl_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: chemoinformatika
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: informatika
+  area2url: informatika
+  positionurl: vedec
+  affiliationurl: Ertl_Molecular
+  cityurl: Basel
+  sexurl: muz
 - name: Miroslav Grmela
   last: Grmela
   year: 1939
@@ -8535,6 +8682,33 @@
   positionurl: vedec
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
+  sexurl: muz
+- name: "R\xF3bert Tenzer"
+  last: Tenzer
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzik\xE1lna geod\xE9zia"
+  pribeh: "Geod\xE9ziu vy\u0161tudoval na STU, kde z\xEDskal aj doktor\xE1t. Cez Kanadu,\
+    \ Anglicko, Holandsko, Nov\xFD Z\xE9land a Wuhan sa dostal do Hongkongu, kde meria\
+    \ tia\u017Eov\xE9 pole Zeme."
+  affiliation: The Hong Kong Polytechnic University
+  city: Hongkong
+  country: "\u010C\xEDna"
+  hindex: 38
+  scholar: https://scholar.google.com/citations?user=aVh3kbYAAAAJ
+  last_update: '2026-10-19'
+  links:
+  - - web
+    - https://www.polyu.edu.hk/lsgs/people/academic-staff/prof-robert-tenzer/
+  img: Robert_Tenzer_size_280px.jpg
+  countryurl: Cina
+  fieldurl: fyzikalna_geodezia
+  area: geovedy
+  areaurl: geovedy
+  positionurl: profesor
+  affiliationurl: The_Hong_Kong_Polytechnic_University
+  cityurl: Hongkong
   sexurl: muz
 - name: "Matej Bal\xE1\u017E"
   last: Balaz
