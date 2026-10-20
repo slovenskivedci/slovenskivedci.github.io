@@ -4452,6 +4452,37 @@
   affiliationurl: University_of_Arizona
   cityurl: Tucson
   sexurl: muz
+- name: "Gabriel Bek\xF6"
+  last: Beko
+  year: 1980
+  sex: "mu\u017E"
+  position: docent
+  field: "kvalita vn\xFAtorn\xE9ho prostredia"
+  pribeh: "Vy\u0161tudoval na STU, doktor\xE1t dokon\u010Dil spolu s DTU. V Lyngby\
+    \ meria, \u010Do d\xFDchame doma a v kancel\xE1rii, a zistil, \u017Ee aj oble\u010D\
+    enie nas\xE1va chemik\xE1lie z ovzdu\u0161ia a odovzd\xE1va ich ko\u017Ei."
+  affiliation: Technical University of Denmark
+  city: Kongens Lyngby
+  country: "D\xE1nsko"
+  hindex: 48
+  scholar: https://scholar.google.com/citations?user=53LxD7QAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-6107-8336
+  - - web
+    - https://orbit.dtu.dk/en/persons/gabriel-bek%C3%B6
+  img: Gabriel_Beko_size_280px.jpg
+  countryurl: Dansko
+  fieldurl: kvalita_vnutorneho_prostredia
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  area2: "medic\xEDna"
+  area2url: medicina
+  positionurl: docent
+  affiliationurl: Technical_University_of_Denmark
+  cityurl: Kongens_Lyngby
+  sexurl: muz
 - name: "Eva \u010Cul\xE1kov\xE1"
   last: Culakova
   year: ''
