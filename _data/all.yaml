@@ -7953,6 +7953,39 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: Martin Motola
+  last: Motola
+  year: 1989
+  sex: "mu\u017E"
+  position: docent
+  field: "fotoakt\xEDvne nanomateri\xE1ly"
+  pribeh: "Ch\xE9miu vy\u0161tudoval na PriF UK, kde dnes vedie v\xFDskum fotoakt\xED\
+    vnych materi\xE1lov. Jeho nanotrubice sa u\u010Dia premeni\u0165 svetlo na chemick\xFA\
+    \ pr\xE1cu."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=NCCw63YAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-7394-9944
+  - - web
+    - https://sites.google.com/view/photoactive-materials/our-team
+  - - "\u017Eivotopis"
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/motola1.uniba.sk.html
+  img: Martin_Motola_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fotoaktivne_nanomaterialy
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: "materi\xE1ly"
+  area2url: materialy
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "\u013Dubica Palkovi\u010Dov\xE1 Mur\xEDnov\xE1"
   last: Palkovicova Murinova
   year: ''
@@ -12138,6 +12171,37 @@
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
   sexurl: zena
+- name: Peter Tatarko
+  last: Tatarko
+  year: ''
+  sex: "mu\u017E"
+  position: "riadite\u013E"
+  field: "ultravysokoteplotn\xE1 keramika"
+  pribeh: "Materi\xE1lov\xE9 in\u017Einierstvo vy\u0161tudoval na TUKE, sk\xFAsenosti\
+    \ zbieral aj v Lond\xFDne. Dnes vedie \xDAstav anorganickej ch\xE9mie SAV a sk\xFA\
+    ma keramiku, ktor\xE1 vydr\u017E\xED tam, kde sa kov roztop\xED."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=DCSG2TsAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-5013-7003
+  - - web
+    - https://uach.sav.sk/about/structure-of-institute/management-board/
+  img: Peter_Tatarko_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: ultravysokoteplotna_keramika
+  area: "materi\xE1ly"
+  areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
+  positionurl: riaditel
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Ladislav Valkovi\u010D"
   last: Valkovic
   year: 1986
@@ -13138,6 +13202,37 @@
   affiliationurl: The_University_of_Melbourne
   cityurl: Melbourne
   sexurl: muz
+- name: "Martina Zele\u0148\xE1kov\xE1"
+  last: Zelenakova
+  year: 1975
+  sex: "\u017Eena"
+  position: profesorka
+  field: "vodn\xE9 hospod\xE1rstvo"
+  pribeh: "Rod\xE1\u010Dka z Popradu, na Stavebnej fakulte TUKE sa venuje vode v krajine.\
+    \ Po\u010D\xEDta, ako sa pripravi\u0165 na povodne aj such\xE1 sk\xF4r, ne\u017E\
+    \ pr\xEDdu."
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=G38Z2vEAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-7502-9586
+  - - web
+    - https://at.tuke.sk/people/2079
+  img: Martina_Zelenakova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vodne_hospodarstvo
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  area2: geovedy
+  area2url: geovedy
+  positionurl: profesorka
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Kosice
+  sexurl: zena
 - name: "Milan Bal\xE1\u017E"
   last: Balaz
   year: ''
@@ -13552,6 +13647,37 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
+  sexurl: muz
+- name: "Norbert Luk\xE1\u010D"
+  last: Lukac
+  year: 1969
+  sex: "mu\u017E"
+  position: profesor
+  field: "reproduk\u010Dn\xE1 toxikol\xF3gia"
+  pribeh: "Zootechniku vy\u0161tudoval v Nitre, dnes je dekanom Fakulty biotechnol\xF3\
+    gie a potravin\xE1rstva SPU. Sk\xFAma, \u010Do \u0161kodliv\xE9 l\xE1tky a oxida\u010D\
+    n\xFD stres robia so spermiami."
+  affiliation: "Slovensk\xE1 po\u013Enohospod\xE1rska univerzita v Nitre"
+  city: Nitra
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=LfxMh5gAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-4565-2083
+  - - web
+    - https://fbp.uniag.sk/en/dean/
+  - - "\u017Eivotopis"
+    - https://fbp.uniag.sk/sk/zivotopis-dekana-2766
+  img: Norbert_Lukac_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: reprodukcna_toxikologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: profesor
+  affiliationurl: Slovenska_polnohospodarska_univerzita_v_Nitre
+  cityurl: Nitra
   sexurl: muz
 - name: "Eva Majkov\xE1"
   last: Majkova
@@ -14408,6 +14534,35 @@
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
+  sexurl: muz
+- name: "Miroslav Medve\u010F"
+  last: Medved
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "v\xFDpo\u010Dtov\xE1 ch\xE9mia"
+  pribeh: "Fyzik\xE1lnu ch\xE9miu vy\u0161tudoval na PriF UK. V Banskej Bystrici po\u010D\
+    \xEDta, ako molekuly reaguj\xFA na svetlo a ako z nich postavi\u0165 molekulov\xE9\
+    \ prep\xEDna\u010De."
+  affiliation: Univerzita Mateja Bela
+  city: "Bansk\xE1 Bystrica"
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=3cVTBqYAAAAJ
+  last_update: '2026-10-20'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-8599-1031
+  - - web
+    - https://www.fpv.umb.sk/mmedved/
+  img: Miroslav_Medved_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: vypoctova_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: docent
+  affiliationurl: Univerzita_Mateja_Bela
+  cityurl: Banska_Bystrica
   sexurl: muz
 - name: "Jozef Min\xE1r"
   last: Minar
