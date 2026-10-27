@@ -5338,6 +5338,33 @@
   affiliationurl: Polytechnique_Montreal
   cityurl: Montreal
   sexurl: muz
+- name: Peter Kabos
+  last: Kabos
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "onkol\xF3gia rakoviny prsn\xEDka"
+  pribeh: "Medic\xEDnu vy\u0161tudoval na Univerzite Komensk\xE9ho. V Colorade dnes\
+    \ lie\u010Di pacientky s rakovinou prsn\xEDka a sk\xFAma, pre\u010Do n\xE1dory\
+    \ prest\xE1vaj\xFA reagova\u0165 na hormon\xE1lnu lie\u010Dbu."
+  affiliation: University of Colorado Anschutz Medical Campus
+  city: Aurora
+  country: USA
+  hindex: 46
+  scholar: https://scholar.google.com/citations?user=3j_f_90AAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - web
+    - https://som.cuanschutz.edu/Profiles/Faculty/Profile/13514
+  img: Peter_Kabos_size_280px.jpg
+  countryurl: USA
+  fieldurl: onkologia_rakoviny_prsnika
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: University_of_Colorado_Anschutz_Medical_Campus
+  cityurl: Aurora
+  sexurl: muz
 - name: "Miroslav Koles\xEDk"
   last: Kolesik
   year: ''
@@ -5884,6 +5911,37 @@
   positionurl: profesor
   affiliationurl: Univerzita_Konstantina_Filozofa
   cityurl: Nitra
+  sexurl: muz
+- name: "Vladim\xEDr Zachar"
+  last: Zachar
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "regenerat\xEDvna medic\xEDna a kme\u0148ov\xE9 bunky"
+  pribeh: "Medic\xEDnu vy\u0161tudoval na Univerzite Komensk\xE9ho a virol\xF3giu\
+    \ na SAV. V d\xE1nskom Aalborgu dnes vedie skupinu regenerat\xEDvnej medic\xED\
+    ny, ktor\xE1 u\u010D\xED kme\u0148ov\xE9 bunky hoji\u0165 tkaniv\xE1."
+  affiliation: Aalborg University
+  city: Aalborg
+  country: "D\xE1nsko"
+  hindex: 45
+  scholar: https://scholar.google.com/citations?user=F51G3k0AAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5279-2690
+  - - web
+    - https://vbn.aau.dk/en/persons/vlaz/
+  img: Vladimir_Zachar_size_280px.jpg
+  countryurl: Dansko
+  fieldurl: regenerativna_medicina_a_kmenove_bunky
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: profesor
+  affiliationurl: Aalborg_University
+  cityurl: Aalborg
   sexurl: muz
 - name: "Michal Fe\u010Dkan"
   last: Feckan
@@ -8910,6 +8968,36 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
+- name: Richard Franka
+  last: Franka
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "epidemiol\xF3gia besnoty a detskej obrny"
+  pribeh: "Veterin\xE1rnu medic\xEDnu a PhD z\xEDskal na UVLF v Ko\u0161iciach. V\
+    \ americkom CDC dnes bojuje proti besnote a detskej obrne po celom svete."
+  affiliation: Centers for Disease Control and Prevention
+  city: Atlanta
+  country: USA
+  hindex: 37
+  scholar: https://scholar.google.com/citations?user=iOtDGKoAAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-7516-5390
+  - - "\u017Eivotopis"
+    - files/cv_Richard_Franka_2015.pdf
+  img: Richard_Franka_size_280px.jpg
+  countryurl: USA
+  fieldurl: epidemiologia_besnoty_a_detskej_obrny
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: vedec
+  affiliationurl: Centers_for_Disease_Control_and_Prevention
+  cityurl: Atlanta
+  sexurl: muz
 - name: "Milan Gembick\xFD"
   last: Gembicky
   year: ''
@@ -8974,6 +9062,37 @@
   positionurl: profesor
   affiliationurl: Trnavska_univerzita
   cityurl: Trnava
+  sexurl: muz
+- name: Michal Javorka
+  last: Javorka
+  year: 1975
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyziol\xF3gia srdcovocievneho syst\xE9mu"
+  pribeh: "Medic\xEDnu vy\u0161tudoval na Jesseniovej lek\xE1rskej fakulte UK v Martine,\
+    \ kde dnes ako profesor fyziol\xF3gie \u010D\xEDta v rytme srdca, ako spolu hovoria\
+    \ org\xE1ny tela."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Martin
+  country: Slovensko
+  hindex: 37
+  scholar: https://scholar.google.com/citations?user=UZUQ-2QAAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - loop
+    - https://loop.frontiersin.org/people/380146
+  - - orcid
+    - https://orcid.org/0000-0001-7562-5193
+  - - web
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/JLF/SK/javorka3.uniba.sk.html
+  img: Michal_Javorka_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fyziologia_srdcovocievneho_systemu
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Martin
   sexurl: muz
 - name: Karol Kajo
   last: Kajo
@@ -10747,6 +10866,35 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Pavol \u017D\xFAbor"
+  last: Zubor
+  year: 1975
+  sex: "mu\u017E"
+  position: profesor
+  field: "gynekologick\xE1 onkol\xF3gia"
+  pribeh: "Medic\xEDnu vy\u0161tudoval na Jesseniovej lek\xE1rskej fakulte UK v Martine,\
+    \ kde z\xEDskal PhD aj DrSc. Dnes v N\xF3rsku sk\xFAma genetiku rakoviny prsn\xED\
+    ka a gynekologick\xFDch n\xE1dorov."
+  affiliation: Akershus University Hospital
+  city: Oslo
+  country: "N\xF3rsko"
+  hindex: 35
+  scholar: https://scholar.google.com/citations?user=OC4wX7QAAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - orcid
+    - https://orcid.org/0009-0003-1423-5556
+  - - web
+    - https://www.helpery.sk/konzultacie/gynekologia/prof-mudr-pavol-zubor-phd-drsc-mba-frsm/
+  img: Pavol_Zubor_size_280px.jpg
+  countryurl: Norsko
+  fieldurl: gynekologicka_onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Akershus_University_Hospital
+  cityurl: Oslo
+  sexurl: muz
 - name: "Michal Bo\u0161e\u013Ea"
   last: Bosela
   year: 1981
@@ -11411,6 +11559,35 @@
   positionurl: vedec
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
+  sexurl: muz
+- name: "Daniel \u0160tefankovi\u010D"
+  last: Stefankovic
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "teoretick\xE1 informatika"
+  pribeh: "Informatiku vy\u0161tudoval na Univerzite Komensk\xE9ho, doktor\xE1t z\xED\
+    skal v Chicagu. Na University of Rochester sk\xFAma, ako r\xFDchlo a presne po\u010D\
+    \xEDta\u0165 a vzorkova\u0165 n\xE1hodn\xE9 \u0161trukt\xFAry."
+  affiliation: University of Rochester
+  city: Rochester
+  country: USA
+  hindex: 34
+  scholar: https://scholar.google.com/citations?user=G9egwmIAAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - web
+    - https://www.cs.rochester.edu/u/stefanko/
+  img: Daniel_Stefankovic_size_280px.jpg
+  countryurl: USA
+  fieldurl: teoreticka_informatika
+  area: informatika
+  areaurl: informatika
+  area2: matematika
+  area2url: matematika
+  positionurl: profesor
+  affiliationurl: University_of_Rochester
+  cityurl: Rochester
   sexurl: muz
 - name: "Roman Sz\u0171cs"
   last: Szucs
@@ -14621,6 +14798,35 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "J\xE1n Monco\u013E"
+  last: Moncol
+  year: 1975
+  sex: "mu\u017E"
+  position: profesor
+  field: "anorganick\xE1 ch\xE9mia a kry\u0161talografia"
+  pribeh: "Chemick\xFA technol\xF3giu vy\u0161tudoval na STU, kde dnes ako profesor\
+    \ rozl\xFA\u0161\u0165uje kry\u0161t\xE1lov\xE9 \u0161trukt\xFAry koordina\u010D\
+    n\xFDch zl\xFA\u010Den\xEDn at\xF3m po at\xF3me."
+  affiliation: "Slovensk\xE1 technick\xE1 univerzita"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=YjmLS24AAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2153-9753
+  - - "\u017Eivotopis"
+    - files/cv_Jan_Moncol_2026.pdf
+  img: Jan_Moncol_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: anorganicka_chemia_a_krystalografia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: Slovenska_technicka_univerzita
+  cityurl: Bratislava
+  sexurl: muz
 - name: Peter Papcun
   last: Papcun
   year: 1987
@@ -14842,4 +15048,35 @@
   positionurl: profesor
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
+  sexurl: muz
+- name: Peter Zvara
+  last: Zvara
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "urol\xF3gia a neurourol\xF3gia"
+  pribeh: "Medic\xEDnu vy\u0161tudoval na Univerzite Komensk\xE9ho, kde z\xEDskal\
+    \ aj PhD. Dnes v d\xE1nskom Odense sk\xFAma, ako nervy riadia mo\u010Dov\xFD mech\xFA\
+    r a ako ich po poranen\xED opravi\u0165."
+  affiliation: University of Southern Denmark
+  city: Odense
+  country: "D\xE1nsko"
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=2PkPtN8AAAAJ
+  last_update: '2026-10-27'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-6972-6980
+  - - web
+    - https://portal.findresearcher.sdu.dk/en/persons/pzvara/
+  - - "\u017Eivotopis"
+    - files/cv_Peter_Zvara_2026.pdf
+  img: Peter_Zvara_size_280px.jpg
+  countryurl: Dansko
+  fieldurl: urologia_a_neurourologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: University_of_Southern_Denmark
+  cityurl: Odense
   sexurl: muz
