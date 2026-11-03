@@ -229,9 +229,9 @@
   affiliation: "Slovensk\xE1 po\u013Enohospod\xE1rska univerzita"
   city: Nitra
   country: Slovensko
-  hindex: 108
+  hindex: 109
   scholar: https://scholar.google.com/citations?user=9LXjvp8AAAAJ&amp;hl=en&amp;oi=sra
-  last_update: '2026-10-04'
+  last_update: '2026-11-03'
   links:
   - - web
     - https://is.uniag.sk/lide/clovek.pl?id=1426
@@ -1446,6 +1446,33 @@
   affiliationurl: Masarykova_univerzita
   cityurl: Brno
   sexurl: muz
+- name: Marcel Franz
+  last: Franz
+  year: ''
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzika kondenzovan\xFDch l\xE1tok"
+  pribeh: "V Kanade po\u010D\xEDta topologick\xE9 stavy elektr\xF3nov: kondenzovan\xE1\
+    \ hmota, ktor\xE1 si na okraji spieva in\xFA piese\u0148 ako vo vn\xFAtri."
+  affiliation: University of British Columbia
+  city: Vancouver
+  country: Kanada
+  hindex: 69
+  scholar: https://scholar.google.com/citations?user=qOmkOIAAAAAJ&amp;hl=en
+  last_update: '2026-11-03'
+  links:
+  - - web
+    - https://phas.ubc.ca/~franz/
+  img: Marcel_Franz_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Kanada
+  fieldurl: fyzika_kondenzovanych_latok
+  area: fyzika
+  areaurl: fyzika
+  positionurl: profesor
+  affiliationurl: University_of_British_Columbia
+  cityurl: Vancouver
+  sexurl: muz
 - name: "R\xF3bert Kr\xE1lovics"
   last: Kralovics
   year: 1970
@@ -1479,33 +1506,6 @@
   positionurl: vedec
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
-  sexurl: muz
-- name: Marcel Franz
-  last: Franz
-  year: ''
-  sex: "mu\u017E"
-  position: profesor
-  field: "fyzika kondenzovan\xFDch l\xE1tok"
-  pribeh: "V Kanade po\u010D\xEDta topologick\xE9 stavy elektr\xF3nov: kondenzovan\xE1\
-    \ hmota, ktor\xE1 si na okraji spieva in\xFA piese\u0148 ako vo vn\xFAtri."
-  affiliation: University of British Columbia
-  city: Vancouver
-  country: Kanada
-  hindex: 68
-  scholar: https://scholar.google.com/citations?user=qOmkOIAAAAAJ&amp;hl=en
-  last_update: '2026-09-13'
-  links:
-  - - web
-    - https://phas.ubc.ca/~franz/
-  img: Marcel_Franz_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Kanada
-  fieldurl: fyzika_kondenzovanych_latok
-  area: fyzika
-  areaurl: fyzika
-  positionurl: profesor
-  affiliationurl: University_of_British_Columbia
-  cityurl: Vancouver
   sexurl: muz
 - name: Pavel Povinec
   last: Povinec
@@ -4689,6 +4689,35 @@
   affiliationurl: University_of_Stavanger
   cityurl: Stavanger
   sexurl: zena
+- name: "Branislav Kveto\u0148"
+  last: Kveton
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "strojov\xE9 u\u010Denie"
+  pribeh: "V Amazone u\u010D\xED stroje u\u010Di\u0165 sa z m\xE1la d\xE1t: inteligentn\xFD\
+    \ syst\xE9m u\u0148ho nepotrebuje cel\xFD internet na jeden dobr\xFD odhad."
+  affiliation: Amazon
+  city: Berkeley
+  country: USA
+  hindex: 48
+  scholar: https://scholar.google.com/citations?user=CZaDvPgAAAAJ&amp;hl=en&amp;oi=ao
+  last_update: '2026-11-03'
+  links:
+  - - dblp
+    - https://dblp.org/pid/92/5526.html
+  - - web
+    - https://www.bkveton.com
+  img: Branislav_Kveton_size_280px.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: strojove_ucenie
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
+  positionurl: vedec
+  affiliationurl: Amazon
+  cityurl: Berkeley
+  sexurl: muz
 - name: "Iveta Nagyov\xE1"
   last: Nagyova
   year: ''
@@ -5107,35 +5136,6 @@
   positionurl: docent
   affiliationurl: New_York_University
   cityurl: New_York
-  sexurl: muz
-- name: "Branislav Kveto\u0148"
-  last: Kveton
-  year: ''
-  sex: "mu\u017E"
-  position: vedec
-  field: "strojov\xE9 u\u010Denie"
-  pribeh: "V Amazone u\u010D\xED stroje u\u010Di\u0165 sa z m\xE1la d\xE1t: inteligentn\xFD\
-    \ syst\xE9m u\u0148ho nepotrebuje cel\xFD internet na jeden dobr\xFD odhad."
-  affiliation: Amazon
-  city: Berkeley
-  country: USA
-  hindex: 47
-  scholar: https://scholar.google.com/citations?user=CZaDvPgAAAAJ&amp;hl=en&amp;oi=ao
-  last_update: '2026-08-25'
-  links:
-  - - dblp
-    - https://dblp.org/pid/92/5526.html
-  - - web
-    - https://www.bkveton.com
-  img: Branislav_Kveton_size_280px.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: strojove_ucenie
-  area: "umel\xE1 inteligencia"
-  areaurl: umela_inteligencia
-  positionurl: vedec
-  affiliationurl: Amazon
-  cityurl: Berkeley
   sexurl: muz
 - name: "Andrea Laukov\xE1"
   last: Laukova
@@ -6897,6 +6897,61 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
+- name: "Martin Tak\xE1\u010D"
+  last: Takac
+  year: '1986'
+  sex: "mu\u017E"
+  position: docent
+  field: "optimaliz\xE1cia"
+  pribeh: "V Ab\xFA Zab\xED zr\xFDch\u013Euje u\u010Denie modelov: optimaliz\xE1cia,\
+    \ ktor\xE1 gradientu meria krok aj trpezlivos\u0165."
+  affiliation: MBZUAI
+  city: Abu Dhabi
+  country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
+  hindex: 42
+  scholar: https://scholar.google.com/citations?hl=en&user=qKQD-2cAAAAJ
+  last_update: '2026-11-03'
+  links:
+  - - dblp
+    - https://dblp.org/pid/42/3759.html
+  - - IEEE Xplore
+    - https://ieeexplore.ieee.org/author/37085360273
+  - - KInIT
+    - https://kinit.sk/meet-martin-takac-kinit-external-mentor/
+  - - Lehigh University
+    - https://engineering.lehigh.edu/faculty/martin-takac
+  - - LinkedIn
+    - https://www.linkedin.com/in/martintakac/
+  - - loop
+    - https://loop.frontiersin.org/people/199374/overview
+  - - Mathematics Genealogy
+    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=182721
+  - - openreview
+    - https://openreview.net/profile?id=~Martin_Takac3
+  - - orcid
+    - https://orcid.org/0000-0001-7455-2025
+  - - "osobn\xFD web"
+    - https://mtakac.com
+  - - SlidesLive
+    - https://slideslive.com/s/martin-takac-23271
+  - - twitter
+    - https://twitter.com/takacmartin
+  - - Web of Science
+    - https://www.webofscience.com/wos/author/rid/AAA-8564-2022
+  - - "\u017Eivotopis"
+    - https://mtakac.com/CV
+  img: Martin_Takac_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Spojene_arabske_emiraty
+  fieldurl: optimalizacia
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
+  area2: matematika
+  area2url: matematika
+  positionurl: docent
+  affiliationurl: MBZUAI
+  cityurl: Abu_Dhabi
+  sexurl: muz
 - name: Jozef Ukropec
   last: Ukropec
   year: 1974
@@ -7331,61 +7386,6 @@
   positionurl: vedec
   affiliationurl: U.S._Department_of_Agriculture
   cityurl: Salinas
-  sexurl: muz
-- name: "Martin Tak\xE1\u010D"
-  last: Takac
-  year: '1986'
-  sex: "mu\u017E"
-  position: docent
-  field: "optimaliz\xE1cia"
-  pribeh: "V Ab\xFA Zab\xED zr\xFDch\u013Euje u\u010Denie modelov: optimaliz\xE1cia,\
-    \ ktor\xE1 gradientu meria krok aj trpezlivos\u0165."
-  affiliation: MBZUAI
-  city: Abu Dhabi
-  country: "Spojen\xE9 arabsk\xE9 emir\xE1ty"
-  hindex: 41
-  scholar: https://scholar.google.com/citations?hl=en&user=qKQD-2cAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - dblp
-    - https://dblp.org/pid/42/3759.html
-  - - IEEE Xplore
-    - https://ieeexplore.ieee.org/author/37085360273
-  - - KInIT
-    - https://kinit.sk/meet-martin-takac-kinit-external-mentor/
-  - - Lehigh University
-    - https://engineering.lehigh.edu/faculty/martin-takac
-  - - LinkedIn
-    - https://www.linkedin.com/in/martintakac/
-  - - loop
-    - https://loop.frontiersin.org/people/199374/overview
-  - - Mathematics Genealogy
-    - https://www.genealogy.math.ndsu.nodak.edu/id.php?id=182721
-  - - openreview
-    - https://openreview.net/profile?id=~Martin_Takac3
-  - - orcid
-    - https://orcid.org/0000-0001-7455-2025
-  - - "osobn\xFD web"
-    - https://mtakac.com
-  - - SlidesLive
-    - https://slideslive.com/s/martin-takac-23271
-  - - twitter
-    - https://twitter.com/takacmartin
-  - - Web of Science
-    - https://www.webofscience.com/wos/author/rid/AAA-8564-2022
-  - - "\u017Eivotopis"
-    - https://mtakac.com/CV
-  img: Martin_Takac_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Spojene_arabske_emiraty
-  fieldurl: optimalizacia
-  area: "umel\xE1 inteligencia"
-  areaurl: umela_inteligencia
-  area2: matematika
-  area2url: matematika
-  positionurl: docent
-  affiliationurl: MBZUAI
-  cityurl: Abu_Dhabi
   sexurl: muz
 - name: "Adam Toma\u0161ov\xFDch"
   last: Tomasovych
@@ -7980,6 +7980,35 @@
   affiliationurl: Estonian_University_of_Life_Sciences
   cityurl: Tartu
   sexurl: zena
+- name: "Iveta Bern\xE1tov\xE1"
+  last: Bernatova
+  year: ''
+  sex: "\u017Eena"
+  position: "vedky\u0148a"
+  field: "fyziol\xF3gia"
+  pribeh: "Krvn\xFD tlak, oxid dusnat\xFD a cievy: fyziol\xF3gia, ktor\xE1 hypertenziu\
+    \ meria nielen man\u017Eetou, ale aj mechanizmom."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.sk/citations?user=S9nvaAkAAAAJ&amp;hl=sk
+  last_update: '2026-11-03'
+  links:
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Iveta_Bernatova/2
+  - - "\u017Eivotopis"
+    - files/cv_Iveta_Bernatova.docx
+  img: Iveta_Bernatova_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: fyziologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: vedkyna
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Zdenka \u010Eura\u010Dkov\xE1"
   last: Durackova
   year: ''
@@ -8330,35 +8359,6 @@
   affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: muz
-- name: "Iveta Bern\xE1tov\xE1"
-  last: Bernatova
-  year: ''
-  sex: "\u017Eena"
-  position: "vedky\u0148a"
-  field: "fyziol\xF3gia"
-  pribeh: "Krvn\xFD tlak, oxid dusnat\xFD a cievy: fyziol\xF3gia, ktor\xE1 hypertenziu\
-    \ meria nielen man\u017Eetou, ale aj mechanizmom."
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 38
-  scholar: https://scholar.google.sk/citations?user=S9nvaAkAAAAJ&amp;hl=sk
-  last_update: '2026-08-25'
-  links:
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Iveta_Bernatova/2
-  - - "\u017Eivotopis"
-    - files/cv_Iveta_Bernatova.docx
-  img: Iveta_Bernatova_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: fyziologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: vedkyna
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: zena
 - name: "M\xE1ria Bielikov\xE1"
   last: Bielikova
   year: 1966
