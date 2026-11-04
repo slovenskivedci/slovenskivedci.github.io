@@ -10157,6 +10157,37 @@
   affiliationurl: Solargis
   cityurl: Bratislava
   sexurl: muz
+- name: Martin Venhart
+  last: Venhart
+  year: 1981
+  sex: "mu\u017E"
+  position: predseda SAV
+  field: "experiment\xE1lna jadrov\xE1 fyzika"
+  pribeh: "Jadrov\xFA fyziku vy\u0161tudoval na FMFI UK, kde z\xEDskal aj doktor\xE1\
+    t. Vo Fyzik\xE1lnom \xFAstave SAV sk\xFAma \u0161trukt\xFAru at\xF3mov\xFDch jadier,\
+    \ v CERN-e vedie experiment IS521 a od roku 2025 je predsedom SAV."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 36
+  scholar: https://scholar.google.com/citations?user=qVDGn68AAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-2362-7079
+  - - web
+    - https://psav.sav.sk/predsednictvo-sav/predseda-sav/
+  - - "\u017Eivotopis"
+    - files/cv_Martin_Venhart_2025.pdf
+  img: Martin_Venhart_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: experimentalna_jadrova_fyzika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: predseda_SAV
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Martin Ba\u010Da"
   last: Baca
   year: ''
@@ -14180,6 +14211,35 @@
   affiliationurl: Microsoft_Research
   cityurl: Seattle
   sexurl: muz
+- name: Michal Chovanec
+  last: Chovanec
+  year: 1984
+  sex: "mu\u017E"
+  position: docent
+  field: "klinick\xE1 onkol\xF3gia"
+  pribeh: "Na LF UK a v N\xE1rodnom onkologickom \xFAstave sa venuje n\xE1dorom semenn\xED\
+    kov. Sk\xFAma, ako ich \u010Do najlep\u0161ie lie\u010Di\u0165 a ak\xE9 neskor\xE9\
+    \ n\xE1sledky lie\u010Dby si pacienti nes\xFA aj po rokoch."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=jeOqaAIAAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-5653-2909
+  - - web
+    - https://www.fmed.uniba.sk/studium/doktorandske-studium/onkologia/doc-mudr-michal-chovanec-phd/
+  img: Michal_Chovanec_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: klinicka_onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: docent
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Alexander Chud\xEDk"
   last: Chudik
   year: ''
@@ -14716,6 +14776,38 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Miroslava Mat\xFA\u0161kov\xE1"
+  last: Matuskova
+  year: ''
+  sex: "\u017Eena"
+  position: "ved\xFAca"
+  field: "molekul\xE1rna onkol\xF3gia"
+  pribeh: "Biol\xF3giu vy\u0161tudovala na PriF UK, doktor\xE1t z imunol\xF3gie z\xED\
+    skala na LF UK. V Biomedic\xEDnskom centre SAV vedie skupinu molekul\xE1rnej onkol\xF3\
+    gie a sk\xFAma, pre\u010Do n\xE1dory odol\xE1vaj\xFA chemoterapii a ako metast\xE1\
+    zuj\xFA."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=9mdxGSAAAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-0747-9275
+  - - web
+    - https://bmc.sav.sk/veda/vyskumne-skupiny-podla-temy/onkologia-nanobiologia/molekularna-onkologia/
+  img: Miroslava_Matuskova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: molekularna_onkologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  area2: "medic\xEDna"
+  area2url: medicina
+  positionurl: veduca
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Miroslav Medve\u010F"
   last: Medved
   year: ''
@@ -14967,6 +15059,40 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Milan \u0164apajna"
+  last: Tapajna
+  year: ''
+  sex: "mu\u017E"
+  position: "riadite\u013E"
+  field: "polovodi\u010Dov\xE9 s\xFA\u010Diastky na b\xE1ze GaN"
+  pribeh: "Na FEI STU z\xEDskal in\u017Einiersky titul aj PhD z mikroelektroniky,\
+    \ sk\xFAsenosti zbieral v Bristole. Dnes vedie Elektrotechnick\xFD \xFAstav SAV\
+    \ a sk\xFAma spo\u013Eahlivos\u0165 s\xFA\u010Diastok z nitridu g\xE1lia pre v\xFD\
+    konov\xFA a vysokofrekven\u010Dn\xFA elektroniku."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=YtYFXkwAAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0003-1099-2050
+  - - web
+    - https://elu.sav.sk/o-nas/organizacna-struktura/
+  - - "\u017Eivotopis"
+    - https://vedanadosah.cvtisr.sk/register-vedcov/ing-milan-tapajna-phd/
+  img: Milan_Tapajna_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: polovodicove_suciastky_na_baze_GaN
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  area2: fyzika
+  area2url: fyzika
+  positionurl: riaditel
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "\u013Dubom\xEDr Val\xEDk"
   last: Valik
   year: ''
@@ -15022,6 +15148,35 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Anna Zahoranov\xE1"
+  last: Zahoranova
+  year: 1957
+  sex: "\u017Eena"
+  position: docentka
+  field: fyzika plazmy
+  pribeh: "Fyziku plazmy vy\u0161tudovala na Univerzite Komensk\xE9ho, kde p\xF4sob\xED\
+    \ dodnes. Sk\xFAma, ako studen\xE1 plazma pri atmosf\xE9rickom tlaku pom\xE1ha\
+    \ semen\xE1m lep\u0161ie kl\xED\u010Di\u0165 a zbavuje ich mikroorganizmov."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=JltUYicAAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-0772-9385
+  - - "\u017Eivotopis"
+    - https://ais2.uniba.sk/repo2/repository/default/ais/zamestnanec/FMFI/SK/zahoranova1.uniba.sk.html
+  img: Anna_Zahoranova_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: fyzika_plazmy
+  area: fyzika
+  areaurl: fyzika
+  positionurl: docentka
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: zena
 - name: Peter Zvara
   last: Zvara
   year: ''
