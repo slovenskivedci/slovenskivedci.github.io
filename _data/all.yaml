@@ -2348,6 +2348,37 @@
   affiliationurl: Montanuniversitat_Leoben
   cityurl: Leoben
   sexurl: muz
+- name: "Michal Mokr\xFD"
+  last: Mokry
+  year: 1982
+  sex: "mu\u017E"
+  position: docent
+  field: "kardiol\xF3gia"
+  pribeh: "V Utrechte opravuje srdcia od plodu po dospel\xE9ho: najmen\u0161ia chlop\u0148\
+    a m\xE1 u\u0148ho najv\xE4\u010D\u0161\xED dramatick\xFD obl\xFAk."
+  affiliation: University Medical Center Utrecht
+  city: Utrecht
+  country: Holandsko
+  hindex: 58
+  scholar: https://scholar.google.com/citations?hl=en&amp;user=rX7GiUAAAAAJ
+  last_update: '2026-11-04'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/michalmokry/?originalSubdomain=nl
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Michal_Mokry
+  - - web
+    - https://www.umcutrecht.nl/en/research/researchers/mokry-michal-m
+  img: Michal_Mokry_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Holandsko
+  fieldurl: kardiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: docent
+  affiliationurl: University_Medical_Center_Utrecht
+  cityurl: Utrecht
+  sexurl: muz
 - name: "Marek \u017Div\u010D\xE1k"
   last: Zivcak
   year: ''
@@ -2477,37 +2508,6 @@
   positionurl: profesor
   affiliationurl: University_of_California__San_Diego
   cityurl: San_Diego
-  sexurl: muz
-- name: "Michal Mokr\xFD"
-  last: Mokry
-  year: 1982
-  sex: "mu\u017E"
-  position: docent
-  field: "kardiol\xF3gia"
-  pribeh: "V Utrechte opravuje srdcia od plodu po dospel\xE9ho: najmen\u0161ia chlop\u0148\
-    a m\xE1 u\u0148ho najv\xE4\u010D\u0161\xED dramatick\xFD obl\xFAk."
-  affiliation: University Medical Center Utrecht
-  city: Utrecht
-  country: Holandsko
-  hindex: 57
-  scholar: https://scholar.google.com/citations?hl=en&amp;user=rX7GiUAAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/michalmokry/?originalSubdomain=nl
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Michal_Mokry
-  - - web
-    - https://www.umcutrecht.nl/en/research/researchers/mokry-michal-m
-  img: Michal_Mokry_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Holandsko
-  fieldurl: kardiologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: docent
-  affiliationurl: University_Medical_Center_Utrecht
-  cityurl: Utrecht
   sexurl: muz
 - name: Peter Celec
   last: Celec

@@ -238,7 +238,7 @@ hindex:
 - 36
 - 67
 - 37
-- 57
+- 58
 - 40
 - 40
 - 38
@@ -790,7 +790,7 @@ fields:
   - 47
   - 44
   - 33
-  - 57
+  - 58
   - 40
   - 40
   - 38
@@ -1060,9 +1060,9 @@ year_hindex_xy: "[{x:1952,y:277,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ mechanika',area:'in\u017Einierstvo'},{x:1970,y:60,name:'Stano Pek\xE1r',id:'Pekar:Cesko:Masarykova_univerzita:Brno:profesor:behavioralna_ekologia:muz',field:'behavior\xE1\
   lna ekol\xF3gia',area:'biol\xF3gia'},{x:1954,y:59,name:'Vladim\xEDr Sl\xE1dek',id:'Sladek:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:aplikovana_mechanika:muz',field:'aplikovan\xE1\
   \ mechanika',area:'in\u017Einierstvo'},{x:1977,y:58,name:'Josef Jamp\xEDlek',id:'Jampilek:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:medicinalna_chemia:muz',field:'medicin\xE1\
-  lna ch\xE9mia',area:'ch\xE9mia'},{x:1969,y:57,name:'Martin Kr\u0161\u0161\xE1k',id:'Krssak:Rakusko:Medical_University_of_Vienna:Vieden:docent:lekarska_fyzika:muz',field:'lek\xE1\
-  rska fyzika',area:'medic\xEDna'},{x:1982,y:57,name:'Michal Mokr\xFD',id:'Mokry:Holandsko:University_Medical_Center_Utrecht:Utrecht:docent:kardiologia:muz',field:'kardiol\xF3\
-  gia',area:'medic\xEDna'},{x:1979,y:56,name:'Peter Celec',id:'Celec:Slovensko:Univerzita_Komenskeho:Bratislava:docent:molekularna_biomedicina:muz',field:'molekul\xE1\
+  lna ch\xE9mia',area:'ch\xE9mia'},{x:1982,y:58,name:'Michal Mokr\xFD',id:'Mokry:Holandsko:University_Medical_Center_Utrecht:Utrecht:docent:kardiologia:muz',field:'kardiol\xF3\
+  gia',area:'medic\xEDna'},{x:1969,y:57,name:'Martin Kr\u0161\u0161\xE1k',id:'Krssak:Rakusko:Medical_University_of_Vienna:Vieden:docent:lekarska_fyzika:muz',field:'lek\xE1\
+  rska fyzika',area:'medic\xEDna'},{x:1979,y:56,name:'Peter Celec',id:'Celec:Slovensko:Univerzita_Komenskeho:Bratislava:docent:molekularna_biomedicina:muz',field:'molekul\xE1\
   rna biomedic\xEDna',area:'medic\xEDna'},{x:1972,y:56,name:'Be\xE1ta Gavurov\xE1\
   ',id:'Gavurova:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesorka:manazment:zena',field:'mana\u017E\
   ment',area:'ekon\xF3mia a mana\u017Ement'},{x:1972,y:56,name:'Andrea Madarasov\xE1\
@@ -2132,6 +2132,21 @@ conn_areas:
     affiliationurl: University_of_Minnesota
     cityurl: Minneapolis
     countryurl: USA
+  - &id425
+    name: "Michal Mokr\xFD"
+    last: Mokry
+    hindex: 58
+    field: "kardiol\xF3gia"
+    area: "medic\xEDna"
+    affiliation: University Medical Center Utrecht
+    city: Utrecht
+    country: Holandsko
+    img: Michal_Mokry_size_280px.jpg
+    card_id: Mokry:Holandsko:University_Medical_Center_Utrecht:Utrecht:docent:kardiologia:muz
+    areaurl: medicina
+    affiliationurl: University_Medical_Center_Utrecht
+    cityurl: Utrecht
+    countryurl: Holandsko
   - &id237
     name: "Martin Kr\u0161\u0161\xE1k"
     last: Krssak
@@ -2162,21 +2177,6 @@ conn_areas:
     affiliationurl: University_of_California__San_Diego
     cityurl: San_Diego
     countryurl: USA
-  - &id425
-    name: "Michal Mokr\xFD"
-    last: Mokry
-    hindex: 57
-    field: "kardiol\xF3gia"
-    area: "medic\xEDna"
-    affiliation: University Medical Center Utrecht
-    city: Utrecht
-    country: Holandsko
-    img: Michal_Mokry_size_280px.jpg
-    card_id: Mokry:Holandsko:University_Medical_Center_Utrecht:Utrecht:docent:kardiologia:muz
-    areaurl: medicina
-    affiliationurl: University_Medical_Center_Utrecht
-    cityurl: Utrecht
-    countryurl: Holandsko
   - &id093
     name: Peter Celec
     last: Celec
