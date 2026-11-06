@@ -32,7 +32,7 @@ hindex:
 - 53
 - 41
 - 40
-- 30
+- 31
 - 37
 - 33
 - 48
@@ -290,7 +290,7 @@ hindex:
 - 30
 - 36
 - 38
-- 42
+- 41
 - 52
 - 49
 - 57
@@ -395,7 +395,7 @@ hindex:
 - 39
 - 40
 - 43
-- 32
+- 33
 - 35
 - 47
 - 34
@@ -426,7 +426,7 @@ hindex:
 - 61
 - 263
 - 32
-- 42
+- 43
 - 34
 - 35
 - 77
@@ -474,7 +474,7 @@ hindex:
 - 37
 - 47
 - 63
-- 35
+- 36
 - 44
 - 48
 - 46
@@ -605,7 +605,7 @@ fields:
   - 37
   "ch\xE9mia":
   - 40
-  - 30
+  - 31
   - 33
   - 31
   - 47
@@ -718,7 +718,7 @@ fields:
   - 38
   - 31
   - 30
-  - 42
+  - 41
   - 42
   - 44
   - 44
@@ -743,7 +743,7 @@ fields:
   - 30
   - 263
   - 32
-  - 42
+  - 43
   - 30
   - 30
   - 44
@@ -908,7 +908,7 @@ fields:
   - 34
   - 43
   - 70
-  - 32
+  - 33
   - 32
   - 71
   - 38
@@ -942,7 +942,7 @@ fields:
   - 44
   - 59
   - 38
-  - 35
+  - 36
   - 48
   matematika:
   - 35
@@ -1139,12 +1139,12 @@ year_hindex_xy: "[{x:1952,y:277,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   \ a fotonika',area:'fyzika'},{x:1978,y:44,name:'Roman Horv\xE1th',id:'Horvath:Cesko:Univerzita_Karlova:Praha:profesor:ekonomia:muz',field:'ekon\xF3\
   mia',area:'ekon\xF3mia a mana\u017Ement'},{x:1966,y:44,name:'Pavol Szomol\xE1nyi',id:'Szomolanyi:Rakusko:Medical_University_of_Vienna:Vieden:vedec:magneticka_rezonancia:muz',field:'magnetick\xE1\
   \ rezonancia',area:'fyzika'},{x:1973,y:44,name:'Norbert \u017Dilka',id:'Zilka:Slovensko:Slovenska_akademia_vied:Bratislava:docent:neuroimunologia:muz',field:'neuroimunol\xF3\
-  gia',area:'medic\xEDna'},{x:1968,y:42,name:'Du\u0161an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz',field:'keramick\xE9\
+  gia',area:'medic\xEDna'},{x:1974,y:43,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
+  \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1968,y:42,name:'Du\u0161\
+  an Galusek',id:'Galusek:Slovensko:Trencianska_univerzita_Alexandra_Dubceka:Trencin:profesor:keramicke_materialy:muz',field:'keramick\xE9\
   \ materi\xE1ly',area:'materi\xE1ly'},{x:1962,y:42,name:'Igor Jex',id:'Jex:Cesko:Ceske_vysoke_uceni_technicke_v_Praze:Praha:profesor:kvantova_optika:muz',field:'kvantov\xE1\
   \ optika',area:'fyzika'},{x:1955,y:42,name:'Peter Kop\u010Dansk\xFD',id:'Kopcansky:Slovensko:Slovenska_akademia_vied:Kosice:docent:fyzika_magnetizmu:muz',field:'fyzika\
-  \ magnetizmu',area:'fyzika'},{x:1974,y:42,name:'Zdenko Machala',id:'Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz',field:'fyzika\
-  \ plazmy a environment\xE1lna fyzika',area:'fyzika'},{x:1959,y:42,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
-  \ fyzika',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
+  \ magnetizmu',area:'fyzika'},{x:1956,y:42,name:'Peter Moczo',id:'Moczo:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:geofyzika:muz',field:'geofyzika',area:'geovedy'},{x:1963,y:42,name:'Milan\
   \ Palu\u0161',id:'Palus:Cesko:Ceska_akademia_vied:Praha:vedec:fyzika_komplexnych_systemov:muz',field:'fyzika\
   \ komplexn\xFDch syst\xE9mov',area:'fyzika'},{x:1961,y:42,name:'Igor Podlubn\xFD\
   ',id:'Podlubny:Slovensko:Technicka_univerzita_v_Kosiciach:Kosice:profesor:aplikovana_matematika:muz',field:'aplikovan\xE1\
@@ -1157,6 +1157,7 @@ year_hindex_xy: "[{x:1952,y:277,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'medic\xEDna'},{x:1943,y:41,name:'Ivan Chod\xE1k',id:'Chodak:Slovensko:Slovenska_akademia_vied:Bratislava:profesor:modifikacia_polymerov:muz',field:'modifik\xE1\
   cia polym\xE9rov',area:'ch\xE9mia'},{x:1959,y:41,name:'J\xE1n Kormanec',id:'Kormanec:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:genova_expresia:muz',field:'g\xE9\
   nov\xE1 expresia',area:'biol\xF3gia'},{x:1980,y:41,name:'Andrej Liptaj',id:'Liptaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
+  \ fyzika',area:'fyzika'},{x:1959,y:41,name:'Jozef Masarik',id:'Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz',field:'jadrov\xE1\
   \ fyzika',area:'fyzika'},{x:1965,y:41,name:'Katar\xEDna Miku\u0161ov\xE1',id:'Mikusova:Slovensko:Univerzita_Komenskeho:Bratislava:profesorka:biochemia:zena',field:'bioch\xE9\
   mia',area:'ch\xE9mia'},{x:1955,y:41,name:'Peter I. Nabelek',id:'Nabelek:USA:University_of_Missouri:Columbia:profesor:geologia:muz',field:'geol\xF3\
   gia',area:'geovedy'},{x:1960,y:41,name:'Juraj Nemec',id:'Nemec:Cesko:Masarykova_univerzita:Brno:profesor:ekonomia:muz',field:'ekon\xF3\
@@ -1351,9 +1352,9 @@ odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','in\u017Einierstvo','g
   ensk\xE9 vedy']"
 odborCount: '[102,76,69,62,27,24,21,18,17,17,12,11]'
 odborMin: '[30,30,30,30,30,30,30,30,30,30,31,30]'
-odborAvg: '[48.5,58.0,41.3,43.0,41.1,41.7,38.4,38.2,46.5,41.2,49.1,40.8]'
+odborAvg: '[48.5,58.0,41.4,43.0,41.1,41.7,38.4,38.2,46.5,41.2,49.1,40.8]'
 odborMax: '[110,277,66,109,75,92,56,82,95,58,81,56]'
-odborMedian: '[44.0,42.0,39.0,36.5,35.0,37.5,36.0,34.5,39.0,40.0,43.5,38.0]'
+odborMedian: '[44.0,42.0,39.0,36.5,36.0,37.5,36.0,34.5,39.0,40.0,43.5,38.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''inzinierstvo'',''geovedy'',''ekonomia_a_manazment'',''matematika'',''informatika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
 odbor_key:
 - area: "medic\xEDna"
@@ -1738,8 +1739,8 @@ sk_institutions: "[{name:'Slovensk\xE1 akad\xE9mia vied',city:'Bratislava',count
   ern\xFD',h:63},{name:'Pavol Prokop',h:62},{name:'Josef Jamp\xEDlek',h:58},{name:'Peter\
   \ Celec',h:56},{name:'Michal Mego',h:51},{name:'Jozef Noga',h:47},{name:'Tibor Hianik',h:47},{name:'Tom\xE1\
   \u0161 Bu\u010Dko',h:47},{name:'Michal Zeman',h:46},{name:'Nat\xE1lia Kryvinsk\xE1\
-  ',h:46},{name:'Michal Fe\u010Dkan',h:44},{name:'Jozef Masarik',h:42},{name:'Katar\xED\
-  na \u0160ebekov\xE1',h:42},{name:'Peter Moczo',h:42},{name:'Zdenko Machala',h:42},{name:'Katar\xED\
+  ',h:46},{name:'Michal Fe\u010Dkan',h:44},{name:'Zdenko Machala',h:43},{name:'Katar\xED\
+  na \u0160ebekov\xE1',h:42},{name:'Peter Moczo',h:42},{name:'Jozef Masarik',h:41},{name:'Katar\xED\
   na Miku\u0161ov\xE1',h:41},{name:'Miroslav Urban',h:41},{name:'Stanislav Antalic',h:41},{name:'Juraj\
   \ Bujd\xE1k',h:40},{name:'J\xE1n Lehotsk\xFD',h:39},{name:'Martin Motola',h:39},{name:'Zdenka\
   \ \u010Eura\u010Dkov\xE1',h:39},{name:'Daniela Ostatn\xEDkov\xE1',h:38},{name:'\u013D\
@@ -2647,7 +2648,7 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id107
+  - &id106
     name: "Katar\xEDna \u0160ebekov\xE1"
     last: Sebekova
     hindex: 42
@@ -3896,6 +3897,21 @@ conn_areas:
     affiliationurl: Medical_University_of_Vienna
     cityurl: Vieden
     countryurl: Rakusko
+  - &id104
+    name: Zdenko Machala
+    last: Machala
+    hindex: 43
+    field: "fyzika plazmy a environment\xE1lna fyzika"
+    area: fyzika
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Zdenko_Machala_size_280px.jpg
+    card_id: Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz
+    areaurl: fyzika
+    affiliationurl: Univerzita_Komenskeho
+    cityurl: Bratislava
+    countryurl: Slovensko
   - &id384
     name: Oskar Vafek
     last: Vafek
@@ -3941,36 +3957,6 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
     countryurl: Slovensko
-  - &id104
-    name: Zdenko Machala
-    last: Machala
-    hindex: 42
-    field: "fyzika plazmy a environment\xE1lna fyzika"
-    area: fyzika
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
-    country: Slovensko
-    img: Zdenko_Machala_size_280px.jpg
-    card_id: Machala:Slovensko:Univerzita_Komenskeho:Bratislava:docent:fyzika_plazmy_a_environmentalna_fyzika:muz
-    areaurl: fyzika
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
-    countryurl: Slovensko
-  - &id105
-    name: Jozef Masarik
-    last: Masarik
-    hindex: 42
-    field: "jadrov\xE1 fyzika"
-    area: fyzika
-    affiliation: "Univerzita Komensk\xE9ho"
-    city: Bratislava
-    country: Slovensko
-    img: Jozef_Masarik_size_280px.jpg
-    card_id: Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz
-    areaurl: fyzika
-    affiliationurl: Univerzita_Komenskeho
-    cityurl: Bratislava
-    countryurl: Slovensko
   - &id197
     name: "Milan Palu\u0161"
     last: Palus
@@ -4001,7 +3987,7 @@ conn_areas:
     affiliationurl: Uppsala_University
     cityurl: Uppsala
     countryurl: Svedsko
-  - &id108
+  - &id107
     name: Stanislav Antalic
     last: Antalic
     hindex: 41
@@ -4029,6 +4015,21 @@ conn_areas:
     card_id: Liptaj:Slovensko:Slovenska_akademia_vied:Bratislava:vedec:subjadrova_fyzika:muz
     areaurl: fyzika
     affiliationurl: Slovenska_akademia_vied
+    cityurl: Bratislava
+    countryurl: Slovensko
+  - &id108
+    name: Jozef Masarik
+    last: Masarik
+    hindex: 41
+    field: "jadrov\xE1 fyzika"
+    area: fyzika
+    affiliation: "Univerzita Komensk\xE9ho"
+    city: Bratislava
+    country: Slovensko
+    img: Jozef_Masarik_size_280px.jpg
+    card_id: Masarik:Slovensko:Univerzita_Komenskeho:Bratislava:profesor:jadrova_fyzika:muz
+    areaurl: fyzika
+    affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
   - &id036
@@ -5490,6 +5491,21 @@ conn_areas:
     affiliationurl: North_Carolina_State_University
     cityurl: Raleigh
     countryurl: USA
+  - &id361
+    name: "Tom\xE1\u0161 Majt\xE1n"
+    last: Majtan
+    hindex: 31
+    field: "bioch\xE9mia"
+    area: "ch\xE9mia"
+    affiliation: University of Fribourg
+    city: Fribourg
+    country: "\u0160vaj\u010Diarsko"
+    img: Tomas_Majtan_size_280px.jpg
+    card_id: Majtan:Svajciarsko:University_of_Fribourg:Fribourg:odborny_asistent:biochemia:muz
+    areaurl: chemia
+    affiliationurl: University_of_Fribourg
+    cityurl: Fribourg
+    countryurl: Svajciarsko
   - &id141
     name: "Gust\xE1v Plesch"
     last: Plesch
@@ -5505,21 +5521,6 @@ conn_areas:
     affiliationurl: Univerzita_Komenskeho
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id361
-    name: "Tom\xE1\u0161 Majt\xE1n"
-    last: Majtan
-    hindex: 30
-    field: "bioch\xE9mia"
-    area: "ch\xE9mia"
-    affiliation: University of Fribourg
-    city: Fribourg
-    country: "\u0160vaj\u010Diarsko"
-    img: Tomas_Majtan_size_280px.jpg
-    card_id: Majtan:Svajciarsko:University_of_Fribourg:Fribourg:odborny_asistent:biochemia:muz
-    areaurl: chemia
-    affiliationurl: University_of_Fribourg
-    cityurl: Fribourg
-    countryurl: Svajciarsko
   - &id146
     name: "Mari\xE1n Mas\xE1r"
     last: Masar
@@ -6214,6 +6215,21 @@ conn_areas:
     affiliationurl: Univerzita_Konstantina_Filozofa
     cityurl: Nitra
     countryurl: Slovensko
+  - &id239
+    name: "O\u013Ega \u0160amajov\xE1"
+    last: Samajova
+    hindex: 33
+    field: "molekul\xE1rna a bunkov\xE1 biol\xF3gia"
+    area: "biol\xF3gia"
+    affiliation: "Univerzita Palack\xE9ho v Olomouci"
+    city: Olomouc
+    country: "\u010Cesko"
+    img: Olga_Samajova_size_280px.jpg
+    card_id: Samajova:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:odborna_asistentka:molekularna_a_bunkova_biologia:zena
+    areaurl: biologia
+    affiliationurl: Univerzita_Palackeho_v_Olomouci
+    cityurl: Olomouc
+    countryurl: Cesko
   - &id063
     name: "Peter Vr\u0161ansk\xFD"
     last: Vrsansky
@@ -6319,21 +6335,6 @@ conn_areas:
     affiliationurl: Slovenska_akademia_vied
     cityurl: Kosice
     countryurl: Slovensko
-  - &id239
-    name: "O\u013Ega \u0160amajov\xE1"
-    last: Samajova
-    hindex: 32
-    field: "molekul\xE1rna a bunkov\xE1 biol\xF3gia"
-    area: "biol\xF3gia"
-    affiliation: "Univerzita Palack\xE9ho v Olomouci"
-    city: Olomouc
-    country: "\u010Cesko"
-    img: Olga_Samajova_size_280px.jpg
-    card_id: Samajova:Cesko:Univerzita_Palackeho_v_Olomouci:Olomouc:odborna_asistentka:molekularna_a_bunkova_biologia:zena
-    areaurl: biologia
-    affiliationurl: Univerzita_Palackeho_v_Olomouci
-    cityurl: Olomouc
-    countryurl: Cesko
   - &id070
     name: "Jozef \u0160ib\xEDk"
     last: Sibik
@@ -6698,6 +6699,21 @@ conn_areas:
     affiliationurl: Zilinska_univerzita
     cityurl: Zilina
     countryurl: Slovensko
+  - &id402
+    name: "Jan Nem\u010D\xEDk"
+    last: Nemcik
+    hindex: 36
+    field: "geomechanika a aplikovan\xE1 mechanika"
+    area: "in\u017Einierstvo"
+    affiliation: University of Wollongong
+    city: Wollongong
+    country: "Austr\xE1lia"
+    img: Jan_Nemcik_size_280px.jpg
+    card_id: Nemcik:Australia:University_of_Wollongong:Wollongong:cestny_vedecky_pracovnik:geomechanika_a_aplikovana_mechanika:muz
+    areaurl: inzinierstvo
+    affiliationurl: University_of_Wollongong
+    cityurl: Wollongong
+    countryurl: Australia
   - &id157
     name: "Zlatica Kohajdov\xE1"
     last: Kohajdova
@@ -6713,21 +6729,6 @@ conn_areas:
     affiliationurl: Slovenska_technicka_univerzita
     cityurl: Bratislava
     countryurl: Slovensko
-  - &id402
-    name: "Jan Nem\u010D\xEDk"
-    last: Nemcik
-    hindex: 35
-    field: "geomechanika a aplikovan\xE1 mechanika"
-    area: "in\u017Einierstvo"
-    affiliation: University of Wollongong
-    city: Wollongong
-    country: "Austr\xE1lia"
-    img: Jan_Nemcik_size_280px.jpg
-    card_id: Nemcik:Australia:University_of_Wollongong:Wollongong:cestny_vedecky_pracovnik:geomechanika_a_aplikovana_mechanika:muz
-    areaurl: inzinierstvo
-    affiliationurl: University_of_Wollongong
-    cityurl: Wollongong
-    countryurl: Australia
   - &id233
     name: "Jan Val\xED\u010Dek"
     last: Valicek
@@ -7032,7 +7033,7 @@ conn_areas:
     affiliationurl: University_of_Hawaii
     cityurl: Honolulu
     countryurl: USA
-  - &id106
+  - &id105
     name: Peter Moczo
     last: Moczo
     hindex: 42
@@ -9279,14 +9280,14 @@ conn_cities:
   - *id104
   - *id105
   - *id106
-  - *id107
   - *id025
   - *id155
   - *id026
-  - *id108
+  - *id107
   - *id027
   - *id028
   - *id029
+  - *id108
   - *id109
   - *id030
   - *id031
@@ -9844,21 +9845,21 @@ conn_countries:
   - *id186
   - *id022
   - *id023
+  - *id104
   - *id371
   - *id212
   - *id024
-  - *id104
   - *id105
-  - *id106
   - *id187
-  - *id107
+  - *id106
   - *id025
   - *id155
   - *id026
-  - *id108
+  - *id107
   - *id027
   - *id028
   - *id029
+  - *id108
   - *id109
   - *id030
   - *id031
@@ -10115,8 +10116,8 @@ conn_countries:
   - *id199
   - *id209
   - *id200
-  - *id397
   - *id239
+  - *id397
   - *id240
   - *id201
   - *id202
@@ -10225,8 +10226,8 @@ conn_countries:
   - *id286
   - *id316
   - *id339
-  - *id429
   - *id361
+  - *id429
 - label: Holandsko
   url: Holandsko
   count: 6
