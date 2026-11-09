@@ -142,6 +142,34 @@
   affiliationurl: Technical_University_Dortmund
   cityurl: Dortmund
   sexurl: muz
+- name: Yehuda Shoenfeld
+  last: Shoenfeld
+  year: 1948
+  sex: "mu\u017E"
+  position: profesor
+  field: "imunol\xF3gia"
+  pribeh: "Rod\xE1k z Topo\u013E\u010Dian, zakladate\u013E Centra autoimunitn\xFD\
+    ch chor\xF4b v nemocnici Sheba pri Tel Avive, dnes na Reichmanovej univerzite.\
+    \ Cel\xFD \u017Eivot sk\xFAma, pre\u010Do imunitn\xFD syst\xE9m niekedy napadne\
+    \ vlastn\xE9 telo."
+  affiliation: Reichman University
+  city: Herzliya
+  country: Izrael
+  hindex: 183
+  scholar: https://scholar.google.com/citations?user=h8OgRLoAAAAJ
+  last_update: '2026-11-09'
+  links:
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Yehuda_Shoenfeld
+  img: Yehuda_Shoenfeld_size_280px.jpg
+  countryurl: Izrael
+  fieldurl: imunologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Reichman_University
+  cityurl: Herzliya
+  sexurl: muz
 - name: "Branislav Sit\xE1r"
   last: Sitar
   year: 1946
@@ -1866,6 +1894,34 @@
   positionurl: docent
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
+  sexurl: muz
+- name: "P\xE1l Maurovich-Horvat"
+  last: Maurovich-Horvat
+  year: 1978
+  sex: "mu\u017E"
+  position: profesor
+  field: "kardiovaskul\xE1rna r\xE1diol\xF3gia"
+  pribeh: "Narodil sa v Kom\xE1rne a zmaturoval na tamoj\u0161om Gymn\xE1ziu Hansa\
+    \ Selyeho. Na Semmelweisovej univerzite v Budape\u0161ti vedie Kliniku lek\xE1\
+    rskeho zobrazovania a pomocou CT h\u013Ead\xE1 v srdcov\xFDch tepn\xE1ch nebezpe\u010D\
+    n\xE9 plaky sk\xF4r, ne\u017E sp\xF4sobia infarkt."
+  affiliation: Semmelweisova univerzita
+  city: "Budape\u0161\u0165"
+  country: "Ma\u010Farsko"
+  hindex: 63
+  scholar: https://scholar.google.com/citations?user=l-SLNAYAAAAJ
+  last_update: '2026-11-09'
+  links:
+  - - "wikip\xE9dia"
+    - https://hu.wikipedia.org/wiki/Maurovich-Horvat_P%C3%A1l
+  img: Pal_Maurovich-Horvat_size_280px.jpg
+  countryurl: Madarsko
+  fieldurl: kardiovaskularna_radiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Semmelweisova_univerzita
+  cityurl: Budapest
   sexurl: muz
 - name: Ivan Rektor
   last: Rektor
@@ -4482,6 +4538,34 @@
   positionurl: profesor
   affiliationurl: Ostravska_univerzita
   cityurl: Ostrava
+  sexurl: muz
+- name: Tivadar Tulassay
+  last: Tulassay
+  year: 1949
+  sex: "mu\u017E"
+  position: profesor
+  field: "detsk\xE1 nefrol\xF3gia"
+  pribeh: "Rod\xE1k z Galanty, detsk\xFD lek\xE1r a nefrol\xF3g, v rokoch 2003 a\u017E\
+    \ 2012 rektor Semmelweisovej univerzity a riadny \u010Dlen Ma\u010Farskej akad\xE9\
+    mie vied. Sk\xFAma, ako n\xEDzka p\xF4rodn\xE1 hmotnos\u0165 a v\xFDvoj obli\u010D\
+    iek ovplyv\u0148uj\xFA krvn\xFD tlak v dospelosti."
+  affiliation: Semmelweisova univerzita
+  city: "Budape\u0161\u0165"
+  country: "Ma\u010Farsko"
+  hindex: 49
+  scholar: https://scholar.google.com/citations?user=DVULZtcAAAAJ
+  last_update: '2026-11-09'
+  links:
+  - - "wikip\xE9dia"
+    - https://hu.wikipedia.org/wiki/Tulassay_Tivadar
+  img: Tivadar_Tulassay_size_280px.jpg
+  countryurl: Madarsko
+  fieldurl: detska_nefrologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Semmelweisova_univerzita
+  cityurl: Budapest
   sexurl: muz
 - name: "Juraj Balkovi\u010D"
   last: Balkovic
@@ -7503,6 +7587,36 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Tom\xE1\u0161 B\xFCchler"
+  last: Buchler
+  year: 1974
+  sex: "mu\u017E"
+  position: profesor
+  field: "klinick\xE1 onkol\xF3gia"
+  pribeh: "Rod\xE1k z Lu\u010Denca, prednosta Onkologickej kliniky 2. LF UK a Fakultnej\
+    \ nemocnice Motol v Prahe. Venuje sa lie\u010Dbe n\xE1dorov obli\u010Diek, prostaty\
+    \ a hrub\xE9ho \u010Dreva a tomu, ako lie\u010Dba funguje u pacientov v be\u017E\
+    nej praxi."
+  affiliation: Univerzita Karlova
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 40
+  scholar: https://scholar.google.com/citations?user=Hiuv2ycAAAAJ
+  last_update: '2026-11-09'
+  links:
+  - - "n\xE1rodn\xE1 autorita"
+    - https://aleph.nkp.cz/F/?func=find-c&ccl_term=ica%3Dxx0096851&local_base=aut
+  - - web
+    - https://www.lf2.cuni.cz/profil/tomas-buchler
+  img: Tomas_Buchler_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: klinicka_onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Karlova
+  cityurl: Praha
+  sexurl: muz
 - name: "Juraj Bujd\xE1k"
   last: Bujdak
   year: 1965
@@ -8930,6 +9044,38 @@
   positionurl: vedec
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
+  sexurl: muz
+- name: "Csaba B\xF6d\xF6r"
+  last: Bodor
+  year: 1982
+  sex: "mu\u017E"
+  position: profesor
+  field: "onkohematol\xF3gia"
+  pribeh: "Narodil sa v Nitre a zmaturoval na ma\u010Farskom gymn\xE1ziu na Dunajskej\
+    \ ulici v Bratislave. Na Semmelweisovej univerzite v Budape\u0161ti vedie skupinu\
+    \ molekul\xE1rnej onkohematol\xF3gie a h\u013Ead\xE1 mut\xE1cie, z ktor\xFDch\
+    \ vznikaj\xFA lymf\xF3my."
+  affiliation: Semmelweisova univerzita
+  city: "Budape\u0161\u0165"
+  country: "Ma\u010Farsko"
+  hindex: 37
+  scholar: https://scholar.google.com/citations?user=ZQdm-A0AAAAJ
+  last_update: '2026-11-09'
+  links:
+  - - web
+    - https://scholar.semmelweis.hu/bodorc/cv/
+  - - "wikip\xE9dia"
+    - https://hu.wikipedia.org/wiki/B%C3%B6d%C3%B6r_Csaba
+  img: Csaba_Bodor_size_280px.jpg
+  countryurl: Madarsko
+  fieldurl: onkohematologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: profesor
+  affiliationurl: Semmelweisova_univerzita
+  cityurl: Budapest
   sexurl: muz
 - name: "Milan \u010Cert\xEDk"
   last: Certik
