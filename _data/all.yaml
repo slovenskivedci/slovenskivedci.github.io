@@ -3705,6 +3705,36 @@
   affiliationurl: Zapadoceska_univerzita_v_Plzni
   cityurl: Plzen
   sexurl: muz
+- name: "Imre P\xE1pai"
+  last: Papai
+  year: 1961
+  sex: "mu\u017E"
+  position: "ved\xFAci skupiny"
+  field: "teoretick\xE1 ch\xE9mia"
+  pribeh: "Narodil sa v roku 1961 v \u0160ali. Diplom z\xEDskal v Debrec\xEDne a v\
+    \ Budape\u0161ti vedie skupinu teoretickej ch\xE9mie v Centre pre pr\xEDrodn\xE9\
+    \ vedy HUN-REN, kde sk\xFAma mechanizmy katal\xFDzy a frustrovan\xE9 Lewisove\
+    \ p\xE1ry."
+  affiliation: HUN-REN Research Centre for Natural Sciences
+  city: "Budape\u0161\u0165"
+  country: "Ma\u010Farsko"
+  hindex: 53
+  scholar: https://scholar.google.com/citations?user=r5KBrtIAAAAJ
+  last_update: '2026-11-11'
+  links:
+  - - MTA
+    - https://mta.hu/koztestuleti_tagok?PersonId=13846
+  - - orcid
+    - https://orcid.org/0000-0002-4978-0365
+  img: Imre_Papai_size_280px.jpg
+  countryurl: Madarsko
+  fieldurl: teoreticka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: veduci_skupiny
+  affiliationurl: HUN-REN_Research_Centre_for_Natural_Sciences
+  cityurl: Budapest
+  sexurl: muz
 - name: "Jozef Rovensk\xFD"
   last: Rovensky
   year: 1943-2024
