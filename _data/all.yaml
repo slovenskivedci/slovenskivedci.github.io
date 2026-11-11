@@ -14869,6 +14869,35 @@
   affiliationurl: Slezska_univerzita_v_Opave
   cityurl: Opava
   sexurl: muz
+- name: Ivan Luptak
+  last: Luptak
+  year: ''
+  sex: "mu\u017E"
+  position: docent
+  field: "kardiol\xF3gia"
+  pribeh: "Narodil sa na Slovensku. MUDr. aj PhD. z\xEDskal na Univerzite Komensk\xE9\
+    ho v Bratislave. Na Bostonskej univerzite p\xF4sob\xED ako docent medic\xEDny\
+    \ a sk\xFAma energetiku srdcov\xE9ho svalu a mitochondrie."
+  affiliation: Boston University
+  city: Boston
+  country: USA
+  hindex: 30
+  scholar: https://scholar.google.com/citations?user=Z7dFhv8AAAAJ
+  last_update: '2026-11-11'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-7498-7694
+  - - web
+    - https://www.bumc.bu.edu/medicine/profile/ivan-luptak/
+  img: Ivan_Luptak_size_280px.jpg
+  countryurl: USA
+  fieldurl: kardiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: docent
+  affiliationurl: Boston_University
+  cityurl: Boston
+  sexurl: muz
 - name: "\u0160tefan Ly\xF3csa"
   last: Lyocsa
   year: 1982
