@@ -53,7 +53,7 @@ hindex:
 - 53
 - 50
 - 30
-- 73
+- 74
 - 47
 - 36
 - 35
@@ -183,7 +183,7 @@ hindex:
 - 35
 - 39
 - 45
-- 36
+- 37
 - 47
 - 48
 - 73
@@ -287,7 +287,7 @@ hindex:
 - 38
 - 72
 - 53
-- 96
+- 97
 - 38
 - 33
 - 46
@@ -692,7 +692,7 @@ fields:
   - 37
   - 47
   - 30
-  - 73
+  - 74
   - 35
   - 31
   - 30
@@ -827,7 +827,7 @@ fields:
   - 56
   - 50
   - 53
-  - 96
+  - 97
   - 36
   - 57
   - 35
@@ -1027,7 +1027,7 @@ fields:
   - 80
   - 55
   - 81
-  - 36
+  - 37
   - 41
   - 48
   - 42
@@ -1049,7 +1049,7 @@ year_hindex_xy: "[{x:1952,y:277,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   na'},{x:1959,y:109,name:'Mari\xE1n Bresti\u010D',id:'Brestic:Slovensko:Slovenska_polnohospodarska_univerzita:Nitra:profesor:fyziologia_rastlin:muz',field:'fyziol\xF3\
   gia rastl\xEDn',area:'biol\xF3gia'},{x:1933,y:102,name:'J\xE1n Vil\u010Dek',id:'Vilcek:USA:New_York_University:New_York:profesor:imunologia:muz',field:'imunol\xF3\
   gia',area:'medic\xEDna'},{x:1957,y:98,name:'Franti\u0161ek Balu\u0161ka',id:'Baluska:Nemecko:University_of_Bonn:Bonn:profesor:neurobiologia_rastlin:muz',field:'neurobiol\xF3\
-  gia rastl\xEDn',area:'biol\xF3gia'},{x:1963,y:96,name:'Jozef Bartunek',id:'Bartunek:Belgicko:Cardiovascular_Research_Center:Aalst:riaditel:kardiologia:muz',field:'kardiol\xF3\
+  gia rastl\xEDn',area:'biol\xF3gia'},{x:1963,y:97,name:'Jozef Bartunek',id:'Bartunek:Belgicko:Cardiovascular_Research_Center:Aalst:riaditel:kardiologia:muz',field:'kardiol\xF3\
   gia',area:'medic\xEDna'},{x:1957,y:95,name:'Kl\xE1ra Nahrstedt',id:'Nahrstedt:USA:University_of_Illinois_Urbana-Champaign:Urbana-Champaign:profesorka:distribuovane_systemy:zena',field:'distribuovan\xE9\
   \ syst\xE9my',area:'informatika'},{x:1967,y:94,name:'Igor Juri\u0161ica',id:'Jurisica:Kanada:Krembil_Research_Institute:Toronto:vedec:bioinformatika:muz',field:'bioinformatika',area:'informatika'},{x:1941,y:92,name:'J\xE1\
   n Veizer',id:'Veizer:Kanada:University_of_Ottawa:Ottawa:emeritny_profesor:geochemia:muz',field:'geoch\xE9\
@@ -1064,7 +1064,7 @@ year_hindex_xy: "[{x:1952,y:277,name:'Stanislav Tok\xE1r',id:'Tokar:Slovensko:Un
   gia',area:'medic\xEDna'},{x:1961,y:76,name:'Silvia Pastorekov\xE1',id:'Pastorekova:Slovensko:Slovenska_akademia_vied:Bratislava:profesorka:onkologia:zena',field:'onkol\xF3\
   gia',area:'medic\xEDna'},{x:1962,y:75,name:'Pavol Bauer',id:'Bauer:Holandsko:Delft_University_of_Technology:Delft:profesor:elektronika:muz',field:'elektronika',area:'in\u017E\
   inierstvo'},{x:1938,y:74,name:'Vladim\xEDr Bencko',id:'Bencko:Cesko:Univerzita_Karlova:Praha:profesor:hygiena_a_epidemiologia:muz',field:'hygiena\
-  \ a epidemiol\xF3gia',area:'medic\xEDna'},{x:1967,y:73,name:'Jaroslav Fabi\xE1n',id:'Fabian:Nemecko:University_of_Regensburg:Regensburg:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
+  \ a epidemiol\xF3gia',area:'medic\xEDna'},{x:1967,y:74,name:'Jaroslav Fabi\xE1n',id:'Fabian:Nemecko:University_of_Regensburg:Regensburg:profesor:kvantova_fyzika:muz',field:'kvantov\xE1\
   \ fyzika',area:'fyzika'},{x:1967,y:72,name:'Pavel Cheben',id:'Cheben:Kanada:National_Research_Council:Ottawa:principal_research_officer:optika_a_fotonika:muz',field:'optika\
   \ a fotonika',area:'fyzika'},{x:1965,y:72,name:'Ervin Fodor',id:'Fodor:Velka_Britania:University_of_Oxford:Oxford:profesor:virologia:muz',field:'virol\xF3\
   gia',area:'medic\xEDna'},{x:1993,y:72,name:'Peter \u0160vihra',id:'Svihra:Svajciarsko:CERN:Zeneva:vedec:subjadrova_fyzika:muz',field:'subjadrov\xE1\
@@ -1377,7 +1377,7 @@ odbor: "['medic\xEDna','fyzika','ch\xE9mia','biol\xF3gia','in\u017Einierstvo','g
   ensk\xE9 vedy']"
 odborCount: '[108,76,70,62,27,24,21,18,17,17,12,11]'
 odborMin: '[30,30,30,30,30,30,30,30,30,30,31,30]'
-odborAvg: '[49.5,58.0,41.5,43.0,41.1,41.7,38.4,38.2,46.5,41.2,49.1,40.8]'
+odborAvg: '[49.5,58.1,41.5,43.0,41.1,41.7,38.4,38.2,46.5,41.2,49.2,40.8]'
 odborMax: '[183,277,66,109,75,92,56,82,95,58,81,56]'
 odborMedian: '[44.0,42.0,39.0,36.5,36.0,37.5,36.0,34.5,39.0,40.0,43.5,38.0]'
 odborUrl: '[''medicina'',''fyzika'',''chemia'',''biologia'',''inzinierstvo'',''geovedy'',''ekonomia_a_manazment'',''matematika'',''informatika'',''materialy'',''umela_inteligencia'',''spolocenske_vedy'']'
@@ -1928,7 +1928,7 @@ conn_areas:
   - &id450
     name: Jozef Bartunek
     last: Bartunek
-    hindex: 96
+    hindex: 97
     field: "kardiol\xF3gia"
     area: "medic\xEDna"
     affiliation: Cardiovascular Research Center
@@ -3627,7 +3627,7 @@ conn_areas:
   - &id412
     name: "Jaroslav Fabi\xE1n"
     last: Fabian
-    hindex: 73
+    hindex: 74
     field: "kvantov\xE1 fyzika"
     area: fyzika
     affiliation: University of Regensburg
@@ -8673,7 +8673,7 @@ conn_areas:
   - &id284
     name: "Zuzana K\xFAkelov\xE1"
     last: Kukelova
-    hindex: 36
+    hindex: 37
     field: "po\u010D\xEDta\u010Dov\xE9 videnie"
     area: "umel\xE1 inteligencia"
     affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
@@ -9588,8 +9588,8 @@ conn_cities:
   - *id281
   - *id249
   - *id331
-  - *id198
   - *id284
+  - *id198
   - *id282
   - *id199
   - *id201
@@ -10259,9 +10259,9 @@ conn_countries:
   - *id249
   - *id331
   - *id238
+  - *id284
   - *id208
   - *id198
-  - *id284
   - *id282
   - *id368
   - *id199

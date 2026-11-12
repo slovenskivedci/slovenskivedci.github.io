@@ -389,9 +389,9 @@
   affiliation: Cardiovascular Research Center
   city: Aalst
   country: Belgicko
-  hindex: 96
+  hindex: 97
   scholar: https://scholar.google.com/citations?hl=en&user=ByfssdMAAAAJ
-  last_update: '2026-10-23'
+  last_update: '2026-11-12'
   links:
   - - KU Leuven
     - https://www.kuleuven.be/wieiswie/en/person/00076004
@@ -1068,9 +1068,9 @@
   affiliation: University of Regensburg
   city: Regensburg
   country: Nemecko
-  hindex: 73
+  hindex: 74
   scholar: https://scholar.google.de/citations?user=bNu69CcAAAAJ&amp;hl=en
-  last_update: '2026-09-27'
+  last_update: '2026-11-12'
   links:
   - - web
     - http://www.physik.uni-regensburg.de/forschung/fabian/
@@ -9452,6 +9452,45 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Zuzana K\xFAkelov\xE1"
+  last: Kukelova
+  year: null
+  sex: "\u017Eena"
+  position: "odborn\xFD asistent"
+  field: "po\u010D\xEDta\u010Dov\xE9 videnie"
+  pribeh: "V Prahe rekon\u0161truuje 3D svet z fotiek: po\u010D\xEDta\u010Dov\xE9\
+    \ videnie, ktor\xE9 geometrii nenech\xE1 ujs\u0165 bokom."
+  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 37
+  scholar: https://scholar.google.com/citations?user=M4a3VyYAAAAJ&hl=en
+  last_update: '2026-11-12'
+  links:
+  - - dblp
+    - https://dblp.org/pid/17/4583.html
+  - - neuron
+    - https://www.nadaceneuron.cz/person/zuzana-kukelova
+  - - orcid
+    - https://orcid.org/0000-0002-1916-8829
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Zuzana-Kukelova/2
+  - - veda na dosah
+    - https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/vitazka-cor-baayen-award-2015-zuzana-kukelova/
+  - - web
+    - https://cmp.felk.cvut.cz/~kukelova/
+  - - "\u017Eivotopis"
+    - files/cv_Zuzana_Kukelova.pdf
+  img: Zuzana_Kukelova_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Cesko
+  fieldurl: pocitacove_videnie
+  area: "umel\xE1 inteligencia"
+  areaurl: umela_inteligencia
+  positionurl: odborny_asistent
+  affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
+  cityurl: Praha
+  sexurl: zena
 - name: "\u013Dubica Lacinov\xE1"
   last: Lacinova
   year: 1959
@@ -10123,45 +10162,6 @@
   affiliationurl: Amgen
   cityurl: Phoenix
   sexurl: muz
-- name: "Zuzana K\xFAkelov\xE1"
-  last: Kukelova
-  year: null
-  sex: "\u017Eena"
-  position: "odborn\xFD asistent"
-  field: "po\u010D\xEDta\u010Dov\xE9 videnie"
-  pribeh: "V Prahe rekon\u0161truuje 3D svet z fotiek: po\u010D\xEDta\u010Dov\xE9\
-    \ videnie, ktor\xE9 geometrii nenech\xE1 ujs\u0165 bokom."
-  affiliation: "\u010Cesk\xE9 vysok\xE9 u\u010Den\xED technick\xE9 v Prahe"
-  city: Praha
-  country: "\u010Cesko"
-  hindex: 36
-  scholar: https://scholar.google.com/citations?user=M4a3VyYAAAAJ&hl=en
-  last_update: '2026-09-20'
-  links:
-  - - dblp
-    - https://dblp.org/pid/17/4583.html
-  - - neuron
-    - https://www.nadaceneuron.cz/person/zuzana-kukelova
-  - - orcid
-    - https://orcid.org/0000-0002-1916-8829
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Zuzana-Kukelova/2
-  - - veda na dosah
-    - https://vedanadosah.cvtisr.sk/technika/informacne-a-komunikacne-technologie/vitazka-cor-baayen-award-2015-zuzana-kukelova/
-  - - web
-    - https://cmp.felk.cvut.cz/~kukelova/
-  - - "\u017Eivotopis"
-    - files/cv_Zuzana_Kukelova.pdf
-  img: Zuzana_Kukelova_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Cesko
-  fieldurl: pocitacove_videnie
-  area: "umel\xE1 inteligencia"
-  areaurl: umela_inteligencia
-  positionurl: odborny_asistent
-  affiliationurl: Ceske_vysoke_uceni_technicke_v_Prahe
-  cityurl: Praha
-  sexurl: zena
 - name: Roman Mezencev
   last: Mezencev
   year: ''
