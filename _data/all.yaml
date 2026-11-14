@@ -1535,6 +1535,44 @@
   affiliationurl: Medical_University_of_Vienna
   cityurl: Vieden
   sexurl: muz
+- name: Peter Kubatka
+  last: Kubatka
+  year: 1973
+  sex: "mu\u017E"
+  position: profesor
+  field: "onkol\xF3gia"
+  pribeh: "Onkol\xF3gia v\xFD\u017Eivy a experimentu: n\xE1doru u\u0148ho kaz\xED\
+    \ chu\u0165 do rastu aj cez tanier."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 68
+  scholar: https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ
+  last_update: '2026-11-14'
+  links:
+  - - facebook
+    - https://m.facebook.com/peter.kubatka
+  - - LinkedIn
+    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
+  - - loop
+    - https://loop.frontiersin.org/people/1386452/overview
+  - - orcid
+    - https://orcid.org/0000-0003-4312-5076
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Peter-Kubatka
+  - - web
+    - https://www.jfmed.uniba.sk/en/departments/scientific-and-teaching-workplaces/departments-of-basic-sciences/department-of-medical-biology/staff/
+  - - "\u017Eivotopis"
+    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/KUBATKA/CV_Kubatka.pdf
+  img: Peter_Kubatka_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: onkologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: Pavel Povinec
   last: Povinec
   year: 1942
@@ -1606,44 +1644,6 @@
   positionurl: profesor
   affiliationurl: Delft_University_of_Technology
   cityurl: Delft
-  sexurl: muz
-- name: Peter Kubatka
-  last: Kubatka
-  year: 1973
-  sex: "mu\u017E"
-  position: profesor
-  field: "onkol\xF3gia"
-  pribeh: "Onkol\xF3gia v\xFD\u017Eivy a experimentu: n\xE1doru u\u0148ho kaz\xED\
-    \ chu\u0165 do rastu aj cez tanier."
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 67
-  scholar: https://scholar.google.com/citations?hl=sk&user=Bg2qAyoAAAAJ
-  last_update: '2026-10-18'
-  links:
-  - - facebook
-    - https://m.facebook.com/peter.kubatka
-  - - LinkedIn
-    - https://www.linkedin.com/in/peter-kubatka-8039ab92/?originalSubdomain=sk
-  - - loop
-    - https://loop.frontiersin.org/people/1386452/overview
-  - - orcid
-    - https://orcid.org/0000-0003-4312-5076
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Peter-Kubatka
-  - - web
-    - https://www.jfmed.uniba.sk/en/departments/scientific-and-teaching-workplaces/departments-of-basic-sciences/department-of-medical-biology/staff/
-  - - "\u017Eivotopis"
-    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/KUBATKA/CV_Kubatka.pdf
-  img: Peter_Kubatka_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: onkologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
 - name: "L\xEDvia Ludhov\xE1"
   last: Ludhova
@@ -8235,6 +8235,47 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "O\u013Ega Kri\u017Eanov\xE1"
+  last: Krizanova
+  year: '1960'
+  sex: "\u017Eena"
+  position: profesorka
+  field: "lek\xE1rska ch\xE9mia a bioch\xE9mia"
+  pribeh: "V\xE1pnik v bunke a n\xE1dory: lek\xE1rska bioch\xE9mia, ktor\xE1 i\xF3\
+    nu meria n\xE1ladu aj osud tkaniva."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.com/citations?hl=en&user=ZUBSQgEAAAAJ
+  last_update: '2026-11-14'
+  links:
+  - - learned.sk
+    - https://www.learned.sk/vizitka-prof-ing-olga-krizanova-drsc/
+  - - pluska.sk
+    - https://sarm.pluska.sk/pribehy/spala-tri-tyzdne-profesorka-olga-krizanova-zime-prekonala-covid-uplne-fit-stale-nie-je
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Olga-Krizanova/7
+  - - SAV
+    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1383
+  - - Univerzita Karlova
+    - https://cuni.cz/UK-4106.html
+  - - veda na dosah
+    - https://vedanadosah.cvtisr.sk/zdravie/medicina/o-krizanova-vapnik-je-nesmierne-dolezity-prvok-v-zivych-organizmoch/
+  - - "\u017Eivotopis"
+    - https://www.learned.sk/wp-content/uploads/2019/10/CV_Krizanova.pdf
+  img: Olga_Krizanova_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: lekarska_chemia_a_biochemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: "medic\xEDna"
+  area2url: medicina
+  positionurl: profesorka
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: zena
 - name: "J\xE1n Lehotsk\xFD"
   last: Lehotsky
   year: 1954
@@ -8788,47 +8829,36 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: "O\u013Ega Kri\u017Eanov\xE1"
-  last: Krizanova
-  year: '1960'
-  sex: "\u017Eena"
-  position: profesorka
-  field: "lek\xE1rska ch\xE9mia a bioch\xE9mia"
-  pribeh: "V\xE1pnik v bunke a n\xE1dory: lek\xE1rska bioch\xE9mia, ktor\xE1 i\xF3\
-    nu meria n\xE1ladu aj osud tkaniva."
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
+- name: "\u013Dubo\u0161 Kri\u0161\u0165\xE1k"
+  last: Kristak
+  year: 1980
+  sex: "mu\u017E"
+  position: docent
+  field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
+  pribeh: "Fyzika dreva vo Zvolene: vlhkos\u0165, teplo a akustika \u2014 tr\xE1m\
+    \ u\u0148ho m\xE1 materi\xE1lov\xFD \u017Eivotopis."
+  affiliation: "Technick\xE1 univerzita vo Zvolene"
+  city: Zvolen
   country: Slovensko
   hindex: 38
-  scholar: https://scholar.google.com/citations?hl=en&user=ZUBSQgEAAAAJ
-  last_update: '2026-08-25'
+  scholar: https://scholar.google.com/citations?hl=sk&user=bF_5KtYAAAAJ
+  last_update: '2026-11-14'
   links:
-  - - learned.sk
-    - https://www.learned.sk/vizitka-prof-ing-olga-krizanova-drsc/
-  - - pluska.sk
-    - https://sarm.pluska.sk/pribehy/spala-tri-tyzdne-profesorka-olga-krizanova-zime-prekonala-covid-uplne-fit-stale-nie-je
+  - - orcid
+    - https://orcid.org/0000-0002-2385-5760
   - - ResearchGate
-    - https://www.researchgate.net/profile/Olga-Krizanova/7
-  - - SAV
-    - https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=1383
-  - - Univerzita Karlova
-    - https://cuni.cz/UK-4106.html
-  - - veda na dosah
-    - https://vedanadosah.cvtisr.sk/zdravie/medicina/o-krizanova-vapnik-je-nesmierne-dolezity-prvok-v-zivych-organizmoch/
-  - - "\u017Eivotopis"
-    - https://www.learned.sk/wp-content/uploads/2019/10/CV_Krizanova.pdf
-  img: Olga_Krizanova_size_280px.jpg
-  update_status: UPDATED
+    - https://www.researchgate.net/profile/Lubos-Kristak
+  - - web
+    - https://www.tuzvo.sk/sk/ludia-na-tuzvo/9595
+  img: Lubos_Kristak_size_280px.jpg
   countryurl: Slovensko
-  fieldurl: lekarska_chemia_a_biochemia
-  area: "ch\xE9mia"
-  areaurl: chemia
-  area2: "medic\xEDna"
-  area2url: medicina
-  positionurl: profesorka
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
-  sexurl: zena
+  fieldurl: kompozitne_drevne_materialy
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: docent
+  affiliationurl: Technicka_univerzita_vo_Zvolene
+  cityurl: Zvolen
+  sexurl: muz
 - name: "Daniela Ostatn\xEDkov\xE1"
   last: Ostatnikova
   year: 1957
@@ -9385,36 +9415,6 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
-- name: "\u013Dubo\u0161 Kri\u0161\u0165\xE1k"
-  last: Kristak
-  year: 1980
-  sex: "mu\u017E"
-  position: docent
-  field: "kompozitn\xE9 drevn\xE9 materi\xE1ly"
-  pribeh: "Fyzika dreva vo Zvolene: vlhkos\u0165, teplo a akustika \u2014 tr\xE1m\
-    \ u\u0148ho m\xE1 materi\xE1lov\xFD \u017Eivotopis."
-  affiliation: "Technick\xE1 univerzita vo Zvolene"
-  city: Zvolen
-  country: Slovensko
-  hindex: 37
-  scholar: https://scholar.google.com/citations?hl=sk&user=bF_5KtYAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - orcid
-    - https://orcid.org/0000-0002-2385-5760
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Lubos-Kristak
-  - - web
-    - https://www.tuzvo.sk/sk/ludia-na-tuzvo/9595
-  img: Lubos_Kristak_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: kompozitne_drevne_materialy
-  area: "materi\xE1ly"
-  areaurl: materialy
-  positionurl: docent
-  affiliationurl: Technicka_univerzita_vo_Zvolene
-  cityurl: Zvolen
-  sexurl: muz
 - name: Jozef Kristek
   last: Kristek
   year: 1970
