@@ -10,9 +10,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 277
+  hindex: 279
   scholar: https://scholar.google.com/citations?user=2HzXQEkAAAAJ
-  last_update: '2026-10-30'
+  last_update: '2026-11-15'
   links:
   - - "Denn\xEDk N"
     - https://dennikn.sk/2910675/fyzik-tokar-higgsov-bozon-je-bozskou-casticou-bez-neho-by-mal-tento-svet-inu-formu/?ref=list
@@ -88,9 +88,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 240
+  hindex: 242
   scholar: https://scholar.google.com/citations?hl=en&user=pCW77HEAAAAJ
-  last_update: '2026-10-23'
+  last_update: '2026-11-15'
   links:
   - - CERN
     - https://cds.cern.ch/search?f=author&p=Bartos%2C%20Pavol&ln=en
@@ -607,9 +607,9 @@
   affiliation: "Slovensk\xE1 technick\xE1 univerzita"
   city: Bratislava
   country: Slovensko
-  hindex: 82
+  hindex: 83
   scholar: https://scholar.google.com/citations?user=_kXpl5YAAAAJ&amp;hl=en
-  last_update: '2026-08-25'
+  last_update: '2026-11-15'
   links:
   - - dblp
     - https://dblp.org/pid/62/2253.html
@@ -1125,6 +1125,47 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Peter \u0160vihra"
+  last: Svihra
+  year: '1993'
+  sex: "mu\u017E"
+  position: vedec
+  field: "subjadrov\xE1 fyzika"
+  pribeh: "V CERN-e stavia krem\xEDkov\xE9 pixely pre ATLAS, aby ka\u017Ed\xE1 zr\xE1\
+    \u017Eka dostala ostr\xFA fotografiu, nie rozmazan\xFA historku."
+  affiliation: CERN
+  city: "\u017Deneva"
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 73
+  scholar: https://scholar.google.com/citations?user=Ud3obX9UjLcC
+  last_update: '2026-11-15'
+  links:
+  - - "Denn\xEDk N"
+    - https://dennikn.sk/3366861/vyskum-v-cern-e-nam-rozok-o-par-centov-nezlacni-no-z-dlhodobeho-hladiska-zlepsuje-kvalitu-zivota-hovori-experimentalny-fyzik/
+  - - Forbes
+    - https://www.forbes.sk/lists/rebricek-30pod30-rocnik-2023/veda-a-vzdelavanie/peter-svihra/
+  - - instagram
+    - https://www.instagram.com/peter.svihra/
+  - - LinkedIn
+    - https://www.linkedin.com/in/peter-svihra/
+  - - orcid
+    - https://orcid.org/0000-0002-7811-2147
+  - - twitter
+    - https://twitter.com/svihrapeter
+  - - web
+    - https://ep-rnd.web.cern.ch/person/peter-svihra
+  - - "\u017Eivotopis"
+    - https://uni-freiburg.de/frias/dr-peter-svihra/
+  img: Peter_Svihra_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Svajciarsko
+  fieldurl: subjadrova_fyzika
+  area: fyzika
+  areaurl: fyzika
+  positionurl: vedec
+  affiliationurl: CERN
+  cityurl: Zeneva
+  sexurl: muz
 - name: Pavel Cheben
   last: Cheben
   year: 1967
@@ -1201,47 +1242,6 @@
   positionurl: profesor
   affiliationurl: University_of_Oxford
   cityurl: Oxford
-  sexurl: muz
-- name: "Peter \u0160vihra"
-  last: Svihra
-  year: '1993'
-  sex: "mu\u017E"
-  position: vedec
-  field: "subjadrov\xE1 fyzika"
-  pribeh: "V CERN-e stavia krem\xEDkov\xE9 pixely pre ATLAS, aby ka\u017Ed\xE1 zr\xE1\
-    \u017Eka dostala ostr\xFA fotografiu, nie rozmazan\xFA historku."
-  affiliation: CERN
-  city: "\u017Deneva"
-  country: "\u0160vaj\u010Diarsko"
-  hindex: 72
-  scholar: https://scholar.google.com/citations?user=Ud3obX9UjLcC
-  last_update: '2026-10-11'
-  links:
-  - - "Denn\xEDk N"
-    - https://dennikn.sk/3366861/vyskum-v-cern-e-nam-rozok-o-par-centov-nezlacni-no-z-dlhodobeho-hladiska-zlepsuje-kvalitu-zivota-hovori-experimentalny-fyzik/
-  - - Forbes
-    - https://www.forbes.sk/lists/rebricek-30pod30-rocnik-2023/veda-a-vzdelavanie/peter-svihra/
-  - - instagram
-    - https://www.instagram.com/peter.svihra/
-  - - LinkedIn
-    - https://www.linkedin.com/in/peter-svihra/
-  - - orcid
-    - https://orcid.org/0000-0002-7811-2147
-  - - twitter
-    - https://twitter.com/svihrapeter
-  - - web
-    - https://ep-rnd.web.cern.ch/person/peter-svihra
-  - - "\u017Eivotopis"
-    - https://uni-freiburg.de/frias/dr-peter-svihra/
-  img: Peter_Svihra_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Svajciarsko
-  fieldurl: subjadrova_fyzika
-  area: fyzika
-  areaurl: fyzika
-  positionurl: vedec
-  affiliationurl: CERN
-  cityurl: Zeneva
   sexurl: muz
 - name: "Jozef \u0160amaj"
   last: Samaj
@@ -1795,6 +1795,39 @@
   affiliationurl: Oregon_Health_and_Science_University
   cityurl: Portland
   sexurl: muz
+- name: "Alexandra Bra\u017Einov\xE1"
+  last: Brazinova
+  year: 1971
+  sex: "\u017Eena"
+  position: profesorka
+  field: "epidemiol\xF3gia"
+  pribeh: "Epidemiol\xF3gia infekci\xED a verejn\xE9ho zdravia: \u010D\xEDsla u nej\
+    \ maj\xFA tv\xE1re a kalend\xE1r opatren\xED."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 64
+  scholar: https://scholar.google.com/citations?user=_tpva74AAAAJ
+  last_update: '2026-11-15'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/finalisti/alexandra-brazinova
+  - - orcid
+    - https://orcid.org/0000-0003-0625-256X
+  - - Web of Science
+    - https://www.webofscience.com/wos/author/rid/C-4265-2016
+  - - "\u017Eivotopis"
+    - https://www.upjs.sk/public/media/17805/Brazinova-IK-LF.pdf
+  img: Alexandra_Brazinova_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: epidemiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: profesorka
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Mari\xE1n Hajd\xFAch"
   last: Hajduch
   year: 1969
@@ -1835,39 +1868,6 @@
   affiliationurl: Univerzita_Palackeho_v_Olomouci
   cityurl: Olomouc
   sexurl: muz
-- name: "Alexandra Bra\u017Einov\xE1"
-  last: Brazinova
-  year: 1971
-  sex: "\u017Eena"
-  position: profesorka
-  field: "epidemiol\xF3gia"
-  pribeh: "Epidemiol\xF3gia infekci\xED a verejn\xE9ho zdravia: \u010D\xEDsla u nej\
-    \ maj\xFA tv\xE1re a kalend\xE1r opatren\xED."
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 63
-  scholar: https://scholar.google.com/citations?user=_tpva74AAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/finalisti/alexandra-brazinova
-  - - orcid
-    - https://orcid.org/0000-0003-0625-256X
-  - - Web of Science
-    - https://www.webofscience.com/wos/author/rid/C-4265-2016
-  - - "\u017Eivotopis"
-    - https://www.upjs.sk/public/media/17805/Brazinova-IK-LF.pdf
-  img: Alexandra_Brazinova_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: epidemiologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: profesorka
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: zena
 - name: "Vladim\xEDr \u010Cern\xFD"
   last: Cerny
   year: 1952
@@ -7102,6 +7102,43 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: "Juraj Bujd\xE1k"
+  last: Bujdak
+  year: 1965
+  sex: "mu\u017E"
+  position: profesor
+  field: "fyzik\xE1lna ch\xE9mia"
+  pribeh: "\xCDly a farbiv\xE1: fyzik\xE1lna ch\xE9mia, v ktorej vrstva miner\xE1\
+    lu vie by\u0165 aj laborat\xF3rium aj pl\xE1tno."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 41
+  scholar: https://scholar.google.sk/citations?hl=en&user=WHTCo3IAAAAJ
+  last_update: '2026-11-15'
+  links:
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Juraj-Bujdak
+  - - "r\xE1dio"
+    - https://www.rtvs.sk/radio/archiv/11436/1121234
+  - - SAV
+    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1203
+  - - UK Bratislava
+    - https://uniba.sk/ludia/bujdak3/
+  - - Web of Science
+    - https://www.webofscience.com/wos/author/rid/AAG-7187-2019
+  - - "\u017Eivotopis"
+    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/BUJDAK-prof/CV_Bujdak.pdf
+  img: Juraj_Bujdak_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: fyzikalna_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Ivan Chod\xE1k"
   last: Chodak
   year: 1943
@@ -7646,43 +7683,6 @@
   positionurl: profesor
   affiliationurl: Univerzita_Karlova
   cityurl: Praha
-  sexurl: muz
-- name: "Juraj Bujd\xE1k"
-  last: Bujdak
-  year: 1965
-  sex: "mu\u017E"
-  position: profesor
-  field: "fyzik\xE1lna ch\xE9mia"
-  pribeh: "\xCDly a farbiv\xE1: fyzik\xE1lna ch\xE9mia, v ktorej vrstva miner\xE1\
-    lu vie by\u0165 aj laborat\xF3rium aj pl\xE1tno."
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 40
-  scholar: https://scholar.google.sk/citations?hl=en&user=WHTCo3IAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Juraj-Bujdak
-  - - "r\xE1dio"
-    - https://www.rtvs.sk/radio/archiv/11436/1121234
-  - - SAV
-    - https://www.sav.sk/?lang=en&doc=user-org-user&user_no=1203
-  - - UK Bratislava
-    - https://uniba.sk/ludia/bujdak3/
-  - - Web of Science
-    - https://www.webofscience.com/wos/author/rid/AAG-7187-2019
-  - - "\u017Eivotopis"
-    - https://uniba.sk/fileadmin/ruk/veda/docprof/PriF_UK/BUJDAK-prof/CV_Bujdak.pdf
-  img: Juraj_Bujdak_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: fyzikalna_chemia
-  area: "ch\xE9mia"
-  areaurl: chemia
-  positionurl: profesor
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
 - name: "Zuzana Gdovinov\xE1"
   last: Gdovinova
@@ -12166,6 +12166,35 @@
   affiliationurl: Zilinska_univerzita
   cityurl: Zilina
   sexurl: muz
+- name: Viktor Fischer
+  last: Fischer
+  year: '1957'
+  sex: "mu\u017E"
+  position: profesor
+  field: elektronika
+  pribeh: "\u0160um v \u010Dipe u\u0148ho nie je chyba, ale k\u013E\xFA\u010D \u2014\
+    \ true random gener\xE1tory a hardv\xE9rov\xE1 kryptografia z laborat\xF3ria Hubert\
+    \ Curien v Saint-\xC9tienne."
+  affiliation: "Universit\xE9 Jean Monnet"
+  city: "Saint-\xC9tienne"
+  country: "Franc\xFAzsko"
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=Pqz_SIMAAAAJ
+  last_update: '2026-11-15'
+  links:
+  - - web
+    - https://perso.univ-st-etienne.fr/fischer/english/home.html
+  img: Viktor_Fischer_size_280px.jpg
+  countryurl: Francuzsko
+  fieldurl: elektronika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  area2: informatika
+  area2url: informatika
+  positionurl: profesor
+  affiliationurl: Universite_Jean_Monnet
+  cityurl: Saint-Etienne
+  sexurl: muz
 - name: Jaroslav Frnda
   last: Frnda
   year: 1989
@@ -12977,35 +13006,6 @@
   affiliationurl: Adelaide_University
   cityurl: Adelaide
   sexurl: muz
-- name: Viktor Fischer
-  last: Fischer
-  year: '1957'
-  sex: "mu\u017E"
-  position: profesor
-  field: elektronika
-  pribeh: "\u0160um v \u010Dipe u\u0148ho nie je chyba, ale k\u013E\xFA\u010D \u2014\
-    \ true random gener\xE1tory a hardv\xE9rov\xE1 kryptografia z laborat\xF3ria Hubert\
-    \ Curien v Saint-\xC9tienne."
-  affiliation: "Universit\xE9 Jean Monnet"
-  city: "Saint-\xC9tienne"
-  country: "Franc\xFAzsko"
-  hindex: 32
-  scholar: https://scholar.google.com/citations?user=Pqz_SIMAAAAJ
-  last_update: '2026-09-21'
-  links:
-  - - web
-    - https://perso.univ-st-etienne.fr/fischer/english/home.html
-  img: Viktor_Fischer_size_280px.jpg
-  countryurl: Francuzsko
-  fieldurl: elektronika
-  area: "in\u017Einierstvo"
-  areaurl: inzinierstvo
-  area2: informatika
-  area2url: informatika
-  positionurl: profesor
-  affiliationurl: Universite_Jean_Monnet
-  cityurl: Saint-Etienne
-  sexurl: muz
 - name: "Iveta Garaiov\xE1"
   last: Garaiova
   year: ''
@@ -13396,6 +13396,35 @@
   affiliationurl: Breda_University_of_Applied_Sciences
   cityurl: Breda
   sexurl: muz
+- name: "Daniela Reh\xE1kov\xE1"
+  last: Rehakova
+  year: 1955
+  sex: "\u017Eena"
+  position: profesorka
+  field: "mikropaleontol\xF3gia"
+  pribeh: "V Bratislave \u010D\xEDta hranicu jury a kriedy z mikroskopick\xFDch kalpionel:\
+    \ mikropaleontol\xF3gia, kde sa mili\xF3ny rokov zmestia pod krycie skl\xED\u010D\
+    ko."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 32
+  scholar: https://scholar.google.com/citations?user=fiMoOVsAAAAJ
+  last_update: '2026-11-15'
+  links:
+  - - web
+    - https://geopaleo.sk/rehakova-daniela/
+  img: Daniela_Rehakova_size_280px.jpg
+  photos_alt:
+  - alt/Daniela_Rehakova_alt1.jpg
+  countryurl: Slovensko
+  fieldurl: mikropaleontologia
+  area: geovedy
+  areaurl: geovedy
+  positionurl: profesorka
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: zena
 - name: "Tom\xE1\u0161 Roch"
   last: Roch
   year: null
@@ -13956,6 +13985,35 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Kosice
   sexurl: zena
+- name: Jozef Hanes
+  last: Hanes
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "neuroimunol\xF3gia"
+  pribeh: "In\u017Einier zo STU, dnes v Neuroimunologickom \xFAstave SAV a v Axon\
+    \ Neuroscience. Navrhuje prote\xEDny a protil\xE1tky proti tau, ktor\xE9 pri Alzheimerovej\
+    \ chorobe zamot\xE1va neur\xF3ny."
+  affiliation: "Slovensk\xE1 akad\xE9mia vied"
+  city: Bratislava
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=TERSPzQAAAAJ
+  last_update: '2026-11-15'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/jozef-hanes-625b7a5
+  img: Jozef_Hanes_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: neuroimunologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  area2: "biol\xF3gia"
+  area2url: biologia
+  positionurl: vedec
+  affiliationurl: Slovenska_akademia_vied
+  cityurl: Bratislava
+  sexurl: muz
 - name: "Marta Harni\u010D\xE1rov\xE1"
   last: Harnicarova
   year: ''
@@ -14239,35 +14297,6 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
-- name: "Daniela Reh\xE1kov\xE1"
-  last: Rehakova
-  year: 1955
-  sex: "\u017Eena"
-  position: profesorka
-  field: "mikropaleontol\xF3gia"
-  pribeh: "V Bratislave \u010D\xEDta hranicu jury a kriedy z mikroskopick\xFDch kalpionel:\
-    \ mikropaleontol\xF3gia, kde sa mili\xF3ny rokov zmestia pod krycie skl\xED\u010D\
-    ko."
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 31
-  scholar: https://scholar.google.com/citations?user=fiMoOVsAAAAJ
-  last_update: '2026-09-29'
-  links:
-  - - web
-    - https://geopaleo.sk/rehakova-daniela/
-  img: Daniela_Rehakova_size_280px.jpg
-  photos_alt:
-  - alt/Daniela_Rehakova_alt1.jpg
-  countryurl: Slovensko
-  fieldurl: mikropaleontologia
-  area: geovedy
-  areaurl: geovedy
-  positionurl: profesorka
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
-  sexurl: zena
 - name: "Jozef \u0160ir\xE1\u0148"
   last: Siran
   year: 1954
@@ -14612,35 +14641,6 @@
   positionurl: profesor
   affiliationurl: Ceska_akademia_vied
   cityurl: Praha
-  sexurl: muz
-- name: Jozef Hanes
-  last: Hanes
-  year: ''
-  sex: "mu\u017E"
-  position: vedec
-  field: "neuroimunol\xF3gia"
-  pribeh: "In\u017Einier zo STU, dnes v Neuroimunologickom \xFAstave SAV a v Axon\
-    \ Neuroscience. Navrhuje prote\xEDny a protil\xE1tky proti tau, ktor\xE9 pri Alzheimerovej\
-    \ chorobe zamot\xE1va neur\xF3ny."
-  affiliation: "Slovensk\xE1 akad\xE9mia vied"
-  city: Bratislava
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?user=TERSPzQAAAAJ
-  last_update: '2026-10-12'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/jozef-hanes-625b7a5
-  img: Jozef_Hanes_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: neuroimunologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  area2: "biol\xF3gia"
-  area2url: biologia
-  positionurl: vedec
-  affiliationurl: Slovenska_akademia_vied
-  cityurl: Bratislava
   sexurl: muz
 - name: "Karol Hricov\xEDni"
   last: Hricovini
