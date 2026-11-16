@@ -275,6 +275,38 @@
   affiliationurl: Slovenska_polnohospodarska_univerzita
   cityurl: Nitra
   sexurl: muz
+- name: "Sl\xE1vka Jadlovsk\xE1"
+  last: Jadlovska
+  year: 1988
+  sex: "\u017Eena"
+  position: "odborn\xE1 asistentka"
+  field: kybernetika
+  pribeh: "Narodila sa v roku 1988. Bakal\xE1rske, in\u017Einierske aj doktorandsk\xE9\
+    \ \u0161t\xFAdium kybernetiky absolvovala na Fakulte elektrotechniky a informatiky\
+    \ Technickej univerzity v Ko\u0161iciach. P\xF4sob\xED ako odborn\xE1 asistentka\
+    \ na Katedre priemyseln\xE9ho in\u017Einierstva a informatiky Fakulty v\xFDrobn\xFD\
+    ch technol\xF3gi\xED TUKE v Pre\u0161ove a venuje sa modelovaniu a riadeniu dynamick\xFD\
+    ch syst\xE9mov."
+  affiliation: "Technick\xE1 univerzita v Ko\u0161iciach"
+  city: "Pre\u0161ov"
+  country: Slovensko
+  hindex: 107
+  scholar: https://scholar.google.com/citations?user=23BQNfIAAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - web
+    - https://kyb.fei.tuke.sk/laboratoria/ludia/jadlovsk2.php
+  - - "\u017Eivotopis"
+    - https://kyb.fei.tuke.sk/laboratoria/ludia/cv/CV_Slavka_Jadlovska_SK.pdf
+  img: Slavka_Jadlovska_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: kybernetika
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  positionurl: odborna_asistentka
+  affiliationurl: Technicka_univerzita_v_Kosiciach
+  cityurl: Presov
+  sexurl: zena
 - name: "Katar\xEDna K\u0159\xED\u017Ekov\xE1 Gajdo\u0161ov\xE1"
   last: Gajdosova
   year: ''
@@ -2367,6 +2399,41 @@
   affiliationurl: Univerzita_Komenskeho
   cityurl: Bratislava
   sexurl: muz
+- name: Jozef Kaiser
+  last: Kaiser
+  year: 1974
+  sex: "mu\u017E"
+  position: profesor
+  field: "laserov\xE1 spektroskopia a po\u010D\xEDta\u010Dov\xE1 tomografia"
+  pribeh: "Narodil sa v roku 1974 v Bratislave. Ing. aj PhD. z\xEDskal na Vysokom\
+    \ u\u010Den\xED technickom v Brne, kde je od roku 2013 profesorom. Vo v\xFDskumnom\
+    \ centre CEITEC vedie skupinu pokro\u010Dilej in\u0161trument\xE1cie a met\xF3\
+    d charakteriz\xE1cie materi\xE1lov a venuje sa laserovej spektroskopii LIBS a\
+    \ r\xF6ntgenovej po\u010D\xEDta\u010Dovej tomografii."
+  affiliation: "Vysok\xE9 u\u010Den\xED technick\xE9 v Brn\u011B"
+  city: Brno
+  country: "\u010Cesko"
+  hindex: 58
+  scholar: https://scholar.google.com/citations?user=cxsIqT8AAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-7397-125X
+  - - web
+    - https://www.vut.cz/en/people/jozef-kaiser-2596
+  - - "\u017Eivotopis"
+    - https://www.vut.cz/en/people/jozef-kaiser-2596/zivotopis
+  img: Jozef_Kaiser_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: laserova_spektroskopia_a_pocitacova_tomografia
+  area: fyzika
+  areaurl: fyzika
+  area2: "materi\xE1ly"
+  area2url: materialy
+  positionurl: profesor
+  affiliationurl: Vysoke_uceni_technicke_v_Brne
+  cityurl: Brno
+  sexurl: muz
 - name: "Jozef Ke\u010Dk\xE9\u0161"
   last: Keckes
   year: ''
@@ -2502,6 +2569,35 @@
   positionurl: profesor
   affiliationurl: Carleton_University
   cityurl: Ottawa
+  sexurl: muz
+- name: "J\xE1n Kehr"
+  last: Kehr
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "neurofarmakol\xF3gia"
+  pribeh: "Magistersk\xE9 \u0161t\xFAdium ch\xE9mie aj PhD. absolvoval na Univerzite\
+    \ Pavla Jozefa \u0160af\xE1rika v Ko\u0161iciach. Od roku 2005 p\xF4sob\xED na\
+    \ Karolinska Institutet ako vedeck\xFD pracovn\xEDk a ved\xFAci skupiny na Oddelen\xED\
+    \ fyziol\xF3gie a farmakol\xF3gie a venuje sa neurofarmakol\xF3gii a mikrodial\xFD\
+    ze."
+  affiliation: Karolinska Institutet
+  city: Stockholm
+  country: "\u0160v\xE9dsko"
+  hindex: 57
+  scholar: https://scholar.google.com/citations?user=za_SkhQAAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-2410-124X
+  img: Jan_Kehr_size_280px.jpg
+  countryurl: Svedsko
+  fieldurl: neurofarmakologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: vedec
+  affiliationurl: Karolinska_Institutet
+  cityurl: Stockholm
   sexurl: muz
 - name: "Martin Kr\u0161\u0161\xE1k"
   last: Krssak
@@ -12695,6 +12791,34 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: zena
+- name: "Peter Surov\xFD"
+  last: Surovy
+  year: 1977
+  sex: "mu\u017E"
+  position: docent
+  field: "lesn\xEDctvo"
+  pribeh: "Narodil sa v roku 1977 v Pie\u0161\u0165anoch. Na \u010Ceskej zem\u011B\
+    d\u011Blskej univerzite v Prahe vedie Katedru hospod\xE1rskej \xFApravy lesov\
+    \ a dia\u013Ekov\xE9ho prieskumu Zeme a venuje sa dia\u013Ekov\xE9mu prieskumu\
+    \ lesov."
+  affiliation: "\u010Cesk\xE1 zem\u011Bd\u011Blsk\xE1 univerzita v Praze"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 33
+  scholar: https://scholar.google.com/citations?user=gi5CO2QAAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - web
+    - https://katedry.czu.cz/khul/vedeni
+  img: Peter_Surovy_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: lesnictvo
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: docent
+  affiliationurl: Ceska_zemedelska_univerzita_v_Praze
+  cityurl: Praha
+  sexurl: muz
 - name: Peter Tatarko
   last: Tatarko
   year: ''
