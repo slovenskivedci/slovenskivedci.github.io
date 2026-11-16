@@ -54,9 +54,9 @@
   affiliation: "\u010Cesk\xE1 akad\xE9mia vied"
   city: Praha
   country: "\u010Cesko"
-  hindex: 263
+  hindex: 264
   scholar: https://scholar.google.com/citations?user=jkguv3UAAAAJ
-  last_update: '2026-10-30'
+  last_update: '2026-11-16'
   links:
   - - orcid
     - https://www.fzu.cz/en/people/rndr-roman-lysak-phd
@@ -1645,6 +1645,39 @@
   affiliationurl: Delft_University_of_Technology
   cityurl: Delft
   sexurl: muz
+- name: "Maro\u0161 Feren\u010D\xEDk"
+  last: Ferencik
+  year: null
+  sex: "mu\u017E"
+  position: docent
+  field: "kardiol\xF3gia"
+  pribeh: "V Oregone \u010D\xEDta CT srdca tak, aby sa plak na vencoch priznal sk\xF4\
+    r, ne\u017E urob\xED dramu."
+  affiliation: Oregon Health and Science University
+  city: Portland
+  country: USA
+  hindex: 67
+  scholar: https://scholar.google.com/citations?user=3R-9xP4AAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - LinkedIn
+    - https://www.linkedin.com/in/maros-ferencik-2861587/
+  - - SCCT
+    - https://scct.org/page/BioMarosFerencik
+  - - twitter
+    - https://mobile.twitter.com/cardiacctguy
+  - - web
+    - https://www.ohsu.edu/people/maros-ferencik-md-phd
+  img: Maros_Ferencik_size_280px.jpg
+  update_status: UPDATED
+  countryurl: USA
+  fieldurl: kardiologia
+  area: "medic\xEDna"
+  areaurl: medicina
+  positionurl: docent
+  affiliationurl: Oregon_Health_and_Science_University
+  cityurl: Portland
+  sexurl: muz
 - name: "L\xEDvia Ludhov\xE1"
   last: Ludhova
   year: 1973
@@ -1761,39 +1794,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
-  sexurl: muz
-- name: "Maro\u0161 Feren\u010D\xEDk"
-  last: Ferencik
-  year: null
-  sex: "mu\u017E"
-  position: docent
-  field: "kardiol\xF3gia"
-  pribeh: "V Oregone \u010D\xEDta CT srdca tak, aby sa plak na vencoch priznal sk\xF4\
-    r, ne\u017E urob\xED dramu."
-  affiliation: Oregon Health and Science University
-  city: Portland
-  country: USA
-  hindex: 66
-  scholar: https://scholar.google.com/citations?user=3R-9xP4AAAAJ
-  last_update: '2026-09-20'
-  links:
-  - - LinkedIn
-    - https://www.linkedin.com/in/maros-ferencik-2861587/
-  - - SCCT
-    - https://scct.org/page/BioMarosFerencik
-  - - twitter
-    - https://mobile.twitter.com/cardiacctguy
-  - - web
-    - https://www.ohsu.edu/people/maros-ferencik-md-phd
-  img: Maros_Ferencik_size_280px.jpg
-  update_status: UPDATED
-  countryurl: USA
-  fieldurl: kardiologia
-  area: "medic\xEDna"
-  areaurl: medicina
-  positionurl: docent
-  affiliationurl: Oregon_Health_and_Science_University
-  cityurl: Portland
   sexurl: muz
 - name: "Alexandra Bra\u017Einov\xE1"
   last: Brazinova
@@ -2096,6 +2096,47 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Stano Pek\xE1r"
+  last: Pekar
+  year: 1970
+  sex: "mu\u017E"
+  position: profesor
+  field: "behavior\xE1lna ekol\xF3gia"
+  pribeh: "Pav\xFAky u\u0148ho nie s\xFA strach z k\xFAta, ale majstri behavior\xE1\
+    lnej ekol\xF3gie s vlastnou strat\xE9giou lovu."
+  affiliation: Masarykova univerzita
+  city: Brno
+  country: "\u010Cesko"
+  hindex: 61
+  scholar: https://scholar.google.com/citations?user=o7qWfUAAAAAJ&hl=en
+  last_update: '2026-11-16'
+  links:
+  - - bio
+    - https://www.databazeknih.cz/zivotopis/stano-pekar-34472
+  - - loop
+    - https://loop.frontiersin.org/people/121482/overview
+  - - "MUNI \u2013 National Geographic"
+    - https://www.em.muni.cz/veda-a-vyzkum/3079-national-geographic-natacel-s-brnenskym-vedcem
+  - - "MUNI \u2013 pav\xFAky v sadoch"
+    - https://www.em.muni.cz/veda-a-vyzkum/5716-misto-chemie-pomuzou-sadarum-pavouci
+  - - orcid
+    - https://orcid.org/0000-0002-0197-5040
+  - - ResearchGate
+    - https://www.researchgate.net/profile/Stano-Pekar
+  - - web
+    - https://www.sci.muni.cz/zoolecol/inverteb/?teams=prof-stano-pekar-ph-d
+  - - "\u010Cesk\xE1 arachnologick\xE1 spolo\u010Dnos\u0165"
+    - https://www.arachnology.cz/lide/stano-pekar-318.html
+  img: Stano_Pekar_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Cesko
+  fieldurl: behavioralna_ekologia
+  area: "biol\xF3gia"
+  areaurl: biologia
+  positionurl: profesor
+  affiliationurl: Masarykova_univerzita
+  cityurl: Brno
+  sexurl: muz
 - name: "J\xE1n Sl\xE1dek"
   last: Sladek
   year: 1952
@@ -2124,47 +2165,6 @@
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
-  sexurl: muz
-- name: "Stano Pek\xE1r"
-  last: Pekar
-  year: 1970
-  sex: "mu\u017E"
-  position: profesor
-  field: "behavior\xE1lna ekol\xF3gia"
-  pribeh: "Pav\xFAky u\u0148ho nie s\xFA strach z k\xFAta, ale majstri behavior\xE1\
-    lnej ekol\xF3gie s vlastnou strat\xE9giou lovu."
-  affiliation: Masarykova univerzita
-  city: Brno
-  country: "\u010Cesko"
-  hindex: 60
-  scholar: https://scholar.google.com/citations?user=o7qWfUAAAAAJ&hl=en
-  last_update: '2026-08-25'
-  links:
-  - - bio
-    - https://www.databazeknih.cz/zivotopis/stano-pekar-34472
-  - - loop
-    - https://loop.frontiersin.org/people/121482/overview
-  - - "MUNI \u2013 National Geographic"
-    - https://www.em.muni.cz/veda-a-vyzkum/3079-national-geographic-natacel-s-brnenskym-vedcem
-  - - "MUNI \u2013 pav\xFAky v sadoch"
-    - https://www.em.muni.cz/veda-a-vyzkum/5716-misto-chemie-pomuzou-sadarum-pavouci
-  - - orcid
-    - https://orcid.org/0000-0002-0197-5040
-  - - ResearchGate
-    - https://www.researchgate.net/profile/Stano-Pekar
-  - - web
-    - https://www.sci.muni.cz/zoolecol/inverteb/?teams=prof-stano-pekar-ph-d
-  - - "\u010Cesk\xE1 arachnologick\xE1 spolo\u010Dnos\u0165"
-    - https://www.arachnology.cz/lide/stano-pekar-318.html
-  img: Stano_Pekar_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Cesko
-  fieldurl: behavioralna_ekologia
-  area: "biol\xF3gia"
-  areaurl: biologia
-  positionurl: profesor
-  affiliationurl: Masarykova_univerzita
-  cityurl: Brno
   sexurl: muz
 - name: "Jozef Adam\u010D\xEDk"
   last: Adamcik
@@ -5090,6 +5090,36 @@
   affiliationurl: Curtin_University
   cityurl: Perth
   sexurl: muz
+- name: Peter Ertl
+  last: Ertl
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: chemoinformatika
+  pribeh: "Rod\xE1k z Bratislavy, ch\xE9miu vy\u0161tudoval na UK. \u0160tvr\u0165\
+    storo\u010Die v Novartise u\u010Dil po\u010D\xEDta\u010De rozozna\u0165 s\u013E\
+    ubn\xFA molekulu sk\xF4r, ne\u017E ju niekto priprav\xED v laborat\xF3riu, a dnes\
+    \ to rob\xED vo vlastnej firme."
+  affiliation: Ertl Molecular
+  city: Basel
+  country: "\u0160vaj\u010Diarsko"
+  hindex: 47
+  scholar: https://scholar.google.com/citations?user=_UgR8v8AAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - web
+    - https://peter-ertl.com/
+  img: Peter_Ertl_size_280px.jpg
+  countryurl: Svajciarsko
+  fieldurl: chemoinformatika
+  area: "ch\xE9mia"
+  areaurl: chemia
+  area2: informatika
+  area2url: informatika
+  positionurl: vedec
+  affiliationurl: Ertl_Molecular
+  cityurl: Basel
+  sexurl: muz
 - name: Peter Gemeiner
   last: Gemeiner
   year: 1946
@@ -5413,36 +5443,6 @@
   positionurl: profesor
   affiliationurl: McMaster_University
   cityurl: Hamilton
-  sexurl: muz
-- name: Peter Ertl
-  last: Ertl
-  year: ''
-  sex: "mu\u017E"
-  position: vedec
-  field: chemoinformatika
-  pribeh: "Rod\xE1k z Bratislavy, ch\xE9miu vy\u0161tudoval na UK. \u0160tvr\u0165\
-    storo\u010Die v Novartise u\u010Dil po\u010D\xEDta\u010De rozozna\u0165 s\u013E\
-    ubn\xFA molekulu sk\xF4r, ne\u017E ju niekto priprav\xED v laborat\xF3riu, a dnes\
-    \ to rob\xED vo vlastnej firme."
-  affiliation: Ertl Molecular
-  city: Basel
-  country: "\u0160vaj\u010Diarsko"
-  hindex: 46
-  scholar: https://scholar.google.com/citations?user=_UgR8v8AAAAJ
-  last_update: '2026-10-19'
-  links:
-  - - web
-    - https://peter-ertl.com/
-  img: Peter_Ertl_size_280px.jpg
-  countryurl: Svajciarsko
-  fieldurl: chemoinformatika
-  area: "ch\xE9mia"
-  areaurl: chemia
-  area2: informatika
-  area2url: informatika
-  positionurl: vedec
-  affiliationurl: Ertl_Molecular
-  cityurl: Basel
   sexurl: muz
 - name: Miroslav Grmela
   last: Grmela
@@ -8401,6 +8401,35 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: "Milan S\xFDkora"
+  last: Sykora
+  year: ''
+  sex: "mu\u017E"
+  position: vedec
+  field: "materi\xE1lov\xE1 veda"
+  pribeh: "Na UK sklad\xE1 hybridn\xE9 materi\xE1ly: ch\xE9mia, v ktorej organick\xE9\
+    \ a anorganick\xE9 prestane by\u0165 rozvod a stane sa dom\xE1cnos\u0165ou."
+  affiliation: "Univerzita Komensk\xE9ho"
+  city: Bratislava
+  country: Slovensko
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=9TGPGbYAAAAJ&hl=en
+  last_update: '2026-11-16'
+  links:
+  - - "\u017Eivotopis"
+    - https://fns.uniba.sk/fileadmin/prif/chem/lam/CV_for_webpage_ms1.pdf
+  img: Milan_Sykora_size_280px.png
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: materialova_veda
+  area: "materi\xE1ly"
+  areaurl: materialy
+  area2: "ch\xE9mia"
+  area2url: chemia
+  positionurl: vedec
+  affiliationurl: Univerzita_Komenskeho
+  cityurl: Bratislava
+  sexurl: muz
 - name: Milan Timko
   last: Timko
   year: 1954
@@ -9016,35 +9045,6 @@
   positionurl: profesor
   affiliationurl: University_of_Essex
   cityurl: Essex/Colchester
-  sexurl: muz
-- name: "Milan S\xFDkora"
-  last: Sykora
-  year: ''
-  sex: "mu\u017E"
-  position: vedec
-  field: "materi\xE1lov\xE1 veda"
-  pribeh: "Na UK sklad\xE1 hybridn\xE9 materi\xE1ly: ch\xE9mia, v ktorej organick\xE9\
-    \ a anorganick\xE9 prestane by\u0165 rozvod a stane sa dom\xE1cnos\u0165ou."
-  affiliation: "Univerzita Komensk\xE9ho"
-  city: Bratislava
-  country: Slovensko
-  hindex: 38
-  scholar: https://scholar.google.com/citations?user=9TGPGbYAAAAJ&hl=en
-  last_update: '2026-08-25'
-  links:
-  - - "\u017Eivotopis"
-    - https://fns.uniba.sk/fileadmin/prif/chem/lam/CV_for_webpage_ms1.pdf
-  img: Milan_Sykora_size_280px.png
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: materialova_veda
-  area: "materi\xE1ly"
-  areaurl: materialy
-  area2: "ch\xE9mia"
-  area2url: chemia
-  positionurl: vedec
-  affiliationurl: Univerzita_Komenskeho
-  cityurl: Bratislava
   sexurl: muz
 - name: "R\xF3bert Tenzer"
   last: Tenzer
@@ -14323,6 +14323,33 @@
   affiliationurl: Slovenska_technicka_univerzita
   cityurl: Bratislava
   sexurl: muz
+- name: "Pavol \u0160tekauer"
+  last: Stekauer
+  year: 1955
+  sex: "mu\u017E"
+  position: profesor
+  field: lingvistika
+  pribeh: "V Ko\u0161iciach sk\xFAma, ako \u013Eudia vym\xFD\u0161\u013Eaj\xFA a l\xFA\
+    \u0161tia nov\xE9 slov\xE1: onomaziologick\xE1 te\xF3ria anglickej slovotvorby,\
+    \ ktor\xFA dnes \u010D\xEDtaj\xFA aj v k\xF3rej\u010Dine."
+  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
+  city: "Ko\u0161ice"
+  country: Slovensko
+  hindex: 31
+  scholar: https://scholar.google.com/citations?user=z6qVSvkAAAAJ
+  last_update: '2026-11-16'
+  links:
+  - - web
+    - https://www.upjs.sk/aktualne-spravy/22296/
+  img: Pavol_Stekauer_size_280px.jpg
+  countryurl: Slovensko
+  fieldurl: lingvistika
+  area: "spolo\u010Densk\xE9 vedy"
+  areaurl: spolocenske_vedy
+  positionurl: profesor
+  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
+  cityurl: Kosice
+  sexurl: muz
 - name: "Tom\xE1\u0161 Szemes"
   last: Szemes
   year: 1980
@@ -15207,33 +15234,6 @@
   areaurl: fyzika
   positionurl: profesor
   affiliationurl: Slovenska_akademia_vied
-  cityurl: Kosice
-  sexurl: muz
-- name: "Pavol \u0160tekauer"
-  last: Stekauer
-  year: 1955
-  sex: "mu\u017E"
-  position: profesor
-  field: lingvistika
-  pribeh: "V Ko\u0161iciach sk\xFAma, ako \u013Eudia vym\xFD\u0161\u013Eaj\xFA a l\xFA\
-    \u0161tia nov\xE9 slov\xE1: onomaziologick\xE1 te\xF3ria anglickej slovotvorby,\
-    \ ktor\xFA dnes \u010D\xEDtaj\xFA aj v k\xF3rej\u010Dine."
-  affiliation: "Univerzita Pavla Jozefa \u0160af\xE1rika"
-  city: "Ko\u0161ice"
-  country: Slovensko
-  hindex: 30
-  scholar: https://scholar.google.com/citations?user=z6qVSvkAAAAJ
-  last_update: '2026-09-29'
-  links:
-  - - web
-    - https://www.upjs.sk/aktualne-spravy/22296/
-  img: Pavol_Stekauer_size_280px.jpg
-  countryurl: Slovensko
-  fieldurl: lingvistika
-  area: "spolo\u010Densk\xE9 vedy"
-  areaurl: spolocenske_vedy
-  positionurl: profesor
-  affiliationurl: Univerzita_Pavla_Jozefa_Safarika
   cityurl: Kosice
   sexurl: muz
 - name: "J\xFAlius \u0160ub\xEDk"
