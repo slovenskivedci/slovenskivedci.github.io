@@ -8497,6 +8497,40 @@
   affiliationurl: Slovenska_akademia_vied
   cityurl: Bratislava
   sexurl: muz
+- name: Michal Straka
+  last: Straka
+  year: ''
+  sex: "mu\u017E"
+  position: "vedeck\xFD pracovn\xEDk"
+  field: "teoretick\xE1 ch\xE9mia"
+  pribeh: "Magistersk\xE9 \u0161t\xFAdium absolvoval v roku 1996 na Pr\xEDrodovedeckej\
+    \ fakulte Univerzity Komensk\xE9ho v Bratislave. PhD. z\xEDskal na Helsinskej\
+    \ univerzite, kde sa v roku 2008 habilitoval. P\xF4sob\xED ako vedeck\xFD pracovn\xED\
+    k v \xDAstave organick\xE9 chemie a biochemie AV \u010CR v Prahe a venuje sa teoretickej\
+    \ ch\xE9mii, najm\xE4 molekulov\xFDm sp\xEDna\u010Dom, endohedr\xE1lnym fuller\xE9\
+    nom a relativistickej NMR spektroskopii."
+  affiliation: "\xDAstav organick\xE9 chemie a biochemie AV \u010CR"
+  city: Praha
+  country: "\u010Cesko"
+  hindex: 39
+  scholar: https://scholar.google.com/citations?user=HSRrp80AAAAJ
+  last_update: '2026-11-17'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0002-7857-4990
+  - - web
+    - https://www.uochb.cz/cs/adresar/192/michal-straka
+  - - "\u017Eivotopis"
+    - https://www.uochb.cz/cs/adresar/192/michal-straka
+  img: Michal_Straka_size_280px.jpg
+  countryurl: Cesko
+  fieldurl: teoreticka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: vedecky_pracovnik
+  affiliationurl: Ustav_organicke_chemie_a_biochemie_AV_CR
+  cityurl: Praha
+  sexurl: muz
 - name: "Milan S\xFDkora"
   last: Sykora
   year: ''
@@ -11691,6 +11725,38 @@
   positionurl: profesor
   affiliationurl: Ekonomicka_univerzita_v_Bratislave
   cityurl: Bratislava
+  sexurl: muz
+- name: "Ondrej Mur\xE1nsky"
+  last: Muransky
+  year: ''
+  sex: "mu\u017E"
+  position: "ved\xFAci v\xFDskumn\xE9ho programu"
+  field: "materi\xE1lov\xE9 in\u017Einierstvo"
+  pribeh: "In\u017Einierske \u0161t\xFAdium materi\xE1lov\xE9ho in\u017Einierstva\
+    \ a metalurgie absolvoval v roku 2003 na Technickej univerzite v Ko\u0161iciach.\
+    \ PhD. z\xEDskal na Matematicko-fyzik\xE1lnej fakulte Karlovej univerzity. V ANSTO\
+    \ v Sydney p\xF4sob\xED ako ved\xFAci v\xFDskumn\xE9ho programu a venuje sa vysokoteplotnej\
+    \ a so\u013Enej kor\xF3zii materi\xE1lov a neutr\xF3nov\xFDm a synchrotronov\xFD\
+    m met\xF3dam."
+  affiliation: ANSTO
+  city: Sydney
+  country: "Austr\xE1lia"
+  hindex: 34
+  scholar: https://scholar.google.com/citations?user=QRXD7HwAAAAJ
+  last_update: '2026-11-17'
+  links:
+  - - orcid
+    - https://orcid.org/0000-0001-9374-0099
+  - - web
+    - https://profiles.ansto.gov.au/ondrej.muransky
+  img: Ondrej_Muransky_size_280px.jpg
+  countryurl: Australia
+  fieldurl: materialove_inzinierstvo
+  area: "materi\xE1ly"
+  areaurl: materialy
+  positionurl: veduci_vyskumneho_programu
+  affiliationurl: ANSTO
+  cityurl: Sydney
   sexurl: muz
 - name: "Igor Nov\xE1k"
   last: Novak
