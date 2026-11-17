@@ -580,9 +580,9 @@
   affiliation: "Univerzita Komensk\xE9ho"
   city: Bratislava
   country: Slovensko
-  hindex: 90
+  hindex: 91
   scholar: https://scholar.google.sk/citations?user=Bvdw6vIAAAAJ&hl=en
-  last_update: '2026-08-25'
+  last_update: '2026-11-17'
   links:
   - - web
     - https://neon.dpp.fmph.uniba.sk/workgroup/index.php?option=com_content&view=article&id=1&Itemid=101
@@ -1275,6 +1275,49 @@
   affiliationurl: University_of_Oxford
   cityurl: Oxford
   sexurl: muz
+- name: "Imrich Chlamt\xE1\u010D"
+  last: Chlamtac
+  year: '1949'
+  sex: "mu\u017E"
+  position: prezident
+  field: "telekomunik\xE1cie"
+  pribeh: "U\u010Dil bezdr\xF4tov\xE9 siete, aby si pakety pod\xE1vali \u0161tafetu\
+    \ namiesto toho, aby sa v \xE9teri str\xE1cali."
+  affiliation: European Alliance for Innovation
+  city: Gent
+  country: Belgicko
+  hindex: 71
+  scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
+  last_update: '2026-11-17'
+  links:
+  - - ACM
+    - https://dl.acm.org/profile/81100299315
+  - - EAI
+    - https://eai.eu/#!/about/leadership/president
+  - - IEEE Xplore
+    - https://ieeexplore.ieee.org/author/37269377200
+  - - LinkedIn
+    - https://www.linkedin.com/in/imrich-chlamtac/
+  - - prabook
+    - https://prabook.com/web/imrich.chlamtac/129216
+  - - ResearchGate
+    - https://www.researchgate.net/scientific-contributions/Imrich-Chlamtac-2146492366
+  - - Semantic Scholar
+    - https://www.semanticscholar.org/author/I.-Chlamtac/1700194
+  - - "wikip\xE9dia"
+    - https://en.wikipedia.org/wiki/Imrich_Chlamtac
+  img: Imrich_Chlamtac_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Belgicko
+  fieldurl: telekomunikacie
+  area: "in\u017Einierstvo"
+  areaurl: inzinierstvo
+  area2: informatika
+  area2url: informatika
+  positionurl: prezident
+  affiliationurl: European_Alliance_for_Innovation
+  cityurl: Gent
+  sexurl: muz
 - name: "Jozef \u0160amaj"
   last: Samaj
   year: 1964
@@ -1343,49 +1386,6 @@
   affiliationurl: IST_Austria
   cityurl: Klosterneuburg
   sexurl: zena
-- name: "Imrich Chlamt\xE1\u010D"
-  last: Chlamtac
-  year: '1949'
-  sex: "mu\u017E"
-  position: prezident
-  field: "telekomunik\xE1cie"
-  pribeh: "U\u010Dil bezdr\xF4tov\xE9 siete, aby si pakety pod\xE1vali \u0161tafetu\
-    \ namiesto toho, aby sa v \xE9teri str\xE1cali."
-  affiliation: European Alliance for Innovation
-  city: Gent
-  country: Belgicko
-  hindex: 70
-  scholar: https://scholar.google.com/citations?hl=en&user=bWqipasAAAAJ
-  last_update: '2026-08-25'
-  links:
-  - - ACM
-    - https://dl.acm.org/profile/81100299315
-  - - EAI
-    - https://eai.eu/#!/about/leadership/president
-  - - IEEE Xplore
-    - https://ieeexplore.ieee.org/author/37269377200
-  - - LinkedIn
-    - https://www.linkedin.com/in/imrich-chlamtac/
-  - - prabook
-    - https://prabook.com/web/imrich.chlamtac/129216
-  - - ResearchGate
-    - https://www.researchgate.net/scientific-contributions/Imrich-Chlamtac-2146492366
-  - - Semantic Scholar
-    - https://www.semanticscholar.org/author/I.-Chlamtac/1700194
-  - - "wikip\xE9dia"
-    - https://en.wikipedia.org/wiki/Imrich_Chlamtac
-  img: Imrich_Chlamtac_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Belgicko
-  fieldurl: telekomunikacie
-  area: "in\u017Einierstvo"
-  areaurl: inzinierstvo
-  area2: informatika
-  area2url: informatika
-  positionurl: prezident
-  affiliationurl: European_Alliance_for_Innovation
-  cityurl: Gent
-  sexurl: muz
 - name: Ladislav Mucina
   last: Mucina
   year: 1956
@@ -3320,6 +3320,39 @@
   affiliationurl: Isara_Labs
   cityurl: Pariz
   sexurl: muz
+- name: "Roman Bo\u010Da"
+  last: Boca
+  year: 1950
+  sex: "mu\u017E"
+  position: profesor
+  field: "anorganick\xE1 ch\xE9mia"
+  pribeh: "Spinov\xE9 stavy koordinovan\xFDch komplexov po\u010D\xEDta a meria, a\u017E\
+    \ k\xFDm magnetizmus neprizn\xE1 farbu."
+  affiliation: "Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave"
+  city: Trnava
+  country: Slovensko
+  hindex: 54
+  scholar: https://scholar.google.sk/citations?user=I5zYMOsAAAAJ&hl=en
+  last_update: '2026-11-17'
+  links:
+  - - ESET Science Award
+    - https://www.esetscienceaward.sk/sk/finalisti/roman-boca
+  - - vedec roka
+    - https://sk.wikipedia.org/wiki/Vedec_roka_SR
+  - - web
+    - https://www.ucm.sk/sk/rektor/
+  - - "\u017Eivotopis"
+    - https://www.stuba.sk/new/docs//stu/uradna_tabula/2010volby/_boca.pdf
+  img: Roman_Boca_size_280px.jpg
+  update_status: UPDATED
+  countryurl: Slovensko
+  fieldurl: anorganicka_chemia
+  area: "ch\xE9mia"
+  areaurl: chemia
+  positionurl: profesor
+  affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
+  cityurl: Trnava
+  sexurl: muz
 - name: "J\xE1n Dusza"
   last: Dusza
   year: 1952
@@ -3471,39 +3504,6 @@
   affiliationurl: National_Institutes_of_Health
   cityurl: Bethesda
   sexurl: zena
-- name: "Roman Bo\u010Da"
-  last: Boca
-  year: 1950
-  sex: "mu\u017E"
-  position: profesor
-  field: "anorganick\xE1 ch\xE9mia"
-  pribeh: "Spinov\xE9 stavy koordinovan\xFDch komplexov po\u010D\xEDta a meria, a\u017E\
-    \ k\xFDm magnetizmus neprizn\xE1 farbu."
-  affiliation: "Univerzita sv\xE4t\xE9ho Cyrila a Metoda v Trnave"
-  city: Trnava
-  country: Slovensko
-  hindex: 53
-  scholar: https://scholar.google.sk/citations?user=I5zYMOsAAAAJ&hl=en
-  last_update: '2026-08-25'
-  links:
-  - - ESET Science Award
-    - https://www.esetscienceaward.sk/sk/finalisti/roman-boca
-  - - vedec roka
-    - https://sk.wikipedia.org/wiki/Vedec_roka_SR
-  - - web
-    - https://www.ucm.sk/sk/rektor/
-  - - "\u017Eivotopis"
-    - https://www.stuba.sk/new/docs//stu/uradna_tabula/2010volby/_boca.pdf
-  img: Roman_Boca_size_280px.jpg
-  update_status: UPDATED
-  countryurl: Slovensko
-  fieldurl: anorganicka_chemia
-  area: "ch\xE9mia"
-  areaurl: chemia
-  positionurl: profesor
-  affiliationurl: Univerzita_svateho_Cyrila_a_Metoda_v_Trnave
-  cityurl: Trnava
-  sexurl: muz
 - name: Lubor Borsig
   last: Borsig
   year: ''
